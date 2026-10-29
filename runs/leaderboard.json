@@ -1,0 +1,288 @@
+{
+ "claude-opus-5-5": {
+  "overall": {
+   "programs": 1,
+   "translated_pct": 100.0,
+   "runs_pct": 100.0,
+   "produced_all_pct": 100.0,
+   "equivalent_pct": 100.0,
+   "mean_score": 1.0,
+   "mean_iterations": 1.0,
+   "input_tokens": 2225,
+   "output_tokens": 2035,
+   "model": "claude-opus-5-5"
+  },
+  "by_group": {
+   "general": {
+    "programs": 1,
+    "translated_pct": 100.0,
+    "runs_pct": 100.0,
+    "produced_all_pct": 100.0,
+    "equivalent_pct": 100.0,
+    "mean_score": 1.0,
+    "mean_iterations": 1.0,
+    "input_tokens": 2225,
+    "output_tokens": 2035,
+    "model": "claude-opus-5-5"
+   }
+  },
+  "programs": [
+   {
+    "id": "P091",
+    "family": "general",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   }
+  ]
+ },
+ "gpt-oss-120b-ollama": {
+  "overall": {
+   "programs": 2,
+   "translated_pct": 100.0,
+   "runs_pct": 100.0,
+   "produced_all_pct": 100.0,
+   "equivalent_pct": 100.0,
+   "mean_score": 1.0,
+   "mean_iterations": 2.0,
+   "input_tokens": 22977,
+   "output_tokens": 11353,
+   "model": "gpt-oss:120b"
+  },
+  "by_group": {
+   "clinical": {
+    "programs": 1,
+    "translated_pct": 100.0,
+    "runs_pct": 100.0,
+    "produced_all_pct": 100.0,
+    "equivalent_pct": 100.0,
+    "mean_score": 1.0,
+    "mean_iterations": 3.0,
+    "input_tokens": 21534,
+    "output_tokens": 8895,
+    "model": "gpt-oss:120b"
+   },
+   "general": {
+    "programs": 1,
+    "translated_pct": 100.0,
+    "runs_pct": 100.0,
+    "produced_all_pct": 100.0,
+    "equivalent_pct": 100.0,
+    "mean_score": 1.0,
+    "mean_iterations": 1.0,
+    "input_tokens": 1443,
+    "output_tokens": 2458,
+    "model": "gpt-oss:120b"
+   }
+  },
+  "programs": [
+   {
+    "id": "P001",
+    "family": "pilotrep",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 3
+   },
+   {
+    "id": "P091",
+    "family": "general",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   }
+  ]
+ },
+ "muse-spark": {
+  "overall": {
+   "programs": 3,
+   "translated_pct": 100.0,
+   "runs_pct": 100.0,
+   "produced_all_pct": 100.0,
+   "equivalent_pct": 100.0,
+   "mean_score": 1.0,
+   "mean_iterations": 1.6666666666666667,
+   "input_tokens": 17886,
+   "output_tokens": 51294,
+   "model": "muse-spark-1.3"
+  },
+  "by_group": {
+   "clinical": {
+    "programs": 2,
+    "translated_pct": 100.0,
+    "runs_pct": 100.0,
+    "produced_all_pct": 100.0,
+    "equivalent_pct": 100.0,
+    "mean_score": 1.0,
+    "mean_iterations": 2.0,
+    "input_tokens": 16509,
+    "output_tokens": 45457,
+    "model": "muse-spark-1.3"
+   },
+   "general": {
+    "programs": 1,
+    "translated_pct": 100.0,
+    "runs_pct": 100.0,
+    "produced_all_pct": 100.0,
+    "equivalent_pct": 100.0,
+    "mean_score": 1.0,
+    "mean_iterations": 1.0,
+    "input_tokens": 1377,
+    "output_tokens": 5837,
+    "model": "muse-spark-1.3"
+   }
+  },
+  "programs": [
+   {
+    "id": "P001",
+    "family": "pilotrep",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 2
+   },
+   {
+    "id": "P004",
+    "family": "c2c",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 2
+   },
+   {
+    "id": "P091",
+    "family": "general",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   }
+  ]
+ },
+ "muse-spark-open-baseten": {
+  "overall": {
+   "programs": 2,
+   "translated_pct": 100.0,
+   "runs_pct": 100.0,
+   "produced_all_pct": 100.0,
+   "equivalent_pct": 100.0,
+   "mean_score": 1.0,
+   "mean_iterations": 2.5,
+   "input_tokens": 20356,
+   "output_tokens": 58488,
+   "model": "meta-models/muse-spark-open-1026"
+  },
+  "by_group": {
+   "clinical": {
+    "programs": 2,
+    "translated_pct": 100.0,
+    "runs_pct": 100.0,
+    "produced_all_pct": 100.0,
+    "equivalent_pct": 100.0,
+    "mean_score": 1.0,
+    "mean_iterations": 2.5,
+    "input_tokens": 20356,
+    "output_tokens": 58488,
+    "model": "meta-models/muse-spark-open-1026"
+   }
+  },
+  "programs": [
+   {
+    "id": "P001",
+    "family": "pilotrep",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 2
+   },
+   {
+    "id": "P004",
+    "family": "c2c",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 3
+   }
+  ]
+ },
+ "muse-spark-open-ollama": {
+  "overall": {
+   "programs": 2,
+   "translated_pct": 100.0,
+   "runs_pct": 100.0,
+   "produced_all_pct": 100.0,
+   "equivalent_pct": 100.0,
+   "mean_score": 1.0,
+   "mean_iterations": 2.0,
+   "input_tokens": 26223,
+   "output_tokens": 25437,
+   "model": "muse-spark-open"
+  },
+  "by_group": {
+   "clinical": {
+    "programs": 1,
+    "translated_pct": 100.0,
+    "runs_pct": 100.0,
+    "produced_all_pct": 100.0,
+    "equivalent_pct": 100.0,
+    "mean_score": 1.0,
+    "mean_iterations": 3.0,
+    "input_tokens": 24830,
+    "output_tokens": 19332,
+    "model": "muse-spark-open"
+   },
+   "general": {
+    "programs": 1,
+    "translated_pct": 100.0,
+    "runs_pct": 100.0,
+    "produced_all_pct": 100.0,
+    "equivalent_pct": 100.0,
+    "mean_score": 1.0,
+    "mean_iterations": 1.0,
+    "input_tokens": 1393,
+    "output_tokens": 6105,
+    "model": "muse-spark-open"
+   }
+  },
+  "programs": [
+   {
+    "id": "P001",
+    "family": "pilotrep",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 3
+   },
+   {
+    "id": "P091",
+    "family": "general",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   }
+  ]
+ }
+}

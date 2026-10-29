@@ -120,6 +120,30 @@ class LoopSettings:
 
 SETTINGS = LoopSettings()
 
+# USD per million tokens (input, output); reasoning tokens are billed as output everywhere.
+# Override with PRICE_<PROVIDER_NAME_UPPER>="in,out" in .env when a vendor publishes a different rate.
+_DEFAULT_PRICES: dict[str, tuple[float, float]] = {
+    "muse-spark": (float(os.environ.get("MUSE_SPARK_PRICE_IN", "0")), float(os.environ.get("MUSE_SPARK_PRICE_OUT", "0"))),
+    "muse-spark-open-baseten": (0.0, 0.0),     # hackathon grant key, $100 pool
+    "muse-spark-open-ollama": (0.0, 0.0),
+    "gpt-oss-120b-ollama": (0.0, 0.0),
+    "claude-opus-5-5": (4.0, 20.0),
+    "local": (0.0, 0.0),
+}
+
+
+def price_for(provider_name: str) -> tuple[float, float]:
+    env = os.environ.get("PRICE_" + provider_name.upper().replace("-", "_"))
+    if env:
+        a, b = env.split(",")
+        return float(a), float(b)
+    return _DEFAULT_PRICES.get(provider_name, (0.0, 0.0))
+
+
+def estimate_cost_usd(provider_name: str, input_tokens: int, output_tokens: int) -> float:
+    pin, pout = price_for(provider_name)
+    return input_tokens / 1e6 * pin + output_tokens / 1e6 * pout
+
 # R packages the model may rely on (all installed on the reference machine).
 R_PACKAGES = [
     "haven", "dplyr", "tidyr", "readr", "stringr", "lubridate", "purrr", "tibble", "jsonlite",
