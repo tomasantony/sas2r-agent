@@ -1,0 +1,20 @@
+"Table","Source_Variable","Statistic","DF","Estimate_SS_MSE","SE_MS","t_F","p"
+"NObs","Read","N",454,454,,,
+"NObs","Used","N",453,453,,,
+"ANOVA","Model","DF",1,1,,,
+"ANOVA","Model","SumSq",,3290.92487265169,,,
+"ANOVA","Model","MeanSq",,3290.92487265169,,,
+"ANOVA","Model","F",,32.2080921162673,,,
+"ANOVA","Model","p",,2.48154672608852e-08,,,
+"ANOVA","Error","DF",451,451,,,
+"ANOVA","Error","SumSq",,46081.8080191805,,,
+"ANOVA","Error","MeanSq",,102.176957913926,,,
+"ANOVA","Corrected Total","DF",452,452,,,
+"ANOVA","Corrected Total","SumSq",,49372.7328918322,,,
+"Fit","Root MSE","RootMSE",,10.108261864135,,,
+"Fit","Dependent Mean","DepMean",,71.0242825607064,,,
+"Fit","Coeff Var","CoeffVar",,14.2321210432435,,,
+"Fit","R-Square","RSquare",,0.0666547035154318,,,
+"Fit","Adj R-Sq","AdjRSq",,0.0645852017493908,,,
+"ParameterEstimates","Intercept","Estimate",1,73.7136563876652,0.670908903898338,109.871334184641,0
+"ParameterEstimates","PARAMCD_NUM","Estimate",1,-5.39064753810768,0.949857458031219,-5.67521736290931,2.4815467260885e-08

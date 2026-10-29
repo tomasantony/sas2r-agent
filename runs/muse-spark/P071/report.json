@@ -1,0 +1,54 @@
+{
+ "id": "P071",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "family": "own-tlf",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 0.9714285714285714,
+ "iterations": 3,
+ "input_tokens": 32547,
+ "output_tokens": 44318,
+ "seconds": 225.2859649658203,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 1.2749414443969727,
+   "input_tokens": 7393,
+   "output_tokens": 14192,
+   "seconds_llm": 70.09675145149231,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 0.9571428571428572,
+   "note": ""
+  },
+  {
+   "n": 2,
+   "rc": 0,
+   "seconds_r": 1.2281935214996338,
+   "input_tokens": 10787,
+   "output_tokens": 13940,
+   "seconds_llm": 69.74826216697693,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 0.9714285714285714,
+   "note": ""
+  },
+  {
+   "n": 3,
+   "rc": 0,
+   "seconds_r": 1.2818100452423096,
+   "input_tokens": 14367,
+   "output_tokens": 16186,
+   "seconds_llm": 81.29413652420044,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 0.9714285714285714,
+   "note": ""
+  }
+ ],
+ "best_attempt": 2
+}

@@ -1,0 +1,12 @@
+Change in Tumor Size data - First 5 observations (PROC PRINT OBS=5)
+
+Obs   Cid   Id   Change           Group         Label 
+------------------------------------------------------
+1     1     1    -14.39102        Treatment 1   C     
+2     2     2    -65.95783        Treatment 1   R     
+3     3     3    -71.18462        Treatment 1   S     
+4     4     4    19.6850          Treatment 2   P     
+5     5     5    18.04943         Treatment 2   E     
+
+Label Change = 'Change from Baseline (%)'
+BCR: C= Complete Response R= Partial Response S= Stable Disease P= Progressive Disease E= Early Death

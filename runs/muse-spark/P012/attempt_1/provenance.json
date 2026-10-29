@@ -1,0 +1,69 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P012",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T15:42:03",
+ "agent_commit": "ea9ec024216430eec6b2658819ecea47deb782c6",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 1923,
+  "output_tokens": 13716,
+  "reasoning_tokens": 11182,
+  "finish_reason": "stop",
+  "seconds": 71.1
+ },
+ "inputs": {
+  "prompt_translate.md": "0882c2eb35ec31f4c48c9e2fdbd8e8129304373700f977ca626e19320b8eea86"
+ },
+ "model_output": {
+  "response.md": "8758533b92f466e4027590ad2eeac8fdb6ed6e04d96e42b3909ef7655288fbf8",
+  "script.R": "331a6c4b69c29371c451fafd54d4519ebfcc7fb82f26f4e9c49c8f57ad81d5f7"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.4,
+  "timed_out": false,
+  "log_sha256": "2c91edcf7c4bd209340bedbd03903fabcfad2e249ce927bb4cfb5fb7f3912eec"
+ },
+ "r_outputs": {
+  "ds.csv": "75986606930fcfa49556697bd615d8eb175432fad9d65a1f4fc3c488ac1d5032",
+  "P012.csv": "0cacd27bd2a91d30005fd2cf1aea61659bcd2dc8e5f8349a121d85ec16bc6c1b",
+  "P012.lst": "9d681d300c13239ed42f43fcc6c2a41079e86e1549788edd594438108fa13c37",
+  "P012.txt": "9d681d300c13239ed42f43fcc6c2a41079e86e1549788edd594438108fa13c37"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P012.lst",
+   "sha256": "2cec5858635ad2bdf40ce6c9d2a01edaacbfee4323d3fcabd8abb0d7459d8228",
+   "frozen_sha256": "2cec5858635ad2bdf40ce6c9d2a01edaacbfee4323d3fcabd8abb0d7459d8228",
+   "ok": true
+  },
+  {
+   "file": "datasets/P012/ds.sas7bdat",
+   "sha256": "c3f6dadf90860ba4634a17058deacab19af5e107a68251f681066ca989c7dc49",
+   "frozen_sha256": "c3f6dadf90860ba4634a17058deacab19af5e107a68251f681066ca989c7dc49",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

@@ -1,0 +1,9 @@
+sandbox: docker run --rm --name sas2r-85ef65056c51 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P047\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+P047 start
+Reading: /bench/data/raw/cdisc-pilot/adam/advs.xpt 
+ADVS nrow: 1800 
+ALL nrow: 10 
+null device 
+          1 
+Figure written: /work/out/clinicalhandout_dbpprofile.png 
+P047 done

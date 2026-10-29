@@ -1,0 +1,184 @@
+sandbox: docker run --rm --name sas2r-7ebc2e8a8680 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P020\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Reading ADTTE...
+Found: /bench/data/derived/c2c/data/adam/adtte.sas7bdat 
+ADTTE dims: 47 12 
+N with non-missing AVAL: 47 
+# A tibble: 4 × 4
+  TRT01A            CNSR EVENT     n
+  <chr>            <dbl> <dbl> <int>
+1 Active Drug 50mg     0     1    12
+2 Active Drug 50mg     1     0     9
+3 Placebo              0     1    15
+4 Placebo              1     0    11
+Strata levels:
+[1] "Active Drug 50mg" "Placebo"         
+Call: survfit(formula = Surv(AVAL, EVENT) ~ TRT01A, data = df2, conf.type = "log-log")
+
+                         n events median 0.95LCL 0.95UCL
+TRT01A=Active Drug 50mg 21     12     69      32      NA
+TRT01A=Placebo          26     15     40      21      NA
+KM rows: 38 
+                   STRATUM TIME N_RISK N_EVENT N_CENSOR      SURV     STDERR
+1  TRT01A=Active Drug 50mg    3     21       1        0 0.9523810 0.04647143
+2  TRT01A=Active Drug 50mg   15     20       1        0 0.9047619 0.06405645
+3  TRT01A=Active Drug 50mg   17     19       1        0 0.8571429 0.07636035
+4  TRT01A=Active Drug 50mg   23     18       1        1 0.8095238 0.08568909
+5  TRT01A=Active Drug 50mg   30     16       1        0 0.7589286 0.09409230
+6  TRT01A=Active Drug 50mg   32     15       1        0 0.7083333 0.10050612
+7  TRT01A=Active Drug 50mg   36     14       1        0 0.6577381 0.10529473
+8  TRT01A=Active Drug 50mg   52     13       1        0 0.6071429 0.10867317
+9  TRT01A=Active Drug 50mg   66     12       1        0 0.5565476 0.11077056
+10 TRT01A=Active Drug 50mg   67     11       1        0 0.5059524 0.11165910
+11 TRT01A=Active Drug 50mg   68     10       0        1 0.5059524 0.11165910
+12 TRT01A=Active Drug 50mg   69      9       1        0 0.4497354 0.11251782
+13 TRT01A=Active Drug 50mg   80      8       0        1 0.4497354 0.11251782
+14 TRT01A=Active Drug 50mg   81      7       0        1 0.4497354 0.11251782
+15 TRT01A=Active Drug 50mg   82      6       0        1 0.4497354 0.11251782
+16 TRT01A=Active Drug 50mg   83      5       1        2 0.3597884 0.12072675
+17 TRT01A=Active Drug 50mg   84      2       0        2 0.3597884 0.12072675
+18          TRT01A=Placebo    4     26       1        0 0.9615385 0.03771464
+19          TRT01A=Placebo    9     25       1        0 0.9230769 0.05225894
+20          TRT01A=Placebo   12     24       1        0 0.8846154 0.06265627
+21          TRT01A=Placebo   13     23       2        0 0.8076923 0.07729201
+22          TRT01A=Placebo   16     21       1        0 0.7692308 0.08262864
+23          TRT01A=Placebo   17     20       1        0 0.7307692 0.08698929
+24          TRT01A=Placebo   21     19       2        0 0.6538462 0.09330087
+25          TRT01A=Placebo   24     17       2        0 0.5769231 0.09689067
+26          TRT01A=Placebo   26     15       1        0 0.5384615 0.09776752
+27          TRT01A=Placebo   28     14       0        1 0.5384615 0.09776752
+28          TRT01A=Placebo   40     13       1        0 0.4970414 0.09863147
+29          TRT01A=Placebo   41     12       0        1 0.4970414 0.09863147
+30          TRT01A=Placebo   44     11       1        0 0.4518558 0.09947830
+       LOWER     UPPER           TRT01A
+1  0.7072068 0.9931521 Active Drug 50mg
+2  0.6700459 0.9752941 Active Drug 50mg
+3  0.6197180 0.9515517 Active Drug 50mg
+4  0.5689051 0.9238888 Active Drug 50mg
+5  0.5139409 0.8919790 Active Drug 50mg
+6  0.4618879 0.8573161 Active Drug 50mg
+7  0.4123160 0.8202803 Active Drug 50mg
+8  0.3649792 0.7811119 Active Drug 50mg
+9  0.3197358 0.7399606 Active Drug 50mg
+10 0.2765158 0.6969106 Active Drug 50mg
+11 0.2765158 0.6969106 Active Drug 50mg
+12 0.2285401 0.6488122 Active Drug 50mg
+13 0.2285401 0.6488122 Active Drug 50mg
+14 0.2285401 0.6488122 Active Drug 50mg
+15 0.2285401 0.6488122 Active Drug 50mg
+16 0.1429621 0.5843748 Active Drug 50mg
+17 0.1429621 0.5843748 Active Drug 50mg
+18 0.7569443 0.9944912          Placebo
+19 0.7260298 0.9801878          Placebo
+20 0.6835834 0.9612566          Placebo
+21 0.5981138 0.9150767          Placebo
+22 0.5569198 0.8890520          Placebo
+23 0.5168857 0.8615026          Placebo
+24 0.4401584 0.8025294          Placebo
+25 0.3676306 0.7390820          Placebo
+26 0.3328808 0.7058295          Placebo
+27 0.3328808 0.7058295          Placebo
+28 0.2954084 0.6697942          Placebo
+29 0.2954084 0.6697942          Placebo
+30 0.2547378 0.6303613          Placebo
+# A tibble: 2 × 5
+  TRT01A               N EVENTS CENSORED PCT_CENSORED
+  <fct>            <int>  <int>    <int>        <dbl>
+1 Active Drug 50mg    21     12        9         42.9
+2 Placebo             26     15       11         42.3
+Log-Rank chiSq=0.6133 df=1 p=0.4335
+Wilcoxon chiSq=1.2303 df=1 p=0.2674
+qres structure:
+List of 3
+ $ quantile: num [1:2, 1:3] 32 17 69 40 NA NA
+  ..- attr(*, "dimnames")=List of 2
+  .. ..$ : chr [1:2] "TRT01A=Active Drug 50mg" "TRT01A=Placebo"
+  .. ..$ : chr [1:3] "25" "50" "75"
+ $ lower   : num [1:2, 1:3] 3 9 32 21 69 62
+  ..- attr(*, "dimnames")=List of 2
+  .. ..$ : chr [1:2] "TRT01A=Active Drug 50mg" "TRT01A=Placebo"
+  .. ..$ : chr [1:3] "25" "50" "75"
+ $ upper   : num [1:2, 1:3] 66 24 NA NA NA NA
+  ..- attr(*, "dimnames")=List of 2
+  .. ..$ : chr [1:2] "TRT01A=Active Drug 50mg" "TRT01A=Placebo"
+  .. ..$ : chr [1:3] "25" "50" "75"
+$quantile
+                        25 50 75
+TRT01A=Active Drug 50mg 32 69 NA
+TRT01A=Placebo          17 40 NA
+
+$lower
+                        25 50 75
+TRT01A=Active Drug 50mg  3 32 69
+TRT01A=Placebo           9 21 62
+
+$upper
+                        25 50 75
+TRT01A=Active Drug 50mg 66 NA NA
+TRT01A=Placebo          24 NA NA
+
+                                  TRT01A Q75 Q75_L Q75_U MED MED_L MED_U Q25
+TRT01A=Active Drug 50mg Active Drug 50mg  32     3    66  69    32    NA  NA
+TRT01A=Placebo                   Placebo  17     9    24  40    21    NA  NA
+                        Q25_L Q25_U
+TRT01A=Active Drug 50mg    69    NA
+TRT01A=Placebo             62    NA
+Max AVAL: 84 
+Active Drug 50mg          Placebo 
+        58.64716         48.05056 
+Ticks: 0 10 20 30 40 50 60 70 80 84 
+   TIME N_RISK N_EVENT N_CENSOR      SURV                  STRATA
+1     0     21       0        0 1.0000000 TRT01A=Active Drug 50mg
+2    10     20       1        0 0.9523810 TRT01A=Active Drug 50mg
+3    20     18       2        0 0.8571429 TRT01A=Active Drug 50mg
+4    30     16       2        1 0.7589286 TRT01A=Active Drug 50mg
+5    40     13       2        0 0.6577381 TRT01A=Active Drug 50mg
+6    50     13       0        0 0.6577381 TRT01A=Active Drug 50mg
+7    60     12       1        0 0.6071429 TRT01A=Active Drug 50mg
+8    70      8       3        1 0.4497354 TRT01A=Active Drug 50mg
+9    80      8       0        1 0.4497354 TRT01A=Active Drug 50mg
+10   84      2       1        6 0.3597884 TRT01A=Active Drug 50mg
+11    0     26       0        0 1.0000000          TRT01A=Placebo
+12   10     24       2        0 0.9230769          TRT01A=Placebo
+13   20     19       5        0 0.7307692          TRT01A=Placebo
+14   30     13       5        1 0.5384615          TRT01A=Placebo
+15   40     13       1        0 0.4970414          TRT01A=Placebo
+16   50      9       1        2 0.4518558          TRT01A=Placebo
+17   60      8       0        1 0.4518558          TRT01A=Placebo
+18   70      7       1        0 0.3953739          TRT01A=Placebo
+19   80      7       0        2 0.3953739          TRT01A=Placebo
+20   84      1       0        5 0.3953739          TRT01A=Placebo
+             TRT01A
+1  Active Drug 50mg
+2  Active Drug 50mg
+3  Active Drug 50mg
+4  Active Drug 50mg
+5  Active Drug 50mg
+6  Active Drug 50mg
+7  Active Drug 50mg
+8  Active Drug 50mg
+9  Active Drug 50mg
+10 Active Drug 50mg
+11          Placebo
+12          Placebo
+13          Placebo
+14          Placebo
+15          Placebo
+16          Placebo
+17          Placebo
+18          Placebo
+19          Placebo
+20          Placebo
+Figure saved.
+Text rendering saved to /work/out/P020.txt 
+Number count in txt: 487 

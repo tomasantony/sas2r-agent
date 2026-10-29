@@ -1,0 +1,32 @@
+Study001
+Table 14.2-PPTS (Page xxx of xxx)
+Summary statistics for PK parameters
+by compound, matrix, analyte and actual treatment
+Analysis Set: PK analysis set
+
+ Compound: A , Matrix: Plasma , Analyte: ANAL 2
+
+Actual treatment     Period d Statistic         AUC (h*ng/mL)    AUC(0-tlast) (h*ng/    Cmax (ng/mL)           MRT (h)            t1/2 (h)            tmax (h)      
+____________________________________________________________________________________________________________________________________________________________________
+Period 1 Treatment   1        n                                                                                                                  28                 
+Period 1 Treatment   1        Mean (SD)                                                                                                                             
+Period 1 Treatment   1        CV% mean                                                                                                                              
+Period 1 Treatment   1        Geo-mean                                                                                                                              
+Period 1 Treatment   1        CV% geo-mean                                                                                                                          
+Period 1 Treatment   1        Median                                                                                                             2.01               
+Period 1 Treatment   1        [Min; Max]                                                                                                         [1.50;4.03]        
+
+Period 3 Treatment   1        n                                                                                                                  27                 
+Period 3 Treatment   1        Mean (SD)                                                                                                                             
+Period 3 Treatment   1        CV% mean                                                                                                                              
+Period 3 Treatment   1        Geo-mean                                                                                                                              
+Period 3 Treatment   1        CV% geo-mean                                                                                                                          
+Period 3 Treatment   1        Median                                                                                                             2.02               
+Period 3 Treatment   1        [Min; Max]                                                                                                         [1.50;4.03]        
+
+CV% = coefficient of variation (%) = sd/mean*100
+CV% geo-mean = (sqrt(exp(variance for log transformed data)-1))*100
+Geo-mean: Geometric mean
+Geo-mean and CV% geo-mean not presented when the minimum value for a parameter is zero.
+Data: adpp  Program: pps.sas  Output: t.14.2.ppts.txt
+Fake Data/ Production Run on 17MAR2014:23:57

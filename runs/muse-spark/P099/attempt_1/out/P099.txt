@@ -1,0 +1,17 @@
+PROC MEANS data=Infection (Mean StdDev Min Max Sum of NewCases by Type)
+
+Type                N       Mean     StdDev   Min   Max      Sum
+-----------------------------------------------------------------
+Constant          100      10.00       3.03     3    16     1000
+Early Peak        100      10.00      12.06     0    37     1000
+Flattened         100      10.00       8.41     0    27     1000
+Second Outbreak   100      10.00      10.45     0    34     1000
+Exponential       100      10.00      15.80     0    66     1000
+
+N=100 per Type. Mean/StdDev rounded half away from zero to 2 decimals.
+Detailed (4 decimals):
+Constant: N=100 Mean=10.0000 StdDev=3.0318 Min=3 Max=16 Sum=1000
+Early Peak: N=100 Mean=10.0000 StdDev=12.0596 Min=0 Max=37 Sum=1000
+Flattened: N=100 Mean=10.0000 StdDev=8.4100 Min=0 Max=27 Sum=1000
+Second Outbreak: N=100 Mean=10.0000 StdDev=10.4495 Min=0 Max=34 Sum=1000
+Exponential: N=100 Mean=10.0000 StdDev=15.7999 Min=0 Max=66 Sum=1000

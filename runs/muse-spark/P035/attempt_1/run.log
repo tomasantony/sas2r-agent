@@ -1,0 +1,6 @@
+sandbox: docker run --rm --name sas2r-45cb6541c8bb --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P035\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADPP...
+Filtered rows: 330 
+Summary groups: 12 
+Param columns: AUC (h*ng/mL) | AUC(0-tlast) (h*ng/mL) | Cmax (ng/mL) | MRT (h) | t1/2 (h) | tmax (h) 
+Done. Wrote /work/out/P035.txt and /work/out/P035.csv 

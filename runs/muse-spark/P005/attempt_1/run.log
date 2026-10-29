@@ -1,0 +1,6 @@
+sandbox: docker run --rm --name sas2r-82a65ae0da6c --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P005\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADSL: /bench/data/derived/c2c/data/adam/adsl.sas7bdat
+Reading LB: /bench/data/derived/c2c/data/sdtm/lb.sas7bdat
+ADSL rows: 50 cols: STUDYID,USUBJID,SUBJID,SITEID,SEX,RACE,TRT01P,TRT01A,ITTFL,SAFFL,BRTHDT,RFICDT,TRTSDT,TRTEDT,EOSDT,AGE,TRTDURD
+LB rows: 516 cols: STUDYID,DOMAIN,USUBJID,LBSEQ,LBTESTCD,LBTEST,LBCAT,LBORRES,LBORRESU,LBSTRESC,LBSTRESU,VISIT,VISITNUM,LBSTRESN,LBDTC
+Done. ADLB rows: 516

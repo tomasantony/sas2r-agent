@@ -1,0 +1,31 @@
+[Sponsor Name]                                                  Page 1 of 1
+Protocol: [Protocol Number]
+
+              Figure 14.2.3
+  Waterfall Plot of Best Percentage Change from Baseline in Sum of Target Lesions
+                  Efficacy Analysis Set
+
+  Number of subjects plotted: 222
+
+  Best Overall Response (AVALC):
+  -------------------------------
+  Response      N      N (%)
+  PR          121   121 ( 54.5%)
+  SD          101   101 ( 54.5%)
+
+  Best Percentage Change from Baseline (%, capped at +/-100 for display):
+    N with non-missing PCHG : 222
+    Mean (SD)               : -34.14 (21.52)
+    Median                  : -32.00
+    Min, Max                : -83.0, 9.0
+
+  Subjects with >=30% shrinkage (PR threshold, PCHG <= -30): 126 ( 56.8%)
+  Subjects with >=20% growth (PD threshold, PCHG >= +20)   : 0 (  0.0%)
+
+  Each bar represents one subject (sorted by PCHG; bar_order 1..N).
+  Dashed lines: RECIST 1.1 thresholds for PR (-30%) and PD (+20%).
+  CR=Complete Response, PR=Partial Response, SD=Stable Disease, PD=Progressive Disease
+
+  Data cutoff: [DDMONYYYY].
+  Source: ADaM datasets (ADTR PARAMCD=BPCHG joined to ADSL EFFFL=Y).
+  See f_waterfall.png for figure and f_waterfall.csv for plotted data.

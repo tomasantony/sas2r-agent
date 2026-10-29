@@ -1,0 +1,63 @@
+sandbox: docker run --rm --name sas2r-27dfaeaf9150 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P020\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Reading ADTTE...
+Found: /bench/data/derived/c2c/data/adam/adtte.sas7bdat 
+ADTTE dims: 47 12 
+ [1] "STUDYID" "USUBJID" "PARAMCD" "PARAM"   "TRT01P"  "TRT01A"  "TRTSDT" 
+ [8] "TRTEDT"  "EOSDT"   "EVENTDT" "CNSR"    "AVAL"   
+---- AVAL ----
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   3.00   22.00   44.00   47.77   80.50   84.00 
+---- CNSR ----
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.0000  0.0000  0.0000  0.4255  1.0000  1.0000 
+---- TRT01A ----
+[1] "Active Drug 50mg" "Placebo"         
+N unique: 2  N missing: 0 
+---- USUBJID ----
+ [1] "CDISC-01-701-001" "CDISC-01-701-004" "CDISC-01-701-005" "CDISC-01-701-006"
+ [5] "CDISC-01-701-007" "CDISC-01-701-011" "CDISC-01-701-016" "CDISC-01-701-017"
+ [9] "CDISC-01-701-028" "CDISC-01-701-030" "CDISC-01-701-035" "CDISC-01-701-041"
+[13] "CDISC-01-701-042" "CDISC-01-701-045" "CDISC-01-701-048" "CDISC-01-702-008"
+[17] "CDISC-01-702-009" "CDISC-01-702-013" "CDISC-01-702-014" "CDISC-01-702-015"
+N unique: 47  N missing: 0 
+---- PARAM ----
+[1] "Time to First Adverse Event"
+N unique: 1  N missing: 0 
+---- PARAMCD ----
+[1] "TTFAEV"
+N unique: 1  N missing: 0 
+MISSING var: SAFFL 
+# A tibble: 1 × 3
+  PARAMCD PARAM                           n
+  <chr>   <chr>                       <int>
+1 TTFAEV  Time to First Adverse Event    47
+# A tibble: 2 × 2
+  TRT01A               n
+  <chr>            <int>
+1 Active Drug 50mg    21
+2 Placebo             26
+N total rows: 47 
+N with non-missing AVAL: 47 
+# A tibble: 4 × 4
+  TRT01A            CNSR EVENT     n
+  <chr>            <dbl> <dbl> <int>
+1 Active Drug 50mg     0     1    12
+2 Active Drug 50mg     1     0     9
+3 Placebo              0     1    15
+4 Placebo              1     0    11
+Strata levels (SAS order):
+[1] "Active Drug 50mg" "Placebo"         
+Error in summary.survfit(fit, times = NULL) : no values in times vector
+Calls: summary -> summary.survfit
+Execution halted

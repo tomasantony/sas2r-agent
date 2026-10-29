@@ -1,0 +1,8 @@
+sandbox: docker run --rm --name sas2r-3b9bea7f2883 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P071\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+P071 starting
+adam files: adae.sas7bdat, adcm.sas7bdat, adeff.sas7bdat, adex.sas7bdat, adlb.sas7bdat, adqs.sas7bdat, adrs.sas7bdat, adsl.sas7bdat, adtr.sas7bdat, adtte.sas7bdat, advs.sas7bdat
+reading /bench/data/raw/own-synthetic/adam/adsl.sas7bdat
+Big N total: 240
+headers sorted: Drug X High Dose (N=63) | Drug X Low Dose (N=82) | Placebo (N=95)
+display order: Placebo | Drug X Low Dose | Drug X High Dose
+P071 done: 11 rows

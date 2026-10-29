@@ -1,0 +1,12 @@
+sandbox: docker run --rm --name sas2r-85e4791e5626 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P022\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Reading edc_ae ...
+DM candidates: /bench/output/sas/datasets/P011/dm.sas7bdat | /bench/output/sas/datasets/P066/raw_dm.sas7bdat | /bench/data/derived/c2c/data/sdtm/dm.sas7bdat | /bench/data/derived/cdisc-pilot/sdtm/dm.sas7bdat | /bench/data/derived/wxzhai/raw/raw_dm.sas7bdat | /bench/data/derived/wxzhai/sdtm/dm.sas7bdat | /bench/data/raw/cdisc-pilot/sdtm/dm.xpt | /bench/data/raw/faijal-oncology/raw_data/edc_dm.xlsx | /bench/data/raw/wxzhai-portfolio/rawdata/raw_dm.sas7bdat | /bench/data/raw/wxzhai-portfolio/sdtm/data/dm.sas7bdat
+DM /bench/output/sas/datasets/P011/dm.sas7bdat exact=0 suf=0 subj=0 nonmiss=50
+DM /bench/data/derived/c2c/data/sdtm/dm.sas7bdat exact=0 suf=0 subj=0 nonmiss=50
+DM /bench/data/derived/cdisc-pilot/sdtm/dm.sas7bdat exact=0 suf=0 subj=0 nonmiss=254
+DM /bench/data/derived/wxzhai/sdtm/dm.sas7bdat exact=0 suf=3 subj=3 nonmiss=4
+DM /bench/data/raw/cdisc-pilot/sdtm/dm.xpt exact=0 suf=0 subj=0 nonmiss=254
+DM /bench/data/raw/wxzhai-portfolio/sdtm/data/dm.sas7bdat exact=0 suf=3 subj=3 nonmiss=4
+Best DM: /bench/data/raw/wxzhai-portfolio/sdtm/data/dm.sas7bdat score=6 n=4
+RF filled: 4 / 4
+Done. ae n=4 -> /work/out/ae.csv

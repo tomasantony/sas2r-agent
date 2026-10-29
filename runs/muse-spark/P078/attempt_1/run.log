@@ -1,0 +1,11 @@
+sandbox: docker run --rm --name sas2r-ba4fce6cc0bf --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P078\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Step 1: Prepare data
+Reading SAS dataset: /bench/data/raw/own-synthetic/adam/adsl.sas7bdat 
+Reading SAS dataset: /bench/data/raw/own-synthetic/sdtm/dv.sas7bdat 
+Sorting by TRTA, SITE, USUBJID, START_DATE (SAS semantics)
+[1] "C"
+[1] "en_US.UTF-8"
+dv_list rows: 58
+Wrote l_dv.csv
+Wrote l_dv.txt
+NOTE: l_dv.sas completed successfully.

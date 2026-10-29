@@ -1,0 +1,75 @@
+Baseline Shift Frequency Table - Max Baseline (BNRIND) by Max Post-Baseline (ANRIND)
+Source: advsmax DIABP ATPTN=815 ANL01FL=Y ADY>1 SAFFL=Y  N=250
+Total safety N (advsmax2) = 250  Total advsmax3 (CRIT1FL non-missing) = 250  Grand total = 250
+Overall N = 250  TRTPN levels = 0,54,81
+
+Treatment      MaxBaseline  Low [N (%)] | Normal [N (%)]
+0 (N = 84)     High         0 (0.0) | 2 (2.4)
+0 (N = 84)     Low          6 (7.1) | 1 (1.2)
+0 (N = 84)     Normal       11 (13.1) | 64 (76.2)
+ 
+54 (N = 84)    High         0 (0.0) | 1 (1.2)
+54 (N = 84)    Low          3 (3.6) | 1 (1.2)
+54 (N = 84)    Normal       12 (14.3) | 67 (79.8)
+ 
+81 (N = 82)    High         0 (0.0) | 1 (1.2)
+81 (N = 82)    Low          6 (7.3) | 0 (0.0)
+81 (N = 82)    Normal       5 (6.1) | 70 (85.4)
+ 
+
+Baseline shift detail with 1-decimal and 2-decimal percents (COUNT, PERCENT, PERCENT2):
+TRTPN=0 BNRIND=High ANRIND=Low COUNT=0 PERCENT=0.0 PERCENT2=0.00 ValueFmt=0 (0.0) ValueFmt2=0 (0.00) GroupN=84
+TRTPN=0 BNRIND=High ANRIND=Normal COUNT=2 PERCENT=2.4 PERCENT2=2.38 ValueFmt=2 (2.4) ValueFmt2=2 (2.38) GroupN=84
+TRTPN=0 BNRIND=Low ANRIND=Low COUNT=6 PERCENT=7.1 PERCENT2=7.14 ValueFmt=6 (7.1) ValueFmt2=6 (7.14) GroupN=84
+TRTPN=0 BNRIND=Low ANRIND=Normal COUNT=1 PERCENT=1.2 PERCENT2=1.19 ValueFmt=1 (1.2) ValueFmt2=1 (1.19) GroupN=84
+TRTPN=0 BNRIND=Normal ANRIND=Low COUNT=11 PERCENT=13.1 PERCENT2=13.10 ValueFmt=11 (13.1) ValueFmt2=11 (13.10) GroupN=84
+TRTPN=0 BNRIND=Normal ANRIND=Normal COUNT=64 PERCENT=76.2 PERCENT2=76.19 ValueFmt=64 (76.2) ValueFmt2=64 (76.19) GroupN=84
+TRTPN=54 BNRIND=High ANRIND=Low COUNT=0 PERCENT=0.0 PERCENT2=0.00 ValueFmt=0 (0.0) ValueFmt2=0 (0.00) GroupN=84
+TRTPN=54 BNRIND=High ANRIND=Normal COUNT=1 PERCENT=1.2 PERCENT2=1.19 ValueFmt=1 (1.2) ValueFmt2=1 (1.19) GroupN=84
+TRTPN=54 BNRIND=Low ANRIND=Low COUNT=3 PERCENT=3.6 PERCENT2=3.57 ValueFmt=3 (3.6) ValueFmt2=3 (3.57) GroupN=84
+TRTPN=54 BNRIND=Low ANRIND=Normal COUNT=1 PERCENT=1.2 PERCENT2=1.19 ValueFmt=1 (1.2) ValueFmt2=1 (1.19) GroupN=84
+TRTPN=54 BNRIND=Normal ANRIND=Low COUNT=12 PERCENT=14.3 PERCENT2=14.29 ValueFmt=12 (14.3) ValueFmt2=12 (14.29) GroupN=84
+TRTPN=54 BNRIND=Normal ANRIND=Normal COUNT=67 PERCENT=79.8 PERCENT2=79.76 ValueFmt=67 (79.8) ValueFmt2=67 (79.76) GroupN=84
+TRTPN=81 BNRIND=High ANRIND=Low COUNT=0 PERCENT=0.0 PERCENT2=0.00 ValueFmt=0 (0.0) ValueFmt2=0 (0.00) GroupN=82
+TRTPN=81 BNRIND=High ANRIND=Normal COUNT=1 PERCENT=1.2 PERCENT2=1.22 ValueFmt=1 (1.2) ValueFmt2=1 (1.22) GroupN=82
+TRTPN=81 BNRIND=Low ANRIND=Low COUNT=6 PERCENT=7.3 PERCENT2=7.32 ValueFmt=6 (7.3) ValueFmt2=6 (7.32) GroupN=82
+TRTPN=81 BNRIND=Low ANRIND=Normal COUNT=0 PERCENT=0.0 PERCENT2=0.00 ValueFmt=0 (0.0) ValueFmt2=0 (0.00) GroupN=82
+TRTPN=81 BNRIND=Normal ANRIND=Low COUNT=5 PERCENT=6.1 PERCENT2=6.10 ValueFmt=5 (6.1) ValueFmt2=5 (6.10) GroupN=82
+TRTPN=81 BNRIND=Normal ANRIND=Normal COUNT=70 PERCENT=85.4 PERCENT2=85.37 ValueFmt=70 (85.4) ValueFmt2=70 (85.37) GroupN=82
+
+The FREQ Procedure
+Table of TRTPN by n
+
+TRTPN  n  Frequency  Percent  Row Pct  Col Pct  RowTot  ColTot  Total=250
+TRTPN=0 n=0 Frequency=79 Percent=31.60 Row Pct=94.05 Col Pct=33.62 RowTot=84 ColTot=235
+TRTPN=54 n=0 Frequency=79 Percent=31.60 Row Pct=94.05 Col Pct=33.62 RowTot=84 ColTot=235
+TRTPN=81 n=0 Frequency=77 Percent=30.80 Row Pct=93.90 Col Pct=32.77 RowTot=82 ColTot=235
+TRTPN=0 n=1 Frequency=5 Percent=2.00 Row Pct=5.95 Col Pct=33.33 RowTot=84 ColTot=15
+TRTPN=54 n=1 Frequency=5 Percent=2.00 Row Pct=5.95 Col Pct=33.33 RowTot=84 ColTot=15
+TRTPN=81 n=1 Frequency=5 Percent=2.00 Row Pct=6.10 Col Pct=33.33 RowTot=82 ColTot=15
+
+Row totals:
+TRTPN=0 RowTot=84 Row Percent=33.60
+TRTPN=54 RowTot=84 Row Percent=33.60
+TRTPN=81 RowTot=82 Row Percent=32.80
+Column totals:
+n=0 ColTot=235 Col Percent=94.00
+n=1 ColTot=15 Col Percent=6.00
+
+Statistics for Table of TRTPN by n
+N=250 DF=2 Chi-Square=0.0021 Prob=0.9990
+Chi-Square DF=2 Value=0.00 Prob=0.9990
+
+Fisher's Exact Test
+Table Probability (P)=1.0000 Two-sided Pr <= P=1.0000 XP2_FISH=1.0000
+Cell (1,1) Frequency (F)=79 Left-sided Pr <= F=1.0000 Right-sided Pr >= F=1.0000
+
+Summary statistics (PROC SUMMARY NWAY):
+ANRLO N=250 Mean=60.00 Mean1=60.0 Min=60 Max=60
+ANRHI N=250 Mean=90.00 Mean1=90.0 Min=90 Max=90
+BASE N=250 Mean=71.73 Mean1=71.7 Min=40 Max=98
+AVAL N=250 Mean=66.41 Mean1=66.4 MinValue=41 MaxValue=90 Margin=0.4900
+Y-axis MINVALUE=40 MAXVALUE=100 BY=10 ANRLO=60 ANRHI=90
+
+Notes: COUNT = cell count; PERCENT = 100*COUNT/GroupN within TRTPN (missing included).
+ValueFmt = COUNT (PERCENT with 1 decimal, SAS comma8./10.1, half away from zero).

@@ -1,0 +1,85 @@
+Table 7.5 Summary of Serious Adverse Events
+Safety Population
+-
+
+PROC FREQ Output
+
+AEDECOD=PARTIAL SEIZURES WITH SECONDARY GENERALISATION
+Table of TRTAN by RESP
+TRTAN  RESP
+Frequency Percent Row Pct Col Pct
+0 0 86 33.86 100.00 33.99
+0 1 0 0.00 0.00 0.00
+Total 0 86 33.86 100.00
+54 0 84 33.07 100.00 33.20
+54 1 0 0.00 0.00 0.00
+Total 54 84 33.07 100.00
+81 0 83 32.68 98.81 32.81
+81 1 1 0.39 1.19 100.00
+Total 81 84 33.07 100.00
+Total 0 253 99.61
+Total 1 1 0.39
+Total 254 100.00
+Fisher's Exact Test Table Probability (P) 0.6614
+Left-sided Pr <= P 0.6614
+Right-sided Pr >= P 0.6614
+Two-sided Pr <= P 0.6614
+Two-sided p-value (BEST12.) 0.661417322835
+
+AEDECOD=SYNCOPE
+Table of TRTAN by RESP
+TRTAN  RESP
+Frequency Percent Row Pct Col Pct
+0 0 86 33.86 100.00 34.13
+0 1 0 0.00 0.00 0.00
+Total 0 86 33.86 100.00
+54 0 83 32.68 98.81 32.94
+54 1 1 0.39 1.19 50.00
+Total 54 84 33.07 100.00
+81 0 83 32.68 98.81 32.94
+81 1 1 0.39 1.19 50.00
+Total 81 84 33.07 100.00
+Total 0 252 99.21
+Total 1 2 0.79
+Total 254 100.00
+Fisher's Exact Test Table Probability (P) 0.5503
+Left-sided Pr <= P 0.5503
+Right-sided Pr >= P 0.5503
+Two-sided Pr <= P 0.5503
+Two-sided p-value (BEST12.) 0.550340792381
+
+Table of TRTAN by FLG for At Least One SAE
+TRTAN  FLG
+Frequency Percent Row Pct Col Pct
+0 0 86 33.86 100.00 34.26
+0 1 0 0.00 0.00 0.00
+Total 0 86 33.86 100.00
+54 0 83 32.68 98.81 33.07
+54 1 1 0.39 1.19 33.33
+Total 54 84 33.07 100.00
+81 0 82 32.28 97.62 32.67
+81 1 2 0.79 2.38 66.67
+Total 81 84 33.07 100.00
+Total 0 251 98.82
+Total 1 3 1.18
+Total 254 100.00
+Fisher's Exact Test Table Probability (P) 0.3255
+Left-sided Pr <= P 0.3255
+Right-sided Pr >= P 0.3255
+Two-sided Pr <= P 0.3255
+Two-sided p-value (BEST12.) 0.325511188572
+
+
+PROC REPORT Output
+
+Preferred Term | Placebo N=86 | Treatment 1 N=84 | Treatment 2 N=84 | p-value*b
+----------------------------------------------------------------------------------------------------
+Number of subjects reporting serious adverse events | 0(0.0) | 1(1.0) | 2(2.0) | 0.325511188572
+p-value 4-decimal 0.3255 BEST12 0.325511188572
+PARTIAL SEIZURES WITH SECONDARY GENERALISATION | 0(0.0) | 0(0.0) | 1(1.0) | 0.661417322835
+p-value 4-decimal 0.6614 BEST12 0.661417322835
+SYNCOPE | 0(0.0) | 1(1.0) | 1(1.0) | 0.550340792381
+p-value 4-decimal 0.5503 BEST12 0.550340792381
+-
+Denominator for each % is treatment column N
+*b = p-values are from Fisher's Exact Test

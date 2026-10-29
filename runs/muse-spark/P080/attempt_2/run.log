@@ -1,0 +1,88 @@
+sandbox: docker run --rm --name sas2r-677a64d5ffb0 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P080\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+P080 forest plot: starting
+adtte: 720 rows, adsl: 240 rows
+eff: 222 rows
+TRTA levels: Placebo | Drug X High Dose | Drug X Low Dose
+forest_data: 24 rows
+    subgroup            subgroup_level         TRT_COMP           HR     HR_LCL
+1    Overall              All Subjects Drug X High Dose 6.280002e-01 0.35435572
+2    Overall              All Subjects  Drug X Low Dose 8.681606e-01 0.53278332
+3        Sex                         F Drug X High Dose 5.906463e-01 0.26529000
+4        Sex                         F  Drug X Low Dose 8.480247e-01 0.42731702
+5        Sex                         M Drug X High Dose 6.826867e-01 0.30034476
+6        Sex                         M  Drug X Low Dose 8.976664e-01 0.44631799
+7  Age Group                       <65 Drug X High Dose 6.160838e-01 0.33345902
+8  Age Group                       <65  Drug X Low Dose 6.799870e-01 0.38158099
+9  Age Group                      >=65 Drug X High Dose 6.061077e-01 0.12223769
+10 Age Group                      >=65  Drug X Low Dose 1.774428e+00 0.64458162
+11      Race                     ASIAN Drug X High Dose 1.369527e+00 0.36425541
+12      Race                     ASIAN  Drug X Low Dose 1.723235e+00 0.33230356
+13      Race BLACK OR AFRICAN AMERICAN Drug X High Dose 4.725332e-01 0.11213206
+14      Race BLACK OR AFRICAN AMERICAN  Drug X Low Dose 5.313709e-01 0.14096134
+15      Race                     OTHER Drug X High Dose 9.737715e-10 0.00000000
+16      Race                     OTHER  Drug X Low Dose 6.088332e-01 0.06765476
+17      Race                     WHITE Drug X High Dose 6.498058e-01 0.31066532
+18      Race                     WHITE  Drug X Low Dose 1.021092e+00 0.56843054
+19    Region                      Asia Drug X High Dose 7.058058e-01 0.17635700
+20    Region                      Asia  Drug X Low Dose 1.040791e+00 0.33540723
+21    Region                    Europe Drug X High Dose 6.974899e-01 0.25786484
+22    Region                    Europe  Drug X Low Dose 1.222892e+00 0.54758590
+23    Region             North America Drug X High Dose 5.703010e-01 0.25236165
+24    Region             North America  Drug X Low Dose 5.680742e-01 0.25983315
+     HR_UCL ProbChiSq
+1  1.112961 0.1110646
+2  1.414652 0.5703558
+3  1.315025 0.1972649
+4  1.682933 0.6373476
+5  1.551754 0.3622035
+6  1.805450 0.7620328
+7  1.138248 0.1219718
+8  1.211754 0.1907334
+9  3.005346 0.5399181
+10 4.884710 0.2670009
+11 5.149148 0.6416489
+12 8.936223 0.5169500
+13 1.991292 0.3070335
+14 2.003067 0.3503413
+15      Inf 0.9992160
+16 5.478961 0.6580138
+17 1.359172 0.2522321
+18 1.834222 0.9443198
+19 2.824735 0.6224271
+20 3.229642 0.9448298
+21 1.886617 0.4779307
+22 2.731013 0.6235215
+23 1.288798 0.1769916
+24 1.241983 0.1564860
+Error in `geom_errorbar()`:
+! Problem while setting up geom.
+ℹ Error occurred in the 2nd layer.
+Caused by error in `setup_params()`:
+! Either, x, ymin, and ymax or y, xmin, and xmax must be supplied.
+Backtrace:
+     ▆
+  1. └─ggplot2::ggsave(...)
+  2.   └─base::lapply(plot, grid.draw)
+  3.     ├─grid (local) FUN(X[[i]], ...)
+  4.     └─ggplot2 (local) `grid.draw.ggplot2::ggplot`(X[[i]], ...)
+  5.       ├─base::print(x)
+  6.       └─ggplot2 (local) `print.ggplot2::ggplot`(x)
+  7.         ├─ggplot2::ggplot_build(x)
+  8.         └─ggplot2 (local) `ggplot_build.ggplot2::ggplot`(x)
+  9.           └─ggplot2:::by_layer(...)
+ 10.             ├─rlang::try_fetch(...)
+ 11.             │ ├─base::tryCatch(...)
+ 12.             │ │ └─base (local) tryCatchList(expr, classes, parentenv, handlers)
+ 13.             │ │   └─base (local) tryCatchOne(expr, names, parentenv, handlers[[1L]])
+ 14.             │ │     └─base (local) doTryCatch(return(expr), name, parentenv, handler)
+ 15.             │ └─base::withCallingHandlers(...)
+ 16.             └─ggplot2 (local) f(l = layers[[i]], d = data[[i]])
+ 17.               └─l$compute_geom_1(d)
+ 18.                 └─ggplot2 (local) compute_geom_1(..., self = self)
+ 19.                   └─self$geom$setup_params(data, c(self$geom_params, self$aes_params))
+ 20.                     └─ggplot2 (local) setup_params(...)
+ 21.                       └─GeomLinerange$setup_params(data, params)
+ 22.                         └─ggplot2 (local) setup_params(...)
+ 23.                           └─cli::cli_abort("Either, {.field x}, {.field ymin}, and {.field ymax} {.emph or} {.field y}, {.field xmin}, and {.field xmax} must be supplied.")
+ 24.                             └─rlang::abort(...)
+Execution halted

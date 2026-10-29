@@ -1,0 +1,11 @@
+sandbox: docker run --rm --name sas2r-3778d0de73ca --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P025\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+edc_ex cols: SUBJID,VISIT,TRT,DOSE,UNIT,STDT,ENDT,LOT,ROUTE,FREQ,FORM,ADJ,ADJRS
+dm candidates: /bench/data/derived/c2c/data/sdtm/dm.sas7bdat | /bench/data/derived/cdisc-pilot/sdtm/dm.sas7bdat | /bench/data/derived/cdisc-pilot/sdtm/suppdm.sas7bdat | /bench/data/derived/wxzhai/raw/raw_dm.sas7bdat | /bench/data/derived/wxzhai/sdtm/dm.sas7bdat | /bench/data/raw/cdisc-pilot/sdtm/dm.xpt | /bench/data/raw/cdisc-pilot/sdtm/suppdm.xpt | /bench/data/raw/faijal-oncology/raw_data/edc_dm.xlsx | /bench/data/raw/wxzhai-portfolio/rawdata/raw_dm.sas7bdat | /bench/data/raw/wxzhai-portfolio/sdtm/data/dm.sas7bdat | /bench/output/sas/datasets/P011/dm.sas7bdat | /bench/output/sas/datasets/P066/raw_dm.sas7bdat | /bench/output/sas/shipped/P023/dm.xlsx | /bench/data/raw/cdisc-pilot/sdtm/ae.xpt | /bench/data/raw/cdisc-pilot/sdtm/cm.xpt | /bench/data/raw/cdisc-pilot/sdtm/ds.xpt | /bench/data/raw/cdisc-pilot/sdtm/ex.xpt | /bench/data/raw/cdisc-pilot/sdtm/lb.xpt | /bench/data/raw/cdisc-pilot/sdtm/mh.xpt | /bench/data/raw/cdisc-pilot/sdtm/qs.xpt
+cand /bench/data/derived/c2c/data/sdtm/dm.sas7bdat overlap 0 n=50
+cand /bench/data/derived/cdisc-pilot/sdtm/dm.sas7bdat overlap 0 n=306
+cand /bench/data/derived/wxzhai/sdtm/dm.sas7bdat overlap 0 n=4
+cand /bench/data/raw/cdisc-pilot/sdtm/dm.xpt overlap 0 n=306
+cand /bench/data/raw/wxzhai-portfolio/sdtm/data/dm.sas7bdat overlap 0 n=4
+cand /bench/output/sas/datasets/P011/dm.sas7bdat overlap 0 n=50
+cand /bench/output/sas/shipped/P023/dm.xlsx overlap 4 n=5
+using found SDTM DM, n=5

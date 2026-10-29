@@ -1,0 +1,26 @@
+"STUDYID","TRT01PN","TRT01P","DCREASCD","DISCONFL","COUNT","N_TOT","PCT100","ORD1","ORD2"
+"CDISCPILOT01",1,"Xanomeline Low Dose","Discontinued","Y",59,84,70.2,1,1
+"CDISCPILOT01",2,"Xanomeline High Dose","Discontinued","Y",57,84,67.9,1,1
+"CDISCPILOT01",3,"Placebo","Discontinued","Y",28,86,32.6,1,1
+"CDISCPILOT01",1,"Xanomeline Low Dose","Adverse Event",,44,84,52.4,2,1
+"CDISCPILOT01",2,"Xanomeline High Dose","Adverse Event",,40,84,47.6,2,1
+"CDISCPILOT01",3,"Placebo","Adverse Event",,8,86,9.3,2,1
+"CDISCPILOT01",1,"Xanomeline Low Dose","Death",,1,84,1.2,2,1
+"CDISCPILOT01",3,"Placebo","Death",,2,86,2.3,2,1
+"CDISCPILOT01",2,"Xanomeline High Dose","Lack of Efficacy",,1,84,1.2,3,2
+"CDISCPILOT01",3,"Placebo","Lack of Efficacy",,3,86,3.5,3,2
+"CDISCPILOT01",2,"Xanomeline High Dose","I/E Not Met",,2,84,2.4,4,3
+"CDISCPILOT01",3,"Placebo","I/E Not Met",,1,86,1.2,4,3
+"CDISCPILOT01",1,"Xanomeline Low Dose","Lost to Follow-up",,1,84,1.2,4,3
+"CDISCPILOT01",3,"Placebo","Lost to Follow-up",,1,86,1.2,4,3
+"CDISCPILOT01",2,"Xanomeline High Dose","Physician Decision",,2,84,2.4,4,3
+"CDISCPILOT01",3,"Placebo","Physician Decision",,1,86,1.2,4,3
+"CDISCPILOT01",1,"Xanomeline Low Dose","Protocol Violation",,1,84,1.2,4,3
+"CDISCPILOT01",2,"Xanomeline High Dose","Protocol Violation",,1,84,1.2,4,3
+"CDISCPILOT01",3,"Placebo","Protocol Violation",,1,86,1.2,4,3
+"CDISCPILOT01",1,"Xanomeline Low Dose","Sponsor Decision",,2,84,2.4,4,3
+"CDISCPILOT01",2,"Xanomeline High Dose","Sponsor Decision",,3,84,3.6,4,3
+"CDISCPILOT01",3,"Placebo","Sponsor Decision",,2,86,2.3,4,3
+"CDISCPILOT01",1,"Xanomeline Low Dose","Withdrew Consent",,10,84,11.9,4,3
+"CDISCPILOT01",2,"Xanomeline High Dose","Withdrew Consent",,8,84,9.5,4,3
+"CDISCPILOT01",3,"Placebo","Withdrew Consent",,9,86,10.5,4,3

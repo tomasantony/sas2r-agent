@@ -1,0 +1,19 @@
+Baseline Shift Frequency Table - Max Baseline (BNRIND) by Max Post-Baseline (ANRIND)
+Source: advsmax DIABP ATPTN=815 ANL01FL=Y ADY>1 SAFFL=Y  N=250
+
+Treatment      MaxBaseline  Low [N (%)] | Normal [N (%)]
+0 (N = 84)     High         0 (0.0) | 2 (2.4)
+0 (N = 84)     Low          6 (7.1) | 1 (1.2)
+0 (N = 84)     Normal       11 (13.1) | 64 (76.2)
+ 
+54 (N = 84)    High         0 (0.0) | 1 (1.2)
+54 (N = 84)    Low          3 (3.6) | 1 (1.2)
+54 (N = 84)    Normal       12 (14.3) | 67 (79.8)
+ 
+81 (N = 82)    High         0 (0.0) | 1 (1.2)
+81 (N = 82)    Low          6 (7.3) | 0 (0.0)
+81 (N = 82)    Normal       5 (6.1) | 70 (85.4)
+ 
+
+Notes: COUNT = cell count; PERCENT = 100*COUNT/GroupN within TRTPN (missing included).
+ValueFmt = COUNT (PERCENT with 1 decimal, SAS comma8./10.1, half away from zero).

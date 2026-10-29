@@ -1,0 +1,9 @@
+"Analysis","Category","N","Mean","StdDev","Min","Max","Frequency","Percent","CumFrequency","CumPercent"
+"MEANS AGE at Diagnosis","Overall",2498,60.4203,13.033,21.93,96.29,,,,
+"FREQ sex","Female",,,,,,2509,100,2509,100
+"FREQ Tumor Stage","0",,,,,,24,1.3423,24,1.3423
+"FREQ Tumor Stage","1",,,,,,630,35.2349,654,36.5772
+"FREQ Tumor Stage","2",,,,,,979,54.7539,1633,91.3311
+"FREQ Tumor Stage","3",,,,,,144,8.0537,1777,99.3848
+"FREQ Tumor Stage","4",,,,,,11,0.6152,1788,100
+"LIFETEST","Survival",1981,,,,,1144,57.7486,,

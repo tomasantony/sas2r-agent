@@ -1,0 +1,27 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.9819819819819819,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "t_ae_soc_pt.rtf",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9819819819819819,
+   "detail": {
+    "recall": 0.9819819819819819,
+    "expected": 111,
+    "found": 109,
+    "r_files": [
+     "t_ae_soc_pt.csv",
+     "t_ae_soc_pt.txt"
+    ],
+    "missing_examples": [
+     "27",
+     "46"
+    ]
+   }
+  }
+ ]
+}

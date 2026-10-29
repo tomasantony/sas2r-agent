@@ -1,0 +1,10 @@
+"STUDYID","DCREASCD","COUNT","ORD1","ORD2","ORD3"
+"CDISCPILOT01","Adverse Event",92,2,1,1
+"CDISCPILOT01","Death",3,2,1,2
+"CDISCPILOT01","Lack of Efficacy",4,3,2,1
+"CDISCPILOT01","Withdrew Consent",27,4,3,1
+"CDISCPILOT01","Sponsor Decision",7,4,3,2
+"CDISCPILOT01","I/E Not Met",3,4,3,3
+"CDISCPILOT01","Physician Decision",3,4,3,4
+"CDISCPILOT01","Protocol Violation",3,4,3,5
+"CDISCPILOT01","Lost to Follow-up",2,4,3,6

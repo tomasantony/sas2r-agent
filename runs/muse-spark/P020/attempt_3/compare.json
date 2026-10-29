@@ -1,0 +1,41 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9155844155844156,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P020.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9155844155844156,
+   "detail": {
+    "recall": 0.9155844155844156,
+    "expected": 308,
+    "found": 282,
+    "r_files": [
+     "P020.csv",
+     "P020.txt",
+     "P020_atrisk.csv",
+     "P020_censoring.csv",
+     "P020_plotdata.csv",
+     "P020_quartiles.csv"
+    ],
+    "missing_examples": [
+     "15",
+     "58.2874",
+     "6.3899",
+     "22",
+     "39.3523",
+     "4.5077",
+     "42.86",
+     "42.31",
+     "42.55",
+     "-2.0072",
+     "-106",
+     "2.0072"
+    ]
+   }
+  }
+ ]
+}

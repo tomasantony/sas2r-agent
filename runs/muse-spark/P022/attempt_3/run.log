@@ -1,0 +1,19 @@
+sandbox: docker run --rm --name sas2r-8ee8793dd22b --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P022\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+Reading edc_ae ...
+edc_dm cols: SUBJID,BRTHDT,GENDER,RACE,ETHNIC,RFICDT,SITE n=5
+edc_ex cols: SUBJID,VISIT,TRT,DOSE,UNIT,STDT,ENDT,LOT,ROUTE,FREQ,FORM,ADJ,ADJRS n=7
+rand cols: SUBJID,RAND_DT,TRT_CODE n=5
+cand EX:DOSE n=4 ex=1900-07-18,1900-04-09,1899-12-30
+cand EX:STDT n=4 ex=2026-01-15,2026-01-20,2026-01-15
+cand EX:ENDT n=4 ex=2026-01-15,2026-01-20,2026-01-15
+cand DM:BRTHDT n=5 ex=1965-04-12,1970-08-22,1958-11-30
+cand DM:RFICDT n=5 ex=2026-01-02,2026-01-05,2026-01-05
+cand RAND:RAND_DT n=5 ex=2026-01-05,2026-01-08,2026-01-10
+score EX:DOSE dy=45841,45969,46039,45851 ok=0 med=45910
+score EX:STDT dy=4,27,2,4 ok=4 med=4
+score EX:ENDT dy=4,27,2,4 ok=4 med=4
+score DM:BRTHDT dy=22197,20267,24520,16705 ok=0 med=21232
+score DM:RFICDT dy=17,42,12,17 ok=4 med=17
+score RAND:RAND_DT dy=14,39,7,14 ok=4 med=14
+BEST RF: EX:STDT dy=4,27,2,4
+Done ae n=4 RF=EX:STDT AESTDY=4,27,2,4 AEENDY=6,32,4,NA

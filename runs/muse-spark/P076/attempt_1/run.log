@@ -1,0 +1,9 @@
+sandbox: docker run --rm --name sas2r-df42c8d5af4a --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P076\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+NOTE: adae file: /bench/data/raw/own-synthetic/adam/adae.sas7bdat 
+NOTE: adsl file: /bench/data/raw/own-synthetic/adam/adsl.sas7bdat 
+[1] "C"
+[1] "en_US.UTF-8"
+NOTE: ae_list rows: 345 
+NOTE: listing rows written: 345 
+NOTE: l_ae.txt written
+NOTE: l_ae.sas completed successfully.

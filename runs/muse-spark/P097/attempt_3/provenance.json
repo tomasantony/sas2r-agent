@@ -1,0 +1,84 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P097",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 3,
+ "recorded_at": "2026-10-29T18:16:54",
+ "agent_commit": "ea9ec024216430eec6b2658819ecea47deb782c6",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 13431,
+  "output_tokens": 13707,
+  "reasoning_tokens": 7221,
+  "finish_reason": "stop",
+  "seconds": 50.6
+ },
+ "inputs": {
+  "prompt_translate.md": "1d0eba3e8ffb527f1be56a083473d9617b4f1bede9519f3a39eb261890bb8ecb"
+ },
+ "model_output": {
+  "response.md": "8b52146e69b13cd12762015ea8ca56e1e4fcc848539fb546236201fd272104a3",
+  "script.R": "10cc155525588da5f69cd37af52c3bb8eae2a8be5eb90459fcf613e892c0c6c7"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.6,
+  "timed_out": false,
+  "log_sha256": "6772dd1adddee2fa3fe692e6823f61a2d6ded82b2056c2a717c76575c3e60c2b"
+ },
+ "r_outputs": {
+  "histogram.csv": "e995dcbffed5b264fe32b21f3acf3c9ccadd805c5737ee87d7ac5345db101e7f",
+  "histogram.png": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "Means.csv": "d95ca1df5b7c3a7536285665f80ad5cca1cd0e8bec6e74eaa28a23f5fea4cc2e",
+  "P097.csv": "4e5fba73b6050a65bf4dce2fe480d2c8ebbdf72a6b0bf51358051ddc6c9be123",
+  "P097.lst.txt": "63df01a07bc090a30c4b190ee9e67854f738085b76f6b1c77971c6ac2c486866",
+  "P097.txt": "63df01a07bc090a30c4b190ee9e67854f738085b76f6b1c77971c6ac2c486866",
+  "Prob.csv": "c2360489376848c29fee2f297cdbe18a7ec735052e11baea6a91401341e83967",
+  "ROCAssociation.csv": "7ac9f4a21079d1fc0f38b67da35cc92791a848bf99185c5cee8ccf78c3440c58",
+  "ROCEst.csv": "e995dcbffed5b264fe32b21f3acf3c9ccadd805c5737ee87d7ac5345db101e7f",
+  "sgpanel.csv": "e995dcbffed5b264fe32b21f3acf3c9ccadd805c5737ee87d7ac5345db101e7f",
+  "sgpanel.png": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "Survival.csv": "a35c9994a8b112cb5c88ecd2e3845761219d63594e1af970fe63e8c08847ddb1",
+  "WidePctls.csv": "ac46b42ed71d62aaf31677753ec37365a194b9cb2d364e60c54d8f74c71b39fc"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P097.lst",
+   "sha256": "fb0883d7315c52915e5714b1cb5f4cc7e6bfbb9fd4fb1686ddeba4878b602b4e",
+   "frozen_sha256": "fb0883d7315c52915e5714b1cb5f4cc7e6bfbb9fd4fb1686ddeba4878b602b4e",
+   "ok": true
+  },
+  {
+   "file": "datasets/P097/Histogram.png",
+   "sha256": "137ac78fc8c4ef46e33c4b36c1c77a00ff5a3172ad625a79932e2f2709129145",
+   "frozen_sha256": "137ac78fc8c4ef46e33c4b36c1c77a00ff5a3172ad625a79932e2f2709129145",
+   "ok": true
+  },
+  {
+   "file": "datasets/P097/SGPanel.png",
+   "sha256": "0b6abc0357524371e0d3e8592dedab1df151703c8648b9c8d7c8ad58c0839762",
+   "frozen_sha256": "0b6abc0357524371e0d3e8592dedab1df151703c8648b9c8d7c8ad58c0839762",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

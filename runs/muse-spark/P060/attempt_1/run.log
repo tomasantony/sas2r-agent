@@ -1,0 +1,9 @@
+sandbox: docker run --rm --name sas2r-ee64264a3b3c --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P060\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADSL: /bench/data/raw/cdisc-pilot/adam/adsl.xpt 
+Reading ADPC: /bench/data/raw/cdisc-pilot/adam/adpc.xpt 
+Using columns: USUBJID PARCAT1 EACTM AVAL 
+Sorted ADPC rows: 2463 
+Wrote SORTadpc.csv and sasgraph.csv
+Number of BY groups (USUBJID*PARCAT1): 84 
+Too many BY groups, switching to spaghetti by PARCAT1
+Wrote sasgraph.png

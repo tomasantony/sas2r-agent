@@ -1,0 +1,15 @@
+sandbox: docker run --rm --name sas2r-aac5a0f40f2c --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P039\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+P039 Supp2Par translation starting
+Reading /bench/data/raw/cdisc-pilot/sdtm/AE.xpt
+Reading /bench/data/raw/cdisc-pilot/sdtm/SUPPAE.xpt
+Parent rows=1191 cols=35
+Supp rows=1191 cols=10
+Supp rows with RDOMAIN=AE: 1191
+IGNOR rows=0 ACCEPT rows=1191
+Duplicate key extra rows=0
+IDMAX=1 IDs=AESEQ
+has_seq=TRUE
+Processing ID 1: AESEQ type=N parent_col=AESEQ
+Transposed cols: STUDYID,DOMAIN,USUBJID,AESEQ,AETRTEM
+Wrote aefull.csv rows=1191 cols=36
+P039 done

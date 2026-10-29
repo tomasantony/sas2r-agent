@@ -1,0 +1,10 @@
+sandbox: docker run --rm --name sas2r-b6ce30a75b23 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P061\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading: /bench/data/raw/sumit-oncology/Breast Cancer METABRIC.csv 
+N rows: 2509  N cols: 34 
+Cols: Patient ID | Age at Diagnosis | Type of Breast Surgery | Cancer Type | Cancer Type Detailed | Cellularity | Chemotherapy | Pam50 + Claudin-low subtype | Cohort | ER status measured by IHC | ER Status | Neoplasm Histologic Grade | HER2 status measured by SNP6 | HER2 Status | Tumor Other Histologic Subtype | Hormone Therapy | Inferred Menopausal State | Integrative Cluster | Primary Tumor Laterality | Lymph nodes examined positive | Mutation Count | Nottingham prognostic index | Oncotree Code | Overall Survival (Months) | Overall Survival Status | PR Status | Radio Therapy | Relapse Free Status (Months) | Relapse Free Status | Sex | 3-Gene classifier subtype | Tumor Size | Tumor Stage | Patient's Vital Status 
+Error in survfit.formula(survival::Surv(km_time2, km_event2) ~ 1) : 
+  data set has no non-missing observations
+Calls: <Anonymous> -> survfit.formula
+In addition: Warning message:
+In max(event[who2]) : no non-missing arguments to max; returning -Inf
+Execution halted

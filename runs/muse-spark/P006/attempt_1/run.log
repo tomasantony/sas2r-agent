@@ -1,0 +1,11 @@
+sandbox: docker run --rm --name sas2r-ebe14a18e1d7 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P006\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Step 1-2: read SDTM DM and EX
+Reading dm from /bench/data/derived/c2c/data/sdtm/dm.sas7bdat
+Reading ex from /bench/data/derived/c2c/data/sdtm/ex.sas7bdat
+Sorting EX by USUBJID EXSTDTC
+Sorting DM by USUBJID
+Merging DM + EX to create ADSL draft
+Final sort by USUBJID
+Writing adsl.csv with 50 rows
+Writing P006 listing CSV/TXT
+Done.

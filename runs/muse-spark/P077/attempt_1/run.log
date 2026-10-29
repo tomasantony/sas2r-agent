@@ -1,0 +1,8 @@
+sandbox: docker run --rm --name sas2r-be51ff0cb851 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P077\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADSL: /bench/data/raw/own-synthetic/adam/adsl.sas7bdat
+Reading ADAE: /bench/data/raw/own-synthetic/adam/adae.sas7bdat
+Deaths N=11
+Fatal AE rows (distinct) N=0
+Wrote /work/out/l_death.csv N=11
+Wrote /work/out/l_death.txt
+l_death completed successfully.

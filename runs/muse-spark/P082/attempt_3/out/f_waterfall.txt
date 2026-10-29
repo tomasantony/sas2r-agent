@@ -1,0 +1,302 @@
+[Sponsor Name]                                                  Page 1 of 1
+Protocol: [Protocol Number]
+
+              Figure 14.2.3
+  Waterfall Plot of Best Percentage Change from Baseline in Sum of Target Lesions
+                  Efficacy Analysis Set
+
+  Number of subjects plotted (EFFFL=Y, PARAMCD=BPCHG): 222
+  Number with non-missing PCHG: 222
+  Number with non-missing PCHG_display (capped +/-100): 222
+
+  Best Overall Response (AVALC):
+  Response      N      N (%)
+  PR          121   121 ( 54.5%)
+  SD          101   101 ( 54.5%)
+
+  By treatment (TRTA):
+  Treatment                        N      N (%)
+  Drug X High Dose                 60   60 ( 27.0%)
+  Drug X Low Dose                  75   75 ( 33.8%)
+  Placebo                          87   87 ( 39.2%)
+
+  Best Percentage Change from Baseline (%, capped at +/-100 for display) - Overall:
+    N                 : 222
+    Mean (SD)         : -34.14 (21.52)
+    Mean (1 decimal)  : -34.1 (SD 21.5)
+    Median            : -32.00
+    Median (1 decimal): -32.0
+    Q1, Q3            : -50.00, -21.00
+    Q1, Q3 (1 dec)    : -50.0, -21.0
+    Min, Max          : -83.0, 9.0
+    Min, Max (2 dec)  : -83.00, 9.00
+
+  Uncapped PCHG - Overall:
+    PCHG                         n=222 mean=-34.1 sd=21.5 median=-32.0 Q1=-50.0 Q3=-21.0 min=-83.0 max=9.0 | 2dec: mean(-34.14) sd(21.52) median(-32.00) min(-83.00) max(9.00)
+  AVAL - Overall:
+    AVAL                         n=222 mean=45.8 sd=19.2 median=43.0 Q1=33.0 Q3=57.0 min=9.0 max=100.0 | 2dec: mean(45.83) sd(19.24) median(43.00) min(9.00) max(100.00)
+  CHG - Overall:
+    CHG                          n=222 mean=-23.8 sd=16.3 median=-21.0 Q1=-34.0 Q3=-12.0 min=-80.0 max=8.0 | 2dec: mean(-23.77) sd(16.25) median(-21.00) min(-80.00) max(8.00)
+
+  Summary by treatment (TRTA):
+    Treatment: Drug X High Dose (n=60)
+      PCHG_display:                                  n=60 mean=-45.7 sd=19.5 median=-41.5 Q1=-61.0 Q3=-30.0 min=-83.0 max=-14.0 | 2dec: mean(-45.67) sd(19.46) median(-41.50) min(-83.00) max(-14.00)
+      PCHG_raw:                                  n=60 mean=-45.7 sd=19.5 median=-41.5 Q1=-61.0 Q3=-30.0 min=-83.0 max=-14.0 | 2dec: mean(-45.67) sd(19.46) median(-41.50) min(-83.00) max(-14.00)
+      AVAL:                                  n=60 mean=38.7 sd=17.8 median=36.5 Q1=27.0 Q3=53.0 min=9.0 max=76.0 | 2dec: mean(38.72) sd(17.80) median(36.50) min(9.00) max(76.00)
+      CHG:                                  n=60 mean=-31.9 sd=15.3 median=-30.5 Q1=-41.0 Q3=-19.5 min=-80.0 max=-9.0 | 2dec: mean(-31.88) sd(15.30) median(-30.50) min(-80.00) max(-9.00)
+      <=-30%: 46 ( 76.7%)  >=+20%: 0 (  0.0%)
+    Treatment: Drug X Low Dose (n=75)
+      PCHG_display:                                  n=75 mean=-33.2 sd=20.2 median=-30.0 Q1=-50.0 Q3=-17.0 min=-72.0 max=-2.0 | 2dec: mean(-33.20) sd(20.22) median(-30.00) min(-72.00) max(-2.00)
+      PCHG_raw:                                  n=75 mean=-33.2 sd=20.2 median=-30.0 Q1=-50.0 Q3=-17.0 min=-72.0 max=-2.0 | 2dec: mean(-33.20) sd(20.22) median(-30.00) min(-72.00) max(-2.00)
+      AVAL:                                  n=75 mean=46.5 sd=19.5 median=44.0 Q1=32.0 Q3=56.0 min=14.0 max=91.0 | 2dec: mean(46.51) sd(19.54) median(44.00) min(14.00) max(91.00)
+      CHG:                                  n=75 mean=-23.2 sd=15.7 median=-20.0 Q1=-33.0 Q3=-11.0 min=-65.0 max=-1.0 | 2dec: mean(-23.20) sd(15.72) median(-20.00) min(-65.00) max(-1.00)
+      <=-30%: 38 ( 50.7%)  >=+20%: 0 (  0.0%)
+    Treatment: Placebo (n=87)
+      PCHG_display:                                  n=87 mean=-27.0 sd=20.8 median=-27.0 Q1=-46.0 Q3=-10.0 min=-60.0 max=9.0 | 2dec: mean(-27.01) sd(20.81) median(-27.00) min(-60.00) max(9.00)
+      PCHG_raw:                                  n=87 mean=-27.0 sd=20.8 median=-27.0 Q1=-46.0 Q3=-10.0 min=-60.0 max=9.0 | 2dec: mean(-27.01) sd(20.81) median(-27.00) min(-60.00) max(9.00)
+      AVAL:                                  n=87 mean=50.1 sd=18.7 median=49.0 Q1=35.0 Q3=61.0 min=17.0 max=100.0 | 2dec: mean(50.15) sd(18.74) median(49.00) min(17.00) max(100.00)
+      CHG:                                  n=87 mean=-18.7 sd=15.3 median=-19.0 Q1=-27.0 Q3=-8.0 min=-55.0 max=8.0 | 2dec: mean(-18.67) sd(15.27) median(-19.00) min(-55.00) max(8.00)
+      <=-30%: 42 ( 48.3%)  >=+20%: 0 (  0.0%)
+
+  Summary by Best Overall Response (AVALC):
+    PR (n=121):                                  n=121 mean=-49.9 sd=13.8 median=-49.0 Q1=-59.0 Q3=-39.0 min=-83.0 max=-30.0 | 2dec: mean(-49.90) sd(13.80) median(-49.00) min(-83.00) max(-30.00)
+    SD (n=101):                                  n=101 mean=-15.3 sd=11.6 median=-19.0 Q1=-24.0 Q3=-7.0 min=-30.0 max=9.0 | 2dec: mean(-15.27) sd(11.59) median(-19.00) min(-30.00) max(9.00)
+
+  Subjects with >=30% shrinkage (PR threshold, PCHG <= -30): 126 ( 56.8%)
+  Subjects with >=20% growth (PD threshold, PCHG >= +20)   : 0 (  0.0%)
+  PR-threshold rate (1 decimal): 56.8
+  PD-threshold rate (1 decimal): 0.0
+
+  Each bar represents one subject (sorted by PCHG; bar_order 1..N).
+  Reference lines: -30% (PR threshold, blue dashed), +20% (PD threshold, red dashed), 0 (black).
+  Y-axis values -100 to 100 by 20 with dotted grid.
+  CR=Complete Response, PR=Partial Response, SD=Stable Disease, PD=Progressive Disease
+  RECIST 1.1 thresholds.
+
+  Subject listing (bar_order, USUBJID, TRTA, AVALC, PCHG raw, PCHG 1-dec, PCHG_display, PCHG_display 1-dec, AVAL 1-dec, CHG 1-dec):
+      1 SYN001-006089 Drug X High Dose PR PCHG=-83.00 (-83.0) DISP=-83.00 (-83.0) AVAL=9.0 CHG=-42.0
+      2 SYN001-005028 Drug X High Dose PR PCHG=-81.00 (-81.0) DISP=-81.00 (-81.0) AVAL=12.0 CHG=-48.0
+      3 SYN001-002181 Drug X High Dose PR PCHG=-81.00 (-81.0) DISP=-81.00 (-81.0) AVAL=19.0 CHG=-80.0
+      4 SYN001-006053 Drug X High Dose PR PCHG=-80.00 (-80.0) DISP=-80.00 (-80.0) AVAL=10.0 CHG=-38.0
+      5 SYN001-002091 Drug X High Dose PR PCHG=-80.00 (-80.0) DISP=-80.00 (-80.0) AVAL=11.0 CHG=-44.0
+      6 SYN001-004075 Drug X High Dose PR PCHG=-77.00 (-77.0) DISP=-77.00 (-77.0) AVAL=10.0 CHG=-31.0
+      7 SYN001-001012 Drug X High Dose PR PCHG=-76.00 (-76.0) DISP=-76.00 (-76.0) AVAL=12.0 CHG=-39.0
+      8 SYN001-002151 Drug X Low Dose PR PCHG=-72.00 (-72.0) DISP=-72.00 (-72.0) AVAL=26.0 CHG=-65.0
+      9 SYN001-005100 Drug X Low Dose PR PCHG=-71.00 (-71.0) DISP=-71.00 (-71.0) AVAL=20.0 CHG=-48.0
+     10 SYN001-006113 Drug X Low Dose PR PCHG=-71.00 (-71.0) DISP=-71.00 (-71.0) AVAL=14.0 CHG=-36.0
+     11 SYN001-001120 Drug X High Dose PR PCHG=-71.00 (-71.0) DISP=-71.00 (-71.0) AVAL=17.0 CHG=-42.0
+     12 SYN001-005202 Drug X Low Dose PR PCHG=-71.00 (-71.0) DISP=-71.00 (-71.0) AVAL=14.0 CHG=-35.0
+     13 SYN001-002217 Drug X High Dose PR PCHG=-70.00 (-70.0) DISP=-70.00 (-70.0) AVAL=12.0 CHG=-29.0
+     14 SYN001-004051 Drug X Low Dose PR PCHG=-69.00 (-69.0) DISP=-69.00 (-69.0) AVAL=21.0 CHG=-48.0
+     15 SYN001-002229 Drug X High Dose PR PCHG=-69.00 (-69.0) DISP=-69.00 (-69.0) AVAL=27.0 CHG=-61.0
+     16 SYN001-003026 Drug X High Dose PR PCHG=-67.00 (-67.0) DISP=-67.00 (-67.0) AVAL=27.0 CHG=-55.0
+     17 SYN001-006071 Drug X Low Dose PR PCHG=-67.00 (-67.0) DISP=-67.00 (-67.0) AVAL=29.0 CHG=-59.0
+     18 SYN001-003146 Drug X High Dose PR PCHG=-66.00 (-66.0) DISP=-66.00 (-66.0) AVAL=31.0 CHG=-60.0
+     19 SYN001-004231 Drug X Low Dose PR PCHG=-66.00 (-66.0) DISP=-66.00 (-66.0) AVAL=22.0 CHG=-42.0
+     20 SYN001-004183 Drug X Low Dose PR PCHG=-65.00 (-65.0) DISP=-65.00 (-65.0) AVAL=24.0 CHG=-43.0
+     21 SYN001-006101 Drug X Low Dose PR PCHG=-63.00 (-63.0) DISP=-63.00 (-63.0) AVAL=35.0 CHG=-60.0
+     22 SYN001-005190 Drug X Low Dose PR PCHG=-63.00 (-63.0) DISP=-63.00 (-63.0) AVAL=37.0 CHG=-63.0
+     23 SYN001-001216 Drug X High Dose PR PCHG=-63.00 (-63.0) DISP=-63.00 (-63.0) AVAL=19.0 CHG=-33.0
+     24 SYN001-004189 Drug X High Dose PR PCHG=-62.00 (-62.0) DISP=-62.00 (-62.0) AVAL=30.0 CHG=-48.0
+     25 SYN001-006083 Drug X High Dose PR PCHG=-61.00 (-61.0) DISP=-61.00 (-61.0) AVAL=35.0 CHG=-54.0
+     26 SYN001-004201 Drug X High Dose PR PCHG=-61.00 (-61.0) DISP=-61.00 (-61.0) AVAL=38.0 CHG=-58.0
+     27 SYN001-004021 Drug X High Dose PR PCHG=-60.00 (-60.0) DISP=-60.00 (-60.0) AVAL=38.0 CHG=-56.0
+     28 SYN001-001030 Drug X High Dose PR PCHG=-60.00 (-60.0) DISP=-60.00 (-60.0) AVAL=31.0 CHG=-46.0
+     29 SYN001-001144 Placebo PR PCHG=-60.00 (-60.0) DISP=-60.00 (-60.0) AVAL=35.0 CHG=-51.0
+     30 SYN001-003230 Drug X Low Dose PR PCHG=-60.00 (-60.0) DISP=-60.00 (-60.0) AVAL=21.0 CHG=-32.0
+     31 SYN001-003050 Placebo PR PCHG=-59.00 (-59.0) DISP=-59.00 (-59.0) AVAL=19.0 CHG=-27.0
+     32 SYN001-003056 Drug X High Dose PR PCHG=-59.00 (-59.0) DISP=-59.00 (-59.0) AVAL=22.0 CHG=-32.0
+     33 SYN001-003158 Placebo PR PCHG=-59.00 (-59.0) DISP=-59.00 (-59.0) AVAL=34.0 CHG=-49.0
+     34 SYN001-001192 Placebo PR PCHG=-59.00 (-59.0) DISP=-59.00 (-59.0) AVAL=32.0 CHG=-46.0
+     35 SYN001-004015 Drug X High Dose PR PCHG=-58.00 (-58.0) DISP=-58.00 (-58.0) AVAL=40.0 CHG=-55.0
+     36 SYN001-002211 Placebo PR PCHG=-58.00 (-58.0) DISP=-58.00 (-58.0) AVAL=27.0 CHG=-38.0
+     37 SYN001-003092 Placebo PR PCHG=-57.00 (-57.0) DISP=-57.00 (-57.0) AVAL=40.0 CHG=-55.0
+     38 SYN001-006143 Placebo PR PCHG=-57.00 (-57.0) DISP=-57.00 (-57.0) AVAL=17.0 CHG=-23.0
+     39 SYN001-006149 Drug X Low Dose PR PCHG=-57.00 (-57.0) DISP=-57.00 (-57.0) AVAL=21.0 CHG=-28.0
+     40 SYN001-002133 Placebo PR PCHG=-56.00 (-56.0) DISP=-56.00 (-56.0) AVAL=33.0 CHG=-42.0
+     41 SYN001-003140 Drug X Low Dose PR PCHG=-56.00 (-56.0) DISP=-56.00 (-56.0) AVAL=21.0 CHG=-27.0
+     42 SYN001-003086 Drug X High Dose PR PCHG=-55.00 (-55.0) DISP=-55.00 (-55.0) AVAL=30.0 CHG=-38.0
+     43 SYN001-001132 Placebo PR PCHG=-55.00 (-55.0) DISP=-55.00 (-55.0) AVAL=19.0 CHG=-22.0
+     44 SYN001-004141 Drug X Low Dose PR PCHG=-54.00 (-54.0) DISP=-54.00 (-54.0) AVAL=40.0 CHG=-47.0
+     45 SYN001-003152 Placebo PR PCHG=-54.00 (-54.0) DISP=-54.00 (-54.0) AVAL=21.0 CHG=-24.0
+     46 SYN001-003032 Drug X Low Dose PR PCHG=-53.00 (-53.0) DISP=-53.00 (-53.0) AVAL=29.0 CHG=-33.0
+     47 SYN001-003128 Drug X High Dose PR PCHG=-53.00 (-53.0) DISP=-53.00 (-53.0) AVAL=38.0 CHG=-43.0
+     48 SYN001-003236 Drug X Low Dose PR PCHG=-53.00 (-53.0) DISP=-53.00 (-53.0) AVAL=30.0 CHG=-33.0
+     49 SYN001-006125 Placebo PR PCHG=-52.00 (-52.0) DISP=-52.00 (-52.0) AVAL=28.0 CHG=-30.0
+     50 SYN001-002007 Drug X Low Dose PR PCHG=-51.00 (-51.0) DISP=-51.00 (-51.0) AVAL=40.0 CHG=-41.0
+     51 SYN001-002121 Placebo PR PCHG=-51.00 (-51.0) DISP=-51.00 (-51.0) AVAL=24.0 CHG=-24.0
+     52 SYN001-003164 Drug X Low Dose PR PCHG=-51.00 (-51.0) DISP=-51.00 (-51.0) AVAL=41.0 CHG=-42.0
+     53 SYN001-005184 Drug X High Dose PR PCHG=-51.00 (-51.0) DISP=-51.00 (-51.0) AVAL=24.0 CHG=-26.0
+     54 SYN001-002187 Placebo PR PCHG=-51.00 (-51.0) DISP=-51.00 (-51.0) AVAL=43.0 CHG=-45.0
+     55 SYN001-006203 Drug X High Dose PR PCHG=-51.00 (-51.0) DISP=-51.00 (-51.0) AVAL=30.0 CHG=-32.0
+     56 SYN001-006005 Placebo PR PCHG=-50.00 (-50.0) DISP=-50.00 (-50.0) AVAL=33.0 CHG=-34.0
+     57 SYN001-002031 Placebo PR PCHG=-50.00 (-50.0) DISP=-50.00 (-50.0) AVAL=37.0 CHG=-37.0
+     58 SYN001-006035 Drug X High Dose PR PCHG=-50.00 (-50.0) DISP=-50.00 (-50.0) AVAL=22.0 CHG=-23.0
+     59 SYN001-002157 Drug X Low Dose PR PCHG=-50.00 (-50.0) DISP=-50.00 (-50.0) AVAL=45.0 CHG=-45.0
+     60 SYN001-001018 Placebo PR PCHG=-49.00 (-49.0) DISP=-49.00 (-49.0) AVAL=38.0 CHG=-36.0
+     61 SYN001-003122 Placebo PR PCHG=-49.00 (-49.0) DISP=-49.00 (-49.0) AVAL=47.0 CHG=-45.0
+     62 SYN001-003212 Drug X Low Dose PR PCHG=-49.00 (-49.0) DISP=-49.00 (-49.0) AVAL=36.0 CHG=-35.0
+     63 SYN001-001210 Placebo PR PCHG=-48.00 (-48.0) DISP=-48.00 (-48.0) AVAL=38.0 CHG=-35.0
+     64 SYN001-001006 Placebo PR PCHG=-47.00 (-47.0) DISP=-47.00 (-47.0) AVAL=53.0 CHG=-47.0
+     65 SYN001-001024 Placebo PR PCHG=-47.00 (-47.0) DISP=-47.00 (-47.0) AVAL=21.0 CHG=-19.0
+     66 SYN001-004117 Drug X Low Dose PR PCHG=-47.00 (-47.0) DISP=-47.00 (-47.0) AVAL=46.0 CHG=-41.0
+     67 SYN001-001138 Drug X Low Dose PR PCHG=-47.00 (-47.0) DISP=-47.00 (-47.0) AVAL=50.0 CHG=-44.0
+     68 SYN001-002169 Drug X Low Dose PR PCHG=-47.00 (-47.0) DISP=-47.00 (-47.0) AVAL=24.0 CHG=-22.0
+     69 SYN001-002193 Placebo PR PCHG=-47.00 (-47.0) DISP=-47.00 (-47.0) AVAL=43.0 CHG=-39.0
+     70 SYN001-006059 Drug X Low Dose PR PCHG=-46.00 (-46.0) DISP=-46.00 (-46.0) AVAL=29.0 CHG=-25.0
+     71 SYN001-004225 Placebo PR PCHG=-46.00 (-46.0) DISP=-46.00 (-46.0) AVAL=38.0 CHG=-32.0
+     72 SYN001-005238 Drug X High Dose PR PCHG=-45.00 (-45.0) DISP=-45.00 (-45.0) AVAL=33.0 CHG=-28.0
+     73 SYN001-001066 Drug X High Dose PR PCHG=-43.00 (-43.0) DISP=-43.00 (-43.0) AVAL=53.0 CHG=-40.0
+     74 SYN001-003182 Drug X High Dose PR PCHG=-43.00 (-43.0) DISP=-43.00 (-43.0) AVAL=48.0 CHG=-36.0
+     75 SYN001-002043 Drug X High Dose PR PCHG=-42.00 (-42.0) DISP=-42.00 (-42.0) AVAL=52.0 CHG=-39.0
+     76 SYN001-005226 Drug X High Dose PR PCHG=-42.00 (-42.0) DISP=-42.00 (-42.0) AVAL=47.0 CHG=-34.0
+     77 SYN001-002049 Drug X Low Dose PR PCHG=-41.00 (-41.0) DISP=-41.00 (-41.0) AVAL=49.0 CHG=-34.0
+     78 SYN001-005070 Drug X High Dose PR PCHG=-41.00 (-41.0) DISP=-41.00 (-41.0) AVAL=35.0 CHG=-25.0
+     79 SYN001-004129 Placebo PR PCHG=-41.00 (-41.0) DISP=-41.00 (-41.0) AVAL=35.0 CHG=-24.0
+     80 SYN001-001150 Placebo PR PCHG=-41.00 (-41.0) DISP=-41.00 (-41.0) AVAL=43.0 CHG=-30.0
+     81 SYN001-006185 Drug X High Dose PR PCHG=-41.00 (-41.0) DISP=-41.00 (-41.0) AVAL=43.0 CHG=-31.0
+     82 SYN001-004195 Placebo PR PCHG=-41.00 (-41.0) DISP=-41.00 (-41.0) AVAL=25.0 CHG=-18.0
+     83 SYN001-002199 Placebo PR PCHG=-41.00 (-41.0) DISP=-41.00 (-41.0) AVAL=57.0 CHG=-39.0
+     84 SYN001-004063 Drug X High Dose PR PCHG=-40.00 (-40.0) DISP=-40.00 (-40.0) AVAL=57.0 CHG=-39.0
+     85 SYN001-002115 Placebo PR PCHG=-40.00 (-40.0) DISP=-40.00 (-40.0) AVAL=35.0 CHG=-23.0
+     86 SYN001-006215 Placebo PR PCHG=-40.00 (-40.0) DISP=-40.00 (-40.0) AVAL=39.0 CHG=-26.0
+     87 SYN001-002037 Placebo PR PCHG=-39.00 (-39.0) DISP=-39.00 (-39.0) AVAL=46.0 CHG=-30.0
+     88 SYN001-003062 Drug X Low Dose PR PCHG=-39.00 (-39.0) DISP=-39.00 (-39.0) AVAL=33.0 CHG=-21.0
+     89 SYN001-004099 Drug X High Dose PR PCHG=-39.00 (-39.0) DISP=-39.00 (-39.0) AVAL=54.0 CHG=-34.0
+     90 SYN001-004111 Placebo PR PCHG=-39.00 (-39.0) DISP=-39.00 (-39.0) AVAL=43.0 CHG=-27.0
+     91 SYN001-003116 Drug X Low Dose PR PCHG=-39.00 (-39.0) DISP=-39.00 (-39.0) AVAL=33.0 CHG=-21.0
+     92 SYN001-003134 Drug X Low Dose PR PCHG=-39.00 (-39.0) DISP=-39.00 (-39.0) AVAL=47.0 CHG=-30.0
+     93 SYN001-005148 Drug X Low Dose PR PCHG=-39.00 (-39.0) DISP=-39.00 (-39.0) AVAL=52.0 CHG=-33.0
+     94 SYN001-005178 Drug X Low Dose PR PCHG=-39.00 (-39.0) DISP=-39.00 (-39.0) AVAL=43.0 CHG=-28.0
+     95 SYN001-006221 Drug X High Dose PR PCHG=-39.00 (-39.0) DISP=-39.00 (-39.0) AVAL=36.0 CHG=-23.0
+     96 SYN001-003218 Drug X Low Dose PR PCHG=-38.00 (-38.0) DISP=-38.00 (-38.0) AVAL=31.0 CHG=-19.0
+     97 SYN001-001054 Drug X High Dose PR PCHG=-37.00 (-37.0) DISP=-37.00 (-37.0) AVAL=27.0 CHG=-16.0
+     98 SYN001-004003 Placebo PR PCHG=-36.00 (-36.0) DISP=-36.00 (-36.0) AVAL=37.0 CHG=-21.0
+     99 SYN001-005064 Drug X High Dose PR PCHG=-35.00 (-35.0) DISP=-35.00 (-35.0) AVAL=35.0 CHG=-19.0
+    100 SYN001-005088 Placebo PR PCHG=-35.00 (-35.0) DISP=-35.00 (-35.0) AVAL=41.0 CHG=-22.0
+    101 SYN001-001156 Placebo PR PCHG=-35.00 (-35.0) DISP=-35.00 (-35.0) AVAL=57.0 CHG=-30.0
+    102 SYN001-004159 Placebo PR PCHG=-35.00 (-35.0) DISP=-35.00 (-35.0) AVAL=35.0 CHG=-19.0
+    103 SYN001-005160 Drug X Low Dose PR PCHG=-35.00 (-35.0) DISP=-35.00 (-35.0) AVAL=30.0 CHG=-17.0
+    104 SYN001-004165 Drug X High Dose PR PCHG=-35.00 (-35.0) DISP=-35.00 (-35.0) AVAL=39.0 CHG=-21.0
+    105 SYN001-004213 Placebo PR PCHG=-34.00 (-34.0) DISP=-34.00 (-34.0) AVAL=32.0 CHG=-17.0
+    106 SYN001-003074 Placebo PR PCHG=-33.00 (-33.0) DISP=-33.00 (-33.0) AVAL=33.0 CHG=-17.0
+    107 SYN001-001078 Drug X High Dose PR PCHG=-33.00 (-33.0) DISP=-33.00 (-33.0) AVAL=28.0 CHG=-14.0
+    108 SYN001-005094 Placebo PR PCHG=-33.00 (-33.0) DISP=-33.00 (-33.0) AVAL=61.0 CHG=-30.0
+    109 SYN001-006167 Drug X High Dose PR PCHG=-33.00 (-33.0) DISP=-33.00 (-33.0) AVAL=66.0 CHG=-33.0
+    110 SYN001-005220 Drug X Low Dose PR PCHG=-33.00 (-33.0) DISP=-33.00 (-33.0) AVAL=40.0 CHG=-20.0
+    111 SYN001-003008 Placebo PR PCHG=-32.00 (-32.0) DISP=-32.00 (-32.0) AVAL=49.0 CHG=-23.0
+    112 SYN001-004009 Drug X High Dose PR PCHG=-32.00 (-32.0) DISP=-32.00 (-32.0) AVAL=64.0 CHG=-30.0
+    113 SYN001-006023 Drug X High Dose PR PCHG=-32.00 (-32.0) DISP=-32.00 (-32.0) AVAL=53.0 CHG=-25.0
+    114 SYN001-002175 Drug X Low Dose PR PCHG=-32.00 (-32.0) DISP=-32.00 (-32.0) AVAL=56.0 CHG=-27.0
+    115 SYN001-004033 Drug X Low Dose PR PCHG=-31.00 (-31.0) DISP=-31.00 (-31.0) AVAL=36.0 CHG=-17.0
+    116 SYN001-004177 Drug X High Dose PR PCHG=-31.00 (-31.0) DISP=-31.00 (-31.0) AVAL=63.0 CHG=-29.0
+    117 SYN001-006029 Placebo SD PCHG=-30.00 (-30.0) DISP=-30.00 (-30.0) AVAL=61.0 CHG=-26.0
+    118 SYN001-004039 Placebo PR PCHG=-30.00 (-30.0) DISP=-30.00 (-30.0) AVAL=29.0 CHG=-12.0
+    119 SYN001-006041 Drug X High Dose SD PCHG=-30.00 (-30.0) DISP=-30.00 (-30.0) AVAL=38.0 CHG=-16.0
+    120 SYN001-001048 Drug X Low Dose PR PCHG=-30.00 (-30.0) DISP=-30.00 (-30.0) AVAL=30.0 CHG=-13.0
+    121 SYN001-004093 Drug X High Dose PR PCHG=-30.00 (-30.0) DISP=-30.00 (-30.0) AVAL=58.0 CHG=-25.0
+    122 SYN001-001180 Drug X Low Dose SD PCHG=-30.00 (-30.0) DISP=-30.00 (-30.0) AVAL=54.0 CHG=-23.0
+    123 SYN001-001186 Drug X Low Dose SD PCHG=-30.00 (-30.0) DISP=-30.00 (-30.0) AVAL=56.0 CHG=-24.0
+    124 SYN001-006197 Placebo PR PCHG=-30.00 (-30.0) DISP=-30.00 (-30.0) AVAL=58.0 CHG=-25.0
+    125 SYN001-001204 Placebo PR PCHG=-30.00 (-30.0) DISP=-30.00 (-30.0) AVAL=33.0 CHG=-14.0
+    126 SYN001-004219 Drug X High Dose SD PCHG=-30.00 (-30.0) DISP=-30.00 (-30.0) AVAL=42.0 CHG=-18.0
+    127 SYN001-004207 Drug X Low Dose SD PCHG=-29.00 (-29.0) DISP=-29.00 (-29.0) AVAL=44.0 CHG=-19.0
+    128 SYN001-001240 Placebo SD PCHG=-29.00 (-29.0) DISP=-29.00 (-29.0) AVAL=31.0 CHG=-13.0
+    129 SYN001-006239 Drug X High Dose SD PCHG=-28.00 (-28.0) DISP=-28.00 (-28.0) AVAL=62.0 CHG=-24.0
+    130 SYN001-006011 Drug X High Dose SD PCHG=-27.00 (-27.0) DISP=-27.00 (-27.0) AVAL=67.0 CHG=-25.0
+    131 SYN001-005022 Drug X High Dose SD PCHG=-27.00 (-27.0) DISP=-27.00 (-27.0) AVAL=53.0 CHG=-19.0
+    132 SYN001-005052 Drug X Low Dose SD PCHG=-27.00 (-27.0) DISP=-27.00 (-27.0) AVAL=53.0 CHG=-20.0
+    133 SYN001-005112 Placebo SD PCHG=-27.00 (-27.0) DISP=-27.00 (-27.0) AVAL=71.0 CHG=-26.0
+    134 SYN001-005118 Placebo SD PCHG=-27.00 (-27.0) DISP=-27.00 (-27.0) AVAL=62.0 CHG=-22.0
+    135 SYN001-002139 Drug X High Dose SD PCHG=-27.00 (-27.0) DISP=-27.00 (-27.0) AVAL=31.0 CHG=-12.0
+    136 SYN001-001222 Placebo SD PCHG=-27.00 (-27.0) DISP=-27.00 (-27.0) AVAL=33.0 CHG=-12.0
+    137 SYN001-003224 Placebo SD PCHG=-27.00 (-27.0) DISP=-27.00 (-27.0) AVAL=47.0 CHG=-17.0
+    138 SYN001-004237 Drug X Low Dose SD PCHG=-27.00 (-27.0) DISP=-27.00 (-27.0) AVAL=50.0 CHG=-19.0
+    139 SYN001-003014 Placebo SD PCHG=-26.00 (-26.0) DISP=-26.00 (-26.0) AVAL=42.0 CHG=-14.0
+    140 SYN001-001114 Drug X Low Dose SD PCHG=-26.00 (-26.0) DISP=-26.00 (-26.0) AVAL=57.0 CHG=-20.0
+    141 SYN001-006209 Drug X High Dose SD PCHG=-26.00 (-26.0) DISP=-26.00 (-26.0) AVAL=34.0 CHG=-12.0
+    142 SYN001-002013 Drug X High Dose SD PCHG=-25.00 (-25.0) DISP=-25.00 (-25.0) AVAL=37.0 CHG=-12.0
+    143 SYN001-004105 Placebo SD PCHG=-25.00 (-25.0) DISP=-25.00 (-25.0) AVAL=59.0 CHG=-20.0
+    144 SYN001-005130 Placebo SD PCHG=-25.00 (-25.0) DISP=-25.00 (-25.0) AVAL=56.0 CHG=-18.0
+    145 SYN001-005196 Drug X Low Dose SD PCHG=-25.00 (-25.0) DISP=-25.00 (-25.0) AVAL=50.0 CHG=-17.0
+    146 SYN001-001084 Drug X High Dose SD PCHG=-24.00 (-24.0) DISP=-24.00 (-24.0) AVAL=39.0 CHG=-12.0
+    147 SYN001-005154 Placebo SD PCHG=-24.00 (-24.0) DISP=-24.00 (-24.0) AVAL=70.0 CHG=-21.0
+    148 SYN001-001162 Drug X Low Dose SD PCHG=-24.00 (-24.0) DISP=-24.00 (-24.0) AVAL=32.0 CHG=-10.0
+    149 SYN001-001168 Placebo SD PCHG=-24.00 (-24.0) DISP=-24.00 (-24.0) AVAL=73.0 CHG=-23.0
+    150 SYN001-003206 Placebo SD PCHG=-24.00 (-24.0) DISP=-24.00 (-24.0) AVAL=54.0 CHG=-17.0
+    151 SYN001-002019 Placebo SD PCHG=-23.00 (-23.0) DISP=-23.00 (-23.0) AVAL=45.0 CHG=-14.0
+    152 SYN001-003068 Placebo SD PCHG=-23.00 (-23.0) DISP=-23.00 (-23.0) AVAL=71.0 CHG=-21.0
+    153 SYN001-001090 Placebo SD PCHG=-23.00 (-23.0) DISP=-23.00 (-23.0) AVAL=61.0 CHG=-19.0
+    154 SYN001-006119 Drug X Low Dose SD PCHG=-23.00 (-23.0) DISP=-23.00 (-23.0) AVAL=33.0 CHG=-10.0
+    155 SYN001-005136 Placebo SD PCHG=-23.00 (-23.0) DISP=-23.00 (-23.0) AVAL=51.0 CHG=-15.0
+    156 SYN001-002145 Placebo SD PCHG=-23.00 (-23.0) DISP=-23.00 (-23.0) AVAL=40.0 CHG=-12.0
+    157 SYN001-005166 Placebo SD PCHG=-23.00 (-23.0) DISP=-23.00 (-23.0) AVAL=52.0 CHG=-16.0
+    158 SYN001-006227 Drug X Low Dose SD PCHG=-23.00 (-23.0) DISP=-23.00 (-23.0) AVAL=73.0 CHG=-21.0
+    159 SYN001-002025 Drug X Low Dose SD PCHG=-22.00 (-22.0) DISP=-22.00 (-22.0) AVAL=76.0 CHG=-21.0
+    160 SYN001-004147 Drug X High Dose SD PCHG=-22.00 (-22.0) DISP=-22.00 (-22.0) AVAL=66.0 CHG=-18.0
+    161 SYN001-001174 Drug X Low Dose SD PCHG=-22.00 (-22.0) DISP=-22.00 (-22.0) AVAL=66.0 CHG=-18.0
+    162 SYN001-001198 Drug X High Dose SD PCHG=-22.00 (-22.0) DISP=-22.00 (-22.0) AVAL=72.0 CHG=-20.0
+    163 SYN001-005004 Placebo SD PCHG=-21.00 (-21.0) DISP=-21.00 (-21.0) AVAL=60.0 CHG=-16.0
+    164 SYN001-005040 Drug X High Dose SD PCHG=-21.00 (-21.0) DISP=-21.00 (-21.0) AVAL=76.0 CHG=-20.0
+    165 SYN001-002079 Drug X High Dose SD PCHG=-21.00 (-21.0) DISP=-21.00 (-21.0) AVAL=71.0 CHG=-19.0
+    166 SYN001-003200 Drug X Low Dose SD PCHG=-21.00 (-21.0) DISP=-21.00 (-21.0) AVAL=64.0 CHG=-17.0
+    167 SYN001-002235 Drug X Low Dose SD PCHG=-21.00 (-21.0) DISP=-21.00 (-21.0) AVAL=56.0 CHG=-15.0
+    168 SYN001-005106 Drug X Low Dose SD PCHG=-20.00 (-20.0) DISP=-20.00 (-20.0) AVAL=62.0 CHG=-15.0
+    169 SYN001-005046 Drug X Low Dose SD PCHG=-19.00 (-19.0) DISP=-19.00 (-19.0) AVAL=50.0 CHG=-11.0
+    170 SYN001-001126 Drug X High Dose SD PCHG=-19.00 (-19.0) DISP=-19.00 (-19.0) AVAL=57.0 CHG=-13.0
+    171 SYN001-004135 Drug X High Dose SD PCHG=-19.00 (-19.0) DISP=-19.00 (-19.0) AVAL=36.0 CHG=-9.0
+    172 SYN001-006173 Drug X Low Dose SD PCHG=-19.00 (-19.0) DISP=-19.00 (-19.0) AVAL=35.0 CHG=-8.0
+    173 SYN001-001234 Drug X Low Dose SD PCHG=-19.00 (-19.0) DISP=-19.00 (-19.0) AVAL=77.0 CHG=-17.0
+    174 SYN001-006077 Drug X Low Dose SD PCHG=-18.00 (-18.0) DISP=-18.00 (-18.0) AVAL=35.0 CHG=-8.0
+    175 SYN001-004087 Drug X Low Dose SD PCHG=-18.00 (-18.0) DISP=-18.00 (-18.0) AVAL=52.0 CHG=-11.0
+    176 SYN001-006095 Placebo SD PCHG=-18.00 (-18.0) DISP=-18.00 (-18.0) AVAL=75.0 CHG=-16.0
+    177 SYN001-004045 Drug X Low Dose SD PCHG=-17.00 (-17.0) DISP=-17.00 (-17.0) AVAL=77.0 CHG=-15.0
+    178 SYN001-003098 Drug X Low Dose SD PCHG=-17.00 (-17.0) DISP=-17.00 (-17.0) AVAL=76.0 CHG=-16.0
+    179 SYN001-006137 Drug X Low Dose SD PCHG=-17.00 (-17.0) DISP=-17.00 (-17.0) AVAL=34.0 CHG=-7.0
+    180 SYN001-006179 Placebo SD PCHG=-17.00 (-17.0) DISP=-17.00 (-17.0) AVAL=55.0 CHG=-12.0
+    181 SYN001-006047 Placebo SD PCHG=-16.00 (-16.0) DISP=-16.00 (-16.0) AVAL=56.0 CHG=-11.0
+    182 SYN001-004057 Drug X Low Dose SD PCHG=-16.00 (-16.0) DISP=-16.00 (-16.0) AVAL=81.0 CHG=-16.0
+    183 SYN001-002097 Drug X Low Dose SD PCHG=-16.00 (-16.0) DISP=-16.00 (-16.0) AVAL=83.0 CHG=-15.0
+    184 SYN001-002109 Drug X Low Dose SD PCHG=-16.00 (-16.0) DISP=-16.00 (-16.0) AVAL=55.0 CHG=-11.0
+    185 SYN001-002061 Drug X Low Dose SD PCHG=-15.00 (-15.0) DISP=-15.00 (-15.0) AVAL=50.0 CHG=-9.0
+    186 SYN001-006017 Drug X High Dose SD PCHG=-14.00 (-14.0) DISP=-14.00 (-14.0) AVAL=57.0 CHG=-10.0
+    187 SYN001-004081 Placebo SD PCHG=-14.00 (-14.0) DISP=-14.00 (-14.0) AVAL=72.0 CHG=-11.0
+    188 SYN001-003002 Drug X Low Dose SD PCHG=-13.00 (-13.0) DISP=-13.00 (-13.0) AVAL=38.0 CHG=-5.0
+    189 SYN001-005232 Drug X Low Dose SD PCHG=-13.00 (-13.0) DISP=-13.00 (-13.0) AVAL=40.0 CHG=-6.0
+    190 SYN001-006233 Placebo SD PCHG=-13.00 (-13.0) DISP=-13.00 (-13.0) AVAL=82.0 CHG=-12.0
+    191 SYN001-005010 Placebo SD PCHG=-10.00 (-10.0) DISP=-10.00 (-10.0) AVAL=51.0 CHG=-6.0
+    192 SYN001-001042 Placebo SD PCHG=-9.00 (-9.0) DISP=-9.00 (-9.0) AVAL=79.0 CHG=-8.0
+    193 SYN001-003194 Drug X Low Dose SD PCHG=-9.00 (-9.0) DISP=-9.00 (-9.0) AVAL=85.0 CHG=-9.0
+    194 SYN001-002067 Drug X Low Dose SD PCHG=-8.00 (-8.0) DISP=-8.00 (-8.0) AVAL=82.0 CHG=-7.0
+    195 SYN001-002073 Drug X Low Dose SD PCHG=-7.00 (-7.0) DISP=-7.00 (-7.0) AVAL=61.0 CHG=-5.0
+    196 SYN001-005142 Drug X Low Dose SD PCHG=-7.00 (-7.0) DISP=-7.00 (-7.0) AVAL=56.0 CHG=-4.0
+    197 SYN001-005172 Drug X Low Dose SD PCHG=-7.00 (-7.0) DISP=-7.00 (-7.0) AVAL=87.0 CHG=-7.0
+    198 SYN001-001036 Placebo SD PCHG=-5.00 (-5.0) DISP=-5.00 (-5.0) AVAL=77.0 CHG=-4.0
+    199 SYN001-006107 Placebo SD PCHG=-4.00 (-4.0) DISP=-4.00 (-4.0) AVAL=62.0 CHG=-3.0
+    200 SYN001-004171 Drug X Low Dose SD PCHG=-4.00 (-4.0) DISP=-4.00 (-4.0) AVAL=42.0 CHG=-2.0
+    201 SYN001-003044 Drug X Low Dose SD PCHG=-3.00 (-3.0) DISP=-3.00 (-3.0) AVAL=45.0 CHG=-1.0
+    202 SYN001-001096 Placebo SD PCHG=-3.00 (-3.0) DISP=-3.00 (-3.0) AVAL=49.0 CHG=-1.0
+    203 SYN001-002127 Drug X Low Dose SD PCHG=-3.00 (-3.0) DISP=-3.00 (-3.0) AVAL=89.0 CHG=-3.0
+    204 SYN001-006131 Drug X Low Dose SD PCHG=-3.00 (-3.0) DISP=-3.00 (-3.0) AVAL=91.0 CHG=-3.0
+    205 SYN001-003188 Drug X Low Dose SD PCHG=-2.00 (-2.0) DISP=-2.00 (-2.0) AVAL=46.0 CHG=-1.0
+    206 SYN001-001060 Placebo SD PCHG=-1.00 (-1.0) DISP=-1.00 (-1.0) AVAL=82.0 CHG=-1.0
+    207 SYN001-003080 Placebo SD PCHG=-1.00 (-1.0) DISP=-1.00 (-1.0) AVAL=81.0 CHG=-1.0
+    208 SYN001-006191 Placebo SD PCHG=0.00 (0.0) DISP=0.00 (0.0) AVAL=81.0 CHG=0.0
+    209 SYN001-004123 Placebo SD PCHG=1.00 (1.0) DISP=1.00 (1.0) AVAL=43.0 CHG=0.0
+    210 SYN001-005124 Placebo SD PCHG=1.00 (1.0) DISP=1.00 (1.0) AVAL=50.0 CHG=0.0
+    211 SYN001-002205 Placebo SD PCHG=1.00 (1.0) DISP=1.00 (1.0) AVAL=100.0 CHG=1.0
+    212 SYN001-005058 Placebo SD PCHG=2.00 (2.0) DISP=2.00 (2.0) AVAL=49.0 CHG=1.0
+    213 SYN001-003038 Placebo SD PCHG=5.00 (5.0) DISP=5.00 (5.0) AVAL=49.0 CHG=2.0
+    214 SYN001-001072 Placebo SD PCHG=5.00 (5.0) DISP=5.00 (5.0) AVAL=45.0 CHG=2.0
+    215 SYN001-002163 Placebo SD PCHG=7.00 (7.0) DISP=7.00 (7.0) AVAL=94.0 CHG=6.0
+    216 SYN001-002223 Placebo SD PCHG=7.00 (7.0) DISP=7.00 (7.0) AVAL=52.0 CHG=3.0
+    217 SYN001-004027 Placebo SD PCHG=8.00 (8.0) DISP=8.00 (8.0) AVAL=67.0 CHG=5.0
+    218 SYN001-001108 Placebo SD PCHG=8.00 (8.0) DISP=8.00 (8.0) AVAL=64.0 CHG=5.0
+    219 SYN001-003020 Placebo SD PCHG=9.00 (9.0) DISP=9.00 (9.0) AVAL=81.0 CHG=7.0
+    220 SYN001-002085 Placebo SD PCHG=9.00 (9.0) DISP=9.00 (9.0) AVAL=60.0 CHG=5.0
+    221 SYN001-001102 Placebo SD PCHG=9.00 (9.0) DISP=9.00 (9.0) AVAL=70.0 CHG=6.0
+    222 SYN001-003176 Placebo SD PCHG=9.00 (9.0) DISP=9.00 (9.0) AVAL=90.0 CHG=8.0
+
+  Data cutoff: [DDMONYYYY].
+  Source: ADaM datasets (ADTR PARAMCD=BPCHG joined to ADSL EFFFL=Y).
+  See f_waterfall.png for figure and f_waterfall.csv for plotted data.

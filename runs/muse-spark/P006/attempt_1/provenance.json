@@ -1,0 +1,69 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P006",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T15:30:36",
+ "agent_commit": "ea9ec024216430eec6b2658819ecea47deb782c6",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 2531,
+  "output_tokens": 8906,
+  "reasoning_tokens": 5023,
+  "finish_reason": "stop",
+  "seconds": 50.7
+ },
+ "inputs": {
+  "prompt_translate.md": "4f5bf3e34ab26fdbd1b90c9955a8dfbc0bf5337824a411d5a8c45509bc4ed965"
+ },
+ "model_output": {
+  "response.md": "b92ca68935239b623c6ce2856dbcf058070817184ccec9f8a64c69221f5e2ab0",
+  "script.R": "8ae7bc2904daa0d136c6e7ab34056522a30ba8390d695f6695c8c8f743d5a507"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.4,
+  "timed_out": false,
+  "log_sha256": "fbce7816a078676ae22164f8f7d50d52b5e4b65274f88804e1667dd75df70cc5"
+ },
+ "r_outputs": {
+  "adsl.csv": "120d125f0caa9cc9c2304dc5425242f2e0dc88597cf255c233af719a49ebe22b",
+  "P006.csv": "0d3897f598d3d9849526bf965c517ed51dac9b86f782acd4043fb96ed7e61d04",
+  "P006.lst": "586abba847140e70da74fc2e51b3f60bbf725862d6cd86a8f66534f50cc3410d",
+  "P006.txt": "586abba847140e70da74fc2e51b3f60bbf725862d6cd86a8f66534f50cc3410d"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P006.lst",
+   "sha256": "6d156c95a5928f7a29a887c596ec601e6b05b8511abe1b90f2a4de82f76b0f00",
+   "frozen_sha256": "6d156c95a5928f7a29a887c596ec601e6b05b8511abe1b90f2a4de82f76b0f00",
+   "ok": true
+  },
+  {
+   "file": "datasets/P006/adsl.sas7bdat",
+   "sha256": "294143f4490791da4300aef403734499d40e633ad4c7eaddff2025dec713dd9e",
+   "frozen_sha256": "294143f4490791da4300aef403734499d40e633ad4c7eaddff2025dec713dd9e",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

@@ -1,0 +1,6 @@
+sandbox: docker run --rm --name sas2r-2d5f955dc444 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P018\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Reading raw vitals: /bench/data/derived/c2c/data/raw/raw_vitals.csv 
+Raw rows: 132  cols: PT_ID,VISIT,VISIT_NUM,VS_DATE,SYS_BP,DIA_BP,HR_BPM,WEIGHT_KG 
+SDTM VS rows: 528 
+[1] TRUE
+Wrote /work/out/vs.csv and /work/out/P018.txt and /work/out/P018.lst 

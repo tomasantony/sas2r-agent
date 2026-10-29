@@ -1,0 +1,35 @@
+sandbox: docker run --rm --name sas2r-325651cf9061 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P073\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+P073 exposure: starting
+Reading  /bench/data/raw/own-synthetic/adam/adsl.sas7bdat 
+              TRTA bign
+1 Drug X High Dose   63
+2  Drug X Low Dose   82
+3          Placebo   95
+Total: 240 
+   block                     category ord                 stat         col1
+1      1 Duration of Treatment (days)   1                    n           95
+2      1 Duration of Treatment (days)   2                 Mean       158.78
+3      1 Duration of Treatment (days)   3                   SD        34.79
+4      1 Duration of Treatment (days)   4               Median        171.0
+5      1 Duration of Treatment (days)   5               Q1, Q3 169.0, 173.0
+6      1 Duration of Treatment (days)   6             Min, Max   9.0, 175.0
+7      2          Duration Categories 101            <=28 days      2 (2.1)
+8      2          Duration Categories 102     >28 to <=84 days      5 (5.3)
+9      2          Duration Categories 103    >84 to <=168 days      9 (9.5)
+10     2          Duration Categories 104   >168 to <=336 days    79 (83.2)
+11     2          Duration Categories 105            >336 days            0
+12     2          Duration Categories 106              Missing            0
+           col2         col3
+1            82           63
+2        163.00       162.98
+3         24.81        28.46
+4         172.0        172.0
+5  169.0, 173.0 170.0, 174.0
+6   62.0, 175.0   6.0, 175.0
+7             0      1 (1.6)
+8       3 (3.7)            0
+9       8 (9.8)      6 (9.5)
+10    71 (86.6)    56 (88.9)
+11            0            0
+12            0            0
+Wrote /work/out/t_exposure.csv and /work/out/t_exposure.txt 

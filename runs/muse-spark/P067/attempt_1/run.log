@@ -1,0 +1,7 @@
+sandbox: docker run --rm --name sas2r-f87f06b1838d --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P067\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+P067 ae translation starting
+raw_ae path: /bench/data/derived/wxzhai/raw/raw_ae.sas7bdat
+dm path: /bench/data/derived/wxzhai/sdtm/dm.sas7bdat
+ae rows: 4 cols: 10
+raw_ae rows: 4
+done

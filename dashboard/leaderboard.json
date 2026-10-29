@@ -10,6 +10,14 @@
    "mean_iterations": 1.0,
    "input_tokens": 2225,
    "output_tokens": 2035,
+   "list_price_per_m": [
+    4.0,
+    20.0
+   ],
+   "cost_usd": 0.0496,
+   "cost_per_program_usd": 0.0496,
+   "cost_per_equivalent_usd": 0.0496,
+   "mean_seconds": 19.049646377563477,
    "model": "claude-opus-5-5"
   },
   "by_group": {
@@ -23,6 +31,14 @@
     "mean_iterations": 1.0,
     "input_tokens": 2225,
     "output_tokens": 2035,
+    "list_price_per_m": [
+     4.0,
+     20.0
+    ],
+    "cost_usd": 0.0496,
+    "cost_per_program_usd": 0.0496,
+    "cost_per_equivalent_usd": 0.0496,
+    "mean_seconds": 19.049646377563477,
     "model": "claude-opus-5-5"
    }
   },
@@ -50,6 +66,14 @@
    "mean_iterations": 2.0,
    "input_tokens": 22977,
    "output_tokens": 11353,
+   "list_price_per_m": [
+    0.15,
+    0.6
+   ],
+   "cost_usd": 0.01025835,
+   "cost_per_program_usd": 0.005129175,
+   "cost_per_equivalent_usd": 0.005129175,
+   "mean_seconds": 18.712982892990112,
    "model": "gpt-oss:120b"
   },
   "by_group": {
@@ -63,6 +87,14 @@
     "mean_iterations": 3.0,
     "input_tokens": 21534,
     "output_tokens": 8895,
+    "list_price_per_m": [
+     0.15,
+     0.6
+    ],
+    "cost_usd": 0.0085671,
+    "cost_per_program_usd": 0.0085671,
+    "cost_per_equivalent_usd": 0.0085671,
+    "mean_seconds": 27.687950611114502,
     "model": "gpt-oss:120b"
    },
    "general": {
@@ -75,6 +107,14 @@
     "mean_iterations": 1.0,
     "input_tokens": 1443,
     "output_tokens": 2458,
+    "list_price_per_m": [
+     0.15,
+     0.6
+    ],
+    "cost_usd": 0.00169125,
+    "cost_per_program_usd": 0.00169125,
+    "cost_per_equivalent_usd": 0.00169125,
+    "mean_seconds": 9.738015174865723,
     "model": "gpt-oss:120b"
    }
   },
@@ -103,40 +143,64 @@
  },
  "muse-spark": {
   "overall": {
-   "programs": 3,
+   "programs": 100,
    "translated_pct": 100.0,
    "runs_pct": 100.0,
    "produced_all_pct": 100.0,
-   "equivalent_pct": 100.0,
-   "mean_score": 1.0,
-   "mean_iterations": 1.6666666666666667,
-   "input_tokens": 17886,
-   "output_tokens": 51294,
+   "equivalent_pct": 84.0,
+   "mean_score": 0.9714305143665929,
+   "mean_iterations": 1.99,
+   "input_tokens": 1436055,
+   "output_tokens": 2355742,
+   "list_price_per_m": [
+    1.25,
+    4.25
+   ],
+   "cost_usd": 11.80697225,
+   "cost_per_program_usd": 0.11806972249999999,
+   "cost_per_equivalent_usd": 0.14055919345238094,
+   "mean_seconds": 108.50780300617218,
    "model": "muse-spark-1.3"
   },
   "by_group": {
    "clinical": {
-    "programs": 2,
+    "programs": 90,
     "translated_pct": 100.0,
     "runs_pct": 100.0,
     "produced_all_pct": 100.0,
-    "equivalent_pct": 100.0,
-    "mean_score": 1.0,
-    "mean_iterations": 2.0,
-    "input_tokens": 16509,
-    "output_tokens": 45457,
+    "equivalent_pct": 82.22222222222223,
+    "mean_score": 0.9684657706798622,
+    "mean_iterations": 2.077777777777778,
+    "input_tokens": 1382854,
+    "output_tokens": 2225397,
+    "list_price_per_m": [
+     1.25,
+     4.25
+    ],
+    "cost_usd": 11.186504750000001,
+    "cost_per_program_usd": 0.12429449722222223,
+    "cost_per_equivalent_usd": 0.1511689831081081,
+    "mean_seconds": 114.27021623452505,
     "model": "muse-spark-1.3"
    },
    "general": {
-    "programs": 1,
+    "programs": 10,
     "translated_pct": 100.0,
     "runs_pct": 100.0,
     "produced_all_pct": 100.0,
     "equivalent_pct": 100.0,
-    "mean_score": 1.0,
-    "mean_iterations": 1.0,
-    "input_tokens": 1377,
-    "output_tokens": 5837,
+    "mean_score": 0.9981132075471699,
+    "mean_iterations": 1.2,
+    "input_tokens": 53201,
+    "output_tokens": 130345,
+    "list_price_per_m": [
+     1.25,
+     4.25
+    ],
+    "cost_usd": 0.6204675,
+    "cost_per_program_usd": 0.06204675,
+    "cost_per_equivalent_usd": 0.06204675,
+    "mean_seconds": 56.6460839509964,
     "model": "muse-spark-1.3"
    }
   },
@@ -152,6 +216,26 @@
     "iterations": 2
    },
    {
+    "id": "P002",
+    "family": "pilot",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P003",
+    "family": "pilot",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 3
+   },
+   {
     "id": "P004",
     "family": "c2c",
     "translated": true,
@@ -162,7 +246,957 @@
     "iterations": 2
    },
    {
+    "id": "P005",
+    "family": "c2c",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P006",
+    "family": "c2c",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P007",
+    "family": "c2c",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 2
+   },
+   {
+    "id": "P008",
+    "family": "c2c",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P009",
+    "family": "c2c",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": false,
+    "best_score": 0.719261412575366,
+    "iterations": 3
+   },
+   {
+    "id": "P010",
+    "family": "c2c",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P011",
+    "family": "c2c",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 3
+   },
+   {
+    "id": "P012",
+    "family": "c2c",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P013",
+    "family": "c2c",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P014",
+    "family": "c2c",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 3
+   },
+   {
+    "id": "P015",
+    "family": "c2c",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 2
+   },
+   {
+    "id": "P016",
+    "family": "c2c",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 2
+   },
+   {
+    "id": "P017",
+    "family": "c2c",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 2
+   },
+   {
+    "id": "P018",
+    "family": "c2c",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": false,
+    "best_score": 0.9297785547785548,
+    "iterations": 3
+   },
+   {
+    "id": "P019",
+    "family": "c2c",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": false,
+    "best_score": 0.976923076923077,
+    "iterations": 3
+   },
+   {
+    "id": "P020",
+    "family": "c2c",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": false,
+    "best_score": 0.9155844155844156,
+    "iterations": 3
+   },
+   {
+    "id": "P021",
+    "family": "c2c",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P022",
+    "family": "faijal",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": false,
+    "best_score": 0.8828125,
+    "iterations": 3
+   },
+   {
+    "id": "P023",
+    "family": "faijal",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P024",
+    "family": "faijal",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 2
+   },
+   {
+    "id": "P025",
+    "family": "faijal",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 2
+   },
+   {
+    "id": "P026",
+    "family": "faijal",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": false,
+    "best_score": 0.9559178743961352,
+    "iterations": 3
+   },
+   {
+    "id": "P027",
+    "family": "faijal",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P028",
+    "family": "faijal",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": false,
+    "best_score": 0.9495192307692308,
+    "iterations": 3
+   },
+   {
+    "id": "P029",
+    "family": "faijal",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 3
+   },
+   {
+    "id": "P030",
+    "family": "faijal",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P031",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 3
+   },
+   {
+    "id": "P032",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 2
+   },
+   {
+    "id": "P033",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 3
+   },
+   {
+    "id": "P034",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 3
+   },
+   {
+    "id": "P035",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 0.9924242424242424,
+    "iterations": 2
+   },
+   {
+    "id": "P036",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": false,
+    "best_score": 0.9779874213836478,
+    "iterations": 3
+   },
+   {
+    "id": "P037",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": false,
+    "best_score": 0.863013698630137,
+    "iterations": 3
+   },
+   {
+    "id": "P038",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": false,
+    "best_score": 0.6666666666666666,
+    "iterations": 2
+   },
+   {
+    "id": "P039",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P040",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 0.9571045576407506,
+    "iterations": 3
+   },
+   {
+    "id": "P041",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P042",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 2
+   },
+   {
+    "id": "P043",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P044",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 2
+   },
+   {
+    "id": "P045",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 0.9605911330049262,
+    "iterations": 3
+   },
+   {
+    "id": "P046",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 2
+   },
+   {
+    "id": "P047",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 0.9920445505171042,
+    "iterations": 2
+   },
+   {
+    "id": "P048",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 3
+   },
+   {
+    "id": "P049",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P050",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 2
+   },
+   {
+    "id": "P051",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P052",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P053",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": false,
+    "best_score": 0.9465408805031447,
+    "iterations": 3
+   },
+   {
+    "id": "P054",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P055",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 0.999597423510467,
+    "iterations": 2
+   },
+   {
+    "id": "P056",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 3
+   },
+   {
+    "id": "P057",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 3
+   },
+   {
+    "id": "P058",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P059",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": false,
+    "best_score": 0.9166666666666666,
+    "iterations": 3
+   },
+   {
+    "id": "P060",
+    "family": "phuse",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P061",
+    "family": "sumit",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": false,
+    "best_score": 0.8982921704641073,
+    "iterations": 3
+   },
+   {
+    "id": "P062",
+    "family": "morioka",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P063",
+    "family": "morioka",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 2
+   },
+   {
+    "id": "P064",
+    "family": "wxzhai",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P065",
+    "family": "wxzhai",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P066",
+    "family": "wxzhai",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 2
+   },
+   {
+    "id": "P067",
+    "family": "wxzhai",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P068",
+    "family": "own-tlf",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 0.9819819819819819,
+    "iterations": 2
+   },
+   {
+    "id": "P069",
+    "family": "own-tlf",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": false,
+    "best_score": 0.9347826086956522,
+    "iterations": 3
+   },
+   {
+    "id": "P070",
+    "family": "own-tlf",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 0.96,
+    "iterations": 3
+   },
+   {
+    "id": "P071",
+    "family": "own-tlf",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 0.9714285714285714,
+    "iterations": 3
+   },
+   {
+    "id": "P072",
+    "family": "own-tlf",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 0.9829545454545454,
+    "iterations": 1
+   },
+   {
+    "id": "P073",
+    "family": "own-tlf",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 0.9516129032258065,
+    "iterations": 3
+   },
+   {
+    "id": "P074",
+    "family": "own-tlf",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": false,
+    "best_score": 0.9427230046948357,
+    "iterations": 3
+   },
+   {
+    "id": "P075",
+    "family": "own-tlf",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 0.9674074074074074,
+    "iterations": 1
+   },
+   {
+    "id": "P076",
+    "family": "own-tlf",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 0.9967660797700323,
+    "iterations": 1
+   },
+   {
+    "id": "P077",
+    "family": "own-tlf",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 3
+   },
+   {
+    "id": "P078",
+    "family": "own-tlf",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 0.9826923076923076,
+    "iterations": 1
+   },
+   {
+    "id": "P079",
+    "family": "own-tlf",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": false,
+    "best_score": 0.012345679012345678,
+    "iterations": 3
+   },
+   {
+    "id": "P080",
+    "family": "own-tlf",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 3
+   },
+   {
+    "id": "P081",
+    "family": "own-tlf",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 3
+   },
+   {
+    "id": "P082",
+    "family": "own-tlf",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 3
+   },
+   {
+    "id": "P083",
+    "family": "own-adam",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 0.9984615384615385,
+    "iterations": 2
+   },
+   {
+    "id": "P084",
+    "family": "own-adam",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 0.998212689901698,
+    "iterations": 3
+   },
+   {
+    "id": "P085",
+    "family": "own-adam",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 0.9973118279569892,
+    "iterations": 2
+   },
+   {
+    "id": "P086",
+    "family": "own-adam",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 0.9995929995929995,
+    "iterations": 2
+   },
+   {
+    "id": "P087",
+    "family": "own-adam",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 2
+   },
+   {
+    "id": "P088",
+    "family": "own-adam",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 0.9947368421052631,
+    "iterations": 1
+   },
+   {
+    "id": "P089",
+    "family": "own-adam",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 0.9983108108108107,
+    "iterations": 2
+   },
+   {
+    "id": "P090",
+    "family": "own-adam",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 0.9898710865561694,
+    "iterations": 3
+   },
+   {
     "id": "P091",
+    "family": "general",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P092",
+    "family": "general",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P093",
+    "family": "general",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P094",
+    "family": "general",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P095",
+    "family": "general",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P096",
+    "family": "general",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 0.9811320754716981,
+    "iterations": 1
+   },
+   {
+    "id": "P097",
+    "family": "general",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 3
+   },
+   {
+    "id": "P098",
+    "family": "general",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P099",
+    "family": "general",
+    "translated": true,
+    "runs": true,
+    "produced_all": true,
+    "equivalent": true,
+    "best_score": 1.0,
+    "iterations": 1
+   },
+   {
+    "id": "P100",
     "family": "general",
     "translated": true,
     "runs": true,
@@ -184,6 +1218,14 @@
    "mean_iterations": 2.5,
    "input_tokens": 20356,
    "output_tokens": 58488,
+   "list_price_per_m": [
+    1.25,
+    4.25
+   ],
+   "cost_usd": 0.274019,
+   "cost_per_program_usd": 0.1370095,
+   "cost_per_equivalent_usd": 0.1370095,
+   "mean_seconds": 92.67318916320801,
    "model": "meta-models/muse-spark-open-1026"
   },
   "by_group": {
@@ -197,6 +1239,14 @@
     "mean_iterations": 2.5,
     "input_tokens": 20356,
     "output_tokens": 58488,
+    "list_price_per_m": [
+     1.25,
+     4.25
+    ],
+    "cost_usd": 0.274019,
+    "cost_per_program_usd": 0.1370095,
+    "cost_per_equivalent_usd": 0.1370095,
+    "mean_seconds": 92.67318916320801,
     "model": "meta-models/muse-spark-open-1026"
    }
   },
@@ -234,6 +1284,14 @@
    "mean_iterations": 2.0,
    "input_tokens": 26223,
    "output_tokens": 25437,
+   "list_price_per_m": [
+    1.25,
+    4.25
+   ],
+   "cost_usd": 0.140886,
+   "cost_per_program_usd": 0.070443,
+   "cost_per_equivalent_usd": 0.070443,
+   "mean_seconds": 72.18248498439789,
    "model": "muse-spark-open"
   },
   "by_group": {
@@ -247,6 +1305,14 @@
     "mean_iterations": 3.0,
     "input_tokens": 24830,
     "output_tokens": 19332,
+    "list_price_per_m": [
+     1.25,
+     4.25
+    ],
+    "cost_usd": 0.11319850000000001,
+    "cost_per_program_usd": 0.11319850000000001,
+    "cost_per_equivalent_usd": 0.11319850000000001,
+    "mean_seconds": 117.04958605766296,
     "model": "muse-spark-open"
    },
    "general": {
@@ -259,6 +1325,14 @@
     "mean_iterations": 1.0,
     "input_tokens": 1393,
     "output_tokens": 6105,
+    "list_price_per_m": [
+     1.25,
+     4.25
+    ],
+    "cost_usd": 0.0276875,
+    "cost_per_program_usd": 0.0276875,
+    "cost_per_equivalent_usd": 0.0276875,
+    "mean_seconds": 27.315383911132812,
     "model": "muse-spark-open"
    }
   },

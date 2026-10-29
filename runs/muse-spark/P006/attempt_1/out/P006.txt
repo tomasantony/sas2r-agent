@@ -1,0 +1,18 @@
+ADSL Audit - Subject Level Analysis Dataset
+
+Dataset ADSL: 50 subjects; showing first 10 observations sorted by USUBJID
+
+Obs  USUBJID           TRT01P            TRT01A            ITTFL  SAFFL  AGE
+----------------------------------------------------------------------------
+1     CDISC-01-701-001  Active Drug 50mg  Active Drug 50mg  Y      Y      84 
+2     CDISC-01-701-004  Active Drug 50mg  Active Drug 50mg  Y      Y      80 
+3     CDISC-01-701-005  Placebo           Placebo           Y      Y      66 
+4     CDISC-01-701-006  Active Drug 50mg  Active Drug 50mg  Y      Y      73 
+5     CDISC-01-701-007  Active Drug 50mg  Active Drug 50mg  Y      Y      71 
+6     CDISC-01-701-011  Active Drug 50mg  Active Drug 50mg  Y      Y      69 
+7     CDISC-01-701-012  UNPLANNED         NOT TREATED       N      N      79 
+8     CDISC-01-701-016  Placebo           Placebo           Y      Y      82 
+9     CDISC-01-701-017  Active Drug 50mg  Active Drug 50mg  Y      Y      83 
+10    CDISC-01-701-028  Placebo           Placebo           Y      Y      83 
+
+N = 50 total subjects in ADSL

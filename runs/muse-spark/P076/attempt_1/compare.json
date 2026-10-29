@@ -1,0 +1,28 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.9967660797700323,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "l_ae.rtf",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9967660797700323,
+   "detail": {
+    "recall": 0.9967660797700323,
+    "expected": 2783,
+    "found": 2774,
+    "r_files": [
+     "l_ae.csv",
+     "l_ae.txt"
+    ],
+    "missing_examples": [
+     "27",
+     "15",
+     "47"
+    ]
+   }
+  }
+ ]
+}

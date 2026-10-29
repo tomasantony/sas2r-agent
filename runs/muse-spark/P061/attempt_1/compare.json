@@ -1,0 +1,180 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.032384632237349054,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P061.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.1025105736904891,
+   "detail": {
+    "recall": 0.1025105736904891,
+    "expected": 36884,
+    "found": 3781,
+    "r_files": [
+     "adam_adsl.csv",
+     "adam_adtte.csv",
+     "sdtm_dm.csv"
+    ],
+    "missing_examples": [
+     "2509",
+     "2026",
+     "560",
+     "65536",
+     "116",
+     "106",
+     "38384",
+     "7",
+     "9.0401",
+     "8",
+     "6",
+     "200"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "sasgraph.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sasgraph.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgplot.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot1.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgplot1.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot2.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgplot2.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot3.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgplot3.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot4.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgplot4.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot5.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgplot5.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot6.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgplot6.png"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "P061_t_oncology_report.pdf",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.12650338945987316,
+   "detail": {
+    "recall": 0.12650338945987316,
+    "expected": 9146,
+    "found": 1157,
+    "r_files": [
+     "adam_adsl.csv",
+     "adam_adtte.csv",
+     "sdtm_dm.csv"
+    ],
+    "missing_examples": [
+     "2498",
+     "60.4203",
+     "13.033",
+     "2509",
+     "1.34",
+     "630",
+     "35.23",
+     "654",
+     "36.58",
+     "979",
+     "91.33",
+     "8.05"
+    ]
+   }
+  },
+  {
+   "kind": "text",
+   "name": "P061_f_oncology_graphs.pdf",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.12721699146047732,
+   "detail": {
+    "recall": 0.12721699146047732,
+    "expected": 9134,
+    "found": 1162,
+    "r_files": [
+     "adam_adsl.csv",
+     "adam_adtte.csv",
+     "sdtm_dm.csv"
+    ],
+    "missing_examples": [
+     "800",
+     "1981",
+     "1980",
+     "0.1",
+     "0.9995",
+     "0.000505",
+     "1979",
+     "0.767",
+     "1978",
+     "1.233",
+     "1977",
+     "1.267"
+    ]
+   }
+  }
+ ]
+}

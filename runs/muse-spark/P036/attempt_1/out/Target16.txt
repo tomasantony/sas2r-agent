@@ -1,0 +1,13 @@
+Treatment Emergent High Table (advsmax3: CRIT1FL non-missing, n = (orig row mod 17 = 1))
+Fisher exact (TRTPN*n) two-sided p = 1.0000
+
+TRTPN    Nx       n        %        FishersP  
+0        84       5        500.0    1.0000    
+54       84       5        500.0              
+81       82       5        500.0              
+
+Reference limits: mean ANRLO=60.00 mean ANRHI=90.00 Min AVAL=41 Max AVAL=90
+Y-axis: MIN=40 MAX=100 BY=10
+Scatter Plot: Includes subjects with both a baseline and a post-baseline measure.
+N=number of subjects with at least one post-baseline measure; Nx=number of subjects with maximum baseline either normal or low and have at least one post-baseline measure.
+Summary tables used the reference limits set 1 (Male, Age 18-65, LLN 60.0 mmol/L ULN 90.0 mmol/L) set 2 (Female, Age 18-65, LLN=60.0 mmol/L ULN=90.0 mmol/L).

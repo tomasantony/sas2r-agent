@@ -1,0 +1,9 @@
+sandbox: docker run --rm --name sas2r-6a046d8718a7 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P026\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading inputs...
+edc_lb rows=6 cols=SUBJID,TESTCD,CAT,ORRES,UNIT,VISIT,LBDT,LOW,HIGH
+Preparing DM reference...
+edc_ex cols=SUBJID,VISIT,TRT,DOSE,UNIT,STDT,ENDT,LOT,ROUTE,FREQ,FORM,ADJ,ADJRS
+dm_for_lb rows=5
+Error in `?`(is_first <- is.na(cur) || is.na(u) && is.na(cur), FALSE:FALSE) : 
+  no documentation of type ‘TRUE’ and topic ‘FALSE:FALSE’ (or error in processing help)
+Execution halted

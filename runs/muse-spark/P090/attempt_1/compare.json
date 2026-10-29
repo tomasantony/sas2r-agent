@@ -1,0 +1,55 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P090.lst",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 362,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "11",
+     "38",
+     "9",
+     "0",
+     "10",
+     "27",
+     "2026",
+     "15",
+     "59",
+     "3",
+     "808",
+     "64"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adcm",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "adcm.csv"
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adsl",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "adsl.csv"
+   }
+  }
+ ]
+}

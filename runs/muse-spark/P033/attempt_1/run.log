@@ -1,0 +1,24 @@
+sandbox: docker run --rm --name sas2r-eb247d8514f0 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P033\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADSL and ADPC XPT
+Using columns: USUBJID, PARCAT1, EACTM, AVAL
+Error in `arrange()`:
+ℹ In argument: `..3 = is.na(.data[["EACTM"]] | .data[[".EACTM_num"]])`.
+Caused by error in `.data[["EACTM"]] | .data[[".EACTM_num"]]`:
+! operations are possible only for numeric, logical or complex types
+Backtrace:
+     ▆
+  1. ├─work_adpc %>% ...
+  2. ├─dplyr::arrange(...)
+  3. ├─dplyr:::arrange.data.frame(...)
+  4. │ └─dplyr:::arrange_rows(.data, dots = dots, locale = .locale)
+  5. │   ├─dplyr::mutate(data, `:=`("{name}", !!dot), .keep = "none")
+  6. │   └─dplyr:::mutate.data.frame(data, `:=`("{name}", !!dot), .keep = "none")
+  7. │     └─dplyr:::mutate_cols(.data, dplyr_quosures(...), by)
+  8. │       ├─base::withCallingHandlers(...)
+  9. │       └─dplyr:::mutate_col(dots[[i]], data, mask, new_columns)
+ 10. │         └─mask$eval_all_mutate(quo)
+ 11. │           └─dplyr (local) eval()
+ 12. └─base::.handleSimpleError(...)
+ 13.   └─dplyr (local) h(simpleError(msg, call))
+ 14.     └─rlang::abort(message, class = error_class, parent = parent, call = error_call)
+Execution halted

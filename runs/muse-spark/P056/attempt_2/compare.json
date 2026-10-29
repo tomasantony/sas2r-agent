@@ -1,0 +1,40 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.8493150684931506,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P056.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.8493150684931506,
+   "detail": {
+    "recall": 0.8493150684931506,
+    "expected": 146,
+    "found": 124,
+    "r_files": [
+     "P056.csv",
+     "P056.lst.txt",
+     "P056.txt",
+     "P056_lst.csv",
+     "P056_table_vals.csv"
+    ],
+    "missing_examples": [
+     "100",
+     "1.3369",
+     "0.5125",
+     "1.2978",
+     "0.5226",
+     "1.0217",
+     "0.3121",
+     "0.0733",
+     "0.0731",
+     "0.0208",
+     "1.5773",
+     "0.4545"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.943939393939394,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P029.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9545454545454546,
+   "detail": {
+    "recall": 0.9545454545454546,
+    "expected": 44,
+    "found": 42,
+    "r_files": [
+     "P029.csv",
+     "P029.txt",
+     "tu.csv"
+    ],
+    "missing_examples": [
+     "-3"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "tu",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark\\P029\\attempt_2\\out\\tu.csv",
+   "status": "mismatch",
+   "score": 0.9333333333333333,
+   "detail": {
+    "rows_sas": 4,
+    "rows_r": 4,
+    "cols_sas": 15,
+    "cols_r": 15,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.9333333333333333,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(TUSTDY, 1, -3, nan)",
+     "(TUSTDY, 2, -5, nan)",
+     "(TUSTDY, 3, -5, nan)",
+     "(TUSTDY, 4, -3, nan)"
+    ],
+    "worst_columns": {
+     "TUSTDY": 4
+    }
+   }
+  }
+ ]
+}

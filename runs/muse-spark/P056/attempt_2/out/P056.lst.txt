@@ -1,0 +1,88 @@
+Vital Signs
+Treatment-Emergent Abnormal High or Low at Any Time
+
+The FREQ Procedure
+
+Table of TRTPN by CRIT1FL
+Abnormality Direction: Low
+PARAM: Diastolic Blood Pressure (mmHg)
+
+TRTPN      CRIT1FL Frequency  Percent    Row Pct    Col Pct   
+------------------------------------------------------------
+0          N      77         30.92      92.77      34.07     
+54         N      77         30.92      91.67      34.07     
+81         N      72         28.92      87.80      31.86     
+0          Y      6          2.41       7.23       26.09     
+54         Y      7          2.81       8.33       30.43     
+81         Y      10         4.02       12.20      43.48     
+------------------------------------------------------------
+Total Frequency = 249
+Missing Frequency = 0
+
+TRTPN=0 Total = 83 Percent = 33.33
+TRTPN=54 Total = 84 Percent = 33.73
+TRTPN=81 Total = 82 Percent = 32.93
+CRIT1FL=N Total = 226 Percent = 90.76
+CRIT1FL=Y Total = 23 Percent = 9.24
+
+Fisher's Exact Test
+Table Probability (P) = 53.76
+Pr <= P = 0.5375936109
+Two-sided Pr <= P (XP2_FISH) = 0.5375936109
+P-value (pvalue5.3) = 0.538
+P-value (4 decimals) = 0.5376
+P-value (2 decimals) = 0.54
+
+Table of TRTPN by CRIT2FL
+Abnormality Direction: High
+PARAM: Diastolic Blood Pressure (mmHg)
+
+TRTPN      CRIT2FL Frequency  Percent    Row Pct    Col Pct   
+------------------------------------------------------------
+0          N      70         28.11      84.34      32.56     
+54         N      71         28.51      84.52      33.02     
+81         N      74         29.72      90.24      34.42     
+0          Y      13         5.22       15.66      38.24     
+54         Y      13         5.22       15.48      38.24     
+81         Y      8          3.21       9.76       23.53     
+------------------------------------------------------------
+Total Frequency = 249
+Missing Frequency = 0
+
+TRTPN=0 Total = 83 Percent = 33.33
+TRTPN=54 Total = 84 Percent = 33.73
+TRTPN=81 Total = 82 Percent = 32.93
+CRIT2FL=N Total = 215 Percent = 86.35
+CRIT2FL=Y Total = 34 Percent = 13.65
+
+Fisher's Exact Test
+Table Probability (P) = 47.01
+Pr <= P = 0.4701151201
+Two-sided Pr <= P (XP2_FISH) = 0.4701151201
+P-value (pvalue5.3) = 0.470
+P-value (4 decimals) = 0.4701
+P-value (2 decimals) = 0.47
+
+Vital Signs - Treatment-Emergent Abnormal High or Low at Any Time (PROC REPORT)
+
+Vital Sign                          Abnormality  Treatment    N      n      (%)      P value*
+(unit)                              Direction                                                
+---------------------------------------------------------------------------------------------
+Diastolic Blood Pressure (mmHg)     Low          0            83     6.00000000000 (7.2)    0.538   
+  Detail: N=83 n=6 pct_1dec=7.2 pct_2dec=7.23 rowpct=7.23 colpct=7.23 p_raw=0.5375936109 p_3dec=0.538 p_4dec=0.5376
+Diastolic Blood Pressure (mmHg)     Low          54           84     7.00000000000 (8.3)            
+  Detail: N=84 n=7 pct_1dec=8.3 pct_2dec=8.33 rowpct=8.33 colpct=8.33 p_raw=0.5375936109 p_3dec=0.538 p_4dec=0.5376
+Diastolic Blood Pressure (mmHg)     Low          81           82     10.0000000000 (12.2)           
+  Detail: N=82 n=10 pct_1dec=12.2 pct_2dec=12.20 rowpct=12.20 colpct=12.20 p_raw=0.5375936109 p_3dec=0.538 p_4dec=0.5376
+Diastolic Blood Pressure (mmHg)     High         0            83     13.0000000000 (15.7)   0.470   
+  Detail: N=83 n=13 pct_1dec=15.7 pct_2dec=15.66 rowpct=15.66 colpct=15.66 p_raw=0.4701151201 p_3dec=0.470 p_4dec=0.4701
+Diastolic Blood Pressure (mmHg)     High         54           84     13.0000000000 (15.5)           
+  Detail: N=84 n=13 pct_1dec=15.5 pct_2dec=15.48 rowpct=15.48 colpct=15.48 p_raw=0.4701151201 p_3dec=0.470 p_4dec=0.4701
+Diastolic Blood Pressure (mmHg)     High         81           82     8.00000000000 (9.8)            
+  Detail: N=82 n=8 pct_1dec=9.8 pct_2dec=9.76 rowpct=9.76 colpct=9.76 p_raw=0.4701151201 p_3dec=0.470 p_4dec=0.4701
+---------------------------------------------------------------------------------------------
+
+  Abbreviations:  N = number of patients with a normal (i.e., not low if calculating `low` and not high if calculating `high`)
+  baseline and at least one post-baseline measure, n = number of patients wtih an abnormal post-baseline result in the
+  specified category.
+  *P values are from Fisher's Exact test.

@@ -1,0 +1,34 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "sct1.htm",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 0,
+    "found": 0,
+    "r_files": [
+     "sct1.csv",
+     "sct1.txt",
+     "sct1_plotdata.csv"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "sct1.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark\\P092\\attempt_1\\out\\sct1.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  }
+ ]
+}

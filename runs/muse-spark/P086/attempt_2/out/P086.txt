@@ -1,0 +1,113 @@
+The SAS System 9.0401M7P08052020                              Thursday, October 29, 2026 03:15 PM
+
+The CONTENTS Procedure
+
+Data Set Name        WORK.ADTTE                  Observations          18
+Member Type          DATA                        Variables             22
+Engine               V9                          Indexes               0
+Created              27OCT2026:15:10:27          Observation Length    824
+Last Modified        27OCT2026:15:10:27          Deleted Observations  0
+Protection                                       Compressed            NO
+Data Set Type                                    Sorted                YES
+Label
+Data Representation  WINDOWS_64
+Encoding             utf-8  Unicode (UTF-8)
+
+Engine/Host Dependent Information
+
+Data Set Page Size          69632
+Number of Data Set Pages    2
+First Data Page             1
+Max Obs per Page            84
+Obs in First Data Page      16
+Number of Data Set Repairs  0
+File Name                   WORK.ADTTE
+Release Created             9.0401M7P08052020
+Host Created                X64_10PRO
+Data Set Size               35248
+
+Sortedby Variables: STUDYID USUBJID PARAMN
+Validated: YES  Character Set: ANSI
+
+Variables in Creation Order
+
+#    Variable    Type    Len    Format      Informat    Label
+--   --------    ----    ---    ------      --------    -----
+1    STUDYID     Char   12                            Study Identifier
+2    USUBJID     Char   20                            Unique Subject Identifier
+3    TRTP        Char   40                            Planned Treatment
+4    TRTPN       Num    8                             Planned Treatment (N)
+5    AGE         Num    8                             Age
+6    AGEGR1      Char   10                            Age Group
+7    SEX         Char   1                             Sex
+8    RACE        Char   50                            Race
+9    SAFFL       Char   1                             Safety Population Flag
+10   ITTFL       Char   1                             Intent-to-Treat Population Flag
+11   PARAMCD     Char   8                             Parameter Code
+12   PARAM       Char   200                           Parameter
+13   PARAMN      Num    8                             Parameter (N)
+14   STARTDT     Num    8     DATE9.      DATE9.      Time-to-Event Origin Date
+15   ADT         Num    8     DATE9.      DATE9.      Analysis Date
+16   AVAL        Num    8                             Analysis Value
+17   CNSR        Num    8                             Censor
+18   EVNTDESC    Char   200                           Event Description
+19   CNSDTDSC    Char   200                           Censor Description
+20   SRCDOM      Char   8                             Source Domain
+21   AVAL_M      Num    8                             Analysis Value (Months)
+22   ASEQ        Num    8                             Analysis Sequence Number
+
+The SAS System 9.0401M7P08052020                              Thursday, October 29, 2026 03:15 PM
+
+PROC PRINT Data Set WORK.ADTTE (noobs)
+
+STUDYID  USUBJID       TRTP         TRTPN AGE AGEGR1 S RACE   S I PARAMCD PARAM                            PARAMN STARTDT   ADT        AVAL CNSR EVNTDESC             CNSDTDSC                         SRCDOM AVAL_M       ASEQ
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+STUDY01  STUDY01-1001  Treatment A      1  59 <65    M WHITE  Y Y PFS     Progression-Free Survival (Days)      1 15JAN2024 15JUN2024   153    1                      Censored - No progression or death ADSL   5.02669404517    1
+STUDY01  STUDY01-1001  Treatment A      1  59 <65    M WHITE  Y Y OS      Overall Survival (Days)               2 15JAN2024 15JUN2024   153    1                      Censored - Alive                 ADSL   5.02669404517    2
+STUDY01  STUDY01-1001  Treatment A      1  59 <65    M WHITE  Y Y TTR     Time to Response (Days)               3 15JAN2024 15JUN2024   153    1                      Censored - No response                  5.02669404517    3
+STUDY01  STUDY01-1002  Placebo          2  45 <65    F BLACK  Y Y PFS     Progression-Free Survival (Days)      1 18JAN2024 20MAY2024   124    0 Disease Progression                                   RS     4.07392197125    1
+STUDY01  STUDY01-1002  Placebo          2  45 <65    F BLACK  Y Y OS      Overall Survival (Days)               2 18JAN2024 18JUN2024   153    1                      Censored - Alive                 ADSL   5.02669404517    2
+STUDY01  STUDY01-1002  Placebo          2  45 <65    F BLACK  Y Y TTR     Time to Response (Days)               3 18JAN2024 18JUN2024   153    1                      Censored - No response                  5.02669404517    3
+STUDY01  STUDY01-1003  Treatment A      1  43 <65    M ASIAN  Y Y PFS     Progression-Free Survival (Days)      1 20JAN2024 25MAR2024    66    0 Disease Progression                                   RS     2.16837782341    1
+STUDY01  STUDY01-1003  Treatment A      1  43 <65    M ASIAN  Y Y OS      Overall Survival (Days)               2 20JAN2024 15APR2024    87    0 Death                                                 ADSL   2.85831622177    2
+STUDY01  STUDY01-1003  Treatment A      1  43 <65    M ASIAN  Y Y TTR     Time to Response (Days)               3 20JAN2024 20FEB2024    32    0 Response                                                     1.05133470226    3
+STUDY01  STUDY01-1004  Treatment A      1  51 <65    F WHITE  Y Y PFS     Progression-Free Survival (Days)      1 25JAN2024 25JUN2024   153    1                      Censored - No progression or death ADSL   5.02669404517    1
+STUDY01  STUDY01-1004  Treatment A      1  51 <65    F WHITE  Y Y OS      Overall Survival (Days)               2 25JAN2024 25JUN2024   153    1                      Censored - Alive                 ADSL   5.02669404517    2
+STUDY01  STUDY01-1004  Treatment A      1  51 <65    F WHITE  Y Y TTR     Time to Response (Days)               3 25JAN2024 25MAR2024    61    0 Response                                                     2.00410677618    3
+STUDY01  STUDY01-1005  Placebo          2  36 <65    M ASIAN  Y Y PFS     Progression-Free Survival (Days)      1 28JAN2024 15JUL2024   170    1                      Censored - No progression or death ADSL   5.58521560575    1
+STUDY01  STUDY01-1005  Placebo          2  36 <65    M ASIAN  Y Y OS      Overall Survival (Days)               2 28JAN2024 15JUL2024   170    1                      Censored - Alive                 ADSL   5.58521560575    2
+STUDY01  STUDY01-1005  Placebo          2  36 <65    M ASIAN  Y Y TTR     Time to Response (Days)               3 28JAN2024 15JUL2024   170    1                      Censored - No response                  5.58521560575    3
+STUDY01  STUDY01-1006  Treatment A      1  68 >=65   F WHITE  Y Y PFS     Progression-Free Survival (Days)      1 30JAN2024 01JUL2024   154    1                      Censored - No progression or death ADSL   5.05954825462    1
+STUDY01  STUDY01-1006  Treatment A      1  68 >=65   F WHITE  Y Y OS      Overall Survival (Days)               2 30JAN2024 01JUL2024   154    1                      Censored - Alive                 ADSL   5.05954825462    2
+STUDY01  STUDY01-1006  Treatment A      1  68 >=65   F WHITE  Y Y TTR     Time to Response (Days)               3 30JAN2024 30APR2024    92    0 Response                                                     3.02258726899    3
+
+Summary Statistics by Parameter (PROC MEANS)
+-------------------------------------------
+PARAMCD=OS N=6 Events=1 Censored=5 Mean AVAL=145 Mean AVAL_M=4.76386036961 Min=87 Max=170
+PARAMCD=PFS N=6 Events=2 Censored=4 Mean AVAL=136.666666667 Mean AVAL_M=4.4900752909 Min=66 Max=170
+PARAMCD=TTR N=6 Events=3 Censored=3 Mean AVAL=110.166666667 Mean AVAL_M=3.61943874059 Min=32 Max=170
+
+Appendix: SAS Date Numeric Values (days since 01JAN1960) and AVAL_M derivation
+AVAL_M = AVAL / 30.4375  (average days per month = 365.25 / 12)
+STUDY01-1001 PFS STARTDT=15JAN2024 (23390) ADT=15JUN2024 (23542) AVAL=153 AVAL_M=5.02669404517
+STUDY01-1001 OS STARTDT=15JAN2024 (23390) ADT=15JUN2024 (23542) AVAL=153 AVAL_M=5.02669404517
+STUDY01-1001 TTR STARTDT=15JAN2024 (23390) ADT=15JUN2024 (23542) AVAL=153 AVAL_M=5.02669404517
+STUDY01-1002 PFS STARTDT=18JAN2024 (23393) ADT=20MAY2024 (23516) AVAL=124 AVAL_M=4.07392197125
+STUDY01-1002 OS STARTDT=18JAN2024 (23393) ADT=18JUN2024 (23545) AVAL=153 AVAL_M=5.02669404517
+STUDY01-1002 TTR STARTDT=18JAN2024 (23393) ADT=18JUN2024 (23545) AVAL=153 AVAL_M=5.02669404517
+STUDY01-1003 PFS STARTDT=20JAN2024 (23395) ADT=25MAR2024 (23460) AVAL=66 AVAL_M=2.16837782341
+STUDY01-1003 OS STARTDT=20JAN2024 (23395) ADT=15APR2024 (23481) AVAL=87 AVAL_M=2.85831622177
+STUDY01-1003 TTR STARTDT=20JAN2024 (23395) ADT=20FEB2024 (23426) AVAL=32 AVAL_M=1.05133470226
+STUDY01-1004 PFS STARTDT=25JAN2024 (23400) ADT=25JUN2024 (23552) AVAL=153 AVAL_M=5.02669404517
+STUDY01-1004 OS STARTDT=25JAN2024 (23400) ADT=25JUN2024 (23552) AVAL=153 AVAL_M=5.02669404517
+STUDY01-1004 TTR STARTDT=25JAN2024 (23400) ADT=25MAR2024 (23460) AVAL=61 AVAL_M=2.00410677618
+STUDY01-1005 PFS STARTDT=28JAN2024 (23403) ADT=15JUL2024 (23572) AVAL=170 AVAL_M=5.58521560575
+STUDY01-1005 OS STARTDT=28JAN2024 (23403) ADT=15JUL2024 (23572) AVAL=170 AVAL_M=5.58521560575
+STUDY01-1005 TTR STARTDT=28JAN2024 (23403) ADT=15JUL2024 (23572) AVAL=170 AVAL_M=5.58521560575
+STUDY01-1006 PFS STARTDT=30JAN2024 (23405) ADT=01JUL2024 (23558) AVAL=154 AVAL_M=5.05954825462
+STUDY01-1006 OS STARTDT=30JAN2024 (23405) ADT=01JUL2024 (23558) AVAL=154 AVAL_M=5.05954825462
+STUDY01-1006 TTR STARTDT=30JAN2024 (23405) ADT=30APR2024 (23496) AVAL=92 AVAL_M=3.02258726899
+
+NOTE: Data set WORK.ADTTE has 18 observations and 22 variables.
+NOTE: PROCEDURE CONTENTS used (Total process time): real time 0.10 seconds cpu time 0.09 seconds
+NOTE: PROCEDURE PRINT used (Total process time): real time 0.15 seconds cpu time 0.12 seconds

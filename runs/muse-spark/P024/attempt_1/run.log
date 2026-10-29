@@ -1,0 +1,17 @@
+sandbox: docker run --rm --name sas2r-1952c4da6077 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P024\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+P024 DS mapping - start
+Reading edc_ds
+edc_ds cols: SUBJID, DS_TERM, DS_CAT, DS_DT
+Using cols SUBJID=SUBJID TERM=DS_TERM CAT=DS_CAT DT=DS_DT
+Locating sdtm_dm
+No oncology DM found - deriving dm_for_ds from raw edc files
+edc_dm cols: SUBJID, BRTHDT, GENDER, RACE, ETHNIC, RFICDT, SITE
+edc_death cols: SUBJID, DTH_DT, DTH_CAUSE
+edc_ex cols: SUBJID, VISIT, TRT, DOSE, UNIT, STDT, ENDT, LOT, ROUTE, FREQ, FORM, ADJ, ADJRS
+edc_dm RF col: RFICDT
+edc_ex cols used: subj=SUBJID dt=STDT
+edc_death cols used: subj=SUBJID dt=DTH_DT
+dm_for_ds n=5
+sdtm_ds n=5
+[1] TRUE
+Done

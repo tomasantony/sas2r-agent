@@ -1,0 +1,28 @@
+sandbox: docker run --rm --name sas2r-a40e8131107b --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P020\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Reading ADTTE...
+Found: /bench/data/derived/c2c/data/adam/adtte.sas7bdat 
+ADTTE dims: 47 12 
+N with non-missing AVAL: 47 
+# A tibble: 4 × 4
+  TRT01A            CNSR EVENT     n
+  <chr>            <dbl> <dbl> <int>
+1 Active Drug 50mg     0     1    12
+2 Active Drug 50mg     1     0     9
+3 Placebo              0     1    15
+4 Placebo              1     0    11
+Strata levels:
+[1] "Active Drug 50mg" "Placebo"         
+Error in data.frame(STRATUM = rep(names(summ$strata), times = summ$strata),  : 
+  arguments imply differing number of rows: 0, 24
+Execution halted

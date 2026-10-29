@@ -1,0 +1,10 @@
+sandbox: docker run --rm --name sas2r-a547a09bef0d --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P014\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+Reading: /bench/data/derived/c2c/data/raw/raw_exposure.csv 
+Raw rows: 47  cols: PATIENT,TREATMENT,DOSE,UNIT,START_DATE,END_DATE 
+  PATIENT        TREATMENT DOSE UNIT START_DATE   END_DATE
+1 701-001 Active Drug 50mg   50   mg 17/01/2023 09/04/2023
+2 703-002          Placebo    0   mg 25/01/2023 18/04/2023
+3 704-003          Placebo    0   mg 30/01/2023 21/04/2023
+4 701-004 Active Drug 50mg   50   mg 05/01/2023 27/03/2023
+5 701-005          Placebo    0   mg 10/01/2023 06/02/2023
+Done. EX rows: 47  audit rows: 10 

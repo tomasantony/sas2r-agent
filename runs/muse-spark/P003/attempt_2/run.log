@@ -1,0 +1,25 @@
+sandbox: docker run --rm --name sas2r-4e0c2668bee8 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P003\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADSL, ADAE
+Reading ADSL from /bench/data/derived/cdisc-pilot/adam/ADSL.sas7bdat 
+Reading ADAE from /bench/data/derived/cdisc-pilot/adam/ADAE.sas7bdat 
+DENOM:
+# A tibble: 3 × 2
+  TRTAN DENOM
+  <dbl> <int>
+1     0    86
+2    54    84
+3    81    84
+TRTAN values:
+[1]  0 54 81
+Serious TEAE records: 3
+RESULTSUB:
+  TRTAN count DENOM events SUMMARYLEVEL      PCT PCT_DISP       RESULT
+1    54     1    84      1            1 1.190476      1.2 1 (1.2%) [1]
+2    81     2    84      2            1 2.380952      2.4 2 (2.4%) [2]
+Subject Fisher SAS-faithful high vs pbo: 1  low vs pbo: 1 
+Subject Fisher actual high vs pbo: 0.2426732  low vs pbo: 0.4941176 
+FINAL rows: 4
+Wrote /work/out/P003.csv
+Wrote /work/out/P003.txt
+Wrote /work/out/P003.lst
+Done

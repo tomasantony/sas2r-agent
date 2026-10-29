@@ -1,0 +1,390 @@
+[Sponsor Name]    Page 1 of 3
+Protocol: [Protocol Number]
+
+Listing 16.2.7.1
+Listing of Adverse Events
+Safety Analysis Set
+
+Treatment | Subject ID | System Organ Class | Preferred Term | Verbatim Term | Start Date | End Date | CTCAE Grade | Severity | SAE | Relationship | Action Taken | Outcome
+--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
+Drug X High Dose | SYN001-001012 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-04-25 | 2025-05-05 | 3 | Moderate | No | Y | Drug Interrupted | Resolved
+ |  | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-05-24 | 2025-05-30 | 3 | Severe | No | Y | Dose Not Changed | Resolved
+ | SYN001-001066 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-06-04 | 2025-06-14 | 4 | Severe | No | N | Drug Withdrawn | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-07-09 | 2025-07-19 | 1 | Mild | No | Y | Drug Withdrawn | Resolved
+ |  | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-09-02 | 2025-09-16 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-001084 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-08-29 | 2025-09-13 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-001126 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-04-08 | 2025-04-10 | 3 | Severe | No | N | Dose Reduced | Not Resolved
+ |  | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-05-28 | 2025-05-29 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-06-03 | 2025-06-19 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-001198 | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-06-13 | 2025-06-28 | 1 | Mild | No | Y | Dose Reduced | Resolved
+ | SYN001-001216 | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-05-05 | 2025-05-10 | 1 | Mild | No | Y | Dose Reduced | Resolved
+ |  | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-07-02 | 2025-07-04 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-002091 | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-05-11 | 2025-05-20 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-002139 | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-10-01 | 2025-10-16 | 1 | Mild | No | Y | Drug Interrupted | Resolved
+ | SYN001-002181 | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-06-05 | 2025-06-14 | 2 | Moderate | No | N | Dose Not Changed | Not Resolved
+ | SYN001-002217 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-07-20 | 2025-07-24 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-002229 | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-05-09 | 2025-05-11 | 3 | Severe | No | Y | Dose Not Changed | Resolved
+ | SYN001-003026 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-03-05 | 2025-03-11 | 1 | Mild | No | N | Dose Not Changed | Not Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-03-21 | 2025-04-01 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ | SYN001-003056 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-12-04 | 2025-12-12 | 3 | Severe | No | N | Dose Not Changed | Resolved
+ | SYN001-003086 | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-05-27 | 2025-05-30 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-08-25 | 2025-09-05 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ | SYN001-003128 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-05-13 | 2025-05-28 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-05-14 | 2025-05-23 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ |  | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-09-17 | 2025-09-29 | 1 | Mild | No | Y | Dose Reduced | Resolved
+ | SYN001-003146 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-10-06 | 2025-10-14 | 2 | Moderate | No | Y | Dose Not Changed | Not Resolved
+ | SYN001-003182 | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-11-30 | 2025-12-11 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-12-01 | 2025-12-02 | 1 | Mild | No | Y | Dose Reduced | Resolved
+ | SYN001-004009 | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-05-21 | 2025-06-01 | 3 | Severe | No | N | Dose Not Changed | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-07-08 | 2025-07-14 | 3 | Severe | No | N | Drug Withdrawn | Not Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-09-09 | 2025-09-23 | 2 | Moderate | Yes | Y | Drug Interrupted | Resolved
+ | SYN001-004015 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-07-03 | 2025-07-12 | 1 | Mild | Yes | N | Dose Not Changed | Resolved
+ |  | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-08-06 | 2025-08-21 | 2 | Moderate | No | N | Dose Not Changed | Not Resolved
+ |  | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-08-27 | 2025-09-15 | 1 | Mild | No | N | Dose Reduced | Resolved
+ | SYN001-004021 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-04-09 | 2025-04-11 | 1 | Mild | No | N | Dose Not Changed | Not Resolved
+ |  | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-06-09 | 2025-06-28 | 4 | Severe | Yes | N | Dose Not Changed | Resolved
+ |  | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-06-09 | 2025-06-14 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-004099 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-02-07 | 2025-02-21 | 3 | Moderate | No | Y | Dose Not Changed | Resolved
+ |  | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-02-23 | 2025-03-07 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-03-30 | 2025-04-17 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ |  | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-05-15 | 2025-05-16 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ | SYN001-004135 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-04-05 | 2025-04-05 | 2 | Moderate | Yes | N | Dose Not Changed | Resolved
+ |  | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-06-24 | 2025-07-04 | 1 | Mild | No | N | Drug Interrupted | Resolved
+ | SYN001-004147 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-02-12 | 2025-02-26 | 3 | Severe | No | Y | Dose Reduced | Resolved
+ | SYN001-004165 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-06-04 | 2025-06-12 | 1 | Mild | Yes | Y | Drug Interrupted | Resolved
+ |  | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-06-29 | 2025-07-18 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-004177 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-02-28 | 2025-03-15 | 2 | Mild | No | N | Drug Interrupted | Resolved
+ |  | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-05-01 | 2025-05-12 | 2 | Moderate | No | N | Dose Not Changed | Not Resolved
+ |  | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-05-14 | 2025-05-23 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-08-17 | 2025-08-23 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-004189 | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-04-21 | 2025-05-03 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-07-12 | 2025-07-25 | 2 | Moderate | No | N | Drug Interrupted | Resolved
+ |  | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-08-04 | 2025-08-18 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-004201 | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-07-04 | 2025-07-10 | 1 | Mild | No | N | Dose Not Changed | Not Resolved
+ |  | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-07-30 | 2025-08-06 | 1 | Mild | No | N | Drug Interrupted | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-10-12 | 2025-10-26 | 2 | Moderate | No | N | Drug Interrupted | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-11-30 | 2025-12-18 | 1 | Mild | No | Y | Drug Interrupted | Resolved
+ | SYN001-004219 | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-06-16 | 2025-06-23 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-005070 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-07-11 | 2025-07-27 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-10-26 | 2025-10-26 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ |  | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-11-13 | 2025-11-30 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ |  | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-11-17 | 2025-12-04 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ | SYN001-005184 | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-06-07 | 2025-06-22 | 2 | Moderate | Yes | Y | Dose Not Changed | Resolved
+ | SYN001-005208 | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-04-27 | 2025-05-14 | 3 | Severe | No | Y | Dose Not Changed | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-09-22 | 2025-10-11 | 2 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-005238 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-07-18 | 2025-07-28 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-006011 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-05-03 | 2025-05-08 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-006017 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-06-30 | 2025-07-15 | 3 | Severe | No | Y | Dose Not Changed | Resolved
+ | SYN001-006023 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-04-11 | 2025-04-11 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-04-29 | 2025-05-18 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-006035 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-01-29 | 2025-02-09 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-04-20 | 2025-05-03 | 1 | Mild | No | Y | Drug Interrupted | Resolved
+ |  | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-06-23 | 2025-07-05 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-006041 | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-04-10 | 2025-04-15 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-06-04 | 2025-06-23 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-08-12 | 2025-08-18 | 1 | Mild | No | Y | Dose Reduced | Resolved
+ |  | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-09-04 | 2025-09-18 | 1 | Mild | No | N | Dose Reduced | Not Resolved
+ | SYN001-006089 | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-07-24 | 2025-08-12 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ |  | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-12-12 | 2025-12-23 | 2 | Moderate | No | Y | Dose Not Changed | Not Resolved
+ | SYN001-006161 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-05-10 | 2025-05-10 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ | SYN001-006185 | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-08-02 | 2025-08-05 | 1 | Mild | No | Y | Drug Withdrawn | Not Resolved
+ | SYN001-006203 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-06-20 | 2025-06-29 | 2 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-07-05 | 2025-07-08 | 3 | Moderate | No | N | Dose Not Changed | Not Resolved
+ |  | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-07-14 | 2025-07-17 | 2 | Moderate | No | N | Dose Not Changed | Not Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-09-03 | 2025-09-10 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-006209 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-06-28 | 2025-06-29 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-006221 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-09-19 | 2025-09-28 | 1 | Mild | No | Y | Drug Interrupted | Resolved
+
+Data cutoff: [DDMONYYYY].
+Source: ADaM datasets
+Program: l_ae.sas | Run: 29Oct2026
+
+--- Page Break ---
+
+[Sponsor Name]    Page 2 of 3
+Protocol: [Protocol Number]
+
+Listing 16.2.7.1
+Listing of Adverse Events
+Safety Analysis Set
+
+Treatment | Subject ID | System Organ Class | Preferred Term | Verbatim Term | Start Date | End Date | CTCAE Grade | Severity | SAE | Relationship | Action Taken | Outcome
+--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
+Drug X Low Dose | SYN001-001048 | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-04-09 | 2025-04-12 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-001114 | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-07-29 | 2025-08-04 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ | SYN001-001138 | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-04-20 | 2025-05-03 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-001162 | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-11-16 | 2025-12-03 | 2 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-001180 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-05-14 | 2025-06-02 | 1 | Mild | Yes | N | Dose Not Changed | Resolved
+ |  | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-07-09 | 2025-07-21 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-001228 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-10-21 | 2025-11-07 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ | SYN001-001234 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-11-28 | 2025-12-10 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ | SYN001-002001 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-11-05 | 2025-11-09 | 2 | Moderate | No | N | Drug Interrupted | Resolved
+ | SYN001-002007 | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-09-18 | 2025-09-23 | 3 | Moderate | No | N | Dose Not Changed | Not Resolved
+ | SYN001-002049 | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-04-07 | 2025-04-17 | 1 | Mild | No | N | Dose Reduced | Resolved
+ | SYN001-002055 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-07-12 | 2025-07-30 | 1 | Mild | No | N | Drug Interrupted | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-07-29 | 2025-08-08 | 1 | Mild | No | N | Drug Withdrawn | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-08-24 | 2025-09-04 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-002061 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-05-05 | 2025-05-09 | 1 | Mild | No | Y | Drug Withdrawn | Resolved
+ | SYN001-002067 | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-08-30 | 2025-09-08 | 1 | Mild | No | N | Drug Interrupted | Resolved
+ | SYN001-002127 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-06-13 | 2025-06-30 | 1 | Mild | No | Y | Drug Interrupted | Resolved
+ |  | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-08-19 | 2025-09-07 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-002157 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-03-20 | 2025-03-28 | 1 | Mild | Yes | N | Dose Not Changed | Not Resolved
+ | SYN001-002169 | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-07-22 | 2025-08-06 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-002175 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-04-14 | 2025-05-01 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-09-26 | 2025-10-14 | 2 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-002235 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-06-24 | 2025-06-26 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ |  | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-08-18 | 2025-08-21 | 3 | Severe | No | Y | Dose Not Changed | Resolved
+ | SYN001-003002 | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-10-02 | 2025-10-02 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-11-25 | 2025-12-08 | 2 | Moderate | No | Y | Drug Interrupted | Resolved
+ | SYN001-003032 | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-07-02 | 2025-07-03 | 1 | Mild | No | Y | Drug Interrupted | Not Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-07-13 | 2025-08-01 | 2 | Moderate | No | N | Dose Reduced | Resolved
+ | SYN001-003044 | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-07-03 | 2025-07-20 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ | SYN001-003098 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-08-03 | 2025-08-07 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-003116 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-07-02 | 2025-07-17 | 1 | Mild | No | N | Dose Reduced | Resolved
+ | SYN001-003134 | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-04-14 | 2025-04-24 | 1 | Mild | No | Y | Dose Reduced | Not Resolved
+ | SYN001-003140 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-06-21 | 2025-06-30 | 3 | Severe | No | N | Dose Not Changed | Resolved
+ | SYN001-003164 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-08-15 | 2025-08-22 | 1 | Mild | No | Y | Drug Interrupted | Resolved
+ | SYN001-003188 | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-02-02 | 2025-02-08 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-02-03 | 2025-02-04 | 2 | Moderate | No | N | Drug Interrupted | Resolved
+ |  | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-06-10 | 2025-06-22 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-003212 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-01-23 | 2025-02-01 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-04-10 | 2025-04-28 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-003218 | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-05-02 | 2025-05-17 | 2 | Moderate | No | N | Drug Withdrawn | Resolved
+ |  | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-06-20 | 2025-07-03 | 1 | Mild | No | N | Drug Interrupted | Resolved
+ |  | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-07-08 | 2025-07-14 | 3 | Severe | No | Y | Dose Not Changed | Resolved
+ |  | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-09-09 | 2025-09-18 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-09-21 | 2025-09-27 | 2 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-003236 | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-04-26 | 2025-05-03 | 2 | Moderate | No | Y | Drug Interrupted | Not Resolved
+ |  | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-06-19 | 2025-06-20 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-08-09 | 2025-08-22 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-004033 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-04-24 | 2025-05-08 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-05-11 | 2025-05-16 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-07-23 | 2025-08-11 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ |  | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-07-28 | 2025-07-30 | 2 | Moderate | No | Y | Drug Interrupted | Resolved
+ | SYN001-004051 | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-06-17 | 2025-06-25 | 1 | Mild | No | N | Drug Withdrawn | Resolved
+ | SYN001-004057 | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-09-08 | 2025-09-08 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ | SYN001-004069 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-06-16 | 2025-06-28 | 1 | Mild | Yes | Y | Drug Withdrawn | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-07-28 | 2025-08-03 | 3 | Moderate | Yes | N | Dose Not Changed | Resolved
+ |  | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-08-16 | 2025-08-17 | 3 | Severe | No | N | Dose Not Changed | Resolved
+ | SYN001-004087 | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-07-27 | 2025-07-27 | 1 | Mild | No | Y | Drug Withdrawn | Not Resolved
+ | SYN001-004117 | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-05-31 | 2025-06-13 | 1 | Mild | No | N | Dose Reduced | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-06-22 | 2025-07-11 | 1 | Mild | No | N | Dose Not Changed | Not Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-09-14 | 2025-09-19 | 2 | Moderate | No | N | Drug Interrupted | Not Resolved
+ | SYN001-004153 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-05-06 | 2025-05-06 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ |  | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-05-22 | 2025-06-03 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-06-17 | 2025-06-22 | 1 | Mild | Yes | N | Dose Not Changed | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-07-04 | 2025-07-04 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ | SYN001-004171 | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-04-17 | 2025-04-24 | 2 | Moderate | No | N | Dose Not Changed | Not Resolved
+ |  | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-06-29 | 2025-07-11 | 1 | Mild | Yes | Y | Dose Not Changed | Resolved
+ |  | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-07-10 | 2025-07-28 | 2 | Moderate | No | Y | Drug Interrupted | Resolved
+ |  | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-07-14 | 2025-07-28 | 1 | Mild | No | Y | Drug Withdrawn | Resolved
+ | SYN001-004183 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-05-20 | 2025-06-07 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-004207 | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-09-28 | 2025-10-08 | 3 | Moderate | No | Y | Drug Interrupted | Resolved
+ |  | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-10-01 | 2025-10-03 | 1 | Mild | No | Y | Drug Interrupted | Not Resolved
+ | SYN001-004231 | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-08-26 | 2025-09-13 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-08-27 | 2025-09-06 | 3 | Moderate | Yes | Y | Dose Not Changed | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-09-25 | 2025-10-04 | 2 | Mild | No | N | Dose Not Changed | Resolved
+ |  | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-10-09 | 2025-10-26 | 4 | Severe | No | Y | Dose Not Changed | Not Resolved
+ | SYN001-004237 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-06-27 | 2025-07-14 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-07-14 | 2025-07-21 | 2 | Moderate | No | Y | Drug Interrupted | Resolved
+ | SYN001-005034 | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-07-30 | 2025-08-07 | 3 | Severe | No | N | Dose Reduced | Not Resolved
+ | SYN001-005046 | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-06-19 | 2025-07-04 | 1 | Mild | No | N | Drug Withdrawn | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-07-16 | 2025-07-19 | 1 | Mild | No | N | Dose Not Changed | Not Resolved
+ | SYN001-005052 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-11-12 | 2025-11-22 | 1 | Mild | Yes | Y | Dose Not Changed | Resolved
+ |  | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-11-16 | 2025-12-02 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-005106 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-05-20 | 2025-06-03 | 2 | Moderate | No | N | Drug Interrupted | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-05-31 | 2025-05-31 | 2 | Moderate | No | N | Drug Interrupted | Resolved
+ | SYN001-005142 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-07-09 | 2025-07-21 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ |  | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-08-23 | 2025-08-30 | 1 | Mild | Yes | Y | Dose Not Changed | Resolved
+ |  | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-10-22 | 2025-11-06 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ | SYN001-005148 | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-06-29 | 2025-07-06 | 2 | Mild | Yes | Y | Dose Not Changed | Resolved
+ |  | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-08-30 | 2025-08-30 | 2 | Moderate | No | Y | Dose Not Changed | Not Resolved
+ | SYN001-005160 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-10-23 | 2025-11-03 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-005190 | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-06-27 | 2025-07-16 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-07-31 | 2025-07-31 | 2 | Moderate | No | N | Drug Interrupted | Not Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-10-09 | 2025-10-13 | 2 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-005202 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-04-24 | 2025-04-27 | 1 | Mild | Yes | N | Dose Not Changed | Resolved
+ | SYN001-005214 | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-07-03 | 2025-07-04 | 1 | Mild | Yes | Y | Dose Not Changed | Resolved
+ | SYN001-005220 | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-07-01 | 2025-07-13 | 2 | Mild | Yes | N | Dose Reduced | Not Resolved
+ | SYN001-005232 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-09-29 | 2025-10-16 | 1 | Mild | No | N | Dose Not Changed | Not Resolved
+ |  | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-09-30 | 2025-10-04 | 3 | Severe | No | N | Dose Not Changed | Not Resolved
+ |  | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-10-26 | 2025-10-26 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ | SYN001-006059 | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-07-21 | 2025-08-03 | 1 | Mild | No | N | Dose Not Changed | Not Resolved
+ | SYN001-006071 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-08-26 | 2025-09-01 | 2 | Moderate | No | Y | Dose Reduced | Resolved
+ | SYN001-006077 | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-10-28 | 2025-11-13 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-006101 | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-01-30 | 2025-02-03 | 3 | Moderate | No | Y | Drug Interrupted | Not Resolved
+ |  | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-05-04 | 2025-05-10 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-006113 | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-10-20 | 2025-10-22 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-11-28 | 2025-12-09 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-006131 | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-03-31 | 2025-03-31 | 1 | Mild | No | N | Dose Reduced | Resolved
+ |  | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-07-18 | 2025-07-18 | 2 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-006137 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-07-18 | 2025-07-23 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-09-17 | 2025-10-06 | 2 | Mild | No | N | Drug Interrupted | Resolved
+ | SYN001-006173 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-09-21 | 2025-10-02 | 1 | Mild | No | Y | Dose Not Changed | Not Resolved
+ | SYN001-006227 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-03-04 | 2025-03-22 | 3 | Severe | No | Y | Dose Not Changed | Not Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-03-29 | 2025-04-16 | 1 | Mild | No | Y | Drug Withdrawn | Not Resolved
+
+Data cutoff: [DDMONYYYY].
+Source: ADaM datasets
+Program: l_ae.sas | Run: 29Oct2026
+
+--- Page Break ---
+
+[Sponsor Name]    Page 3 of 3
+Protocol: [Protocol Number]
+
+Listing 16.2.7.1
+Listing of Adverse Events
+Safety Analysis Set
+
+Treatment | Subject ID | System Organ Class | Preferred Term | Verbatim Term | Start Date | End Date | CTCAE Grade | Severity | SAE | Relationship | Action Taken | Outcome
+--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
+Placebo | SYN001-001018 | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-07-04 | 2025-07-08 | 2 | Moderate | No | Y | Drug Interrupted | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-07-24 | 2025-08-02 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-09-27 | 2025-10-13 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-001024 | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-07-29 | 2025-08-14 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-09-19 | 2025-09-22 | 1 | Mild | No | Y | Drug Withdrawn | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-09-29 | 2025-10-16 | 2 | Moderate | No | Y | Dose Not Changed | Not Resolved
+ | SYN001-001036 | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-09-14 | 2025-10-03 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-10-12 | 2025-10-26 | 1 | Mild | No | N | Drug Withdrawn | Resolved
+ | SYN001-001060 | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-05-11 | 2025-05-16 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ | SYN001-001072 | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-03-24 | 2025-03-30 | 2 | Moderate | No | Y | Drug Interrupted | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-04-01 | 2025-04-10 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ |  | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-04-29 | 2025-05-04 | 3 | Severe | No | N | Dose Not Changed | Not Resolved
+ | SYN001-001090 | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-02-25 | 2025-02-25 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-03-08 | 2025-03-23 | 1 | Mild | No | Y | Dose Not Changed | Not Resolved
+ | SYN001-001096 | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-08-07 | 2025-08-14 | 2 | Moderate | No | N | Dose Reduced | Resolved
+ | SYN001-001102 | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-03-13 | 2025-03-18 | 3 | Moderate | Yes | Y | Dose Not Changed | Resolved
+ | SYN001-001108 | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-08-10 | 2025-08-10 | 1 | Mild | Yes | Y | Dose Not Changed | Resolved
+ |  | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-11-08 | 2025-11-16 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-001132 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-03-11 | 2025-03-23 | 3 | Severe | No | N | Dose Not Changed | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-04-29 | 2025-05-18 | 1 | Mild | No | Y | Dose Not Changed | Not Resolved
+ | SYN001-001150 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-06-20 | 2025-06-27 | 2 | Moderate | No | N | Drug Withdrawn | Resolved
+ |  | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-08-01 | 2025-08-16 | 3 | Severe | No | Y | Drug Withdrawn | Resolved
+ |  | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-10-03 | 2025-10-08 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ | SYN001-001168 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-03-31 | 2025-04-08 | 3 | Severe | No | N | Dose Not Changed | Resolved
+ |  | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-04-18 | 2025-05-07 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-04-24 | 2025-05-13 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-05-16 | 2025-05-16 | 2 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-001192 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-10-02 | 2025-10-16 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-12-27 | 2026-01-08 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-001210 | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-07-08 | 2025-07-20 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-07-25 | 2025-07-28 | 3 | Severe | No | N | Dose Not Changed | Resolved
+ | SYN001-001222 | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-05-28 | 2025-06-15 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ | SYN001-001240 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-12-12 | 2025-12-17 | 3 | Moderate | No | N | Dose Reduced | Resolved
+ | SYN001-002019 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-04-23 | 2025-05-11 | 1 | Mild | No | Y | Dose Not Changed | Not Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-06-26 | 2025-07-14 | 1 | Mild | No | N | Drug Interrupted | Not Resolved
+ | SYN001-002031 | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-08-21 | 2025-08-27 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-09-20 | 2025-10-03 | 2 | Moderate | No | Y | Dose Reduced | Not Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-10-03 | 2025-10-13 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-10-13 | 2025-10-28 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-11-29 | 2025-12-07 | 2 | Moderate | No | N | Dose Not Changed | Not Resolved
+ | SYN001-002085 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-05-08 | 2025-05-16 | 1 | Mild | No | Y | Dose Reduced | Resolved
+ | SYN001-002115 | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-04-22 | 2025-04-26 | 2 | Moderate | No | Y | Dose Reduced | Resolved
+ | SYN001-002121 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-04-19 | 2025-05-03 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-002133 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-04-15 | 2025-04-28 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-06-05 | 2025-06-09 | 2 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-002163 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-04-14 | 2025-04-28 | 1 | Mild | No | N | Drug Interrupted | Resolved
+ |  | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-06-22 | 2025-06-30 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-07-14 | 2025-07-24 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-08-20 | 2025-09-05 | 2 | Moderate | Yes | N | Dose Not Changed | Resolved
+ |  | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-09-05 | 2025-09-18 | 1 | Mild | No | N | Dose Reduced | Resolved
+ | SYN001-002187 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-04-27 | 2025-05-15 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ | SYN001-002193 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-07-11 | 2025-07-23 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-08-30 | 2025-09-03 | 2 | Moderate | No | Y | Drug Withdrawn | Resolved
+ | SYN001-002199 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-06-27 | 2025-07-04 | 4 | Severe | No | Y | Dose Not Changed | Resolved
+ |  | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-08-25 | 2025-08-29 | 1 | Mild | No | Y | Drug Withdrawn | Resolved
+ | SYN001-002205 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-06-18 | 2025-07-02 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-08-16 | 2025-09-04 | 2 | Mild | No | Y | Dose Reduced | Not Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-10-30 | 2025-11-12 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ | SYN001-002211 | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-03-28 | 2025-04-07 | 2 | Moderate | No | Y | Dose Not Changed | Not Resolved
+ |  | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-04-23 | 2025-04-26 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ |  | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-04-23 | 2025-05-08 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-08-02 | 2025-08-20 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-002223 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-08-04 | 2025-08-11 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-11-05 | 2025-11-13 | 2 | Moderate | Yes | N | Dose Not Changed | Resolved
+ | SYN001-003014 | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-04-20 | 2025-04-21 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-07-18 | 2025-08-04 | 2 | Moderate | No | N | Drug Interrupted | Not Resolved
+ | SYN001-003020 | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-12-02 | 2025-12-18 | 2 | Moderate | No | N | Drug Interrupted | Resolved
+ | SYN001-003038 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-07-05 | 2025-07-12 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-12-08 | 2025-12-20 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-003050 | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-06-17 | 2025-06-22 | 2 | Moderate | No | Y | Dose Not Changed | Not Resolved
+ |  | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-06-23 | 2025-06-28 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-003068 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-08-25 | 2025-08-29 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-09-10 | 2025-09-25 | 1 | Mild | No | N | Drug Withdrawn | Resolved
+ | SYN001-003074 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-04-16 | 2025-04-21 | 2 | Mild | No | N | Dose Not Changed | Not Resolved
+ |  | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-04-22 | 2025-04-30 | 3 | Severe | No | Y | Dose Not Changed | Resolved
+ | SYN001-003080 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-05-19 | 2025-05-21 | 1 | Mild | No | Y | Drug Interrupted | Resolved
+ |  | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-06-03 | 2025-06-04 | 2 | Moderate | No | N | Dose Reduced | Resolved
+ |  | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-06-24 | 2025-06-30 | 2 | Moderate | No | N | Dose Not Changed | Not Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-07-16 | 2025-07-23 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-10-06 | 2025-10-11 | 1 | Mild | No | N | Drug Interrupted | Not Resolved
+ | SYN001-003104 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-07-03 | 2025-07-20 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-11-03 | 2025-11-17 | 2 | Moderate | Yes | Y | Dose Not Changed | Resolved
+ | SYN001-003110 | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-11-19 | 2025-12-01 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ | SYN001-003122 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-11-06 | 2025-11-19 | 1 | Mild | No | N | Drug Interrupted | Not Resolved
+ | SYN001-003152 | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-07-20 | 2025-07-30 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ | SYN001-003170 | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-08-10 | 2025-08-18 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-003224 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-04-21 | 2025-05-03 | 1 | Mild | No | Y | Dose Reduced | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-09-03 | 2025-09-13 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-10-01 | 2025-10-07 | 1 | Mild | No | Y | Dose Not Changed | Not Resolved
+ | SYN001-004003 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-05-17 | 2025-06-02 | 2 | Moderate | No | N | Drug Withdrawn | Resolved
+ |  | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-06-17 | 2025-06-25 | 3 | Severe | No | Y | Dose Not Changed | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-09-07 | 2025-09-12 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-004027 | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-06-30 | 2025-07-10 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-08-26 | 2025-08-30 | 2 | Moderate | No | Y | Drug Interrupted | Resolved
+ | SYN001-004105 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-07-09 | 2025-07-20 | 2 | Mild | No | N | Dose Not Changed | Resolved
+ |  | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-09-22 | 2025-10-06 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ |  | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-11-24 | 2025-11-27 | 1 | Mild | Yes | Y | Dose Not Changed | Resolved
+ | SYN001-004111 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-10-09 | 2025-10-18 | 1 | Mild | No | N | Dose Not Changed | Not Resolved
+ | SYN001-004123 | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-09-06 | 2025-09-24 | 2 | Moderate | No | N | Drug Interrupted | Resolved
+ |  | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-09-10 | 2025-09-23 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-004129 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-05-16 | 2025-06-01 | 3 | Severe | No | Y | Dose Not Changed | Resolved
+ |  | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-06-09 | 2025-06-26 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-08-21 | 2025-09-06 | 2 | Mild | No | N | Drug Interrupted | Resolved
+ | SYN001-004159 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-03-20 | 2025-03-23 | 1 | Mild | No | Y | Drug Interrupted | Resolved
+ | SYN001-004195 | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-07-11 | 2025-07-16 | 2 | Moderate | No | Y | Dose Reduced | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-08-12 | 2025-08-24 | 1 | Mild | No | N | Drug Withdrawn | Resolved
+ | SYN001-004213 | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-04-25 | 2025-05-01 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-06-26 | 2025-06-26 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-004225 | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-05-09 | 2025-05-25 | 1 | Mild | No | N | Drug Interrupted | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-05-13 | 2025-05-27 | 1 | Mild | Yes | Y | Dose Not Changed | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-05-29 | 2025-06-09 | 3 | Severe | No | Y | Drug Interrupted | Resolved
+ | SYN001-005004 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-06-20 | 2025-06-25 | 1 | Mild | No | N | Dose Not Changed | Not Resolved
+ |  | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-08-06 | 2025-08-23 | 1 | Mild | No | N | Drug Interrupted | Resolved
+ | SYN001-005058 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-04-06 | 2025-04-15 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ |  | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-07-20 | 2025-07-25 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-005076 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-05-13 | 2025-05-14 | 1 | Mild | No | Y | Dose Not Changed | Not Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-07-27 | 2025-08-03 | 3 | Severe | No | Y | Dose Not Changed | Resolved
+ | SYN001-005082 | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-03-20 | 2025-03-27 | 2 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-05-14 | 2025-05-27 | 1 | Mild | No | N | Drug Interrupted | Resolved
+ | SYN001-005112 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-07-08 | 2025-07-23 | 1 | Mild | No | N | Drug Interrupted | Resolved
+ | SYN001-005130 | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-06-03 | 2025-06-14 | 1 | Mild | Yes | N | Dose Reduced | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-06-17 | 2025-06-22 | 3 | Severe | No | N | Dose Not Changed | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-08-02 | 2025-08-17 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ | SYN001-005136 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-08-16 | 2025-09-04 | 2 | Mild | No | Y | Dose Not Changed | Resolved
+ |  | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-08-24 | 2025-08-25 | 2 | Moderate | Yes | N | Drug Interrupted | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-10-06 | 2025-10-25 | 1 | Mild | No | N | Dose Not Changed | Not Resolved
+ | SYN001-005154 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-05-23 | 2025-06-01 | 2 | Moderate | No | N | Dose Not Changed | Resolved
+ | SYN001-006005 | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-04-06 | 2025-04-14 | 2 | Mild | No | N | Drug Interrupted | Resolved
+ |  | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-06-28 | 2025-07-01 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS | Fatigue | FATIGUE | 2025-07-06 | 2025-07-17 | 2 | Moderate | No | Y | Dose Reduced | Resolved
+ |  | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-07-10 | 2025-07-10 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+ |  | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-07-28 | 2025-07-31 | 3 | Severe | No | N | Dose Not Changed | Resolved
+ | SYN001-006029 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-07-27 | 2025-07-27 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-006047 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-06-24 | 2025-06-27 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | NERVOUS SYSTEM DISORDERS | Headache | HEADACHE | 2025-07-26 | 2025-07-27 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-006095 | GASTROINTESTINAL DISORDERS | Nausea | NAUSEA | 2025-11-23 | 2025-12-05 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ | SYN001-006107 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-08-21 | 2025-08-23 | 2 | Moderate | No | N | Dose Reduced | Resolved
+ | SYN001-006143 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-06-28 | 2025-07-07 | 1 | Mild | No | N | Drug Interrupted | Resolved
+ |  | SKIN AND SUBCUTANEOUS TISSUE DISORDERS | Rash | RASH | 2025-09-02 | 2025-09-09 | 1 | Mild | No | N | Drug Withdrawn | Resolved
+ | SYN001-006155 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-06-07 | 2025-06-19 | 1 | Mild | No | N | Dose Not Changed | Resolved
+ |  | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-07-13 | 2025-07-16 | 2 | Moderate | No | N | Drug Withdrawn | Resolved
+ |  | RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS | Cough | COUGH | 2025-11-04 | 2025-11-06 | 1 | Mild | No | Y | Drug Interrupted | Resolved
+ | SYN001-006179 | INFECTIONS AND INFESTATIONS | Upper respiratory tract infection | UPPER RESPIRATORY TRACT INFECTION | 2025-04-13 | 2025-04-19 | 1 | Mild | No | Y | Dose Not Changed | Resolved
+ | SYN001-006191 | INVESTIGATIONS | Alanine aminotransferase increased | ALANINE AMINOTRANSFERASE INCREASED | 2025-07-16 | 2025-08-01 | 3 | Severe | No | Y | Drug Interrupted | Resolved
+ |  | MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS | Arthralgia | ARTHRALGIA | 2025-07-24 | 2025-08-06 | 2 | Moderate | No | Y | Dose Not Changed | Resolved
+
+Data cutoff: [DDMONYYYY].
+Source: ADaM datasets
+Program: l_ae.sas | Run: 29Oct2026

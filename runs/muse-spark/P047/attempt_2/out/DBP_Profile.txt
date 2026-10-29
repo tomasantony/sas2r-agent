@@ -1,0 +1,7 @@
+Mean of DBP Measures by Treatment: Profile Over Time (Weeks Since Randomized)
+DBP Profile Plot
+Treatment Group legend shown
+Mean with confidence interval displayed by visit
+At Risk Subjects shown below plot
+See PNG figure for visual display
+No tabular data in this output

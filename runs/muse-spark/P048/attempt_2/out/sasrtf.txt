@@ -1,0 +1,75 @@
+Table X: Dispostion Table
+##
+Subject Disposition
+
+Subject Disposition | Xanomeline Low Dose | Xanomeline High Dose | Placebo
+ | (N=Xanomeline Low Dose) | (N=Xanomeline High Dose) | (N=Placebo)
+ | (N=84) | (N=84) | (N=86)
+ |   n   % |   n   % |   n   %
+--------------------------------------------------------------------------------
+##Death or Adverse Event
+Discontinued | ##59#(##0.7) | ##57#(##0.7) | ##28#(##0.3)
+ | ##44#(##0.5) | ##40#(##0.5) | ###8#(##0.1)
+ | ###1#(##0.0) | ###0 | ###2#(##0.0)
+##Lack of Efficacy-Related Reasons
+####Lack of Efficacy | ###0 | ###1#(##0.0) | ###3#(##0.0)
+##Other Reasons
+ | ###0 | ###2#(##0.0) | ###1#(##0.0)
+ | ###1#(##0.0) | ###0 | ###1#(##0.0)
+ | ###0 | ###2#(##0.0) | ###1#(##0.0)
+ | ###1#(##0.0) | ###1#(##0.0) | ###1#(##0.0)
+ | ###2#(##0.0) | ###3#(##0.0) | ###2#(##0.0)
+ | ##10#(##0.1) | ###8#(##0.1) | ###9#(##0.1)
+
+Abbreviations: N=total number of subjects in population.
+###############n=number of subjects in the specified category
+###############%=Percentage of patients with N as denomiator
+##
+##
+Program Location: blah lah blah
+
+Population totals:
+N totals: 84, 84, 86
+Treatment names: Xanomeline Low Dose | Xanomeline High Dose | Placebo
+
+Percentages (n/N*100, 1 decimal):
+Discontinued TRT1: 59 ( 70.2) N=84
+Discontinued TRT2: 57 ( 67.9) N=84
+Discontinued TRT3: 28 ( 32.6) N=86
+Adverse Event TRT1: 44 ( 52.4) N=84
+Adverse Event TRT2: 40 ( 47.6) N=84
+Adverse Event TRT3: 8 (  9.3) N=86
+Death TRT1: 1 (  1.2) N=84
+Death TRT3: 2 (  2.3) N=86
+Lack of Efficacy TRT2: 1 (  1.2) N=84
+Lack of Efficacy TRT3: 3 (  3.5) N=86
+I/E Not Met TRT2: 2 (  2.4) N=84
+I/E Not Met TRT3: 1 (  1.2) N=86
+Lost to Follow-up TRT1: 1 (  1.2) N=84
+Lost to Follow-up TRT3: 1 (  1.2) N=86
+Physician Decision TRT2: 2 (  2.4) N=84
+Physician Decision TRT3: 1 (  1.2) N=86
+Protocol Violation TRT1: 1 (  1.2) N=84
+Protocol Violation TRT2: 1 (  1.2) N=84
+Protocol Violation TRT3: 1 (  1.2) N=86
+Sponsor Decision TRT1: 2 (  2.4) N=84
+Sponsor Decision TRT2: 3 (  3.6) N=84
+Sponsor Decision TRT3: 2 (  2.3) N=86
+Withdrew Consent TRT1: 10 ( 11.9) N=84
+Withdrew Consent TRT2: 8 (  9.5) N=84
+Withdrew Consent TRT3: 9 ( 10.5) N=86
+
+Overall counts (all treatments):
+Adverse Event: 92 ord1=2 ord2=1 ord3=1
+Death: 3 ord1=2 ord2=1 ord3=2
+Lack of Efficacy: 4 ord1=3 ord2=2 ord3=1
+Withdrew Consent: 27 ord1=4 ord2=3 ord3=1
+Sponsor Decision: 7 ord1=4 ord2=3 ord3=2
+I/E Not Met: 3 ord1=4 ord2=3 ord3=3
+Physician Decision: 3 ord1=4 ord2=3 ord3=4
+Protocol Violation: 3 ord1=4 ord2=3 ord3=5
+Lost to Follow-up: 2 ord1=4 ord2=3 ord3=6
+
+Layout: outputwidth 25 cm, colwidth 9.5 cm, trtwidth 4.5 cm, fontsize 9pt,
+leftmargin 0.5in rightmargin 0.5in, cellpadding 0pt, spacing 0, num 150, order internal,
+cellpadding 0pt, just left, pretext posttext, protectspecialchars off, Courier New bold

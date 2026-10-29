@@ -1,0 +1,19 @@
+Table P053: Frequency of TRTPN by n (Treatment Emergent Flag)
+Data: advsmax3 (CRIT1FL non-missing, n=1 if MOD(_N_,17)=1)  N=250
+
+TRTPN    n        Freq    Percent     RowPct     ColPct
+------------------------------------------------------------
+0        0          79      31.60      94.05      33.62
+0        1           5       2.00       5.95      33.33
+54       0          79      31.60      94.05      33.62
+54       1           5       2.00       5.95      33.33
+81       0          77      30.80      93.90      32.77
+81       1           5       2.00       6.10      33.33
+
+Column totals: n=0 N=235; n=1 N=15
+Row totals: TRTPN=0 N=84; TRTPN=54 N=84; TRTPN=81 N=82
+
+Fisher's Exact Test (TRTPN * n)
+  XP2_FISH p-value = 1.0000  (1)
+
+Note: Percent/Rows/Cols shown with 2 decimals (SAS PROC FREQ defaults).

@@ -1,0 +1,16 @@
+EX Domain Audit (Study Drug Exposure)
+
+Obs  USUBJID            EXSEQ EXTRT                EXDOSE   EXDOSU     EXSTDTC    EXENDTC   
+--------------------------------------------------------------------------------------------
+1    CDISC-01-701-001   1     Active Drug 50mg     50       mg         2017-01-20 2009-04-20
+2    CDISC-01-701-004   1     Active Drug 50mg     50       mg         2005-01-20 2027-03-20
+3    CDISC-01-701-005   1     Placebo              0        mg         2010-01-20 2006-02-20
+4    CDISC-01-701-006   1     Active Drug 50mg     50       mg         2022-01-20 2024-03-20
+5    CDISC-01-701-007   1     Active Drug 50mg     50       mg         2004-01-20 2028-03-20
+6    CDISC-01-701-011   1     Active Drug 50mg     50       mg         2012-01-20 2002-04-20
+7    CDISC-01-701-016   1     Placebo              0        mg         2004-01-20 2027-03-20
+8    CDISC-01-701-017   1     Active Drug 50mg     50       mg         2002-01-20 2026-03-20
+9    CDISC-01-701-028   1     Placebo              0        mg         2023-01-20 2012-04-20
+10   CDISC-01-701-030   1     Placebo              0        mg         2026-01-20 2016-04-20
+
+N = 10 (first 10 observations shown of 47 in EX domain)

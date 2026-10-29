@@ -1,0 +1,36 @@
+sandbox: docker run --rm --name sas2r-e68f0ab93e5c --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P069\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+P069 t_ae_sum: starting
+adam_dir: /bench/data/raw/own-synthetic/adam 
+Reading: /bench/data/raw/own-synthetic/adam/adsl.sas7bdat 
+Reading: /bench/data/raw/own-synthetic/adam/adae.sas7bdat 
+Big N:
+              TRTA bign
+1 Drug X High Dose   63
+2  Drug X Low Dose   82
+3          Placebo   95
+Total: 240 
+TRTA values: Drug X High Dose | Drug X Low Dose | Placebo 
+Ordered TRTA: Placebo | Drug X Low Dose | Drug X High Dose 
+Report:
+  ord                                     category      col1      col2
+1   0                        Subjects with no TEAE 26 (27.4) 19 (23.2)
+2   1              Subjects with at least one TEAE 69 (72.6) 63 (76.8)
+3   2                                 Related TEAE         0         0
+4   3                               Grade >=3 TEAE 16 (16.8) 11 (13.4)
+5   4                        Serious Adverse Event   9 (9.5) 12 (14.6)
+6   5                Related Serious Adverse Event         0         0
+7   6   TEAE Leading to Study Drug Discontinuation 10 (10.5)  9 (11.0)
+8   7            TEAE Leading to Dose Modification 31 (32.6) 26 (31.7)
+9   8                   TEAE with Outcome of Death         0         0
+       col3
+1 20 (31.7)
+2 43 (68.3)
+3         0
+4 12 (19.0)
+5   6 (9.5)
+6         0
+7   3 (4.8)
+8 18 (28.6)
+9         0
+Wrote /work/out/t_ae_sum.csv and /work/out/t_ae_sum.txt 
+P069 t_ae_sum: completed successfully.

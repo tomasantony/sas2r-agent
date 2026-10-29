@@ -1,0 +1,95 @@
+Sales for the Southeast Sector
+for 29OCT2026
+
+   Manager   Department       Sales
+---------- ------------ -----------
+     Smith        Paper      $50.00
+     Smith   Meat/Dairy     $100.00
+     Smith       Canned     $120.00
+     Smith      Produce      $80.00
+     Jones        Paper      $40.00
+     Jones   Meat/Dairy     $300.00
+     Jones       Canned     $220.00
+     Jones      Produce      $70.00
+---------- ------------ -----------
+                            $980.00
+
+
+Sales for the Southeast Sector
+for 29OCT2026
+
+   Manager   Department   Sales
+---------- ------------ -------
+     Jones        Paper  $40.00
+     Jones       Canned $220.00
+     Jones   Meat/Dairy $300.00
+     Jones      Produce  $70.00
+     Smith        Paper  $50.00
+     Smith       Canned $120.00
+     Smith   Meat/Dairy $100.00
+     Smith      Produce  $80.00
+
+Departmental sales ranged from $40.00 to $300.00.
+
+
+Sales Statistics for All Sectors
+
+    Sector    Manager         Sum         Min         Max       Range        Mean         Std
+---------- ---------- ----------- ----------- ----------- ----------- ----------- -----------
+ Northeast     Alomar     $786.00      $86.00     $420.00     $334.00     $196.50     $156.57
+ Northeast    Andrews   $1,045.00     $125.00     $420.00     $295.00     $261.25     $127.83
+ Northwest      Brown     $598.00      $45.00     $250.00     $205.00     $149.50     $105.44
+ Northwest    Pelfrey     $746.00      $45.00     $420.00     $375.00     $186.50     $170.39
+ Northwest     Reveiz   $1,110.00      $30.00     $600.00     $570.00     $277.50     $278.61
+ Southeast      Jones     $630.00      $40.00     $300.00     $260.00     $157.50     $123.39
+ Southeast      Smith     $350.00      $50.00     $120.00      $70.00      $87.50      $29.86
+ Southwest      Adams     $695.00      $40.00     $350.00     $310.00     $173.75     $141.86
+ Southwest     Taylor     $353.00      $50.00     $130.00      $80.00      $88.25      $42.65
+
+
+Individual Store Sales as a Percent of All Sales
+
+    Sector    Manager Total Sales Percent of Sales Comment
+---------- ---------- --------- -------- --------------------
+ Northeast     Alomar   $786.00      12% 
+ Northeast    Andrews $1,045.00      17% Sales substantially above expectations.
+ Northwest      Brown   $598.00       9% 
+ Northwest    Pelfrey   $746.00      12% 
+ Northwest     Reveiz $1,110.00      18% Sales substantially above expectations.
+ Southeast      Jones   $630.00      10% 
+ Southeast      Smith   $350.00       6% 
+ Southwest      Adams   $695.00      11% 
+ Southwest     Taylor   $353.00       6% 
+---------- ---------- --------- -------- --------------------
+                      $6,313.00     100% 
+
+
+Sales for the Western Sectors
+
+   Manager   Department   Sales
+---------- ------------ -------
+     Adams        Paper  $40.00
+     Adams       Canned $225.00
+     Adams   Meat/Dairy $350.00
+     Adams      Produce  $80.00
+
+     Brown        Paper  $45.00
+     Brown       Canned $230.00
+     Brown   Meat/Dairy $250.00
+     Brown      Produce  $73.00
+
+   Pelfrey        Paper  $45.00
+   Pelfrey       Canned $420.00
+   Pelfrey   Meat/Dairy $205.00
+   Pelfrey      Produce  $76.00
+
+    Reveiz        Paper  $60.00
+    Reveiz       Canned $420.00
+    Reveiz   Meat/Dairy $600.00
+    Reveiz      Produce  $30.00
+
+    Taylor        Paper  $53.00
+    Taylor       Canned $120.00
+    Taylor   Meat/Dairy $130.00
+    Taylor      Produce  $50.00
+

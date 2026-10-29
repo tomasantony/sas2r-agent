@@ -1,0 +1,42 @@
+sandbox: docker run --rm --name sas2r-785ff491d753 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P003\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADSL, ADAE
+Reading ADSL from /bench/data/derived/cdisc-pilot/adam/ADSL.sas7bdat 
+Reading ADAE from /bench/data/derived/cdisc-pilot/adam/ADAE.sas7bdat 
+DENOM:
+# A tibble: 3 × 2
+  TRTAN DENOM
+  <dbl> <int>
+1     0    86
+2    54    84
+3    81    84
+RESULTSUB:
+  TRTAN count DENOM events SUMMARYLEVEL      PCT PCT_DISP       RESULT
+1    54     1    84      1            1 1.190476      1.2 1 (1.2%) [1]
+2    81     2    84      2            1 2.380952      2.4 2 (2.4%) [2]
+Error in `filter()`:
+ℹ In argument: `AEDECOD == s`.
+Caused by error:
+! object 'AEDECOD' not found
+Backtrace:
+     ▆
+  1. ├─... %>% bind_rows()
+  2. ├─dplyr::bind_rows(.)
+  3. │ └─rlang::list2(...)
+  4. ├─base::lapply(...)
+  5. │ └─global FUN(X[[i]], ...)
+  6. │   ├─global fisher_2x2_p(FISHER1 %>% filter(AEDECOD == s), c(0, 1))
+  7. │   │ └─d %>% filter(TRTAN %in% trts)
+  8. │   └─FISHER1 %>% filter(AEDECOD == s)
+  9. ├─dplyr::filter(., TRTAN %in% trts)
+ 10. ├─dplyr::filter(., AEDECOD == s)
+ 11. ├─dplyr:::filter.data.frame(., AEDECOD == s)
+ 12. │ └─dplyr:::filter_impl(...)
+ 13. │   └─dplyr:::filter_rows(...)
+ 14. │     └─dplyr:::filter_eval(...)
+ 15. │       ├─base::withCallingHandlers(...)
+ 16. │       └─mask$eval_all_filter(dots_expanded, invert, env_filter)
+ 17. │         └─dplyr (local) eval()
+ 18. └─base::.handleSimpleError(...)
+ 19.   └─dplyr (local) h(simpleError(msg, call))
+ 20.     └─rlang::abort(message, class = error_class, parent = parent, call = error_call)
+Execution halted

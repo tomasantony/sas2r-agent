@@ -6,6 +6,7 @@
   context ID                    print the prompt that would be sent for one program
   run --provider NAME --ids P001 P004 ... [--max-iters N] [--all] [--group clinical|general]
   selftest --ids ...            feed the SAS reference outputs back through the comparator (must score 1.0)
+  rescore [--provider NAME] [--all|--ids ...] [--force]  re-run the comparator over existing attempts (no model calls)
   leaderboard                   aggregate runs/ into leaderboard.json/.md and dashboard/
 """
 from __future__ import annotations
@@ -166,6 +167,53 @@ def cmd_verify(args):
     print(f"ledger entries: {n}, chain {'intact' if first_bad < 0 else f'BROKEN at entry {first_bad}'}")
 
 
+def cmd_rescore(args):
+    """Re-run the comparator over existing attempts (no model calls) after a comparator or expected-artifact
+    change. Rewrites compare.json and report.json; the original provenance.json stays and a rescore record
+    is appended to the ledger so the change is on the chain."""
+    import time
+    from dataclasses import asdict
+    from .compare import compare_run, save_report
+    from .expected import build_expected, expected_dir
+    from .provenance import append_ledger, sha256, git_head
+    from .config import REPO_ROOT
+    provs = [args.provider] if args.provider else [p.name for p in RUNS_DIR.iterdir() if p.is_dir() and not p.name.startswith("_") and p.name != "expected"]
+    ids = ids_from_args(args)
+    for prov in provs:
+        for pdir in sorted((RUNS_DIR / prov).glob("P*")):
+            pid = pdir.name
+            if ids and pid not in ids:
+                continue
+            rep_path = pdir / "report.json"
+            if not rep_path.exists():
+                continue
+            rep = json.loads(rep_path.read_text(encoding="utf-8"))
+            exp = build_expected(pid, force=args.force)
+            old = (rep["equivalent"], rep["best_score"])
+            rep.update(produced_all=False, equivalent=False, best_score=0.0, best_attempt=None)
+            for att in rep["attempts"]:
+                adir = pdir / f"attempt_{att['n']}"
+                if att["rc"] is None or not (adir / "out").exists():
+                    continue
+                r = compare_run(exp, adir / "out")
+                save_report(r, adir / "compare.json")
+                att.update(produced_all=r.produced_all, equivalent=r.equivalent, score=r.score)
+                rep["produced_all"] = rep["produced_all"] or r.produced_all
+                if r.score > rep["best_score"] or rep["best_attempt"] is None:
+                    rep["best_score"], rep["best_attempt"] = r.score, att["n"]
+                if r.equivalent and att["rc"] == 0:
+                    rep["equivalent"] = True
+                append_ledger({"schema": "sas2r-agent/rescore/1", "program": pid, "provider": prov, "attempt": att["n"],
+                               "recorded_at": time.strftime("%Y-%m-%dT%H:%M:%S"), "agent_commit": git_head(REPO_ROOT),
+                               "expected_sha256": sha256(expected_dir() / f"{pid}.json"),
+                               "compare_sha256": sha256(adir / "compare.json"),
+                               "r_outputs_unchanged": True,
+                               "comparison": {"equivalent": r.equivalent, "score": r.score, "produced_all": r.produced_all}})
+            rep_path.write_text(json.dumps(rep, indent=1), encoding="utf-8")
+            flag = "" if old == (rep["equivalent"], rep["best_score"]) else f"   (was equivalent={old[0]} score={old[1]:.3f})"
+            print(f"{prov} {pid}: equivalent={rep['equivalent']} score={rep['best_score']:.3f}{flag}", flush=True)
+
+
 def cmd_leaderboard(args):
     from .leaderboard import build
     board = build()
@@ -184,6 +232,7 @@ def main(argv=None):
     p = sub.add_parser("keys", help="write .env from a folder of key files (values never printed)"); p.add_argument("--folder", default=r"D:\meta_hackathon\api key"); p.set_defaults(fn=cmd_keys)
     sub.add_parser("freeze", help="hash every SAS reference file into runs/reference_freeze.json").set_defaults(fn=cmd_freeze)
     sub.add_parser("verify", help="verify SAS reference hashes and the provenance ledger chain").set_defaults(fn=cmd_verify)
+    p = sub.add_parser("rescore", help="re-run the comparator over existing attempts (no model calls)"); p.add_argument("--provider", choices=list(PROVIDERS)); p.add_argument("--ids", nargs="*"); p.add_argument("--all", action="store_true"); p.add_argument("--force", action="store_true", help="rebuild the expected-artifact cache first"); p.set_defaults(fn=cmd_rescore)
     sub.add_parser("leaderboard").set_defaults(fn=cmd_leaderboard)
     args = ap.parse_args(argv)
     args.fn(args)

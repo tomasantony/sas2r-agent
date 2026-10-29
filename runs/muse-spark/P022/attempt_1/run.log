@@ -1,0 +1,6 @@
+sandbox: docker run --rm --name sas2r-42a99aefe962 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P022\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading edc_ae ...
+edc_ae cols: SUBJID, TERM, DECOD, BODSYS, SEV, TXGR, STDT, ENDT, REL, OUT, SER n=4
+Found DM file: /bench/output/sas/datasets/P011/dm.sas7bdat
+dm_for_ae from file n=50
+Done. ae n=4 -> /work/out/ae.csv

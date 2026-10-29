@@ -1,0 +1,69 @@
+[Sponsor Name]                                                  Page 1 of 1
+Protocol: [Protocol Number]
+
+Table 14.2.2
+Figure 14.2.2
+Forest Plot of Subgroup Analyses - Overall Survival
+Efficacy Analysis Set
+------------------------------------------------------------------------------------------------------------------------
+Hazard Ratio (95% CI)  Reference line at HR = 1
+X-axis log base 2 with values (0.1, 0.25, 0.5, 1, 2, 4)
+------------------------------------------------------------------------------------------------------------------------
+Subgroup     | Level                    | Comparison           |   N | Evts |       HR |                 95% CI |    p-value |     Estimate |       StdErr
+------------------------------------------------------------------------------------------------------------------------
+Overall      | All Subjects             | Drug X High Dose     | 222 |  83 |     0.63 |           (0.35, 1.11) |     0.1111 |      -0.4652 |       0.2920
+  row=1 yval=-1 HR=0.628000 LCL=0.354356 UCL=1.112961 p=0.111065 Est=-0.465215 SE=0.291959 1.96*SE=0.572239
+Overall      | All Subjects             | Drug X Low Dose      | 222 |  83 |     0.87 |           (0.53, 1.41) |     0.5704 |      -0.1414 |       0.2491
+  row=2 yval=-2 HR=0.868161 LCL=0.532783 UCL=1.414652 p=0.570356 Est=-0.141379 SE=0.249113 1.96*SE=0.488262
+Sex          | F                        | Drug X High Dose     | 122 |  42 |     0.59 |           (0.27, 1.32) |     0.1973 |      -0.5265 |       0.4084
+  row=3 yval=-3 HR=0.590646 LCL=0.265290 UCL=1.315025 p=0.197265 Est=-0.526538 SE=0.408364 1.96*SE=0.800394
+Sex          | F                        | Drug X Low Dose      | 122 |  42 |     0.85 |           (0.43, 1.68) |     0.6373 |      -0.1648 |       0.3497
+  row=4 yval=-4 HR=0.848025 LCL=0.427317 UCL=1.682933 p=0.637348 Est=-0.164845 SE=0.349686 1.96*SE=0.685384
+Sex          | M                        | Drug X High Dose     | 100 |  41 |     0.68 |           (0.30, 1.55) |     0.3622 |      -0.3817 |       0.4189
+  row=5 yval=-5 HR=0.682687 LCL=0.300345 UCL=1.551754 p=0.362204 Est=-0.381719 SE=0.418931 1.96*SE=0.821105
+Sex          | M                        | Drug X Low Dose      | 100 |  41 |     0.90 |           (0.45, 1.81) |     0.7620 |      -0.1080 |       0.3565
+  row=6 yval=-6 HR=0.897666 LCL=0.446318 UCL=1.805450 p=0.762033 Est=-0.107957 SE=0.356514 1.96*SE=0.698767
+Age Group    | <65                      | Drug X High Dose     | 171 |  65 |     0.62 |           (0.33, 1.14) |     0.1220 |      -0.4844 |       0.3132
+  row=7 yval=-7 HR=0.616084 LCL=0.333459 UCL=1.138248 p=0.121972 Est=-0.484372 SE=0.313195 1.96*SE=0.613863
+Age Group    | <65                      | Drug X Low Dose      | 171 |  65 |     0.68 |           (0.38, 1.21) |     0.1907 |      -0.3857 |       0.2948
+  row=8 yval=-8 HR=0.679987 LCL=0.381581 UCL=1.211754 p=0.190733 Est=-0.385682 SE=0.294771 1.96*SE=0.577751
+Age Group    | >=65                     | Drug X High Dose     |  51 |  18 |     0.61 |           (0.12, 3.01) |     0.5399 |      -0.5007 |       0.8169
+  row=9 yval=-9 HR=0.606108 LCL=0.122238 UCL=3.005346 p=0.539918 Est=-0.500698 SE=0.816883 1.96*SE=1.601090
+Age Group    | >=65                     | Drug X Low Dose      |  51 |  18 |     1.77 |           (0.64, 4.88) |     0.2670 |       0.5735 |       0.5166
+  row=10 yval=-10 HR=1.774428 LCL=0.644582 UCL=4.884710 p=0.267001 Est=0.573478 SE=0.516649 1.96*SE=1.012632
+Race         | ASIAN                    | Drug X High Dose     |  18 |  11 |     1.37 |           (0.36, 5.15) |     0.6416 |       0.3145 |       0.6757
+  row=11 yval=-11 HR=1.369527 LCL=0.364255 UCL=5.149148 p=0.641649 Est=0.314466 SE=0.675697 1.96*SE=1.324366
+Race         | ASIAN                    | Drug X Low Dose      |  18 |  11 |     1.72 |           (0.33, 8.94) |     0.5169 |       0.5442 |       0.8397
+  row=12 yval=-12 HR=1.723235 LCL=0.332304 UCL=8.936223 p=0.516950 Est=0.544203 SE=0.839750 1.96*SE=1.645910
+Race         | BLACK OR AFRICAN AMERICA | Drug X High Dose     |  40 |  12 |     0.47 |           (0.11, 1.99) |     0.3070 |      -0.7496 |       0.7339
+  row=13 yval=-13 HR=0.472533 LCL=0.112132 UCL=1.991292 p=0.307034 Est=-0.749647 SE=0.733893 1.96*SE=1.438431
+Race         | BLACK OR AFRICAN AMERICA | Drug X Low Dose      |  40 |  12 |     0.53 |           (0.14, 2.00) |     0.3503 |      -0.6323 |       0.6770
+  row=14 yval=-14 HR=0.531371 LCL=0.140961 UCL=2.003067 p=0.350341 Est=-0.632295 SE=0.677028 1.96*SE=1.326975
+Race         | OTHER                    | Drug X High Dose     |  10 |   5 |     0.00 |            (0.00, Inf) |     0.9992 |     -20.7498 |   21117.0965
+  row=15 yval=-15 HR=0.000000 LCL=0.000000 UCL=0.000000 p=0.999216 Est=-20.749844 SE=21117.096549 1.96*SE=41389.509236
+Race         | OTHER                    | Drug X Low Dose      |  10 |   5 |     0.61 |           (0.07, 5.48) |     0.6580 |      -0.4962 |       1.1210
+  row=16 yval=-16 HR=0.608833 LCL=0.067655 UCL=5.478961 p=0.658014 Est=-0.496211 SE=1.120983 1.96*SE=2.197126
+Race         | WHITE                    | Drug X High Dose     | 154 |  55 |     0.65 |           (0.31, 1.36) |     0.2522 |      -0.4311 |       0.3765
+  row=17 yval=-17 HR=0.649806 LCL=0.310665 UCL=1.359172 p=0.252232 Est=-0.431082 SE=0.376509 1.96*SE=0.737957
+Race         | WHITE                    | Drug X Low Dose      | 154 |  55 |     1.02 |           (0.57, 1.83) |     0.9443 |       0.0209 |       0.2989
+  row=18 yval=-18 HR=1.021092 LCL=0.568431 UCL=1.834222 p=0.944320 Est=0.020872 SE=0.298851 1.96*SE=0.585748
+Region       | Asia                     | Drug X High Dose     |  34 |  15 |     0.71 |           (0.18, 2.82) |     0.6224 |      -0.3484 |       0.7076
+  row=19 yval=-19 HR=0.705806 LCL=0.176357 UCL=2.824735 p=0.622427 Est=-0.348415 SE=0.707566 1.96*SE=1.386830
+Region       | Asia                     | Drug X Low Dose      |  34 |  15 |     1.04 |           (0.34, 3.23) |     0.9448 |       0.0400 |       0.5778
+  row=20 yval=-20 HR=1.040791 LCL=0.335407 UCL=3.229642 p=0.944830 Est=0.039981 SE=0.577750 1.96*SE=1.132391
+Region       | Europe                   | Drug X High Dose     |  75 |  30 |     0.70 |           (0.26, 1.89) |     0.4779 |      -0.3603 |       0.5077
+  row=21 yval=-21 HR=0.697490 LCL=0.257865 UCL=1.886617 p=0.477931 Est=-0.360267 SE=0.507680 1.96*SE=0.995053
+Region       | Europe                   | Drug X Low Dose      |  75 |  30 |     1.22 |           (0.55, 2.73) |     0.6235 |       0.2012 |       0.4099
+  row=22 yval=-22 HR=1.222892 LCL=0.547586 UCL=2.731013 p=0.623522 Est=0.201218 SE=0.409926 1.96*SE=0.803454
+Region       | North America            | Drug X High Dose     | 113 |  38 |     0.57 |           (0.25, 1.29) |     0.1770 |      -0.5616 |       0.4160
+  row=23 yval=-23 HR=0.570301 LCL=0.252362 UCL=1.288798 p=0.176992 Est=-0.561591 SE=0.415970 1.96*SE=0.815301
+Region       | North America            | Drug X Low Dose      | 113 |  38 |     0.57 |           (0.26, 1.24) |     0.1565 |      -0.5655 |       0.3991
+  row=24 yval=-24 HR=0.568074 LCL=0.259833 UCL=1.241983 p=0.156486 Est=-0.565503 SE=0.399088 1.96*SE=0.782212
+------------------------------------------------------------------------------------------------------------------------
+Hazard Ratios from Cox proportional hazards model (ties=BRESLOW, ref=Placebo).
+HR = exp(Estimate); 95% CI = exp(Estimate +/- 1.96*StdErr); p = Wald Chi-Square.
+95% confidence interval; 1.96 standard errors.
+Favors [Drug] Low Dose (left) vs Favors Placebo (right).
+Data cutoff: [DDMONYYYY].
+Source: ADaM datasets (adtte PARAMCD=OS, EFFFL=Y).
+Program: f_forest.sas | Run: 29OCT2026

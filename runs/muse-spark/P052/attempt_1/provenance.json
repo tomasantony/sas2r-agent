@@ -1,0 +1,71 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P052",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T17:04:29",
+ "agent_commit": "ea9ec024216430eec6b2658819ecea47deb782c6",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 2034,
+  "output_tokens": 5912,
+  "reasoning_tokens": 2749,
+  "finish_reason": "stop",
+  "seconds": 29.0
+ },
+ "inputs": {
+  "prompt_translate.md": "113355f1315da1850dbe5940763e8c988318cb9a2f4d6ff46818fd92cd9e0faf"
+ },
+ "model_output": {
+  "response.md": "a02447971132df481efc15a4a8db679ea6f2ebda5e16e4d9de3e2bc8e91f9bd9",
+  "script.R": "34bacd180e58477f80b5e178e17cd437401e84ec4b1d702bba5d68addb3303dd"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.7,
+  "timed_out": false,
+  "log_sha256": "4273e0a20c9bcd0c20c5a25fb9568edf811287e27fde5b32be1d3d420f4a609a"
+ },
+ "r_outputs": {
+  "P052.csv": "dbd4a599c2663a022aea35233fb4a846e3e897f0991d84c4a5e19bcdab9e8601",
+  "P052.lst.csv": "dbd4a599c2663a022aea35233fb4a846e3e897f0991d84c4a5e19bcdab9e8601",
+  "P052.lst.txt": "c7b7daeb0213fb605ee8c3190e05cdf8229960249ef6db1ea4286b7be73b0f40",
+  "P052.txt": "c7b7daeb0213fb605ee8c3190e05cdf8229960249ef6db1ea4286b7be73b0f40",
+  "sgrender.csv": "4ce78a742b3f8335b8e28d2aa0a9b937e58f69194115cc40fb8ad4abada39e26",
+  "sgrender.png": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P052.lst",
+   "sha256": "66c2f6f2ec9f77224334338f952f07d17a79f1b6aca275b872eb7d5eab976f2f",
+   "frozen_sha256": "66c2f6f2ec9f77224334338f952f07d17a79f1b6aca275b872eb7d5eab976f2f",
+   "ok": true
+  },
+  {
+   "file": "datasets/P052/SGRender.png",
+   "sha256": "f213e5873ececc185f05cf6228460facb066d3bf0ac631fa233e516c4b181a72",
+   "frozen_sha256": "f213e5873ececc185f05cf6228460facb066d3bf0ac631fa233e516c4b181a72",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9489795918367347,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P007.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.8979591836734694,
+   "detail": {
+    "recall": 0.8979591836734694,
+    "expected": 147,
+    "found": 132,
+    "r_files": [
+     "adtte.csv",
+     "P007.csv",
+     "P007.txt"
+    ],
+    "missing_examples": [
+     "9",
+     "2",
+     "27",
+     "6",
+     "5",
+     "22",
+     "26",
+     "29",
+     "19"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adtte",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark\\P007\\attempt_1\\out\\adtte.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 47,
+    "rows_r": 47,
+    "cols_sas": 12,
+    "cols_r": 12,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  }
+ ]
+}

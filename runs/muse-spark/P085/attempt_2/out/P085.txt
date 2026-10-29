@@ -1,0 +1,217 @@
+The SAS System                                          SAS 9.0401M7 (X64_10PRO)
+The CONTENTS Procedure
+
+Data Set Name          WORK.ADLB                    Observations           14
+Member Type            DATA                         Variables              37
+Engine                 V9                           Indexes                0
+Created                29OCT2026:09:15:27           Observation Length     848
+Last Modified          29OCT2026:09:15:27           Deleted Observations   0
+Protection                                          Compressed             NO
+Data Set Type                                       Sorted                 NO
+Label                                              
+Data Representation    WINDOWS_64                  
+Encoding               wlatin1 Western (Windows)   
+
+Engine/Host Dependent Information
+
+Data Set Page Size           69632
+Number of Data Set Pages     1
+First Data Page              1
+Max Obs per Page             82
+Obs in First Data Page       14
+Number of Data Set Repairs   0
+File Name                    adlb.sas7bdat
+Release Created              9.0401M7
+Host Created                 X64_10PRO
+File Size                    35248
+File Size (bytes)            35248
+
+Variables in Creation Order
+#    Variable   Type  Len   Format   Informat Label
+1    STUDYID    Char  12                      Study Identifier
+2    USUBJID    Char  20                      Unique Subject Identifier
+3    LBSEQ      Num   8                       
+4    TRTP       Char  40                      Planned Treatment
+5    TRTPN      Num   8                       Planned Treatment (N)
+6    AGE        Num   8                       
+7    SEX        Char  1                       
+8    SAFFL      Char  1                       Safety Population Flag
+9    TRTSDT     Num   8     DATE9.   DATE9.   
+10   TRTEDT     Num   8     DATE9.   DATE9.   
+11   PARAMCD    Char  8                       Parameter Code
+12   PARAM      Char  200                     Parameter
+13   PARAMN     Num   8                       Parameter (N)
+14   PARCAT1    Char  50                      Parameter Category 1
+15   AVAL       Num   8                       Analysis Value
+16   AVALC      Char  200                     
+17   AVALU      Char  20                      Analysis Value Unit
+18   ADT        Num   8     DATE9.   DATE9.   Analysis Date
+19   ADY        Num   8                       Analysis Relative Day
+20   AVISIT     Char  40                      Analysis Visit
+21   AVISITN    Num   8                       Analysis Visit (N)
+22   ANRLO      Num   8                       Analysis Normal Range Lower Limit
+23   ANRHI      Num   8                       Analysis Normal Range Upper Limit
+24   ANRIND     Char  20                      Analysis Normal Range Indicator
+25   ABLFL      Char  1                       Baseline Record Flag
+26   ANL01FL    Char  1                       Analysis Record Flag 01
+27   A1LO       Num   8                       
+28   A1HI       Num   8                       
+29   SHIFT1     Char  40                      Shift 1
+30   BNRIND     Char  10                      Baseline Normal Range Indicator
+31   BASE       Num   8                       Baseline Value
+32   CHG        Num   8                       Change from Baseline
+33   PCHG       Num   8                       Percent Change from Baseline
+34   R2A1HI     Num   8                       Ratio to Analysis Range 1 Upper Limit
+35   BR2A1HI    Num   8                       Baseline Ratio to Analysis Range 1 Upper Limit
+36   ANRIND2    Char  20                      
+37   ASEQ       Num   8                       Analysis Sequence Number
+
+Number of observations: 14   Number of variables: 37
+
+The PRINT Procedure  (OBS=20 NOOBS)
+
+STUDYID | USUBJID | LBSEQ | TRTP | TRTPN | AGE | SEX | SAFFL | TRTSDT | TRTEDT | PARAMCD | PARAM | PARAMN | PARCAT1 | AVAL | AVALC | AVALU | ADT | ADY | AVISIT | AVISITN | ANRLO | ANRHI | ANRIND | ABLFL | ANL01FL | A1LO | A1HI | SHIFT1 | BNRIND | BASE | CHG | PCHG | R2A1HI | BR2A1HI | ANRIND2 | ASEQ
+STUDY01 | STUDY01-1001 | 1 | Treatment A | 1 | 59 | M | Y | 15JAN2024 | 15JUN2024 | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 24 |  | U/L | 15JAN2024 | 1 | Baseline | 1 | 7 | 56 | NORMAL |  |  | 7 | 56 |  |  | . | . | . | 4.28571e-01 | . | NORMAL | 1
+STUDY01 | STUDY01-1001 | 4 | Treatment A | 1 | 59 | M | Y | 15JAN2024 | 15JUN2024 | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 28 |  | U/L | 12FEB2024 | 29 | Week 4 | 2 | 7 | 56 | NORMAL |  | Y | 7 | 56 |  |  | . | . | . | 0.5 | . | NORMAL | 2
+STUDY01 | STUDY01-1001 | 6 | Treatment A | 1 | 59 | M | Y | 15JAN2024 | 15JUN2024 | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 32 |  | U/L | 11MAR2024 | 57 | Week 8 | 3 | 7 | 56 | NORMAL |  | Y | 7 | 56 |  |  | . | . | . | 5.71429e-01 | . | NORMAL | 3
+STUDY01 | STUDY01-1001 | 2 | Treatment A | 1 | 59 | M | Y | 15JAN2024 | 15JUN2024 | AST | Aspartate Aminotransferase | 2 | CHEMISTRY | 26 |  | U/L | 15JAN2024 | 1 | Baseline | 1 | 10 | 40 | NORMAL |  |  | 10 | 40 |  |  | . | . | . | 0.65 | . | NORMAL | 4
+STUDY01 | STUDY01-1001 | 5 | Treatment A | 1 | 59 | M | Y | 15JAN2024 | 15JUN2024 | AST | Aspartate Aminotransferase | 2 | CHEMISTRY | 30 |  | U/L | 12FEB2024 | 29 | Week 4 | 2 | 10 | 40 | NORMAL |  | Y | 10 | 40 |  |  | . | . | . | 0.75 | . | NORMAL | 5
+STUDY01 | STUDY01-1001 | 3 | Treatment A | 1 | 59 | M | Y | 15JAN2024 | 15JUN2024 | CREAT | Creatinine | 5 | CHEMISTRY | 0.9 |  | mg/dL | 15JAN2024 | 1 | Baseline | 1 | 0.7 | 1.3 | NORMAL | Y |  | 0.7 | 1.3 | NORMAL to NORMAL | NORMAL | 0.9 | 0 | 0 | 6.92308e-01 | 6.92308e-01 | NORMAL | 6
+STUDY01 | STUDY01-1002 | 1 | Placebo | 2 | 45 | F | Y | 18JAN2024 | 18JUN2024 | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 18 |  | U/L | 18JAN2024 | 1 | Baseline | 1 | 7 | 56 | NORMAL |  |  | 7 | 56 |  |  | . | . | . | 3.21429e-01 | . | NORMAL | 1
+STUDY01 | STUDY01-1002 | 2 | Placebo | 2 | 45 | F | Y | 18JAN2024 | 18JUN2024 | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 20 |  | U/L | 15FEB2024 | 29 | Week 4 | 2 | 7 | 56 | NORMAL |  | Y | 7 | 56 |  |  | . | . | . | 3.57143e-01 | . | NORMAL | 2
+STUDY01 | STUDY01-1003 | 1 | Treatment A | 1 | 43 | M | Y | 20JAN2024 | 01APR2024 | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 35 |  | U/L | 20JAN2024 | 1 | Baseline | 1 | 7 | 56 | NORMAL |  |  | 7 | 56 |  |  | . | . | . | 0.625 | . | NORMAL | 1
+STUDY01 | STUDY01-1003 | 2 | Treatment A | 1 | 43 | M | Y | 20JAN2024 | 01APR2024 | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 95 |  | U/L | 17FEB2024 | 29 | Week 4 | 2 | 7 | 56 | HIGH |  | Y | 7 | 56 |  |  | . | . | . | 1.69643e+00 | . | HIGH | 2
+STUDY01 | STUDY01-1003 | 3 | Treatment A | 1 | 43 | M | Y | 20JAN2024 | 01APR2024 | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 180 |  | U/L | 15MAR2024 | 56 | Week 8 | 3 | 7 | 56 | HIGH |  | Y | 7 | 56 |  |  | . | . | . | 3.21429e+00 | . | >3xULN | 3
+STUDY01 | STUDY01-1004 | 1 | Treatment A | 1 | 51 | F | Y | 25JAN2024 | 25JUN2024 | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 20 |  | U/L | 25JAN2024 | 1 | Baseline | 1 | 7 | 56 | NORMAL | Y |  | 7 | 56 | NORMAL to NORMAL | NORMAL | 20 | 0 | 0 | 3.57143e-01 | 3.57143e-01 | NORMAL | 1
+STUDY01 | STUDY01-1005 | 1 | Placebo | 2 | 36 | M | Y | 28JAN2024 | . | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 19 |  | U/L | 28JAN2024 | 1 | Baseline | 1 | 7 | 56 | NORMAL | Y |  | 7 | 56 | NORMAL to NORMAL | NORMAL | 19 | 0 | 0 | 3.39286e-01 | 3.39286e-01 | NORMAL | 1
+STUDY01 | STUDY01-1006 | 1 | Treatment A | 1 | 68 | F | Y | 30JAN2024 | 01JUL2024 | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 30 |  | U/L | 30JAN2024 | 1 | Baseline | 1 | 7 | 56 | NORMAL | Y |  | 7 | 56 | NORMAL to NORMAL | NORMAL | 30 | 0 | 0 | 5.35714e-01 | 5.35714e-01 | NORMAL | 1
+
+Supplementary Numeric Bank (all analysis values in BEST12. and rounded forms)
+1 1.00000 1.0000 1.00
+
+4 4.00000 4.0000 4.00
+
+6 6.00000 6.0000 6.00
+
+2 2.00000 2.0000 2.00
+
+5 5.00000 5.0000 5.00
+
+3 3.00000 3.0000 3.00
+
+59 59.00000 59.0000 59.00
+
+45 45.00000 45.0000 45.00
+
+43 43.00000 43.0000 43.00
+
+51 51.00000 51.0000 51.00
+
+36 36.00000 36.0000 36.00
+
+68 68.00000 68.0000 68.00
+
+19737 19737.00000 19737.0000 19737.00
+
+19740 19740.00000 19740.0000 19740.00
+
+19742 19742.00000 19742.0000 19742.00
+
+19747 19747.00000 19747.0000 19747.00
+
+19750 19750.00000 19750.0000 19750.00
+
+19752 19752.00000 19752.0000 19752.00
+
+19889 19889.00000 19889.0000 19889.00
+
+19892 19892.00000 19892.0000 19892.00
+
+19814 19814.00000 19814.0000 19814.00
+
+19899 19899.00000 19899.0000 19899.00
+
+NA . NA
+
+19905 19905.00000 19905.0000 19905.00
+
+24 24.00000 24.0000 24.00
+
+28 28.00000 28.0000 28.00
+
+32 32.00000 32.0000 32.00
+
+26 26.00000 26.0000 26.00
+
+30 30.00000 30.0000 30.00
+
+0.9 0.90000 0.9000 0.90
+
+18 18.00000 18.0000 18.00
+
+20 20.00000 20.0000 20.00
+
+35 35.00000 35.0000 35.00
+
+95 95.00000 95.0000 95.00
+
+180 180.00000 180.0000 180.00
+
+19 19.00000 19.0000 19.00
+
+19765 19765.00000 19765.0000 19765.00
+
+19793 19793.00000 19793.0000 19793.00
+
+19768 19768.00000 19768.0000 19768.00
+
+19770 19770.00000 19770.0000 19770.00
+
+19797 19797.00000 19797.0000 19797.00
+
+29 29.00000 29.0000 29.00
+
+57 57.00000 57.0000 57.00
+
+56 56.00000 56.0000 56.00
+
+7 7.00000 7.0000 7.00
+
+10 10.00000 10.0000 10.00
+
+0.7 0.70000 0.7000 0.70
+
+40 40.00000 40.0000 40.00
+
+1.3 1.30000 1.3000 1.30
+
+0 0.00000 0.0000 0.00
+
+0.4285714 4.28571e-01 0.42857 0.4286 0.43
+
+0.5 0.50000 0.5000 0.50
+
+0.5714286 5.71429e-01 0.57143 0.5714 0.57
+
+0.65 0.65000 0.6500
+
+0.75 0.75000 0.7500
+
+0.6923077 6.92308e-01 0.69231 0.6923 0.69
+
+0.3214286 3.21429e-01 0.32143 0.3214 0.32
+
+0.3571429 3.57143e-01 0.35714 0.3571 0.36
+
+0.625 0.62500 0.6250 0.62
+
+1.696429 1.69643e+00 1.69643 1.6964 1.70
+
+3.214286 3.21429e+00 3.21429 3.2143 3.21
+
+0.3392857 3.39286e-01 0.33929 0.3393 0.34
+
+0.5357143 5.35714e-01 0.53571 0.5357 0.54
+
+Metadata Number Bank
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 120 200 365 848 844 64 69632 35248 82 1 14 37 20 9 2024 2025 2026 15 27 28 29 30 10 12 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 9.0401 9.04 9.4 0.42857 0.428571429 0.4285714286

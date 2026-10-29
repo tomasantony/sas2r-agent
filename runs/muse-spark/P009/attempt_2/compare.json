@@ -1,0 +1,71 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.719261412575366,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P009.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.7209302325581395,
+   "detail": {
+    "recall": 0.7209302325581395,
+    "expected": 129,
+    "found": 93,
+    "r_files": [
+     "ae.csv",
+     "P009.csv",
+     "P009.lst.csv",
+     "P009.txt"
+    ],
+    "missing_examples": [
+     "2023",
+     "-9",
+     "-27",
+     "-31",
+     "-11",
+     "-5",
+     "-13",
+     "-26"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "ae",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark\\P009\\attempt_2\\out\\ae.csv",
+   "status": "mismatch",
+   "score": 0.7175925925925926,
+   "detail": {
+    "rows_sas": 54,
+    "rows_r": 54,
+    "cols_sas": 12,
+    "cols_r": 12,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.7175925925925926,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(AETERM, 7, 'Application site erythema', 'Nausea')",
+     "(AETERM, 9, 'Nausea', 'Application site erythema')",
+     "(AETERM, 14, 'Headache', 'Application site erythema')",
+     "(AETERM, 15, 'Application site erythema', 'Headache')",
+     "(AETERM, 17, 'Headache', 'Insomnia')",
+     "(AETERM, 18, 'Insomnia', 'Headache')",
+     "(AETERM, 32, 'Insomnia', 'Application site erythema')",
+     "(AETERM, 33, 'Fatigue', 'Insomnia')",
+     "(AETERM, 34, 'Application site erythema', 'Fatigue')",
+     "(AETERM, 36, 'Headache', 'Insomnia')"
+    ],
+    "worst_columns": {
+     "AESTDTC": 54,
+     "AEENDTC": 51,
+     "AETERM": 19,
+     "AEDECOD": 19,
+     "AESEV": 14
+    }
+   }
+  }
+ ]
+}

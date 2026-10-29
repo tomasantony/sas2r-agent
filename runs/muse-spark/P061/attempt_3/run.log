@@ -1,0 +1,30 @@
+sandbox: docker run --rm --name sas2r-a460b8724b36 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P061\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+Reading: /bench/data/raw/sumit-oncology/Breast Cancer METABRIC.csv 
+N rows: 2509  N cols: 34 
+Done. Files in OUT_DIR:
+adam_adsl.csv
+adam_adtte.csv
+P061_f_oncology_graphs.csv
+P061_f_oncology_graphs.txt
+P061_t_oncology_report.csv
+P061_t_oncology_report.txt
+P061.csv
+P061.lst
+P061.txt
+sasgraph.csv
+sasgraph.png
+sdtm_dm.csv
+sgplot.csv
+sgplot.png
+sgplot1.csv
+sgplot1.png
+sgplot2.csv
+sgplot2.png
+sgplot3.csv
+sgplot3.png
+sgplot4.csv
+sgplot4.png
+sgplot5.csv
+sgplot5.png
+sgplot6.csv
+sgplot6.png 

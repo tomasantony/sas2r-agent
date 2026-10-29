@@ -1,0 +1,27 @@
+[Sponsor Name]                                                              Page 1
+Protocol: [Protocol Number]
+
+Table 14.1.2
+Subject Disposition
+All Randomized Subjects
+
+Category                         | Drug X High Dose (N=63)    | Drug X Low Dose (N=82)     | Placebo (N=95)            
+------------------------------------------------------------------------------------------------------------------------ 
+Analysis Populations
+Randomized                       | 95                         | 82                         | 63                        
+  Intent-to-Treat Set            | 95 (100.0)                 | 82 (100.0)                 | 63 (100.0)                
+  Safety Analysis Set            | 95 (100.0)                 | 82 (100.0)                 | 63 (100.0)                
+  Efficacy Analysis Set          | 87 (91.6)                  | 75 (91.5)                  | 60 (95.2)                 
+  Per-Protocol Set               | 76 (80.0)                  | 72 (87.8)                  | 56 (88.9)                 
+Study Completion
+Completed Study                  | 79 (83.2)                  | 71 (86.6)                  | 56 (88.9)                 
+Discontinued Study               | 16 (16.8)                  | 11 (13.4)                  | 7 (11.1)                  
+  Reason for Discontinuation
+  ADVERSE EVENT                  | 5 (5.3)                    | 3 (3.7)                    | 4 (6.3)                   
+  LACK OF EFFICACY               | 4 (4.2)                    | 1 (1.2)                    | 2 (3.2)                   
+  LOST TO FOLLOW-UP              | 2 (2.1)                    | 3 (3.7)                    |                           
+  WITHDRAWAL BY SUBJECT          | 5 (5.3)                    | 4 (4.9)                    | 1 (1.6)                   
+
+Data cutoff: [DDMONYYYY].
+Source: ADaM datasets
+Program: P071_t_disp.sas | Run: 29OCT2026 21:38

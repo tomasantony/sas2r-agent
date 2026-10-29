@@ -1,0 +1,19 @@
+sandbox: docker run --rm --name sas2r-8de13b751d84 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P057\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading: /bench/data/raw/cdisc-pilot/adam/adpc.xpt
+Warning message:
+In meandata$PCSD[is.na(meandata$PCMEAN)] <- ifelse(is.na(meandata$PCMEAN) &  :
+  number of items to replace is not a multiple of replacement length
+Warning messages:
+1: In arrows(d$PCTPT[idx], d$LOWER_DISP[idx], d$PCTPT[idx], d$UPPER[idx],  :
+  zero-length arrow is of indeterminate angle and so skipped
+2: In arrows(d$PCTPT[idx], d$LOWER_DISP[idx], d$PCTPT[idx], d$UPPER[idx],  :
+  zero-length arrow is of indeterminate angle and so skipped
+3: In arrows(d$PCTPT[idx], d$LOWER_DISP[idx], d$PCTPT[idx], d$UPPER[idx],  :
+  zero-length arrow is of indeterminate angle and so skipped
+4: In arrows(d$PCTPT[idx], d$LOWER_DISP[idx], d$PCTPT[idx], d$UPPER[idx],  :
+  zero-length arrow is of indeterminate angle and so skipped
+5: In arrows(d$PCTPT[idx], d$LOWER_DISP[idx], d$PCTPT[idx], d$UPPER[idx],  :
+  zero-length arrow is of indeterminate angle and so skipped
+null device 
+          1 
+Done. Wrote target13.csv / target13.png / target13.txt to /work/out

@@ -1,0 +1,65 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.838483620398514,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P014.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.8968253968253969,
+   "detail": {
+    "recall": 0.8968253968253969,
+    "expected": 126,
+    "found": 113,
+    "r_files": [
+     "ex.csv",
+     "P014.csv",
+     "P014.lst.csv",
+     "P014.lst.txt",
+     "P014.txt"
+    ],
+    "missing_examples": [
+     "2023",
+     "-27",
+     "-12",
+     "-26"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "ex",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark\\P014\\attempt_1\\out\\ex.csv",
+   "status": "mismatch",
+   "score": 0.7801418439716312,
+   "detail": {
+    "rows_sas": 47,
+    "rows_r": 47,
+    "cols_sas": 9,
+    "cols_r": 9,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.7801418439716312,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(EXSTDTC, 1, '2023-01-17', '2017-01-20')",
+     "(EXSTDTC, 2, '2023-01-05', '2005-01-20')",
+     "(EXSTDTC, 3, '2023-01-10', '2010-01-20')",
+     "(EXSTDTC, 4, '2023-01-22', '2022-01-20')",
+     "(EXSTDTC, 5, '2023-01-04', '2004-01-20')",
+     "(EXSTDTC, 6, '2023-01-12', '2012-01-20')",
+     "(EXSTDTC, 7, '2023-01-04', '2004-01-20')",
+     "(EXSTDTC, 8, '2023-01-02', '2002-01-20')",
+     "(EXSTDTC, 9, '2023-01-23', '2023-01-20')",
+     "(EXSTDTC, 10, '2023-01-26', '2026-01-20')"
+    ],
+    "worst_columns": {
+     "EXSTDTC": 47,
+     "EXENDTC": 46
+    }
+   }
+  }
+ ]
+}

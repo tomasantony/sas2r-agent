@@ -1,0 +1,9 @@
+sandbox: docker run --rm --name sas2r-ab427fcd7b72 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P026\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+Reading inputs...
+edc_lb rows=6 cols=SUBJID,TESTCD,CAT,ORRES,UNIT,VISIT,LBDT,LOW,HIGH
+Preparing DM reference...
+edc_ex cols=SUBJID,VISIT,TRT,DOSE,UNIT,STDT,ENDT,LOT,ROUTE,FREQ,FORM,ADJ,ADJRS
+ivrs_rand cols=SUBJID,RAND_DT,TRT_CODE
+dm_for_lb rows=5
+sdtm_lb rows=6
+Done.

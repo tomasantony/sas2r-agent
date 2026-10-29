@@ -1,0 +1,5 @@
+sandbox: docker run --rm --name sas2r-25bebe4a39bc --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P015\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Reading raw lab: /bench/data/derived/c2c/data/raw/raw_lab.csv 
+Columns: SUBJ,VISIT_NAM,VISIT_NUM,LAB_DAT,TEST_NAME,RESULT,UNIT  n= 516 
+Final LB n= 516 
+Wrote /work/out/lb.csv and /work/out/P015.txt 

@@ -1,0 +1,82 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9245283018867925,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P053.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.7735849056603774,
+   "detail": {
+    "recall": 0.7735849056603774,
+    "expected": 106,
+    "found": 82,
+    "r_files": [
+     "advsmax2.csv",
+     "advsmax3.csv",
+     "EmergentHigh.csv",
+     "P053.csv",
+     "P053.txt",
+     "sasgraph.csv",
+     "TableA.csv",
+     "TableAt.csv",
+     "Target16.csv",
+     "Target16.txt",
+     "Target16_emergent.csv"
+    ],
+    "missing_examples": [
+     "33.6",
+     "32.8",
+     "250",
+     "0.0021",
+     "0.999",
+     "0.0012",
+     "0.9728",
+     "0.0029",
+     "0.056",
+     "13",
+     "3.5",
+     "14.2"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "sasgraph.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark\\P053\\attempt_1\\out\\sasgraph.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "Target16.pdf",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 41,
+    "found": 41,
+    "r_files": [
+     "advsmax2.csv",
+     "advsmax3.csv",
+     "EmergentHigh.csv",
+     "P053.csv",
+     "P053.txt",
+     "sasgraph.csv",
+     "TableA.csv",
+     "TableAt.csv",
+     "Target16.csv",
+     "Target16.txt",
+     "Target16_emergent.csv"
+    ],
+    "missing_examples": []
+   }
+  }
+ ]
+}

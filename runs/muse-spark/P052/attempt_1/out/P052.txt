@@ -1,0 +1,11 @@
+P052: Range for Shift Plot Axes (DIABP, ATPTN=815, ANL01FL=Y, ADY>1, SAFFL=Y)
+--------------------------------------------------------------------------------
+MIN_BASE = 40   MAX_BASE = 98
+MIN_AVAL = 41   MAX_AVAL = 90
+Overall axis MIN = 40   MAX = 98
+N obs (advsmax_final) = 250   N STUDYID (COUNT_STUDY) = 1
+ROWS = 1   COLUMNS = 2
+
+Table body (range):
+MIN_BASE | MAX_BASE | MIN_AVAL | MAX_AVAL
+40 | 98 | 41 | 90

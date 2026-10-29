@@ -1,0 +1,70 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P055",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 2,
+ "recorded_at": "2026-10-29T17:10:15",
+ "agent_commit": "ea9ec024216430eec6b2658819ecea47deb782c6",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 5736,
+  "output_tokens": 8363,
+  "reasoning_tokens": 5179,
+  "finish_reason": "stop",
+  "seconds": 39.0
+ },
+ "inputs": {
+  "prompt_translate.md": "ec6a8c27dc821c3c79f4ecd9f2c6b0374ed8d1a0df044a72dd55f5b8454d5801"
+ },
+ "model_output": {
+  "response.md": "d8c1f66882b7f9fbc3bb31785253157947c87776d6664d61aa3696dbe777541f",
+  "script.R": "694041a7801b58cd4ae28b53c1c748453af6e2bad6f8d4a99c985f0707d6ae98"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 3.2,
+  "timed_out": false,
+  "log_sha256": "32d5ed9d7a48f0d82248b40149241bbf07748cfcc9909369295aa53ccc915366"
+ },
+ "r_outputs": {
+  "P055.csv": "c647ced83b9a7aef76c5dfefb88d0be1b77607ee735fe690ed5fbe24ec968937",
+  "P055.lst": "e6711f48ef7e5569570b42698d6e6a6f895d4301127a9f15d4fe29a54847b143",
+  "P055.txt": "e6711f48ef7e5569570b42698d6e6a6f895d4301127a9f15d4fe29a54847b143",
+  "sasgraph.csv": "5210fbd0633833c37d21ead32f2f9392108bbe9a660b91b595c4266cfded6926",
+  "sasgraph.png": "ecc6851a0b4c23dc5bc4617d97f44177ac1cd107987af309af02e50704b4fd6b"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P055.lst",
+   "sha256": "e6c976e296e37eb444ea04bd867441f35ff40778db854138849bdbcb89f08565",
+   "frozen_sha256": "e6c976e296e37eb444ea04bd867441f35ff40778db854138849bdbcb89f08565",
+   "ok": true
+  },
+  {
+   "file": "datasets/P055/sasgraph.png",
+   "sha256": "914a038f9f11ad5d88f1ab8f688304b37aa98421c74ef79f08f42afce72349fc",
+   "frozen_sha256": "914a038f9f11ad5d88f1ab8f688304b37aa98421c74ef79f08f42afce72349fc",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 0.999597423510467,
+  "produced_all": true
+ }
+}

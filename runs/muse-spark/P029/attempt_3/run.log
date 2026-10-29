@@ -1,0 +1,37 @@
+sandbox: docker run --rm --name sas2r-c945b27c22f1 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P029\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+P029 TU mapping: reading inputs
+TU USUBJIDs: ONCO-2026-101,ONCO-2026-103,ONCO-2026-105
+TU SUBJIDs: 101,103,105
+TU TUDTs: 02-JAN-2026,05-JAN-2026,12-JAN-2026
+DM candidate files: 13
+  cand: /bench/output/sas/datasets/P011/dm.sas7bdat
+  cand: /bench/output/sas/datasets/P066/raw_dm.sas7bdat
+  cand: /bench/data/derived/c2c/data/sdtm/dm.sas7bdat
+  cand: /bench/data/derived/cdisc-pilot/sdtm/dm.sas7bdat
+  cand: /bench/data/derived/cdisc-pilot/sdtm/suppdm.sas7bdat
+  cand: /bench/data/derived/wxzhai/raw/raw_dm.sas7bdat
+  cand: /bench/data/derived/wxzhai/sdtm/dm.sas7bdat
+  cand: /bench/data/raw/cdisc-pilot/sdtm/dm.xpt
+  cand: /bench/data/raw/cdisc-pilot/sdtm/suppdm.xpt
+  cand: /bench/data/raw/faijal-oncology/raw_data/edc_dm.xlsx
+  cand: /bench/data/raw/wxzhai-portfolio/rawdata/raw_dm.sas7bdat
+  cand: /bench/data/raw/wxzhai-portfolio/sdtm/data/dm.sas7bdat
+  cand: /bench/output/sas/shipped/P023/dm.xlsx
+file=/bench/output/sas/datasets/P011/dm.sas7bdat n=50 exact_overlap=0 nonmiss_rf=50 sample_usub=CDISC-01-701-001|CDISC-01-703-002|CDISC-01-704-003 sample_rf=2023-01-15|2023-01-24|2023-01-27
+file=/bench/data/derived/c2c/data/sdtm/dm.sas7bdat n=50 exact_overlap=0 nonmiss_rf=50 sample_usub=CDISC-01-701-001|CDISC-01-703-002|CDISC-01-704-003 sample_rf=2023-01-15|2023-01-24|2023-01-27
+file=/bench/data/derived/cdisc-pilot/sdtm/dm.sas7bdat n=306 exact_overlap=0 nonmiss_rf=254 sample_usub=01-701-1015|01-701-1023|01-701-1028 sample_rf=2014-01-02|2012-08-05|2013-07-19
+file=/bench/data/derived/wxzhai/sdtm/dm.sas7bdat n=4 exact_overlap=0 nonmiss_rf=4 sample_usub=ABC-301-101|ABC-301-102|ABC-301-103 sample_rf=2022-01-10|2022-01-12|2022-01-15
+file=/bench/data/raw/cdisc-pilot/sdtm/dm.xpt n=306 exact_overlap=0 nonmiss_rf=254 sample_usub=01-701-1015|01-701-1023|01-701-1028 sample_rf=2014-01-02|2012-08-05|2013-07-19
+file=/bench/data/raw/wxzhai-portfolio/sdtm/data/dm.sas7bdat n=4 exact_overlap=0 nonmiss_rf=4 sample_usub=ABC-301-101|ABC-301-102|ABC-301-103 sample_rf=2022-01-10|2022-01-12|2022-01-15
+file=/bench/output/sas/shipped/P023/dm.xlsx n=5 exact_overlap=3 nonmiss_rf=5 sample_usub=ONCO-2026-101|ONCO-2026-102|ONCO-2026-103 sample_rf=2026-01-05|2026-01-08|2026-01-10
+edc_dm lookup n=5 col=RFICDT nonmiss=5 sample_usub=ONCO-2026-101|ONCO-2026-102|ONCO-2026-103|ONCO-2026-104|ONCO-2026-105
+edc_ex cols: SUBJID|VISIT|TRT|DOSE|UNIT|STDT|ENDT|LOT|ROUTE|FREQ|FORM|ADJ|ADJRS
+edc_ex: no date column found
+master lookup n=365
+resolved RFSTDTC: 2026-01-05|2026-01-10|2026-01-10|2026-01-15
+TUDTC: 2026-01-02|2026-01-05|2026-01-05|2026-01-12
+RFSTDTC: 2026-01-05|2026-01-10|2026-01-10|2026-01-15
+TUSTDY: -3|-5|-5|-3
+sdtm_tu rows: 4
+[1] TRUE
+Outputs written to OUT_DIR

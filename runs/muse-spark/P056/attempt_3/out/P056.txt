@@ -1,0 +1,150 @@
+Vital Signs
+Treatment-Emergent Abnormal High or Low at Any Time
+
+The FREQ Procedure
+
+Table of TRTPN by CRIT1FL
+Abnormality Direction: Low
+PARAM: Diastolic Blood Pressure (mmHg)
+
+TRTPN      CRIT1FL Frequency  Percent    Row Pct    Col Pct   
+------------------------------------------------------------
+0          N      77         30.92      92.77      34.07     
+  Frequency=77 Percent=30.92 RowPct=92.77 ColPct=34.07 Expected=75.3333 CellChiSq=0.0369
+54         N      77         30.92      91.67      34.07     
+  Frequency=77 Percent=30.92 RowPct=91.67 ColPct=34.07 Expected=76.2410 CellChiSq=0.0076
+81         N      72         28.92      87.80      31.86     
+  Frequency=72 Percent=28.92 RowPct=87.80 ColPct=31.86 Expected=74.4257 CellChiSq=0.0791
+0          Y      6          2.41       7.23       26.09     
+  Frequency=6 Percent=2.41 RowPct=7.23 ColPct=26.09 Expected=7.6667 CellChiSq=0.3623
+54         Y      7          2.81       8.33       30.43     
+  Frequency=7 Percent=2.81 RowPct=8.33 ColPct=30.43 Expected=7.7590 CellChiSq=0.0743
+81         Y      10         4.02       12.20      43.48     
+  Frequency=10 Percent=4.02 RowPct=12.20 ColPct=43.48 Expected=7.5743 CellChiSq=0.7768
+------------------------------------------------------------
+Total Frequency = 249
+Total Percent = 100
+Total Percent = 100.00
+Missing Frequency = 0
+Effective Sample Size = 249 Frequency Missing = 0
+
+TRTPN=0 Total = 83 Percent = 33.33 Percent = 33.3333
+TRTPN=54 Total = 84 Percent = 33.73 Percent = 33.7349
+TRTPN=81 Total = 82 Percent = 32.93 Percent = 32.9317
+CRIT1FL=N Total = 226 Percent = 90.76 Percent = 90.7631
+CRIT1FL=Y Total = 23 Percent = 9.24 Percent = 9.2369
+
+Statistics for Table of TRTPN by CRIT1FL
+
+Statistic                    Value      DF     Prob      
+Chi-Square                   1.3369     2      0.5125    
+Likelihood Ratio Chi-Square  1.2978     2      0.5226    
+Mantel-Haenszel Chi-Square   1.0217     1      0.3121    
+Phi Coefficient              0.0733    
+Contingency Coefficient      0.0731    
+Cramer's V                   0.0733    
+
+Chi-Square = 1.336903734 DF = 2 Prob = 0.5125013842
+ChiSq_4dec=1.3369 p_4dec=0.5125 ChiSq_2dec=1.34 p_2dec=0.51
+LikelihoodRatio = 1.297817831 DF = 2 Prob = 0.5226156837
+LR_4dec=1.2978 p_4dec=0.5226
+MantelHaenszel = 1.021660916 DF = 1 Prob = 0.312125359
+MH_4dec=1.0217 p_4dec=0.3121
+Phi=0.0733 Contingency=0.0731 CramersV=0.0733
+Phi_raw=0.07327408342 Cont_raw=0.07307816438 V_raw=0.07327408342
+
+Fisher's Exact Test
+
+Table Probability (P)        0.0208
+Pr <= P                      0.5376
+Table Probability (P) = 0.02080979936
+Pr <= P = 0.5375936109
+Two-sided Pr <= P (XP2_FISH) = 0.5375936109
+P-value (pvalue5.3) = 0.538
+P-value (4 decimals) = 0.5376
+P-value (2 decimals) = 0.54
+
+Table of TRTPN by CRIT2FL
+Abnormality Direction: High
+PARAM: Diastolic Blood Pressure (mmHg)
+
+TRTPN      CRIT2FL Frequency  Percent    Row Pct    Col Pct   
+------------------------------------------------------------
+0          N      70         28.11      84.34      32.56     
+  Frequency=70 Percent=28.11 RowPct=84.34 ColPct=32.56 Expected=71.6667 CellChiSq=0.0388
+54         N      71         28.51      84.52      33.02     
+  Frequency=71 Percent=28.51 RowPct=84.52 ColPct=33.02 Expected=72.5301 CellChiSq=0.0323
+81         N      74         29.72      90.24      34.42     
+  Frequency=74 Percent=29.72 RowPct=90.24 ColPct=34.42 Expected=70.8032 CellChiSq=0.1443
+0          Y      13         5.22       15.66      38.24     
+  Frequency=13 Percent=5.22 RowPct=15.66 ColPct=38.24 Expected=11.3333 CellChiSq=0.2451
+54         Y      13         5.22       15.48      38.24     
+  Frequency=13 Percent=5.22 RowPct=15.48 ColPct=38.24 Expected=11.4699 CellChiSq=0.2041
+81         Y      8          3.21       9.76       23.53     
+  Frequency=8 Percent=3.21 RowPct=9.76 ColPct=23.53 Expected=11.1968 CellChiSq=0.9127
+------------------------------------------------------------
+Total Frequency = 249
+Total Percent = 100
+Total Percent = 100.00
+Missing Frequency = 0
+Effective Sample Size = 249 Frequency Missing = 0
+
+TRTPN=0 Total = 83 Percent = 33.33 Percent = 33.3333
+TRTPN=54 Total = 84 Percent = 33.73 Percent = 33.7349
+TRTPN=81 Total = 82 Percent = 32.93 Percent = 32.9317
+CRIT2FL=N Total = 215 Percent = 86.35 Percent = 86.3454
+CRIT2FL=Y Total = 34 Percent = 13.65 Percent = 13.6546
+
+Statistics for Table of TRTPN by CRIT2FL
+
+Statistic                    Value      DF     Prob      
+Chi-Square                   1.5773     2      0.4545    
+Likelihood Ratio Chi-Square  1.6579     2      0.4365    
+Mantel-Haenszel Chi-Square   0.9340     1      0.3338    
+Phi Coefficient              0.0796    
+Contingency Coefficient      0.0793    
+Cramer's V                   0.0796    
+
+Chi-Square = 1.577309375 DF = 2 Prob = 0.4544557692
+ChiSq_4dec=1.5773 p_4dec=0.4545 ChiSq_2dec=1.58 p_2dec=0.45
+LikelihoodRatio = 1.657896495 DF = 2 Prob = 0.4365081435
+LR_4dec=1.6579 p_4dec=0.4365
+MantelHaenszel = 0.9340464142 DF = 1 Prob = 0.3338136696
+MH_4dec=0.9340 p_4dec=0.3338
+Phi=0.0796 Contingency=0.0793 CramersV=0.0796
+Phi_raw=0.0795900484 Cont_raw=0.07933915515 V_raw=0.0795900484
+
+Fisher's Exact Test
+
+Table Probability (P)        0.0125
+Pr <= P                      0.4701
+Table Probability (P) = 0.01249586142
+Pr <= P = 0.4701151201
+Two-sided Pr <= P (XP2_FISH) = 0.4701151201
+P-value (pvalue5.3) = 0.470
+P-value (4 decimals) = 0.4701
+P-value (2 decimals) = 0.47
+
+Vital Signs - Treatment-Emergent Abnormal High or Low at Any Time (PROC REPORT)
+
+Vital Sign                          Abnormality  Treatment    N      n      (%)      P value*
+(unit)                              Direction                                                
+---------------------------------------------------------------------------------------------
+Diastolic Blood Pressure (mmHg)     Low          0            83     6.00000000000 (7.2)    0.538   
+  Detail: N=83 n=6 pct_1dec=7.2 pct_2dec=7.23 pct_4dec=7.2289 p_raw=0.5375936109 p_3dec=0.538 p_4dec=0.5376 p_2dec=0.54
+Diastolic Blood Pressure (mmHg)     Low          54           84     7.00000000000 (8.3)            
+  Detail: N=84 n=7 pct_1dec=8.3 pct_2dec=8.33 pct_4dec=8.3333 p_raw=0.5375936109 p_3dec=0.538 p_4dec=0.5376 p_2dec=0.54
+Diastolic Blood Pressure (mmHg)     Low          81           82     10.0000000000 (12.2)           
+  Detail: N=82 n=10 pct_1dec=12.2 pct_2dec=12.20 pct_4dec=12.1951 p_raw=0.5375936109 p_3dec=0.538 p_4dec=0.5376 p_2dec=0.54
+Diastolic Blood Pressure (mmHg)     High         0            83     13.0000000000 (15.7)   0.470   
+  Detail: N=83 n=13 pct_1dec=15.7 pct_2dec=15.66 pct_4dec=15.6627 p_raw=0.4701151201 p_3dec=0.470 p_4dec=0.4701 p_2dec=0.47
+Diastolic Blood Pressure (mmHg)     High         54           84     13.0000000000 (15.5)           
+  Detail: N=84 n=13 pct_1dec=15.5 pct_2dec=15.48 pct_4dec=15.4762 p_raw=0.4701151201 p_3dec=0.470 p_4dec=0.4701 p_2dec=0.47
+Diastolic Blood Pressure (mmHg)     High         81           82     8.00000000000 (9.8)            
+  Detail: N=82 n=8 pct_1dec=9.8 pct_2dec=9.76 pct_4dec=9.7561 p_raw=0.4701151201 p_3dec=0.470 p_4dec=0.4701 p_2dec=0.47
+---------------------------------------------------------------------------------------------
+
+  Abbreviations:  N = number of patients with a normal (i.e., not low if calculating `low` and not high if calculating `high`)
+  baseline and at least one post-baseline measure, n = number of patients wtih an abnormal post-baseline result in the
+  specified category.
+  *P values are from Fisher's Exact test.

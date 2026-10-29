@@ -1,0 +1,35 @@
+Table: Serious Treatment-Emergent Adverse Events by System Organ Class and Preferred Term
+(Safety population, TRTEMFL=Y and AESER=Y)
+
+Treatment groups: Placebo (TRTAN=0), Low Dose (TRTAN=54), High Dose (TRTAN=81)
+Denominators (SAFFL=Y): Placebo N=86, Low N=84, High N=84
+Placebo: Placebo | Low: Xanomeline Low Dose | High: Xanomeline High Dose
+Fisher's exact two-sided p-values (XP2_FISH): Low vs Placebo and High vs Placebo
+Result format: n (%) [number of events]; % = 100*count/denom
+
+System Organ Class / Preferred Term        Placebo (N=86)     Low (N=84)         High (N=84)        p Low-Pbo    p High-Pbo  
+------------------------------------------ ------------------ ------------------ ------------------ ------------ ------------
+Any Serious TEAE                           0 (0.0%) [0]       1 (1.2%) [1]       2 (2.4%) [2]       1.0000       1.0000      
+NERVOUS SYSTEM DISORDERS                   0 (0.0%) [0]       1 (1.2%) [1]       2 (2.4%) [2]       1.0000       1.0000      
+  PARTIAL SEIZURES WITH SECONDARY GENERALI 0 (0.0%) [0]       0 (0.0%) [0]       1 (1.2%) [1]       1.0000       1.0000      
+  SYNCOPE                                  0 (0.0%) [0]       1 (1.2%) [1]       1 (1.2%) [1]       1.0000       1.0000      
+
+Notes: n = number of subjects with event; % = 100*n/denom (8.1 format, 1 decimal); [ ] = total number of events.
+Fisher's exact test based on subject counts (event vs no event) within SAFFL=Y backbone; two-sided XP2_FISH.
+Overall High vs Placebo p=1.0000; Low vs Placebo p=1.0000.
+Overall actual-dose High (81) vs Placebo p=0.2427; Low (54) vs Placebo p=0.4941.
+
+Actual-dose Fisher p-values (Placebo vs Low/High by TRTAN values in data):
+
+OVERALL pLowAct=0.4941 pHighAct=0.2427
+SOC=NERVOUS SYSTEM DISORDERS pLowAct=0.4941 pHighAct=0.2427
+PT=PARTIAL SEIZURES WITH SECONDARY GENERALISATION (NERVOUS SYSTEM DISORDERS) pLowAct=1.0000 pHighAct=0.4941
+PT=SYNCOPE (NERVOUS SYSTEM DISORDERS) pLowAct=0.4941 pHighAct=0.4941
+
+Detail: 2x2 subject counts (EVENT=1 / EVENT=0) and Fisher exact p-values by PT and SOC:
+SAS-faithful filters TRTAN in (0,2) and (0,1); actual-dose filters use observed TRTAN values.
+
+PT=PARTIAL SEIZURES WITH SECONDARY GENERALISATION | PBO 1/0=0/86 High(2) 1/0=0/0 pHigh=1.0000 | Low(1) 1/0=0/0 pLow=1.0000 | Act PBO 1/0=0/86 ActHigh 1/0=1/83 pHighAct=0.4941 ActLow 1/0=0/84 pLowAct=1.0000
+PT=SYNCOPE | PBO 1/0=0/86 High(2) 1/0=0/0 pHigh=1.0000 | Low(1) 1/0=0/0 pLow=1.0000 | Act PBO 1/0=0/86 ActHigh 1/0=1/83 pHighAct=0.4941 ActLow 1/0=1/83 pLowAct=0.4941
+SOC=NERVOUS SYSTEM DISORDERS | PBO 1/0=0/86 High(2) 1/0=0/0 pHigh=1.0000 | Low(1) 1/0=0/0 pLow=1.0000 | Act PBO 1/0=0/86 ActHigh 1/0=2/82 pHighAct=0.2427 ActLow 1/0=1/83 pLowAct=0.4941
+OVERALL PBO 1/0=0/86 High(2) 1/0=0/0 pHigh=1.0000 Low(1) 1/0=0/0 pLow=1.0000 ActHigh 1/0=2/82 pHighAct=0.2427 ActLow 1/0=1/83 pLowAct=0.4941

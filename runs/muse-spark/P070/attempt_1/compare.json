@@ -1,0 +1,35 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "t_cm.rtf",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 75,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "14.2",
+     "1",
+     "63",
+     "82",
+     "95",
+     "29",
+     "30.5",
+     "23",
+     "28",
+     "24",
+     "38.1",
+     "25.3"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+# P033_target12.sas -> R translation
+# Figure 16.2.5-x.x Individual concentration-time profiles (GPLOT AVAL*EACTM BY USUBJID PARCAT1)
+
+out <- Sys.getenv("OUT_DIR")
+if (out == "") out <- getwd()
+dir.create(out, showWarnings = FALSE, recursive = TRUE)
+
+rawadam <- "/bench/data/raw/cdisc-pilot/adam"
+
+## round-half-up helper (SAS semantics) - not needed for plot but kept for fidelity
+round_half_up <- function(x, digits = 0) {
+  posneg <- sign(x)
+  z <- abs(x) * 10^digits
+  z <- floor(z + 0.5 + 1e-10)
+  posneg * z / 10^digits
+}
+
+suppressPackageStartupMessages({
+  library(haven)
+  library(dplyr)
+  library(ggplot2)
+})
+
+cat("Reading ADSL and ADPC XPT\n")
+
+adsl_path <- file.path(rawadam, "adsl.xpt")
+adpc_path <- file.path(rawadam, "adpc.xpt")
+
+adsl <- haven::read_xpt(adsl_path)
+adpc <- haven::read_xpt(adpc_path)
+
+# helper to find column name case-insensitively
+find_col <- function(df, target) {
+  idx <- which(toupper(names(df)) == toupper(target))
+  if (length(idx) == 0) return(NA_character_)
+  names(df)[idx[1]]
+}
+
+usub_col  <- find_col(adpc, "USUBJID")
+par1_col  <- find_col(adpc, "PARCAT1")
+eactm_col <- find_col(adpc, "EACTM")
+aval_col  <- find_col(adpc, "AVAL")
+
+if (is.na(usub_col)) stop("USUBJID not found in ADPC")
+if (is.na(par1_col)) stop("PARCAT1 not found in ADPC")
+if (is.na(eactm_col)) stop("EACTM not found in ADPC")
+if (is.na(aval_col)) stop("AVAL not found in ADPC")
+
+cat(paste0("Using columns: ", paste(c(usub_col, par1_col, eactm_col, aval_col), collapse=", "), "\n"))
+
+# Standardize working data: keep original values, create numeric helpers for sort/plot
+work_adpc <- adpc
+
+# Coerce helpers: EACTM may be character or numeric; AVAL numeric
+# Preserve SAS missing-first sorting
+work_adpc[[".EACTM_num"]] <- suppressWarnings(as.numeric(work_adpc[[eactm_col]]))
+# if coercion produced all NA but original was not all NA and original is character/factor,
+# fall back to original ordering via character sort; keep numeric as NA for plot filtering
+# Detect if original was already numeric
+orig_eactm <- work_adpc[[eactm_col]]
+if (all(is.na(work_adpc[[".EACTM_num"]])) && !all(is.na(orig_eactm))) {
+  # try to keep character ordering; for plot we will drop these (cannot plot non-numeric x)
+  # leave .EACTM_num as NA
+  cat("WARNING: EACTM could not be coerced to numeric; plot x will be missing\n")
+}
+work_adpc[[".AVAL_num"]] <- suppressWarnings(as.numeric(work_adpc[[aval_col]]))
+
+# PROC SORT DATA=WORK.ADPC OUT=WORK.SORTadpc; BY USUBJID parcat1 eactm;
+# SAS: missing sorts first, character ordering uppercase before lowercase (binary)
+# dplyr::arrange approximates; enforce missing first explicitly
+SORTadpc <- work_adpc %>%
+  arrange(
+    .data[[usub_col]],
+    .data[[par1_col]],
+    is.na(.data[[eactm_col]] | .data[[".EACTM_num"]]),
+    .data[[".EACTM_num"]],
+    .data[[eactm_col]]
+  )
+
+cat(paste0("SORTadpc rows: ", nrow(SORTadpc), "\n"))
+
+# CSV of plotted data (BY vars + x*y), sorted as in SAS
+# Keep SAS dataset variable names (same case)
+plot_data_csv <- SORTadpc %>%
+  select(all_of(c(usub_col, par1_col, eactm_col, aval_col)))
+
+# Write plotted-data CSV -> sasgraph.csv
+write.csv(plot_data_csv, file.path(out, "sasgraph.csv"), row.names = FALSE, na = "")
+
+# Data actually plotted: non-missing AVAL and numeric EACTM
+plot_df <- SORTadpc %>%
+  filter(!is.na(.data[[".AVAL_num"]]), !is.na(.data[[".EACTM_num"]])) %>%
+  mutate(
+    .USUBJID = as.character(.data[[usub_col]]),
+    .PARCAT1 = as.character(.data[[par1_col]])
+  )
+
+# Fallback if everything filtered (e.g., EACTM non-numeric): try using original EACTM as numeric factor
+if (nrow(plot_df) == 0) {
+  cat("WARNING: no non-missing AVAL*EACTM pairs; writing empty plot placeholder\n")
+}
+
+# Build BY panel label like SAS BY lines: USUBJID=... PARCAT1=...
+plot_df <- plot_df %>%
+  mutate(
+    BYLABEL = paste0(.data$.USUBJID, " / ", .data$.PARCAT1)
+  )
+
+n_panels <- n_distinct(plot_df$BYLABEL)
+if (is.na(n_panels) || n_panels == 0) n_panels <- 1
+cat(paste0("Number of BY panels (USUBJID*PARCAT1): ", n_panels, "\n"))
+
+# Titles from SAS
+t1 <- "(page x of x)"
+t2 <- "Figure 16.2.5-x.x Individual concentration-time profiles"
+t3 <- "by compound, matrix, analyte and [actual/randomised][treatments/group]"
+t4 <- "Analysis Set : PK analysis set"
+
+# Facet layout: mimic one plot per BY group
+ncol_f <- ifelse(n_panels <= 2, n_panels, ifelse(n_panels <= 6, 3, 4))
+ncol_f <- max(1, min(4, n_panels))
+nrow_f <- ceiling(n_panels / ncol_f)
+
+# Dynamic size to keep panels readable, capped for ggsave
+w <- ncol_f * 3.2 + 1.5
+h <- nrow_f * 2.6 + 2.2
+w <- min(max(w, 8), 30)
+h <- min(max(h, 6), 50)
+
+p <- ggplot(plot_df, aes(x = .data[[".EACTM_num"]], y = .data[[".AVAL_num"]], group = .data$BYLABEL)) +
+  geom_line(linewidth = 0.9, color = "blue") +
+  facet_wrap(~ BYLABEL, ncol = ncol_f, scales = "free") +
+  labs(
+    title = paste0(t1, "\n", t2, "\n", t3, "\n", t4),
+    x = "Time (hour)",
+    y = "Conc (ug/mL)",
+    caption = "Generated by R (translation of P033_target12.sas PROC GPLOT)"
+  ) +
+  theme_bw() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 10, face = "bold"),
+    plot.caption = element_text(hjust = 0, size = 7),
+    strip.text = element_text(size = 7),
+    axis.title = element_text(size = 9),
+    axis.text = element_text(size = 7),
+    panel.grid.minor = element_blank()
+  )
+
+# If no plottable rows, add annotation
+if (nrow(plot_df) == 0) {
+  p <- ggplot() + annotate("text", x = 0.5, y = 0.5, label = "No plottable AVAL*EACTM data") +
+    labs(title = paste0(t1, "\n", t2, "\n", t3, "\n", t4), x = "Time (hour)", y = "Conc (ug/mL)") +
+    theme_bw() + theme(plot.title = element_text(hjust = 0.5, size = 10, face = "bold"))
+}
+
+png_file <- file.path(out, "sasgraph.png")
+ggsave(png_file, plot = p, width = w, height = h, dpi = 150, units = "in")
+cat(paste0("Wrote ", png_file, " (", w, "x", h, " in)\n"))
+cat(paste0("Wrote ", file.path(out, "sasgraph.csv"), "\n"))

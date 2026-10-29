@@ -1,0 +1,14 @@
+sandbox: docker run --rm --name sas2r-a01808d7b9ee --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P053\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading /bench/data/raw/cdisc-pilot/adam/advsmax.xpt 
+advsmax2 n = 250 
+advsmax3 n = 250 
+Contingency:
+    
+      0  1
+  0  79  5
+  54 79  5
+  81 77  5
+Fisher p = 1 
+ANRLO=60 ANRHI=90 Min=41 Max=90 YMin=40 YMax=100
+wrote sasgraph.png
+Done.

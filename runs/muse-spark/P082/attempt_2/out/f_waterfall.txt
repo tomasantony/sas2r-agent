@@ -1,0 +1,46 @@
+[Sponsor Name]                                                  Page 1 of 1
+Protocol: [Protocol Number]
+
+              Figure 14.2.3
+  Waterfall Plot of Best Percentage Change from Baseline in Sum of Target Lesions
+                  Efficacy Analysis Set
+
+  Number of subjects plotted (EFFFL=Y, PARAMCD=BPCHG): 222
+  Number with non-missing PCHG: 222
+
+  Best Overall Response (AVALC):
+  Response      N      N (%)
+  PR          121   121 ( 54.5%)
+  SD          101   101 ( 54.5%)
+
+  By treatment (TRTA):
+  Treatment                        N      N (%)
+  Drug X High Dose                 60   60 ( 27.0%)
+  Drug X Low Dose                  75   75 ( 33.8%)
+  Placebo                          87   87 ( 39.2%)
+
+  Best Percentage Change (%) by treatment (capped at +/-100 for display):
+    Drug X High Dose: n=60 Mean(SD)=-45.67 (19.46) Median=-41.50 Q1,Q3=-61.00,-30.00 Min,Max=-83.0,-14.0 <=-30%: 46 ( 76.7%) >=+20%: 0 (  0.0%)
+    Drug X Low Dose: n=75 Mean(SD)=-33.20 (20.22) Median=-30.00 Q1,Q3=-50.00,-17.00 Min,Max=-72.0,-2.0 <=-30%: 38 ( 50.7%) >=+20%: 0 (  0.0%)
+    Placebo: n=87 Mean(SD)=-27.01 (20.81) Median=-27.00 Q1,Q3=-46.00,-10.00 Min,Max=-60.0,9.0 <=-30%: 42 ( 48.3%) >=+20%: 0 (  0.0%)
+
+  Best Percentage Change from Baseline (%, capped at +/-100 for display) - Overall:
+    N                 : 222
+    Mean (SD)         : -34.14 (21.52)
+    Median            : -32.00
+    Q1, Q3            : -50.00, -21.00
+    Min, Max          : -83.0, 9.0
+    Mean (1 decimal)  : -34.1
+    Median (1 decimal): -32.0
+
+  Subjects with >=30% shrinkage (PR threshold, PCHG <= -30): 126 ( 56.8%)
+  Subjects with >=20% growth (PD threshold, PCHG >= +20)   : 0 (  0.0%)
+
+  Each bar represents one subject (sorted by PCHG; bar_order 1..N).
+  Reference lines: -30% (PR threshold, blue dashed), +20% (PD threshold, red dashed), 0 (black).
+  Y-axis values -100 to 100 by 20 with dotted grid.
+  CR=Complete Response, PR=Partial Response, SD=Stable Disease, PD=Progressive Disease
+
+  Data cutoff: [DDMONYYYY].
+  Source: ADaM datasets (ADTR PARAMCD=BPCHG joined to ADSL EFFFL=Y).
+  See f_waterfall.png for figure and f_waterfall.csv for plotted data.

@@ -29,7 +29,33 @@ class Artifact:
     tokens: int = 0    # number of numeric tokens (text kind)
 
 
+RTF_HEADER_GROUPS = ("fonttbl", "colortbl", "stylesheet", "info", "listtable", "listoverridetable")
+
+
+def _drop_group(t: str, word: str) -> str:
+    """Remove every {\\word ...} group, nested braces included."""
+    tag = "{\\" + word
+    while True:
+        i = t.find(tag)
+        if i < 0:
+            return t
+        depth, j = 0, i
+        while j < len(t):
+            if t[j] == "{":
+                depth += 1
+            elif t[j] == "}":
+                depth -= 1
+                if depth == 0:
+                    break
+            j += 1
+        t = t[:i] + " " + t[j + 1:]
+
+
 def rtf_to_text(rtf: str) -> str:
+    # header groups (font table, style sheet, document info) carry boilerplate such as
+    # "SAS Version 9.4" that no translation can be expected to reproduce
+    for g in RTF_HEADER_GROUPS:
+        rtf = _drop_group(rtf, g)
     t = re.sub(r"\{\\\*[^{}]*\}", "", rtf)
     for _ in range(50):  # drop embedded pictures (may nest one level)
         t2 = re.sub(r"\{\\pict(?:[^{}]|\{[^{}]*\})*\}", " ", t)
@@ -80,16 +106,16 @@ def number_tokens(text: str) -> Counter:
     return c
 
 
-def _audit_rows() -> dict[str, list[tuple[str, str]]]:
-    """(file, type) rows per id from the benchmark's output audit."""
-    rows: dict[str, list[tuple[str, str]]] = {}
+def _audit_rows() -> dict[str, list[tuple[str, str, str]]]:
+    """(file, type, detail) rows per id from the benchmark's output audit."""
+    rows: dict[str, list[tuple[str, str, str]]] = {}
     with open(BENCHMARK_ROOT / "benchmark" / "output_audit.csv", newline="", encoding="utf-8-sig") as f:
         for r in csv.DictReader(f):
             if r["type"] in ("log", "none", "bak", "sas7bndx", "xpt"):
                 continue
             if r["check"] == "empty":
                 continue
-            rows.setdefault(r["id"], []).append((r["file"], r["type"]))
+            rows.setdefault(r["id"], []).append((r["file"], r["type"], r.get("detail", "")))
     return rows
 
 
@@ -104,7 +130,7 @@ def _locate(pid: str, fname: str, ftype: str) -> Path | None:
 
 def expected_artifacts(pid: str) -> list[Artifact]:
     arts: list[Artifact] = []
-    for fname, ftype in _audit_rows().get(pid, []):
+    for fname, ftype, detail in _audit_rows().get(pid, []):
         p = _locate(pid, fname, ftype)
         if p is None:
             continue
@@ -112,10 +138,18 @@ def expected_artifacts(pid: str) -> list[Artifact]:
         if ftype in ("sas7bdat", "xlsx"):
             arts.append(Artifact("dataset", stem, str(p), f"{stem}.csv"))
         elif ftype in ("lst", "rtf", "pdf", "html", "htm"):
+            m = re.search(r"images=(\d+)", detail or "")
+            if m and int(m.group(1)) > 0:
+                # an RTF/PDF that embeds a graph: the translation must produce an image with the same stem;
+                # its text (titles, footnotes, maybe a small table) is compared only when it holds enough numbers
+                arts.append(Artifact("figure", p.name, str(p), f"{stem}.png"))
             arts.append(Artifact("text", p.name, str(p), f"{stem}.txt"))
         elif ftype in ("png", "gif"):
             arts.append(Artifact("figure", p.name, str(p), f"{stem}.png"))
     return arts
+
+
+MIN_TEXT_TOKENS = 5   # a text artifact with fewer numbers than this is not a meaningful comparison
 
 
 def expected_dir() -> Path:
@@ -140,6 +174,10 @@ def build_expected(pid: str, force: bool = False) -> dict:
                 a.name += f" (unreadable: {e})"
             tokens[a.name] = dict(c)
             a.tokens = sum(c.values())
+    # drop text artifacts that carry almost no numbers (figure-only RTFs, cover pages): recall over one or two
+    # title numbers is noise, and the figure artifact added above already checks that the graph was produced
+    arts = [a for a in arts if not (a.kind == "text" and a.tokens < MIN_TEXT_TOKENS
+                                    and any(b.kind == "figure" and b.name == a.name for b in arts))]
     data = {"id": pid, "artifacts": [asdict(a) for a in arts], "tokens": tokens}
     cache.write_text(json.dumps(data, indent=1), encoding="utf-8")
     return data

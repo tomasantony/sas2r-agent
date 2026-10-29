@@ -1,0 +1,91 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P100.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 25,
+    "found": 25,
+    "r_files": [
+     "P100.csv",
+     "P100.lst.txt",
+     "P100.txt",
+     "p100_lst.csv",
+     "p100_lst.txt",
+     "print5.csv",
+     "sashtml.csv",
+     "sashtml.htm",
+     "sashtml.htm.txt",
+     "sashtml.txt",
+     "sashtml_htm.csv",
+     "sashtml_htm.txt",
+     "TumorSize.csv",
+     "tumorsize_band_sg_v94.csv",
+     "tumorsize_desc.csv",
+     "tumorsize_sg_v94.csv",
+     "TumorSizeDesc.csv"
+    ],
+    "missing_examples": []
+   }
+  },
+  {
+   "kind": "text",
+   "name": "sashtml.htm",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 25,
+    "found": 25,
+    "r_files": [
+     "P100.csv",
+     "P100.lst.txt",
+     "P100.txt",
+     "p100_lst.csv",
+     "p100_lst.txt",
+     "print5.csv",
+     "sashtml.csv",
+     "sashtml.htm",
+     "sashtml.htm.txt",
+     "sashtml.txt",
+     "sashtml_htm.csv",
+     "sashtml_htm.txt",
+     "TumorSize.csv",
+     "tumorsize_band_sg_v94.csv",
+     "tumorsize_desc.csv",
+     "tumorsize_sg_v94.csv",
+     "TumorSizeDesc.csv"
+    ],
+    "missing_examples": []
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "TumorSize_Band_SG_V94.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark\\P100\\attempt_1\\out\\tumorsize_band_sg_v94.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "TumorSize_SG_V94.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark\\P100\\attempt_1\\out\\tumorsize_sg_v94.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  }
+ ]
+}

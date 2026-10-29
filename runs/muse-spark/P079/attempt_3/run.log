@@ -1,0 +1,19 @@
+sandbox: docker run --rm --name sas2r-33f810e7eda2 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P079\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADAE / ADSL ...
+ADAE file: /bench/data/raw/own-synthetic/adam/adae.sas7bdat
+ADSL file: /bench/data/raw/own-synthetic/adam/adsl.sas7bdat
+ADAE nrow=345 ncol=38
+ADSL nrow=240 ncol=44
+ADAE AESER unique:
+[1] "N" "Y"
+ADSL SAFFL unique:
+[1] "Y"
+ADSL TRTA unique:
+[1] "Drug X High Dose" "Drug X Low Dose"  "Placebo"         
+USUBJID overlap: adae=175 adsl=240 intersect=175
+SAFFL=='Y' count: 240
+AESER=='Y' count: 28
+joined nrow=345
+after SAE filter nrow=0
+SAE rows: 0
+Done. Outputs written to OUT_DIR

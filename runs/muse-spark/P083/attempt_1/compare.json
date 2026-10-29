@@ -1,0 +1,57 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9523076923076923,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P083.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9046153846153846,
+   "detail": {
+    "recall": 0.9046153846153846,
+    "expected": 325,
+    "found": 294,
+    "r_files": [
+     "adsl.csv",
+     "P083.csv",
+     "P083.txt"
+    ],
+    "missing_examples": [
+     "9",
+     "0",
+     "10",
+     "27",
+     "2026",
+     "15",
+     "496",
+     "64",
+     "65536",
+     "132",
+     "35248",
+     "9.0401"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adsl",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark\\P083\\attempt_1\\out\\adsl.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 6,
+    "rows_r": 6,
+    "cols_sas": 35,
+    "cols_r": 35,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  }
+ ]
+}

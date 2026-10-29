@@ -1,0 +1,157 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9881969881969882,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P086.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9173789173789174,
+   "detail": {
+    "recall": 0.9173789173789174,
+    "expected": 351,
+    "found": 322,
+    "r_files": [
+     "adrs.csv",
+     "adsl.csv",
+     "adtte.csv",
+     "adtte_os.csv",
+     "adtte_pfs.csv",
+     "adtte_ttr.csv",
+     "P086.csv",
+     "P086.txt"
+    ],
+    "missing_examples": [
+     "18",
+     "9",
+     "10",
+     "27",
+     "2026",
+     "15",
+     "824",
+     "64",
+     "69632",
+     "84",
+     "35248",
+     "9.0401"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adrs",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark\\P086\\attempt_1\\out\\adrs.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 9,
+    "rows_r": 9,
+    "cols_sas": 4,
+    "cols_r": 4,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adsl",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark\\P086\\attempt_1\\out\\adsl.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 6,
+    "rows_r": 6,
+    "cols_sas": 15,
+    "cols_r": 15,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adtte",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark\\P086\\attempt_1\\out\\adtte.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 18,
+    "rows_r": 18,
+    "cols_sas": 22,
+    "cols_r": 22,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adtte_os",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark\\P086\\attempt_1\\out\\adtte_os.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 6,
+    "rows_r": 6,
+    "cols_sas": 20,
+    "cols_r": 20,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adtte_pfs",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark\\P086\\attempt_1\\out\\adtte_pfs.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 6,
+    "rows_r": 6,
+    "cols_sas": 20,
+    "cols_r": 20,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adtte_ttr",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark\\P086\\attempt_1\\out\\adtte_ttr.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 6,
+    "rows_r": 6,
+    "cols_sas": 19,
+    "cols_r": 19,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  }
+ ]
+}

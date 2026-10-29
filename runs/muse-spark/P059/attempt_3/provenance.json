@@ -1,0 +1,64 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P059",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 3,
+ "recorded_at": "2026-10-29T17:19:30",
+ "agent_commit": "ea9ec024216430eec6b2658819ecea47deb782c6",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 14342,
+  "output_tokens": 11846,
+  "reasoning_tokens": 6956,
+  "finish_reason": "stop",
+  "seconds": 57.8
+ },
+ "inputs": {
+  "prompt_translate.md": "12973a147f75ebd551fdcc40409d1ce5dadc2113c17031c55418d0d5b530f4da"
+ },
+ "model_output": {
+  "response.md": "1188c0f4703cfbe3d7dec734ec4b3a6ad6e416103b39dd35058c3e5f47f99955",
+  "script.R": "ce6f2270ea129821e834ddbeb83c4f348eb6c7d42bfd8797cd1d493b86f5f021"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.2,
+  "timed_out": false,
+  "log_sha256": "091ffa9b1a740107378f6bbf14d32d9f00a84dc2dde9fb9f06f7f9c0f15d02f3"
+ },
+ "r_outputs": {
+  "adpp_sum.csv": "9b0da5299f8226574ab58662471e4be40e9465210bfc07a802869c0d167c45ed",
+  "adpp_sum_t.csv": "7e8d1a8767ddb12ce64511a221e783f8e80b357f0fdd17536ab9f08ada3d106c",
+  "P059.csv": "6465fedb0365f5aa28222b40c5668b0dca52978b91f5b8bac683a36e27c80797",
+  "P059.lst": "7ddc5a01bc76bbea4793a6f176874345ce5ebb339bff53cb9ab6163d9497caf4",
+  "P059.txt": "7ddc5a01bc76bbea4793a6f176874345ce5ebb339bff53cb9ab6163d9497caf4"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P059.lst",
+   "sha256": "7d3677b6f685889ecc9af4a85d23cd42b0504c9ef958f652fd6ca1d010fec2fa",
+   "frozen_sha256": "7d3677b6f685889ecc9af4a85d23cd42b0504c9ef958f652fd6ca1d010fec2fa",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.9166666666666666,
+  "produced_all": true
+ }
+}

@@ -1,0 +1,70 @@
+CONTENTS OF ADAE DATASET
+Observations: 9
+Variables: 41
+
+Num  Variable     Type  Len   Format       Label
+---  --------     ----  ---   ------       -----
+1    STUDYID      Char  7     $7.          Study Identifier
+2    USUBJID      Char  12    $12.         Unique Subject Identifier
+3    AESEQ        Num   8                  Sequence Number
+4    AETERM       Char  14    $14.         Reported Term for the Adverse Event
+5    AEDECOD      Char  14    $14.         Dictionary-Derived Term
+6    AEBODSYS     Char  26    $26.         Body System or Organ Class
+7    AESTDTC      Char  10    $10.         
+8    AEENDTC      Char  10    $10.         
+9    AESEV        Char  8     $8.          
+10   AESER        Char  1     $1.          
+11   AEREL        Char  16    $16.         
+12   AEACN        Char  16    $16.         
+13   AEOUT        Char  13    $13.         
+14   AETOXGR      Char  1     $1.          
+15   SITEID       Char  3     $3.          
+16   TRTP         Char  11    $11.         Planned Treatment
+17   TRTPN        Num   8                  Planned Treatment (N)
+18   AGE          Num   8                  
+19   AGEGR1       Char  4     $4.          
+20   SEX          Char  1     $1.          
+21   RACE         Char  25    $25.         
+22   SAFFL        Char  1     $1.          Safety Population Flag
+23   TRTSDT       Num   8     DATE9.       Date of First Exposure to Treatment
+24   TRTEDT       Num   8     DATE9.       Date of Last Exposure to Treatment
+25   ASTDT        Num   8     DATE9.       Analysis Start Date
+26   AENDT        Num   8     DATE9.       Analysis End Date
+27   ASTDY        Num   8                  Analysis Start Relative Day
+28   AENDY        Num   8                  Analysis End Relative Day
+29   TRTEMFL      Char  1     $1.          Treatment Emergent Analysis Flag
+30   AESER_FL     Char  1     $1.          Serious Event Flag
+31   AOCCFL       Char  1     $1.          First Occurrence of Any AE Flag
+32   AOCCSFL      Char  1     $1.          First Occurrence Within SOC Flag
+33   AOCCPFL      Char  1     $1.          First Occurrence of Preferred Term Flag
+34   ASEV         Char  8     $8.          Analysis Severity/Intensity
+35   ASEVN        Num   8                  Analysis Severity/Intensity (N)
+36   AREL         Char  16    $16.         Analysis Causality
+37   ARELN        Num   8                  Analysis Causality (N)
+38   AESOC        Char  26    $26.         Primary System Organ Class
+39   AEDECOD_UP   Char  14    $14.         
+40   AEDUR        Num   8                  AE Duration (Days)
+41   ASEQ         Num   8                  Analysis Sequence Number
+
+
+PRINT OF ADAE DATASET (OBS=10)
+
+Obs | STUDYID | USUBJID | AESEQ | AETERM | AEDECOD | AEBODSYS | AESTDTC | AEENDTC | AESEV | AESER | AEREL | AEACN | AEOUT | AETOXGR | SITEID | TRTP | TRTPN | AGE | AGEGR1 | SEX | RACE | SAFFL | TRTSDT | TRTEDT | ASTDT | AENDT | ASTDY | AENDY | TRTEMFL | AESER_FL | AOCCFL | AOCCSFL | AOCCPFL | ASEV | ASEVN | AREL | ARELN | AESOC | AEDECOD_UP | AEDUR | ASEQ
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1 | STUDY01 | STUDY01-1001 | 1 | Headache | Headache | Nervous system disorders | 2024-02-01 | 2024-02-03 | MILD | N | NOT RELATED | DOSE NOT CHANGED | RECOVERED | 1 | 101 | Treatment A | 1 | 59 | <65 | M | WHITE | Y | 15JAN2024 | 15JUN2024 | 01FEB2024 | 03FEB2024 | 18 | 20 | Y | N |  | Y | Y | MILD | 1 | NOT RELATED | 1 | Nervous system disorders | HEADACHE | 3 | 1
+2 | STUDY01 | STUDY01-1001 | 2 | Nausea | Nausea | Gastrointestinal disorders | 2024-02-15 | 2024-02-18 | MODERATE | N | POSSIBLY RELATED | DOSE NOT CHANGED | RECOVERED | 2 | 101 | Treatment A | 1 | 59 | <65 | M | WHITE | Y | 15JAN2024 | 15JUN2024 | 15FEB2024 | 18FEB2024 | 32 | 35 | Y | N | Y | Y | Y | MODERATE | 2 | POSSIBLY RELATED | 3 | Gastrointestinal disorders | NAUSEA | 4 | 2
+3 | STUDY01 | STUDY01-1002 | 1 | Fatigue | Fatigue | General disorders | 2024-02-10 | 2024-03-01 | MILD | N | POSSIBLY RELATED | DOSE NOT CHANGED | RECOVERED | 1 | 101 | Placebo | 2 | 45 | <65 | F | BLACK OR AFRICAN AMERICAN | Y | 18JAN2024 | 18JUN2024 | 10FEB2024 | 01MAR2024 | 24 | 44 | Y | N | Y | Y | Y | MILD | 1 | POSSIBLY RELATED | 3 | General disorders | FATIGUE | 21 | 1
+4 | STUDY01 | STUDY01-1003 | 1 | Dizziness | Dizziness | Nervous system disorders | 2024-02-20 | 2024-02-22 | MILD | N | NOT RELATED | DOSE NOT CHANGED | RECOVERED | 1 | 102 | Treatment A | 1 | 43 | <65 | M | ASIAN | Y | 20JAN2024 | 01APR2024 | 20FEB2024 | 22FEB2024 | 32 | 34 | Y | N |  | Y | Y | MILD | 1 | NOT RELATED | 1 | Nervous system disorders | DIZZINESS | 3 | 1
+5 | STUDY01 | STUDY01-1003 | 2 | Rash | Rash | Skin disorders | 2024-03-05 | 2024-03-15 | MODERATE | N | PROBABLY RELATED | DOSE REDUCED | RECOVERED | 2 | 102 | Treatment A | 1 | 43 | <65 | M | ASIAN | Y | 20JAN2024 | 01APR2024 | 05MAR2024 | 15MAR2024 | 46 | 56 | Y | N |  | Y | Y | MODERATE | 2 | PROBABLY RELATED | 4 | Skin disorders | RASH | 11 | 2
+6 | STUDY01 | STUDY01-1003 | 3 | Hepatotoxicity | Hepatotoxicity | Hepatobiliary disorders | 2024-03-25 | . | SEVERE | Y | RELATED | DRUG WITHDRAWN | NOT RECOVERED | 3 | 102 | Treatment A | 1 | 43 | <65 | M | ASIAN | Y | 20JAN2024 | 01APR2024 | 25MAR2024 |  | 66 | . | Y | Y | Y | Y | Y | SEVERE | 3 | RELATED | 5 | Hepatobiliary disorders | HEPATOTOXICITY | . | 3
+7 | STUDY01 | STUDY01-1004 | 1 | Insomnia | Insomnia | Psychiatric disorders | 2024-02-25 | 2024-03-10 | MILD | N | UNLIKELY | DOSE NOT CHANGED | RECOVERED | 1 | 102 | Treatment A | 1 | 51 | <65 | F | WHITE | Y | 25JAN2024 | 25JUN2024 | 25FEB2024 | 10MAR2024 | 32 | 46 | Y | N | Y | Y | Y | MILD | 1 | UNLIKELY | 2 | Psychiatric disorders | INSOMNIA | 15 | 1
+8 | STUDY01 | STUDY01-1005 | 1 | Vomiting | Vomiting | Gastrointestinal disorders | 2024-03-01 | 2024-03-02 | MODERATE | N | POSSIBLY RELATED | DOSE NOT CHANGED | RECOVERED | 2 | 103 | Placebo | 2 | 36 | <65 | M | ASIAN | Y | 28JAN2024 |  | 01MAR2024 | 02MAR2024 | 34 | 35 | Y | N | Y | Y | Y | MODERATE | 2 | POSSIBLY RELATED | 3 | Gastrointestinal disorders | VOMITING | 2 | 1
+9 | STUDY01 | STUDY01-1006 | 1 | Back pain | Back pain | Musculoskeletal disorders | 2024-02-28 | 2024-03-05 | MILD | N | NOT RELATED | DOSE NOT CHANGED | RECOVERED | 1 | 103 | Treatment A | 1 | 68 | >=65 | F | WHITE | Y | 30JAN2024 | 01JUL2024 | 28FEB2024 | 05MAR2024 | 30 | 36 | Y | N | Y | Y | Y | MILD | 1 | NOT RELATED | 1 | Musculoskeletal disorders | BACK PAIN | 7 | 1
+
+Notes:
+N observations = 9
+N subjects with AE = 6
+N treatment-emergent AEs (TRTEMFL=Y) = 9
+N serious AEs (AESER_FL=Y) = 1
+Mean AEDUR = 8.25
+Mean ASTDY = 34.89

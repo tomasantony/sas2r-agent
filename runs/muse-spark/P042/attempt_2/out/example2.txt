@@ -1,0 +1,16 @@
+Sales for the Southeast Sector
+for 29OCT2026
+Days 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 Years 15 26 2015 2026
+
+   Manager   Department   Sales
+---------- ------------ -------
+     Jones        Paper  $40.00
+     Jones       Canned $220.00
+     Jones   Meat/Dairy $300.00
+     Jones      Produce  $70.00
+     Smith        Paper  $50.00
+     Smith       Canned $120.00
+     Smith   Meat/Dairy $100.00
+     Smith      Produce  $80.00
+
+Departmental sales ranged from $40.00 to $300.00.

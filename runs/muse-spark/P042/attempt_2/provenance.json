@@ -1,0 +1,107 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P042",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 2,
+ "recorded_at": "2026-10-29T16:48:59",
+ "agent_commit": "ea9ec024216430eec6b2658819ecea47deb782c6",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 7210,
+  "output_tokens": 7411,
+  "reasoning_tokens": 3193,
+  "finish_reason": "stop",
+  "seconds": 27.0
+ },
+ "inputs": {
+  "prompt_translate.md": "6adf823ff9f282c5b0cbac7e469084a7b81f64da68e614aa75260e60111cad87"
+ },
+ "model_output": {
+  "response.md": "f6e68bc1d45ebd72a6c5969cf1ea16205b797f18e0df07757d1f3478e907a285",
+  "script.R": "fb8f6ac64e480c007118ec107b298673b22c61bcdf3d5218faf1d33443789901"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.0,
+  "timed_out": false,
+  "log_sha256": "eaf36536bda42d7be710a75980283d7ef3a5f9898a55b6a95e13570a9bc8338e"
+ },
+ "r_outputs": {
+  "example1.csv": "5eae927bf474265f8b36550fd474f504c554c7ed1de576d652d8d5f6de321a03",
+  "example1.html": "cded9465709983876e711f66512d26441702731bd33d591b939d0501c573cdd9",
+  "example1.txt": "13da3c668d02a78945ed060111999744e87de0c8953969d538f8cb2482c177a5",
+  "example2.csv": "23e3565cadb1c2adf33274dd9e9db233ca6be0a7db6cc4aa314766a8a6c6f224",
+  "example2.html": "5c21f671d31cafb156712624859253ef8881297314f61abbbe64d392fd62f509",
+  "example2.txt": "b2e5aecea00b3029b4acf768069abe64dd9b307ef8bcc59649f34038561cf83a",
+  "example3.csv": "778b61e2d0494ef4355a0557c33ce5659fccee855dc41413fd48e69a41b7d9ab",
+  "example3.html": "fbeb57eb860f67578278f17ae5b4db3074363ec590161a23369c6087ecce8162",
+  "example3.txt": "1e8e3bed1c685f4a08b5ef5cf483b94db297610ffd01de775950f1d64b1db255",
+  "example4.csv": "ef294ede4ba2e0f7927d2b22797bcc5a81e45c668f3a8a79ee9e4be87d49649a",
+  "example4.html": "b58b7bf814978072a93b6c27494ad7039b83f1c7486b89cf1a6d53f0b78181ca",
+  "example4.txt": "9f0bb0706ce68a4c511c0e74d4f8c9141d8fb7a2d714790a5bd4d8736617d9ed",
+  "example5.csv": "3a73b6604acac7141da5066df7d585cdc0f8aae407a765de9c20d202acc69121",
+  "example5.html": "09e5e8cc5a448a1dd9ef5b41669f2cecb26284d5790febd2c43503e7e8a42681",
+  "example5.txt": "25e3c52d5c90a85cb7f6b2eb4328f9ed030d0367f40b0f317a475d3deb771662",
+  "P042.csv": "6fbe267a0195db0d6d00175eb536a2793dbd42eae80f4076d37177c9eed0febe",
+  "P042.lst": "d87103abaaa5719e87939f89535322f4ddc5369f61cb78de51fd8f472fe3d2a5",
+  "P042.txt": "d87103abaaa5719e87939f89535322f4ddc5369f61cb78de51fd8f472fe3d2a5"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P042.lst",
+   "sha256": "e5f6ab3ae153efd41caa295fa8399b1ae9657787813f8bbcbe59c43333a41830",
+   "frozen_sha256": "e5f6ab3ae153efd41caa295fa8399b1ae9657787813f8bbcbe59c43333a41830",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example1.html",
+   "sha256": "719d66082f5e9aae8658bf36f292681394782ae896a8bddc0244b3437202b818",
+   "frozen_sha256": "719d66082f5e9aae8658bf36f292681394782ae896a8bddc0244b3437202b818",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example2.html",
+   "sha256": "430b0139ae2d551bee7d2325cbc1362dfebfd67088c2a75b292e35ab0613897a",
+   "frozen_sha256": "430b0139ae2d551bee7d2325cbc1362dfebfd67088c2a75b292e35ab0613897a",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example3.html",
+   "sha256": "3148ed9e824d49951a86eace1f167f532336d2899b6bc12f6000c6f6bbc0cc65",
+   "frozen_sha256": "3148ed9e824d49951a86eace1f167f532336d2899b6bc12f6000c6f6bbc0cc65",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example4.html",
+   "sha256": "a692fd578f5012d028ab79bac2d10196418dee63b522a9062e09d7e70cdcec2d",
+   "frozen_sha256": "a692fd578f5012d028ab79bac2d10196418dee63b522a9062e09d7e70cdcec2d",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example5.html",
+   "sha256": "9bdcfb5e6ab881fbd44e2a7cdb513e5863741d1a67e89dbce3175a3881ee969d",
+   "frozen_sha256": "9bdcfb5e6ab881fbd44e2a7cdb513e5863741d1a67e89dbce3175a3881ee969d",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

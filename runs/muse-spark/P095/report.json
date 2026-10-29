@@ -1,0 +1,30 @@
+{
+ "id": "P095",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "family": "general",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 1.0,
+ "iterations": 1,
+ "input_tokens": 1482,
+ "output_tokens": 8254,
+ "seconds": 38.14811420440674,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 1.6832942962646484,
+   "input_tokens": 1482,
+   "output_tokens": 8254,
+   "seconds_llm": 36.35464024543762,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 1.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 1
+}

@@ -1,0 +1,21 @@
+sandbox: docker run --rm --name sas2r-e6af458002b0 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P082\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+ADAM files:
+adae.sas7bdat
+adcm.sas7bdat
+adeff.sas7bdat
+adex.sas7bdat
+adlb.sas7bdat
+adqs.sas7bdat
+adrs.sas7bdat
+adsl.sas7bdat
+adtr.sas7bdat
+adtte.sas7bdat
+advs.sas7bdat 
+Reading /bench/data/raw/own-synthetic/adam/adtr.sas7bdat
+Reading /bench/data/raw/own-synthetic/adam/adsl.sas7bdat
+ADTR cols: STUDYID,USUBJID,TRTP,TRTA,SAFFL,EFFFL,TRTPN,TRTAN,TRTSDT,PARAMCD,PARAM,AVALC,BOR,AVISIT,AVISITN,AVAL,CHG,PCHG 
+ADSL cols: STUDYID,USUBJID,SUBJID,SITEID,COUNTRY,REGION1,SEX,RACE,ETHNIC,AGEGR1,AGEU,ARM,ARMCD,TRT01P,TRT01A,TRTP,TRTA,SAFFL,ITTFL,EFFFL,RANDFL,PPROTFL,COMPLFL,DTHFL,EOSSTT,DCSREAS,DTHCAUS,AGE,AGEGR1N,RACEN,ETHNICN,HEIGHTBL,WEIGHTBL,BMIBL,ECOGBL,TRT01PN,TRTPN,TRT01AN,TRTAN,RANDDT,TRTSDT,TRTEDT,TRTDUR,DTHDT 
+tumor N=222
+Error in data.frame(Category = c(as.character(resp_tab$AVALC_DISP), "PCHG Mean (SD)",  : 
+  arguments imply differing number of rows: 7, 6
+Execution halted

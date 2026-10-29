@@ -1,0 +1,67 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P040",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 3,
+ "recorded_at": "2026-10-29T16:46:35",
+ "agent_commit": "ea9ec024216430eec6b2658819ecea47deb782c6",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 11642,
+  "output_tokens": 41536,
+  "reasoning_tokens": 35303,
+  "finish_reason": "stop",
+  "seconds": 151.7
+ },
+ "inputs": {
+  "prompt_translate.md": "41f531467f2eb168527199394b1e26713dc5669fd029ca16e858b2b8b6b751cb"
+ },
+ "model_output": {
+  "response.md": "c5a754155cb9080e76deed3ef7de61a15c07d10d1d5a412afdc39b81afe59664",
+  "script.R": "12f8082c891a6ab191e9e32c45ec88c296467f664ac77a1bb3a4605fcadcbcc8"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.8,
+  "timed_out": false,
+  "log_sha256": "dcd74a754577cffd77c9e303433e5b8822e37379be13d9c3db0c386dcb118c4f"
+ },
+ "r_outputs": {
+  "P040_f_kmplot.csv": "5bf63588c3c9a7d7c56be3cc8d82cb5c2f4522c476bcf38398a81b054eda6508",
+  "P040_f_kmplot.png": "b67beeb982bc0dfc4987cf9ede0c04eb7a5fd3caa9ca0c4efcaca7c17cb8ec67",
+  "P040_f_kmplot.txt": "6ac81d99971d7cda4a971ca4cb9790f3ece13417e0017e9296f826cd4c491f28",
+  "P040_f_kmplot_plotdata.csv": "e7748697c05b8faef657edcc1fe1f3127292d24c40d2f1f8c0597944119cecd7",
+  "P040_f_kmplot_quartmean.csv": "9e41aaed85443458f7b380c58ccb397b3db8bfa2f6739519a35e3c7a2f28594e",
+  "P040_f_kmplot_rankstats.csv": "b168961fb6139d260c632ab2752dd0aedef95324625d59c42d38a73716241008",
+  "P040_f_kmplot_summary.csv": "2fe42427c6a6d135e38c4f13e6e7586078e7922360cc1cab037594428c90ec98",
+  "P040_f_kmplot_tests.csv": "67a384c516d3f33609d41fc25d6869716b1020143ff9472c70d32330e80fd8f1"
+ },
+ "sas_reference": [
+  {
+   "file": "tlf/P040_f_kmplot.pdf",
+   "sha256": "19c5f234a33471b2df7a9795d38cbce51616af733b2c3a48d7d8bea8180f2c7b",
+   "frozen_sha256": "19c5f234a33471b2df7a9795d38cbce51616af733b2c3a48d7d8bea8180f2c7b",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 0.9571045576407506,
+  "produced_all": true
+ }
+}

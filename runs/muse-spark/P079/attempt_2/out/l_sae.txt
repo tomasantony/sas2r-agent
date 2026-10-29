@@ -1,0 +1,15 @@
+[Sponsor Name]
+Protocol: [Protocol Number]
+
+Listing 16.2.7.2
+Listing of Serious Adverse Events
+Safety Analysis Set
+
+Page 1 of 1
+
+Treatment | Subject ID | Age/Sex/Race | SOC | Preferred Term | Start Date | End Date | Study Day | Grade | Relationship | Action Taken | Outcome | SAE Criteria
+---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----
+No serious adverse events reported.
+
+Data cutoff: [DDMONYYYY].
+Source: ADaM datasets

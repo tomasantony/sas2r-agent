@@ -1,0 +1,37 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.012345679012345678,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "l_sae.rtf",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.012345679012345678,
+   "detail": {
+    "recall": 0.012345679012345678,
+    "expected": 324,
+    "found": 4,
+    "r_files": [
+     "l_sae.csv",
+     "l_sae.txt"
+    ],
+    "missing_examples": [
+     "16.2",
+     "7.2",
+     "1",
+     "-4009",
+     "73",
+     "2025",
+     "-9",
+     "-23",
+     "166",
+     "2",
+     "-4015",
+     "65"
+    ]
+   }
+  }
+ ]
+}

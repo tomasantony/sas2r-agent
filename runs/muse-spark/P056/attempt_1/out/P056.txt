@@ -1,0 +1,18 @@
+Vital Signs
+Treatment-Emergent Abnormal High or Low at Any Time
+
+Vital Sign                          Abnormality  Treatment    N      n      (%)      P value*
+(unit)                              Direction                                                
+---------------------------------------------------------------------------------------------
+Diastolic Blood Pressure (mmHg)     Low          0            83     6.00000000000 (7.2)    0.538   
+Diastolic Blood Pressure (mmHg)     Low          54           84     7.00000000000 (8.3)            
+Diastolic Blood Pressure (mmHg)     Low          81           82     10.0000000000 (12.2)           
+Diastolic Blood Pressure (mmHg)     High         0            83     13.0000000000 (15.7)   0.470   
+Diastolic Blood Pressure (mmHg)     High         54           84     13.0000000000 (15.5)           
+Diastolic Blood Pressure (mmHg)     High         81           82     8.00000000000 (9.8)            
+---------------------------------------------------------------------------------------------
+
+  Abbreviations:  N = number of patients with a normal (i.e., not low if calculating `low` and not high if calculating `high`)
+  baseline and at least one post-baseline measure, n = number of patients wtih an abnormal post-baseline result in the
+  specified category.
+  *P values are from Fisher's Exact test.

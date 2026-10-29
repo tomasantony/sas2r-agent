@@ -1,0 +1,7 @@
+sandbox: docker run --rm --name sas2r-884746ef4be9 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P033\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADSL and ADPC XPT
+Using columns: USUBJID, PARCAT1, EACTM, AVAL
+SORTadpc rows: 2463
+Wrote /work/out/sasgraph.csv
+Number of BY panels (USUBJID*PARCAT1): 84
+Wrote /work/out/sasgraph.png

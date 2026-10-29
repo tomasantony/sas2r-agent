@@ -1,0 +1,24 @@
+sandbox: docker run --rm --name sas2r-0b8f0e5e31c3 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P053\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Reading /bench/data/raw/cdisc-pilot/adam/advsmax.xpt 
+advsmax2 n = 250 
+advsmax3 n = 250 
+Contingency:
+    
+      0  1
+  0  79  5
+  54 79  5
+  81 77  5
+Fisher p = 1 
+Table prob = 0.05603957 
+ANRLO=60 ANRHI=90 Min=41 Max=90 YMin=40 YMax=100
+# A tibble: 1 × 24
+  ANRLO_N ANRLO_MEAN ANRLO_STD ANRLO_MIN ANRLO_MAX ANRLO_MEDIAN ANRHI_N
+    <int>      <dbl>     <dbl>     <dbl>     <dbl>        <dbl>   <int>
+1     250         60         0        60        60           60     250
+# ℹ 17 more variables: ANRHI_MEAN <dbl>, ANRHI_STD <dbl>, ANRHI_MIN <dbl>,
+#   ANRHI_MAX <dbl>, ANRHI_MEDIAN <dbl>, BASE_N <int>, BASE_MEAN <dbl>,
+#   BASE_STD <dbl>, BASE_MIN <dbl>, BASE_MAX <dbl>, BASE_MEDIAN <dbl>,
+#   AVAL_N <int>, AVAL_MEAN <dbl>, AVAL_STD <dbl>, AVAL_MIN <dbl>,
+#   AVAL_MAX <dbl>, AVAL_MEDIAN <dbl>
+wrote sasgraph.png
+Done.

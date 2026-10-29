@@ -1,0 +1,7 @@
+sandbox: docker run --rm --name sas2r-4a4cf393f417 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P015\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading raw lab: /bench/data/derived/c2c/data/raw/raw_lab.csv 
+Columns: SUBJ,VISIT_NAM,VISIT_NUM,LAB_DAT,TEST_NAME,RESULT,UNIT  n= 516 
+Error in regexpr(reg, x, ignore.case = TRUE, perl = TRUE) : 
+  invalid regular expression '^\D*?\b(((?<Y>\d{4})(?!\d)\D*?((?<Om>1[0-2]|0?[1-9](?!\d))|(((?<Om_b>Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)|(?<Om_B>January|February|March|April|May|June|July|August|September|October|November|December))(?![[:alpha:]])))\D*?(?<d>[012]?[1-9]|3[01]|[12]0)(?!\d)\D*?(?<H>2[0-4]|[01]?\d)(?!\d)\D*?(?<M>[0-5]?\d)(?!\d)\D*?((?<OS_S>[0-5]?\d\.\d+)|(?<S>[0-6]?\d))(?!\d)\D*?(?<Op>(AM|PM))(?![[:alpha:]])\D*?(?<H>2[0-4]|[01]?\d)(?!\d)\D*?(?<M>[0-5]?\d)(?!\d)\D*?((?<OS_S>[0-5]?\d\.\d+)|(?<S>[0-6]?\d))(?!\d))|((?<Y_e>\d{4})\D*?((?<Om_e>1[0-2]|0[1-9])|(((?<Om_b_e>Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)|(?<Om_B_e>January|February|March|April|May|June|July|August|September|October|November|December))(?![[:alpha:]])))\D*?(?<d_e>[012][1-9]|3[01]|[12]0)\D*?(?<H_e>2[0-4]|[01]\d)\D*?(?<M_e>[0-5]\d)\D*?((?<OS_S_e>[0-5]\d\.\d*)|(?<S_e>[0-6]\d))\D*?(?<Op_e>AM|PM)(?![[:alpha:]])\D*?(?<H_e>2[0-4]|[01]\d)\D*?(?<M_e>[0-5]\d)\D*?((?<OS_S_e>[0-5]\d\.\d*)|(?<S_e>
+Calls: sapply -> lapply -> FUN
+Execution halted

@@ -1,0 +1,49 @@
+Figure 14.2.4
+Mean Change from Baseline Over Time
+Efficacy Analysis Set
+Parameter: ACTOT - Change from Baseline in ADAS-Cog Total Score
+
+n per visit (number of subjects with non-missing change from baseline)
+
+Treatment                      | Week4          | Week8          | Week12        
+---------------------------------------------------------------------------------
+Placebo                        | 85             | 83             | 81            
+Drug X Low Dose                | 75             | 75             | 74            
+Drug X High Dose               | 59             | 59             | 59            
+
+Error bars represent 95% confidence intervals.
+n = number of subjects with non-missing change from baseline.
+Data cutoff: [DDMONYYYY].
+Source: ADaM datasets (ADEFF, ADSL; EFFFL='Y', ANL01FL='Y').
+
+Supporting statistics by treatment and visit:
+
+Treatment              TRTAN  Visit              n         Mean   Mean(1dec)           SE     SE(2dec)          LCL          UCL
+--------------------------------------------------------------------------------------------------------------------------------
+Placebo                1      Week4             85       0.3906          0.4       0.5285         0.53      -0.6604       1.4415
+Placebo                1      Week8             83       0.0229          0.0       0.5598         0.56      -1.0907       1.1364
+Placebo                1      Week12            81      -0.1519         -0.2       0.4639         0.46      -1.0751       0.7714
+Drug X Low Dose        2      Week4             75      -0.5893         -0.6       0.6337         0.63      -1.8520       0.6733
+Drug X Low Dose        2      Week8             75      -1.3227         -1.3       0.5968         0.60      -2.5117      -0.1336
+Drug X Low Dose        2      Week12            74      -2.8716         -2.9       0.5417         0.54      -3.9512      -1.7920
+Drug X High Dose       3      Week4             59      -1.9102         -1.9       0.6351         0.64      -3.1814      -0.6389
+Drug X High Dose       3      Week8             59      -4.4797         -4.5       0.6724         0.67      -5.8256      -3.1337
+Drug X High Dose       3      Week12            59      -5.7390         -5.7       0.6334         0.63      -7.0069      -4.4711
+
+Means with 1 decimal (for axis-label matching):
+0.4 0.0 -0.2 -0.6 -1.3 -2.9 -1.9 -4.5 -5.7
+Means with 2 decimals:
+0.39 0.02 -0.15 -0.59 -1.32 -2.87 -1.91 -4.48 -5.74
+SE with 2 decimals:
+0.53 0.56 0.46 0.63 0.60 0.54 0.64 0.67 0.63
+LCL with 2 decimals:
+-0.66 -1.09 -1.08 -1.85 -2.51 -3.95 -3.18 -5.83 -7.01
+UCL with 2 decimals:
+1.44 1.14 0.77 0.67 -0.13 -1.79 -0.64 -3.13 -4.47
+Medians (1dec):
+0.7 -0.7 -0.5 0.1 -1.7 -3.1 -2.6 -4.9 -4.9
+Visit weeks:
+4 8 12 4 8 12 4 8 12
+
+Overall CHG summary (EFF):
+N=650 Mean=-1.6134 (1dec -1.6) Median=-2.0000 Min=-19.2000 Max=15.5000

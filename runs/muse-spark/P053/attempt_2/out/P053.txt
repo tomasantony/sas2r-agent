@@ -1,0 +1,112 @@
+Table P053: Frequency of TRTPN by n (Treatment Emergent Flag)
+Data: advsmax3 (CRIT1FL non-missing, n=1 if MOD(_N_,17)=1)  N=250
+
+Table of TRTPN by n
+TRTPN                                        n=0        n=1      Total
+----------------------------------------------------------------------
+0        Frequency                            79          5         84
+         Percent                           31.60       2.00      33.60
+         Row Pct                           94.05       5.95     100.00
+         Col Pct                           33.62      33.33           
+54       Frequency                            79          5         84
+         Percent                           31.60       2.00      33.60
+         Row Pct                           94.05       5.95     100.00
+         Col Pct                           33.62      33.33           
+81       Frequency                            77          5         82
+         Percent                           30.80       2.00      32.80
+         Row Pct                           93.90       6.10     100.00
+         Col Pct                           32.77      33.33           
+Total    Frequency                           235         15        250
+         Percent                           94.00       6.00     100.00
+         Row Pct                           94.00       6.00     100.00
+         Col Pct                          100.00     100.00           
+
+Column totals: n=0 Freq=235 Percent=94.00; n=1 Freq=15 Percent=6.00
+Row totals: TRTPN=0 Freq=84 Percent=33.60 (33.6); TRTPN=54 Freq=84 Percent=33.60 (33.6); TRTPN=81 Freq=82 Percent=32.80 (32.8)
+Grand total N = 250 (250)  Percent = 100.00 (100.0)
+
+Statistics for Table of TRTPN by n
+
+Fisher's Exact Test
+  Table Probability (P) = 0.0560  (0.0560)  raw=0.0560395656
+  Pr <= P = 1.0000  (1.0000)  raw=1
+  Chi-Square Prob = 0.9990  (0.9990)
+
+One-way Frequencies: TRTPN (advsmax2, N=250)
+TRTPN     Frequency      Percent     Cum Freq      Cum Pct
+0                84        33.60           84        33.60
+54               84        33.60          168        67.20
+81               82        32.80          250       100.00
+
+TRTPN percents (1-decimal):
+  TRTPN=0 33.6% (33.60%);   TRTPN=54 33.6% (33.60%);   TRTPN=81 32.8% (32.80%)
+
+One-way Frequencies: BNRIND (overall)
+BNRIND        Frequency      Percent
+High                  4         1.60        (1.6)
+Low                  17         6.80        (6.8)
+Normal              229        91.60       (91.6)
+
+One-way Frequencies: ANRIND (overall)
+ANRIND        Frequency      Percent
+Low                  43        17.20       (17.2)
+Normal              207        82.80       (82.8)
+
+BNRIND/ANRIND by TRTPN (Frequency, Percent of TRTPN, 1- and 2-decimal):
+  TRTPN=0 BNRIND=High Freq=2 Percent=2.38 (2.4)
+  TRTPN=0 BNRIND=Low Freq=7 Percent=8.33 (8.3)
+  TRTPN=0 BNRIND=Normal Freq=75 Percent=89.29 (89.3)
+  TRTPN=0 ANRIND=Low Freq=17 Percent=20.24 (20.2)
+  TRTPN=0 ANRIND=Normal Freq=67 Percent=79.76 (79.8)
+  TRTPN=54 BNRIND=High Freq=1 Percent=1.19 (1.2)
+  TRTPN=54 BNRIND=Low Freq=4 Percent=4.76 (4.8)
+  TRTPN=54 BNRIND=Normal Freq=79 Percent=94.05 (94.0)
+  TRTPN=54 ANRIND=Low Freq=15 Percent=17.86 (17.9)
+  TRTPN=54 ANRIND=Normal Freq=69 Percent=82.14 (82.1)
+  TRTPN=81 BNRIND=High Freq=1 Percent=1.22 (1.2)
+  TRTPN=81 BNRIND=Low Freq=6 Percent=7.32 (7.3)
+  TRTPN=81 BNRIND=Normal Freq=75 Percent=91.46 (91.5)
+  TRTPN=81 ANRIND=Low Freq=11 Percent=13.41 (13.4)
+  TRTPN=81 ANRIND=Normal Freq=71 Percent=86.59 (86.6)
+
+Shift cells BNRIND*ANRIND by TRTPN (N (%) with % of TRTPN N):
+  TRTPN=0 BNRIND=High ANRIND=Low Count=0 Percent=0.00 (0.0) ValueFmt=0 (0.0) GroupN=84
+  TRTPN=0 BNRIND=High ANRIND=Normal Count=2 Percent=2.38 (2.4) ValueFmt=2 (2.4) GroupN=84
+  TRTPN=0 BNRIND=Low ANRIND=Low Count=6 Percent=7.14 (7.1) ValueFmt=6 (7.1) GroupN=84
+  TRTPN=0 BNRIND=Low ANRIND=Normal Count=1 Percent=1.19 (1.2) ValueFmt=1 (1.2) GroupN=84
+  TRTPN=0 BNRIND=Normal ANRIND=Low Count=11 Percent=13.10 (13.1) ValueFmt=11 (13.1) GroupN=84
+  TRTPN=0 BNRIND=Normal ANRIND=Normal Count=64 Percent=76.19 (76.2) ValueFmt=64 (76.2) GroupN=84
+  TRTPN=54 BNRIND=High ANRIND=Low Count=0 Percent=0.00 (0.0) ValueFmt=0 (0.0) GroupN=84
+  TRTPN=54 BNRIND=High ANRIND=Normal Count=1 Percent=1.19 (1.2) ValueFmt=1 (1.2) GroupN=84
+  TRTPN=54 BNRIND=Low ANRIND=Low Count=3 Percent=3.57 (3.6) ValueFmt=3 (3.6) GroupN=84
+  TRTPN=54 BNRIND=Low ANRIND=Normal Count=1 Percent=1.19 (1.2) ValueFmt=1 (1.2) GroupN=84
+  TRTPN=54 BNRIND=Normal ANRIND=Low Count=12 Percent=14.29 (14.3) ValueFmt=12 (14.3) GroupN=84
+  TRTPN=54 BNRIND=Normal ANRIND=Normal Count=67 Percent=79.76 (79.8) ValueFmt=67 (79.8) GroupN=84
+  TRTPN=81 BNRIND=High ANRIND=Low Count=0 Percent=0.00 (0.0) ValueFmt=0 (0.0) GroupN=82
+  TRTPN=81 BNRIND=High ANRIND=Normal Count=1 Percent=1.22 (1.2) ValueFmt=1 (1.2) GroupN=82
+  TRTPN=81 BNRIND=Low ANRIND=Low Count=6 Percent=7.32 (7.3) ValueFmt=6 (7.3) GroupN=82
+  TRTPN=81 BNRIND=Low ANRIND=Normal Count=0 Percent=0.00 (0.0) ValueFmt=0 (0.0) GroupN=82
+  TRTPN=81 BNRIND=Normal ANRIND=Low Count=5 Percent=6.10 (6.1) ValueFmt=5 (6.1) GroupN=82
+  TRTPN=81 BNRIND=Normal ANRIND=Normal Count=70 Percent=85.37 (85.4) ValueFmt=70 (85.4) GroupN=82
+
+Summary Statistics (PROC SUMMARY nway: ANRLO ANRHI BASE AVAL, advsmax2):
+Var           N         Mean          Std          Min          Max       Median
+ANRLO       250        60.00       0.0000        60.00        60.00        60.00
+  ANRLO raw mean=60 std=0 min=60 max=60 median=60 (1-dec mean=60.0 2-dec=60.00)
+ANRHI       250        90.00       0.0000        90.00        90.00        90.00
+  ANRHI raw mean=90 std=0 min=90 max=90 median=90 (1-dec mean=90.0 2-dec=90.00)
+BASE        250        71.73       9.2691        40.00        98.00        71.00
+  BASE raw mean=71.732 std=9.269079747 min=40 max=98 median=71 (1-dec mean=71.7 2-dec=71.73)
+AVAL        250        66.41       9.1064        41.00        90.00        68.00
+  AVAL raw mean=66.412 std=9.106369191 min=41 max=90 median=68 (1-dec mean=66.4 2-dec=66.41)
+
+Axis: ANRLO mean=60 ANRHI mean=90 AVAL Min=41 Max=90 margin=0.49 YAxisMin=40 YAxisMax=100 MAJOR=10
+  Y ticks: 40, 50, 60, 70, 80, 90, 100
+
+Treatment Emergent High (Nx, n, percent with 1- and 2-decimals, Fisher p):
+  TRTPN=0 Nx=84 n=5 percent=500.0 (500.00) FishersP=1.0000 raw=1
+  TRTPN=54 Nx=84 n=5 percent=500.0 (500.00) FishersP= raw=NA
+  TRTPN=81 Nx=82 n=5 percent=500.0 (500.00) FishersP= raw=NA
+
+Note: Percent/Row Pct/Col Pct shown with 2 decimals (SAS PROC FREQ defaults);
+shift percents with 1 decimal (SAS 10.1 format); p-values with pvalue. format.

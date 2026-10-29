@@ -1,0 +1,13 @@
+sandbox: docker run --rm --name sas2r-ddbb70f596ef --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P088\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+P088 adeff: creating inline SDTM/ADSL
+STEP 3: adeff_resp
+STEP 4: adeff_tumor
+STEP 5: baseline and change
+STEP 6: BOR
+STEP 7: responder flag
+STEP 8: nadir
+STEP 9: combine
+STEP 10: sort, ASEQ, RSCAT
+writing datasets
+[1] TRUE
+done

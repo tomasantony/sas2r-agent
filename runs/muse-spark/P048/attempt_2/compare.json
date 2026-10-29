@@ -1,0 +1,67 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.9836065573770492,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P048.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9836065573770492,
+   "detail": {
+    "recall": 0.9836065573770492,
+    "expected": 61,
+    "found": 60,
+    "r_files": [
+     "allpt3.csv",
+     "final.csv",
+     "P048.csv",
+     "P048.lst.csv",
+     "P048.lst.txt",
+     "P048.txt",
+     "pop.csv",
+     "sasrtf.csv",
+     "sasrtf.rtf.csv",
+     "sasrtf.rtf.txt",
+     "sasrtf.txt",
+     "sasrtf_detail.csv",
+     "sasrtf_overall.csv"
+    ],
+    "missing_examples": [
+     "58"
+    ]
+   }
+  },
+  {
+   "kind": "text",
+   "name": "sasrtf.rtf",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9836065573770492,
+   "detail": {
+    "recall": 0.9836065573770492,
+    "expected": 61,
+    "found": 60,
+    "r_files": [
+     "allpt3.csv",
+     "final.csv",
+     "P048.csv",
+     "P048.lst.csv",
+     "P048.lst.txt",
+     "P048.txt",
+     "pop.csv",
+     "sasrtf.csv",
+     "sasrtf.rtf.csv",
+     "sasrtf.rtf.txt",
+     "sasrtf.txt",
+     "sasrtf_detail.csv",
+     "sasrtf_overall.csv"
+    ],
+    "missing_examples": [
+     "58"
+    ]
+   }
+  }
+ ]
+}

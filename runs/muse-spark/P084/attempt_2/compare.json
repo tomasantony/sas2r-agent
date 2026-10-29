@@ -1,0 +1,75 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.8811438784629133,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P084.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.6434316353887399,
+   "detail": {
+    "recall": 0.6434316353887399,
+    "expected": 373,
+    "found": 240,
+    "r_files": [
+     "adae.csv",
+     "adsl.csv"
+    ],
+    "missing_examples": [
+     "9",
+     "41",
+     "0",
+     "10",
+     "27",
+     "2026",
+     "15",
+     "59",
+     "696",
+     "64",
+     "1",
+     "65536"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adae",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark\\P084\\attempt_2\\out\\adae.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 9,
+    "rows_r": 9,
+    "cols_sas": 41,
+    "cols_r": 41,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adsl",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark\\P084\\attempt_2\\out\\adsl.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 6,
+    "rows_r": 6,
+    "cols_sas": 12,
+    "cols_r": 12,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  }
+ ]
+}

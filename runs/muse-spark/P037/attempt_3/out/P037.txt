@@ -1,0 +1,91 @@
+PROC FREQ TABLES PARAM*TRTPN*CRIT1FL / FISHER
+PARAM=Diastolic Blood Pressure (mmHg)
+
+Table of TRTPN by CRIT1FL
+
+Frequency |
+Percent   |
+Row Pct   |
+Col Pct   |
+N       |Y       |Total   |        
+CRIT1FL  0  Frequency  77  6  83
+CRIT1FL  0  Percent  30.92  2.41  33.33
+CRIT1FL  0  Row Pct  92.77  7.23
+CRIT1FL  0  Col Pct  34.07  26.09
+CRIT1FL  54  Frequency  77  7  84
+CRIT1FL  54  Percent  30.92  2.81  33.73
+CRIT1FL  54  Row Pct  91.67  8.33
+CRIT1FL  54  Col Pct  34.07  30.43
+CRIT1FL  81  Frequency  72  10  82
+CRIT1FL  81  Percent  28.92  4.02  32.93
+CRIT1FL  81  Row Pct  87.80  12.20
+CRIT1FL  81  Col Pct  31.86  43.48
+Total  Frequency  226  23  249
+Total  Percent  90.76  9.24  100.00
+Total  Col Pct  100.00  100.00
+Column N total 226 percent 90.76
+Column Y total 23 percent 9.24
+
+Fisher's Exact Test
+Table Probability (P)  0.0208
+Pr <= P  0.5376
+Two-sided Pr <= P (XP2_FISH)  0.5376
+Two-sided Pr <= P (XP2_FISH)  0.5376 (3 decimals 0.538)
+
+PROC FREQ TABLES PARAM*TRTPN*CRIT2FL / FISHER
+PARAM=Diastolic Blood Pressure (mmHg)
+
+Table of TRTPN by CRIT2FL
+
+Frequency |
+Percent   |
+Row Pct   |
+Col Pct   |
+N       |Y       |Total   |        
+CRIT2FL  0  Frequency  70  13  83
+CRIT2FL  0  Percent  28.11  5.22  33.33
+CRIT2FL  0  Row Pct  84.34  15.66
+CRIT2FL  0  Col Pct  32.56  38.24
+CRIT2FL  54  Frequency  71  13  84
+CRIT2FL  54  Percent  28.51  5.22  33.73
+CRIT2FL  54  Row Pct  84.52  15.48
+CRIT2FL  54  Col Pct  33.02  38.24
+CRIT2FL  81  Frequency  74  8  82
+CRIT2FL  81  Percent  29.72  3.21  32.93
+CRIT2FL  81  Row Pct  90.24  9.76
+CRIT2FL  81  Col Pct  34.42  23.53
+Total  Frequency  215  34  249
+Total  Percent  86.35  13.65  100.00
+Total  Col Pct  100.00  100.00
+Column N total 215 percent 86.35
+Column Y total 34 percent 13.65
+
+Fisher's Exact Test
+Table Probability (P)  0.0125
+Pr <= P  0.4701
+Two-sided Pr <= P (XP2_FISH)  0.4701
+Two-sided Pr <= P (XP2_FISH)  0.4701 (3 decimals 0.470)
+
+Vital Signs
+Treatment-Emergent Abnormal High or Low at Any Time
+
+Vital Sign                               Abnormality  Treatment    N      n      (%)        P value*  
+(unit)                                   Direction                                                    
+------------------------------------------------------------------------------------------------------
+Diastolic Blood Pressure (mmHg)          Low          0            83     6      (7.2)      0.538     
+Detail: PARAM=Diastolic Blood Pressure (mmHg) TEFL=Low TRTPN=0 N_total=83 n=6 pct=7.23 pvalue=0.5376 FisherP=0.5376
+Diastolic Blood Pressure (mmHg)          Low          54           84     7      (8.3)                
+Detail: PARAM=Diastolic Blood Pressure (mmHg) TEFL=Low TRTPN=54 N_total=84 n=7 pct=8.33 pvalue=0.5376 FisherP=0.5376
+Diastolic Blood Pressure (mmHg)          Low          81           82     10     (12.2)               
+Detail: PARAM=Diastolic Blood Pressure (mmHg) TEFL=Low TRTPN=81 N_total=82 n=10 pct=12.20 pvalue=0.5376 FisherP=0.5376
+Diastolic Blood Pressure (mmHg)          High         0            83     13     (15.7)     0.470     
+Detail: PARAM=Diastolic Blood Pressure (mmHg) TEFL=High TRTPN=0 N_total=83 n=13 pct=15.66 pvalue=0.4701 FisherP=0.4701
+Diastolic Blood Pressure (mmHg)          High         54           84     13     (15.5)               
+Detail: PARAM=Diastolic Blood Pressure (mmHg) TEFL=High TRTPN=54 N_total=84 n=13 pct=15.48 pvalue=0.4701 FisherP=0.4701
+Diastolic Blood Pressure (mmHg)          High         81           82     8      (9.8)                
+Detail: PARAM=Diastolic Blood Pressure (mmHg) TEFL=High TRTPN=81 N_total=82 n=8 pct=9.76 pvalue=0.4701 FisherP=0.4701
+
+  Abbreviations:  N = number of patients with a normal (i.e., not low if calculating `low` and not high if calculating `high`)
+  baseline and at least one post-baseline measure, n = number of patients wtih an abnormal post-baseline result in the
+  specified category.
+  *P values are from Fisher's Exact test.

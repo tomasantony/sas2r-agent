@@ -1,0 +1,117 @@
+Example K-M Plot
+PROC LIFETEST DATA=ONE PLOTS=SURVIVAL(ATRISK=0 TO 330 BY 30)
+TIME day*CENSOR(1)  STRATA arm
+
+Summary of the Number of Censored and Uncensored Values
+Stratum       Total   Failed Censored PercentCensored
+Arm 1            17       15        2          11.76           11.8        11.7647 (2 of 17, 17)
+Arm 2            21       19        2           9.52            9.5         9.5238 (2 of 21, 21)
+Total            38       34        4          10.53           10.5        10.5263 (4 of 38, 38)
+
+Quartile Estimates  Percent 75 50 25  with 95 Percent Confidence Limits
+Stratum     Percent QuartileEstimate        Lower95        Upper95
+Arm 1            75         190.00         213.00         143.00  (190)
+Arm 1            50         216.00         234.00         188.00  (216)
+Arm 1            25         246.00              .         216.00  (246)
+Arm 2            75         232.00         233.00         142.00  (232)
+Arm 2            50         233.00         280.00         232.00  (233)
+Arm 2            25         280.00         323.00         233.00  (280)
+
+Mean Estimates with 95 Percent Confidence Limits (ALPHA=0.05)
+Stratum          Estimate         StdErr        Lower95        Upper95
+Arm 1             218.850         10.215        198.829        238.871
+Arm 1            218.8502        10.2149         218.85          10.21 (4-dec 2-dec)
+Arm 2             240.795         10.907        219.417        262.172
+Arm 2            240.7946        10.9071         240.79          10.91 (4-dec 2-dec)
+
+Product-Limit Survival Estimates with 95 Percent Log-Log Confidence Limits
+Stratum           Day   Survival    Failure     StdErr    Lower95    Upper95    NFailed      NLeft
+Arm 1            143      0.9412     0.0588     0.0571     0.6502     0.9915          1         16
+Arm 1            164      0.8824     0.1176     0.0781     0.6060     0.9692          2         15
+Arm 1            188      0.7647     0.2353     0.1029     0.4883     0.9045          4         13
+Arm 1            190      0.7059     0.2941     0.1105     0.4315     0.8656          5         12
+Arm 1            192      0.6471     0.3529     0.1159     0.3771     0.8234          6         11
+Arm 1            206      0.5882     0.4118     0.1194     0.3254     0.7782          7         10
+Arm 1            213      0.5294     0.4706     0.1211     0.2762     0.7303          8          9
+Arm 1            216      0.4706     0.5294     0.1211     0.2296     0.6797          9          7
+Arm 1            220      0.4034     0.5966     0.1210     0.1764     0.6218         10          6
+Arm 1         227.23      0.3361     0.6639     0.1180     0.1288     0.5600         11          5
+Arm 1            234      0.2689     0.7311     0.1120     0.0868     0.4938         12          4
+Arm 1            244*     0.2689     0.7311     0.1120     0.0868     0.4938         12          3
+Arm 1            246      0.1793     0.8207     0.1045     0.0354     0.4131         13          2
+Arm 1            265      0.0896     0.9104     0.0822     0.0062     0.3181         14          1
+Arm 1            304      0.0000     1.0000          .          .          .         15          0
+Arm 2            142      0.9524     0.0476     0.0465     0.7072     0.9932          1         20
+Arm 2            156      0.9048     0.0952     0.0641     0.6700     0.9753          2         19
+Arm 2            163      0.8571     0.1429     0.0764     0.6197     0.9516          3         18
+Arm 2            198      0.8095     0.1905     0.0857     0.5689     0.9239          4         17
+Arm 2            204*     0.8095     0.1905     0.0857     0.5689     0.9239          4         16
+Arm 2            205      0.7589     0.2411     0.0941     0.5139     0.8920          5         15
+Arm 2            232      0.6577     0.3423     0.1053     0.4123     0.8203          7         13
+Arm 2            233      0.4554     0.5446     0.1114     0.2353     0.6520         11          9
+Arm 2            239      0.4048     0.5952     0.1099     0.1961     0.6052         12          8
+Arm 2            240      0.3542     0.6458     0.1072     0.1591     0.5564         13          7
+Arm 2            261      0.3036     0.6964     0.1031     0.1245     0.5056         14          6
+Arm 2            280      0.2024     0.7976     0.0902     0.0633     0.3967         16          4
+Arm 2            296      0.1012     0.8988     0.0678     0.0172     0.2749         18          2
+Arm 2            323      0.0506     0.9494     0.0493     0.0035     0.2073         19          1
+Arm 2            344*     0.0506     0.9494     0.0493     0.0035     0.2073         19          0
+
+Rank Statistics
+Stratum    Test        RankStatistic       Variance
+Arm 1      LogRank            4.0033         6.7376           6.74          6.738
+Arm 1      LogRank            4.0033         6.7376
+Arm 2      LogRank           -4.0033         6.7376           6.74          6.738
+Arm 2      LogRank           -4.0033         6.7376
+Arm 1      Wilcoxon          94.0000      4135.3479        4135.35       4135.348
+Arm 1      Wilcoxon               94        4135.35
+Arm 2      Wilcoxon         -94.0000      4135.3479        4135.35       4135.348
+Arm 2      Wilcoxon              -94        4135.35
+
+Covariance Matrix for the Log-Rank statistic
+                    Arm 1          Arm 2
+Arm 1              6.7376        -6.7376
+Arm 2             -6.7376         6.7376
+Arm 1                6.74          -6.74 (2-dec)
+Arm 2               -6.74           6.74 (2-dec)
+
+Covariance Matrix for the Wilcoxon statistic
+                    Arm 1          Arm 2
+Arm 1             4135.35       -4135.35
+Arm 2            -4135.35        4135.35
+Arm 1           4135.3479     -4135.3479 (4-dec)
+Arm 2          -4135.3479      4135.3479 (4-dec)
+
+Test of Equality over Strata
+Test            ChiSquare     DF       pValue
+Log-Rank           2.3787      1       0.1230
+Wilcoxon           2.1367      1       0.1438
+-2Log(LR)          2.0481      1       0.1524
+Log-Rank             2.38         0.12 (2-dec)
+Wilcoxon             2.14         0.14 (2-dec)
+
+Observed vs Expected under H0
+Stratum      Observed   Expected
+Arm 1              15      11.00
+Arm 1         15.0000    10.9967 (4-dec)
+Arm 2              19      23.00
+Arm 2         19.0000    23.0033 (4-dec)
+
+Number at Risk (ATRISK=0 TO 330 BY 30)
+     Day      Arm 1      Arm 2
+       0         17         21
+      30         17         21
+      60         17         21
+      90         17         21
+     120         17         21
+     150         16         20
+     180         15         18
+     210         10         15
+     240          4          8
+     270          1          6
+     300          1          2
+     330          0          1
+
+Survival axis 0 0.25 0.50 0.75 1.00  Time axis 0 30 60 90 120 150 180 210 240 270 300 330
+Censoring marks +  Confidence level 95 Percent  ALPHA 0.05
+Note: SAS program had 'srata arm' (typo for 'strata arm'); stratified by arm as intended.

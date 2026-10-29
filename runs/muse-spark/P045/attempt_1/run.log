@@ -1,0 +1,18 @@
+sandbox: docker run --rm --name sas2r-55f81ced09d5 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P045\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+OUT_DIR=/work/out
+adae_path=/bench/data/raw/cdisc-pilot/adam/adae.xpt
+adsl_path=/bench/data/raw/cdisc-pilot/adam/adsl.xpt
+adae n=3
+adsl n=254
+adae_sl n=3
+# A tibble: 3 × 2
+  TRT01AN COUNT
+    <dbl> <int>
+1       0    86
+2      54    84
+3      81    84
+N0=86 N54=84 N81=84 numtrt=3
+n PT dummy=2
+adae_sl6 n=12
+wrote CSV rows=3
+wrote txt/lst lines=12

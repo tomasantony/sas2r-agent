@@ -1,0 +1,29 @@
+sandbox: docker run --rm --name sas2r-a2c79c525ecb --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P024\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+P024 DS mapping - start
+Reading edc_ds
+edc_ds cols: SUBJID, DS_TERM, DS_CAT, DS_DT
+Using cols SUBJID=SUBJID TERM=DS_TERM CAT=DS_CAT DT=DS_DT
+Locating sdtm_dm
+Using DM file: /bench/output/sas/shipped/P023/dm.xlsx
+dm_for_ds n=5
+        USUBJID SUBJID    RFSTDTC     DTHDTC
+1 ONCO-2026-101    101 2026-01-05       <NA>
+2 ONCO-2026-102    102 2026-01-08       <NA>
+3 ONCO-2026-103    103 2026-01-10 2026-04-05
+4 ONCO-2026-104    104 2026-01-12       <NA>
+5 ONCO-2026-105    105 2026-01-15       <NA>
+sdtm_ds n=5
+    STUDYID DOMAIN       USUBJID DSSEQ           DSTERM          DSDECOD
+1 ONCO-2026     DS ONCO-2026-101     1        COMPLETED        COMPLETED
+2 ONCO-2026     DS ONCO-2026-102     1        COMPLETED        COMPLETED
+3 ONCO-2026     DS ONCO-2026-103     1            DEATH            DEATH
+4 ONCO-2026     DS ONCO-2026-104     1 LACK OF EFFICACY LACK_OF_EFFICACY
+5 ONCO-2026     DS ONCO-2026-105     1        COMPLETED        COMPLETED
+              DSCAT    DSSTDTC DSSTDY DTHFL
+1        STUDY CORE 2026-05-20    136  <NA>
+2        STUDY CORE 2026-06-15    159  <NA>
+3 SURVIVAL FOLLOWUP 2026-04-05     86     Y
+4        STUDY CORE 2026-03-15     63  <NA>
+5        STUDY CORE 2026-05-10    116  <NA>
+[1] TRUE
+Done

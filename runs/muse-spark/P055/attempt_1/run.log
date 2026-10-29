@@ -1,0 +1,12 @@
+sandbox: docker run --rm --name sas2r-19ea653b0931 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark\P055\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADVS
+Warning message:
+There was 1 warning in `mutate()`.
+ℹ In argument: `TCRIT = ifelse(!is.na(NUM) & NUM >= 2, qt(0.975, NUM - 1),
+  NA_real_)`.
+Caused by warning in `qt()`:
+! NaNs produced 
+[1] TRUE
+Wrote table: /work/out/P055.txt rows=377
+Wrote plotted data CSV rows=377
+Wrote figure: /work/out/sasgraph.png

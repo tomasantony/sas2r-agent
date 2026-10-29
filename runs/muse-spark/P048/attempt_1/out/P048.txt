@@ -1,0 +1,28 @@
+Table X: Dispostion Table
+##
+Subject Disposition
+
+Subject Disposition | Xanomeline Low Dose | Xanomeline High Dose | Placebo
+ | (N=Xanomeline Low Dose) | (N=Xanomeline High Dose) | (N=Placebo)
+ |   n   % |   n   % |   n   %
+--------------------------------------------------------------------------------
+##Death or Adverse Event
+Discontinued | ##59#(##0.7) | ##57#(##0.7) | ##28#(##0.3)
+ | ##44#(##0.5) | ##40#(##0.5) | ###8#(##0.1)
+ | ###1#(##0.0) | ###0 | ###2#(##0.0)
+##Lack of Efficacy-Related Reasons
+####Lack of Efficacy | ###0 | ###1#(##0.0) | ###3#(##0.0)
+##Other Reasons
+ | ###0 | ###2#(##0.0) | ###1#(##0.0)
+ | ###1#(##0.0) | ###0 | ###1#(##0.0)
+ | ###0 | ###2#(##0.0) | ###1#(##0.0)
+ | ###1#(##0.0) | ###1#(##0.0) | ###1#(##0.0)
+ | ###2#(##0.0) | ###3#(##0.0) | ###2#(##0.0)
+ | ##10#(##0.1) | ###8#(##0.1) | ###9#(##0.1)
+
+Abbreviations: N=total number of subjects in population.
+###############n=number of subjects in the specified category
+###############%=Percentage of patients with N as denomiator
+##
+##
+Program Location: blah lah blah

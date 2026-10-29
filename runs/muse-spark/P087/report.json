@@ -1,0 +1,42 @@
+{
+ "id": "P087",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "family": "own-adam",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 1.0,
+ "iterations": 2,
+ "input_tokens": 24657,
+ "output_tokens": 28001,
+ "seconds": 109.71842527389526,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 1.230757474899292,
+   "input_tokens": 9573,
+   "output_tokens": 15332,
+   "seconds_llm": 62.24335598945618,
+   "produced_all": true,
+   "equivalent": false,
+   "score": 0.9639035087719299,
+   "note": ""
+  },
+  {
+   "n": 2,
+   "rc": 0,
+   "seconds_r": 1.365647315979004,
+   "input_tokens": 15084,
+   "output_tokens": 12669,
+   "seconds_llm": 44.55085635185242,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 1.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 2
+}
