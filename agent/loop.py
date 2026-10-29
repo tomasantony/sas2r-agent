@@ -13,6 +13,7 @@ from .context import build_context
 from .expected import build_expected
 from .llm import LLM, extract_r_code
 from .prompts import SYSTEM, translate_prompt, repair_prompt
+from .provenance import write_attempt_provenance
 from .runner import run_r
 from .config import R_PACKAGES
 
@@ -92,6 +93,9 @@ def run_program(pid: str, provider: Provider, max_iterations: int | None = None,
         run = run_r(script, out_dir, adir / "run.log")
         report = compare_run(expected, out_dir)
         save_report(report, adir / "compare.json")
+        write_attempt_provenance(adir, pid=pid, provider=provider.name, model=comp.model, attempt=n,
+                                 completion=comp, run_result=run, compare_report=report, expected=expected,
+                                 sandbox=run.sandbox)
         att = Attempt(n, run.rc, run.seconds, comp.input_tokens, comp.output_tokens, comp.seconds,
                       report.produced_all, report.equivalent, report.score, "timed out" if run.timed_out else "")
         rep.attempts.append(att)

@@ -39,3 +39,4 @@ scratch/
 runs/expected/
 runs/_selftest/
 runs/_rtest/
+sandbox/build.log

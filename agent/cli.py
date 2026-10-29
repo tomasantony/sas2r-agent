@@ -119,6 +119,25 @@ def cmd_keys(args):
         print("set", line)
 
 
+def cmd_freeze(args):
+    from .provenance import freeze_reference, FREEZE
+    d = freeze_reference(force=True)
+    print(f"froze {len(d['files'])} SAS reference files at benchmark commit {d['benchmark_commit'][:12]} -> {FREEZE}")
+
+
+def cmd_verify(args):
+    """Check the SAS reference files against the freeze and the run ledger's hash chain."""
+    from .provenance import freeze_reference, verify_reference, verify_ledger
+    d = freeze_reference()
+    base = BENCHMARK_ROOT / "output" / "sas"
+    bad = [rel for rel in d["files"] if not (base / rel).exists() or not verify_reference(base / rel)["ok"]]
+    print(f"reference files: {len(d['files'])}, changed or missing: {len(bad)}")
+    for rel in bad[:20]:
+        print("  changed:", rel)
+    n, first_bad = verify_ledger()
+    print(f"ledger entries: {n}, chain {'intact' if first_bad < 0 else f'BROKEN at entry {first_bad}'}")
+
+
 def cmd_leaderboard(args):
     from .leaderboard import build
     board = build()
@@ -135,6 +154,8 @@ def main(argv=None):
     p = sub.add_parser("run"); p.add_argument("--provider", required=True, choices=list(PROVIDERS)); p.add_argument("--ids", nargs="*"); p.add_argument("--all", action="store_true"); p.add_argument("--group"); p.add_argument("--max-iters", type=int); p.set_defaults(fn=cmd_run)
     p = sub.add_parser("selftest"); p.add_argument("--ids", nargs="*"); p.add_argument("--all", action="store_true"); p.set_defaults(fn=cmd_selftest)
     p = sub.add_parser("keys", help="write .env from a folder of key files (values never printed)"); p.add_argument("--folder", default=r"D:\meta_hackathon\api key"); p.set_defaults(fn=cmd_keys)
+    sub.add_parser("freeze", help="hash every SAS reference file into runs/reference_freeze.json").set_defaults(fn=cmd_freeze)
+    sub.add_parser("verify", help="verify SAS reference hashes and the provenance ledger chain").set_defaults(fn=cmd_verify)
     sub.add_parser("leaderboard").set_defaults(fn=cmd_leaderboard)
     args = ap.parse_args(argv)
     args.fn(args)
