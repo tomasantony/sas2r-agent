@@ -34,3 +34,8 @@ $MAP
 # local scratch
 tmp/
 scratch/
+
+# derived caches and local experiments
+runs/expected/
+runs/_selftest/
+runs/_rtest/

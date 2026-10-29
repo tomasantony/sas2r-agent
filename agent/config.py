@@ -1,0 +1,96 @@
+"""Configuration: paths, model providers and loop settings.
+
+Everything secret comes from the environment (a .env file next to this package's repo root is
+loaded if present). Nothing here prints or logs key values.
+"""
+from __future__ import annotations
+
+import os
+from dataclasses import dataclass, field
+from pathlib import Path
+
+from dotenv import load_dotenv
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+load_dotenv(REPO_ROOT / ".env")
+
+# The benchmark (SAS programs, data, reference outputs) lives in a separate repository.
+BENCHMARK_ROOT = Path(os.environ.get("BENCHMARK_ROOT", r"D:\meta_hackathon\sas2r-agent")).resolve()
+RUNS_DIR = Path(os.environ.get("RUNS_DIR", REPO_ROOT / "runs")).resolve()
+RSCRIPT = os.environ.get("RSCRIPT", r"C:\Program Files\R\R-4.6.0\bin\Rscript.exe")
+
+
+@dataclass(frozen=True)
+class Provider:
+    """An OpenAI-compatible chat endpoint serving one model."""
+
+    name: str
+    base_url: str
+    model: str
+    api_key_env: str
+    note: str = ""
+    max_output_tokens: int = 16000
+    temperature: float = 0.0
+    extra_body: dict = field(default_factory=dict)
+
+    @property
+    def api_key(self) -> str | None:
+        return os.environ.get(self.api_key_env)
+
+
+PROVIDERS: dict[str, Provider] = {
+    # Primary: Meta Model API, closed Muse Spark. Chat Completions protocol.
+    "muse-spark": Provider(
+        name="muse-spark",
+        base_url="https://api.meta.ai/v1",
+        model="muse-spark-1.3",
+        api_key_env="MODEL_API_KEY",
+        note="Meta Model API, Muse Spark 1.3",
+    ),
+    # Open-weight row: Muse Spark Open served by Baseten (hackathon grant key).
+    "muse-spark-open-baseten": Provider(
+        name="muse-spark-open-baseten",
+        base_url="https://inference.baseten.co/v1",
+        model="meta-models/muse-spark-open-1026",
+        api_key_env="BASETEN_API_KEY",
+        note="Baseten, Muse Spark Open (hackathon model id)",
+    ),
+    # Open-weight row via Ollama Cloud (model id to confirm against /v1/models).
+    "muse-spark-open-ollama": Provider(
+        name="muse-spark-open-ollama",
+        base_url="https://ollama.com/v1",
+        model=os.environ.get("OLLAMA_MODEL", "muse-spark-open"),
+        api_key_env="OLLAMA_API_KEY",
+        note="Ollama Cloud, Muse Spark Open",
+    ),
+    # Local serving (vLLM / Ollama on this machine or the DGX Spark), no key needed.
+    "local": Provider(
+        name="local",
+        base_url=os.environ.get("LOCAL_BASE_URL", "http://localhost:11434/v1"),
+        model=os.environ.get("LOCAL_MODEL", "muse-spark-open"),
+        api_key_env="LOCAL_API_KEY",
+        note="local OpenAI-compatible server",
+    ),
+}
+
+
+@dataclass
+class LoopSettings:
+    max_iterations: int = 3          # translate + up to (max_iterations - 1) repairs
+    r_timeout_sec: int = 600
+    text_recall_threshold: float = 0.95   # tables/listings/figures: share of SAS numbers found in R text
+    dataset_cell_threshold: float = 0.999  # datasets: share of cells equal (after tolerance)
+    numeric_atol: float = 1e-6
+    numeric_rtol: float = 1e-6
+    max_context_chars: int = 120_000      # cap on SAS source + macro text handed to the model
+    history_attempts: int = 2             # previous attempts kept in the conversation for repair
+
+
+SETTINGS = LoopSettings()
+
+# R packages the model may rely on (all installed on the reference machine).
+R_PACKAGES = [
+    "haven", "dplyr", "tidyr", "readr", "stringr", "lubridate", "purrr", "tibble", "jsonlite",
+    "data.table", "ggplot2", "survival", "survminer", "broom", "Hmisc", "admiral", "pharmaversesdtm",
+    "readxl", "writexl", "openxlsx", "gt", "r2rtf", "arrow",
+]
