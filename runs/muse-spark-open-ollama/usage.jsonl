@@ -1,0 +1,4 @@
+{"ts": 1793298395.8620546, "tag": "P091:1", "model": "muse-spark-open", "in": 1392, "out": 4928, "sec": 19.2}
+{"ts": 1793298611.123422, "tag": "P001:1", "model": "muse-spark-open", "in": 3918, "out": 10149, "reasoning": 0, "finish": "stop", "sec": 77.7}
+{"ts": 1793298626.6652236, "tag": "P001:2", "model": "muse-spark-open", "in": 8459, "out": 4289, "reasoning": 0, "finish": "stop", "sec": 14.1}
+{"ts": 1793298648.9485693, "tag": "P001:3", "model": "muse-spark-open", "in": 12453, "out": 4894, "reasoning": 0, "finish": "stop", "sec": 20.6}

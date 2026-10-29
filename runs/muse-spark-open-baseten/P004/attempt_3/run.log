@@ -1,0 +1,9 @@
+Read adsl from D:/meta_hackathon/sas2r-agent/data/derived/c2c/data/adam/adsl.sas7bdat (50 rows)
+Read ae from D:/meta_hackathon/sas2r-agent/data/derived/c2c/data/sdtm/ae.sas7bdat (54 rows)
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+Outputs written to D:/meta_hackathon/github/sas2r-agent/runs/muse-spark-open-baseten/P004/attempt_3/out
+adae.csv rows: 54
+P004 audit rows: 15

@@ -1,0 +1,54 @@
+{
+ "id": "P001",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "family": "pilotrep",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 1.0,
+ "iterations": 3,
+ "input_tokens": 24830,
+ "output_tokens": 19332,
+ "seconds": 117.04958605766296,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 1,
+   "seconds_r": 1.3720428943634033,
+   "input_tokens": 3918,
+   "output_tokens": 10149,
+   "seconds_llm": 77.69171929359436,
+   "produced_all": false,
+   "equivalent": false,
+   "score": 0.0,
+   "note": ""
+  },
+  {
+   "n": 2,
+   "rc": 0,
+   "seconds_r": 1.5088303089141846,
+   "input_tokens": 8459,
+   "output_tokens": 4289,
+   "seconds_llm": 14.143566608428955,
+   "produced_all": true,
+   "equivalent": false,
+   "score": 0.9576001340707223,
+   "note": ""
+  },
+  {
+   "n": 3,
+   "rc": 0,
+   "seconds_r": 1.4903767108917236,
+   "input_tokens": 12453,
+   "output_tokens": 4894,
+   "seconds_llm": 20.603415489196777,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 1.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 3
+}

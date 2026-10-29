@@ -1,0 +1,8 @@
+{"ts": 1793298160.8651788, "tag": "P001:1", "model": "meta-models/muse-spark-open-1026", "in": 4036, "out": 16000, "sec": 34.2}
+{"ts": 1793298192.9345582, "tag": "P001:2", "model": "meta-models/muse-spark-open-1026", "in": 4065, "out": 16000, "sec": 32.1}
+{"ts": 1793298223.7045557, "tag": "P001:3", "model": "meta-models/muse-spark-open-1026", "in": 4094, "out": 16000, "sec": 30.8}
+{"ts": 1793298290.674699, "tag": "P004:1", "model": "meta-models/muse-spark-open-1026", "in": 2602, "out": 16000, "sec": 67.0}
+{"ts": 1793298320.396836, "tag": "P004:2", "model": "meta-models/muse-spark-open-1026", "in": 2631, "out": 16000, "sec": 29.7}
+{"ts": 1793298369.6880524, "tag": "P004:3", "model": "meta-models/muse-spark-open-1026", "in": 2660, "out": 15377, "sec": 49.3}
+{"ts": 1793298518.5849144, "tag": "P001:1", "model": "meta-models/muse-spark-open-1026", "in": 4036, "out": 7208, "reasoning": 2950, "finish": "stop", "sec": 22.1}
+{"ts": 1793298529.8370054, "tag": "P001:2", "model": "meta-models/muse-spark-open-1026", "in": 8427, "out": 3903, "reasoning": 517, "finish": "stop", "sec": 9.9}

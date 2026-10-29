@@ -73,11 +73,17 @@ def run_program(pid: str, provider: Provider, max_iterations: int | None = None,
         rep.input_tokens += comp.input_tokens
         rep.output_tokens += comp.output_tokens
         (adir / "response.md").write_text(comp.text, encoding="utf-8")
+        if comp.reasoning:
+            (adir / "reasoning.md").write_text(comp.reasoning, encoding="utf-8")
         code = extract_r_code(comp.text)
         if code is None:
-            rep.attempts.append(Attempt(n, None, 0, comp.input_tokens, comp.output_tokens, comp.seconds, False, False, 0.0, "no R code in answer"))
-            messages.append({"role": "assistant", "content": comp.text})
-            messages.append({"role": "user", "content": "Your answer contained no R code block. Return the complete R script in one ```r block."})
+            why = "answer cut off at the output token limit" if comp.truncated else "no R code in answer"
+            rep.attempts.append(Attempt(n, None, 0, comp.input_tokens, comp.output_tokens, comp.seconds, False, False, 0.0, why))
+            messages.append({"role": "assistant", "content": comp.text or "(empty)"})
+            ask = ("Your previous answer was cut off before any R code. Deliberate less and answer with the complete "
+                   "R script only, in one ```r block." if comp.truncated else
+                   "Your answer contained no R code block. Return the complete R script in one ```r block.")
+            messages.append({"role": "user", "content": ask})
             continue
         rep.translated = True
         script = adir / "script.R"

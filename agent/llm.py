@@ -19,6 +19,13 @@ class Completion:
     output_tokens: int
     seconds: float
     model: str
+    reasoning: str = ""
+    reasoning_tokens: int = 0
+    finish_reason: str = ""
+
+    @property
+    def truncated(self) -> bool:
+        return self.finish_reason == "length"
 
 
 class LLM:
@@ -37,16 +44,27 @@ class LLM:
         if self.provider.extra_body:
             kwargs["extra_body"] = self.provider.extra_body
         resp = self.client.chat.completions.create(**kwargs)
-        msg = resp.choices[0].message
+        choice = resp.choices[0]
+        msg = choice.message
         text = msg.content or ""
-        # some open-weight servers put the answer after a reasoning block
-        text = re.sub(r"<think>.*?</think>", "", text, flags=re.S).strip()
+        md = msg.model_dump()
+        # Baseten returns reasoning in reasoning_content; Ollama/vLLM builds use reasoning or <think> tags.
+        reasoning = md.get("reasoning_content") or md.get("reasoning") or ""
+        m = re.search(r"<think>(.*?)</think>", text, flags=re.S)
+        if m:
+            reasoning = reasoning or m.group(1)
+            text = re.sub(r"<think>.*?</think>", "", text, flags=re.S)
+        text = text.strip()
         usage = resp.usage
+        details = getattr(usage, "completion_tokens_details", None)
+        rtok = getattr(details, "reasoning_tokens", 0) if details else 0
         c = Completion(text, getattr(usage, "prompt_tokens", 0) or 0, getattr(usage, "completion_tokens", 0) or 0,
-                       time.time() - t0, resp.model or self.provider.model)
+                       time.time() - t0, resp.model or self.provider.model, reasoning or "", rtok or 0,
+                       choice.finish_reason or "")
         with open(self.usage_log, "a", encoding="utf-8") as f:
             f.write(json.dumps({"ts": time.time(), "tag": tag, "model": c.model, "in": c.input_tokens,
-                                "out": c.output_tokens, "sec": round(c.seconds, 1)}) + "\n")
+                                "out": c.output_tokens, "reasoning": c.reasoning_tokens, "finish": c.finish_reason,
+                                "sec": round(c.seconds, 1)}) + "\n")
         return c
 
     def list_models(self) -> list[str]:

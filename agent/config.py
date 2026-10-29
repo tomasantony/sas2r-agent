@@ -54,6 +54,10 @@ PROVIDERS: dict[str, Provider] = {
         model="meta-models/muse-spark-open-1026",
         api_key_env="BASETEN_API_KEY",
         note="Baseten, Muse Spark Open (hackathon model id)",
+        # Muse Spark Open always reasons (default effort xhigh) and reasoning counts against max_tokens:
+        # a 250-line program burnt 16k tokens of reasoning before any code. Medium effort, big budget.
+        max_output_tokens=48000,
+        extra_body={"reasoning_effort": "medium"},
     ),
     # Open-weight row via Ollama Cloud (model id to confirm against /v1/models).
     "muse-spark-open-ollama": Provider(
@@ -62,6 +66,7 @@ PROVIDERS: dict[str, Provider] = {
         model=os.environ.get("OLLAMA_MODEL", "muse-spark-open"),
         api_key_env="OLLAMA_API_KEY",
         note="Ollama Cloud, Muse Spark Open",
+        max_output_tokens=32000,
     ),
     # Local serving (vLLM / Ollama on this machine or the DGX Spark), no key needed.
     "local": Provider(
