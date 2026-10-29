@@ -1,0 +1,35 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "bar1.htm",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 0,
+    "found": 0,
+    "r_files": [
+     "bar1.csv",
+     "bar1.txt",
+     "bar1_data.csv",
+     "bar1_plotdata.csv"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "bar1.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark\\P091\\attempt_1\\out\\bar1.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  }
+ ]
+}

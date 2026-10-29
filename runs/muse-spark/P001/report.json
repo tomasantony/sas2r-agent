@@ -1,0 +1,42 @@
+{
+ "id": "P001",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "family": "pilotrep",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 1.0,
+ "iterations": 2,
+ "input_tokens": 11529,
+ "output_tokens": 15298,
+ "seconds": 72.99368500709534,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 1,
+   "seconds_r": 2.7322940826416016,
+   "input_tokens": 3903,
+   "output_tokens": 11826,
+   "seconds_llm": 58.01034092903137,
+   "produced_all": false,
+   "equivalent": false,
+   "score": 0.0,
+   "note": ""
+  },
+  {
+   "n": 2,
+   "rc": 0,
+   "seconds_r": 2.7098147869110107,
+   "input_tokens": 7626,
+   "output_tokens": 3472,
+   "seconds_llm": 9.19559907913208,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 1.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 2
+}

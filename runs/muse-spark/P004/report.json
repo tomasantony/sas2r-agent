@@ -1,0 +1,42 @@
+{
+ "id": "P004",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "family": "c2c",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 1.0,
+ "iterations": 2,
+ "input_tokens": 4980,
+ "output_tokens": 30159,
+ "seconds": 169.18490719795227,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": null,
+   "seconds_r": 0,
+   "input_tokens": 2469,
+   "output_tokens": 16000,
+   "seconds_llm": 94.5728964805603,
+   "produced_all": false,
+   "equivalent": false,
+   "score": 0.0,
+   "note": "answer cut off at the output token limit"
+  },
+  {
+   "n": 2,
+   "rc": 0,
+   "seconds_r": 1.6292316913604736,
+   "input_tokens": 2511,
+   "output_tokens": 14159,
+   "seconds_llm": 72.8612060546875,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 1.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 2
+}

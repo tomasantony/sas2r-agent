@@ -1,0 +1,20 @@
+ADAE Audit - Treatment-Emergent and First-Occurrence Flags
+
+Obs  USUBJID              TRT01A       AETERM                         AESEV      AESTDT     TRTSDT     ASTDY  TRTEMFL  AOCCFL  
+1    CDISC-01-701-001     Active Drug  Nausea                         MILD       09APR2023  17JAN2023  83     Y        Y       
+2    CDISC-01-701-004     Active Drug  Application site erythema      SEVERE     27JAN2023  05JAN2023  23     Y        Y       
+3    CDISC-01-701-004     Active Drug  Insomnia                       SEVERE     31JAN2023  05JAN2023  27     Y        Y       
+4    CDISC-01-701-006     Active Drug  Fatigue                        SEVERE     05FEB2023  22JAN2023  15     Y        Y       
+5    CDISC-01-701-006     Active Drug  Fatigue                        MILD       26FEB2023  22JAN2023  36     Y                
+6    CDISC-01-701-006     Active Drug  Fatigue                        SEVERE     05MAR2023  22JAN2023  43     Y                
+7    CDISC-01-701-007     Active Drug  Application site erythema      SEVERE     06JAN2023  04JAN2023  3      Y        Y       
+8    CDISC-01-701-007     Active Drug  Nausea                         MILD       18JAN2023  04JAN2023  15     Y        Y       
+9    CDISC-01-701-007     Active Drug  Nausea                         MILD       18FEB2023  04JAN2023  46     Y                
+10   CDISC-01-701-017     Active Drug  Insomnia                       MILD       22FEB2023  02JAN2023  52     Y        Y       
+11   CDISC-01-701-028     Placebo      Nausea                         MODERATE   20JAN2023  23JAN2023  -3                      
+12   CDISC-01-701-030     Placebo      Dizziness                      SEVERE     23JAN2023  26JAN2023  -3                      
+13   CDISC-01-701-030     Placebo      Nausea                         SEVERE     28MAR2023  26JAN2023  62     Y        Y       
+14   CDISC-01-701-042     Active Drug  Headache                       MILD       05FEB2023  07JAN2023  30     Y        Y       
+15   CDISC-01-701-042     Active Drug  Application site erythema      MILD       16FEB2023  07JAN2023  41     Y        Y       
+
+N = 15 (first 15 observations of ADAE, N_total = 54)

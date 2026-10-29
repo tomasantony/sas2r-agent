@@ -49,6 +49,9 @@ PROVIDERS: dict[str, Provider] = {
         model="muse-spark-1.3",
         api_key_env="MODEL_API_KEY",
         note="Meta Model API, Muse Spark 1.3",
+        # reasoning counts against max_tokens here too (P004 attempt 1 spent 16k tokens reasoning, no code)
+        max_output_tokens=48000,
+        extra_body={"reasoning_effort": "medium"},
     ),
     # Open-weight row: Muse Spark Open served by Baseten (hackathon grant key).
     "muse-spark-open-baseten": Provider(
