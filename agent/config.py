@@ -32,6 +32,9 @@ class Provider:
     max_output_tokens: int = 16000
     temperature: float = 0.0
     extra_body: dict = field(default_factory=dict)
+    sdk: str = "openai"            # "openai" (chat completions) or "anthropic" (official Anthropic SDK)
+    effort: str = ""               # Anthropic output_config.effort: low | medium | high | xhigh | max
+    role: str = "meta"             # leaderboard grouping: meta | baseline
 
     @property
     def api_key(self) -> str | None:
@@ -67,6 +70,27 @@ PROVIDERS: dict[str, Provider] = {
         api_key_env="OLLAMA_API_KEY",
         note="Ollama Cloud, Muse Spark Open",
         max_output_tokens=32000,
+    ),
+    # Baseline rows (not Meta models; labelled as baselines on the leaderboard).
+    "gpt-oss-120b-ollama": Provider(
+        name="gpt-oss-120b-ollama",
+        base_url="https://ollama.com/v1",
+        model="gpt-oss:120b",
+        api_key_env="OLLAMA_API_KEY",
+        note="baseline: OpenAI gpt-oss-120b (open weight) on Ollama Cloud",
+        max_output_tokens=32000,
+        role="baseline",
+    ),
+    "claude-opus-5-5": Provider(
+        name="claude-opus-5-5",
+        base_url="",
+        model="claude-opus-5-5",
+        api_key_env="ANTHROPIC_API_KEY",
+        note="baseline: Claude Opus 5.5 via the Anthropic SDK (adaptive thinking, effort from ANTHROPIC_EFFORT)",
+        max_output_tokens=16000,
+        sdk="anthropic",
+        effort=os.environ.get("ANTHROPIC_EFFORT", "medium"),
+        role="baseline",
     ),
     # Local serving (vLLM / Ollama on this machine or the DGX Spark), no key needed.
     "local": Provider(

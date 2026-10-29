@@ -1,0 +1,6 @@
+CATEGORY  SERIES      AMOUNT_SUM
+--------------------------------
+1          Series B            9.50
+1          Series A            5.00
+2          Series A            7.80
+2          Series B            5.90
