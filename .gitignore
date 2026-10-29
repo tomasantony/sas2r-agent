@@ -1,0 +1,36 @@
+# secrets
+.env
+.env.*
+*.key
+*.pem
+api key/
+api_key*
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# SAS scratch
+*.sas7bcat
+*.lck
+sasuser/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+$MAP
+
+# local scratch
+tmp/
+scratch/
