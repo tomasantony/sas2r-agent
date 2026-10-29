@@ -13,9 +13,8 @@ RUN R -q -e 'options(warn = 2); install.packages(c( \
       "writexl", "openxlsx", "gt", "r2rtf", "arrow"), \
       repos = "https://p3m.dev/cran/__linux__/noble/latest", Ncpus = 4)'
 
-# unprivileged user; the attempt folder is mounted at /work and OUT_DIR points inside it
-RUN useradd -m -u 1000 -s /bin/bash sandbox || true
-USER sandbox
+# unprivileged user (rocker images ship "rstudio" as uid 1000); the attempt folder is mounted at /work
+USER rstudio
 WORKDIR /work
 ENV OUT_DIR=/work/out
 ENTRYPOINT ["Rscript", "--vanilla"]

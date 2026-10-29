@@ -1,0 +1,20 @@
+SGplot Horizontal Grouped Bar
+Horizontal Grouped Bar
+Compares values across categories
+
+Horizontal Grouped Bar - Data Summary (stat=sum)
+------------------------------------------------
+CATEGORY   SERIES         AMOUNT
+--------   ------------ --------
+1          Series B          9.5
+1          Series A          5.0
+2          Series B          5.9
+2          Series A          7.8
+
+XAXIS: values=(0 to 10 by 2) offsetmax=0 grid minor minorcount=1
+YAXIS: display=(noticks)
+Group: SERIES (groupdisplay=cluster grouporder=descending)
+Colors: Series B=#9999FF (cx9999ff), Series A=#993366 (cx993366)
+Outline: black, nostatlabel, noautolegend
+
+Figure saved as bar1.png (800px x 600px, imagefmt=png, style=htmlblue)

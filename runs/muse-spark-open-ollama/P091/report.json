@@ -8,35 +8,23 @@
  "produced_all": true,
  "equivalent": true,
  "best_score": 1.0,
- "iterations": 2,
- "input_tokens": 5418,
- "output_tokens": 7761,
- "seconds": 54.537156105041504,
+ "iterations": 1,
+ "input_tokens": 1393,
+ "output_tokens": 6105,
+ "seconds": 27.315383911132812,
  "attempts": [
   {
    "n": 1,
-   "rc": 1,
-   "seconds_r": 8.098824262619019,
-   "input_tokens": 1393,
-   "output_tokens": 5286,
-   "seconds_llm": 30.203410387039185,
-   "produced_all": false,
-   "equivalent": false,
-   "score": 0.5,
-   "note": ""
-  },
-  {
-   "n": 2,
    "rc": 0,
-   "seconds_r": 4.494011163711548,
-   "input_tokens": 4025,
-   "output_tokens": 2475,
-   "seconds_llm": 11.523556470870972,
+   "seconds_r": 2.5392160415649414,
+   "input_tokens": 1393,
+   "output_tokens": 6105,
+   "seconds_llm": 24.68989586830139,
    "produced_all": true,
    "equivalent": true,
    "score": 1.0,
    "note": ""
   }
  ],
- "best_attempt": 2
+ "best_attempt": 1
 }
