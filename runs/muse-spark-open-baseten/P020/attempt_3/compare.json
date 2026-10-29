@@ -1,0 +1,48 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9285714285714286,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P020.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9285714285714286,
+   "detail": {
+    "recall": 0.9285714285714286,
+    "expected": 308,
+    "found": 286,
+    "r_files": [
+     "figure1_plot_data.csv",
+     "P020.csv",
+     "P020.lst.csv",
+     "P020.lst.txt",
+     "P020.txt",
+     "P020_atrisk.csv",
+     "P020_atrisk_wide.csv",
+     "P020_figure1_plot_data.csv",
+     "P020_logrank.csv",
+     "P020_plot_data.csv",
+     "P020_quartiles.csv",
+     "P020_summary.csv",
+     "P020_table.csv"
+    ],
+    "missing_examples": [
+     "58.2874",
+     "6.3899",
+     "22",
+     "39.3523",
+     "4.5077",
+     "-2.0072",
+     "-106",
+     "2.0072",
+     "106",
+     "6.56877",
+     "-6.56877",
+     "7572.1"
+    ]
+   }
+  }
+ ]
+}

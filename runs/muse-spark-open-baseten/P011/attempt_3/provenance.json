@@ -1,0 +1,72 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P011",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 3,
+ "recorded_at": "2026-10-29T19:10:01",
+ "agent_commit": "24dc4d4d107422c85a3669220453db9e2eaf2e38",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 11337,
+  "output_tokens": 3968,
+  "reasoning_tokens": 867,
+  "finish_reason": "stop",
+  "seconds": 10.8
+ },
+ "inputs": {
+  "prompt_translate.md": "cb1f750f33f7683293ad79a0fada51cb26ab8950422a12a20a41a540c224a989"
+ },
+ "model_output": {
+  "response.md": "59c48b075db0962fac30b061e78142408ce9f110d21f33e1b9ea8d632276f150",
+  "reasoning.md": "fe91e5bb4305c53fb3f8b1a1e8c9867ddcaa951ce0b32b709a4b4b959e246cd1",
+  "script.R": "0341e35812c9c1c503f760bc4f515c652b3c4faa9975e7c9db5dcd4c5bd3e565"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.6,
+  "timed_out": false,
+  "log_sha256": "f42379b1f64ae968a29e85c75d2691f352f00b8dca300323305cd0f81f315887"
+ },
+ "r_outputs": {
+  "dm.csv": "3e4c7724a3b8973223a4a459a42838f5556b2f0393d029ebea10b79c747fbc0d",
+  "P011.csv": "58e3527522290e6b3773dff434f151cf8eb4c879b4d237ffaa604b3bf3c3cf80",
+  "P011.lst": "f06328a2797d8ec13023d69ffbc68e5a17a9e6c935dd907bf0d394fcfb080362",
+  "P011.lst.csv": "58e3527522290e6b3773dff434f151cf8eb4c879b4d237ffaa604b3bf3c3cf80",
+  "P011.lst.txt": "f06328a2797d8ec13023d69ffbc68e5a17a9e6c935dd907bf0d394fcfb080362",
+  "P011.txt": "f06328a2797d8ec13023d69ffbc68e5a17a9e6c935dd907bf0d394fcfb080362"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P011.lst",
+   "sha256": "a55817030afc6a4c87f20d33f2405e459e8acdf5fa1838708afb605b636d9809",
+   "frozen_sha256": "a55817030afc6a4c87f20d33f2405e459e8acdf5fa1838708afb605b636d9809",
+   "ok": true
+  },
+  {
+   "file": "datasets/P011/dm.sas7bdat",
+   "sha256": "7e0e523e8cc5688c49f3bd294f3433e6373b55aec93597353506e1bd84b71e50",
+   "frozen_sha256": "7e0e523e8cc5688c49f3bd294f3433e6373b55aec93597353506e1bd84b71e50",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 0.9909502262443439,
+  "produced_all": true
+ }
+}

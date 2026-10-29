@@ -1,0 +1,44 @@
+Table 1: Demographics and Baseline Characteristics
+Population: Intent-to-Treat (ITT)
+
+Demographic Parameter  | Category                       | Statistic  | Active Drug 50mg |      Placebo |        Total
+-----------------------+--------------------------------+------------+------------------+--------------+-------------
+Total Subjects         | Total Subjects                 | n          |               19 |           28 |           47
+Sex                    | F                              | n          |                8 |           12 |           20
+Sex                    | F                              | %          |             42.1 |         42.9 |         42.6
+Sex                    | M                              | n          |               11 |           16 |           27
+Sex                    | M                              | %          |             57.9 |         57.1 |         57.4
+Race                   | ASIAN                          | n          |                2 |            3 |            5
+Race                   | ASIAN                          | %          |             10.5 |         10.7 |         10.6
+Race                   | BLACK OR AFRICAN AMERICAN      | n          |                1 |            5 |            6
+Race                   | BLACK OR AFRICAN AMERICAN      | %          |              5.3 |         17.9 |         12.8
+Race                   | OTHER                          | n          |                0 |            2 |            2
+Race                   | OTHER                          | %          |              0.0 |          7.1 |          4.3
+Race                   | WHITE                          | n          |               16 |           18 |           34
+Race                   | WHITE                          | %          |             84.2 |         64.3 |         72.3
+Age (years)            | Age (years)                    | n          |               19 |           28 |           47
+Age (years)            | Age (years)                    | Mean       |             73.3 |         75.1 |         74.4
+Age (years)            | Age (years)                    | SD         |             6.36 |         5.80 |         6.03
+Age (years)            | Age (years)                    | Min        |               65 |           65 |           65
+Age (years)            | Age (years)                    | Max        |               84 |           84 |           84
+
+Notes: N = number of subjects; % = column percent (n / Total Subjects *100).
+Age statistics: n = non-missing, Mean (1 dec), SD (2 dec), Min/Max (0 dec).
+Missing values displayed as 0 per misstext='0'.
+ITT population N=47 (Active Drug 50mg n=19, Placebo n=28, Total n=47)
+
+Combined n (%) view:
+Parameter                           | Active Drug 50mg |         Placebo |           Total
+------------------------------------------------------------------------------------------
+Total Subjects [N]                  |              19 |              28 |              47
+Sex - F [n (%)]                     |       8 (42.1%) |      12 (42.9%) |      20 (42.6%)
+Sex - M [n (%)]                     |      11 (57.9%) |      16 (57.1%) |      27 (57.4%)
+Race - ASIAN [n (%)]                |       2 (10.5%) |       3 (10.7%) |       5 (10.6%)
+Race - BLACK OR AFRICAN AMERICAN [n (%)] |        1 (5.3%) |       5 (17.9%) |       6 (12.8%)
+Race - OTHER [n (%)]                |        0 (0.0%) |        2 (7.1%) |        2 (4.3%)
+Race - WHITE [n (%)]                |      16 (84.2%) |      18 (64.3%) |      34 (72.3%)
+Age (years) - n [n]                 |              19 |              28 |              47
+Age (years) - Mean [Mean]           |            73.3 |            75.1 |            74.4
+Age (years) - SD [SD]               |            6.36 |            5.80 |            6.03
+Age (years) - Min [Min]             |              65 |              65 |              65
+Age (years) - Max [Max]             |              84 |              84 |              84

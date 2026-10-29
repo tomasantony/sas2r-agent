@@ -1,0 +1,71 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.61,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P024.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.8,
+   "detail": {
+    "recall": 0.8,
+    "expected": 45,
+    "found": 36,
+    "r_files": [
+     "ds.csv",
+     "P024.csv",
+     "P024.txt"
+    ],
+    "missing_examples": [
+     "136",
+     "-102",
+     "159",
+     "-103",
+     "86",
+     "-104",
+     "63",
+     "-105",
+     "116"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "ds",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten\\P024\\attempt_2\\out\\ds.csv",
+   "status": "mismatch",
+   "score": 0.42,
+   "detail": {
+    "rows_sas": 5,
+    "rows_r": 5,
+    "cols_sas": 10,
+    "cols_r": 10,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.42,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(USUBJID, 2, 'ONCO-2026-102', 'ONCO-2026-101')",
+     "(USUBJID, 3, 'ONCO-2026-103', 'ONCO-2026-101')",
+     "(USUBJID, 4, 'ONCO-2026-104', 'ONCO-2026-101')",
+     "(USUBJID, 5, 'ONCO-2026-105', 'ONCO-2026-101')",
+     "(DSSEQ, 2, 1, '2')",
+     "(DSSEQ, 3, 1, '3')",
+     "(DSSEQ, 4, 1, '4')",
+     "(DSSEQ, 5, 1, '5')",
+     "(DSTERM, 1, 'COMPLETED', 'LACK OF EFFICACY')",
+     "(DSTERM, 2, 'COMPLETED', 'DEATH')"
+    ],
+    "worst_columns": {
+     "DSSTDTC": 5,
+     "DSSTDY": 5,
+     "USUBJID": 4,
+     "DSSEQ": 4,
+     "DSTERM": 4
+    }
+   }
+  }
+ ]
+}

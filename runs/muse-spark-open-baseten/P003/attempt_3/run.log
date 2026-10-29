@@ -1,0 +1,28 @@
+sandbox: docker run --rm --name sas2r-3aeec4b8ea2e --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P003\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+DENOM rows: 3  values: 86,84,84 
+adae_ser rows: 3 
+distinct AEBODSYS: NERVOUS SYSTEM DISORDERS 
+distinct AEDECOD: SYNCOPE|PARTIAL SEIZURES WITH SECONDARY GENERALISATION 
+Warning messages:
+1: Unknown or uninitialised column: `DENOM`. 
+2: Unknown or uninitialised column: `DENOM`. 
+Warning messages:
+1: Unknown or uninitialised column: `DENOM`. 
+2: Unknown or uninitialised column: `DENOM`. 
+Warning messages:
+1: Unknown or uninitialised column: `DENOM`. 
+2: Unknown or uninitialised column: `DENOM`. 
+3: Unknown or uninitialised column: `DENOM`. 
+P003 outputs written to /work/out 
+Rows final_tbl: 4  pt_grid: 6  soc_grid: 3 

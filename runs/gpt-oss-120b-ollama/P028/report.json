@@ -1,0 +1,54 @@
+{
+ "id": "P028",
+ "provider": "gpt-oss-120b-ollama",
+ "model": "gpt-oss:120b",
+ "family": "faijal",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": false,
+ "best_score": 0.9302884615384616,
+ "iterations": 3,
+ "input_tokens": 12400,
+ "output_tokens": 7695,
+ "seconds": 25.70365834236145,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 1,
+   "seconds_r": 1.4151501655578613,
+   "input_tokens": 2448,
+   "output_tokens": 2865,
+   "seconds_llm": 8.415000677108765,
+   "produced_all": false,
+   "equivalent": false,
+   "score": 0.0,
+   "note": ""
+  },
+  {
+   "n": 2,
+   "rc": 0,
+   "seconds_r": 1.7164626121520996,
+   "input_tokens": 3990,
+   "output_tokens": 2014,
+   "seconds_llm": 4.486079454421997,
+   "produced_all": true,
+   "equivalent": false,
+   "score": 0.9302884615384616,
+   "note": ""
+  },
+  {
+   "n": 3,
+   "rc": 1,
+   "seconds_r": 2.175286054611206,
+   "input_tokens": 5962,
+   "output_tokens": 2816,
+   "seconds_llm": 7.102816581726074,
+   "produced_all": false,
+   "equivalent": false,
+   "score": 0.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 2
+}

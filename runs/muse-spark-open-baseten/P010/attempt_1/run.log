@@ -1,0 +1,55 @@
+sandbox: docker run --rm --name sas2r-06894b9b9743 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P010\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading raw_conmeds from: /bench/data/derived/c2c/data/raw/raw_conmeds.csv 
+raw_cm rows: 86 cols: SUBJECT,MEDICATION,DOSE,START_DT,END_DT,ONGOING 
+# A tibble: 3 × 6
+  SUBJECT MEDICATION  DOSE    START_DT   END_DT     ONGOING
+  <chr>   <chr>       <chr>   <chr>      <chr>      <chr>  
+1 701-001 Ibuprofen   20 mg   22/12/2022 30/01/2023 N      
+2 701-001 Omeprazole  20 mg   06/07/2022 03/04/2023 N      
+3 701-001 Paracetamol 1000 mg 21/07/2022 02/04/2023 N      
+cm_draft rows: 86 
+# A tibble: 5 × 10
+  STUDYID  DOMAIN USUBJID   CMTRT CMDECOD CMDOSE CMDOSU CMSTDTC CMENDTC CMENRTPT
+  <chr>    <chr>  <chr>     <chr> <chr>    <dbl> <chr>  <chr>   <chr>   <chr>   
+1 CDISC-01 CM     CDISC-01… Ibup… IBUPRO…     20 mg     2022-1… 2023-0… ""      
+2 CDISC-01 CM     CDISC-01… Omep… OMEPRA…     20 mg     2022-0… 2023-0… ""      
+3 CDISC-01 CM     CDISC-01… Para… ACETAM…   1000 mg     2022-0… 2023-0… ""      
+4 CDISC-01 CM     CDISC-01… Para… ACETAM…    500 mg     2022-0… <NA>    "ONGOIN…
+5 CDISC-01 CM     CDISC-01… Omep… OMEPRA…     20 mg     2022-0… <NA>    "ONGOIN…
+Found DM at: /bench/data/derived/c2c/data/sdtm/dm.sas7bdat 
+DM rows: 50 cols: STUDYID,DOMAIN,USUBJID,SUBJID,SITEID,SEX,RACE,ARM,ARMCD,RFSTDTC,RFENDTC,RFPENDTC,RFICDTC,BRTHDTC 
+# A tibble: 3 × 14
+  STUDYID  DOMAIN USUBJID  SUBJID SITEID SEX   RACE  ARM   ARMCD RFSTDTC RFENDTC
+  <chr>    <chr>  <chr>    <chr>  <chr>  <chr> <chr> <chr> <chr> <chr>   <chr>  
+1 CDISC-01 DM     CDISC-0… 701-0… 701    M     WHITE Acti… ACT50 2023-0… 2023-0…
+2 CDISC-01 DM     CDISC-0… 703-0… 703    M     WHITE Plac… PBO   2023-0… 2023-0…
+3 CDISC-01 DM     CDISC-0… 704-0… 704    F     WHITE Plac… PBO   2023-0… 2023-0…
+# ℹ 3 more variables: RFPENDTC <chr>, RFICDTC <chr>, BRTHDTC <chr>
+dm_cm_anchor rows: 50 
+# A tibble: 5 × 2
+  USUBJID          `_CMENTPT_ANCHOR`
+  <chr>            <chr>            
+1 CDISC-01-701-001 2023-04-09       
+2 CDISC-01-701-004 2023-03-27       
+3 CDISC-01-701-005 2023-02-06       
+4 CDISC-01-701-006 2023-03-24       
+5 CDISC-01-701-007 2023-03-28       
+Final sdtm.cm rows: 86 
+# A tibble: 10 × 12
+   STUDYID  DOMAIN USUBJID     CMSEQ CMTRT CMDECOD CMDOSE CMDOSU CMSTDTC CMENDTC
+   <chr>    <chr>  <chr>       <int> <chr> <chr>    <dbl> <chr>  <chr>   <chr>  
+ 1 CDISC-01 CM     CDISC-01-7…     1 Omep… OMEPRA…     20 mg     2022-0… 2023-0…
+ 2 CDISC-01 CM     CDISC-01-7…     2 Para… ACETAM…   1000 mg     2022-0… 2023-0…
+ 3 CDISC-01 CM     CDISC-01-7…     3 Ibup… IBUPRO…     20 mg     2022-1… 2023-0…
+ 4 CDISC-01 CM     CDISC-01-7…     1 Lisi… LISINO…    500 mg     2022-0… 2023-0…
+ 5 CDISC-01 CM     CDISC-01-7…     1 Ator… ATORVA…     20 mg     2022-1… <NA>   
+ 6 CDISC-01 CM     CDISC-01-7…     1 Ibup… IBUPRO…     10 mg     2022-0… <NA>   
+ 7 CDISC-01 CM     CDISC-01-7…     2 Ator… ATORVA…   1000 mg     2022-0… <NA>   
+ 8 CDISC-01 CM     CDISC-01-7…     1 Aspi… ASPIRIN     20 mg     2022-0… <NA>   
+ 9 CDISC-01 CM     CDISC-01-7…     1 Aspi… ASPIRIN     10 mg     2022-0… 2023-0…
+10 CDISC-01 CM     CDISC-01-7…     2 Aspi… ASPIRIN     10 mg     2022-0… 2023-0…
+# ℹ 2 more variables: CMENRTPT <chr>, CMENTPT <chr>
+Outputs written to: /work/out 
+ - cm.csv
+ - P010.txt / P010.lst.txt
+ - P010.csv / P010.lst.csv

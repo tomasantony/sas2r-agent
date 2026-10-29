@@ -1,0 +1,65 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P021",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T19:19:18",
+ "agent_commit": "24dc4d4d107422c85a3669220453db9e2eaf2e38",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 1986,
+  "output_tokens": 9378,
+  "reasoning_tokens": 4472,
+  "finish_reason": "stop",
+  "seconds": 27.9
+ },
+ "inputs": {
+  "prompt_translate.md": "7274bb00444fad43daa5efb188c557f87d74c03b3dff4ebfc065714d60311b74"
+ },
+ "model_output": {
+  "response.md": "ac53836696c352e02e598d062f696e2492c4a5b3e0011332ce87ff5b22233c00",
+  "reasoning.md": "87665c02cef3ea7f8571baa772d44aa7c7ef31a7496a757b0a8d9df0ace868b2",
+  "script.R": "864c0607abfb0a958d049ff29e2081112b15522cd1235fb410b2f5d1721270f5"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.7,
+  "timed_out": false,
+  "log_sha256": "d8099614ef74307339695656e453ec8bf64521ad8d52eaecab3373e57f6f0f6c"
+ },
+ "r_outputs": {
+  "P021.csv": "c6d7fa7ce929cd556e97045e1cf52554cad7d2f342a37ae096da4b3c6f153788",
+  "P021.lst": "5fdcb471fb98d21ccc822d84f85ebe0b66d3de349fdca48bde973f11f2d06b41",
+  "P021.lst.csv": "c6d7fa7ce929cd556e97045e1cf52554cad7d2f342a37ae096da4b3c6f153788",
+  "P021.lst.txt": "5fdcb471fb98d21ccc822d84f85ebe0b66d3de349fdca48bde973f11f2d06b41",
+  "P021.txt": "5fdcb471fb98d21ccc822d84f85ebe0b66d3de349fdca48bde973f11f2d06b41"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P021.lst",
+   "sha256": "ec046672137e31cfec7a8212633c45df848af9196b4bfdccb75863a0db3fd568",
+   "frozen_sha256": "ec046672137e31cfec7a8212633c45df848af9196b4bfdccb75863a0db3fd568",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

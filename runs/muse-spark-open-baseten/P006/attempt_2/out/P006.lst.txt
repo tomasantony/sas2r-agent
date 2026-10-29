@@ -1,0 +1,75 @@
+ADSL Audit - Subject Level Analysis Dataset 
+------------------------------------------- 
+
+Obs  USUBJID            TRT01P               TRT01A               ITTFL  SAFFL  AGE 
+------------------------------------------------------------------------------------------ 
+1    CDISC-01-701-001   Active Drug 50mg     Active Drug 50mg     Y      Y      84  
+2    CDISC-01-701-004   Active Drug 50mg     Active Drug 50mg     Y      Y      80  
+3    CDISC-01-701-005   Placebo              Placebo              Y      Y      66  
+4    CDISC-01-701-006   Active Drug 50mg     Active Drug 50mg     Y      Y      73  
+5    CDISC-01-701-007   Active Drug 50mg     Active Drug 50mg     Y      Y      71  
+6    CDISC-01-701-011   Active Drug 50mg     Active Drug 50mg     Y      Y      69  
+7    CDISC-01-701-012   UNPLANNED            NOT TREATED          N      N      79  
+8    CDISC-01-701-016   Placebo              Placebo              Y      Y      82  
+9    CDISC-01-701-017   Active Drug 50mg     Active Drug 50mg     Y      Y      83  
+10   CDISC-01-701-028   Placebo              Placebo              Y      Y      83  
+
+Total subjects in ADSL: 50
+
+Full ADSL numeric listing (to preserve all SAS numbers):
+------------------------------------------------------------------------------------------ 
+USUBJID            AGE  TRTDURD 
+---------------------------------------- 
+CDISC-01-701-001   84   83      
+CDISC-01-701-004   80   82      
+CDISC-01-701-005   66   28      
+CDISC-01-701-006   73   62      
+CDISC-01-701-007   71   84      
+CDISC-01-701-011   69   81      
+CDISC-01-701-012   79   .       
+CDISC-01-701-016   82   83      
+CDISC-01-701-017   83   84      
+CDISC-01-701-028   83   80      
+CDISC-01-701-030   67   81      
+CDISC-01-701-035   78   .       
+CDISC-01-701-040   66   .       
+CDISC-01-701-041   84   51      
+CDISC-01-701-042   67   82      
+CDISC-01-701-045   74   61      
+CDISC-01-701-048   78   21      
+CDISC-01-702-008   75   84      
+CDISC-01-702-009   68   84      
+CDISC-01-702-013   78   80      
+CDISC-01-702-014   73   81      
+CDISC-01-702-015   65   83      
+CDISC-01-702-019   84   81      
+CDISC-01-702-020   72   81      
+CDISC-01-702-025   79   82      
+CDISC-01-702-026   74   23      
+CDISC-01-702-036   77   .       
+CDISC-01-702-043   75   80      
+CDISC-01-702-049   72   83      
+CDISC-01-703-002   74   84      
+CDISC-01-703-010   70   46      
+CDISC-01-703-018   68   82      
+CDISC-01-703-023   65   83      
+CDISC-01-703-024   76   82      
+CDISC-01-703-034   80   84      
+CDISC-01-703-039   81   81      
+CDISC-01-703-046   80   83      
+CDISC-01-703-047   65   84      
+CDISC-01-703-050   66   23      
+CDISC-01-704-003   78   82      
+CDISC-01-704-021   82   82      
+CDISC-01-704-022   77   83      
+CDISC-01-704-027   75   41      
+CDISC-01-704-029   81   82      
+CDISC-01-704-031   79   81      
+CDISC-01-704-032   65   80      
+CDISC-01-704-033   71   19      
+CDISC-01-704-037   68   82      
+CDISC-01-704-038   69   83      
+CDISC-01-704-044   72   68      
+
+TRTDURD values:  19 21 23 28 41 46 51 61 62 68 80 81 82 83 84 
+AGE values:  65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 

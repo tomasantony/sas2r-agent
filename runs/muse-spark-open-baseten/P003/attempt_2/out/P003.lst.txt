@@ -1,0 +1,12 @@
+Table 14.5.02 Summary of Serious Treatment-Emergent Adverse Events by System Organ Class and Preferred Term
+Safety Population - Placebo (N=86) vs Xanomeline Low Dose (N=0) vs Xanomeline High Dose (N=0)
+--------------------------------------------------------------------------------------------------------------------------------------------
+System Organ Class / Preferred Term | Placebo (N=86) | Xanomeline Low Dose (N=0) | Xanomeline High Dose (N=0) | p (Low vs Pbo) | p (High vs Pbo)
+--------------------------------------------------------------------------------------------------------------------------------------------
+Subjects with Serious TEAE                         |                        |                        |                        | 1.0000       | 1.0000      
+NERVOUS SYSTEM DISORDERS                           |                        |                        |                        | 1.0000       | 1.0000      
+  NERVOUS SYSTEM DISORDERS: PARTIAL SEIZURES WITH  |                        |                        |                        | 1.0000       | 1.0000      
+  NERVOUS SYSTEM DISORDERS: SYNCOPE                |                        |                        |                        | 1.0000       | 1.0000      
+--------------------------------------------------------------------------------------------------------------------------------------------
+Note: n (%) [events]; p-values from Fisher's exact test (two-sided).
+Denominators: Placebo N=86, Low N=0, High N=0.

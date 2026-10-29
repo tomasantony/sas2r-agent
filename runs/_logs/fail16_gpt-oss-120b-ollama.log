@@ -1,0 +1,9 @@
+gpt-oss-120b-ollama: 16 programs to run; spent so far $0.01 (22,977 in / 11,353 out); budget $40.00
+P009: translated=True runs=False all_outputs=False equivalent=False score=0.000 iters=3 tokens=12897/7003 21s  spent=$0.02
+P018: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=2453/2626 10s  spent=$0.02
+P019: translated=True runs=False all_outputs=False equivalent=False score=0.000 iters=3 tokens=45724/23605 46s  spent=$0.04
+P020: translated=True runs=True all_outputs=True equivalent=False score=0.669 iters=3 tokens=11225/8805 29s  spent=$0.05
+P022: translated=True runs=False all_outputs=False equivalent=False score=0.000 iters=3 tokens=15278/6979 19s  spent=$0.05
+P026: translated=True runs=True all_outputs=True equivalent=False score=0.665 iters=3 tokens=14777/9090 25s  spent=$0.06
+P028: translated=True runs=True all_outputs=True equivalent=False score=0.930 iters=3 tokens=12400/7695 26s  spent=$0.07
+P036: translated=True runs=True all_outputs=True equivalent=False score=0.830 iters=3 tokens=18838/12298 37s  spent=$0.08

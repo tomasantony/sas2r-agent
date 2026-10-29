@@ -1,0 +1,41 @@
+Table 14.5.02 Summary of Serious Treatment-Emergent Adverse Events by System Organ Class and Preferred Term
+Safety Population - Placebo (N=86) vs Xanomeline Low Dose (N=0) vs Xanomeline High Dose (N=0)
+--------------------------------------------------------------------------------------------------------------------------------------------
+System Organ Class / Preferred Term | Placebo (N=86) | Xanomeline Low Dose (N=0) | Xanomeline High Dose (N=0) | p (Low vs Pbo) | p (High vs Pbo)
+--------------------------------------------------------------------------------------------------------------------------------------------
+Subjects with Serious TEAE                         | 0 (0.0%) [0]           |                        |                        | 1.0000       | 1.0000      
+NERVOUS SYSTEM DISORDERS                           | 0 (0.0%) [0]           |                        |                        | 1.0000       | 1.0000      
+  NERVOUS SYSTEM DISORDERS: PARTIAL SEIZURES WITH  | 0 (0.0%) [0]           |                        |                        | 1.0000       | 1.0000      
+  NERVOUS SYSTEM DISORDERS: SYNCOPE                | 0 (0.0%) [0]           |                        |                        | 1.0000       | 1.0000      
+--------------------------------------------------------------------------------------------------------------------------------------------
+Note: n (%) [events]; p-values from Fisher's exact test (two-sided).
+Denominators: Placebo N=86, Low N=0, High N=0.
+
+Detailed Results (Long Format) - All counts, percentages and events:
+--------------------------------------------------------------------------------------------------------------------------------------------
+SUB TRTAN=54 1 (1.2%) [1] denom=
+SUB TRTAN=81 2 (2.4%) [2] denom=
+SOC NERVOUS SYSTEM DISORDERS TRTAN=54 1 (1.2%) [1] denom=
+SOC NERVOUS SYSTEM DISORDERS TRTAN=81 2 (2.4%) [2] denom=
+PT NERVOUS SYSTEM DISORDERS / PARTIAL SEIZURES WITH SECONDARY GENERALISATION TRTAN=81 1 (1.2%) [1] denom=
+PT NERVOUS SYSTEM DISORDERS / SYNCOPE TRTAN=54 1 (1.2%) [1] denom=
+PT NERVOUS SYSTEM DISORDERS / SYNCOPE TRTAN=81 1 (1.2%) [1] denom=
+PT_GRID NERVOUS SYSTEM DISORDERS / PARTIAL SEIZURES WITH SECONDARY GENERALISATION TRTAN=0 0 (0.0%) [0]
+PT_GRID NERVOUS SYSTEM DISORDERS / PARTIAL SEIZURES WITH SECONDARY GENERALISATION TRTAN=54 0 (0.0%) [0]
+PT_GRID NERVOUS SYSTEM DISORDERS / PARTIAL SEIZURES WITH SECONDARY GENERALISATION TRTAN=81 1 (1.2%) [1]
+PT_GRID NERVOUS SYSTEM DISORDERS / SYNCOPE TRTAN=0 0 (0.0%) [0]
+PT_GRID NERVOUS SYSTEM DISORDERS / SYNCOPE TRTAN=54 1 (1.2%) [1]
+PT_GRID NERVOUS SYSTEM DISORDERS / SYNCOPE TRTAN=81 1 (1.2%) [1]
+SOC_GRID NERVOUS SYSTEM DISORDERS TRTAN=0 0 (0.0%) [0]
+SOC_GRID NERVOUS SYSTEM DISORDERS TRTAN=54 1 (1.2%) [1]
+SOC_GRID NERVOUS SYSTEM DISORDERS TRTAN=81 2 (2.4%) [2]
+SUB_GRID TRTAN=0 0 (0.0%) [0]
+SUB_GRID TRTAN=54 1 (1.2%) [1]
+SUB_GRID TRTAN=81 2 (2.4%) [2]
+
+Fisher p-values:
+PT p PARTIAL SEIZURES WITH SECONDARY GENERALISATION low=1 high=1
+PT p SYNCOPE low=1 high=1
+SOC p NERVOUS SYSTEM DISORDERS low=1 high=1
+SUB p low=1 high=1
+Summary: N total=254 Placebo 86 Low 84 High 84 example 0 100

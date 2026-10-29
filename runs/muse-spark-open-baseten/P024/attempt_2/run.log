@@ -1,0 +1,4 @@
+sandbox: docker run --rm --name sas2r-8bd7663abbd0 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P024\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+[1] TRUE
+P024: ds.csv written with 5 rows to /work/out/ds.csv
+P024: listing written to /work/out/P024.lst

@@ -58,8 +58,11 @@ def build(write_html: bool = True) -> dict:
     from .context import load_manifest
     groups = {k: v.group for k, v in load_manifest().items()}
     data = collect()
+    from .config import PROVIDERS
     board = {prov: {"overall": summarise(rows), "by_group": by_group(rows, groups),
-                    "programs": [{k: r[k] for k in ("id", "family", "translated", "runs", "produced_all", "equivalent", "best_score", "iterations")} for r in rows]}
+                    "role": PROVIDERS[prov].role if prov in PROVIDERS else "?",
+                    "note": PROVIDERS[prov].note if prov in PROVIDERS else "",
+                    "programs": [{k: r.get(k) for k in ("id", "family", "translated", "runs", "produced_all", "equivalent", "best_score", "iterations", "best_attempt", "input_tokens", "output_tokens", "seconds")} for r in rows]}
              for prov, rows in data.items()}
     RUNS_DIR.mkdir(parents=True, exist_ok=True)
     (RUNS_DIR / "leaderboard.json").write_text(json.dumps(board, indent=1), encoding="utf-8")
@@ -79,7 +82,17 @@ def build(write_html: bool = True) -> dict:
               "(reasoning tokens billed as output); the hackathon credits that actually paid for the runs are not reflected.")
     (RUNS_DIR / "leaderboard.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     if write_html:
+        import time
+        from .context import load_manifest as _lm
         dash = REPO_ROOT / "dashboard"
         dash.mkdir(exist_ok=True)
         (dash / "leaderboard.json").write_text(json.dumps(board, indent=1), encoding="utf-8")
+        ledger = RUNS_DIR / "ledger.jsonl"
+        n_ledger = sum(1 for _ in ledger.open(encoding="utf-8")) if ledger.exists() else 0
+        programs = [{"id": k, "group": v.group, "family": v.family} for k, v in _lm().items()]
+        payload = {"board": board, "programs": programs,
+                   "meta": {"built_at": time.strftime("%Y-%m-%d %H:%M"), "ledger_entries": n_ledger,
+                            "benchmark": "tomasantony/sas2r-benchmark"}}
+        # data.js lets dashboard/index.html work from file:// as well as over HTTP / GitHub Pages
+        (dash / "data.js").write_text("window.BOARD = " + json.dumps(payload) + ";\n", encoding="utf-8")
     return board

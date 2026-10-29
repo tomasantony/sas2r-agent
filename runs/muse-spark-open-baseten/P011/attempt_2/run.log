@@ -1,0 +1,6 @@
+sandbox: docker run --rm --name sas2r-d55eef58c79b --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P011\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Reading raw_demog from: /bench/data/derived/c2c/data/raw/raw_demog.csv 
+Columns in raw_dm: SUBJ_ID, SITE, BRTH_DT, GENDER, RACE_TXT, ICF_DAT, STUDY_END_DAT, RANDOMIZED_ARM, ENROLLED, DISPOSITION, DISPOSITION_REASON 
+Wrote /work/out/dm.csv with 50 rows
+Wrote listing text files
+Wrote /work/out/P011.csv 

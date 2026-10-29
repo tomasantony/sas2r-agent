@@ -1,0 +1,44 @@
+Dataset EG - SDTM EG domain
+Rows: 141 Cols: 14 
+    STUDYID DOMAIN          USUBJID EGSEQ VISITNUM   VISIT EGTESTCD      EGTEST
+1  CDISC-01     EG CDISC-01-701-001     1        1 Visit 1       HR  Heart Rate
+2  CDISC-01     EG CDISC-01-701-001     2        1 Visit 1       QT QT Duration
+3  CDISC-01     EG CDISC-01-701-001     3        1 Visit 1       RR RR Duration
+10 CDISC-01     EG CDISC-01-701-004     1        1 Visit 1       HR  Heart Rate
+11 CDISC-01     EG CDISC-01-701-004     2        1 Visit 1       QT QT Duration
+12 CDISC-01     EG CDISC-01-701-004     3        1 Visit 1       RR RR Duration
+13 CDISC-01     EG CDISC-01-701-005     1        1 Visit 1       HR  Heart Rate
+14 CDISC-01     EG CDISC-01-701-005     2        1 Visit 1       QT QT Duration
+15 CDISC-01     EG CDISC-01-701-005     3        1 Visit 1       RR RR Duration
+16 CDISC-01     EG CDISC-01-701-006     1        1 Visit 1       HR  Heart Rate
+17 CDISC-01     EG CDISC-01-701-006     2        1 Visit 1       QT QT Duration
+18 CDISC-01     EG CDISC-01-701-006     3        1 Visit 1       RR RR Duration
+19 CDISC-01     EG CDISC-01-701-007     1        1 Visit 1       HR  Heart Rate
+20 CDISC-01     EG CDISC-01-701-007     2        1 Visit 1       QT QT Duration
+21 CDISC-01     EG CDISC-01-701-007     3        1 Visit 1       RR RR Duration
+31 CDISC-01     EG CDISC-01-701-011     1        1 Visit 1       HR  Heart Rate
+32 CDISC-01     EG CDISC-01-701-011     2        1 Visit 1       QT QT Duration
+33 CDISC-01     EG CDISC-01-701-011     3        1 Visit 1       RR RR Duration
+43 CDISC-01     EG CDISC-01-701-016     1        1 Visit 1       HR  Heart Rate
+44 CDISC-01     EG CDISC-01-701-016     2        1 Visit 1       QT QT Duration
+   EGORRES  EGORRESU EGSTRESC EGSTRESN  EGSTRESU      EGDTC
+1       73 beats/min       73       73 beats/min 2023-01-15
+2      382      msec      382      382      msec 2023-01-15
+3      772      msec      772      772      msec 2023-01-15
+10      79 beats/min       79       79 beats/min 2023-01-02
+11     370      msec      370      370      msec 2023-01-02
+12     909      msec      909      909      msec 2023-01-02
+13      77 beats/min       77       77 beats/min 2023-01-07
+14     381      msec      381      381      msec 2023-01-07
+15     800      msec      800      800      msec 2023-01-07
+16      94 beats/min       94       94 beats/min 2023-01-22
+17     406      msec      406      406      msec 2023-01-22
+18     757      msec      757      757      msec 2023-01-22
+19      60 beats/min       60       60 beats/min 2023-01-03
+20     443      msec      443      443      msec 2023-01-03
+21     665      msec      665      665      msec 2023-01-03
+31      76 beats/min       76       76 beats/min 2023-01-08
+32     412      msec      412      412      msec 2023-01-08
+33     890      msec      890      890      msec 2023-01-08
+43      92 beats/min       92       92 beats/min 2023-01-03
+44     402      msec      402      402      msec 2023-01-03

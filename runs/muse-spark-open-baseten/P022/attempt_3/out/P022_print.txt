@@ -1,0 +1,19 @@
+PROC PRINT DATA=SDTM_AE
+   STUDYID DOMAIN       USUBJID AESEQ      AETERM     AEDECOD
+ ONCO-2026     AE ONCO-2026-101     1      Nausea      NAUSEA
+ ONCO-2026     AE ONCO-2026-102     1 Neutropenia NEUTROPENIA
+ ONCO-2026     AE ONCO-2026-103     1     Fatigue     FATIGUE
+ ONCO-2026     AE ONCO-2026-105     1      Anemia      ANEMIA
+                   AEBODSYS  AESEV AETXGR       AEREL     AEOUT AESER
+ Gastrointestinal Disorders   MILD      1     RELATED RECOVERED     N
+            Blood Disorders SEVERE      3     RELATED RECOVERED     Y
+          General Disorders   MILD      1 NOT_RELATED RECOVERED     N
+            Blood Disorders SEVERE      4     RELATED   ONGOING     N
+    AESTDTC    AEENDTC AESTDY AEENDY
+ 2026-01-18 2026-01-20      4      6
+ 2026-02-15 2026-02-20     27     32
+ 2026-01-16 2026-01-18      2      4
+ 2026-01-28       <NA>      4     NA
+
+AESTDY summary: 4 27 2 4 
+AEENDY summary: 6 32 4 NA 

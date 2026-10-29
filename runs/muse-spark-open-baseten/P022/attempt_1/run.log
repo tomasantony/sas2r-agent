@@ -1,0 +1,39 @@
+sandbox: docker run --rm --name sas2r-8333a1d9b0d3 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P022\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+OUT_DIR: /work/out 
+Found candidate sdtm_dm at: /bench/data/raw/cdisc-pilot/sdtm/dm.xpt 
+Using sdtm_dm from file
+dm_for_ae rows: 306 
+# A tibble: 6 × 2
+  USUBJID     RFSTDTC   
+  <chr>       <chr>     
+1 01-701-1015 2014-01-02
+2 01-701-1023 2012-08-05
+3 01-701-1028 2013-07-19
+4 01-701-1033 2014-03-18
+5 01-701-1034 2014-07-01
+6 01-701-1047 2013-02-12
+edc_ae columns: SUBJID, TERM, DECOD, BODSYS, SEV, TXGR, STDT, ENDT, REL, OUT, SER 
+edc_ae rows: 4 
+sdtm_ae rows: 4 cols: 16 
+    STUDYID DOMAIN       USUBJID AESEQ      AETERM     AEDECOD
+1 ONCO-2026     AE ONCO-2026-101     1      Nausea      NAUSEA
+2 ONCO-2026     AE ONCO-2026-102     1 Neutropenia NEUTROPENIA
+3 ONCO-2026     AE ONCO-2026-103     1     Fatigue     FATIGUE
+4 ONCO-2026     AE ONCO-2026-105     1      Anemia      ANEMIA
+                    AEBODSYS  AESEV AETXGR       AEREL     AEOUT AESER
+1 Gastrointestinal Disorders   MILD      1     RELATED RECOVERED     N
+2            Blood Disorders SEVERE      3     RELATED RECOVERED     Y
+3          General Disorders   MILD      1 NOT_RELATED RECOVERED     N
+4            Blood Disorders SEVERE      4     RELATED   ONGOING     N
+     AESTDTC    AEENDTC AESTDY AEENDY
+1 2026-01-18 2026-01-20     NA     NA
+2 2026-02-15 2026-02-20     NA     NA
+3 2026-01-16 2026-01-18     NA     NA
+4 2026-01-28       <NA>     NA     NA
+Wrote ae.csv to /work/out/ae.csv 
+Wrote P022.csv to /work/out/P022.csv 
+Numeric values count in listing: 8 
+Wrote P022.txt to /work/out/P022.txt 
+Wrote P022.lst.txt to /work/out/P022.lst.txt 
+Wrote P022_print.txt
+All outputs written to /work/out 

@@ -1,0 +1,7 @@
+sandbox: docker run --rm --name sas2r-fcdadeb97fd1 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P007\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Using adam_path: /bench/data/derived/c2c/data/adam 
+Using sdtm_path: /bench/data/derived/c2c/data/sdtm 
+ADSL file: /bench/data/derived/c2c/data/adam/adsl.sas7bdat 
+ADAE file: /bench/data/derived/c2c/data/adam/adae.sas7bdat 
+Error: 'is_labelled' is not an exported object from 'namespace:haven'
+Execution halted

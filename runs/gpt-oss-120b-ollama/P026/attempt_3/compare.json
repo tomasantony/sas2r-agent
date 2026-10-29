@@ -1,0 +1,72 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.6648550724637681,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P026.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.6630434782608695,
+   "detail": {
+    "recall": 0.6630434782608695,
+    "expected": 92,
+    "found": 61,
+    "r_files": [
+     "lb.csv",
+     "P026_listing.csv"
+    ],
+    "missing_examples": [
+     "3",
+     "4",
+     "5",
+     "6",
+     "2026",
+     "-1",
+     "-2",
+     "-3",
+     "-5",
+     "-15",
+     "-12"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "lb",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\gpt-oss-120b-ollama\\P026\\attempt_3\\out\\lb.csv",
+   "status": "mismatch",
+   "score": 0.6666666666666666,
+   "detail": {
+    "rows_sas": 6,
+    "rows_r": 6,
+    "cols_sas": 18,
+    "cols_r": 18,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.6666666666666666,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(LBTESTCD, 4, 'ALT', 'HGB')",
+     "(LBTESTCD, 5, 'HGB', 'ALT')",
+     "(LBTEST, 4, 'Alanine Aminotransferase', 'Hemoglobin')",
+     "(LBTEST, 5, 'Hemoglobin', 'Alanine Aminotransferase')",
+     "(LBCAT, 4, 'CHEMISTRY', 'HEMATOLOGY')",
+     "(LBCAT, 5, 'HEMATOLOGY', 'CHEMISTRY')",
+     "(LBORRES, 4, 30.0, '11.5')",
+     "(LBORRES, 5, 11.5, '30')",
+     "(LBORRESU, 4, 'U/L', 'g/dL')",
+     "(LBORRESU, 5, 'g/dL', 'U/L')"
+    ],
+    "worst_columns": {
+     "LBDTC": 6,
+     "LBSTDY": 6,
+     "LBTESTCD": 2,
+     "LBTEST": 2,
+     "LBCAT": 2
+    }
+   }
+  }
+ ]
+}

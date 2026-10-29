@@ -1,0 +1,13 @@
+"GroupFmt","BNRIND","ANRIND_Normal","ANRIND_Low","Section","TRTPN","Nx","n","percent","FishersP"
+"0 (N = 84)","High","2 (2.4)",,"BaselineShift",,,,,
+"0 (N = 84)","Low","1 (1.2)","6 (7.1)","BaselineShift",,,,,
+"0 (N = 84)","Normal","64 (76.2)","11 (13.1)","BaselineShift",,,,,
+"54 (N = 84)","High","1 (1.2)",,"BaselineShift",,,,,
+"54 (N = 84)","Low","1 (1.2)","3 (3.6)","BaselineShift",,,,,
+"54 (N = 84)","Normal","67 (79.8)","12 (14.3)","BaselineShift",,,,,
+"81 (N = 82)","High","1 (1.2)",,"BaselineShift",,,,,
+"81 (N = 82)","Low",,"6 (7.3)","BaselineShift",,,,,
+"81 (N = 82)","Normal","70 (85.4)","5 (6.1)","BaselineShift",,,,,
+,,,,"EmergentHigh",0,84,5,"(6.0)","0.9440"
+,,,,"EmergentHigh",54,84,6,"(7.1)","0.9440"
+,,,,"EmergentHigh",81,82,4,"(4.9)","0.9440"

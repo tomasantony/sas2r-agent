@@ -1,0 +1,37 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.6428571428571429,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P020.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.6428571428571429,
+   "detail": {
+    "recall": 0.6428571428571429,
+    "expected": 308,
+    "found": 198,
+    "r_files": [
+     "P020.csv",
+     "P020_plot_data.csv"
+    ],
+    "missing_examples": [
+     "3",
+     "0.0476",
+     "0.0465",
+     "15",
+     "0.0952",
+     "0.0641",
+     "0.1429",
+     "0.0764",
+     "0.1905",
+     "0.0857",
+     "4",
+     "0.2411"
+    ]
+   }
+  }
+ ]
+}

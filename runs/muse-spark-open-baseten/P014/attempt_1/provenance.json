@@ -1,0 +1,71 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P014",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T19:11:28",
+ "agent_commit": "24dc4d4d107422c85a3669220453db9e2eaf2e38",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 2246,
+  "output_tokens": 6332,
+  "reasoning_tokens": 3219,
+  "finish_reason": "stop",
+  "seconds": 20.0
+ },
+ "inputs": {
+  "prompt_translate.md": "4661da3f72cf1b89188644d73cb9030d09358d1cd9efa683124a6efcb7aa6b74"
+ },
+ "model_output": {
+  "response.md": "6bd8e5cd3e2d736afe44e9ff384b083bd504d37315c452ffbb2324d514eb860e",
+  "reasoning.md": "cb65df4b21bc31d56612ecf3347aa73083e54516027c639d80d68a0a1f854005",
+  "script.R": "8c596581929494767d66bba2d90a159f7a8703b9e7d98299da4465a08f033e0b"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.5,
+  "timed_out": false,
+  "log_sha256": "a29e527ccb606e123b75c20f7b485435db773254ea90ee5a4638b7dd2c773908"
+ },
+ "r_outputs": {
+  "ex.csv": "e40036681cd50fc5148438fd48cf1f152dbf8187b1b9bc1fdfd475d3ad9fc4ac",
+  "P014.csv": "83faf9344d558a40c53512f3cbf89f404afb2892e36338dd4164a7d9fd97a181",
+  "P014.lst.csv": "83faf9344d558a40c53512f3cbf89f404afb2892e36338dd4164a7d9fd97a181",
+  "P014.lst.txt": "92c817ce1022a77f1e65b6bad67dbe28cebff0557185f3785b179cf7b9241e86",
+  "P014.txt": "92c817ce1022a77f1e65b6bad67dbe28cebff0557185f3785b179cf7b9241e86"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P014.lst",
+   "sha256": "1cca9bf10cc827ca0a09ee78bf5003523524daf4c2fb4a3b305e33cb2065df5e",
+   "frozen_sha256": "1cca9bf10cc827ca0a09ee78bf5003523524daf4c2fb4a3b305e33cb2065df5e",
+   "ok": true
+  },
+  {
+   "file": "datasets/P014/ex.sas7bdat",
+   "sha256": "339a2d13f814ce33133071c96fa47d0dd5bd4d774a1d553963c989bb9ad12051",
+   "frozen_sha256": "339a2d13f814ce33133071c96fa47d0dd5bd4d774a1d553963c989bb9ad12051",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.7948328267477204,
+  "produced_all": true
+ }
+}

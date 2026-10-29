@@ -1,0 +1,61 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9297785547785548,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P018.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 132,
+    "found": 132,
+    "r_files": [
+     "P018.csv",
+     "P018.txt",
+     "vs.csv"
+    ],
+    "missing_examples": []
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "vs",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten\\P018\\attempt_1\\out\\vs.csv",
+   "status": "mismatch",
+   "score": 0.8595571095571095,
+   "detail": {
+    "rows_sas": 528,
+    "rows_r": 528,
+    "cols_sas": 13,
+    "cols_r": 13,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.8595571095571095,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(VISIT, 13, 'Visit 1', 'Visit 2')",
+     "(VISIT, 14, 'Visit 1', 'Visit 2')",
+     "(VISIT, 15, 'Visit 1', 'Visit 2')",
+     "(VISIT, 16, 'Visit 1', 'Visit 2')",
+     "(VISIT, 17, 'Visit 2', 'Visit 1')",
+     "(VISIT, 18, 'Visit 2', 'Visit 1')",
+     "(VISIT, 19, 'Visit 2', 'Visit 1')",
+     "(VISIT, 20, 'Visit 2', 'Visit 1')",
+     "(VISIT, 25, 'Visit 1', 'Visit 2')",
+     "(VISIT, 26, 'Visit 1', 'Visit 2')"
+    ],
+    "worst_columns": {
+     "VSDTC": 232,
+     "VSORRES": 149,
+     "VSSTRESN": 149,
+     "VISIT": 140,
+     "VISITNUM": 140
+    }
+   }
+  }
+ ]
+}

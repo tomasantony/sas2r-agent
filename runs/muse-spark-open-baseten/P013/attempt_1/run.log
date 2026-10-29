@@ -1,0 +1,6 @@
+sandbox: docker run --rm --name sas2r-f6b9f62ca004 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P013\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading raw_ecg from: /bench/data/derived/c2c/data/raw/raw_ecg.csv 
+Error: unexpected symbol in:
+"  # SAS numeric date: days since 1960-01-01
+  _egdt"
+Execution halted

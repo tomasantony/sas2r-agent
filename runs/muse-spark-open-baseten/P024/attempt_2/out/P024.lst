@@ -1,0 +1,28 @@
+SDTM DS Domain - Disposition
+Study: ONCO-2026  Domain: DS  Generated: 2026-10-29 23:21:50
+
+Number of observations: 5
+Number of subjects: 1
+
+Obs  STUDYID    DOMAIN USUBJID         DSSEQ  DSTERM                         DSDECOD                        DSCAT                DSSTDTC      DSSTDY  DTHFL
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1    ONCO-2026  DS   ONCO-2026-101   1      LACK OF EFFICACY               LACK_OF_EFFICACY               STUDY CORE           2026-03-15                
+2    ONCO-2026  DS   ONCO-2026-101   2      DEATH                          DEATH                          SURVIVAL FOLLOWUP    2026-04-05                
+3    ONCO-2026  DS   ONCO-2026-101   3      COMPLETED                      COMPLETED                      STUDY CORE           2026-05-10                
+4    ONCO-2026  DS   ONCO-2026-101   4      COMPLETED                      COMPLETED                      STUDY CORE           2026-05-20                
+5    ONCO-2026  DS   ONCO-2026-101   5      COMPLETED                      COMPLETED                      STUDY CORE           2026-06-15                
+
+Summary by DSCAT:
+  STUDY CORE: 4 (80.0%)
+  SURVIVAL FOLLOWUP: 1 (20.0%)
+
+Summary by DSTERM:
+  COMPLETED: 3 (60.0%)
+  DEATH: 1 (20.0%)
+  LACK OF EFFICACY: 1 (20.0%)
+
+Summary by DTHFL:
+  Missing: 5 (100.0%)
+
+DSSTDY Descriptive Statistics:
+  N: 0

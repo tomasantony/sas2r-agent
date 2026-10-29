@@ -1,0 +1,529 @@
+"STUDYID","DOMAIN","USUBJID","VISITNUM","VISIT","VSDTC","VSTESTCD","VSTEST","VSORRES","VSORRESU","VSSTRESN","VSSTRESU","VSSEQ"
+"CDISC-01","VS","CDISC-01-701-001",1,"Visit 1","2023-01-15","DIABP","Diastolic Blood Pressure","97","mmHg",97,"mmHg",1
+"CDISC-01","VS","CDISC-01-701-001",1,"Visit 1","2023-01-15","PULSE","Pulse Rate","68","beats/min",68,"beats/min",2
+"CDISC-01","VS","CDISC-01-701-001",1,"Visit 1","2023-01-15","SYSBP","Systolic Blood Pressure","110","mmHg",110,"mmHg",3
+"CDISC-01","VS","CDISC-01-701-001",1,"Visit 1","2023-01-15","WEIGHT","Weight","87.1","kg",87.1,"kg",4
+"CDISC-01","VS","CDISC-01-701-001",2,"Visit 2","2023-02-14","DIABP","Diastolic Blood Pressure","89","mmHg",89,"mmHg",5
+"CDISC-01","VS","CDISC-01-701-001",2,"Visit 2","2023-02-14","PULSE","Pulse Rate","95","beats/min",95,"beats/min",6
+"CDISC-01","VS","CDISC-01-701-001",2,"Visit 2","2023-02-14","SYSBP","Systolic Blood Pressure","146","mmHg",146,"mmHg",7
+"CDISC-01","VS","CDISC-01-701-001",2,"Visit 2","2023-02-14","WEIGHT","Weight","78.7","kg",78.7,"kg",8
+"CDISC-01","VS","CDISC-01-701-001",3,"Visit 3","2023-03-17","DIABP","Diastolic Blood Pressure","87","mmHg",87,"mmHg",9
+"CDISC-01","VS","CDISC-01-701-001",3,"Visit 3","2023-03-17","PULSE","Pulse Rate","67","beats/min",67,"beats/min",10
+"CDISC-01","VS","CDISC-01-701-001",3,"Visit 3","2023-03-17","SYSBP","Systolic Blood Pressure","111","mmHg",111,"mmHg",11
+"CDISC-01","VS","CDISC-01-701-001",3,"Visit 3","2023-03-17","WEIGHT","Weight","79.8","kg",79.8,"kg",12
+"CDISC-01","VS","CDISC-01-701-004",1,"Visit 1","2023-01-02","DIABP","Diastolic Blood Pressure","71","mmHg",71,"mmHg",1
+"CDISC-01","VS","CDISC-01-701-004",1,"Visit 1","2023-01-02","PULSE","Pulse Rate","79","beats/min",79,"beats/min",2
+"CDISC-01","VS","CDISC-01-701-004",1,"Visit 1","2023-01-02","SYSBP","Systolic Blood Pressure","149","mmHg",149,"mmHg",3
+"CDISC-01","VS","CDISC-01-701-004",1,"Visit 1","2023-01-02","WEIGHT","Weight","80.4","kg",80.4,"kg",4
+"CDISC-01","VS","CDISC-01-701-004",2,"Visit 2","2023-01-31","DIABP","Diastolic Blood Pressure","83","mmHg",83,"mmHg",5
+"CDISC-01","VS","CDISC-01-701-004",2,"Visit 2","2023-01-31","PULSE","Pulse Rate","86","beats/min",86,"beats/min",6
+"CDISC-01","VS","CDISC-01-701-004",2,"Visit 2","2023-01-31","SYSBP","Systolic Blood Pressure","113","mmHg",113,"mmHg",7
+"CDISC-01","VS","CDISC-01-701-004",2,"Visit 2","2023-01-31","WEIGHT","Weight","57.1","kg",57.1,"kg",8
+"CDISC-01","VS","CDISC-01-701-004",3,"Visit 3","2023-03-05","DIABP","Diastolic Blood Pressure","70","mmHg",70,"mmHg",9
+"CDISC-01","VS","CDISC-01-701-004",3,"Visit 3","2023-03-05","PULSE","Pulse Rate","71","beats/min",71,"beats/min",10
+"CDISC-01","VS","CDISC-01-701-004",3,"Visit 3","2023-03-05","SYSBP","Systolic Blood Pressure","117","mmHg",117,"mmHg",11
+"CDISC-01","VS","CDISC-01-701-004",3,"Visit 3","2023-03-05","WEIGHT","Weight","70","kg",70,"kg",12
+"CDISC-01","VS","CDISC-01-701-005",1,"Visit 1","2023-01-07","DIABP","Diastolic Blood Pressure","92","mmHg",92,"mmHg",1
+"CDISC-01","VS","CDISC-01-701-005",1,"Visit 1","2023-01-07","PULSE","Pulse Rate","91","beats/min",91,"beats/min",2
+"CDISC-01","VS","CDISC-01-701-005",1,"Visit 1","2023-01-07","SYSBP","Systolic Blood Pressure","136","mmHg",136,"mmHg",3
+"CDISC-01","VS","CDISC-01-701-005",1,"Visit 1","2023-01-07","WEIGHT","Weight","75.9","kg",75.9,"kg",4
+"CDISC-01","VS","CDISC-01-701-005",2,"Visit 2","2023-02-03","DIABP","Diastolic Blood Pressure","86","mmHg",86,"mmHg",5
+"CDISC-01","VS","CDISC-01-701-005",2,"Visit 2","2023-02-03","PULSE","Pulse Rate","62","beats/min",62,"beats/min",6
+"CDISC-01","VS","CDISC-01-701-005",2,"Visit 2","2023-02-03","SYSBP","Systolic Blood Pressure","118","mmHg",118,"mmHg",7
+"CDISC-01","VS","CDISC-01-701-005",2,"Visit 2","2023-02-03","WEIGHT","Weight","68","kg",68,"kg",8
+"CDISC-01","VS","CDISC-01-701-006",1,"Visit 1","2023-01-22","DIABP","Diastolic Blood Pressure","98","mmHg",98,"mmHg",1
+"CDISC-01","VS","CDISC-01-701-006",1,"Visit 1","2023-01-22","PULSE","Pulse Rate","100","beats/min",100,"beats/min",2
+"CDISC-01","VS","CDISC-01-701-006",1,"Visit 1","2023-01-22","SYSBP","Systolic Blood Pressure","159","mmHg",159,"mmHg",3
+"CDISC-01","VS","CDISC-01-701-006",1,"Visit 1","2023-01-22","WEIGHT","Weight","87.2","kg",87.2,"kg",4
+"CDISC-01","VS","CDISC-01-701-006",2,"Visit 2","2023-02-18","DIABP","Diastolic Blood Pressure","72","mmHg",72,"mmHg",5
+"CDISC-01","VS","CDISC-01-701-006",2,"Visit 2","2023-02-18","PULSE","Pulse Rate","84","beats/min",84,"beats/min",6
+"CDISC-01","VS","CDISC-01-701-006",2,"Visit 2","2023-02-18","SYSBP","Systolic Blood Pressure","153","mmHg",153,"mmHg",7
+"CDISC-01","VS","CDISC-01-701-006",2,"Visit 2","2023-02-18","WEIGHT","Weight","76.2","kg",76.2,"kg",8
+"CDISC-01","VS","CDISC-01-701-006",3,"Visit 3","2023-03-24","DIABP","Diastolic Blood Pressure","93","mmHg",93,"mmHg",9
+"CDISC-01","VS","CDISC-01-701-006",3,"Visit 3","2023-03-24","PULSE","Pulse Rate","89","beats/min",89,"beats/min",10
+"CDISC-01","VS","CDISC-01-701-006",3,"Visit 3","2023-03-24","SYSBP","Systolic Blood Pressure","145","mmHg",145,"mmHg",11
+"CDISC-01","VS","CDISC-01-701-006",3,"Visit 3","2023-03-24","WEIGHT","Weight","62.8","kg",62.8,"kg",12
+"CDISC-01","VS","CDISC-01-701-007",1,"Visit 1","2023-01-03","DIABP","Diastolic Blood Pressure","79","mmHg",79,"mmHg",1
+"CDISC-01","VS","CDISC-01-701-007",1,"Visit 1","2023-01-03","PULSE","Pulse Rate","67","beats/min",67,"beats/min",2
+"CDISC-01","VS","CDISC-01-701-007",1,"Visit 1","2023-01-03","SYSBP","Systolic Blood Pressure","147","mmHg",147,"mmHg",3
+"CDISC-01","VS","CDISC-01-701-007",1,"Visit 1","2023-01-03","WEIGHT","Weight","85.8","kg",85.8,"kg",4
+"CDISC-01","VS","CDISC-01-701-007",2,"Visit 2","2023-02-01","DIABP","Diastolic Blood Pressure","76","mmHg",76,"mmHg",5
+"CDISC-01","VS","CDISC-01-701-007",2,"Visit 2","2023-02-01","PULSE","Pulse Rate","85","beats/min",85,"beats/min",6
+"CDISC-01","VS","CDISC-01-701-007",2,"Visit 2","2023-02-01","SYSBP","Systolic Blood Pressure","134","mmHg",134,"mmHg",7
+"CDISC-01","VS","CDISC-01-701-007",2,"Visit 2","2023-02-01","WEIGHT","Weight","86.2","kg",86.2,"kg",8
+"CDISC-01","VS","CDISC-01-701-007",3,"Visit 3","2023-03-04","DIABP","Diastolic Blood Pressure","76","mmHg",76,"mmHg",9
+"CDISC-01","VS","CDISC-01-701-007",3,"Visit 3","2023-03-04","PULSE","Pulse Rate","90","beats/min",90,"beats/min",10
+"CDISC-01","VS","CDISC-01-701-007",3,"Visit 3","2023-03-04","SYSBP","Systolic Blood Pressure","110","mmHg",110,"mmHg",11
+"CDISC-01","VS","CDISC-01-701-007",3,"Visit 3","2023-03-04","WEIGHT","Weight","75","kg",75,"kg",12
+"CDISC-01","VS","CDISC-01-701-011",1,"Visit 1","2023-01-08","DIABP","Diastolic Blood Pressure","84","mmHg",84,"mmHg",1
+"CDISC-01","VS","CDISC-01-701-011",1,"Visit 1","2023-01-08","PULSE","Pulse Rate","93","beats/min",93,"beats/min",2
+"CDISC-01","VS","CDISC-01-701-011",1,"Visit 1","2023-01-08","SYSBP","Systolic Blood Pressure","147","mmHg",147,"mmHg",3
+"CDISC-01","VS","CDISC-01-701-011",1,"Visit 1","2023-01-08","WEIGHT","Weight","92.9","kg",92.9,"kg",4
+"CDISC-01","VS","CDISC-01-701-011",2,"Visit 2","2023-02-06","DIABP","Diastolic Blood Pressure","70","mmHg",70,"mmHg",5
+"CDISC-01","VS","CDISC-01-701-011",2,"Visit 2","2023-02-06","PULSE","Pulse Rate","93","beats/min",93,"beats/min",6
+"CDISC-01","VS","CDISC-01-701-011",2,"Visit 2","2023-02-06","SYSBP","Systolic Blood Pressure","121","mmHg",121,"mmHg",7
+"CDISC-01","VS","CDISC-01-701-011",2,"Visit 2","2023-02-06","WEIGHT","Weight","89.1","kg",89.1,"kg",8
+"CDISC-01","VS","CDISC-01-701-011",3,"Visit 3","2023-03-09","DIABP","Diastolic Blood Pressure","74","mmHg",74,"mmHg",9
+"CDISC-01","VS","CDISC-01-701-011",3,"Visit 3","2023-03-09","PULSE","Pulse Rate","69","beats/min",69,"beats/min",10
+"CDISC-01","VS","CDISC-01-701-011",3,"Visit 3","2023-03-09","SYSBP","Systolic Blood Pressure","129","mmHg",129,"mmHg",11
+"CDISC-01","VS","CDISC-01-701-011",3,"Visit 3","2023-03-09","WEIGHT","Weight","78.7","kg",78.7,"kg",12
+"CDISC-01","VS","CDISC-01-701-012",1,"Visit 1","2023-01-02","DIABP","Diastolic Blood Pressure","88","mmHg",88,"mmHg",1
+"CDISC-01","VS","CDISC-01-701-012",1,"Visit 1","2023-01-02","PULSE","Pulse Rate","80","beats/min",80,"beats/min",2
+"CDISC-01","VS","CDISC-01-701-012",1,"Visit 1","2023-01-02","SYSBP","Systolic Blood Pressure","147","mmHg",147,"mmHg",3
+"CDISC-01","VS","CDISC-01-701-012",1,"Visit 1","2023-01-02","WEIGHT","Weight","60.9","kg",60.9,"kg",4
+"CDISC-01","VS","CDISC-01-701-016",1,"Visit 1","2023-01-03","DIABP","Diastolic Blood Pressure","99","mmHg",99,"mmHg",1
+"CDISC-01","VS","CDISC-01-701-016",1,"Visit 1","2023-01-03","PULSE","Pulse Rate","92","beats/min",92,"beats/min",2
+"CDISC-01","VS","CDISC-01-701-016",1,"Visit 1","2023-01-03","SYSBP","Systolic Blood Pressure","117","mmHg",117,"mmHg",3
+"CDISC-01","VS","CDISC-01-701-016",1,"Visit 1","2023-01-03","WEIGHT","Weight","93","kg",93,"kg",4
+"CDISC-01","VS","CDISC-01-701-016",2,"Visit 2","2023-01-30","DIABP","Diastolic Blood Pressure","99","mmHg",99,"mmHg",5
+"CDISC-01","VS","CDISC-01-701-016",2,"Visit 2","2023-01-30","PULSE","Pulse Rate","95","beats/min",95,"beats/min",6
+"CDISC-01","VS","CDISC-01-701-016",2,"Visit 2","2023-01-30","SYSBP","Systolic Blood Pressure","119","mmHg",119,"mmHg",7
+"CDISC-01","VS","CDISC-01-701-016",2,"Visit 2","2023-01-30","WEIGHT","Weight","61.6","kg",61.6,"kg",8
+"CDISC-01","VS","CDISC-01-701-016",3,"Visit 3","2023-03-01","DIABP","Diastolic Blood Pressure","91","mmHg",91,"mmHg",9
+"CDISC-01","VS","CDISC-01-701-016",3,"Visit 3","2023-03-01","PULSE","Pulse Rate","66","beats/min",66,"beats/min",10
+"CDISC-01","VS","CDISC-01-701-016",3,"Visit 3","2023-03-01","SYSBP","Systolic Blood Pressure","121","mmHg",121,"mmHg",11
+"CDISC-01","VS","CDISC-01-701-016",3,"Visit 3","2023-03-01","WEIGHT","Weight","91.9","kg",91.9,"kg",12
+"CDISC-01","VS","CDISC-01-701-017",1,"Visit 1","2023-01-02","DIABP","Diastolic Blood Pressure","94","mmHg",94,"mmHg",1
+"CDISC-01","VS","CDISC-01-701-017",1,"Visit 1","2023-01-02","PULSE","Pulse Rate","73","beats/min",73,"beats/min",2
+"CDISC-01","VS","CDISC-01-701-017",1,"Visit 1","2023-01-02","SYSBP","Systolic Blood Pressure","123","mmHg",123,"mmHg",3
+"CDISC-01","VS","CDISC-01-701-017",1,"Visit 1","2023-01-02","WEIGHT","Weight","58.7","kg",58.7,"kg",4
+"CDISC-01","VS","CDISC-01-701-017",2,"Visit 2","2023-01-30","DIABP","Diastolic Blood Pressure","99","mmHg",99,"mmHg",5
+"CDISC-01","VS","CDISC-01-701-017",2,"Visit 2","2023-01-30","PULSE","Pulse Rate","68","beats/min",68,"beats/min",6
+"CDISC-01","VS","CDISC-01-701-017",2,"Visit 2","2023-01-30","SYSBP","Systolic Blood Pressure","114","mmHg",114,"mmHg",7
+"CDISC-01","VS","CDISC-01-701-017",2,"Visit 2","2023-01-30","WEIGHT","Weight","73.4","kg",73.4,"kg",8
+"CDISC-01","VS","CDISC-01-701-017",3,"Visit 3","2023-03-02","DIABP","Diastolic Blood Pressure","81","mmHg",81,"mmHg",9
+"CDISC-01","VS","CDISC-01-701-017",3,"Visit 3","2023-03-02","PULSE","Pulse Rate","85","beats/min",85,"beats/min",10
+"CDISC-01","VS","CDISC-01-701-017",3,"Visit 3","2023-03-02","SYSBP","Systolic Blood Pressure","125","mmHg",125,"mmHg",11
+"CDISC-01","VS","CDISC-01-701-017",3,"Visit 3","2023-03-02","WEIGHT","Weight","72.1","kg",72.1,"kg",12
+"CDISC-01","VS","CDISC-01-701-028",1,"Visit 1","2023-01-18","DIABP","Diastolic Blood Pressure","73","mmHg",73,"mmHg",1
+"CDISC-01","VS","CDISC-01-701-028",1,"Visit 1","2023-01-18","PULSE","Pulse Rate","78","beats/min",78,"beats/min",2
+"CDISC-01","VS","CDISC-01-701-028",1,"Visit 1","2023-01-18","SYSBP","Systolic Blood Pressure","126","mmHg",126,"mmHg",3
+"CDISC-01","VS","CDISC-01-701-028",1,"Visit 1","2023-01-18","WEIGHT","Weight","88.9","kg",88.9,"kg",4
+"CDISC-01","VS","CDISC-01-701-028",2,"Visit 2","2023-02-15","DIABP","Diastolic Blood Pressure","78","mmHg",78,"mmHg",5
+"CDISC-01","VS","CDISC-01-701-028",2,"Visit 2","2023-02-15","PULSE","Pulse Rate","84","beats/min",84,"beats/min",6
+"CDISC-01","VS","CDISC-01-701-028",2,"Visit 2","2023-02-15","SYSBP","Systolic Blood Pressure","125","mmHg",125,"mmHg",7
+"CDISC-01","VS","CDISC-01-701-028",2,"Visit 2","2023-02-15","WEIGHT","Weight","76.8","kg",76.8,"kg",8
+"CDISC-01","VS","CDISC-01-701-028",3,"Visit 3","2023-03-19","DIABP","Diastolic Blood Pressure","95","mmHg",95,"mmHg",9
+"CDISC-01","VS","CDISC-01-701-028",3,"Visit 3","2023-03-19","PULSE","Pulse Rate","60","beats/min",60,"beats/min",10
+"CDISC-01","VS","CDISC-01-701-028",3,"Visit 3","2023-03-19","SYSBP","Systolic Blood Pressure","131","mmHg",131,"mmHg",11
+"CDISC-01","VS","CDISC-01-701-028",3,"Visit 3","2023-03-19","WEIGHT","Weight","86.1","kg",86.1,"kg",12
+"CDISC-01","VS","CDISC-01-701-030",1,"Visit 1","2023-01-23","DIABP","Diastolic Blood Pressure","74","mmHg",74,"mmHg",1
+"CDISC-01","VS","CDISC-01-701-030",1,"Visit 1","2023-01-23","PULSE","Pulse Rate","69","beats/min",69,"beats/min",2
+"CDISC-01","VS","CDISC-01-701-030",1,"Visit 1","2023-01-23","SYSBP","Systolic Blood Pressure","114","mmHg",114,"mmHg",3
+"CDISC-01","VS","CDISC-01-701-030",1,"Visit 1","2023-01-23","WEIGHT","Weight","63.3","kg",63.3,"kg",4
+"CDISC-01","VS","CDISC-01-701-030",2,"Visit 2","2023-02-21","DIABP","Diastolic Blood Pressure","73","mmHg",73,"mmHg",5
+"CDISC-01","VS","CDISC-01-701-030",2,"Visit 2","2023-02-21","PULSE","Pulse Rate","95","beats/min",95,"beats/min",6
+"CDISC-01","VS","CDISC-01-701-030",2,"Visit 2","2023-02-21","SYSBP","Systolic Blood Pressure","148","mmHg",148,"mmHg",7
+"CDISC-01","VS","CDISC-01-701-030",2,"Visit 2","2023-02-21","WEIGHT","Weight","62.8","kg",62.8,"kg",8
+"CDISC-01","VS","CDISC-01-701-030",3,"Visit 3","2023-03-21","DIABP","Diastolic Blood Pressure","84","mmHg",84,"mmHg",9
+"CDISC-01","VS","CDISC-01-701-030",3,"Visit 3","2023-03-21","PULSE","Pulse Rate","91","beats/min",91,"beats/min",10
+"CDISC-01","VS","CDISC-01-701-030",3,"Visit 3","2023-03-21","SYSBP","Systolic Blood Pressure","135","mmHg",135,"mmHg",11
+"CDISC-01","VS","CDISC-01-701-030",3,"Visit 3","2023-03-21","WEIGHT","Weight","88.3","kg",88.3,"kg",12
+"CDISC-01","VS","CDISC-01-701-035",1,"Visit 1","2023-01-01","DIABP","Diastolic Blood Pressure","85","mmHg",85,"mmHg",1
+"CDISC-01","VS","CDISC-01-701-035",1,"Visit 1","2023-01-01","PULSE","Pulse Rate","92","beats/min",92,"beats/min",2
+"CDISC-01","VS","CDISC-01-701-035",1,"Visit 1","2023-01-01","SYSBP","Systolic Blood Pressure","136","mmHg",136,"mmHg",3
+"CDISC-01","VS","CDISC-01-701-035",1,"Visit 1","2023-01-01","WEIGHT","Weight","71.2","kg",71.2,"kg",4
+"CDISC-01","VS","CDISC-01-701-035",2,"Visit 2","2023-01-29","DIABP","Diastolic Blood Pressure","88","mmHg",88,"mmHg",5
+"CDISC-01","VS","CDISC-01-701-035",2,"Visit 2","2023-01-29","PULSE","Pulse Rate","65","beats/min",65,"beats/min",6
+"CDISC-01","VS","CDISC-01-701-035",2,"Visit 2","2023-01-29","SYSBP","Systolic Blood Pressure","128","mmHg",128,"mmHg",7
+"CDISC-01","VS","CDISC-01-701-035",2,"Visit 2","2023-01-29","WEIGHT","Weight","76.7","kg",76.7,"kg",8
+"CDISC-01","VS","CDISC-01-701-035",3,"Visit 3","2023-03-02","DIABP","Diastolic Blood Pressure","85","mmHg",85,"mmHg",9
+"CDISC-01","VS","CDISC-01-701-035",3,"Visit 3","2023-03-02","PULSE","Pulse Rate","82","beats/min",82,"beats/min",10
+"CDISC-01","VS","CDISC-01-701-035",3,"Visit 3","2023-03-02","SYSBP","Systolic Blood Pressure","115","mmHg",115,"mmHg",11
+"CDISC-01","VS","CDISC-01-701-035",3,"Visit 3","2023-03-02","WEIGHT","Weight","89.9","kg",89.9,"kg",12
+"CDISC-01","VS","CDISC-01-701-040",1,"Visit 1","2023-01-06","DIABP","Diastolic Blood Pressure","95","mmHg",95,"mmHg",1
+"CDISC-01","VS","CDISC-01-701-040",1,"Visit 1","2023-01-06","PULSE","Pulse Rate","96","beats/min",96,"beats/min",2
+"CDISC-01","VS","CDISC-01-701-040",1,"Visit 1","2023-01-06","SYSBP","Systolic Blood Pressure","154","mmHg",154,"mmHg",3
+"CDISC-01","VS","CDISC-01-701-040",1,"Visit 1","2023-01-06","WEIGHT","Weight","57","kg",57,"kg",4
+"CDISC-01","VS","CDISC-01-701-041",1,"Visit 1","2023-01-15","DIABP","Diastolic Blood Pressure","82","mmHg",82,"mmHg",1
+"CDISC-01","VS","CDISC-01-701-041",1,"Visit 1","2023-01-15","PULSE","Pulse Rate","79","beats/min",79,"beats/min",2
+"CDISC-01","VS","CDISC-01-701-041",1,"Visit 1","2023-01-15","SYSBP","Systolic Blood Pressure","148","mmHg",148,"mmHg",3
+"CDISC-01","VS","CDISC-01-701-041",1,"Visit 1","2023-01-15","WEIGHT","Weight","56.7","kg",56.7,"kg",4
+"CDISC-01","VS","CDISC-01-701-041",2,"Visit 2","2023-02-11","DIABP","Diastolic Blood Pressure","83","mmHg",83,"mmHg",5
+"CDISC-01","VS","CDISC-01-701-041",2,"Visit 2","2023-02-11","PULSE","Pulse Rate","75","beats/min",75,"beats/min",6
+"CDISC-01","VS","CDISC-01-701-041",2,"Visit 2","2023-02-11","SYSBP","Systolic Blood Pressure","116","mmHg",116,"mmHg",7
+"CDISC-01","VS","CDISC-01-701-041",2,"Visit 2","2023-02-11","WEIGHT","Weight","94.1","kg",94.1,"kg",8
+"CDISC-01","VS","CDISC-01-701-042",1,"Visit 1","2023-01-04","DIABP","Diastolic Blood Pressure","71","mmHg",71,"mmHg",1
+"CDISC-01","VS","CDISC-01-701-042",1,"Visit 1","2023-01-04","PULSE","Pulse Rate","82","beats/min",82,"beats/min",2
+"CDISC-01","VS","CDISC-01-701-042",1,"Visit 1","2023-01-04","SYSBP","Systolic Blood Pressure","121","mmHg",121,"mmHg",3
+"CDISC-01","VS","CDISC-01-701-042",1,"Visit 1","2023-01-04","WEIGHT","Weight","81.7","kg",81.7,"kg",4
+"CDISC-01","VS","CDISC-01-701-042",2,"Visit 2","2023-02-01","DIABP","Diastolic Blood Pressure","78","mmHg",78,"mmHg",5
+"CDISC-01","VS","CDISC-01-701-042",2,"Visit 2","2023-02-01","PULSE","Pulse Rate","88","beats/min",88,"beats/min",6
+"CDISC-01","VS","CDISC-01-701-042",2,"Visit 2","2023-02-01","SYSBP","Systolic Blood Pressure","151","mmHg",151,"mmHg",7
+"CDISC-01","VS","CDISC-01-701-042",2,"Visit 2","2023-02-01","WEIGHT","Weight","59.9","kg",59.9,"kg",8
+"CDISC-01","VS","CDISC-01-701-042",3,"Visit 3","2023-03-07","DIABP","Diastolic Blood Pressure","95","mmHg",95,"mmHg",9
+"CDISC-01","VS","CDISC-01-701-042",3,"Visit 3","2023-03-07","PULSE","Pulse Rate","94","beats/min",94,"beats/min",10
+"CDISC-01","VS","CDISC-01-701-042",3,"Visit 3","2023-03-07","SYSBP","Systolic Blood Pressure","140","mmHg",140,"mmHg",11
+"CDISC-01","VS","CDISC-01-701-042",3,"Visit 3","2023-03-07","WEIGHT","Weight","61.9","kg",61.9,"kg",12
+"CDISC-01","VS","CDISC-01-701-045",1,"Visit 1","2023-02-01","DIABP","Diastolic Blood Pressure","85","mmHg",85,"mmHg",1
+"CDISC-01","VS","CDISC-01-701-045",1,"Visit 1","2023-02-01","PULSE","Pulse Rate","83","beats/min",83,"beats/min",2
+"CDISC-01","VS","CDISC-01-701-045",1,"Visit 1","2023-02-01","SYSBP","Systolic Blood Pressure","149","mmHg",149,"mmHg",3
+"CDISC-01","VS","CDISC-01-701-045",1,"Visit 1","2023-02-01","WEIGHT","Weight","83.9","kg",83.9,"kg",4
+"CDISC-01","VS","CDISC-01-701-045",2,"Visit 2","2023-02-28","DIABP","Diastolic Blood Pressure","93","mmHg",93,"mmHg",5
+"CDISC-01","VS","CDISC-01-701-045",2,"Visit 2","2023-02-28","PULSE","Pulse Rate","92","beats/min",92,"beats/min",6
+"CDISC-01","VS","CDISC-01-701-045",2,"Visit 2","2023-02-28","SYSBP","Systolic Blood Pressure","128","mmHg",128,"mmHg",7
+"CDISC-01","VS","CDISC-01-701-045",2,"Visit 2","2023-02-28","WEIGHT","Weight","66.7","kg",66.7,"kg",8
+"CDISC-01","VS","CDISC-01-701-045",3,"Visit 3","2023-04-03","DIABP","Diastolic Blood Pressure","89","mmHg",89,"mmHg",9
+"CDISC-01","VS","CDISC-01-701-045",3,"Visit 3","2023-04-03","PULSE","Pulse Rate","63","beats/min",63,"beats/min",10
+"CDISC-01","VS","CDISC-01-701-045",3,"Visit 3","2023-04-03","SYSBP","Systolic Blood Pressure","150","mmHg",150,"mmHg",11
+"CDISC-01","VS","CDISC-01-701-045",3,"Visit 3","2023-04-03","WEIGHT","Weight","71.3","kg",71.3,"kg",12
+"CDISC-01","VS","CDISC-01-701-048",1,"Visit 1","2023-01-31","DIABP","Diastolic Blood Pressure","81","mmHg",81,"mmHg",1
+"CDISC-01","VS","CDISC-01-701-048",1,"Visit 1","2023-01-31","PULSE","Pulse Rate","65","beats/min",65,"beats/min",2
+"CDISC-01","VS","CDISC-01-701-048",1,"Visit 1","2023-01-31","SYSBP","Systolic Blood Pressure","153","mmHg",153,"mmHg",3
+"CDISC-01","VS","CDISC-01-701-048",1,"Visit 1","2023-01-31","WEIGHT","Weight","90.9","kg",90.9,"kg",4
+"CDISC-01","VS","CDISC-01-702-008",1,"Visit 1","2023-01-20","DIABP","Diastolic Blood Pressure","76","mmHg",76,"mmHg",1
+"CDISC-01","VS","CDISC-01-702-008",1,"Visit 1","2023-01-20","PULSE","Pulse Rate","86","beats/min",86,"beats/min",2
+"CDISC-01","VS","CDISC-01-702-008",1,"Visit 1","2023-01-20","SYSBP","Systolic Blood Pressure","132","mmHg",132,"mmHg",3
+"CDISC-01","VS","CDISC-01-702-008",1,"Visit 1","2023-01-20","WEIGHT","Weight","84.3","kg",84.3,"kg",4
+"CDISC-01","VS","CDISC-01-702-008",2,"Visit 2","2023-02-19","DIABP","Diastolic Blood Pressure","89","mmHg",89,"mmHg",5
+"CDISC-01","VS","CDISC-01-702-008",2,"Visit 2","2023-02-19","PULSE","Pulse Rate","91","beats/min",91,"beats/min",6
+"CDISC-01","VS","CDISC-01-702-008",2,"Visit 2","2023-02-19","SYSBP","Systolic Blood Pressure","128","mmHg",128,"mmHg",7
+"CDISC-01","VS","CDISC-01-702-008",2,"Visit 2","2023-02-19","WEIGHT","Weight","55.6","kg",55.6,"kg",8
+"CDISC-01","VS","CDISC-01-702-008",3,"Visit 3","2023-03-19","DIABP","Diastolic Blood Pressure","83","mmHg",83,"mmHg",9
+"CDISC-01","VS","CDISC-01-702-008",3,"Visit 3","2023-03-19","PULSE","Pulse Rate","98","beats/min",98,"beats/min",10
+"CDISC-01","VS","CDISC-01-702-008",3,"Visit 3","2023-03-19","SYSBP","Systolic Blood Pressure","150","mmHg",150,"mmHg",11
+"CDISC-01","VS","CDISC-01-702-008",3,"Visit 3","2023-03-19","WEIGHT","Weight","81","kg",81,"kg",12
+"CDISC-01","VS","CDISC-01-702-009",1,"Visit 1","2023-01-26","DIABP","Diastolic Blood Pressure","98","mmHg",98,"mmHg",1
+"CDISC-01","VS","CDISC-01-702-009",1,"Visit 1","2023-01-26","PULSE","Pulse Rate","89","beats/min",89,"beats/min",2
+"CDISC-01","VS","CDISC-01-702-009",1,"Visit 1","2023-01-26","SYSBP","Systolic Blood Pressure","159","mmHg",159,"mmHg",3
+"CDISC-01","VS","CDISC-01-702-009",1,"Visit 1","2023-01-26","WEIGHT","Weight","70.2","kg",70.2,"kg",4
+"CDISC-01","VS","CDISC-01-702-009",2,"Visit 2","2023-02-26","DIABP","Diastolic Blood Pressure","82","mmHg",82,"mmHg",5
+"CDISC-01","VS","CDISC-01-702-009",2,"Visit 2","2023-02-26","PULSE","Pulse Rate","81","beats/min",81,"beats/min",6
+"CDISC-01","VS","CDISC-01-702-009",2,"Visit 2","2023-02-26","SYSBP","Systolic Blood Pressure","123","mmHg",123,"mmHg",7
+"CDISC-01","VS","CDISC-01-702-009",2,"Visit 2","2023-02-26","WEIGHT","Weight","62.5","kg",62.5,"kg",8
+"CDISC-01","VS","CDISC-01-702-009",3,"Visit 3","2023-03-28","DIABP","Diastolic Blood Pressure","91","mmHg",91,"mmHg",9
+"CDISC-01","VS","CDISC-01-702-009",3,"Visit 3","2023-03-28","PULSE","Pulse Rate","83","beats/min",83,"beats/min",10
+"CDISC-01","VS","CDISC-01-702-009",3,"Visit 3","2023-03-28","SYSBP","Systolic Blood Pressure","126","mmHg",126,"mmHg",11
+"CDISC-01","VS","CDISC-01-702-009",3,"Visit 3","2023-03-28","WEIGHT","Weight","79.3","kg",79.3,"kg",12
+"CDISC-01","VS","CDISC-01-702-013",1,"Visit 1","2023-01-21","DIABP","Diastolic Blood Pressure","89","mmHg",89,"mmHg",1
+"CDISC-01","VS","CDISC-01-702-013",1,"Visit 1","2023-01-21","PULSE","Pulse Rate","69","beats/min",69,"beats/min",2
+"CDISC-01","VS","CDISC-01-702-013",1,"Visit 1","2023-01-21","SYSBP","Systolic Blood Pressure","115","mmHg",115,"mmHg",3
+"CDISC-01","VS","CDISC-01-702-013",1,"Visit 1","2023-01-21","WEIGHT","Weight","68.2","kg",68.2,"kg",4
+"CDISC-01","VS","CDISC-01-702-013",2,"Visit 2","2023-02-21","DIABP","Diastolic Blood Pressure","88","mmHg",88,"mmHg",5
+"CDISC-01","VS","CDISC-01-702-013",2,"Visit 2","2023-02-21","PULSE","Pulse Rate","97","beats/min",97,"beats/min",6
+"CDISC-01","VS","CDISC-01-702-013",2,"Visit 2","2023-02-21","SYSBP","Systolic Blood Pressure","134","mmHg",134,"mmHg",7
+"CDISC-01","VS","CDISC-01-702-013",2,"Visit 2","2023-02-21","WEIGHT","Weight","76.1","kg",76.1,"kg",8
+"CDISC-01","VS","CDISC-01-702-013",3,"Visit 3","2023-03-23","DIABP","Diastolic Blood Pressure","81","mmHg",81,"mmHg",9
+"CDISC-01","VS","CDISC-01-702-013",3,"Visit 3","2023-03-23","PULSE","Pulse Rate","81","beats/min",81,"beats/min",10
+"CDISC-01","VS","CDISC-01-702-013",3,"Visit 3","2023-03-23","SYSBP","Systolic Blood Pressure","125","mmHg",125,"mmHg",11
+"CDISC-01","VS","CDISC-01-702-013",3,"Visit 3","2023-03-23","WEIGHT","Weight","74.5","kg",74.5,"kg",12
+"CDISC-01","VS","CDISC-01-702-014",1,"Visit 1","2023-01-28","DIABP","Diastolic Blood Pressure","84","mmHg",84,"mmHg",1
+"CDISC-01","VS","CDISC-01-702-014",1,"Visit 1","2023-01-28","PULSE","Pulse Rate","82","beats/min",82,"beats/min",2
+"CDISC-01","VS","CDISC-01-702-014",1,"Visit 1","2023-01-28","SYSBP","Systolic Blood Pressure","154","mmHg",154,"mmHg",3
+"CDISC-01","VS","CDISC-01-702-014",1,"Visit 1","2023-01-28","WEIGHT","Weight","84.5","kg",84.5,"kg",4
+"CDISC-01","VS","CDISC-01-702-014",2,"Visit 2","2023-02-28","DIABP","Diastolic Blood Pressure","75","mmHg",75,"mmHg",5
+"CDISC-01","VS","CDISC-01-702-014",2,"Visit 2","2023-02-28","PULSE","Pulse Rate","68","beats/min",68,"beats/min",6
+"CDISC-01","VS","CDISC-01-702-014",2,"Visit 2","2023-02-28","SYSBP","Systolic Blood Pressure","110","mmHg",110,"mmHg",7
+"CDISC-01","VS","CDISC-01-702-014",2,"Visit 2","2023-02-28","WEIGHT","Weight","87.9","kg",87.9,"kg",8
+"CDISC-01","VS","CDISC-01-702-014",3,"Visit 3","2023-03-27","DIABP","Diastolic Blood Pressure","89","mmHg",89,"mmHg",9
+"CDISC-01","VS","CDISC-01-702-014",3,"Visit 3","2023-03-27","PULSE","Pulse Rate","63","beats/min",63,"beats/min",10
+"CDISC-01","VS","CDISC-01-702-014",3,"Visit 3","2023-03-27","SYSBP","Systolic Blood Pressure","127","mmHg",127,"mmHg",11
+"CDISC-01","VS","CDISC-01-702-014",3,"Visit 3","2023-03-27","WEIGHT","Weight","81.5","kg",81.5,"kg",12
+"CDISC-01","VS","CDISC-01-702-015",1,"Visit 1","2023-01-09","DIABP","Diastolic Blood Pressure","71","mmHg",71,"mmHg",1
+"CDISC-01","VS","CDISC-01-702-015",1,"Visit 1","2023-01-09","PULSE","Pulse Rate","72","beats/min",72,"beats/min",2
+"CDISC-01","VS","CDISC-01-702-015",1,"Visit 1","2023-01-09","SYSBP","Systolic Blood Pressure","148","mmHg",148,"mmHg",3
+"CDISC-01","VS","CDISC-01-702-015",1,"Visit 1","2023-01-09","WEIGHT","Weight","78.1","kg",78.1,"kg",4
+"CDISC-01","VS","CDISC-01-702-015",2,"Visit 2","2023-02-06","DIABP","Diastolic Blood Pressure","90","mmHg",90,"mmHg",5
+"CDISC-01","VS","CDISC-01-702-015",2,"Visit 2","2023-02-06","PULSE","Pulse Rate","60","beats/min",60,"beats/min",6
+"CDISC-01","VS","CDISC-01-702-015",2,"Visit 2","2023-02-06","SYSBP","Systolic Blood Pressure","150","mmHg",150,"mmHg",7
+"CDISC-01","VS","CDISC-01-702-015",2,"Visit 2","2023-02-06","WEIGHT","Weight","64","kg",64,"kg",8
+"CDISC-01","VS","CDISC-01-702-015",3,"Visit 3","2023-03-08","DIABP","Diastolic Blood Pressure","95","mmHg",95,"mmHg",9
+"CDISC-01","VS","CDISC-01-702-015",3,"Visit 3","2023-03-08","PULSE","Pulse Rate","89","beats/min",89,"beats/min",10
+"CDISC-01","VS","CDISC-01-702-015",3,"Visit 3","2023-03-08","SYSBP","Systolic Blood Pressure","132","mmHg",132,"mmHg",11
+"CDISC-01","VS","CDISC-01-702-015",3,"Visit 3","2023-03-08","WEIGHT","Weight","74.2","kg",74.2,"kg",12
+"CDISC-01","VS","CDISC-01-702-019",1,"Visit 1","2023-01-25","DIABP","Diastolic Blood Pressure","78","mmHg",78,"mmHg",1
+"CDISC-01","VS","CDISC-01-702-019",1,"Visit 1","2023-01-25","PULSE","Pulse Rate","60","beats/min",60,"beats/min",2
+"CDISC-01","VS","CDISC-01-702-019",1,"Visit 1","2023-01-25","SYSBP","Systolic Blood Pressure","133","mmHg",133,"mmHg",3
+"CDISC-01","VS","CDISC-01-702-019",1,"Visit 1","2023-01-25","WEIGHT","Weight","82.7","kg",82.7,"kg",4
+"CDISC-01","VS","CDISC-01-702-019",2,"Visit 2","2023-02-23","DIABP","Diastolic Blood Pressure","98","mmHg",98,"mmHg",5
+"CDISC-01","VS","CDISC-01-702-019",2,"Visit 2","2023-02-23","PULSE","Pulse Rate","92","beats/min",92,"beats/min",6
+"CDISC-01","VS","CDISC-01-702-019",2,"Visit 2","2023-02-23","SYSBP","Systolic Blood Pressure","114","mmHg",114,"mmHg",7
+"CDISC-01","VS","CDISC-01-702-019",2,"Visit 2","2023-02-23","WEIGHT","Weight","60.9","kg",60.9,"kg",8
+"CDISC-01","VS","CDISC-01-702-019",3,"Visit 3","2023-03-23","DIABP","Diastolic Blood Pressure","92","mmHg",92,"mmHg",9
+"CDISC-01","VS","CDISC-01-702-019",3,"Visit 3","2023-03-23","PULSE","Pulse Rate","99","beats/min",99,"beats/min",10
+"CDISC-01","VS","CDISC-01-702-019",3,"Visit 3","2023-03-23","SYSBP","Systolic Blood Pressure","110","mmHg",110,"mmHg",11
+"CDISC-01","VS","CDISC-01-702-019",3,"Visit 3","2023-03-23","WEIGHT","Weight","78","kg",78,"kg",12
+"CDISC-01","VS","CDISC-01-702-020",1,"Visit 1","2023-01-30","DIABP","Diastolic Blood Pressure","80","mmHg",80,"mmHg",1
+"CDISC-01","VS","CDISC-01-702-020",1,"Visit 1","2023-01-30","PULSE","Pulse Rate","94","beats/min",94,"beats/min",2
+"CDISC-01","VS","CDISC-01-702-020",1,"Visit 1","2023-01-30","SYSBP","Systolic Blood Pressure","110","mmHg",110,"mmHg",3
+"CDISC-01","VS","CDISC-01-702-020",1,"Visit 1","2023-01-30","WEIGHT","Weight","80.3","kg",80.3,"kg",4
+"CDISC-01","VS","CDISC-01-702-020",2,"Visit 2","2023-02-27","DIABP","Diastolic Blood Pressure","76","mmHg",76,"mmHg",5
+"CDISC-01","VS","CDISC-01-702-020",2,"Visit 2","2023-02-27","PULSE","Pulse Rate","71","beats/min",71,"beats/min",6
+"CDISC-01","VS","CDISC-01-702-020",2,"Visit 2","2023-02-27","SYSBP","Systolic Blood Pressure","123","mmHg",123,"mmHg",7
+"CDISC-01","VS","CDISC-01-702-020",2,"Visit 2","2023-02-27","WEIGHT","Weight","64.8","kg",64.8,"kg",8
+"CDISC-01","VS","CDISC-01-702-020",3,"Visit 3","2023-03-31","DIABP","Diastolic Blood Pressure","76","mmHg",76,"mmHg",9
+"CDISC-01","VS","CDISC-01-702-020",3,"Visit 3","2023-03-31","PULSE","Pulse Rate","93","beats/min",93,"beats/min",10
+"CDISC-01","VS","CDISC-01-702-020",3,"Visit 3","2023-03-31","SYSBP","Systolic Blood Pressure","139","mmHg",139,"mmHg",11
+"CDISC-01","VS","CDISC-01-702-020",3,"Visit 3","2023-03-31","WEIGHT","Weight","67.2","kg",67.2,"kg",12
+"CDISC-01","VS","CDISC-01-702-025",1,"Visit 1","2023-01-27","DIABP","Diastolic Blood Pressure","98","mmHg",98,"mmHg",1
+"CDISC-01","VS","CDISC-01-702-025",1,"Visit 1","2023-01-27","PULSE","Pulse Rate","93","beats/min",93,"beats/min",2
+"CDISC-01","VS","CDISC-01-702-025",1,"Visit 1","2023-01-27","SYSBP","Systolic Blood Pressure","132","mmHg",132,"mmHg",3
+"CDISC-01","VS","CDISC-01-702-025",1,"Visit 1","2023-01-27","WEIGHT","Weight","68.7","kg",68.7,"kg",4
+"CDISC-01","VS","CDISC-01-702-025",2,"Visit 2","2023-02-23","DIABP","Diastolic Blood Pressure","91","mmHg",91,"mmHg",5
+"CDISC-01","VS","CDISC-01-702-025",2,"Visit 2","2023-02-23","PULSE","Pulse Rate","67","beats/min",67,"beats/min",6
+"CDISC-01","VS","CDISC-01-702-025",2,"Visit 2","2023-02-23","SYSBP","Systolic Blood Pressure","126","mmHg",126,"mmHg",7
+"CDISC-01","VS","CDISC-01-702-025",2,"Visit 2","2023-02-23","WEIGHT","Weight","92.3","kg",92.3,"kg",8
+"CDISC-01","VS","CDISC-01-702-025",3,"Visit 3","2023-03-26","DIABP","Diastolic Blood Pressure","80","mmHg",80,"mmHg",9
+"CDISC-01","VS","CDISC-01-702-025",3,"Visit 3","2023-03-26","PULSE","Pulse Rate","81","beats/min",81,"beats/min",10
+"CDISC-01","VS","CDISC-01-702-025",3,"Visit 3","2023-03-26","SYSBP","Systolic Blood Pressure","112","mmHg",112,"mmHg",11
+"CDISC-01","VS","CDISC-01-702-025",3,"Visit 3","2023-03-26","WEIGHT","Weight","64.5","kg",64.5,"kg",12
+"CDISC-01","VS","CDISC-01-702-026",1,"Visit 1","2023-01-29","DIABP","Diastolic Blood Pressure","80","mmHg",80,"mmHg",1
+"CDISC-01","VS","CDISC-01-702-026",1,"Visit 1","2023-01-29","PULSE","Pulse Rate","79","beats/min",79,"beats/min",2
+"CDISC-01","VS","CDISC-01-702-026",1,"Visit 1","2023-01-29","SYSBP","Systolic Blood Pressure","156","mmHg",156,"mmHg",3
+"CDISC-01","VS","CDISC-01-702-026",1,"Visit 1","2023-01-29","WEIGHT","Weight","93.7","kg",93.7,"kg",4
+"CDISC-01","VS","CDISC-01-702-036",1,"Visit 1","2023-01-27","DIABP","Diastolic Blood Pressure","100","mmHg",100,"mmHg",1
+"CDISC-01","VS","CDISC-01-702-036",1,"Visit 1","2023-01-27","PULSE","Pulse Rate","61","beats/min",61,"beats/min",2
+"CDISC-01","VS","CDISC-01-702-036",1,"Visit 1","2023-01-27","SYSBP","Systolic Blood Pressure","131","mmHg",131,"mmHg",3
+"CDISC-01","VS","CDISC-01-702-036",1,"Visit 1","2023-01-27","WEIGHT","Weight","74.3","kg",74.3,"kg",4
+"CDISC-01","VS","CDISC-01-702-043",1,"Visit 1","2023-01-19","DIABP","Diastolic Blood Pressure","77","mmHg",77,"mmHg",1
+"CDISC-01","VS","CDISC-01-702-043",1,"Visit 1","2023-01-19","PULSE","Pulse Rate","61","beats/min",61,"beats/min",2
+"CDISC-01","VS","CDISC-01-702-043",1,"Visit 1","2023-01-19","SYSBP","Systolic Blood Pressure","154","mmHg",154,"mmHg",3
+"CDISC-01","VS","CDISC-01-702-043",1,"Visit 1","2023-01-19","WEIGHT","Weight","66.5","kg",66.5,"kg",4
+"CDISC-01","VS","CDISC-01-702-043",2,"Visit 2","2023-02-15","DIABP","Diastolic Blood Pressure","95","mmHg",95,"mmHg",5
+"CDISC-01","VS","CDISC-01-702-043",2,"Visit 2","2023-02-15","PULSE","Pulse Rate","69","beats/min",69,"beats/min",6
+"CDISC-01","VS","CDISC-01-702-043",2,"Visit 2","2023-02-15","SYSBP","Systolic Blood Pressure","125","mmHg",125,"mmHg",7
+"CDISC-01","VS","CDISC-01-702-043",2,"Visit 2","2023-02-15","WEIGHT","Weight","62.5","kg",62.5,"kg",8
+"CDISC-01","VS","CDISC-01-702-043",3,"Visit 3","2023-03-19","DIABP","Diastolic Blood Pressure","73","mmHg",73,"mmHg",9
+"CDISC-01","VS","CDISC-01-702-043",3,"Visit 3","2023-03-19","PULSE","Pulse Rate","60","beats/min",60,"beats/min",10
+"CDISC-01","VS","CDISC-01-702-043",3,"Visit 3","2023-03-19","SYSBP","Systolic Blood Pressure","136","mmHg",136,"mmHg",11
+"CDISC-01","VS","CDISC-01-702-043",3,"Visit 3","2023-03-19","WEIGHT","Weight","87.2","kg",87.2,"kg",12
+"CDISC-01","VS","CDISC-01-702-049",1,"Visit 1","2023-01-22","DIABP","Diastolic Blood Pressure","97","mmHg",97,"mmHg",1
+"CDISC-01","VS","CDISC-01-702-049",1,"Visit 1","2023-01-22","PULSE","Pulse Rate","91","beats/min",91,"beats/min",2
+"CDISC-01","VS","CDISC-01-702-049",1,"Visit 1","2023-01-22","SYSBP","Systolic Blood Pressure","121","mmHg",121,"mmHg",3
+"CDISC-01","VS","CDISC-01-702-049",1,"Visit 1","2023-01-22","WEIGHT","Weight","92.4","kg",92.4,"kg",4
+"CDISC-01","VS","CDISC-01-702-049",2,"Visit 2","2023-02-22","DIABP","Diastolic Blood Pressure","95","mmHg",95,"mmHg",5
+"CDISC-01","VS","CDISC-01-702-049",2,"Visit 2","2023-02-22","PULSE","Pulse Rate","68","beats/min",68,"beats/min",6
+"CDISC-01","VS","CDISC-01-702-049",2,"Visit 2","2023-02-22","SYSBP","Systolic Blood Pressure","146","mmHg",146,"mmHg",7
+"CDISC-01","VS","CDISC-01-702-049",2,"Visit 2","2023-02-22","WEIGHT","Weight","66.7","kg",66.7,"kg",8
+"CDISC-01","VS","CDISC-01-702-049",3,"Visit 3","2023-03-22","DIABP","Diastolic Blood Pressure","100","mmHg",100,"mmHg",9
+"CDISC-01","VS","CDISC-01-702-049",3,"Visit 3","2023-03-22","PULSE","Pulse Rate","63","beats/min",63,"beats/min",10
+"CDISC-01","VS","CDISC-01-702-049",3,"Visit 3","2023-03-22","SYSBP","Systolic Blood Pressure","129","mmHg",129,"mmHg",11
+"CDISC-01","VS","CDISC-01-702-049",3,"Visit 3","2023-03-22","WEIGHT","Weight","85.4","kg",85.4,"kg",12
+"CDISC-01","VS","CDISC-01-703-002",1,"Visit 1","2023-01-25","DIABP","Diastolic Blood Pressure","89","mmHg",89,"mmHg",1
+"CDISC-01","VS","CDISC-01-703-002",1,"Visit 1","2023-01-25","PULSE","Pulse Rate","99","beats/min",99,"beats/min",2
+"CDISC-01","VS","CDISC-01-703-002",1,"Visit 1","2023-01-25","SYSBP","Systolic Blood Pressure","116","mmHg",116,"mmHg",3
+"CDISC-01","VS","CDISC-01-703-002",1,"Visit 1","2023-01-25","WEIGHT","Weight","76.8","kg",76.8,"kg",4
+"CDISC-01","VS","CDISC-01-703-002",2,"Visit 2","2023-02-22","DIABP","Diastolic Blood Pressure","76","mmHg",76,"mmHg",5
+"CDISC-01","VS","CDISC-01-703-002",2,"Visit 2","2023-02-22","PULSE","Pulse Rate","63","beats/min",63,"beats/min",6
+"CDISC-01","VS","CDISC-01-703-002",2,"Visit 2","2023-02-22","SYSBP","Systolic Blood Pressure","152","mmHg",152,"mmHg",7
+"CDISC-01","VS","CDISC-01-703-002",2,"Visit 2","2023-02-22","WEIGHT","Weight","65.6","kg",65.6,"kg",8
+"CDISC-01","VS","CDISC-01-703-002",3,"Visit 3","2023-03-26","DIABP","Diastolic Blood Pressure","94","mmHg",94,"mmHg",9
+"CDISC-01","VS","CDISC-01-703-002",3,"Visit 3","2023-03-26","PULSE","Pulse Rate","72","beats/min",72,"beats/min",10
+"CDISC-01","VS","CDISC-01-703-002",3,"Visit 3","2023-03-26","SYSBP","Systolic Blood Pressure","117","mmHg",117,"mmHg",11
+"CDISC-01","VS","CDISC-01-703-002",3,"Visit 3","2023-03-26","WEIGHT","Weight","64","kg",64,"kg",12
+"CDISC-01","VS","CDISC-01-703-010",1,"Visit 1","2023-01-15","DIABP","Diastolic Blood Pressure","74","mmHg",74,"mmHg",1
+"CDISC-01","VS","CDISC-01-703-010",1,"Visit 1","2023-01-15","PULSE","Pulse Rate","95","beats/min",95,"beats/min",2
+"CDISC-01","VS","CDISC-01-703-010",1,"Visit 1","2023-01-15","SYSBP","Systolic Blood Pressure","111","mmHg",111,"mmHg",3
+"CDISC-01","VS","CDISC-01-703-010",1,"Visit 1","2023-01-15","WEIGHT","Weight","76.5","kg",76.5,"kg",4
+"CDISC-01","VS","CDISC-01-703-010",2,"Visit 2","2023-02-15","DIABP","Diastolic Blood Pressure","72","mmHg",72,"mmHg",5
+"CDISC-01","VS","CDISC-01-703-010",2,"Visit 2","2023-02-15","PULSE","Pulse Rate","100","beats/min",100,"beats/min",6
+"CDISC-01","VS","CDISC-01-703-010",2,"Visit 2","2023-02-15","SYSBP","Systolic Blood Pressure","113","mmHg",113,"mmHg",7
+"CDISC-01","VS","CDISC-01-703-010",2,"Visit 2","2023-02-15","WEIGHT","Weight","90.9","kg",90.9,"kg",8
+"CDISC-01","VS","CDISC-01-703-018",1,"Visit 1","2023-01-01","DIABP","Diastolic Blood Pressure","98","mmHg",98,"mmHg",1
+"CDISC-01","VS","CDISC-01-703-018",1,"Visit 1","2023-01-01","PULSE","Pulse Rate","84","beats/min",84,"beats/min",2
+"CDISC-01","VS","CDISC-01-703-018",1,"Visit 1","2023-01-01","SYSBP","Systolic Blood Pressure","120","mmHg",120,"mmHg",3
+"CDISC-01","VS","CDISC-01-703-018",1,"Visit 1","2023-01-01","WEIGHT","Weight","58.3","kg",58.3,"kg",4
+"CDISC-01","VS","CDISC-01-703-018",2,"Visit 2","2023-01-29","DIABP","Diastolic Blood Pressure","71","mmHg",71,"mmHg",5
+"CDISC-01","VS","CDISC-01-703-018",2,"Visit 2","2023-01-29","PULSE","Pulse Rate","61","beats/min",61,"beats/min",6
+"CDISC-01","VS","CDISC-01-703-018",2,"Visit 2","2023-01-29","SYSBP","Systolic Blood Pressure","122","mmHg",122,"mmHg",7
+"CDISC-01","VS","CDISC-01-703-018",2,"Visit 2","2023-01-29","WEIGHT","Weight","65.8","kg",65.8,"kg",8
+"CDISC-01","VS","CDISC-01-703-018",3,"Visit 3","2023-02-28","DIABP","Diastolic Blood Pressure","86","mmHg",86,"mmHg",9
+"CDISC-01","VS","CDISC-01-703-018",3,"Visit 3","2023-02-28","PULSE","Pulse Rate","69","beats/min",69,"beats/min",10
+"CDISC-01","VS","CDISC-01-703-018",3,"Visit 3","2023-02-28","SYSBP","Systolic Blood Pressure","117","mmHg",117,"mmHg",11
+"CDISC-01","VS","CDISC-01-703-018",3,"Visit 3","2023-02-28","WEIGHT","Weight","71.7","kg",71.7,"kg",12
+"CDISC-01","VS","CDISC-01-703-023",1,"Visit 1","2023-01-03","DIABP","Diastolic Blood Pressure","97","mmHg",97,"mmHg",1
+"CDISC-01","VS","CDISC-01-703-023",1,"Visit 1","2023-01-03","PULSE","Pulse Rate","66","beats/min",66,"beats/min",2
+"CDISC-01","VS","CDISC-01-703-023",1,"Visit 1","2023-01-03","SYSBP","Systolic Blood Pressure","146","mmHg",146,"mmHg",3
+"CDISC-01","VS","CDISC-01-703-023",1,"Visit 1","2023-01-03","WEIGHT","Weight","92.4","kg",92.4,"kg",4
+"CDISC-01","VS","CDISC-01-703-023",2,"Visit 2","2023-02-02","DIABP","Diastolic Blood Pressure","74","mmHg",74,"mmHg",5
+"CDISC-01","VS","CDISC-01-703-023",2,"Visit 2","2023-02-02","PULSE","Pulse Rate","82","beats/min",82,"beats/min",6
+"CDISC-01","VS","CDISC-01-703-023",2,"Visit 2","2023-02-02","SYSBP","Systolic Blood Pressure","159","mmHg",159,"mmHg",7
+"CDISC-01","VS","CDISC-01-703-023",2,"Visit 2","2023-02-02","WEIGHT","Weight","83.5","kg",83.5,"kg",8
+"CDISC-01","VS","CDISC-01-703-023",3,"Visit 3","2023-03-02","DIABP","Diastolic Blood Pressure","83","mmHg",83,"mmHg",9
+"CDISC-01","VS","CDISC-01-703-023",3,"Visit 3","2023-03-02","PULSE","Pulse Rate","93","beats/min",93,"beats/min",10
+"CDISC-01","VS","CDISC-01-703-023",3,"Visit 3","2023-03-02","SYSBP","Systolic Blood Pressure","127","mmHg",127,"mmHg",11
+"CDISC-01","VS","CDISC-01-703-023",3,"Visit 3","2023-03-02","WEIGHT","Weight","84.7","kg",84.7,"kg",12
+"CDISC-01","VS","CDISC-01-703-024",1,"Visit 1","2023-01-24","DIABP","Diastolic Blood Pressure","77","mmHg",77,"mmHg",1
+"CDISC-01","VS","CDISC-01-703-024",1,"Visit 1","2023-01-24","PULSE","Pulse Rate","76","beats/min",76,"beats/min",2
+"CDISC-01","VS","CDISC-01-703-024",1,"Visit 1","2023-01-24","SYSBP","Systolic Blood Pressure","127","mmHg",127,"mmHg",3
+"CDISC-01","VS","CDISC-01-703-024",1,"Visit 1","2023-01-24","WEIGHT","Weight","90","kg",90,"kg",4
+"CDISC-01","VS","CDISC-01-703-024",2,"Visit 2","2023-02-25","DIABP","Diastolic Blood Pressure","74","mmHg",74,"mmHg",5
+"CDISC-01","VS","CDISC-01-703-024",2,"Visit 2","2023-02-25","PULSE","Pulse Rate","88","beats/min",88,"beats/min",6
+"CDISC-01","VS","CDISC-01-703-024",2,"Visit 2","2023-02-25","SYSBP","Systolic Blood Pressure","137","mmHg",137,"mmHg",7
+"CDISC-01","VS","CDISC-01-703-024",2,"Visit 2","2023-02-25","WEIGHT","Weight","76.5","kg",76.5,"kg",8
+"CDISC-01","VS","CDISC-01-703-024",3,"Visit 3","2023-03-23","DIABP","Diastolic Blood Pressure","76","mmHg",76,"mmHg",9
+"CDISC-01","VS","CDISC-01-703-024",3,"Visit 3","2023-03-23","PULSE","Pulse Rate","60","beats/min",60,"beats/min",10
+"CDISC-01","VS","CDISC-01-703-024",3,"Visit 3","2023-03-23","SYSBP","Systolic Blood Pressure","141","mmHg",141,"mmHg",11
+"CDISC-01","VS","CDISC-01-703-024",3,"Visit 3","2023-03-23","WEIGHT","Weight","89.6","kg",89.6,"kg",12
+"CDISC-01","VS","CDISC-01-703-034",1,"Visit 1","2023-01-08","DIABP","Diastolic Blood Pressure","78","mmHg",78,"mmHg",1
+"CDISC-01","VS","CDISC-01-703-034",1,"Visit 1","2023-01-08","PULSE","Pulse Rate","79","beats/min",79,"beats/min",2
+"CDISC-01","VS","CDISC-01-703-034",1,"Visit 1","2023-01-08","SYSBP","Systolic Blood Pressure","142","mmHg",142,"mmHg",3
+"CDISC-01","VS","CDISC-01-703-034",1,"Visit 1","2023-01-08","WEIGHT","Weight","60.4","kg",60.4,"kg",4
+"CDISC-01","VS","CDISC-01-703-034",2,"Visit 2","2023-02-08","DIABP","Diastolic Blood Pressure","90","mmHg",90,"mmHg",5
+"CDISC-01","VS","CDISC-01-703-034",2,"Visit 2","2023-02-08","PULSE","Pulse Rate","70","beats/min",70,"beats/min",6
+"CDISC-01","VS","CDISC-01-703-034",2,"Visit 2","2023-02-08","SYSBP","Systolic Blood Pressure","133","mmHg",133,"mmHg",7
+"CDISC-01","VS","CDISC-01-703-034",2,"Visit 2","2023-02-08","WEIGHT","Weight","76.3","kg",76.3,"kg",8
+"CDISC-01","VS","CDISC-01-703-034",3,"Visit 3","2023-03-10","DIABP","Diastolic Blood Pressure","83","mmHg",83,"mmHg",9
+"CDISC-01","VS","CDISC-01-703-034",3,"Visit 3","2023-03-10","PULSE","Pulse Rate","93","beats/min",93,"beats/min",10
+"CDISC-01","VS","CDISC-01-703-034",3,"Visit 3","2023-03-10","SYSBP","Systolic Blood Pressure","116","mmHg",116,"mmHg",11
+"CDISC-01","VS","CDISC-01-703-034",3,"Visit 3","2023-03-10","WEIGHT","Weight","74.3","kg",74.3,"kg",12
+"CDISC-01","VS","CDISC-01-703-039",1,"Visit 1","2023-01-22","DIABP","Diastolic Blood Pressure","98","mmHg",98,"mmHg",1
+"CDISC-01","VS","CDISC-01-703-039",1,"Visit 1","2023-01-22","PULSE","Pulse Rate","73","beats/min",73,"beats/min",2
+"CDISC-01","VS","CDISC-01-703-039",1,"Visit 1","2023-01-22","SYSBP","Systolic Blood Pressure","144","mmHg",144,"mmHg",3
+"CDISC-01","VS","CDISC-01-703-039",1,"Visit 1","2023-01-22","WEIGHT","Weight","80.2","kg",80.2,"kg",4
+"CDISC-01","VS","CDISC-01-703-039",2,"Visit 2","2023-02-19","DIABP","Diastolic Blood Pressure","89","mmHg",89,"mmHg",5
+"CDISC-01","VS","CDISC-01-703-039",2,"Visit 2","2023-02-19","PULSE","Pulse Rate","85","beats/min",85,"beats/min",6
+"CDISC-01","VS","CDISC-01-703-039",2,"Visit 2","2023-02-19","SYSBP","Systolic Blood Pressure","151","mmHg",151,"mmHg",7
+"CDISC-01","VS","CDISC-01-703-039",2,"Visit 2","2023-02-19","WEIGHT","Weight","68.5","kg",68.5,"kg",8
+"CDISC-01","VS","CDISC-01-703-039",3,"Visit 3","2023-03-25","DIABP","Diastolic Blood Pressure","78","mmHg",78,"mmHg",9
+"CDISC-01","VS","CDISC-01-703-039",3,"Visit 3","2023-03-25","PULSE","Pulse Rate","99","beats/min",99,"beats/min",10
+"CDISC-01","VS","CDISC-01-703-039",3,"Visit 3","2023-03-25","SYSBP","Systolic Blood Pressure","137","mmHg",137,"mmHg",11
+"CDISC-01","VS","CDISC-01-703-039",3,"Visit 3","2023-03-25","WEIGHT","Weight","65.1","kg",65.1,"kg",12
+"CDISC-01","VS","CDISC-01-703-046",1,"Visit 1","2023-01-05","DIABP","Diastolic Blood Pressure","97","mmHg",97,"mmHg",1
+"CDISC-01","VS","CDISC-01-703-046",1,"Visit 1","2023-01-05","PULSE","Pulse Rate","78","beats/min",78,"beats/min",2
+"CDISC-01","VS","CDISC-01-703-046",1,"Visit 1","2023-01-05","SYSBP","Systolic Blood Pressure","147","mmHg",147,"mmHg",3
+"CDISC-01","VS","CDISC-01-703-046",1,"Visit 1","2023-01-05","WEIGHT","Weight","56.4","kg",56.4,"kg",4
+"CDISC-01","VS","CDISC-01-703-046",2,"Visit 2","2023-02-01","DIABP","Diastolic Blood Pressure","71","mmHg",71,"mmHg",5
+"CDISC-01","VS","CDISC-01-703-046",2,"Visit 2","2023-02-01","PULSE","Pulse Rate","89","beats/min",89,"beats/min",6
+"CDISC-01","VS","CDISC-01-703-046",2,"Visit 2","2023-02-01","SYSBP","Systolic Blood Pressure","135","mmHg",135,"mmHg",7
+"CDISC-01","VS","CDISC-01-703-046",2,"Visit 2","2023-02-01","WEIGHT","Weight","64.1","kg",64.1,"kg",8
+"CDISC-01","VS","CDISC-01-703-046",3,"Visit 3","2023-03-06","DIABP","Diastolic Blood Pressure","89","mmHg",89,"mmHg",9
+"CDISC-01","VS","CDISC-01-703-046",3,"Visit 3","2023-03-06","PULSE","Pulse Rate","68","beats/min",68,"beats/min",10
+"CDISC-01","VS","CDISC-01-703-046",3,"Visit 3","2023-03-06","SYSBP","Systolic Blood Pressure","122","mmHg",122,"mmHg",11
+"CDISC-01","VS","CDISC-01-703-046",3,"Visit 3","2023-03-06","WEIGHT","Weight","61","kg",61,"kg",12
+"CDISC-01","VS","CDISC-01-703-047",1,"Visit 1","2023-01-11","DIABP","Diastolic Blood Pressure","94","mmHg",94,"mmHg",1
+"CDISC-01","VS","CDISC-01-703-047",1,"Visit 1","2023-01-11","PULSE","Pulse Rate","93","beats/min",93,"beats/min",2
+"CDISC-01","VS","CDISC-01-703-047",1,"Visit 1","2023-01-11","SYSBP","Systolic Blood Pressure","158","mmHg",158,"mmHg",3
+"CDISC-01","VS","CDISC-01-703-047",1,"Visit 1","2023-01-11","WEIGHT","Weight","93.5","kg",93.5,"kg",4
+"CDISC-01","VS","CDISC-01-703-047",2,"Visit 2","2023-02-10","DIABP","Diastolic Blood Pressure","70","mmHg",70,"mmHg",5
+"CDISC-01","VS","CDISC-01-703-047",2,"Visit 2","2023-02-10","PULSE","Pulse Rate","86","beats/min",86,"beats/min",6
+"CDISC-01","VS","CDISC-01-703-047",2,"Visit 2","2023-02-10","SYSBP","Systolic Blood Pressure","123","mmHg",123,"mmHg",7
+"CDISC-01","VS","CDISC-01-703-047",2,"Visit 2","2023-02-10","WEIGHT","Weight","84.9","kg",84.9,"kg",8
+"CDISC-01","VS","CDISC-01-703-047",3,"Visit 3","2023-03-09","DIABP","Diastolic Blood Pressure","93","mmHg",93,"mmHg",9
+"CDISC-01","VS","CDISC-01-703-047",3,"Visit 3","2023-03-09","PULSE","Pulse Rate","64","beats/min",64,"beats/min",10
+"CDISC-01","VS","CDISC-01-703-047",3,"Visit 3","2023-03-09","SYSBP","Systolic Blood Pressure","122","mmHg",122,"mmHg",11
+"CDISC-01","VS","CDISC-01-703-047",3,"Visit 3","2023-03-09","WEIGHT","Weight","85.7","kg",85.7,"kg",12
+"CDISC-01","VS","CDISC-01-703-050",1,"Visit 1","2023-02-01","DIABP","Diastolic Blood Pressure","90","mmHg",90,"mmHg",1
+"CDISC-01","VS","CDISC-01-703-050",1,"Visit 1","2023-02-01","PULSE","Pulse Rate","67","beats/min",67,"beats/min",2
+"CDISC-01","VS","CDISC-01-703-050",1,"Visit 1","2023-02-01","SYSBP","Systolic Blood Pressure","134","mmHg",134,"mmHg",3
+"CDISC-01","VS","CDISC-01-703-050",1,"Visit 1","2023-02-01","WEIGHT","Weight","90.9","kg",90.9,"kg",4
+"CDISC-01","VS","CDISC-01-704-003",1,"Visit 1","2023-01-28","DIABP","Diastolic Blood Pressure","92","mmHg",92,"mmHg",1
+"CDISC-01","VS","CDISC-01-704-003",1,"Visit 1","2023-01-28","PULSE","Pulse Rate","85","beats/min",85,"beats/min",2
+"CDISC-01","VS","CDISC-01-704-003",1,"Visit 1","2023-01-28","SYSBP","Systolic Blood Pressure","116","mmHg",116,"mmHg",3
+"CDISC-01","VS","CDISC-01-704-003",1,"Visit 1","2023-01-28","WEIGHT","Weight","80.3","kg",80.3,"kg",4
+"CDISC-01","VS","CDISC-01-704-003",2,"Visit 2","2023-02-25","DIABP","Diastolic Blood Pressure","87","mmHg",87,"mmHg",5
+"CDISC-01","VS","CDISC-01-704-003",2,"Visit 2","2023-02-25","PULSE","Pulse Rate","62","beats/min",62,"beats/min",6
+"CDISC-01","VS","CDISC-01-704-003",2,"Visit 2","2023-02-25","SYSBP","Systolic Blood Pressure","118","mmHg",118,"mmHg",7
+"CDISC-01","VS","CDISC-01-704-003",2,"Visit 2","2023-02-25","WEIGHT","Weight","85.5","kg",85.5,"kg",8
+"CDISC-01","VS","CDISC-01-704-003",3,"Visit 3","2023-03-30","DIABP","Diastolic Blood Pressure","84","mmHg",84,"mmHg",9
+"CDISC-01","VS","CDISC-01-704-003",3,"Visit 3","2023-03-30","PULSE","Pulse Rate","76","beats/min",76,"beats/min",10
+"CDISC-01","VS","CDISC-01-704-003",3,"Visit 3","2023-03-30","SYSBP","Systolic Blood Pressure","113","mmHg",113,"mmHg",11
+"CDISC-01","VS","CDISC-01-704-003",3,"Visit 3","2023-03-30","WEIGHT","Weight","85.6","kg",85.6,"kg",12
+"CDISC-01","VS","CDISC-01-704-021",1,"Visit 1","2023-01-29","DIABP","Diastolic Blood Pressure","72","mmHg",72,"mmHg",1
+"CDISC-01","VS","CDISC-01-704-021",1,"Visit 1","2023-01-29","PULSE","Pulse Rate","97","beats/min",97,"beats/min",2
+"CDISC-01","VS","CDISC-01-704-021",1,"Visit 1","2023-01-29","SYSBP","Systolic Blood Pressure","142","mmHg",142,"mmHg",3
+"CDISC-01","VS","CDISC-01-704-021",1,"Visit 1","2023-01-29","WEIGHT","Weight","64.4","kg",64.4,"kg",4
+"CDISC-01","VS","CDISC-01-704-021",2,"Visit 2","2023-02-28","DIABP","Diastolic Blood Pressure","95","mmHg",95,"mmHg",5
+"CDISC-01","VS","CDISC-01-704-021",2,"Visit 2","2023-02-28","PULSE","Pulse Rate","63","beats/min",63,"beats/min",6
+"CDISC-01","VS","CDISC-01-704-021",2,"Visit 2","2023-02-28","SYSBP","Systolic Blood Pressure","160","mmHg",160,"mmHg",7
+"CDISC-01","VS","CDISC-01-704-021",2,"Visit 2","2023-02-28","WEIGHT","Weight","83.8","kg",83.8,"kg",8
+"CDISC-01","VS","CDISC-01-704-021",3,"Visit 3","2023-03-29","DIABP","Diastolic Blood Pressure","92","mmHg",92,"mmHg",9
+"CDISC-01","VS","CDISC-01-704-021",3,"Visit 3","2023-03-29","PULSE","Pulse Rate","85","beats/min",85,"beats/min",10
+"CDISC-01","VS","CDISC-01-704-021",3,"Visit 3","2023-03-29","SYSBP","Systolic Blood Pressure","125","mmHg",125,"mmHg",11
+"CDISC-01","VS","CDISC-01-704-021",3,"Visit 3","2023-03-29","WEIGHT","Weight","71.2","kg",71.2,"kg",12
+"CDISC-01","VS","CDISC-01-704-022",1,"Visit 1","2023-01-07","DIABP","Diastolic Blood Pressure","83","mmHg",83,"mmHg",1
+"CDISC-01","VS","CDISC-01-704-022",1,"Visit 1","2023-01-07","PULSE","Pulse Rate","80","beats/min",80,"beats/min",2
+"CDISC-01","VS","CDISC-01-704-022",1,"Visit 1","2023-01-07","SYSBP","Systolic Blood Pressure","119","mmHg",119,"mmHg",3
+"CDISC-01","VS","CDISC-01-704-022",1,"Visit 1","2023-01-07","WEIGHT","Weight","70.7","kg",70.7,"kg",4
+"CDISC-01","VS","CDISC-01-704-022",2,"Visit 2","2023-02-06","DIABP","Diastolic Blood Pressure","75","mmHg",75,"mmHg",5
+"CDISC-01","VS","CDISC-01-704-022",2,"Visit 2","2023-02-06","PULSE","Pulse Rate","75","beats/min",75,"beats/min",6
+"CDISC-01","VS","CDISC-01-704-022",2,"Visit 2","2023-02-06","SYSBP","Systolic Blood Pressure","129","mmHg",129,"mmHg",7
+"CDISC-01","VS","CDISC-01-704-022",2,"Visit 2","2023-02-06","WEIGHT","Weight","88.7","kg",88.7,"kg",8
+"CDISC-01","VS","CDISC-01-704-022",3,"Visit 3","2023-03-06","DIABP","Diastolic Blood Pressure","76","mmHg",76,"mmHg",9
+"CDISC-01","VS","CDISC-01-704-022",3,"Visit 3","2023-03-06","PULSE","Pulse Rate","64","beats/min",64,"beats/min",10
+"CDISC-01","VS","CDISC-01-704-022",3,"Visit 3","2023-03-06","SYSBP","Systolic Blood Pressure","125","mmHg",125,"mmHg",11
+"CDISC-01","VS","CDISC-01-704-022",3,"Visit 3","2023-03-06","WEIGHT","Weight","75.9","kg",75.9,"kg",12
+"CDISC-01","VS","CDISC-01-704-027",1,"Visit 1","2023-01-18","DIABP","Diastolic Blood Pressure","85","mmHg",85,"mmHg",1
+"CDISC-01","VS","CDISC-01-704-027",1,"Visit 1","2023-01-18","PULSE","Pulse Rate","99","beats/min",99,"beats/min",2
+"CDISC-01","VS","CDISC-01-704-027",1,"Visit 1","2023-01-18","SYSBP","Systolic Blood Pressure","151","mmHg",151,"mmHg",3
+"CDISC-01","VS","CDISC-01-704-027",1,"Visit 1","2023-01-18","WEIGHT","Weight","58.8","kg",58.8,"kg",4
+"CDISC-01","VS","CDISC-01-704-027",2,"Visit 2","2023-02-15","DIABP","Diastolic Blood Pressure","91","mmHg",91,"mmHg",5
+"CDISC-01","VS","CDISC-01-704-027",2,"Visit 2","2023-02-15","PULSE","Pulse Rate","75","beats/min",75,"beats/min",6
+"CDISC-01","VS","CDISC-01-704-027",2,"Visit 2","2023-02-15","SYSBP","Systolic Blood Pressure","159","mmHg",159,"mmHg",7
+"CDISC-01","VS","CDISC-01-704-027",2,"Visit 2","2023-02-15","WEIGHT","Weight","57.2","kg",57.2,"kg",8
+"CDISC-01","VS","CDISC-01-704-029",1,"Visit 1","2023-01-22","DIABP","Diastolic Blood Pressure","95","mmHg",95,"mmHg",1
+"CDISC-01","VS","CDISC-01-704-029",1,"Visit 1","2023-01-22","PULSE","Pulse Rate","67","beats/min",67,"beats/min",2
+"CDISC-01","VS","CDISC-01-704-029",1,"Visit 1","2023-01-22","SYSBP","Systolic Blood Pressure","114","mmHg",114,"mmHg",3
+"CDISC-01","VS","CDISC-01-704-029",1,"Visit 1","2023-01-22","WEIGHT","Weight","61.1","kg",61.1,"kg",4
+"CDISC-01","VS","CDISC-01-704-029",2,"Visit 2","2023-02-20","DIABP","Diastolic Blood Pressure","92","mmHg",92,"mmHg",5
+"CDISC-01","VS","CDISC-01-704-029",2,"Visit 2","2023-02-20","PULSE","Pulse Rate","85","beats/min",85,"beats/min",6
+"CDISC-01","VS","CDISC-01-704-029",2,"Visit 2","2023-02-20","SYSBP","Systolic Blood Pressure","130","mmHg",130,"mmHg",7
+"CDISC-01","VS","CDISC-01-704-029",2,"Visit 2","2023-02-20","WEIGHT","Weight","87.2","kg",87.2,"kg",8
+"CDISC-01","VS","CDISC-01-704-029",3,"Visit 3","2023-03-21","DIABP","Diastolic Blood Pressure","87","mmHg",87,"mmHg",9
+"CDISC-01","VS","CDISC-01-704-029",3,"Visit 3","2023-03-21","PULSE","Pulse Rate","61","beats/min",61,"beats/min",10
+"CDISC-01","VS","CDISC-01-704-029",3,"Visit 3","2023-03-21","SYSBP","Systolic Blood Pressure","140","mmHg",140,"mmHg",11
+"CDISC-01","VS","CDISC-01-704-029",3,"Visit 3","2023-03-21","WEIGHT","Weight","62.3","kg",62.3,"kg",12
+"CDISC-01","VS","CDISC-01-704-031",1,"Visit 1","2023-01-03","DIABP","Diastolic Blood Pressure","88","mmHg",88,"mmHg",1
+"CDISC-01","VS","CDISC-01-704-031",1,"Visit 1","2023-01-03","PULSE","Pulse Rate","60","beats/min",60,"beats/min",2
+"CDISC-01","VS","CDISC-01-704-031",1,"Visit 1","2023-01-03","SYSBP","Systolic Blood Pressure","155","mmHg",155,"mmHg",3
+"CDISC-01","VS","CDISC-01-704-031",1,"Visit 1","2023-01-03","WEIGHT","Weight","75.4","kg",75.4,"kg",4
+"CDISC-01","VS","CDISC-01-704-031",2,"Visit 2","2023-02-02","DIABP","Diastolic Blood Pressure","80","mmHg",80,"mmHg",5
+"CDISC-01","VS","CDISC-01-704-031",2,"Visit 2","2023-02-02","PULSE","Pulse Rate","89","beats/min",89,"beats/min",6
+"CDISC-01","VS","CDISC-01-704-031",2,"Visit 2","2023-02-02","SYSBP","Systolic Blood Pressure","113","mmHg",113,"mmHg",7
+"CDISC-01","VS","CDISC-01-704-031",2,"Visit 2","2023-02-02","WEIGHT","Weight","84","kg",84,"kg",8
+"CDISC-01","VS","CDISC-01-704-031",3,"Visit 3","2023-03-03","DIABP","Diastolic Blood Pressure","97","mmHg",97,"mmHg",9
+"CDISC-01","VS","CDISC-01-704-031",3,"Visit 3","2023-03-03","PULSE","Pulse Rate","68","beats/min",68,"beats/min",10
+"CDISC-01","VS","CDISC-01-704-031",3,"Visit 3","2023-03-03","SYSBP","Systolic Blood Pressure","117","mmHg",117,"mmHg",11
+"CDISC-01","VS","CDISC-01-704-031",3,"Visit 3","2023-03-03","WEIGHT","Weight","91.8","kg",91.8,"kg",12
+"CDISC-01","VS","CDISC-01-704-032",1,"Visit 1","2023-01-07","DIABP","Diastolic Blood Pressure","97","mmHg",97,"mmHg",1
+"CDISC-01","VS","CDISC-01-704-032",1,"Visit 1","2023-01-07","PULSE","Pulse Rate","84","beats/min",84,"beats/min",2
+"CDISC-01","VS","CDISC-01-704-032",1,"Visit 1","2023-01-07","SYSBP","Systolic Blood Pressure","137","mmHg",137,"mmHg",3
+"CDISC-01","VS","CDISC-01-704-032",1,"Visit 1","2023-01-07","WEIGHT","Weight","89.9","kg",89.9,"kg",4
+"CDISC-01","VS","CDISC-01-704-032",2,"Visit 2","2023-02-08","DIABP","Diastolic Blood Pressure","87","mmHg",87,"mmHg",5
+"CDISC-01","VS","CDISC-01-704-032",2,"Visit 2","2023-02-08","PULSE","Pulse Rate","78","beats/min",78,"beats/min",6
+"CDISC-01","VS","CDISC-01-704-032",2,"Visit 2","2023-02-08","SYSBP","Systolic Blood Pressure","144","mmHg",144,"mmHg",7
+"CDISC-01","VS","CDISC-01-704-032",2,"Visit 2","2023-02-08","WEIGHT","Weight","60.4","kg",60.4,"kg",8
+"CDISC-01","VS","CDISC-01-704-032",3,"Visit 3","2023-03-07","DIABP","Diastolic Blood Pressure","89","mmHg",89,"mmHg",9
+"CDISC-01","VS","CDISC-01-704-032",3,"Visit 3","2023-03-07","PULSE","Pulse Rate","70","beats/min",70,"beats/min",10
+"CDISC-01","VS","CDISC-01-704-032",3,"Visit 3","2023-03-07","SYSBP","Systolic Blood Pressure","126","mmHg",126,"mmHg",11
+"CDISC-01","VS","CDISC-01-704-032",3,"Visit 3","2023-03-07","WEIGHT","Weight","67.6","kg",67.6,"kg",12
+"CDISC-01","VS","CDISC-01-704-033",1,"Visit 1","2023-01-24","DIABP","Diastolic Blood Pressure","74","mmHg",74,"mmHg",1
+"CDISC-01","VS","CDISC-01-704-033",1,"Visit 1","2023-01-24","PULSE","Pulse Rate","95","beats/min",95,"beats/min",2
+"CDISC-01","VS","CDISC-01-704-033",1,"Visit 1","2023-01-24","SYSBP","Systolic Blood Pressure","122","mmHg",122,"mmHg",3
+"CDISC-01","VS","CDISC-01-704-033",1,"Visit 1","2023-01-24","WEIGHT","Weight","59.9","kg",59.9,"kg",4
+"CDISC-01","VS","CDISC-01-704-037",1,"Visit 1","2023-01-04","DIABP","Diastolic Blood Pressure","79","mmHg",79,"mmHg",1
+"CDISC-01","VS","CDISC-01-704-037",1,"Visit 1","2023-01-04","PULSE","Pulse Rate","79","beats/min",79,"beats/min",2
+"CDISC-01","VS","CDISC-01-704-037",1,"Visit 1","2023-01-04","SYSBP","Systolic Blood Pressure","133","mmHg",133,"mmHg",3
+"CDISC-01","VS","CDISC-01-704-037",1,"Visit 1","2023-01-04","WEIGHT","Weight","84.2","kg",84.2,"kg",4
+"CDISC-01","VS","CDISC-01-704-037",2,"Visit 2","2023-02-04","DIABP","Diastolic Blood Pressure","76","mmHg",76,"mmHg",5
+"CDISC-01","VS","CDISC-01-704-037",2,"Visit 2","2023-02-04","PULSE","Pulse Rate","83","beats/min",83,"beats/min",6
+"CDISC-01","VS","CDISC-01-704-037",2,"Visit 2","2023-02-04","SYSBP","Systolic Blood Pressure","135","mmHg",135,"mmHg",7
+"CDISC-01","VS","CDISC-01-704-037",2,"Visit 2","2023-02-04","WEIGHT","Weight","72.4","kg",72.4,"kg",8
+"CDISC-01","VS","CDISC-01-704-037",3,"Visit 3","2023-03-02","DIABP","Diastolic Blood Pressure","78","mmHg",78,"mmHg",9
+"CDISC-01","VS","CDISC-01-704-037",3,"Visit 3","2023-03-02","PULSE","Pulse Rate","74","beats/min",74,"beats/min",10
+"CDISC-01","VS","CDISC-01-704-037",3,"Visit 3","2023-03-02","SYSBP","Systolic Blood Pressure","145","mmHg",145,"mmHg",11
+"CDISC-01","VS","CDISC-01-704-037",3,"Visit 3","2023-03-02","WEIGHT","Weight","80","kg",80,"kg",12
+"CDISC-01","VS","CDISC-01-704-038",1,"Visit 1","2023-01-03","DIABP","Diastolic Blood Pressure","96","mmHg",96,"mmHg",1
+"CDISC-01","VS","CDISC-01-704-038",1,"Visit 1","2023-01-03","PULSE","Pulse Rate","85","beats/min",85,"beats/min",2
+"CDISC-01","VS","CDISC-01-704-038",1,"Visit 1","2023-01-03","SYSBP","Systolic Blood Pressure","111","mmHg",111,"mmHg",3
+"CDISC-01","VS","CDISC-01-704-038",1,"Visit 1","2023-01-03","WEIGHT","Weight","58.7","kg",58.7,"kg",4
+"CDISC-01","VS","CDISC-01-704-038",2,"Visit 2","2023-02-04","DIABP","Diastolic Blood Pressure","90","mmHg",90,"mmHg",5
+"CDISC-01","VS","CDISC-01-704-038",2,"Visit 2","2023-02-04","PULSE","Pulse Rate","90","beats/min",90,"beats/min",6
+"CDISC-01","VS","CDISC-01-704-038",2,"Visit 2","2023-02-04","SYSBP","Systolic Blood Pressure","145","mmHg",145,"mmHg",7
+"CDISC-01","VS","CDISC-01-704-038",2,"Visit 2","2023-02-04","WEIGHT","Weight","80.2","kg",80.2,"kg",8
+"CDISC-01","VS","CDISC-01-704-038",3,"Visit 3","2023-03-06","DIABP","Diastolic Blood Pressure","84","mmHg",84,"mmHg",9
+"CDISC-01","VS","CDISC-01-704-038",3,"Visit 3","2023-03-06","PULSE","Pulse Rate","80","beats/min",80,"beats/min",10
+"CDISC-01","VS","CDISC-01-704-038",3,"Visit 3","2023-03-06","SYSBP","Systolic Blood Pressure","148","mmHg",148,"mmHg",11
+"CDISC-01","VS","CDISC-01-704-038",3,"Visit 3","2023-03-06","WEIGHT","Weight","71.8","kg",71.8,"kg",12
+"CDISC-01","VS","CDISC-01-704-044",1,"Visit 1","2023-01-13","DIABP","Diastolic Blood Pressure","100","mmHg",100,"mmHg",1
+"CDISC-01","VS","CDISC-01-704-044",1,"Visit 1","2023-01-13","PULSE","Pulse Rate","69","beats/min",69,"beats/min",2
+"CDISC-01","VS","CDISC-01-704-044",1,"Visit 1","2023-01-13","SYSBP","Systolic Blood Pressure","125","mmHg",125,"mmHg",3
+"CDISC-01","VS","CDISC-01-704-044",1,"Visit 1","2023-01-13","WEIGHT","Weight","69.2","kg",69.2,"kg",4
+"CDISC-01","VS","CDISC-01-704-044",2,"Visit 2","2023-02-13","DIABP","Diastolic Blood Pressure","78","mmHg",78,"mmHg",5
+"CDISC-01","VS","CDISC-01-704-044",2,"Visit 2","2023-02-13","PULSE","Pulse Rate","95","beats/min",95,"beats/min",6
+"CDISC-01","VS","CDISC-01-704-044",2,"Visit 2","2023-02-13","SYSBP","Systolic Blood Pressure","119","mmHg",119,"mmHg",7
+"CDISC-01","VS","CDISC-01-704-044",2,"Visit 2","2023-02-13","WEIGHT","Weight","69.8","kg",69.8,"kg",8
+"CDISC-01","VS","CDISC-01-704-044",3,"Visit 3","2023-03-16","DIABP","Diastolic Blood Pressure","74","mmHg",74,"mmHg",9
+"CDISC-01","VS","CDISC-01-704-044",3,"Visit 3","2023-03-16","PULSE","Pulse Rate","75","beats/min",75,"beats/min",10
+"CDISC-01","VS","CDISC-01-704-044",3,"Visit 3","2023-03-16","SYSBP","Systolic Blood Pressure","128","mmHg",128,"mmHg",11
+"CDISC-01","VS","CDISC-01-704-044",3,"Visit 3","2023-03-16","WEIGHT","Weight","92.4","kg",92.4,"kg",12

@@ -1,0 +1,3 @@
+sandbox: docker run --rm --name sas2r-388c319e02b4 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\gpt-oss-120b-ollama\P019\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Error: object 'r' not found
+Execution halted

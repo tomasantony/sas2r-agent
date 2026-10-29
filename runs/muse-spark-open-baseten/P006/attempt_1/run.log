@@ -1,0 +1,7 @@
+sandbox: docker run --rm --name sas2r-add09aa48e5c --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P006\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Step 1: Read SDTM EX and DM
+Reading ex from /bench/data/derived/c2c/data/sdtm/ex.sas7bdat 
+Reading dm from /bench/data/derived/c2c/data/sdtm/dm.sas7bdat 
+Error in ex_first_sorted %>% dplyr::arrange(USUBJID, EXSTDTC) %>% dplyr::group_by(USUBJID) %>%  : 
+  could not find function "%>%"
+Execution halted

@@ -1,0 +1,51 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.9909502262443439,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P011.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9819004524886877,
+   "detail": {
+    "recall": 0.9819004524886877,
+    "expected": 221,
+    "found": 217,
+    "r_files": [
+     "dm.csv",
+     "P011.csv",
+     "P011.lst.csv",
+     "P011.lst.txt",
+     "P011.txt"
+    ],
+    "missing_examples": [
+     "4",
+     "7",
+     "8",
+     "9"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "dm",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten\\P011\\attempt_3\\out\\dm.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 50,
+    "rows_r": 50,
+    "cols_sas": 14,
+    "cols_r": 14,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  }
+ ]
+}

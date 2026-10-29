@@ -1,0 +1,5 @@
+"Level","BodySystem","PreferredTerm","Placebo","LowDose","HighDose","P_Low_vs_Placebo","P_High_vs_Placebo","P_Low_raw","P_High_raw"
+1,"Overall","Subjects with Serious TEAE",,,,"1.0000","1.0000",1,1
+2,"NERVOUS SYSTEM DISORDERS","",,,,"1.0000","1.0000",1,1
+3,"NERVOUS SYSTEM DISORDERS","PARTIAL SEIZURES WITH SECONDARY GENERALISATION",,,,"1.0000","1.0000",1,1
+3,"NERVOUS SYSTEM DISORDERS","SYNCOPE",,,,"1.0000","1.0000",1,1

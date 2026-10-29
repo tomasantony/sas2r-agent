@@ -1,0 +1,21 @@
+sandbox: docker run --rm --name sas2r-2cd84dab3ed0 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P021\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Candidate ADSL files found:
+[1] "/bench/data/derived/c2c/data/adam/adsl.sas7bdat"         
+[2] "/bench/data/derived/c2c/data/adam/ADSL.sas7bdat"         
+[3] "/bench/data/raw/cdisc-pilot/adam/adsl.xpt"               
+[4] "/bench/data/raw/own-synthetic/adam/adsl.sas7bdat"        
+[5] "/bench/data/raw/wxzhai-portfolio/adam/data/adsl.sas7bdat"
+[6] "/bench/data/derived/cdisc-pilot/adam-split/adsl.sas7bdat"
+[7] "/bench/data/derived/cdisc-pilot/adam-split/adsl.xpt"     
+Trying to read: /bench/data/derived/c2c/data/adam/adsl.sas7bdat 
+Successfully read ADSL from: /bench/data/derived/c2c/data/adam/adsl.sas7bdat nrow= 50 
+ITTFL=Y nrow: 47 
+TRT01P levels: Active Drug 50mg | Placebo 
+SEX levels: F | M 
+RACE levels: ASIAN | BLACK OR AFRICAN AMERICAN | OTHER | WHITE 
+Wrote CSV to /work/out/P021.csv and /work/out/P021.lst.csv 
+Total formatted numeric cells: 54 
+Wrote text rendering to /work/out/P021.txt 
+Wrote text rendering to /work/out/P021.lst.txt 
+Wrote text rendering to /work/out/P021.lst 
+Done. Outputs in /work/out 

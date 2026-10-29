@@ -1,0 +1,31 @@
+sandbox: docker run --rm --name sas2r-57fba221e848 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P020\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+P020: Starting translation of tlf_figure1.sas
+OUT_DIR: /work/out 
+ADTTE path: /bench/data/derived/c2c/data/adam/adtte.sas7bdat 
+ADTTE rows: 47 cols: 12 
+# A tibble: 3 × 6
+  TRT01A               N N_CENSORED N_EVENT PCT_CENSORED PCT_EVENT
+  <chr>            <int>      <int>   <int>        <dbl>     <dbl>
+1 Active Drug 50mg    21          9      12         42.9      57.1
+2 Placebo             26         11      15         42.3      57.7
+3 Total               47         20      27         42.6      57.4
+  25 50 75           TRT01A 25_LOWER 50_LOWER 75_LOWER 25_UPPER 50_UPPER
+1 32 69 NA Active Drug 50mg       17       36       83       69       NA
+2 17 40 NA          Placebo       13       21       62       40       NA
+  75_UPPER
+1       NA
+2       NA
+Warning message:
+There was 1 warning in `summarise()`.
+ℹ In argument: `25 = get_quartile(cur_data(), 0.75)`.
+ℹ In group 1: `TRT01A = "Active Drug 50mg"`.
+Caused by warning:
+! `cur_data()` was deprecated in dplyr 1.1.0.
+ℹ Please use `pick()` instead. 
+Log-Rank chi-square: 0.61334 df 1 p 0.433533 
+Saved PNG: /work/out/P020.png 
+Wrote text: /work/out/P020.txt lines: 97 
+Wrote text: /work/out/P020.lst.txt lines: 97 
+Wrote text: /work/out/P020.lst lines: 97 
+P020: Completed successfully
+Files: figure1_plot_data.csv, P020_atrisk_wide.csv, P020_atrisk.csv, P020_atrisk.png, P020_figure1_plot_data.csv, P020_logrank.csv, P020_plot_data.csv, P020_quartiles.csv, P020_summary.csv, P020_table.csv, P020.csv, P020.lst, P020.lst.csv, P020.lst.txt, P020.png, P020.txt, tlf_figure1.png 

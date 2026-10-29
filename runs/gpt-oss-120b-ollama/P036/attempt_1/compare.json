@@ -1,0 +1,73 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P036.lst",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 106,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "0",
+     "1",
+     "79",
+     "5",
+     "84",
+     "31.6",
+     "2",
+     "33.6",
+     "94.05",
+     "5.95",
+     "33.62",
+     "33.33"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "sasgraph.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sasgraph.png"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "Target16.pdf",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 41,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "40",
+     "50",
+     "60",
+     "70",
+     "80",
+     "90",
+     "100",
+     "1",
+     "0",
+     "54",
+     "81",
+     "84"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  }
+ ]
+}

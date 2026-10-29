@@ -1,0 +1,28 @@
+sandbox: docker run --rm --name sas2r-92e94c9acb86 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P020\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+P020: Starting translation of tlf_figure1.sas
+OUT_DIR: /work/out 
+project_path: /bench/data/derived/c2c 
+ADTTE path: /bench/data/derived/c2c/data/adam/adtte.sas7bdat 
+ADTTE rows: 47 cols: 12 
+ [1] "STUDYID" "USUBJID" "PARAMCD" "PARAM"   "TRT01P"  "TRT01A"  "TRTSDT" 
+ [8] "TRTEDT"  "EOSDT"   "EVENTDT" "CNSR"    "AVAL"   
+PARAMCD levels: TTFAEV 
+PARAM levels: Time to First Adverse Event 
+Strata summary:
+# A tibble: 3 × 6
+  TRT01A               N N_CENSORED N_EVENT PCT_CENSORED PCT_EVENT
+  <chr>            <int>      <int>   <int>        <dbl>     <dbl>
+1 Active Drug 50mg    21          9      12         42.9      57.1
+2 Placebo             26         11      15         42.3      57.7
+3 Total               47         20      27         42.6      57.4
+Quartile estimates:
+  25 50 75           TRT01A 25_LOWER 50_LOWER 75_LOWER 25_UPPER 50_UPPER
+1 32 69 NA Active Drug 50mg       17       36       83       69       NA
+2 17 40 NA          Placebo       13       21       62       40       NA
+  75_UPPER
+1       NA
+2       NA
+Log-Rank chi-square: 0.61334 df 1 p 0.433533 
+Error in surv_summary(fit, data = adtte, times = breaks_atrisk) : 
+  unused argument (times = breaks_atrisk)
+Execution halted

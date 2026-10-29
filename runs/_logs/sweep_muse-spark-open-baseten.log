@@ -1,0 +1,24 @@
+muse-spark-open-baseten: 98 programs to run; spent so far $0.49 (32,551 in / 106,488 out); budget $60.00
+P002: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=2 tokens=14810/14131 47s  spent=$0.57
+P003: translated=True runs=True all_outputs=True equivalent=False score=0.337 iters=3 tokens=26452/21588 68s  spent=$0.70
+P005: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=2805/8222 26s  spent=$0.74
+P006: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=2 tokens=9908/11803 40s  spent=$0.80
+P007: translated=True runs=True all_outputs=True equivalent=True score=0.986 iters=2 tokens=8683/9870 35s  spent=$0.85
+P008: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=2 tokens=10956/17593 61s  spent=$0.94
+P009: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=2 tokens=10715/11088 39s  spent=$1.00
+P010: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=2668/7023 25s  spent=$1.03
+P011: translated=True runs=True all_outputs=True equivalent=True score=0.991 iters=3 tokens=21712/15911 57s  spent=$1.13
+P012: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=2 tokens=9579/8916 31s  spent=$1.18
+P013: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=2 tokens=8607/9922 34s  spent=$1.23
+P014: translated=True runs=True all_outputs=True equivalent=False score=0.957 iters=3 tokens=17902/18263 64s  spent=$1.33
+P015: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=3 tokens=24021/18149 67s  spent=$1.44
+P016: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=1996/5500 22s  spent=$1.46
+P017: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=3 tokens=17809/28437 95s  spent=$1.61
+P018: translated=True runs=True all_outputs=True equivalent=False score=0.930 iters=3 tokens=19470/18706 65s  spent=$1.71
+P019: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=2 tokens=26890/22769 66s  spent=$1.84
+P020: translated=True runs=True all_outputs=True equivalent=False score=0.929 iters=3 tokens=28572/24919 83s  spent=$1.98
+P021: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=1986/9378 30s  spent=$2.02
+P022: translated=True runs=True all_outputs=True equivalent=False score=0.883 iters=3 tokens=30398/24623 83s  spent=$2.17
+P023: translated=True runs=True all_outputs=True equivalent=True score=0.972 iters=1 tokens=3130/7193 25s  spent=$2.20
+P024: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=3 tokens=31939/24146 71s  spent=$2.34
+P025: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=3 tokens=28103/22706 71s  spent=$2.48

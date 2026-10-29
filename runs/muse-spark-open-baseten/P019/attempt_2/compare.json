@@ -1,0 +1,44 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P019.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 156,
+    "found": 156,
+    "r_files": [
+     "P019.csv",
+     "P019.txt",
+     "qc_report.csv"
+    ],
+    "missing_examples": []
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "qc_report",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten\\P019\\attempt_2\\out\\qc_report.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 39,
+    "rows_r": 39,
+    "cols_sas": 5,
+    "cols_r": 5,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  }
+ ]
+}

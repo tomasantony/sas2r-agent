@@ -1,0 +1,60 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.946969696969697,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P017.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 168,
+    "found": 168,
+    "r_files": [
+     "P017.csv",
+     "P017.lst.csv",
+     "P017.lst.txt",
+     "P017.txt",
+     "sv.csv"
+    ],
+    "missing_examples": []
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "sv",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten\\P017\\attempt_2\\out\\sv.csv",
+   "status": "mismatch",
+   "score": 0.8939393939393939,
+   "detail": {
+    "rows_sas": 132,
+    "rows_r": 132,
+    "cols_sas": 8,
+    "cols_r": 8,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.8939393939393939,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(SVSTDTC, 4, '2023-01-02', '2023-02-20')",
+     "(SVSTDTC, 6, '2023-03-05', '2023-05-20')",
+     "(SVSTDTC, 7, '2023-01-07', '2023-07-20')",
+     "(SVSTDTC, 8, '2023-02-03', '2023-03-20')",
+     "(SVSTDTC, 12, '2023-01-03', '2023-03-20')",
+     "(SVSTDTC, 13, '2023-02-01', '2023-01-20')",
+     "(SVSTDTC, 14, '2023-03-04', '2023-04-20')",
+     "(SVSTDTC, 15, '2023-01-08', '2023-08-20')",
+     "(SVSTDTC, 16, '2023-02-06', '2023-06-20')",
+     "(SVSTDTC, 17, '2023-03-09', '2023-09-20')"
+    ],
+    "worst_columns": {
+     "SVSTDTC": 56,
+     "SVENDTC": 56
+    }
+   }
+  }
+ ]
+}

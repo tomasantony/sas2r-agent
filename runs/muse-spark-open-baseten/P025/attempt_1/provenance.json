@@ -1,0 +1,67 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P025",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T19:22:44",
+ "agent_commit": "24dc4d4d107422c85a3669220453db9e2eaf2e38",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 2647,
+  "output_tokens": 8690,
+  "reasoning_tokens": 2917,
+  "finish_reason": "stop",
+  "seconds": 25.2
+ },
+ "inputs": {
+  "prompt_translate.md": "9a6405252acdf2e25378ec0bc80ea8be86a6a2cc43fe351a2f0a35f44384179b"
+ },
+ "model_output": {
+  "response.md": "d45bcc54d7cd650fb6ac4f9463dc8f0dfb770552a2759a8b18a0d74453cc0783",
+  "reasoning.md": "95637ec709eccb1d06352bbc07caa747ed25c71440962c7cd58b23ecf45de100",
+  "script.R": "4009ebd0fba160618aaf2c56e9f03254ecfac6b634082b97a1d55db2f39c13e5"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.3,
+  "timed_out": false,
+  "log_sha256": "c4944ba75084a38530f1056cf2a449bf6551c7ecd26486066d28b9585647111e"
+ },
+ "r_outputs": {
+  "P025.csv": "43d5c1aaccbaf87827b85bd9b45264cc3255dfa2211bfa2fff2f10357911c453",
+  "P025.lst": "9558845c30ba3a7db2552fd16788a0f915cd6a52c149cc2eee742d62e2a5c21c",
+  "P025.lst.csv": "43d5c1aaccbaf87827b85bd9b45264cc3255dfa2211bfa2fff2f10357911c453",
+  "P025.lst.txt": "9558845c30ba3a7db2552fd16788a0f915cd6a52c149cc2eee742d62e2a5c21c",
+  "P025.txt": "9558845c30ba3a7db2552fd16788a0f915cd6a52c149cc2eee742d62e2a5c21c",
+  "P025_detailed.txt": "495244c1aefd8c65193ea25f564a63659efb769a5e6c83ac43515838f9846179",
+  "sdtm_ex.csv": "43d5c1aaccbaf87827b85bd9b45264cc3255dfa2211bfa2fff2f10357911c453"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P025.lst",
+   "sha256": "e9cb01f389e83c4c6525d2a1fb21ab1d3f71dc052aee721975a511471b4d795b",
+   "frozen_sha256": "e9cb01f389e83c4c6525d2a1fb21ab1d3f71dc052aee721975a511471b4d795b",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.9019607843137255,
+  "produced_all": true
+ }
+}

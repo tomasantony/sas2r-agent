@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAS to R Leaderboard</title>
+<meta name="description" content="How well each model's agentic SAS-to-R translation reproduces the SAS reference outputs of a 100-program clinical benchmark.">
+<style>
+:root {
+  color-scheme: light;
+  --bg: #f6f6f4; --surface: #fcfcfb; --line: #dddcd7; --grid: #ebeae6;
+  --text: #0b0b0b; --text-2: #52514e; --muted: #7a7872;
+  --meta: #2a78d6; --baseline: #eb6834;
+  --ok: #008300; --warn: #eda100; --bad: #e34948; --none: #c9c8c2;
+  --accent-bg: #e8f0fb;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #111110; --surface: #1a1a19; --line: #33332f; --grid: #262624;
+    --text: #f0efec; --text-2: #c3c2b7; --muted: #8f8e86;
+    --meta: #3987e5; --baseline: #d95926;
+    --ok: #2e9b2e; --warn: #c98500; --bad: #e66767; --none: #44443f;
+    --accent-bg: #1d2a3d;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #111110; --surface: #1a1a19; --line: #33332f; --grid: #262624;
+  --text: #f0efec; --text-2: #c3c2b7; --muted: #8f8e86;
+  --meta: #3987e5; --baseline: #d95926;
+  --ok: #2e9b2e; --warn: #c98500; --bad: #e66767; --none: #44443f;
+  --accent-bg: #1d2a3d;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 1240px; margin: 0 auto; padding: 24px 16px 64px; }
+h1 { font-size: 26px; margin: 0 0 4px; letter-spacing: -0.01em; }
+h2 { font-size: 17px; margin: 32px 0 10px; }
+.sub { color: var(--text-2); margin: 0 0 20px; max-width: 70ch; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin-bottom: 20px; }
+.tile .k { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.tile .v { font-size: 26px; font-weight: 600; margin-top: 2px; font-variant-numeric: tabular-nums; }
+.tile .d { font-size: 12px; color: var(--text-2); }
+table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+th, td { padding: 7px 10px; border-bottom: 1px solid var(--grid); text-align: right; white-space: nowrap; }
+th:first-child, td:first-child, th.l, td.l { text-align: left; }
+th { color: var(--text-2); font-weight: 500; font-size: 13px; }
+tbody tr:hover { background: var(--accent-bg); }
+.tag { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 999px; border: 1px solid currentColor; margin-right: 6px; vertical-align: middle; }
+.tag.meta { color: var(--meta); } .tag.baseline { color: var(--baseline); }
+.scroll { overflow-x: auto; }
+svg text { fill: var(--text); font-size: 12px; }
+svg .ax { stroke: var(--line); } svg .grid { stroke: var(--grid); }
+svg .lbl { fill: var(--text-2); }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 13px; color: var(--text-2); margin: 8px 0 0; }
+.legend span::before { content: ""; display: inline-block; width: 11px; height: 11px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; background: var(--c); }
+.grid-wrap { overflow-x: auto; padding-bottom: 6px; }
+.pgrid { display: grid; grid-auto-rows: 18px; gap: 2px; min-width: 900px; }
+.pgrid .rl { grid-column: 1; font-size: 12px; color: var(--text-2); white-space: nowrap; padding-right: 8px; line-height: 18px; }
+.cell { border-radius: 3px; background: var(--none); cursor: pointer; }
+.cell.ok { background: var(--ok); } .cell.near { background: var(--warn); } .cell.bad { background: var(--bad); }
+.cell:hover, .cell.sel { outline: 2px solid var(--text); outline-offset: 1px; }
+.tt { position: fixed; pointer-events: none; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 6px 9px; font-size: 12px; box-shadow: 0 4px 14px rgba(0,0,0,.12); display: none; z-index: 10; max-width: 320px; }
+#detail pre { background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 12px; overflow: auto; max-height: 420px; font-size: 12.5px; line-height: 1.4; }
+#detail .row { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 13px; color: var(--text-2); margin-bottom: 8px; }
+#detail code { font-size: 12px; }
+.pill { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--accent-bg); }
+.ok-t { color: var(--ok); font-weight: 600; } .bad-t { color: var(--bad); font-weight: 600; }
+button { font: inherit; font-size: 13px; padding: 4px 10px; border-radius: 6px; border: 1px solid var(--line); background: var(--surface); color: var(--text); cursor: pointer; }
+button.on { background: var(--accent-bg); border-color: var(--meta); }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0 0 12px; font-size: 13px; color: var(--text-2); }
+.foot { color: var(--muted); font-size: 12.5px; margin-top: 28px; max-width: 80ch; }
+a { color: var(--meta); }
+</style>
+</head>
+<body>
+<main>
+  <h1>SAS to R translation leaderboard</h1>
+  <p class="sub">An agent translates each of 100 clinical SAS programs to R, runs the R in a sandbox, compares every output against the SAS reference and repairs up to three times. A program counts as <b>equivalent</b> only when every dataset, table, listing and figure matched.</p>
+
+  <div class="tiles" id="tiles"></div>
+
+  <div class="controls">
+    <span>Rows:</span>
+    <button class="on" data-f="all">all</button><button data-f="meta">Meta models</button><button data-f="baseline">baselines</button>
+    <span style="margin-left:12px">Program group:</span>
+    <button class="on" data-g="all">all</button><button data-g="clinical">clinical</button><button data-g="general">general</button>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Equivalent translations per model</h2>
+    <div id="bars"></div>
+    <div class="legend"><span style="--c:var(--meta)">Meta model</span><span style="--c:var(--baseline)">baseline (not a Meta model)</span></div>
+  </div>
+
+  <h2>Scorecard</h2>
+  <div class="card scroll"><table id="board"><thead><tr>
+    <th class="l">model</th><th>programs</th><th>ran</th><th>all outputs</th><th>equivalent</th><th>mean attempts</th><th>mean sec</th><th>list $/M in / out</th><th>cost</th><th>$ / program</th><th>$ / equivalent</th>
+  </tr></thead><tbody></tbody></table>
+  <p class="foot" style="margin-top:10px">Costs apply each vendor's list price per million tokens (reasoning tokens billed as output) to the tokens the runs actually used. Hackathon credits that paid for the runs are not reflected. "$ / equivalent" is the price of one translation that fully matched SAS, so it penalises models that fail cheaply.</p></div>
+
+  <h2>Every program, every model</h2>
+  <div class="card">
+    <div class="legend" style="margin:0 0 10px"><span style="--c:var(--ok)">equivalent</span><span style="--c:var(--warn)">ran, score ≥ 0.9</span><span style="--c:var(--bad)">ran, score &lt; 0.9 or failed</span><span style="--c:var(--none)">not run</span></div>
+    <div class="grid-wrap"><div class="pgrid" id="pgrid"></div></div>
+    <p class="foot" style="margin-top:8px">Click a cell to see the generated R, the comparison and the provenance record for that program and model.</p>
+  </div>
+
+  <div id="detail" class="card" style="margin-top:16px; display:none"></div>
+
+  <p class="foot" id="foot"></p>
+</main>
+<div class="tt" id="tt"></div>
+<script src="data.js"></script>
+<script>
+(function () {
+  const $ = (s, el) => (el || document).querySelector(s);
+  const fmt = (n, d) => n == null ? "n/a" : Number(n).toFixed(d);
+  const pct = n => fmt(n, 0) + "%";
+  const BOARD = window.BOARD;
+  if (!BOARD) { document.body.innerHTML = "<main><p>No data: run <code>python -m agent leaderboard</code> to write dashboard/data.js.</p></main>"; return; }
+  const board = BOARD.board, meta = BOARD.meta || {};
+  const provs = Object.keys(board);
+  let roleFilter = "all", groupFilter = "all", selected = null;
+
+  const roleOf = p => (board[p].role || (p.startsWith("muse") ? "meta" : "baseline"));
+  const label = p => board[p].overall.model || p;
+
+  function summary(p) {
+    const o = board[p];
+    return groupFilter === "all" ? o.overall : (o.by_group[groupFilter] || null);
+  }
+  function visible() {
+    return provs.filter(p => (roleFilter === "all" || roleOf(p) === roleFilter) && summary(p));
+  }
+
+  function tiles() {
+    const best = provs.map(p => [p, board[p].overall]).filter(x => x[1].programs >= 50).sort((a, b) => b[1].equivalent_pct - a[1].equivalent_pct)[0];
+    const nprog = Math.max(...provs.map(p => board[p].overall.programs));
+    const nmodels = provs.length;
+    const cheapest = provs.map(p => [p, board[p].overall]).filter(x => x[1].programs >= 50 && x[1].cost_per_equivalent_usd != null).sort((a, b) => a[1].cost_per_equivalent_usd - b[1].cost_per_equivalent_usd)[0];
+    const t = [
+      ["programs in benchmark", nprog, "SAS reference outputs frozen and hashed"],
+      ["models compared", nmodels, provs.filter(p => roleOf(p) === "meta").length + " Meta, " + provs.filter(p => roleOf(p) === "baseline").length + " baseline"],
+      best ? ["best full sweep", pct(best[1].equivalent_pct), label(best[0]) + " equivalent"] : null,
+      cheapest ? ["cheapest per equivalent", "$" + fmt(cheapest[1].cost_per_equivalent_usd, 3), label(cheapest[0])] : null,
+    ].filter(Boolean);
+    $("#tiles").innerHTML = t.map(x => `<div class="card tile"><div class="k">${x[0]}</div><div class="v">${x[1]}</div><div class="d">${x[2]}</div></div>`).join("");
+  }
+
+  function bars() {
+    const rows = visible().map(p => [p, summary(p)]).sort((a, b) => b[1].equivalent_pct - a[1].equivalent_pct);
+    const W = Math.min(1180, $("#bars").clientWidth || 900), lw = 300, rh = 30, H = rows.length * rh + 28;
+    const x = v => lw + (v / 100) * (W - lw - 60);
+    let s = `<svg width="${W}" height="${H}" role="img" aria-label="Equivalent translations per model">`;
+    [0, 25, 50, 75, 100].forEach(v => { s += `<line class="grid" x1="${x(v)}" x2="${x(v)}" y1="0" y2="${H - 24}"/><text class="lbl" x="${x(v)}" y="${H - 6}" text-anchor="middle">${v}%</text>`; });
+    rows.forEach(([p, o], i) => {
+      const y = i * rh + 4, c = roleOf(p) === "meta" ? "var(--meta)" : "var(--baseline)";
+      const w = Math.max(0, x(o.equivalent_pct) - x(0));
+      s += `<text x="${lw - 10}" y="${y + 17}" text-anchor="end">${label(p)}</text>`;
+      s += `<rect x="${x(0)}" y="${y + 4}" width="${w}" height="${rh - 12}" rx="4" fill="${c}" data-p="${p}"><title>${label(p)}: ${pct(o.equivalent_pct)} equivalent of ${o.programs} programs</title></rect>`;
+      s += `<text x="${x(o.equivalent_pct) + 6}" y="${y + 17}">${pct(o.equivalent_pct)}<tspan class="lbl"> of ${o.programs}</tspan></text>`;
+    });
+    s += `<line class="ax" x1="${x(0)}" x2="${x(0)}" y1="0" y2="${H - 24}"/></svg>`;
+    $("#bars").innerHTML = s;
+  }
+
+  function table() {
+    const rows = visible().map(p => [p, summary(p)]).sort((a, b) => b[1].equivalent_pct - a[1].equivalent_pct || a[1].cost_per_equivalent_usd - b[1].cost_per_equivalent_usd);
+    $("#board tbody").innerHTML = rows.map(([p, o]) => {
+      const [pin, pout] = o.list_price_per_m || [0, 0];
+      return `<tr><td class="l"><span class="tag ${roleOf(p)}">${roleOf(p)}</span>${label(p)}<div style="font-size:11px;color:var(--muted)">${p}${board[p].note ? " · " + board[p].note : ""}</div></td>
+        <td>${o.programs}</td><td>${pct(o.runs_pct)}</td><td>${pct(o.produced_all_pct)}</td><td><b>${pct(o.equivalent_pct)}</b></td>
+        <td>${fmt(o.mean_iterations, 2)}</td><td>${fmt(o.mean_seconds, 0)}</td><td>${fmt(pin, 2)} / ${fmt(pout, 2)}</td>
+        <td>$${fmt(o.cost_usd, 2)}</td><td>$${fmt(o.cost_per_program_usd, 3)}</td><td>${o.cost_per_equivalent_usd == null ? "n/a" : "$" + fmt(o.cost_per_equivalent_usd, 3)}</td></tr>`;
+    }).join("");
+  }
+
+  function grid() {
+    const ids = BOARD.programs || [];
+    const shown = ids.filter(x => groupFilter === "all" || x.group === groupFilter);
+    const ps = visible();
+    const g = $("#pgrid");
+    g.style.gridTemplateColumns = `230px repeat(${shown.length}, minmax(9px, 1fr))`;
+    let h = "";
+    ps.forEach(p => {
+      const byId = {}; (board[p].programs || []).forEach(r => byId[r.id] = r);
+      h += `<div class="rl" title="${label(p)}">${label(p)}</div>`;
+      shown.forEach(x => {
+        const r = byId[x.id];
+        let cls = "";
+        if (r) cls = r.equivalent ? "ok" : (r.runs && r.best_score >= 0.9 ? "near" : "bad");
+        const sel = selected && selected[0] === p && selected[1] === x.id ? " sel" : "";
+        h += `<div class="cell ${cls}${sel}" data-p="${p}" data-id="${x.id}" data-tip="${x.id} · ${label(p)}${r ? ` · ${r.equivalent ? "equivalent" : "not equivalent"} · score ${fmt(r.best_score, 3)} · ${r.iterations} attempt${r.iterations === 1 ? "" : "s"}` : " · not run"}${x.family ? " · " + x.family : ""}"></div>`;
+      });
+    });
+    g.innerHTML = h;
+  }
+
+  async function fetchText(path) {
+    try { const r = await fetch(path); if (!r.ok) throw new Error(r.status); return await r.text(); }
+    catch (e) { return null; }
+  }
+  async function detail(p, id) {
+    selected = [p, id]; grid();
+    const d = $("#detail"); d.style.display = "block";
+    const r = (board[p].programs || []).find(x => x.id === id);
+    if (!r) { d.innerHTML = `<h2 style="margin-top:0">${id} · ${label(p)}</h2><p>Not run yet.</p>`; return; }
+    const base = `../runs/${p}/${id}`;
+    d.innerHTML = `<h2 style="margin-top:0">${id} · ${label(p)}</h2><div class="row">
+      <span class="pill">${r.family || ""}</span>
+      <span class="${r.equivalent ? "ok-t" : "bad-t"}">${r.equivalent ? "equivalent to SAS" : "not equivalent"}</span>
+      <span>best score ${fmt(r.best_score, 3)}</span><span>${r.iterations} attempt(s)</span>
+      <span>best attempt ${r.best_attempt || "?"}</span></div><p class="foot">loading…</p>`;
+    const n = r.best_attempt || r.iterations || 1;
+    const [script, cmp, prov] = await Promise.all([fetchText(`${base}/attempt_${n}/script.R`), fetchText(`${base}/attempt_${n}/compare.json`), fetchText(`${base}/attempt_${n}/provenance.json`)]);
+    let h = $("#detail").innerHTML.replace('<p class="foot">loading…</p>', "");
+    if (script == null && cmp == null) {
+      h += `<p class="foot">Run files are not reachable from this page (open the dashboard over HTTP or GitHub Pages). They live in <code>runs/${p}/${id}/attempt_${n}/</code>.</p>`;
+    } else {
+      if (cmp) { try { const c = JSON.parse(cmp); h += `<h3 style="font-size:14px;margin:12px 0 6px">Comparison with the SAS reference</h3><table><thead><tr><th class="l">artifact</th><th class="l">kind</th><th class="l">status</th><th>score</th><th class="l">detail</th></tr></thead><tbody>` +
+        c.artifacts.map(a => `<tr><td class="l">${a.name}</td><td class="l">${a.kind}</td><td class="l ${a.status === "ok" ? "ok-t" : "bad-t"}">${a.status}</td><td>${fmt(a.score, 3)}</td><td class="l" style="white-space:normal;font-size:12px;color:var(--text-2)">${a.detail && a.detail.rows_sas != null ? `rows SAS ${a.detail.rows_sas} / R ${a.detail.rows_r}; worst columns ${JSON.stringify(a.detail.worst_columns || {})}` : (a.detail && a.detail.recall != null ? `${a.detail.found} of ${a.detail.expected} SAS numbers found in the R text` : "")}</td></tr>`).join("") + "</tbody></table>"; } catch (e) {} }
+      if (prov) { try { const v = JSON.parse(prov); h += `<h3 style="font-size:14px;margin:12px 0 6px">Provenance (attempt ${n})</h3><div class="row"><span>model ${v.model}</span><span>${v.llm.input_tokens} in / ${v.llm.output_tokens} out tokens</span><span>sandbox ${v.sandbox && v.sandbox.mode ? v.sandbox.mode : "?"}</span><span>reference verified: ${v.reference_verified}</span><span>script sha256 <code>${(v.model_output["script.R"] || "").slice(0, 16)}…</code></span><span>agent commit <code>${(v.agent_commit || "").slice(0, 10)}</code></span><span>benchmark commit <code>${(v.benchmark_commit || "").slice(0, 10)}</code></span></div>`; } catch (e) {} }
+      if (script) h += `<h3 style="font-size:14px;margin:12px 0 6px">Generated R (attempt ${n})</h3><pre>${script.replace(/[&<>]/g, ch => ({"&": "&amp;", "<": "&lt;", ">": "&gt;"})[ch])}</pre>`;
+      h += `<p class="foot">Files: <a href="${base}/prompt_translate.md">prompt</a> · <a href="${base}/attempt_${n}/response.md">model answer</a> · <a href="${base}/attempt_${n}/run.log">R log</a> · <a href="${base}/report.json">report</a></p>`;
+    }
+    d.innerHTML = h;
+    d.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function render() { tiles(); bars(); table(); grid(); }
+  document.querySelectorAll("[data-f]").forEach(b => b.onclick = () => { roleFilter = b.dataset.f; document.querySelectorAll("[data-f]").forEach(x => x.classList.toggle("on", x === b)); render(); });
+  document.querySelectorAll("[data-g]").forEach(b => b.onclick = () => { groupFilter = b.dataset.g; document.querySelectorAll("[data-g]").forEach(x => x.classList.toggle("on", x === b)); render(); });
+  const tt = $("#tt");
+  $("#pgrid").addEventListener("mousemove", e => { const c = e.target.closest(".cell"); if (!c) { tt.style.display = "none"; return; } tt.textContent = c.dataset.tip; tt.style.display = "block"; tt.style.left = Math.min(e.clientX + 12, window.innerWidth - 330) + "px"; tt.style.top = (e.clientY + 14) + "px"; });
+  $("#pgrid").addEventListener("mouseleave", () => tt.style.display = "none");
+  $("#pgrid").addEventListener("click", e => { const c = e.target.closest(".cell"); if (c) detail(c.dataset.p, c.dataset.id); });
+  $("#foot").textContent = `Built ${meta.built_at || ""} from ${meta.ledger_entries || "?"} ledger entries. Benchmark: ${meta.benchmark || "sas2r-benchmark"}. Every attempt is hashed into an append-only ledger; the SAS reference outputs were frozen before any model ran.`;
+  render();
+  window.addEventListener("resize", bars);
+})();
+</script>
+</body>
+</html>

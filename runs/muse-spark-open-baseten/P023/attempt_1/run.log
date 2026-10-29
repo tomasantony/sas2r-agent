@@ -1,0 +1,27 @@
+sandbox: docker run --rm --name sas2r-ea7213138a40 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P023\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Imported datasets:
+ edc_dm: 5 x 7 
+ ivrs_rand: 5 x 3 
+ edc_ex: 7 x 13 
+ edc_ds: 5 x 4 
+ edc_death: 1 x 3 
+SDTM DM created: 5 subjects
+# A tibble: 5 × 24
+  STUDYID DOMAIN USUBJID SUBJID SITEID RFSTDTC RFENDTC RFXSTDTC RFXENDTC RFICDTC
+  <chr>   <chr>  <chr>   <chr>  <chr>  <chr>   <chr>   <chr>    <chr>    <chr>  
+1 ONCO-2… DM     ONCO-2… 101    SITE01 2026-0… 2026-0… 2026-01… 2026-02… 2026-0…
+2 ONCO-2… DM     ONCO-2… 102    SITE01 2026-0… 2026-0… 2026-01… 2026-02… 2026-0…
+3 ONCO-2… DM     ONCO-2… 103    SITE02 2026-0… 2026-0… 2026-01… 2026-01… 2026-0…
+4 ONCO-2… DM     ONCO-2… 104    SITE02 2026-0… 2026-0… <NA>     <NA>     2026-0…
+5 ONCO-2… DM     ONCO-2… 105    SITE01 2026-0… 2026-0… 2026-01… 2026-01… 2026-0…
+# ℹ 14 more variables: RFPENDTC <chr>, BRTHDTC <chr>, AGE <int>, AGEU <chr>,
+#   SEX <chr>, RACE <chr>, ETHNIC <chr>, ARMCD <chr>, ARM <chr>,
+#   ACTARMCD <chr>, ACTARM <chr>, COUNTRY <chr>, DTHFL <chr>, DTHDTC <chr>
+Outputs written to: /work/out 
+ Files:
+  - /work/out/sdtm_dm.csv 
+  - /work/out/P023.csv 
+  - /work/out/P023.txt 
+  - /work/out/P023.lst 
+  - /work/out/P023.lst.csv 
+Numeric AGE count: 5 

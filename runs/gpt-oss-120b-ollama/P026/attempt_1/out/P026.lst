@@ -1,0 +1,11 @@
+# A tibble: 6 × 18
+  STUDYID   DOMAIN USUBJID LBSEQ LBTESTCD LBTEST LBCAT LBORRES LBORRESU LBSTRESC
+  <chr>     <chr>  <chr>   <int> <chr>    <chr>  <chr> <chr>   <chr>    <chr>   
+1 ONCO-2026 LB     ONCO-2…     1 HGB      Hemog… HEMA… 14.5    g/dL     14.5    
+2 ONCO-2026 LB     ONCO-2…     2 ALT      Alani… CHEM… 25      U/L      25      
+3 ONCO-2026 LB     ONCO-2…     1 HGB      Hemog… HEMA… 13.0    g/dL     13.0    
+4 ONCO-2026 LB     ONCO-2…     2 HGB      Hemog… HEMA… 11.5    g/dL     11.5    
+5 ONCO-2026 LB     ONCO-2…     3 ALT      Alani… CHEM… 30      U/L      30      
+6 ONCO-2026 LB     ONCO-2…     1 HGB      Hemog… HEMA… 15.0    g/dL     15.0    
+# ℹ 8 more variables: LBSTRESN <dbl>, LBSTRESU <chr>, LBORNRLO <chr>,
+#   LBORNRHI <chr>, LBNRIND <chr>, LBDTC <chr>, LBSTDY <int>, VISIT <chr>

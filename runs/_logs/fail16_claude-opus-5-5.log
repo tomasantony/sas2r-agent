@@ -1,0 +1,3 @@
+claude-opus-5-5: 16 programs to run; spent so far $0.05 (2,225 in / 2,035 out); budget $40.00
+P009: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=3966/3092 29s  spent=$0.13
+P018: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=3972/4164 34s  spent=$0.23

@@ -1,0 +1,64 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.8828125,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P022.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.875,
+   "detail": {
+    "recall": 0.875,
+    "expected": 56,
+    "found": 49,
+    "r_files": [
+     "ae.csv",
+     "P022.csv",
+     "P022.lst.txt",
+     "P022.txt",
+     "P022_print.txt"
+    ],
+    "missing_examples": [
+     "14",
+     "16",
+     "39",
+     "44",
+     "7",
+     "9"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "ae",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten\\P022\\attempt_3\\out\\ae.csv",
+   "status": "mismatch",
+   "score": 0.890625,
+   "detail": {
+    "rows_sas": 4,
+    "rows_r": 4,
+    "cols_sas": 16,
+    "cols_r": 16,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.890625,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(AESTDY, 1, 14, '4')",
+     "(AESTDY, 2, 39, '27')",
+     "(AESTDY, 3, 7, '2')",
+     "(AESTDY, 4, 14, '4')",
+     "(AEENDY, 1, 16.0, '6')",
+     "(AEENDY, 2, 44.0, '32')",
+     "(AEENDY, 3, 9.0, '4')"
+    ],
+    "worst_columns": {
+     "AESTDY": 4,
+     "AEENDY": 3
+    }
+   }
+  }
+ ]
+}
