@@ -26,10 +26,13 @@ class RunResult:
 
 
 def run_r(script: Path, out_dir: Path, log_path: Path, timeout: int | None = None) -> RunResult:
+    # Rscript crashes (0xC0000005) when given a relative script path together with cwd, so resolve everything.
+    script = script.resolve()
+    out_dir = out_dir.resolve()
+    log_path = log_path.resolve()
     out_dir.mkdir(parents=True, exist_ok=True)
     env = os.environ.copy()
     env["OUT_DIR"] = str(out_dir).replace("\\", "/")
-    env["R_LIBS_USER"] = env.get("R_LIBS_USER", "")
     t0 = time.time()
     timed_out = False
     with open(log_path, "w", encoding="utf-8", errors="replace") as log:
