@@ -122,11 +122,14 @@ SETTINGS = LoopSettings()
 
 # USD per million tokens (input, output); reasoning tokens are billed as output everywhere.
 # Override with PRICE_<PROVIDER_NAME_UPPER>="in,out" in .env when a vendor publishes a different rate.
+# List prices on 2026-10-29 (what a user would pay; hackathon credits are not reflected):
+#   Muse Spark 1.3 standard tier $1.25 / $4.25 (Meta Model API);  Muse Spark Open $1.25 / $4.25 on both
+#   Baseten and Ollama Cloud;  gpt-oss-120b $0.15 / $0.60 on Ollama Cloud;  Claude Opus 5.5 $4 / $20.
 _DEFAULT_PRICES: dict[str, tuple[float, float]] = {
-    "muse-spark": (float(os.environ.get("MUSE_SPARK_PRICE_IN", "0")), float(os.environ.get("MUSE_SPARK_PRICE_OUT", "0"))),
-    "muse-spark-open-baseten": (0.0, 0.0),     # hackathon grant key, $100 pool
-    "muse-spark-open-ollama": (0.0, 0.0),
-    "gpt-oss-120b-ollama": (0.0, 0.0),
+    "muse-spark": (float(os.environ.get("MUSE_SPARK_PRICE_IN", "1.25")), float(os.environ.get("MUSE_SPARK_PRICE_OUT", "4.25"))),
+    "muse-spark-open-baseten": (1.25, 4.25),
+    "muse-spark-open-ollama": (1.25, 4.25),
+    "gpt-oss-120b-ollama": (0.15, 0.60),
     "claude-opus-5-5": (4.0, 20.0),
     "local": (0.0, 0.0),
 }
