@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.png binary
+*.rtf binary
+*.pdf binary
+*.sas7bdat binary
+*.xpt binary
