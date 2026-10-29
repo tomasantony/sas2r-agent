@@ -1,0 +1,17 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.0,
+ "artifacts": [
+  {
+   "kind": "figure",
+   "name": "target13.rtf",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "target13.png"
+   }
+  }
+ ]
+}

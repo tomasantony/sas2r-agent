@@ -1,0 +1,94 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P032",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 2,
+ "recorded_at": "2026-10-29T19:30:07",
+ "agent_commit": "5119ce2b475e3711599a66428b57c513394be4ac",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 9519,
+  "output_tokens": 9150,
+  "reasoning_tokens": 2041,
+  "finish_reason": "stop",
+  "seconds": 29.9
+ },
+ "inputs": {
+  "prompt_translate.md": "96de196401365377bf45c8692cfcd7d651a64f9f9c2df3ee7b20cc675cd630ba"
+ },
+ "model_output": {
+  "response.md": "4c475d56fc1d2e46536719592a95b14659b2758bbcf45cb3e2d08812c1510a48",
+  "reasoning.md": "3993d8a0099d48c85b94e6a82289f304b0ebeace292ebbcfd65c84ed581d4c16",
+  "script.R": "fb5a13c20e0552bcc7168423553bfd4879d53b754e22601035e60f078c849e0b"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 3.3,
+  "timed_out": false,
+  "log_sha256": "c37dc69e4c1383daecd27d9bf88c136dcd27c53e97e2ab524c41e2e41e1bfa20"
+ },
+ "r_outputs": {
+  "advs.csv": "80fa32f1ce5debc0013f6a4f3060742d654d1fa7908a6eed65f16444b60c1a7d",
+  "all.csv": "1b032af00088e6cef911e51fc899785508357e1f1c9435d5992e91d959e8be43",
+  "clinicalhandout_dbpprofile.csv": "1b032af00088e6cef911e51fc899785508357e1f1c9435d5992e91d959e8be43",
+  "ClinicalHandout_DbpProfile.gif": "7df17e4b4b28364018d40fe211294e91d22e8f360dd5c37ab710df4da62ec57d",
+  "clinicalhandout_dbpprofile.png": "7df17e4b4b28364018d40fe211294e91d22e8f360dd5c37ab710df4da62ec57d",
+  "clinicalhandout_dbpprofile_block.png": "88cd4f4ea315c287f8316b46e5cdddbad98e503eb9c2bc618da90921c6be1a7d",
+  "contents.csv": "a443a2ee725bacc000c098e54cc9aff3fbb729e12bc6d38e404ec7d37ea9aded",
+  "DBP_Profile.csv": "1b032af00088e6cef911e51fc899785508357e1f1c9435d5992e91d959e8be43",
+  "DBP_Profile.html": "b5b5360109e80de55471bfe046b768b7f5764bdd195d801f00650e8fc7591712",
+  "DBP_Profile.html.txt": "6b4710de0737b5749be5a7f92487509fdcd40506b91cc20442b1838ddb4aa124",
+  "DBP_Profile.txt": "6b4710de0737b5749be5a7f92487509fdcd40506b91cc20442b1838ddb4aa124",
+  "freq_aval.csv": "f2add065a8b001ba5730bde10476a0dc668afd1dd7a590dc0579f19ffecc37fa",
+  "freq_trtpn.csv": "95ca3e724770fc66ff126fc66f55319d773a2b457aee43731668c99c4c89fda1",
+  "freq_visit.csv": "9db11fb9be08d7a0ee61e7f65b50aaf74351c166eee3a0b2f9b961318067aff5",
+  "P032.csv": "8419bb882a18bcd706cc3c1fc6b409a3184c7849828a6a46e8a1b336c99a8c46",
+  "P032.lst": "d589edb0ffbf228b429b7be8276c24e4c5ccb0958e03cf7a3e2383f61ac31f34",
+  "P032.lst.txt": "d589edb0ffbf228b429b7be8276c24e4c5ccb0958e03cf7a3e2383f61ac31f34",
+  "P032.txt": "d589edb0ffbf228b429b7be8276c24e4c5ccb0958e03cf7a3e2383f61ac31f34",
+  "P032_temp.csv": "e25469be33626de0be9a2a7fca03e78da9b6e336798350deff7ddcd763f446cd",
+  "plot_data.csv": "8bede8e07d36835b07ab70095d17bd2ad61734c4462043c9676a4e11f7108fdd",
+  "temp.csv": "e25469be33626de0be9a2a7fca03e78da9b6e336798350deff7ddcd763f446cd",
+  "temp1.csv": "8419bb882a18bcd706cc3c1fc6b409a3184c7849828a6a46e8a1b336c99a8c46"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P032.lst",
+   "sha256": "52efebf18cf3bc7b66863ba959189e7fe5db2ecf443b22d61b5cd9898ce6d685",
+   "frozen_sha256": "52efebf18cf3bc7b66863ba959189e7fe5db2ecf443b22d61b5cd9898ce6d685",
+   "ok": true
+  },
+  {
+   "file": "datasets/P032/ClinicalHandout_DbpProfile.gif",
+   "sha256": "2956cb895ffe0d345d6737ec60dbd9ead7bb066f3ba795731317298964040b47",
+   "frozen_sha256": "2956cb895ffe0d345d6737ec60dbd9ead7bb066f3ba795731317298964040b47",
+   "ok": true
+  },
+  {
+   "file": "datasets/P032/DBP_Profile.html",
+   "sha256": "7550ca70a2158c00a57b62f7a3e55e997938c7db088dcc4cd00fcca256d39e7b",
+   "frozen_sha256": "7550ca70a2158c00a57b62f7a3e55e997938c7db088dcc4cd00fcca256d39e7b",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.9562450278440732,
+  "produced_all": true
+ }
+}

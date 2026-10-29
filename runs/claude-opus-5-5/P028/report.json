@@ -1,0 +1,54 @@
+{
+ "id": "P028",
+ "provider": "claude-opus-5-5",
+ "model": "claude-opus-5-5",
+ "family": "faijal",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 1.0,
+ "iterations": 3,
+ "input_tokens": 23967,
+ "output_tokens": 15144,
+ "seconds": 122.8957417011261,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 1.5366308689117432,
+   "input_tokens": 3886,
+   "output_tokens": 4918,
+   "seconds_llm": 41.173319578170776,
+   "produced_all": true,
+   "equivalent": false,
+   "score": 0.9495192307692308,
+   "note": ""
+  },
+  {
+   "n": 2,
+   "rc": 0,
+   "seconds_r": 1.8055133819580078,
+   "input_tokens": 7651,
+   "output_tokens": 5248,
+   "seconds_llm": 39.11567497253418,
+   "produced_all": true,
+   "equivalent": false,
+   "score": 0.9495192307692308,
+   "note": ""
+  },
+  {
+   "n": 3,
+   "rc": 0,
+   "seconds_r": 1.2652406692504883,
+   "input_tokens": 12430,
+   "output_tokens": 4978,
+   "seconds_llm": 37.657554388046265,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 1.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 3
+}

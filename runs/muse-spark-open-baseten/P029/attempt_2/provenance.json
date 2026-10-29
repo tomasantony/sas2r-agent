@@ -1,0 +1,71 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P029",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 2,
+ "recorded_at": "2026-10-29T19:27:34",
+ "agent_commit": "5119ce2b475e3711599a66428b57c513394be4ac",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 9594,
+  "output_tokens": 10200,
+  "reasoning_tokens": 4741,
+  "finish_reason": "stop",
+  "seconds": 30.3
+ },
+ "inputs": {
+  "prompt_translate.md": "80529bdb3fced1951f8df9d9f36a1d91101cc1e5cf166575b16c179b275b1769"
+ },
+ "model_output": {
+  "response.md": "deaace24c50afeb67169a6f3a6264e3d9337d39aeeb3c813399e509d5b5b091e",
+  "reasoning.md": "70c7ea19d896da62f68b22724290639fbdb5340ac44864f0a884f34253410201",
+  "script.R": "ffd465afbf7df1a1fa3c4b2c0420fa924bbd62c99edb11e4d614c452760bf6a5"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 3.3,
+  "timed_out": false,
+  "log_sha256": "cb0c656afc12bc9b890fe8629556e85427a342750849f948b6744bb3079b5f77"
+ },
+ "r_outputs": {
+  "P029.csv": "ecc0fb0891a31df8062184754dc715f176e0f95a64b9cfdb6854b009b9969570",
+  "P029.lst": "09284772b65f9264d9bf1c04b5557d2d2a8f5107f8680c8924a68391251055e8",
+  "P029.lst.txt": "09284772b65f9264d9bf1c04b5557d2d2a8f5107f8680c8924a68391251055e8",
+  "P029.txt": "09284772b65f9264d9bf1c04b5557d2d2a8f5107f8680c8924a68391251055e8",
+  "tu.csv": "5dd423b212daecf86aa15016be38fd22f446bcef3ad226de7bd312859e8f2822"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P029.lst",
+   "sha256": "ed79e168a539c9b2973a3bc79ee6b521a199ac34f6752b754e2c18fba8485877",
+   "frozen_sha256": "ed79e168a539c9b2973a3bc79ee6b521a199ac34f6752b754e2c18fba8485877",
+   "ok": true
+  },
+  {
+   "file": "datasets/P029/tu.xlsx",
+   "sha256": "9e06c7fa4b9b73531f6ee9f9345c40915664ef6be268bcbcc268be2ee0ea9a12",
+   "frozen_sha256": "9e06c7fa4b9b73531f6ee9f9345c40915664ef6be268bcbcc268be2ee0ea9a12",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

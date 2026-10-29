@@ -1,0 +1,44 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P022.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 56,
+    "found": 56,
+    "r_files": [
+     "ae.csv",
+     "P022.csv",
+     "P022.txt"
+    ],
+    "missing_examples": []
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "ae",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\claude-opus-5-5\\P022\\attempt_2\\out\\ae.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 4,
+    "rows_r": 4,
+    "cols_sas": 16,
+    "cols_r": 16,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  }
+ ]
+}

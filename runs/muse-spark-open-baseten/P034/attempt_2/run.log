@@ -1,0 +1,35 @@
+sandbox: docker run --rm --name sas2r-d668f8d37d75 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P034\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Warning message:
+Using the `size` aesthetic in this geom was deprecated in ggplot2 3.5.0.
+ℹ Please use `linewidth` instead. 
+Warning messages:
+1: Removed 6 rows containing missing values or values outside the scale range
+(`geom_line()`). 
+2: Removed 6 rows containing missing values or values outside the scale range
+(`geom_point()`). 
+Error in `geom_errorbar()`:
+! Problem while setting up geom.
+ℹ Error occurred in the 3rd layer.
+Caused by error in `compute_geom_1()`:
+! `geom_errorbar()` requires the following missing aesthetics: x or y,
+  xmin, and xmax.
+Backtrace:
+     ▆
+  1. ├─base::print(p_linear, vp = viewport(layout.pos.row = 3, layout.pos.col = 1))
+  2. └─ggplot2 (local) `print.ggplot2::ggplot`(...)
+  3.   ├─ggplot2::ggplot_build(x)
+  4.   └─ggplot2 (local) `ggplot_build.ggplot2::ggplot`(x)
+  5.     └─ggplot2:::by_layer(...)
+  6.       ├─rlang::try_fetch(...)
+  7.       │ ├─base::tryCatch(...)
+  8.       │ │ └─base (local) tryCatchList(expr, classes, parentenv, handlers)
+  9.       │ │   └─base (local) tryCatchOne(expr, names, parentenv, handlers[[1L]])
+ 10.       │ │     └─base (local) doTryCatch(return(expr), name, parentenv, handler)
+ 11.       │ └─base::withCallingHandlers(...)
+ 12.       └─ggplot2 (local) f(l = layers[[i]], d = data[[i]])
+ 13.         └─l$compute_geom_1(d)
+ 14.           └─ggplot2 (local) compute_geom_1(..., self = self)
+ 15.             └─ggplot2:::check_required_aesthetics(...)
+ 16.               └─cli::cli_abort(...)
+ 17.                 └─rlang::abort(...)
+Execution halted

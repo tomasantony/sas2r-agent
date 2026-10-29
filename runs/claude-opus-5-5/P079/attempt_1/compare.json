@@ -1,0 +1,30 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.9629629629629629,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "l_sae.rtf",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9629629629629629,
+   "detail": {
+    "recall": 0.9629629629629629,
+    "expected": 324,
+    "found": 312,
+    "r_files": [
+     "l_sae.csv",
+     "l_sae.txt",
+     "sae_report.csv"
+    ],
+    "missing_examples": [
+     "27",
+     "2026",
+     "15",
+     "47"
+    ]
+   }
+  }
+ ]
+}

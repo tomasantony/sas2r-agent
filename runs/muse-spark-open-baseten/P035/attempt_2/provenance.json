@@ -1,0 +1,69 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P035",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 2,
+ "recorded_at": "2026-10-29T19:32:53",
+ "agent_commit": "5119ce2b475e3711599a66428b57c513394be4ac",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 8286,
+  "output_tokens": 7141,
+  "reasoning_tokens": 2667,
+  "finish_reason": "stop",
+  "seconds": 20.3
+ },
+ "inputs": {
+  "prompt_translate.md": "e582b6e8cce4dce86e85794b5679e4af47206b8680f95dc6a114ac3b163cf3cb"
+ },
+ "model_output": {
+  "response.md": "930471a6ee6f63fbc396d34bed76fd06eadd036a74947dd983f026aa888d9171",
+  "reasoning.md": "4c045b52541909c879d94b000f841cdaadbf80809c8f6cca6b714aa57591c0c8",
+  "script.R": "4820d908ef3d605d19fb308ce2e28ffa269302c40817730d457e7160906b5e8f"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.3,
+  "timed_out": false,
+  "log_sha256": "cd6bfd86ac33bc40c34545a3f11805d9fb565b9858fbccd37e96e1ff5551f5af"
+ },
+ "r_outputs": {
+  "adpp_sum_t.csv": "b4f5525a094f212a99b7aec097a2acadc853bd6473f602cb6a81a607ddc2705c",
+  "CLXCHECKNOBS.csv": "73d150c8db727a3bff014e4d3704662e8017b0471956b0d60810c0f9bce81876",
+  "P035.csv": "73d150c8db727a3bff014e4d3704662e8017b0471956b0d60810c0f9bce81876",
+  "P035.lst": "aa99298a3542a713282eeb8030988ab371d8afd1e8290b614740b4c8f99c298a",
+  "P035.lst.csv": "73d150c8db727a3bff014e4d3704662e8017b0471956b0d60810c0f9bce81876",
+  "P035.lst.txt": "aa99298a3542a713282eeb8030988ab371d8afd1e8290b614740b4c8f99c298a",
+  "P035.txt": "aa99298a3542a713282eeb8030988ab371d8afd1e8290b614740b4c8f99c298a",
+  "P035_adpp_sum.csv": "829881cee923c166e11d4264e928fd1fcbb9ef53b7031b8a6335738a2baed61d",
+  "P035_adpp_sum_t.csv": "b4f5525a094f212a99b7aec097a2acadc853bd6473f602cb6a81a607ddc2705c"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P035.lst",
+   "sha256": "7d3677b6f685889ecc9af4a85d23cd42b0504c9ef958f652fd6ca1d010fec2fa",
+   "frozen_sha256": "7d3677b6f685889ecc9af4a85d23cd42b0504c9ef958f652fd6ca1d010fec2fa",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 0.9772727272727273,
+  "produced_all": true
+ }
+}

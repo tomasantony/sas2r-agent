@@ -1,0 +1,367 @@
+[Sponsor Name]                                                    Page x of y
+Protocol: [Protocol Number]
+
+Table 14.3.4
+Shift Table for Laboratory Parameters
+Safety Analysis Set
+
+Treatment: Placebo (TRTAN=1)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Alanine Aminotransferase (U/L)           Normal               79       12        1        0        0       92
+                                         Grade 1               0        1        0        0        0        1
+                                         Grade 2               0        0        0        0        0        0
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Placebo (TRTAN=1)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Aspartate Aminotransferase (U/L)         Normal               79        6        1        0        0       86
+                                         Grade 1               5        1        0        0        0        6
+                                         Grade 2               0        1        0        0        0        1
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Placebo (TRTAN=1)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Bilirubin (umol/L)                       Normal               88        2        0        0        0       90
+                                         Grade 1               0        3        0        0        0        3
+                                         Grade 2               0        0        0        0        0        0
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Placebo (TRTAN=1)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Creatinine (umol/L)                      Normal               84        8        0        0        0       92
+                                         Grade 1               1        0        0        0        0        1
+                                         Grade 2               0        0        0        0        0        0
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Placebo (TRTAN=1)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Hemoglobin (g/L)                         Normal               83        6        0        0        0       89
+                                         Grade 1               2        2        0        0        0        4
+                                         Grade 2               0        0        0        0        0        0
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Placebo (TRTAN=1)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Neutrophils (10^9/L)                     Normal               82        9        0        0        0       91
+                                         Grade 1               0        2        0        0        0        2
+                                         Grade 2               0        0        0        0        0        0
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Placebo (TRTAN=1)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Platelets (10^9/L)                       Normal               88        4        0        0        0       92
+                                         Grade 1               0        0        0        0        0        0
+                                         Grade 2               1        0        0        0        0        1
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Placebo (TRTAN=1)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Leukocytes (10^9/L)                      Normal               84        6        0        0        0       90
+                                         Grade 1               3        0        0        0        0        3
+                                         Grade 2               0        0        0        0        0        0
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Drug X Low Dose (TRTAN=2)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Alanine Aminotransferase (U/L)           Normal               72        8        0        0        0       80
+                                         Grade 1               1        1        0        0        0        2
+                                         Grade 2               0        0        0        0        0        0
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Drug X Low Dose (TRTAN=2)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Aspartate Aminotransferase (U/L)         Normal               60       12        1        0        0       73
+                                         Grade 1               5        2        1        0        0        8
+                                         Grade 2               0        0        0        0        0        0
+                                         Grade 3               0        0        1        0        0        1
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Drug X Low Dose (TRTAN=2)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Bilirubin (umol/L)                       Normal               73        3        0        0        0       76
+                                         Grade 1               4        2        0        0        0        6
+                                         Grade 2               0        0        0        0        0        0
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Drug X Low Dose (TRTAN=2)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Creatinine (umol/L)                      Normal               69        8        2        0        0       79
+                                         Grade 1               2        0        1        0        0        3
+                                         Grade 2               0        0        0        0        0        0
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Drug X Low Dose (TRTAN=2)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Hemoglobin (g/L)                         Normal               71        6        1        0        0       78
+                                         Grade 1               3        0        1        0        0        4
+                                         Grade 2               0        0        0        0        0        0
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Drug X Low Dose (TRTAN=2)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Neutrophils (10^9/L)                     Normal               73        6        1        0        0       80
+                                         Grade 1               2        0        0        0        0        2
+                                         Grade 2               0        0        0        0        0        0
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Drug X Low Dose (TRTAN=2)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Platelets (10^9/L)                       Normal               79        3        0        0        0       82
+                                         Grade 1               0        0        0        0        0        0
+                                         Grade 2               0        0        0        0        0        0
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Drug X Low Dose (TRTAN=2)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Leukocytes (10^9/L)                      Normal               74        5        1        0        0       80
+                                         Grade 1               1        1        0        0        0        2
+                                         Grade 2               0        0        0        0        0        0
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Drug X High Dose (TRTAN=3)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Alanine Aminotransferase (U/L)           Normal               46       11        0        0        0       57
+                                         Grade 1               2        2        1        0        0        5
+                                         Grade 2               0        0        0        0        0        0
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Drug X High Dose (TRTAN=3)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Aspartate Aminotransferase (U/L)         Normal               49        8        1        0        0       58
+                                         Grade 1               1        3        0        0        0        4
+                                         Grade 2               0        0        0        0        0        0
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Drug X High Dose (TRTAN=3)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Bilirubin (umol/L)                       Normal               59        3        0        0        0       62
+                                         Grade 1               0        0        0        0        0        0
+                                         Grade 2               0        0        0        0        0        0
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Drug X High Dose (TRTAN=3)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Creatinine (umol/L)                      Normal               52        3        1        0        0       56
+                                         Grade 1               3        3        0        0        0        6
+                                         Grade 2               0        0        0        0        0        0
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Drug X High Dose (TRTAN=3)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Hemoglobin (g/L)                         Normal               54        3        1        0        0       58
+                                         Grade 1               2        2        0        0        0        4
+                                         Grade 2               0        0        0        0        0        0
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Drug X High Dose (TRTAN=3)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Neutrophils (10^9/L)                     Normal               52        5        0        0        0       57
+                                         Grade 1               2        2        0        0        0        4
+                                         Grade 2               1        0        0        0        0        1
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Drug X High Dose (TRTAN=3)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Platelets (10^9/L)                       Normal               58        4        0        0        0       62
+                                         Grade 1               0        0        0        0        0        0
+                                         Grade 2               0        0        0        0        0        0
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+
+Treatment: Drug X High Dose (TRTAN=3)
+Parameter                                Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+-------------------------------------------------------------------------------------------------------------
+Leukocytes (10^9/L)                      Normal               55        6        0        0        0       61
+                                         Grade 1               1        0        0        0        0        1
+                                         Grade 2               0        0        0        0        0        0
+                                         Grade 3               0        0        0        0        0        0
+                                         Grade 4               0        0        0        0        0        0
+-------------------------------------------------------------------------------------------------------------
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Grades based on NCI-CTCAE v[X.X]
+Shift from baseline grade to worst post-baseline grade.
+
+

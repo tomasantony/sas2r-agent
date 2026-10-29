@@ -1,0 +1,54 @@
+{
+ "id": "P074",
+ "provider": "claude-opus-5-5",
+ "model": "claude-opus-5-5",
+ "family": "own-tlf",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 1.0,
+ "iterations": 3,
+ "input_tokens": 50481,
+ "output_tokens": 17878,
+ "seconds": 141.3465826511383,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 1.402730941772461,
+   "input_tokens": 12029,
+   "output_tokens": 7392,
+   "seconds_llm": 60.9353506565094,
+   "produced_all": true,
+   "equivalent": false,
+   "score": 0.8892018779342723,
+   "note": ""
+  },
+  {
+   "n": 2,
+   "rc": 0,
+   "seconds_r": 1.3810927867889404,
+   "input_tokens": 16779,
+   "output_tokens": 5443,
+   "seconds_llm": 39.72862529754639,
+   "produced_all": true,
+   "equivalent": false,
+   "score": 0.9342723004694836,
+   "note": ""
+  },
+  {
+   "n": 3,
+   "rc": 0,
+   "seconds_r": 1.4070727825164795,
+   "input_tokens": 21673,
+   "output_tokens": 5043,
+   "seconds_llm": 36.116597414016724,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 1.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 3
+}

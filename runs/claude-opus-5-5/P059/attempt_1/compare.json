@@ -1,0 +1,34 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9318181818181818,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P059.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9318181818181818,
+   "detail": {
+    "recall": 0.9318181818181818,
+    "expected": 132,
+    "found": 123,
+    "r_files": [
+     "adpp_sum_t.csv",
+     "CLXCHECKNOBS.csv",
+     "P059.csv",
+     "P059.txt"
+    ],
+    "missing_examples": [
+     "14.2",
+     "12",
+     "100",
+     "-1",
+     "17",
+     "2014",
+     "57"
+    ]
+   }
+  }
+ ]
+}

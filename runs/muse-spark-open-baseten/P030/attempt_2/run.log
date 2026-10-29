@@ -1,0 +1,6 @@
+sandbox: docker run --rm --name sas2r-6c0b55094a03 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P030\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Warning message:
+In sprintf("%3s %-12s %-10s %5s %-8s %-28s %7s %-8s %7s %-10s %5s %-14s %-10s",  :
+  one argument not used by format '%3s %-12s %-10s %5s %-8s %-28s %7s %-8s %7s %-10s %5s %-14s %-10s'
+[1] TRUE
+Done. Rows: 9  Files: P030.csv, P030.lst, P030.txt, sdtm_vs.csv 

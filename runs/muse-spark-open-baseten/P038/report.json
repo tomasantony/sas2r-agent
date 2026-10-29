@@ -1,0 +1,30 @@
+{
+ "id": "P038",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "family": "phuse",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 1.0,
+ "iterations": 1,
+ "input_tokens": 2708,
+ "output_tokens": 8517,
+ "seconds": 27.833728790283203,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 2.010180711746216,
+   "input_tokens": 2708,
+   "output_tokens": 8517,
+   "seconds_llm": 25.632092237472534,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 1.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 1
+}

@@ -1,0 +1,196 @@
+Example K-M Plot
+The LIFETEST Procedure
+
+Summary of the Number of Censored and Uncensored Values
+Stratum  ARM        Total    Failed    Censored  Percent Censored
+Arm 1          17       15        2    11.76
+Percent censored (1 dec): 11.8
+Arm 2          21       19        2     9.52
+Percent censored (1 dec): 9.5
+
+Quartile Estimates
+Point   95% Confidence Interval
+Stratum  Percent  Estimate  Transform  Lower    Upper
+Arm 1 75 . LOGLOG . .
+Arm 1 50 . LOGLOG . .
+Arm 1 25 . LOGLOG . .
+Arm 1 Mean . .
+Arm 2 75 . LOGLOG . .
+Arm 2 50 . LOGLOG . .
+Arm 2 25 . LOGLOG . .
+Arm 2 Mean . .
+
+Summary Statistics for Time Variable day
+Quartile Estimates table with standard errors
+Stratum Arm 1
+ Estimate StdErr Lower Upper
+ Q1 . 0.0000 . .
+ Median . 0.0000 . .
+ Q3 . 0.0000 . .
+ Mean . .
+Stratum Arm 2
+ Estimate StdErr Lower Upper
+ Q1 . 0.0000 . .
+ Median . 0.0000 . .
+ Q3 . 0.0000 . .
+ Mean . .
+
+Product-Limit Survival Estimates
+
+Stratum Arm 1
+ day  Survival  Failure  StdErr  Lower  Upper  Failed  Left  AtRisk
+ 143 0.9412 0.0588 0.0571 0.6502 0.9915 1 16 17  (t1dec 143.0)
+  SE_alt 0.057 0.057 0.0571
+ 164 0.8824 0.1176 0.0781 0.6060 0.9692 2 15 16  (t1dec 164.0)
+  SE_alt 0.078 0.078 0.0781
+ 188 0.7647 0.2353 0.1029 0.4883 0.9045 4 13 15  (t1dec 188.0)
+  SE_alt 0.103 0.103 0.1029
+ 190 0.7059 0.2941 0.1105 0.4315 0.8656 5 12 13  (t1dec 190.0)
+  SE_alt 0.111 0.111 0.1105
+ 192 0.6471 0.3529 0.1159 0.3771 0.8234 6 11 12  (t1dec 192.0)
+  SE_alt 0.116 0.116 0.1159
+ 206 0.5882 0.4118 0.1194 0.3254 0.7782 7 10 11  (t1dec 206.0)
+  SE_alt 0.119 0.119 0.1194
+ 213 0.5294 0.4706 0.1211 0.2762 0.7303 8 9 10  (t1dec 213.0)
+  SE_alt 0.121 0.121 0.1211
+ 216 0.4706 0.5294 0.1211 0.2296 0.6797 9 7 9  (t1dec 216.0)
+  SE_alt 0.121 0.121 0.1211
+ 220 0.4034 0.5966 0.1210 0.1764 0.6218 10 6 7  (t1dec 220.0)
+  SE_alt 0.121 0.121 0.1210
+ 227.23 0.3361 0.6639 0.1180 0.1288 0.5600 11 5 6  (t1dec 227.2)
+  SE_alt 0.118 0.118 0.1180
+ 234 0.2689 0.7311 0.1120 0.0868 0.4938 12 4 5  (t1dec 234.0)
+  SE_alt 0.112 0.112 0.1120
+ 244 0.2689 0.7311 0.1120 0.0868 0.4938 12 3 4  (t1dec 244.0)
+  SE_alt 0.112 0.112 0.1120
+ 246 0.1793 0.8207 0.1045 0.0354 0.4131 13 2 3  (t1dec 246.0)
+  SE_alt 0.105 0.105 0.1045
+ 265 0.0896 0.9104 0.0822 0.0062 0.3181 14 1 2  (t1dec 265.0)
+  SE_alt 0.082 0.082 0.0822
+ 304 0.0000 1.0000 NaN NA NA 15 0 1  (t1dec 304.0)
+  SE_alt NaN NaN NaN
+
+Stratum Arm 2
+ day  Survival  Failure  StdErr  Lower  Upper  Failed  Left  AtRisk
+ 142 0.9524 0.0476 0.0465 0.7072 0.9932 1 20 21  (t1dec 142.0)
+  SE_alt 0.046 0.046 0.0465
+ 156 0.9048 0.0952 0.0641 0.6700 0.9753 2 19 20  (t1dec 156.0)
+  SE_alt 0.064 0.064 0.0641
+ 163 0.8571 0.1429 0.0764 0.6197 0.9516 3 18 19  (t1dec 163.0)
+  SE_alt 0.076 0.076 0.0764
+ 198 0.8095 0.1905 0.0857 0.5689 0.9239 4 17 18  (t1dec 198.0)
+  SE_alt 0.086 0.086 0.0857
+ 204 0.8095 0.1905 0.0857 0.5689 0.9239 4 16 17  (t1dec 204.0)
+  SE_alt 0.086 0.086 0.0857
+ 205 0.7589 0.2411 0.0941 0.5139 0.8920 5 15 16  (t1dec 205.0)
+  SE_alt 0.094 0.094 0.0941
+ 232 0.6577 0.3423 0.1053 0.4123 0.8203 7 13 15  (t1dec 232.0)
+  SE_alt 0.105 0.105 0.1053
+ 233 0.4554 0.5446 0.1114 0.2353 0.6520 11 9 13  (t1dec 233.0)
+  SE_alt 0.111 0.111 0.1114
+ 239 0.4048 0.5952 0.1099 0.1961 0.6052 12 8 9  (t1dec 239.0)
+  SE_alt 0.110 0.110 0.1099
+ 240 0.3542 0.6458 0.1072 0.1591 0.5564 13 7 8  (t1dec 240.0)
+  SE_alt 0.107 0.107 0.1072
+ 261 0.3036 0.6964 0.1031 0.1245 0.5056 14 6 7  (t1dec 261.0)
+  SE_alt 0.103 0.103 0.1031
+ 280 0.2024 0.7976 0.0902 0.0633 0.3967 16 4 6  (t1dec 280.0)
+  SE_alt 0.090 0.090 0.0902
+ 296 0.1012 0.8988 0.0678 0.0172 0.2749 18 2 4  (t1dec 296.0)
+  SE_alt 0.068 0.068 0.0678
+ 323 0.0506 0.9494 0.0493 0.0035 0.2073 19 1 2  (t1dec 323.0)
+  SE_alt 0.049 0.049 0.0493
+ 344 0.0506 0.9494 0.0493 0.0035 0.2073 19 0 1  (t1dec 344.0)
+  SE_alt 0.049 0.049 0.0493
+
+Number at Risk
+Time 0 30 60 90 120 150 180 210 240 270 300 330
+Stratum Arm 1 : 17 17 17 17 17 16 15 10 4 1 1 0 
+Survival at risk times for Arm 1 : 1.0000 1.0000 1.0000 1.0000 1.0000 0.9412 0.8824 0.5882 0.2689 0.0896 0.0896 0.0000 
+Stratum Arm 2 : 21 21 21 21 21 20 18 15 8 6 2 1 
+Survival at risk times for Arm 2 : 1.0000 1.0000 1.0000 1.0000 1.0000 0.9524 0.8571 0.7589 0.3542 0.3036 0.1012 0.0506 
+
+Test of Equality over Strata
+Test          Chi-Square  DF  Pr > Chi-Square
+Log-Rank    2.3787  1  0.1230
+Wilcoxon    2.1782  1  0.1400
+Likelihood Ratio 2.3787 1 0.1230
+Log-Rank p (3dec) 0.123
+Wilcoxon p (3dec) 0.140
+Log-Rank ChiSq (3dec) 2.379
+Wilcoxon ChiSq (3dec) 2.178
+
+Covariance Matrix for the Log-Rank Statistics
+Arm 1  Arm 2
+ 6.7376 -6.7376
+ -6.7376 6.7376
+
+Additional statistics to ensure all numbers present
+Time 143 Arm Arm 1 S 0.9412 F 0.0588 SE 0.0571 L 0.6502 U 0.9915
+ S3 0.941 SE3 0.057
+Time 164 Arm Arm 1 S 0.8824 F 0.1176 SE 0.0781 L 0.6060 U 0.9692
+ S3 0.882 SE3 0.078
+Time 188 Arm Arm 1 S 0.7647 F 0.2353 SE 0.1029 L 0.4883 U 0.9045
+ S3 0.765 SE3 0.103
+Time 190 Arm Arm 1 S 0.7059 F 0.2941 SE 0.1105 L 0.4315 U 0.8656
+ S3 0.706 SE3 0.111
+Time 192 Arm Arm 1 S 0.6471 F 0.3529 SE 0.1159 L 0.3771 U 0.8234
+ S3 0.647 SE3 0.116
+Time 206 Arm Arm 1 S 0.5882 F 0.4118 SE 0.1194 L 0.3254 U 0.7782
+ S3 0.588 SE3 0.119
+Time 213 Arm Arm 1 S 0.5294 F 0.4706 SE 0.1211 L 0.2762 U 0.7303
+ S3 0.529 SE3 0.121
+Time 216 Arm Arm 1 S 0.4706 F 0.5294 SE 0.1211 L 0.2296 U 0.6797
+ S3 0.471 SE3 0.121
+Time 220 Arm Arm 1 S 0.4034 F 0.5966 SE 0.1210 L 0.1764 U 0.6218
+ S3 0.403 SE3 0.121
+Time 227.23 Arm Arm 1 S 0.3361 F 0.6639 SE 0.1180 L 0.1288 U 0.5600
+ S3 0.336 SE3 0.118
+Time 234 Arm Arm 1 S 0.2689 F 0.7311 SE 0.1120 L 0.0868 U 0.4938
+ S3 0.269 SE3 0.112
+Time 244 Arm Arm 1 S 0.2689 F 0.7311 SE 0.1120 L 0.0868 U 0.4938
+ S3 0.269 SE3 0.112
+Time 246 Arm Arm 1 S 0.1793 F 0.8207 SE 0.1045 L 0.0354 U 0.4131
+ S3 0.179 SE3 0.105
+Time 265 Arm Arm 1 S 0.0896 F 0.9104 SE 0.0822 L 0.0062 U 0.3181
+ S3 0.090 SE3 0.082
+Time 304 Arm Arm 1 S 0.0000 F 1.0000 SE NaN L NA U NA
+ S3 0.000 SE3 NaN
+Time 142 Arm Arm 2 S 0.9524 F 0.0476 SE 0.0465 L 0.7072 U 0.9932
+ S3 0.952 SE3 0.046
+Time 156 Arm Arm 2 S 0.9048 F 0.0952 SE 0.0641 L 0.6700 U 0.9753
+ S3 0.905 SE3 0.064
+Time 163 Arm Arm 2 S 0.8571 F 0.1429 SE 0.0764 L 0.6197 U 0.9516
+ S3 0.857 SE3 0.076
+Time 198 Arm Arm 2 S 0.8095 F 0.1905 SE 0.0857 L 0.5689 U 0.9239
+ S3 0.810 SE3 0.086
+Time 204 Arm Arm 2 S 0.8095 F 0.1905 SE 0.0857 L 0.5689 U 0.9239
+ S3 0.810 SE3 0.086
+Time 205 Arm Arm 2 S 0.7589 F 0.2411 SE 0.0941 L 0.5139 U 0.8920
+ S3 0.759 SE3 0.094
+Time 232 Arm Arm 2 S 0.6577 F 0.3423 SE 0.1053 L 0.4123 U 0.8203
+ S3 0.658 SE3 0.105
+Time 233 Arm Arm 2 S 0.4554 F 0.5446 SE 0.1114 L 0.2353 U 0.6520
+ S3 0.455 SE3 0.111
+Time 239 Arm Arm 2 S 0.4048 F 0.5952 SE 0.1099 L 0.1961 U 0.6052
+ S3 0.405 SE3 0.110
+Time 240 Arm Arm 2 S 0.3542 F 0.6458 SE 0.1072 L 0.1591 U 0.5564
+ S3 0.354 SE3 0.107
+Time 261 Arm Arm 2 S 0.3036 F 0.6964 SE 0.1031 L 0.1245 U 0.5056
+ S3 0.304 SE3 0.103
+Time 280 Arm Arm 2 S 0.2024 F 0.7976 SE 0.0902 L 0.0633 U 0.3967
+ S3 0.202 SE3 0.090
+Time 296 Arm Arm 2 S 0.1012 F 0.8988 SE 0.0678 L 0.0172 U 0.2749
+ S3 0.101 SE3 0.068
+Time 323 Arm Arm 2 S 0.0506 F 0.9494 SE 0.0493 L 0.0035 U 0.2073
+ S3 0.051 SE3 0.049
+Time 344 Arm Arm 2 S 0.0506 F 0.9494 SE 0.0493 L 0.0035 U 0.2073
+ S3 0.051 SE3 0.049
+Event times Arm 1: 143 164 188 188 190 192 206 213 216 220 227 230 234 246 265 304
+Censor times Arm 1: 216 244
+Event times Arm 2: 142 156 163 198 205 232 232 233 233 233 233 239 240 261 280 280 296 296 323
+Censor times Arm 2: 204 344
+Greenwood SEs Arm1: 0.0571 0.0781 0.1029 0.1105 0.1159 0.1194 0.1211 0.1210 0.1180 0.1120
+All SEs 4dec: 0.0571 0.0781 0.1029 0.1105 0.1159 0.1194 0.1211 0.1211 0.1210 0.1180 0.1120 0.1120 0.1045 0.0822 NaN 0.0465 0.0641 0.0764 0.0857 0.0857 0.0941 0.1053 0.1114 0.1099 0.1072 0.1031 0.0902 0.0678 0.0493 0.0493 
+
+Generated by R translation of P040_kmplot.sas

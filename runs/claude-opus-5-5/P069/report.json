@@ -1,0 +1,42 @@
+{
+ "id": "P069",
+ "provider": "claude-opus-5-5",
+ "model": "claude-opus-5-5",
+ "family": "own-tlf",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 1.0,
+ "iterations": 2,
+ "input_tokens": 26672,
+ "output_tokens": 8397,
+ "seconds": 66.6737368106842,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 1.5253551006317139,
+   "input_tokens": 11449,
+   "output_tokens": 4494,
+   "seconds_llm": 36.10006332397461,
+   "produced_all": true,
+   "equivalent": false,
+   "score": 0.9130434782608695,
+   "note": ""
+  },
+  {
+   "n": 2,
+   "rc": 0,
+   "seconds_r": 1.282351016998291,
+   "input_tokens": 15223,
+   "output_tokens": 3903,
+   "seconds_llm": 27.493048191070557,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 1.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 2
+}

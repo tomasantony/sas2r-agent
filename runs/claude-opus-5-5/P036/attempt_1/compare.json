@@ -1,0 +1,70 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9604233778186838,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P036.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9056603773584906,
+   "detail": {
+    "recall": 0.9056603773584906,
+    "expected": 106,
+    "found": 96,
+    "r_files": [
+     "emergenthigh.csv",
+     "P036.csv",
+     "P036.txt",
+     "sasgraph.csv",
+     "tablea.csv",
+     "Target16.csv",
+     "Target16.txt"
+    ],
+    "missing_examples": [
+     "0.0021",
+     "0.999",
+     "0.0012",
+     "0.9728",
+     "0.0029",
+     "0.056"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "sasgraph.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\claude-opus-5-5\\P036\\attempt_1\\out\\sasgraph.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "Target16.pdf",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.975609756097561,
+   "detail": {
+    "recall": 0.975609756097561,
+    "expected": 41,
+    "found": 40,
+    "r_files": [
+     "emergenthigh.csv",
+     "P036.csv",
+     "P036.txt",
+     "sasgraph.csv",
+     "tablea.csv",
+     "Target16.csv",
+     "Target16.txt"
+    ],
+    "missing_examples": [
+     "100"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+sandbox: docker run --rm --name sas2r-dfd778b94eaa --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P028\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading edc_tr from: /bench/data/raw/faijal-oncology/raw_data/edc_tr.xlsx 
+Error in edc_tr_raw %>% dplyr::mutate(dplyr::across(dplyr::everything(),  : 
+  could not find function "%>%"
+Execution halted

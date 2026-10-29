@@ -1,0 +1,53 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9495192307692308,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P028.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9615384615384616,
+   "detail": {
+    "recall": 0.9615384615384616,
+    "expected": 52,
+    "found": 50,
+    "r_files": [
+     "P028.csv",
+     "P028.txt",
+     "tr.csv"
+    ],
+    "missing_examples": [
+     "-3"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "tr",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\claude-opus-5-5\\P028\\attempt_1\\out\\tr.csv",
+   "status": "mismatch",
+   "score": 0.9375,
+   "detail": {
+    "rows_sas": 4,
+    "rows_r": 4,
+    "cols_sas": 16,
+    "cols_r": 16,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.9375,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(TRSTDY, 1, -3, nan)",
+     "(TRSTDY, 2, -5, nan)",
+     "(TRSTDY, 3, -5, nan)",
+     "(TRSTDY, 4, -3, nan)"
+    ],
+    "worst_columns": {
+     "TRSTDY": 4
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+"Variable","Type","N","Nmiss","Mean","Min","Max"
+"USUBJID","character",1800,0,,,
+"TRTPN","numeric",1800,0,40.485,0,81
+"ANL01FL","character",1800,0,,,
+"PARAM","character",1800,0,,,
+"PARAMCD","character",1800,0,,,
+"AVISIT","character",1800,0,,,
+"AVISITN","numeric",1800,0,9.33444444444445,0,26
+"ATPTN","numeric",1800,0,815,815,815
+"SAFFL","character",1800,0,,,
+"AVAL","numeric",1800,0,74.7488888888889,40,109

@@ -1,0 +1,8 @@
+sandbox: docker run --rm --name sas2r-935638ffe133 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P040\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+Ignoring unknown labels:
+• colour : "Stratum"
+null device 
+          1 
+All outputs written to /work/out 
+[1] "P040_f_kmplot_atrisk.csv" "P040_f_kmplot.csv"       
+[3] "P040_f_kmplot.png"        "P040_f_kmplot.txt"       

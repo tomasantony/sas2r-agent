@@ -1,0 +1,39 @@
+sandbox: docker run --rm --name sas2r-7355942a8694 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\gpt-oss-120b-ollama\P059\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Error in `filter()`:
+ℹ In argument: ``%in%`(...)`.
+Caused by error:
+! object 'paramcd' not found
+Backtrace:
+     ▆
+  1. ├─adpp_raw %>% ...
+  2. ├─dplyr::filter(...)
+  3. ├─dplyr:::filter.data.frame(...)
+  4. │ └─dplyr:::filter_impl(...)
+  5. │   └─dplyr:::filter_rows(...)
+  6. │     └─dplyr:::filter_eval(...)
+  7. │       ├─base::withCallingHandlers(...)
+  8. │       └─mask$eval_all_filter(dots_expanded, invert, env_filter)
+  9. │         └─dplyr (local) eval()
+ 10. ├─paramcd %in% ...
+ 11. └─base::.handleSimpleError(...)
+ 12.   └─dplyr (local) h(simpleError(msg, call))
+ 13.     └─rlang::abort(message, class = error_class, parent = parent, call = error_call)
+Execution halted

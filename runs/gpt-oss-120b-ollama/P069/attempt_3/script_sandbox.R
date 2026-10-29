@@ -1,0 +1,189 @@
+# ------------------------------------------------------------
+# R translation of SAS program P069_t_ae_sum.sas
+# Produces table t_ae_sum as CSV and plain‑text files
+# ------------------------------------------------------------
+
+# Load required packages (pre‑installed in the execution environment)
+library(haven)      # read SAS datasets
+library(dplyr)      # data manipulation
+library(tidyr)      # reshaping
+library(stringr)    # string handling
+library(purrr)      # functional programming
+library(readr)      # write files
+
+# ------------------------------------------------------------------
+# Helper: SAS‑style rounding (half away from zero)
+# ------------------------------------------------------------------
+round_half_up <- function(x, digits = 0) {
+  mult <- 10 ^ digits
+  pos  <- x >= 0
+  res  <- ifelse(pos,
+                 floor(x * mult + 0.5) / mult,
+                 ceiling(x * mult - 0.5) / mult)
+  res
+}
+
+# ------------------------------------------------------------------
+# Set up paths
+# ------------------------------------------------------------------
+out_dir <- Sys.getenv("OUT_DIR")
+if (out_dir == "") out_dir <- "."   # fallback to current directory
+
+adam_path <- "/bench/data/raw/own-synthetic/adam"
+
+# ------------------------------------------------------------------
+# Read ADaM datasets
+# ------------------------------------------------------------------
+adsl <- read_sas(file.path(adam_path, "adsl.sas7bdat"))
+adae <- read_sas(file.path(adam_path, "adae.sas7bdat"))
+
+# Convert labelled vectors to plain character (preserve numeric where possible)
+adsl <- mutate_all(adsl, as.character)
+adae <- mutate_all(adae, as.character)
+
+# ------------------------------------------------------------------
+# Step 1: Big N (subjects per treatment in safety set)
+# ------------------------------------------------------------------
+bign_df <- adsl %>%
+  filter(toupper(SAFFL) == "Y") %>%
+  group_by(TRTA) %>%
+  summarise(bign = n_distinct(USUBJID), .groups = "drop") %>%
+  arrange(TRTA)
+
+bigntot <- adsl %>%
+  filter(toupper(SAFFL) == "Y") %>%
+  summarise(N = n_distinct(USUBJID)) %>%
+  pull(N)
+
+# Build column header strings (SAS uses "~" as split character)
+col_hdrs <- paste0(bign_df$TRTA, " (N=", bign_df$bign, ")")
+col1hdr <- col_hdrs[1]
+col2hdr <- col_hdrs[2]
+col3hdr <- col_hdrs[3]
+
+# ------------------------------------------------------------------
+# Step 2 & 3: AE categories
+# ------------------------------------------------------------------
+# Safety set subjects (USUBJID + TRTA from ADaM ADSL)
+safety_subj <- adsl %>%
+  filter(toupper(SAFFL) == "Y") %>%
+  select(USUBJID, TRTA)
+
+# TEAE subjects (any record with TRTEMFL='Y')
+teae_subj <- adae %>%
+  filter(TRTEMFL == "Y") %>%
+  distinct(USUBJID)
+
+# AE records limited to safety set and TEAE flag, keeping AE's TRTA
+adae_teae <- adae %>%
+  filter(TRTEMFL == "Y") %>%
+  inner_join(
+    adsl %>% filter(toupper(SAFFL) == "Y") %>% select(USUBJID),
+    by = "USUBJID"
+  )
+
+# Category definitions (order, label, filter expression)
+cat_defs <- list(
+  list(ord = 0, label = "Subjects with no TEAE", filter_expr = NULL),
+  list(ord = 1, label = "Subjects with at least one TEAE", filter_expr = quote(TRUE)),
+  list(ord = 2, label = "  Related TEAE",
+       filter_expr = quote(AEREL %in% c('POSSIBLE','PROBABLE','DEFINITE','RELATED'))),
+  list(ord = 3, label = "  Grade >=3 TEAE",
+       filter_expr = quote(!is.na(AETOXGR) & as.numeric(AETOXGR) >= 3)),
+  list(ord = 4, label = "  Serious Adverse Event",
+       filter_expr = quote(AESER == 'Y')),
+  list(ord = 5, label = "  Related Serious Adverse Event",
+       filter_expr = quote(AESER == 'Y' &
+                           AEREL %in% c('POSSIBLE','PROBABLE','DEFINITE','RELATED'))),
+  list(ord = 6, label = "  TEAE Leading to Study Drug Discontinuation",
+       filter_expr = quote(AEACN == 'DRUG WITHDRAWN')),
+  list(ord = 7, label = "  TEAE Leading to Dose Modification",
+       filter_expr = quote(AEACN %in% c('DOSE REDUCED','DRUG INTERRUPTED','DOSE INCREASED'))),
+  list(ord = 8, label = "  TEAE with Outcome of Death",
+       filter_expr = quote(AEOUT == 'FATAL'))
+)
+
+# ------------------------------------------------------------------
+# Helper: count distinct subjects per treatment for a given filter
+# ------------------------------------------------------------------
+calc_counts <- function(df, filter_expr) {
+  if (is.null(filter_expr)) {
+    # Subjects with no TEAE (use safety_subj and anti_join)
+    safety_subj %>%
+      anti_join(teae_subj, by = "USUBJID") %>%
+      group_by(TRTA) %>%
+      summarise(cnt = n_distinct(USUBJID), .groups = "drop")
+  } else {
+    df %>%
+      filter(eval(filter_expr, envir = .)) %>%
+      group_by(TRTA) %>%
+      summarise(cnt = n_distinct(USUBJID), .groups = "drop")
+  }
+}
+
+# ------------------------------------------------------------------
+# Compute each category and bind together
+# ------------------------------------------------------------------
+all_ae <- map_dfr(cat_defs, function(cd) {
+  cnt_df <- if (cd$ord == 0) {
+    calc_counts(safety_subj, NULL)
+  } else {
+    calc_counts(adae_teae, cd$filter_expr)
+  }
+  cnt_df %>%
+    mutate(category = cd$label,
+           ord = cd$ord) %>%
+    select(TRTA, cnt, category, ord)
+})
+
+# ------------------------------------------------------------------
+# Step 5: Percentages and formatted value strings
+# ------------------------------------------------------------------
+all_ae2 <- all_ae %>%
+  left_join(bign_df, by = "TRTA") %>%
+  mutate(pct = ifelse(bign > 0, cnt / bign * 100, NA_real_))
+
+all_ae3 <- all_ae2 %>%
+  mutate(pct_fmt = ifelse(is.na(pct), "",
+                           sprintf("%.1f", round_half_up(pct, 1))),
+         value = ifelse(cnt > 0,
+                        paste0(cnt, " (", pct_fmt, ")"),
+                        "0")) %>%
+  select(ord, category, TRTA, value)
+
+# ------------------------------------------------------------------
+# Step 6: Transpose to wide format (columns per treatment)
+# ------------------------------------------------------------------
+report_wide <- all_ae3 %>%
+  pivot_wider(names_from = TRTA,
+              values_from = value,
+              values_fill = list(value = "0")) %>%
+  arrange(ord)
+
+# Ensure column order matches treatment order from Big N
+treat_order <- bign_df$TRTA
+report_wide <- report_wide %>%
+  select(ord, category, all_of(treat_order))
+
+# Rename treatment columns to col1‑col3 (expected by downstream code)
+col_names <- c("ord", "category", "col1", "col2", "col3")
+names(report_wide) <- col_names
+
+# ------------------------------------------------------------------
+# Step 7: Write outputs (CSV and plain‑text)
+# ------------------------------------------------------------------
+write.csv(report_wide,
+          file = file.path(out_dir, "t_ae_sum.csv"),
+          row.names = FALSE,
+          na = "")
+
+# Plain‑text rendering (tab‑separated, includes header row)
+write.table(report_wide,
+            file = file.path(out_dir, "t_ae_sum.txt"),
+            sep = "\t",
+            quote = FALSE,
+            row.names = FALSE)
+
+# ------------------------------------------------------------------
+# End of script
+# ------------------------------------------------------------------

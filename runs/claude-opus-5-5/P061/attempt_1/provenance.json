@@ -1,0 +1,148 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P061",
+ "provider": "claude-opus-5-5",
+ "model": "claude-opus-5-5",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T19:42:39",
+ "agent_commit": "5119ce2b475e3711599a66428b57c513394be4ac",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 3924,
+  "output_tokens": 8991,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 75.8
+ },
+ "inputs": {
+  "prompt_translate.md": "1ddeaeb8fdae08c13afde292ec32d619534b6d362d612acfb5b61041cca1fc25"
+ },
+ "model_output": {
+  "response.md": "2a5adc427f327d1fba3c8f69f5b5dc37df11370b5225a202ef8baede5f946633",
+  "script.R": "8245d15058ff2bc4858244663cd54977356cb05b4ef29f08d9e944156583341b"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 5.1,
+  "timed_out": false,
+  "log_sha256": "56d098fca0b0623a810fee516bae548f7e91a9c20be100ec396ed5a2f4d3215a"
+ },
+ "r_outputs": {
+  "adam_adsl.csv": "752bbfa8510ef45f4fde3f0d54c93a7a42ee49663329789b11a6c6b51d3f4000",
+  "adam_adtte.csv": "a779e89a729fc03cfcb4781980d479642f55c17627147a13deead1d01ed7c5ac",
+  "P061.csv": "01c9a8ebf53f64486cfeda7f9081e58c59e3bf77964aff1418824e13b7d7b815",
+  "P061.txt": "5e4e333813c1f1a94095bdd3578918d29be517617f127d3ac2076d900fced205",
+  "P061_censor_summary.csv": "1bb369b8a7f490542a5756446be37813f24528c6dd29163077776e3042d3e786",
+  "P061_f_oncology_graphs.csv": "01c9a8ebf53f64486cfeda7f9081e58c59e3bf77964aff1418824e13b7d7b815",
+  "P061_f_oncology_graphs.txt": "cff330035c760da167317a6bc7cd9f9a1b6b10b941f6e6213548c07a1d9e403f",
+  "P061_freq.csv": "22173866dd8ceffd8a2cc7cb9280a40167f652d7b00dda6b253dd6d8dd18de73",
+  "P061_means.csv": "42177ddeb9cdcdd1beae450aa7941d25124a33741ec33af47abfc6a65f363fa8",
+  "P061_product_limit.csv": "01c9a8ebf53f64486cfeda7f9081e58c59e3bf77964aff1418824e13b7d7b815",
+  "P061_quartiles.csv": "6dbe7d1bedf8f614a90f8961c43e9a15d25030d73ebf3c54560c725cf91f1f98",
+  "P061_t_oncology_report.csv": "6beea3d81d856925c3443a35af44b3ee8fa28c2faa3733a20627b6301b12633e",
+  "P061_t_oncology_report.txt": "62be5d41ae833bd1a28735066c2dc479101874ea3a59a37fa45e17c23bcfac5b",
+  "sasgraph.csv": "e835df3b160aec040ce39e00f8c773658be5ec6e8381692fe9d291896353121d",
+  "sasgraph.png": "3e605d6791de9acabd7b5d927ef909391f341e40422a890297bee81c4ae5ecf8",
+  "sgplot.csv": "dd32cedc3008da4ad5f867f3313c2ba8921e03dc10db7f4fb3b2788b46faa5ca",
+  "sgplot.png": "6cbe309337f888cf8d1e68f9271a52522376e1e4b11ed81888b87f4836f27afd",
+  "sgplot1.csv": "282377d995b52935856ebfc8fdf59ea557beedd63cfc95c220d15a270570dcdf",
+  "sgplot1.png": "8e005917ccba4dc98cd29a510e2c2abb8921c632b4fa62f6e861069a9f7baab1",
+  "sgplot2.csv": "cdd3e9292a0e5d21536fecd677a7ac7372b372947f0c5a3c98b472a280ae7de3",
+  "sgplot2.png": "11b1f5de6e4b1eff80290eb348cc0e265f51be03d19db77ebb05046bc6c3adb5",
+  "sgplot3.csv": "c2f4b120e660a4361d1a5eff01f45cf6353a2e3b35035ad7258011757ec4272c",
+  "sgplot3.png": "138647fe4f2a7aead7f3521189c08b3455efe6bfb475a74b8e45c334dfcbba00",
+  "sgplot4.csv": "4e3a3155f7e6c1c6b7bcfe5ec449905905850b9838f5a5dea580d710afa63166",
+  "sgplot4.png": "e1dceef2ce8a1b35e3a0308c674d37e0765515b519f70901cf96c2f5f1014af3",
+  "sgplot5.csv": "282377d995b52935856ebfc8fdf59ea557beedd63cfc95c220d15a270570dcdf",
+  "sgplot5.png": "1b2cbaf54cd99b07676d4c893a7e925c82774a1de6bdc7839df225277551401d",
+  "sgplot6.csv": "dd32cedc3008da4ad5f867f3313c2ba8921e03dc10db7f4fb3b2788b46faa5ca",
+  "sgplot6.png": "eaf62a88e424466340dd3617e32dde7a37ed686f5c498054424cd02e4f913c3f"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P061.lst",
+   "sha256": "86890090ed502f08ff6bbd9ed5a72b4e9d499591ddf737289dc186db3bd4b532",
+   "frozen_sha256": "86890090ed502f08ff6bbd9ed5a72b4e9d499591ddf737289dc186db3bd4b532",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/sasgraph.png",
+   "sha256": "85f4f9e8631cd5a16d5ec6225aa5af1d149a58a7e69155c5153c3b596bd5b72f",
+   "frozen_sha256": "85f4f9e8631cd5a16d5ec6225aa5af1d149a58a7e69155c5153c3b596bd5b72f",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot.png",
+   "sha256": "0bb732b27389ca4aa44914fb3602e4347792f36dbff7c1a0ff81e5262f35d042",
+   "frozen_sha256": "0bb732b27389ca4aa44914fb3602e4347792f36dbff7c1a0ff81e5262f35d042",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot1.png",
+   "sha256": "6328994836690da2de276142be84fa9e13b2410abdd29d25f3dc54c18d2e5fbb",
+   "frozen_sha256": "6328994836690da2de276142be84fa9e13b2410abdd29d25f3dc54c18d2e5fbb",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot2.png",
+   "sha256": "764cd98ee242543a3272d3bec3c8ceaa5c35ee0ef5a688a70b48ecdcf189f28c",
+   "frozen_sha256": "764cd98ee242543a3272d3bec3c8ceaa5c35ee0ef5a688a70b48ecdcf189f28c",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot3.png",
+   "sha256": "09a34c39eb24a38f6bafe8f5067ac824da4c49e89c800c227f02b396919ffbe1",
+   "frozen_sha256": "09a34c39eb24a38f6bafe8f5067ac824da4c49e89c800c227f02b396919ffbe1",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot4.png",
+   "sha256": "807894447e725a5e4034d31173dd52ef06ca4f7b56bec14195a7c0ef4dec2df4",
+   "frozen_sha256": "807894447e725a5e4034d31173dd52ef06ca4f7b56bec14195a7c0ef4dec2df4",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot5.png",
+   "sha256": "f79d20bb1091e28904a64c2e4bbe853286ea38d02c131c9419367ad37addadf8",
+   "frozen_sha256": "f79d20bb1091e28904a64c2e4bbe853286ea38d02c131c9419367ad37addadf8",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot6.png",
+   "sha256": "bc34f7bf92836eb79b0ed82a677b62695272c09d1d1cc28523e65ca144e405e4",
+   "frozen_sha256": "bc34f7bf92836eb79b0ed82a677b62695272c09d1d1cc28523e65ca144e405e4",
+   "ok": true
+  },
+  {
+   "file": "tlf/P061_t_oncology_report.pdf",
+   "sha256": "21c5134fde09ba77de04e38bebe34475c2258cbc552b89b1c527e7211ea0aa67",
+   "frozen_sha256": "21c5134fde09ba77de04e38bebe34475c2258cbc552b89b1c527e7211ea0aa67",
+   "ok": true
+  },
+  {
+   "file": "tlf/P061_f_oncology_graphs.pdf",
+   "sha256": "7c26176b139de9237f193aa3f743b2963e5b274b41a1173a32d44ed2f80e0490",
+   "frozen_sha256": "7c26176b139de9237f193aa3f743b2963e5b274b41a1173a32d44ed2f80e0490",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 0.9874969726562388,
+  "produced_all": true
+ }
+}

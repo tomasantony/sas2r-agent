@@ -1,0 +1,6 @@
+Table 14.3.4  Shift Table for Laboratory Parameters
+Safety Analysis Set
+
+Treatment Group: Placebo (TRTAN=1)
+Parameter            Baseline Grade   Normal  Grade 1  Grade 2  Grade 3  Grade 4    Total
+--------------------------------------------------------------------------------------

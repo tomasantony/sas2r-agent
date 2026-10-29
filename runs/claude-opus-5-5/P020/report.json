@@ -1,0 +1,30 @@
+{
+ "id": "P020",
+ "provider": "claude-opus-5-5",
+ "model": "claude-opus-5-5",
+ "family": "c2c",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 0.974025974025974,
+ "iterations": 1,
+ "input_tokens": 2950,
+ "output_tokens": 7828,
+ "seconds": 65.10341119766235,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 2.266289234161377,
+   "input_tokens": 2950,
+   "output_tokens": 7828,
+   "seconds_llm": 62.73158931732178,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 0.974025974025974,
+   "note": ""
+  }
+ ],
+ "best_attempt": 1
+}

@@ -1,0 +1,121 @@
+"TRTAN","TRTA","PARAMCD","PARAM","bl_label","wg0","wg1","wg2","wg3","wg4","total"
+1,"Placebo","ALT","Alanine Aminotransferase (U/L)","Normal",79,12,1,0,0,92
+1,"Placebo","ALT","Alanine Aminotransferase (U/L)","Grade 1",0,1,0,0,0,1
+1,"Placebo","ALT","Alanine Aminotransferase (U/L)","Grade 2",0,0,0,0,0,0
+1,"Placebo","ALT","Alanine Aminotransferase (U/L)","Grade 3",0,0,0,0,0,0
+1,"Placebo","ALT","Alanine Aminotransferase (U/L)","Grade 4",0,0,0,0,0,0
+1,"Placebo","AST","Aspartate Aminotransferase (U/L)","Normal",79,6,1,0,0,86
+1,"Placebo","AST","Aspartate Aminotransferase (U/L)","Grade 1",5,1,0,0,0,6
+1,"Placebo","AST","Aspartate Aminotransferase (U/L)","Grade 2",0,1,0,0,0,1
+1,"Placebo","AST","Aspartate Aminotransferase (U/L)","Grade 3",0,0,0,0,0,0
+1,"Placebo","AST","Aspartate Aminotransferase (U/L)","Grade 4",0,0,0,0,0,0
+1,"Placebo","BILI","Bilirubin (umol/L)","Normal",88,2,0,0,0,90
+1,"Placebo","BILI","Bilirubin (umol/L)","Grade 1",0,3,0,0,0,3
+1,"Placebo","BILI","Bilirubin (umol/L)","Grade 2",0,0,0,0,0,0
+1,"Placebo","BILI","Bilirubin (umol/L)","Grade 3",0,0,0,0,0,0
+1,"Placebo","BILI","Bilirubin (umol/L)","Grade 4",0,0,0,0,0,0
+1,"Placebo","CREAT","Creatinine (umol/L)","Normal",84,8,0,0,0,92
+1,"Placebo","CREAT","Creatinine (umol/L)","Grade 1",1,0,0,0,0,1
+1,"Placebo","CREAT","Creatinine (umol/L)","Grade 2",0,0,0,0,0,0
+1,"Placebo","CREAT","Creatinine (umol/L)","Grade 3",0,0,0,0,0,0
+1,"Placebo","CREAT","Creatinine (umol/L)","Grade 4",0,0,0,0,0,0
+1,"Placebo","HGB","Hemoglobin (g/L)","Normal",83,6,0,0,0,89
+1,"Placebo","HGB","Hemoglobin (g/L)","Grade 1",2,2,0,0,0,4
+1,"Placebo","HGB","Hemoglobin (g/L)","Grade 2",0,0,0,0,0,0
+1,"Placebo","HGB","Hemoglobin (g/L)","Grade 3",0,0,0,0,0,0
+1,"Placebo","HGB","Hemoglobin (g/L)","Grade 4",0,0,0,0,0,0
+1,"Placebo","NEUT","Neutrophils (10^9/L)","Normal",82,9,0,0,0,91
+1,"Placebo","NEUT","Neutrophils (10^9/L)","Grade 1",0,2,0,0,0,2
+1,"Placebo","NEUT","Neutrophils (10^9/L)","Grade 2",0,0,0,0,0,0
+1,"Placebo","NEUT","Neutrophils (10^9/L)","Grade 3",0,0,0,0,0,0
+1,"Placebo","NEUT","Neutrophils (10^9/L)","Grade 4",0,0,0,0,0,0
+1,"Placebo","PLAT","Platelets (10^9/L)","Normal",88,4,0,0,0,92
+1,"Placebo","PLAT","Platelets (10^9/L)","Grade 1",0,0,0,0,0,0
+1,"Placebo","PLAT","Platelets (10^9/L)","Grade 2",1,0,0,0,0,1
+1,"Placebo","PLAT","Platelets (10^9/L)","Grade 3",0,0,0,0,0,0
+1,"Placebo","PLAT","Platelets (10^9/L)","Grade 4",0,0,0,0,0,0
+1,"Placebo","WBC","Leukocytes (10^9/L)","Normal",84,6,0,0,0,90
+1,"Placebo","WBC","Leukocytes (10^9/L)","Grade 1",3,0,0,0,0,3
+1,"Placebo","WBC","Leukocytes (10^9/L)","Grade 2",0,0,0,0,0,0
+1,"Placebo","WBC","Leukocytes (10^9/L)","Grade 3",0,0,0,0,0,0
+1,"Placebo","WBC","Leukocytes (10^9/L)","Grade 4",0,0,0,0,0,0
+2,"Drug X Low Dose","ALT","Alanine Aminotransferase (U/L)","Normal",72,8,0,0,0,80
+2,"Drug X Low Dose","ALT","Alanine Aminotransferase (U/L)","Grade 1",1,1,0,0,0,2
+2,"Drug X Low Dose","ALT","Alanine Aminotransferase (U/L)","Grade 2",0,0,0,0,0,0
+2,"Drug X Low Dose","ALT","Alanine Aminotransferase (U/L)","Grade 3",0,0,0,0,0,0
+2,"Drug X Low Dose","ALT","Alanine Aminotransferase (U/L)","Grade 4",0,0,0,0,0,0
+2,"Drug X Low Dose","AST","Aspartate Aminotransferase (U/L)","Normal",60,12,1,0,0,73
+2,"Drug X Low Dose","AST","Aspartate Aminotransferase (U/L)","Grade 1",5,2,1,0,0,8
+2,"Drug X Low Dose","AST","Aspartate Aminotransferase (U/L)","Grade 2",0,0,0,0,0,0
+2,"Drug X Low Dose","AST","Aspartate Aminotransferase (U/L)","Grade 3",0,0,1,0,0,1
+2,"Drug X Low Dose","AST","Aspartate Aminotransferase (U/L)","Grade 4",0,0,0,0,0,0
+2,"Drug X Low Dose","BILI","Bilirubin (umol/L)","Normal",73,3,0,0,0,76
+2,"Drug X Low Dose","BILI","Bilirubin (umol/L)","Grade 1",4,2,0,0,0,6
+2,"Drug X Low Dose","BILI","Bilirubin (umol/L)","Grade 2",0,0,0,0,0,0
+2,"Drug X Low Dose","BILI","Bilirubin (umol/L)","Grade 3",0,0,0,0,0,0
+2,"Drug X Low Dose","BILI","Bilirubin (umol/L)","Grade 4",0,0,0,0,0,0
+2,"Drug X Low Dose","CREAT","Creatinine (umol/L)","Normal",69,8,2,0,0,79
+2,"Drug X Low Dose","CREAT","Creatinine (umol/L)","Grade 1",2,0,1,0,0,3
+2,"Drug X Low Dose","CREAT","Creatinine (umol/L)","Grade 2",0,0,0,0,0,0
+2,"Drug X Low Dose","CREAT","Creatinine (umol/L)","Grade 3",0,0,0,0,0,0
+2,"Drug X Low Dose","CREAT","Creatinine (umol/L)","Grade 4",0,0,0,0,0,0
+2,"Drug X Low Dose","HGB","Hemoglobin (g/L)","Normal",71,6,1,0,0,78
+2,"Drug X Low Dose","HGB","Hemoglobin (g/L)","Grade 1",3,0,1,0,0,4
+2,"Drug X Low Dose","HGB","Hemoglobin (g/L)","Grade 2",0,0,0,0,0,0
+2,"Drug X Low Dose","HGB","Hemoglobin (g/L)","Grade 3",0,0,0,0,0,0
+2,"Drug X Low Dose","HGB","Hemoglobin (g/L)","Grade 4",0,0,0,0,0,0
+2,"Drug X Low Dose","NEUT","Neutrophils (10^9/L)","Normal",73,6,1,0,0,80
+2,"Drug X Low Dose","NEUT","Neutrophils (10^9/L)","Grade 1",2,0,0,0,0,2
+2,"Drug X Low Dose","NEUT","Neutrophils (10^9/L)","Grade 2",0,0,0,0,0,0
+2,"Drug X Low Dose","NEUT","Neutrophils (10^9/L)","Grade 3",0,0,0,0,0,0
+2,"Drug X Low Dose","NEUT","Neutrophils (10^9/L)","Grade 4",0,0,0,0,0,0
+2,"Drug X Low Dose","PLAT","Platelets (10^9/L)","Normal",79,3,0,0,0,82
+2,"Drug X Low Dose","PLAT","Platelets (10^9/L)","Grade 1",0,0,0,0,0,0
+2,"Drug X Low Dose","PLAT","Platelets (10^9/L)","Grade 2",0,0,0,0,0,0
+2,"Drug X Low Dose","PLAT","Platelets (10^9/L)","Grade 3",0,0,0,0,0,0
+2,"Drug X Low Dose","PLAT","Platelets (10^9/L)","Grade 4",0,0,0,0,0,0
+2,"Drug X Low Dose","WBC","Leukocytes (10^9/L)","Normal",74,5,1,0,0,80
+2,"Drug X Low Dose","WBC","Leukocytes (10^9/L)","Grade 1",1,1,0,0,0,2
+2,"Drug X Low Dose","WBC","Leukocytes (10^9/L)","Grade 2",0,0,0,0,0,0
+2,"Drug X Low Dose","WBC","Leukocytes (10^9/L)","Grade 3",0,0,0,0,0,0
+2,"Drug X Low Dose","WBC","Leukocytes (10^9/L)","Grade 4",0,0,0,0,0,0
+3,"Drug X High Dose","ALT","Alanine Aminotransferase (U/L)","Normal",46,11,0,0,0,57
+3,"Drug X High Dose","ALT","Alanine Aminotransferase (U/L)","Grade 1",2,2,1,0,0,5
+3,"Drug X High Dose","ALT","Alanine Aminotransferase (U/L)","Grade 2",0,0,0,0,0,0
+3,"Drug X High Dose","ALT","Alanine Aminotransferase (U/L)","Grade 3",0,0,0,0,0,0
+3,"Drug X High Dose","ALT","Alanine Aminotransferase (U/L)","Grade 4",0,0,0,0,0,0
+3,"Drug X High Dose","AST","Aspartate Aminotransferase (U/L)","Normal",49,8,1,0,0,58
+3,"Drug X High Dose","AST","Aspartate Aminotransferase (U/L)","Grade 1",1,3,0,0,0,4
+3,"Drug X High Dose","AST","Aspartate Aminotransferase (U/L)","Grade 2",0,0,0,0,0,0
+3,"Drug X High Dose","AST","Aspartate Aminotransferase (U/L)","Grade 3",0,0,0,0,0,0
+3,"Drug X High Dose","AST","Aspartate Aminotransferase (U/L)","Grade 4",0,0,0,0,0,0
+3,"Drug X High Dose","BILI","Bilirubin (umol/L)","Normal",59,3,0,0,0,62
+3,"Drug X High Dose","BILI","Bilirubin (umol/L)","Grade 1",0,0,0,0,0,0
+3,"Drug X High Dose","BILI","Bilirubin (umol/L)","Grade 2",0,0,0,0,0,0
+3,"Drug X High Dose","BILI","Bilirubin (umol/L)","Grade 3",0,0,0,0,0,0
+3,"Drug X High Dose","BILI","Bilirubin (umol/L)","Grade 4",0,0,0,0,0,0
+3,"Drug X High Dose","CREAT","Creatinine (umol/L)","Normal",52,3,1,0,0,56
+3,"Drug X High Dose","CREAT","Creatinine (umol/L)","Grade 1",3,3,0,0,0,6
+3,"Drug X High Dose","CREAT","Creatinine (umol/L)","Grade 2",0,0,0,0,0,0
+3,"Drug X High Dose","CREAT","Creatinine (umol/L)","Grade 3",0,0,0,0,0,0
+3,"Drug X High Dose","CREAT","Creatinine (umol/L)","Grade 4",0,0,0,0,0,0
+3,"Drug X High Dose","HGB","Hemoglobin (g/L)","Normal",54,3,1,0,0,58
+3,"Drug X High Dose","HGB","Hemoglobin (g/L)","Grade 1",2,2,0,0,0,4
+3,"Drug X High Dose","HGB","Hemoglobin (g/L)","Grade 2",0,0,0,0,0,0
+3,"Drug X High Dose","HGB","Hemoglobin (g/L)","Grade 3",0,0,0,0,0,0
+3,"Drug X High Dose","HGB","Hemoglobin (g/L)","Grade 4",0,0,0,0,0,0
+3,"Drug X High Dose","NEUT","Neutrophils (10^9/L)","Normal",52,5,0,0,0,57
+3,"Drug X High Dose","NEUT","Neutrophils (10^9/L)","Grade 1",2,2,0,0,0,4
+3,"Drug X High Dose","NEUT","Neutrophils (10^9/L)","Grade 2",1,0,0,0,0,1
+3,"Drug X High Dose","NEUT","Neutrophils (10^9/L)","Grade 3",0,0,0,0,0,0
+3,"Drug X High Dose","NEUT","Neutrophils (10^9/L)","Grade 4",0,0,0,0,0,0
+3,"Drug X High Dose","PLAT","Platelets (10^9/L)","Normal",58,4,0,0,0,62
+3,"Drug X High Dose","PLAT","Platelets (10^9/L)","Grade 1",0,0,0,0,0,0
+3,"Drug X High Dose","PLAT","Platelets (10^9/L)","Grade 2",0,0,0,0,0,0
+3,"Drug X High Dose","PLAT","Platelets (10^9/L)","Grade 3",0,0,0,0,0,0
+3,"Drug X High Dose","PLAT","Platelets (10^9/L)","Grade 4",0,0,0,0,0,0
+3,"Drug X High Dose","WBC","Leukocytes (10^9/L)","Normal",55,6,0,0,0,61
+3,"Drug X High Dose","WBC","Leukocytes (10^9/L)","Grade 1",1,0,0,0,0,1
+3,"Drug X High Dose","WBC","Leukocytes (10^9/L)","Grade 2",0,0,0,0,0,0
+3,"Drug X High Dose","WBC","Leukocytes (10^9/L)","Grade 3",0,0,0,0,0,0
+3,"Drug X High Dose","WBC","Leukocytes (10^9/L)","Grade 4",0,0,0,0,0,0

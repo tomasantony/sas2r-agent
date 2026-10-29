@@ -1,0 +1,68 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P019",
+ "provider": "claude-opus-5-5",
+ "model": "claude-opus-5-5",
+ "attempt": 2,
+ "recorded_at": "2026-10-29T19:23:59",
+ "agent_commit": "353ac1dac000ddec415dda4099ed49d3528a04ab",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 23167,
+  "output_tokens": 9424,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 62.6
+ },
+ "inputs": {
+  "prompt_translate.md": "5742c80a6ea34613f52585414cf213a83cf27e53adbaa99f5fc232391da20311"
+ },
+ "model_output": {
+  "response.md": "6407a7d1d3e2f8d4cd97ba6a0bc2e018f20558e29a4f7e23f9d73e32fa380a5f",
+  "script.R": "265f4a1f0f2cfcfdc854444787c7a11262d47234fa2aedb800c644a160f25ffc"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.1,
+  "timed_out": false,
+  "log_sha256": "07880a0beaf74cd560c751e82bb1c9d44f509bb4992750c47ef65cedbef24c10"
+ },
+ "r_outputs": {
+  "P019.csv": "1595932d67a19249f7e528bf545bb2c90d13cc1a3661dc09f97b3ab9fbef944b",
+  "P019.txt": "427a48c4b9e6d308dc1328df87e30fb53ffd5f9e7691242e2f38ab59a9c949fe",
+  "qc_report.csv": "533ddbfb91932b6e5a2bc5795b4e2d18a5a808471690967f33889146ad5112e1"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P019.lst",
+   "sha256": "a7a06dcfb172872c7bb2d34c710c234739a90f0054db356f72adb20f8a218ea7",
+   "frozen_sha256": "a7a06dcfb172872c7bb2d34c710c234739a90f0054db356f72adb20f8a218ea7",
+   "ok": true
+  },
+  {
+   "file": "datasets/P019/qc_report.sas7bdat",
+   "sha256": "c199c6725de974876ac0e5a09b30d22d3b120a77ac7e7b33d83f01618f900a74",
+   "frozen_sha256": "c199c6725de974876ac0e5a09b30d22d3b120a77ac7e7b33d83f01618f900a74",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.7971314618806565,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P053.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.5377358490566038,
+   "detail": {
+    "recall": 0.5377358490566038,
+    "expected": 106,
+    "found": 57,
+    "r_files": [
+     "P053.csv",
+     "P053.txt",
+     "sasgraph.csv",
+     "Target16.csv",
+     "Target16.txt"
+    ],
+    "missing_examples": [
+     "5",
+     "31.6",
+     "2",
+     "33.6",
+     "94.05",
+     "5.95",
+     "33.62",
+     "33.33",
+     "30.8",
+     "32.8",
+     "93.9",
+     "32.77"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "sasgraph.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\gpt-oss-120b-ollama\\P053\\attempt_3\\out\\sasgraph.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "Target16.pdf",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.8536585365853658,
+   "detail": {
+    "recall": 0.8536585365853658,
+    "expected": 41,
+    "found": 35,
+    "r_files": [
+     "P053.csv",
+     "P053.txt",
+     "sasgraph.csv",
+     "Target16.csv",
+     "Target16.txt"
+    ],
+    "missing_examples": [
+     "100",
+     "18",
+     "-65"
+    ]
+   }
+  }
+ ]
+}

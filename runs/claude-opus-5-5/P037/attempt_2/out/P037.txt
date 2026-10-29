@@ -1,0 +1,83 @@
+Vital Signs
+Treatment-Emergent Abnormal High or Low at Any Time
+
+The FREQ Procedure
+
+Table 1 of CRIT1FL by TRTPN
+Controlling for PARAM=Diastolic Blood Pressure (mmHg)
+
+Frequency / Percent / Row Pct / Col Pct
+TRTPN              N         Y     Total
+0                 77         6        83
+               30.92      2.41     33.33
+               92.77      7.23
+               34.07     26.09
+54                77         7        84
+               30.92      2.81     33.73
+               91.67      8.33
+               34.07     30.43
+81                72        10        82
+               28.92      4.02     32.93
+               87.80     12.20
+               31.86     43.48
+Total            226        23       249
+               90.76      9.24    100.00
+
+Statistics for Table 1 of CRIT1FL by TRTPN
+Controlling for PARAM=Diastolic Blood Pressure (mmHg)
+
+Fisher's Exact Test
+Table Probability (P)    0.0208
+Pr <= P                  0.5376
+
+Effective Sample Size = 249
+
+The FREQ Procedure
+
+Table 1 of CRIT2FL by TRTPN
+Controlling for PARAM=Diastolic Blood Pressure (mmHg)
+
+Frequency / Percent / Row Pct / Col Pct
+TRTPN              N         Y     Total
+0                 70        13        83
+               28.11      5.22     33.33
+               84.34     15.66
+               32.56     38.24
+54                71        13        84
+               28.51      5.22     33.73
+               84.52     15.48
+               33.02     38.24
+81                74         8        82
+               29.72      3.21     32.93
+               90.24      9.76
+               34.42     23.53
+Total            215        34       249
+               86.35     13.65    100.00
+
+Statistics for Table 1 of CRIT2FL by TRTPN
+Controlling for PARAM=Diastolic Blood Pressure (mmHg)
+
+Fisher's Exact Test
+Table Probability (P)    0.0125
+Pr <= P                  0.4701
+
+Effective Sample Size = 249
+
+Vital Signs
+Treatment-Emergent Abnormal High or Low at Any Time
+
+Vital Sign                               Abnormality                                          
+(unit)                                   Direction    Treatment  N      n     (%)     P value*
+______________________________________________________________________________________________
+
+Diastolic Blood Pressure (mmHg)          Low          0          83     6     (7.2)   0.538   
+                                                      54         84     7     (8.3)           
+                                                      81         82     10    (12.2)          
+                                         High         0          83     13    (15.7)  0.470   
+                                                      54         84     13    (15.5)          
+                                                      81         82     8     (9.8)           
+
+ Abbreviations:  N = number of patients with a normal (i.e., not low if calculating `low` and not high if calculating `high`)
+ baseline and at least one post-baseline measure, n = number of patients wtih an abnormal post-baseline result in the
+ specified category.
+ *P values are from Fisher's Exact test.

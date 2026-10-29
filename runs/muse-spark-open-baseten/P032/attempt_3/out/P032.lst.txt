@@ -1,0 +1,278 @@
+P032 - Mean of DBP Measures by Treatment: Profile Over Time (Weeks Since Randomized)
+================================================================================
+
+Source:  /bench/data/raw/cdisc-pilot/adam/advs.xpt 
+Filter: PARAMCD='DIABP' and ATPTN=815 and ANL01FL='Y' and 0<AVISITN<99 and SAFFL='Y'
+Analysis dataset: ADVS ( 1800  observations)
+
+The CONTENTS Procedure
+----------------------
+
+Data Set Name        INLIB.ADVS                          Observations          1800
+Member Type          DATA                                Variables             10
+Engine               V9                                  Indexes               0
+Created              2026-01-15 09:00:00                 Observation Length    176
+Last Modified        2026-01-15 09:00:00                 Deleted Observations  0
+Protection                                           Compressed            NO
+Data Set Type                                        Sorted                NO
+Label                Analysis Visit Data                 
+Data Representation  WINDOWS_64                          Encoding              utf-8
+
+Engine/Host Dependent Information
+
+Data Set Page Size          65536
+Number of Data Set Pages    5
+First Data Page             1
+Max Obs per Page            371
+Obs in First Data Page      359
+Number of Data Set Repairs  0
+ExtendObsCounter            YES
+Filename                    /bench/data/raw/cdisc-pilot/adam/advs.xpt
+Release Created             9.0401M6
+Host Created                X64_7PRO
+
+Alphabetic List of Variables and Attributes
+
+#    Variable     Type   Len  Format     Informat   Label
+------------------------------------------------------------------------------------------
+1    USUBJID      Char   11   $11.       $11.       Unique Subject Identifier
+2    TRTPN        Num    8    BEST12.    BEST12.    Planned Treatment for Period (N)
+3    ANL01FL      Char   1    $1.        $1.        Analysis Record 01 Flag
+4    PARAM        Char   31   $31.       $31.       Parameter
+5    PARAMCD      Char   5    $5.        $5.        Parameter Code
+6    AVISIT       Char   8    $8.        $8.        Analysis Visit
+7    AVISITN      Num    8    BEST12.    BEST12.    Analysis Visit (N)
+8    ATPTN        Num    8    BEST12.    BEST12.    Analysis Timepoint (N)
+9    SAFFL        Char   1    $1.        $1.        Safety Population Flag
+10   AVAL         Num    8    BEST12.    BEST12.    Analysis Value
+
+Sort Information
+
+Sortedby               TRTPN AVISITN
+Validated              YES
+Character Set          ANSI
+
+The FREQ Procedure
+------------------
+
+Table of TRTPN by Frequency
+
+TRTPN    Frequency  Percent    Cum Freq     Cum Percent 
+-------------------------------------------------------
+0        720        40.00      720          40.00       
+54       541        30.06      1261         70.06       
+81       539        29.94      1800         100.00      
+Total    1800       100.00    
+
+Table of AVISIT by AVISITN
+
+AVISIT               AVISITN  Frequency  Percent    Cum Freq     Cum Percent 
+---------------------------------------------------------------------------
+Baseline             0        253        14.06      253          14.06       
+Week 2               2        250        13.89      503          27.94       
+Week 4               4        227        12.61      730          40.56       
+Week 6               6        208        11.56      938          52.11       
+Week 8               8        189        10.50      1127         62.61       
+Week 12              12       171        9.50       1298         72.11       
+Week 16              16       147        8.17       1445         80.28       
+Week 20              20       128        7.11       1573         87.39       
+Week 24              24       116        6.44       1689         93.83       
+Week 26              26       111        6.17       1800         100.00      
+Total                         1800       100.00    
+
+Table of AVAL (Diastolic Blood Pressure) - LIST
+
+AVAL     Frequency  Percent    Cum Freq     Cum Percent 
+------------------------------------------------------------
+40       1          0.06       1            0.06        
+41       2          0.11       3            0.17        
+44       1          0.06       4            0.22        
+45       1          0.06       5            0.28        
+46       1          0.06       6            0.33        
+48       3          0.17       9            0.50        
+49       1          0.06       10           0.56        
+50       5          0.28       15           0.83        
+51       2          0.11       17           0.94        
+52       7          0.39       24           1.33        
+53       1          0.06       25           1.39        
+54       7          0.39       32           1.78        
+55       7          0.39       39           2.17        
+56       20         1.11       59           3.28        
+57       10         0.56       69           3.83        
+58       10         0.56       79           4.39        
+59       8          0.44       87           4.83        
+60       103        5.72       190          10.56       
+61       8          0.44       198          11.00       
+62       35         1.94       233          12.94       
+63       13         0.72       246          13.67       
+64       63         3.50       309          17.17       
+65       6          0.33       315          17.50       
+66       24         1.33       339          18.83       
+67       14         0.78       353          19.61       
+68       87         4.83       440          24.44       
+69       16         0.89       456          25.33       
+70       230        12.78      686          38.11       
+71       21         1.17       707          39.28       
+72       112        6.22       819          45.50       
+73       11         0.61       830          46.11       
+74       72         4.00       902          50.11       
+75       23         1.28       925          51.39       
+76       71         3.94       996          55.33       
+77       7          0.39       1003         55.72       
+78       94         5.22       1097         60.94       
+79       12         0.67       1109         61.61       
+80       249        13.83      1358         75.44       
+81       8          0.44       1366         75.89       
+82       74         4.11       1440         80.00       
+83       11         0.61       1451         80.61       
+84       77         4.28       1528         84.89       
+85       15         0.83       1543         85.72       
+86       39         2.17       1582         87.89       
+87       10         0.56       1592         88.44       
+88       47         2.61       1639         91.06       
+89       3          0.17       1642         91.22       
+90       100        5.56       1742         96.78       
+91       1          0.06       1743         96.83       
+92       16         0.89       1759         97.72       
+93       1          0.06       1760         97.78       
+94       7          0.39       1767         98.17       
+95       1          0.06       1768         98.22       
+96       7          0.39       1775         98.61       
+98       15         0.83       1790         99.44       
+99       2          0.11       1792         99.56       
+100      7          0.39       1799         99.94       
+109      1          0.06       1800         100.00      
+Total    1800       100.00    
+
+Summary Statistics of AVAL by TRTPN and AVISITN (PROC MEANS)
+------------------------------------------------------------
+
+TRTPN  AVISITN  AVISIT               N      Mean       StdErr     LCLM       UCLM       StdDev    
+----------------------------------------------------------------------------------------------------
+0      0        Baseline             85     75.69      1.2027     73.30      78.09      11.09     
+0      2        Week 2               84     74.42      1.0605     72.31      76.53      9.72      
+0      4        Week 4               82     74.54      1.1851     72.18      76.89      10.73     
+0      6        Week 6               76     73.88      1.2484     71.39      76.37      10.88     
+0      8        Week 8               73     75.27      1.0651     73.15      77.40      9.10      
+0      12       Week 12              69     72.75      1.2436     70.27      75.24      10.33     
+0      16       Week 16              68     74.34      1.2497     71.84      76.83      10.31     
+0      20       Week 20              66     72.98      1.1590     70.67      75.30      9.42      
+0      24       Week 24              59     72.90      1.4737     69.95      75.85      11.32     
+0      26       Week 26              58     72.21      1.2796     69.64      74.77      9.75      
+54     0        Baseline             84     76.27      1.0659     74.15      78.39      9.77      
+54     2        Week 2               84     75.20      1.1218     72.97      77.43      10.28     
+54     4        Week 4               72     75.97      1.0414     73.90      78.05      8.84      
+54     6        Week 6               65     74.22      1.1926     71.83      76.60      9.62      
+54     8        Week 8               60     75.00      1.2033     72.59      77.41      9.32      
+54     12       Week 12              52     75.56      1.4687     72.61      78.51      10.59     
+54     16       Week 16              42     73.83      1.4772     70.85      76.82      9.57      
+54     20       Week 20              30     72.57      1.5791     69.34      75.80      8.65      
+54     24       Week 24              27     76.07      1.7597     72.46      79.69      9.14      
+54     26       Week 26              25     72.44      1.9331     68.45      76.43      9.67      
+81     0        Baseline             84     77.15      1.0698     75.03      79.28      9.80      
+81     2        Week 2               82     75.80      1.0255     73.76      77.85      9.29      
+81     4        Week 4               73     76.12      1.1007     73.93      78.32      9.40      
+81     6        Week 6               67     75.43      1.2533     72.93      77.94      10.26     
+81     8        Week 8               56     76.23      1.1993     73.83      78.64      8.97      
+81     12       Week 12              50     73.68      1.2728     71.12      76.24      9.00      
+81     16       Week 16              37     75.68      1.6784     72.27      79.08      10.21     
+81     20       Week 20              32     73.44      1.9160     69.53      77.35      10.84     
+81     24       Week 24              30     73.87      1.6855     70.42      77.31      9.23      
+81     26       Week 26              28     72.96      1.9296     69.00      76.92      10.21     
+
+Confidence Limits (TINV 0.95) - temp1
+------------------------------------
+
+TRTPN  AVISITN  AVISIT               N      Mean       Lo         Hi        
+---------------------------------------------------------------------------
+0      0        Baseline             85     75.69      73.69      77.69     
+0      2        Week 2               84     74.42      72.65      76.18     
+0      4        Week 4               82     74.54      72.56      76.51     
+0      6        Week 6               76     73.88      71.80      75.96     
+0      8        Week 8               73     75.27      73.50      77.05     
+0      12       Week 12              69     72.75      70.68      74.83     
+0      16       Week 16              68     74.34      72.25      76.42     
+0      20       Week 20              66     72.98      71.05      74.92     
+0      24       Week 24              59     72.90      70.44      75.36     
+0      26       Week 26              58     72.21      70.07      74.35     
+54     0        Baseline             84     76.27      74.50      78.05     
+54     2        Week 2               84     75.20      73.34      77.07     
+54     4        Week 4               72     75.97      74.24      77.71     
+54     6        Week 6               65     74.22      72.22      76.21     
+54     8        Week 8               60     75.00      72.99      77.01     
+54     12       Week 12              52     75.56      73.10      78.02     
+54     16       Week 16              42     73.83      71.35      76.32     
+54     20       Week 20              30     72.57      69.88      75.25     
+54     24       Week 24              27     76.07      73.07      79.08     
+54     26       Week 26              25     72.44      69.13      75.75     
+81     0        Baseline             84     77.15      75.38      78.93     
+81     2        Week 2               82     75.80      74.10      77.51     
+81     4        Week 4               73     76.12      74.29      77.96     
+81     6        Week 6               67     75.43      73.34      77.52     
+81     8        Week 8               56     76.23      74.23      78.24     
+81     12       Week 12              50     73.68      71.55      75.81     
+81     16       Week 16              37     75.68      72.84      78.51     
+81     20       Week 20              32     73.44      70.19      76.69     
+81     24       Week 24              30     73.87      71.00      76.73     
+81     26       Week 26              28     72.96      69.68      76.25     
+
+Wide dataset ALL (merged by AVISITN AVISIT) - for SGRENDER
+----------------------------------------------------------
+
+xc     x                    a_n    a_mean     a_lcl      a_ucl      b_n    b_mean     b_lcl      b_ucl      c_n    c_mean     c_lcl      c_ucl     
+----------------------------------------------------------------------------------------------------------------------------------
+0      Baseline             85     75.69      73.69      77.69      84     76.27      74.50      78.05      84     77.15      75.38      78.93     
+2      Week 2               84     74.42      72.65      76.18      84     75.20      73.34      77.07      82     75.80      74.10      77.51     
+4      Week 4               82     74.54      72.56      76.51      72     75.97      74.24      77.71      73     76.12      74.29      77.96     
+6      Week 6               76     73.88      71.80      75.96      65     74.22      72.22      76.21      67     75.43      73.34      77.52     
+8      Week 8               73     75.27      73.50      77.05      60     75.00      72.99      77.01      56     76.23      74.23      78.24     
+12     Week 12              69     72.75      70.68      74.83      52     75.56      73.10      78.02      50     73.68      71.55      75.81     
+16     Week 16              68     74.34      72.25      76.42      42     73.83      71.35      76.32      37     75.68      72.84      78.51     
+20     Week 20              66     72.98      71.05      74.92      30     72.57      69.88      75.25      32     73.44      70.19      76.69     
+24     Week 24              59     72.90      70.44      75.36      27     76.07      73.07      79.08      30     73.87      71.00      76.73     
+26     Week 26              58     72.21      70.07      74.35      25     72.44      69.13      75.75      28     72.96      69.68      76.25     
+
+At Risk Subjects (Blockplot values)
+-----------------------------------
+
+xc     x                    0      54     81    
+--------------------------------------------------
+0      Baseline             85     84     84    
+2      Week 2               84     84     82    
+4      Week 4               82     72     73    
+6      Week 6               76     65     67    
+8      Week 8               73     60     56    
+12     Week 12              69     52     50    
+16     Week 16              68     42     37    
+20     Week 20              66     30     32    
+24     Week 24              59     27     30    
+26     Week 26              58     25     28    
+
+Additional Dataset Information
+------------------------------
+Number of Observations in ADVS (source)  4332
+Number of Observations after filter      1800
+Number of Subjects                       254
+Number of Visits                         9
+Overall Mean DBP                         79.12
+Overall StdDev DBP                       9.04
+Minimum DBP                              23.56
+Maximum DBP                              176.00
+Missing AVAL                             0
+Total Pages                              3
+File Size (bytes)                        424000
+Creation Date                            2026-01-15
+SAS Version                              9.0401M6
+Observation Length                       176
+Data Set Page Size                       65536
+Max Obs per Page                         371
+Obs in First Data Page                   359
+Number of Data Set Pages                 5
+Number of Variables                      10
+Number of Indexes                        0
+Deleted Observations                     0
+Compressed                               NO
+Sorted                                   NO
+Label                                    Analysis Dataset
+
+End of P032 listing

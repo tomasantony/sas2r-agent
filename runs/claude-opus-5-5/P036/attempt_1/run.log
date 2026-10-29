@@ -1,0 +1,5 @@
+sandbox: docker run --rm --name sas2r-c14e0a6765b1 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\claude-opus-5-5\P036\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Warning message:
+Removed 1 row containing missing values or values outside the scale range
+(`geom_smooth()`). 
+P036 done. Rows advsmax2: 250  advsmax3: 250 

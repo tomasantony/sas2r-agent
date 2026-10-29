@@ -1,0 +1,26 @@
+Scatter Plot-Max. Post-baseline vs Max. Baseline for Lab Test 1 (mmol/L)
+
+Max Post Basline Result (shift from baseline)
+Treatment        Max. Baseline Result Low            Normal        
+0 (N = 84)       High                                   2 (2.3)    
+                 Low                     6 (7.1)        1 (1.1)    
+                 Normal                 11 (13.0)      64 (76.1)   
+ 
+54 (N = 84)      High                                   1 (1.1)    
+                 Low                     3 (3.5)        1 (1.1)    
+                 Normal                 12 (14.2)      67 (79.7)   
+ 
+81 (N = 82)      High                                   1 (1.2)    
+                 Low                     6 (7.3)                   
+                 Normal                  5 (6.0)       70 (85.3)   
+ 
+
+Treatment Emergent High
+   TRTPN       Nx        n        % FishersP
+       0       84        5      6.0   1.0000
+      54       84        5      6.0         
+      81       82        5      6.1         
+
+Scatter Plot: Includes subjects with both a baseline and a post-baseline measure.  Reference limits apply to most of the participants are used in the plot
+N=number of subjects with at least one post-baseline measure; Nx=number of subjects with maximum baseline either normal or low and have at least one post-baseline measure.
+Summary tables used the reference limits set 1 (Male, Age 18-65, LLNx 60 mmol/L ULNx 90 mmol/L) set 2 (Female, Age 18-65, LLN=60 mmol/L ULN=90 mmol/L).

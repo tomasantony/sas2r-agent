@@ -1,0 +1,34 @@
+sandbox: docker run --rm --name sas2r-c8e3c2552367 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\gpt-oss-120b-ollama\P069\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error in `map()`:
+ℹ In index: 2.
+Caused by error in `group_by()`:
+! Must group by variables found in `.data`.
+✖ Column `TRTA` is not found.
+Backtrace:
+     ▆
+  1. ├─purrr::map_dfr(...)
+  2. │ └─purrr::map(.x, .f, ...)
+  3. │   └─purrr:::map_("list", .x, .f, ..., .progress = .progress)
+  4. │     ├─purrr:::with_indexed_errors(...)
+  5. │     │ └─base::withCallingHandlers(...)
+  6. │     ├─purrr:::call_with_cleanup(...)
+  7. │     └─global .f(.x[[i]], ...)
+  8. │       └─global calc_counts(adae_teae, cd$filter_expr)
+  9. │         └─... %>% ...
+ 10. ├─dplyr::summarise(., cnt = n_distinct(USUBJID), .groups = "drop")
+ 11. ├─dplyr::group_by(., TRTA)
+ 12. └─dplyr:::group_by.data.frame(., TRTA)
+ 13.   └─dplyr::group_by_prepare(.data, ..., .add = .add, error_call = current_env())
+ 14.     └─rlang::abort(bullets, call = error_call)
+Execution halted

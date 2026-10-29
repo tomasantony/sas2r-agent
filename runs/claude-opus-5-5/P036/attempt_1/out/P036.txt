@@ -1,0 +1,51 @@
+The FREQ Procedure
+
+Table of TRTPN by n
+
+Frequency / Percent / Row Pct / Col Pct
+TRTPN               0          1      Total
+0                  79          5         84
+                31.60       2.00      33.60
+                94.05       5.95
+                33.62      33.33
+54                 79          5         84
+                31.60       2.00      33.60
+                94.05       5.95
+                33.62      33.33
+81                 77          5         82
+                30.80       2.00      32.80
+                93.90       6.10
+                32.77      33.33
+Total             235         15        250
+                94.00       6.00     100.00
+
+Statistics for Table of TRTPN by n
+
+Fisher's Exact Test
+Table Probability (P)             5.604e-02
+Pr <= P                              1.0000
+
+Sample Size = 250
+
+Scatter Plot-Max. Post-baseline vs Max. Baseline for Lab Test 1 (mmol/L)
+
+Max Post Basline Result (shift from baseline)
+Treatment        Max. Baseline Result Low            Normal        
+0 (N = 84)       High                                   2 (2.3)    
+                 Low                     6 (7.1)        1 (1.1)    
+                 Normal                 11 (13.0)      64 (76.1)   
+ 
+54 (N = 84)      High                                   1 (1.1)    
+                 Low                     3 (3.5)        1 (1.1)    
+                 Normal                 12 (14.2)      67 (79.7)   
+ 
+81 (N = 82)      High                                   1 (1.2)    
+                 Low                     6 (7.3)                   
+                 Normal                  5 (6.0)       70 (85.3)   
+ 
+
+Treatment Emergent High
+   TRTPN       Nx        n        % FishersP
+       0       84        5      6.0   1.0000
+      54       84        5      6.0         
+      81       82        5      6.1         

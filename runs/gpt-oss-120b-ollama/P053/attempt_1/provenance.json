@@ -1,0 +1,78 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P053",
+ "provider": "gpt-oss-120b-ollama",
+ "model": "gpt-oss:120b",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T19:24:48",
+ "agent_commit": "353ac1dac000ddec415dda4099ed49d3528a04ab",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 3196,
+  "output_tokens": 5065,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 15.1
+ },
+ "inputs": {
+  "prompt_translate.md": "0c26806959467a80eb8f31313a53742a6fc0315a370a4f78d0dd88e09276eb08"
+ },
+ "model_output": {
+  "response.md": "437632736f342d64cd22f2a7f9694cda4407c440e90ff06b0a5491267ea7b64e",
+  "reasoning.md": "cb1a8d7344aa01d184659de14bd7459e2c0d331168e73187d3f1fe7a98798488",
+  "script.R": "8ccd6b607f1d634b6fe52eaad5ae043f98b5086913d8b054ac67397ada403971"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.8,
+  "timed_out": false,
+  "log_sha256": "d9996a9f50d45079635ecbf9e50364571761d1cb1e89cb16700e9d45167243ae"
+ },
+ "r_outputs": {
+  "P053.csv": "fc391b5534125d6836a3747baccf74060659c939f839896225581c2399189e1e",
+  "P053.txt": "6b380e667fff17c43431ca7af6caf8eec2301de6d6efc4757f8366185b491e7c",
+  "sasgraph.csv": "e898d119e856f34e1f0dfa3f8f797b992ac6c14e590f33b65ec324802318353d",
+  "sasgraph.png": "47fc92f01be12d6564f5ddb44c13db18dfcc8d4e8b0e50f5fd8e6e628aff51f1",
+  "Target16.csv": "a97caae553ed4222c2d186c5f925d32bd1fee5c1b2ef18570e182742ec24b609",
+  "Target16.txt": "1def8311e7cdb7af203024edb41a76215acbe9d12d96e212bf415e66765760c1"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P053.lst",
+   "sha256": "48e6f616fa42b60acc18601b92c4920ef8be01e79a4f4a67002b765678bacae2",
+   "frozen_sha256": "48e6f616fa42b60acc18601b92c4920ef8be01e79a4f4a67002b765678bacae2",
+   "ok": true
+  },
+  {
+   "file": "datasets/P053/sasgraph.png",
+   "sha256": "21b9d61adb46507ded7214eafabf8a501b5d0c3ac0bf9cd8f559719e94209741",
+   "frozen_sha256": "21b9d61adb46507ded7214eafabf8a501b5d0c3ac0bf9cd8f559719e94209741",
+   "ok": true
+  },
+  {
+   "file": "datasets/P053/Target16.pdf",
+   "sha256": "aafd9bd4c7929bc6859c4a7f4d182c6f0c15d5a7fc9bd8a8bafc567ca79fa0f2",
+   "frozen_sha256": "aafd9bd4c7929bc6859c4a7f4d182c6f0c15d5a7fc9bd8a8bafc567ca79fa0f2",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.7971314618806565,
+  "produced_all": true
+ }
+}

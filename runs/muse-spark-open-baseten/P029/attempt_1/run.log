@@ -1,0 +1,14 @@
+sandbox: docker run --rm --name sas2r-6fba379eb8ff --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P029\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+P029: tu dataset written to /work/out/tu.csv with 4 rows
+P029: listing written to /work/out/P029.txt

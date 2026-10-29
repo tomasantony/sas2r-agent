@@ -1,0 +1,39 @@
+sandbox: docker run --rm --name sas2r-2eccf43758e4 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P026\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+P026: start
+edc_dm cols: SUBJID,BRTHDT,GENDER,RACE,ETHNIC,RFICDT,SITE  n= 5 
+RF candidates:  
+RFSTDTC all NA from edc_dm, trying ivrs_rand
+ivrs_rand cols: SUBJID,RAND_DT,TRT_CODE 
+dm_for_lb built n= 5 
+# A tibble: 5 × 2
+  USUBJID       RFSTDTC   
+  <chr>         <chr>     
+1 ONCO-2026-101 2026-01-05
+2 ONCO-2026-102 2026-01-08
+3 ONCO-2026-103 2026-01-10
+4 ONCO-2026-104 2026-01-12
+5 ONCO-2026-105 2026-01-15
+edc_lb cols: SUBJID,TESTCD,CAT,ORRES,UNIT,VISIT,LBDT,LOW,HIGH  n= 6 
+# A tibble: 6 × 9
+  SUBJID TESTCD CAT        ORRES UNIT  VISIT         LBDT        LOW   HIGH 
+  <chr>  <chr>  <chr>      <chr> <chr> <chr>         <chr>       <chr> <chr>
+1 101    HGB    HEMATOLOGY 14.5  g/dL  SCREENING     02-JAN-2026 12.0  16.0 
+2 101    ALT    CHEMISTRY  25    U/L   SCREENING     02-JAN-2026 0     40   
+3 103    HGB    HEMATOLOGY 13.0  g/dL  SCREENING     05-JAN-2026 12.0  16.0 
+4 103    HGB    HEMATOLOGY 11.5  g/dL  CYCLE_1_DAY_1 15-JAN-2026 12.0  16.0 
+5 103    ALT    CHEMISTRY  30    U/L   SCREENING     05-JAN-2026 0     40   
+6 105    HGB    HEMATOLOGY 15.0  g/dL  SCREENING     12-JAN-2026 12.0  16.0 
+sdtm_lb1 LBSTDY: -3,-3,-5,6,-5,-3 
+sdtm_lb n= 6 
+# A tibble: 6 × 18
+  STUDYID   DOMAIN USUBJID LBSEQ LBTESTCD LBTEST LBCAT LBORRES LBORRESU LBSTRESC
+  <chr>     <chr>  <chr>   <dbl> <chr>    <chr>  <chr> <chr>   <chr>    <chr>   
+1 ONCO-2026 LB     ONCO-2…     1 HGB      Hemog… HEMA… 14.5    g/dL     14.5    
+2 ONCO-2026 LB     ONCO-2…     2 ALT      Alani… CHEM… 25      U/L      25      
+3 ONCO-2026 LB     ONCO-2…     1 HGB      Hemog… HEMA… 13.0    g/dL     13.0    
+4 ONCO-2026 LB     ONCO-2…     2 ALT      Alani… CHEM… 30      U/L      30      
+5 ONCO-2026 LB     ONCO-2…     3 HGB      Hemog… HEMA… 11.5    g/dL     11.5    
+6 ONCO-2026 LB     ONCO-2…     1 HGB      Hemog… HEMA… 15.0    g/dL     15.0    
+# ℹ 8 more variables: LBSTRESN <dbl>, LBSTRESU <chr>, LBORNRLO <chr>,
+#   LBORNRHI <chr>, LBNRIND <chr>, LBDTC <chr>, LBSTDY <dbl>, VISIT <chr>
+Outputs written to /work/out 

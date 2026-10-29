@@ -1,0 +1,67 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.5177941402055529,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P036.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.6509433962264151,
+   "detail": {
+    "recall": 0.6509433962264151,
+    "expected": 106,
+    "found": 69,
+    "r_files": [
+     "advsmax2.csv",
+     "TableA.csv"
+    ],
+    "missing_examples": [
+     "31.6",
+     "94.05",
+     "5.95",
+     "33.62",
+     "33.33",
+     "30.8",
+     "93.9",
+     "6.1",
+     "32.77",
+     "235",
+     "250",
+     "100"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "sasgraph.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sasgraph.png"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "Target16.pdf",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9024390243902439,
+   "detail": {
+    "recall": 0.9024390243902439,
+    "expected": 41,
+    "found": 37,
+    "r_files": [
+     "advsmax2.csv",
+     "TableA.csv"
+    ],
+    "missing_examples": [
+     "100",
+     "-65"
+    ]
+   }
+  }
+ ]
+}

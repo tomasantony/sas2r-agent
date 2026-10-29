@@ -1,0 +1,30 @@
+{
+ "id": "P061",
+ "provider": "claude-opus-5-5",
+ "model": "claude-opus-5-5",
+ "family": "sumit",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 0.9874969726562388,
+ "iterations": 1,
+ "input_tokens": 3924,
+ "output_tokens": 8991,
+ "seconds": 81.36485171318054,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 5.133812665939331,
+   "input_tokens": 3924,
+   "output_tokens": 8991,
+   "seconds_llm": 75.79002356529236,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 0.9874969726562388,
+   "note": ""
+  }
+ ],
+ "best_attempt": 1
+}

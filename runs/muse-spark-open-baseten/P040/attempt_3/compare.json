@@ -1,0 +1,38 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9142091152815014,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P040_f_kmplot.pdf",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9142091152815014,
+   "detail": {
+    "recall": 0.9142091152815014,
+    "expected": 373,
+    "found": 341,
+    "r_files": [
+     "P040_f_kmplot.csv",
+     "P040_f_kmplot.txt",
+     "P040_f_kmplot_atrisk.csv"
+    ],
+    "missing_examples": [
+     "218.85",
+     "10.573",
+     "240.795",
+     "11.206",
+     "38",
+     "34",
+     "10.53",
+     "4.0033",
+     "94",
+     "-4.0033",
+     "-94",
+     "4135.35"
+    ]
+   }
+  }
+ ]
+}

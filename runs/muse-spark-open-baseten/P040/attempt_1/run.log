@@ -1,0 +1,14 @@
+sandbox: docker run --rm --name sas2r-4d8f0bccbe8a --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P040\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Data 'one' created: 38 rows
+       
+         0  1
+  Arm 1 15  2
+  Arm 2 19  2
+CSV written to /work/out/P040_f_kmplot.csv 
+TXT written to /work/out/P040_f_kmplot.txt 
+Ignoring unknown labels:
+• colour : "Stratum"
+PNG written via survminer to /work/out/P040_f_kmplot.png 
+All outputs written to OUT_DIR: /work/out 
+[1] "P040_f_kmplot_atrisk.csv" "P040_f_kmplot.csv"       
+[3] "P040_f_kmplot.png"        "P040_f_kmplot.txt"       

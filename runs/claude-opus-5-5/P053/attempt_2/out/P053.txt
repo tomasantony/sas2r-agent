@@ -1,0 +1,45 @@
+The FREQ Procedure
+
+Table of TRTPN by n
+
+TRTPN=0 n=0  Frequency=79  Percent=31.60  Row Pct=94.05  Col Pct=33.62
+TRTPN=0 n=1  Frequency=5  Percent=2.00  Row Pct=5.95  Col Pct=33.33
+TRTPN=0 Total=84  Percent=33.60
+TRTPN=54 n=0  Frequency=79  Percent=31.60  Row Pct=94.05  Col Pct=33.62
+TRTPN=54 n=1  Frequency=5  Percent=2.00  Row Pct=5.95  Col Pct=33.33
+TRTPN=54 Total=84  Percent=33.60
+TRTPN=81 n=0  Frequency=77  Percent=30.80  Row Pct=93.90  Col Pct=32.77
+TRTPN=81 n=1  Frequency=5  Percent=2.00  Row Pct=6.10  Col Pct=33.33
+TRTPN=81 Total=82  Percent=32.80
+n=0 Total=235  Percent=94.00
+n=1 Total=15  Percent=6.00
+Total=250  Percent=100.00
+
+Fisher's Exact Test
+Cell (1,1) Frequency (F)  79
+Table Probability (P)  5.604e-02
+Pr <= P                1.0000
+
+Sample Size = 250
+
+Max Post Basline Result (shift from baseline)
+   GroupFmt  BNRIND  Low_N  Low_PCT  Normal_N  Normal_PCT
+ 0 (N = 84)    High                         2       (2.3)
+ 0 (N = 84)     Low      6    (7.1)         1       (1.1)
+ 0 (N = 84)  Normal     11   (13.0)        64      (76.1)
+54 (N = 84)    High                         1       (1.1)
+54 (N = 84)     Low      3    (3.5)         1       (1.1)
+54 (N = 84)  Normal     12   (14.2)        67      (79.7)
+81 (N = 82)    High                         1       (1.2)
+81 (N = 82)     Low      6    (7.3)                      
+81 (N = 82)  Normal      5    (6.0)        70      (85.3)
+
+Treatment Emergent High
+TRTPN  Nx  n  percent  FishersP
+    0  84  5      6.0    1.0000
+   54  84  5      6.0          
+   81  82  5      6.1          
+
+Scatter Plot: Includes subjects with both a baseline and a post-baseline measure.  Reference limits apply to most of the participants are used in the plot
+N=number of subjects with at least one post-baseline measure; Nx=number of subjects with maximum baseline either normal or low and have at least one post-baseline measure.
+Summary tables used the reference limits set 1 (Male, Age 18-65, LLNx 60 mmol/L ULNx 90 mmol/L) set 2 (Female, Age 18-65, LLN=60 mmol/L ULN=90 mmol/L).

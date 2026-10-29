@@ -1,0 +1,73 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P028",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 3,
+ "recorded_at": "2026-10-29T19:26:31",
+ "agent_commit": "5119ce2b475e3711599a66428b57c513394be4ac",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 12030,
+  "output_tokens": 7403,
+  "reasoning_tokens": 1651,
+  "finish_reason": "stop",
+  "seconds": 20.7
+ },
+ "inputs": {
+  "prompt_translate.md": "93a1035f445b25e5c369490ca51728989356ac296b985d13a1fcdc6e2db42d43"
+ },
+ "model_output": {
+  "response.md": "0b782b7483a0f68ca56a3d633e9cc7b057d2d0e2aae5d32eee5342873842e9a1",
+  "reasoning.md": "53c2a34d9e13e93defbc3d130df5a887d978d0fd34ee5ff011ac8f6bc6c09c2c",
+  "script.R": "621b72689b9aba2f9a9de901debac7f42fb9910ec4db9615a46b905628b468c4"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.6,
+  "timed_out": false,
+  "log_sha256": "9887bd3ab555b92490439f156c8aeba289c9df2c976b6c8a167aaafc256de1da"
+ },
+ "r_outputs": {
+  "P028.csv": "77d5a365de885952437e648100f8d9adcd60208f4276ce21e5602a2b9ba8315f",
+  "P028.lst": "7d4660ebc79dce70a78d78e7902240258c7c6f27ed4145b88bd1e95459678cdb",
+  "P028.lst.csv": "77d5a365de885952437e648100f8d9adcd60208f4276ce21e5602a2b9ba8315f",
+  "P028.lst.txt": "7d4660ebc79dce70a78d78e7902240258c7c6f27ed4145b88bd1e95459678cdb",
+  "P028.txt": "7d4660ebc79dce70a78d78e7902240258c7c6f27ed4145b88bd1e95459678cdb",
+  "tr.csv": "77d5a365de885952437e648100f8d9adcd60208f4276ce21e5602a2b9ba8315f",
+  "tr.txt": "7d4660ebc79dce70a78d78e7902240258c7c6f27ed4145b88bd1e95459678cdb"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P028.lst",
+   "sha256": "61071ebc8041a71fb6f5ec298fb6a670717a9b4c6cedf278e280d6d5f373afc7",
+   "frozen_sha256": "61071ebc8041a71fb6f5ec298fb6a670717a9b4c6cedf278e280d6d5f373afc7",
+   "ok": true
+  },
+  {
+   "file": "datasets/P028/tr.xlsx",
+   "sha256": "76e2fdebd505ec7c830038a2082981c3b99b8d411113ae07894d001b69285bc3",
+   "frozen_sha256": "76e2fdebd505ec7c830038a2082981c3b99b8d411113ae07894d001b69285bc3",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.9495192307692308,
+  "produced_all": true
+ }
+}

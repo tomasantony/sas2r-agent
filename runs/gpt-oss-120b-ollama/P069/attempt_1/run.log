@@ -1,0 +1,42 @@
+sandbox: docker run --rm --name sas2r-0d10acd6b5de --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\gpt-oss-120b-ollama\P069\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error in `map()`:
+ℹ In index: 1.
+Caused by error in `filter()`:
+ℹ In argument: `is.na(USUBJID.y)`.
+Caused by error:
+! object 'USUBJID.y' not found
+Backtrace:
+     ▆
+  1. ├─purrr::map(...)
+  2. │ └─purrr:::map_("list", .x, .f, ..., .progress = .progress)
+  3. │   ├─purrr:::with_indexed_errors(...)
+  4. │   │ └─base::withCallingHandlers(...)
+  5. │   ├─purrr:::call_with_cleanup(...)
+  6. │   └─global .f(.x[[i]], ...)
+  7. │     └─global calc_counts(adsl %>% filter(toupper(SAFFL) == "Y"), NULL)
+  8. │       └─... %>% ...
+  9. ├─dplyr::summarise(., cnt = n_distinct(USUBJID), .groups = "drop")
+ 10. ├─dplyr::group_by(., TRTA)
+ 11. ├─dplyr::filter(., is.na(USUBJID.y))
+ 12. ├─dplyr:::filter.data.frame(., is.na(USUBJID.y))
+ 13. │ └─dplyr:::filter_impl(...)
+ 14. │   └─dplyr:::filter_rows(...)
+ 15. │     └─dplyr:::filter_eval(...)
+ 16. │       ├─base::withCallingHandlers(...)
+ 17. │       └─mask$eval_all_filter(dots_expanded, invert, env_filter)
+ 18. │         └─dplyr (local) eval()
+ 19. └─base::.handleSimpleError(...)
+ 20.   └─dplyr (local) h(simpleError(msg, call))
+ 21.     └─rlang::abort(message, class = error_class, parent = parent, call = error_call)
+Execution halted
