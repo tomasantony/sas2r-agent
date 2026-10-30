@@ -6,8 +6,10 @@ reference manifest). Per repo: runs/ledger.jsonl, an append-only hash chain over
 """
 from __future__ import annotations
 
+import contextlib
 import hashlib
 import json
+import os
 import platform
 import subprocess
 import time
@@ -103,32 +105,90 @@ def write_attempt_provenance(adir: Path, *, pid: str, provider: str, model: str,
     return rec
 
 
+@contextlib.contextmanager
+def _locked(path: Path):
+    """Exclusive lock so concurrent sweeps append one at a time (Windows msvcrt / POSIX fcntl)."""
+    lock = path.with_suffix(".lock")
+    fh = open(lock, "a+b")
+    try:
+        if os.name == "nt":
+            import msvcrt
+            for _ in range(600):
+                try:
+                    msvcrt.locking(fh.fileno(), msvcrt.LK_NBLCK, 1)
+                    break
+                except OSError:
+                    time.sleep(0.1)
+        else:
+            import fcntl
+            fcntl.flock(fh.fileno(), fcntl.LOCK_EX)
+        yield
+    finally:
+        try:
+            if os.name == "nt":
+                import msvcrt
+                fh.seek(0)
+                msvcrt.locking(fh.fileno(), msvcrt.LK_UNLCK, 1)
+            else:
+                import fcntl
+                fcntl.flock(fh.fileno(), fcntl.LOCK_UN)
+        except OSError:
+            pass
+        fh.close()
+
+
+def _last_entry_hash(ledger: Path) -> str:
+    if not ledger.exists() or ledger.stat().st_size == 0:
+        return ""
+    with open(ledger, "rb") as f:
+        f.seek(0, os.SEEK_END)
+        size = f.tell()
+        back = min(size, 1 << 16)
+        f.seek(size - back)
+        tail = f.read().decode("utf-8", errors="replace").rstrip("\n").splitlines()
+    return json.loads(tail[-1])["entry_hash"] if tail else ""
+
+
 def append_ledger(rec: dict) -> str:
-    """Append a hash-chained line to runs/ledger.jsonl; returns the new entry hash."""
+    """Append a hash-chained line to runs/ledger.jsonl under a file lock; returns the new entry hash."""
     ledger = RUNS_DIR / "ledger.jsonl"
-    prev = ""
-    if ledger.exists():
-        lines = ledger.read_text(encoding="utf-8").splitlines()
-        if lines:
-            prev = json.loads(lines[-1])["entry_hash"]
-    body = json.dumps({"prev_hash": prev, "record": rec}, sort_keys=True)
-    entry_hash = hashlib.sha256(body.encode("utf-8")).hexdigest()
-    with open(ledger, "a", encoding="utf-8") as f:
-        f.write(json.dumps({"prev_hash": prev, "entry_hash": entry_hash, "record": rec}, sort_keys=True) + "\n")
+    ledger.parent.mkdir(parents=True, exist_ok=True)
+    with _locked(ledger):
+        prev = _last_entry_hash(ledger)
+        body = json.dumps({"prev_hash": prev, "record": rec}, sort_keys=True)
+        entry_hash = hashlib.sha256(body.encode("utf-8")).hexdigest()
+        with open(ledger, "a", encoding="utf-8") as f:
+            f.write(json.dumps({"prev_hash": prev, "entry_hash": entry_hash, "record": rec}, sort_keys=True) + "\n")
+            f.flush()
     return entry_hash
 
 
-def verify_ledger() -> tuple[int, int]:
-    """Recompute the chain; returns (entries, first bad index or -1)."""
+def verify_ledger() -> dict:
+    """Check every entry: its hash matches its body, and its prev_hash is the hash of an earlier entry.
+
+    Returns {entries, bad_hash (first index with a wrong entry hash, -1 if none), unresolved (first index
+    whose prev_hash is not an earlier entry, -1 if none), forks (entries whose prev is an earlier entry but
+    not the immediately preceding one: two sweeps appended at the same moment before file locking was added
+    on 2026-10-29; the records are intact and ordered by their recorded_at timestamps)}.
+    """
     ledger = RUNS_DIR / "ledger.jsonl"
+    out = {"entries": 0, "bad_hash": -1, "unresolved": -1, "forks": []}
     if not ledger.exists():
-        return 0, -1
+        return out
+    seen: set[str] = set()
     prev = ""
     lines = ledger.read_text(encoding="utf-8").splitlines()
+    out["entries"] = len(lines)
     for i, line in enumerate(lines):
         e = json.loads(line)
         body = json.dumps({"prev_hash": e["prev_hash"], "record": e["record"]}, sort_keys=True)
-        if e["prev_hash"] != prev or hashlib.sha256(body.encode("utf-8")).hexdigest() != e["entry_hash"]:
-            return len(lines), i
+        if hashlib.sha256(body.encode("utf-8")).hexdigest() != e["entry_hash"] and out["bad_hash"] < 0:
+            out["bad_hash"] = i
+        if e["prev_hash"] != prev:
+            if e["prev_hash"] in seen:
+                out["forks"].append(i)
+            elif out["unresolved"] < 0:
+                out["unresolved"] = i
+        seen.add(e["entry_hash"])
         prev = e["entry_hash"]
-    return len(lines), -1
+    return out

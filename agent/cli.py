@@ -164,8 +164,12 @@ def cmd_verify(args):
     print(f"reference files: {len(d['files'])}, changed or missing: {len(bad)}")
     for rel in bad[:20]:
         print("  changed:", rel)
-    n, first_bad = verify_ledger()
-    print(f"ledger entries: {n}, chain {'intact' if first_bad < 0 else f'BROKEN at entry {first_bad}'}")
+    v = verify_ledger()
+    ok = v["bad_hash"] < 0 and v["unresolved"] < 0
+    print(f"ledger entries: {v['entries']}, entry hashes {'all valid' if v['bad_hash'] < 0 else f'INVALID at {v['bad_hash']}'}, "
+          f"links {'all resolve' if v['unresolved'] < 0 else f'UNRESOLVED at {v['unresolved']}'}, "
+          f"forks from concurrent sweeps: {len(v['forks'])} {v['forks'][:5] if v['forks'] else ''}")
+    print("ledger: " + ("INTACT" if ok else "TAMPERED OR CORRUPT"))
 
 
 def cmd_rescore(args):
