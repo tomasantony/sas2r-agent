@@ -11,8 +11,8 @@
    "score": 1.0,
    "detail": {
     "recall": 1.0,
-    "expected": 148,
-    "found": 148,
+    "expected": 88,
+    "found": 88,
     "r_files": [
      "adae.csv",
      "P004.csv",

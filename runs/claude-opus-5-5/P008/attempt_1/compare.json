@@ -11,8 +11,8 @@
    "score": 1.0,
    "detail": {
     "recall": 1.0,
-    "expected": 180,
-    "found": 180,
+    "expected": 120,
+    "found": 120,
     "r_files": [
      "advs.csv",
      "P008.csv",

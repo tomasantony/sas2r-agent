@@ -1,18 +1,18 @@
 {
  "produced_all": true,
  "equivalent": true,
- "score": 0.994378698224852,
+ "score": 0.9937869822485208,
  "artifacts": [
   {
    "kind": "text",
    "name": "P088.lst",
    "r_file": null,
    "status": "ok",
-   "score": 0.9718934911242604,
+   "score": 0.9689349112426036,
    "detail": {
-    "recall": 0.9718934911242604,
+    "recall": 0.9689349112426036,
     "expected": 676,
-    "found": 657,
+    "found": 655,
     "r_files": [
      "adeff.csv",
      "adeff_resp.csv",
@@ -25,16 +25,16 @@
     "missing_examples": [
      "27",
      "2026",
+     "15",
      "520",
      "64",
      "65536",
      "125",
      "35248",
      "9.0401",
+     "20",
      "200",
-     "-6.667",
-     "-22.222",
-     "-33.333"
+     "-6.667"
     ]
    }
   },

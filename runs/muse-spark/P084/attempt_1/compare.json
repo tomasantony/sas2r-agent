@@ -1,18 +1,18 @@
 {
  "produced_all": true,
  "equivalent": false,
- "score": 0.9758713136729223,
+ "score": 0.9704918032786886,
  "artifacts": [
   {
    "kind": "text",
    "name": "P084.lst",
    "r_file": null,
    "status": "mismatch",
-   "score": 0.9276139410187667,
+   "score": 0.9114754098360656,
    "detail": {
-    "recall": 0.9276139410187667,
-    "expected": 373,
-    "found": 346,
+    "recall": 0.9114754098360656,
+    "expected": 305,
+    "found": 278,
     "r_files": [
      "adae.csv",
      "adsl.csv",

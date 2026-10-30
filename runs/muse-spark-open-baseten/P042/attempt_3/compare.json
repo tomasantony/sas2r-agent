@@ -11,8 +11,8 @@
    "score": 1.0,
    "detail": {
     "recall": 1.0,
-    "expected": 122,
-    "found": 122,
+    "expected": 118,
+    "found": 118,
     "r_files": [
      "example1.csv",
      "example1.html",
@@ -55,8 +55,8 @@
    "score": 1.0,
    "detail": {
     "recall": 1.0,
-    "expected": 11,
-    "found": 11,
+    "expected": 9,
+    "found": 9,
     "r_files": [
      "example1.csv",
      "example1.html",
@@ -99,8 +99,8 @@
    "score": 1.0,
    "detail": {
     "recall": 1.0,
-    "expected": 12,
-    "found": 12,
+    "expected": 10,
+    "found": 10,
     "r_files": [
      "example1.csv",
      "example1.html",

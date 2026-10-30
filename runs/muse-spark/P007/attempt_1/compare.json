@@ -1,34 +1,24 @@
 {
  "produced_all": true,
- "equivalent": false,
- "score": 0.9489795918367347,
+ "equivalent": true,
+ "score": 1.0,
  "artifacts": [
   {
    "kind": "text",
    "name": "P007.lst",
    "r_file": null,
-   "status": "mismatch",
-   "score": 0.8979591836734694,
+   "status": "ok",
+   "score": 1.0,
    "detail": {
-    "recall": 0.8979591836734694,
-    "expected": 147,
-    "found": 132,
+    "recall": 1.0,
+    "expected": 99,
+    "found": 99,
     "r_files": [
      "adtte.csv",
      "P007.csv",
      "P007.txt"
     ],
-    "missing_examples": [
-     "9",
-     "2",
-     "27",
-     "6",
-     "5",
-     "22",
-     "26",
-     "29",
-     "19"
-    ]
+    "missing_examples": []
    }
   },
   {

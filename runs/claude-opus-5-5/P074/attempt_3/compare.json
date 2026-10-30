@@ -11,8 +11,8 @@
    "score": 1.0,
    "detail": {
     "recall": 1.0,
-    "expected": 1065,
-    "found": 1065,
+    "expected": 969,
+    "found": 969,
     "r_files": [
      "t_lb_shift.csv",
      "t_lb_shift.txt"

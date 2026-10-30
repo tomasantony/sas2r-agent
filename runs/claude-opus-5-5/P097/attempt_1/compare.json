@@ -1,0 +1,66 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.8650137741046832,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P097.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.5950413223140496,
+   "detail": {
+    "recall": 0.5950413223140496,
+    "expected": 121,
+    "found": 72,
+    "r_files": [
+     "histogram.csv",
+     "means.csv",
+     "P097.csv",
+     "P097.txt",
+     "parameterestimates.csv",
+     "prob.csv",
+     "rocassociation.csv",
+     "rocest.csv",
+     "sgpanel.csv",
+     "survival.csv",
+     "widepctls.csv"
+    ],
+    "missing_examples": [
+     "-8",
+     "52.918",
+     "47.548",
+     "54.679",
+     "54.593",
+     "-2",
+     "50.918",
+     "39.548",
+     "11.3701",
+     "0.0099",
+     "10.7939",
+     "0.0129"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "Histogram.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\claude-opus-5-5\\P097\\attempt_1\\out\\histogram.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPanel.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\claude-opus-5-5\\P097\\attempt_1\\out\\sgpanel.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  }
+ ]
+}

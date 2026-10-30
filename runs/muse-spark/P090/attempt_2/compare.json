@@ -1,18 +1,18 @@
 {
  "produced_all": true,
  "equivalent": false,
- "score": 0.8766114180478821,
+ "score": 0.8858447488584474,
  "artifacts": [
   {
    "kind": "text",
    "name": "P090.lst",
    "r_file": null,
    "status": "mismatch",
-   "score": 0.6298342541436464,
+   "score": 0.6575342465753424,
    "detail": {
-    "recall": 0.6298342541436464,
-    "expected": 362,
-    "found": 228,
+    "recall": 0.6575342465753424,
+    "expected": 292,
+    "found": 192,
     "r_files": [
      "adcm.csv",
      "adsl.csv"

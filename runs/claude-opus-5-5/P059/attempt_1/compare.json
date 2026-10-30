@@ -1,18 +1,18 @@
 {
  "produced_all": true,
- "equivalent": false,
- "score": 0.9318181818181818,
+ "equivalent": true,
+ "score": 0.9516129032258065,
  "artifacts": [
   {
    "kind": "text",
    "name": "P059.lst",
    "r_file": null,
-   "status": "mismatch",
-   "score": 0.9318181818181818,
+   "status": "ok",
+   "score": 0.9516129032258065,
    "detail": {
-    "recall": 0.9318181818181818,
-    "expected": 132,
-    "found": 123,
+    "recall": 0.9516129032258065,
+    "expected": 124,
+    "found": 118,
     "r_files": [
      "adpp_sum_t.csv",
      "CLXCHECKNOBS.csv",
@@ -23,10 +23,7 @@
      "14.2",
      "12",
      "100",
-     "-1",
-     "17",
-     "2014",
-     "57"
+     "-1"
     ]
    }
   }

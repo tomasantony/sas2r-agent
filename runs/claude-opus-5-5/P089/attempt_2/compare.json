@@ -1,18 +1,18 @@
 {
  "produced_all": true,
  "equivalent": true,
- "score": 0.993140243902439,
+ "score": 0.9916158536585366,
  "artifacts": [
   {
    "kind": "text",
    "name": "P089.lst",
    "r_file": null,
    "status": "ok",
-   "score": 0.9725609756097561,
+   "score": 0.9664634146341463,
    "detail": {
-    "recall": 0.9725609756097561,
+    "recall": 0.9664634146341463,
     "expected": 328,
-    "found": 319,
+    "found": 317,
     "r_files": [
      "adex.csv",
      "adex_base.csv",
@@ -21,6 +21,7 @@
      "P089.txt"
     ],
     "missing_examples": [
+     "10",
      "27",
      "2026",
      "64",

@@ -1,28 +1,24 @@
 {
  "produced_all": true,
  "equivalent": true,
- "score": 0.9674074074074074,
+ "score": 0.9938931297709923,
  "artifacts": [
   {
    "kind": "text",
    "name": "t_vs.rtf",
    "r_file": null,
    "status": "ok",
-   "score": 0.9674074074074074,
+   "score": 0.9938931297709923,
    "detail": {
-    "recall": 0.9674074074074074,
-    "expected": 675,
-    "found": 653,
+    "recall": 0.9938931297709923,
+    "expected": 655,
+    "found": 651,
     "r_files": [
      "t_vs.csv",
      "t_vs.txt"
     ],
     "missing_examples": [
-     "14.3",
-     "27",
-     "2026",
-     "15",
-     "47"
+     "14.3"
     ]
    }
   }

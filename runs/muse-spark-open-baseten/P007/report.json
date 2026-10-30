@@ -7,7 +7,7 @@
  "runs": true,
  "produced_all": true,
  "equivalent": true,
- "best_score": 0.9863945578231292,
+ "best_score": 1.0,
  "iterations": 2,
  "input_tokens": 8683,
  "output_tokens": 9870,
@@ -34,7 +34,7 @@
    "seconds_llm": 11.64865517616272,
    "produced_all": true,
    "equivalent": true,
-   "score": 0.9863945578231292,
+   "score": 1.0,
    "note": ""
   }
  ],

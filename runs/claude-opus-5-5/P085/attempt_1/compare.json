@@ -1,18 +1,18 @@
 {
  "produced_all": true,
  "equivalent": false,
- "score": 0.9693211488250653,
+ "score": 0.9673629242819843,
  "artifacts": [
   {
    "kind": "text",
    "name": "P085.lst",
    "r_file": null,
    "status": "mismatch",
-   "score": 0.8772845953002611,
+   "score": 0.8694516971279374,
    "detail": {
-    "recall": 0.8772845953002611,
+    "recall": 0.8694516971279374,
     "expected": 383,
-    "found": 336,
+    "found": 333,
     "r_files": [
      "adlb.csv",
      "adlb_base.csv",
@@ -25,14 +25,14 @@
      "9",
      "27",
      "2026",
+     "15",
      "848",
      "64",
      "69632",
      "82",
      "35248",
      "9.0401",
-     "8",
-     "200"
+     "8"
     ]
    }
   },

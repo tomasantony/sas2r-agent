@@ -1,18 +1,18 @@
 {
  "produced_all": true,
  "equivalent": true,
- "score": 0.9973118279569892,
+ "score": 0.9960835509138382,
  "artifacts": [
   {
    "kind": "text",
    "name": "P085.lst",
    "r_file": null,
    "status": "ok",
-   "score": 0.989247311827957,
+   "score": 0.9843342036553525,
    "detail": {
-    "recall": 0.989247311827957,
-    "expected": 465,
-    "found": 460,
+    "recall": 0.9843342036553525,
+    "expected": 383,
+    "found": 377,
     "r_files": [
      "adlb.csv",
      "adlb_base.csv",
@@ -21,6 +21,7 @@
      "P085.txt"
     ],
     "missing_examples": [
+     "2026",
      "0.69231",
      "0.35714",
      "0.33929",

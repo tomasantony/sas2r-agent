@@ -1,18 +1,18 @@
 {
  "produced_all": true,
  "equivalent": true,
- "score": 0.9947368421052631,
+ "score": 0.992603550295858,
  "artifacts": [
   {
    "kind": "text",
    "name": "P088.lst",
    "r_file": null,
    "status": "ok",
-   "score": 0.9736842105263158,
+   "score": 0.9630177514792899,
    "detail": {
-    "recall": 0.9736842105263158,
-    "expected": 950,
-    "found": 925,
+    "recall": 0.9630177514792899,
+    "expected": 676,
+    "found": 651,
     "r_files": [
      "adeff.csv",
      "adeff_resp.csv",

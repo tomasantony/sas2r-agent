@@ -11,8 +11,8 @@
    "score": 1.0,
    "detail": {
     "recall": 1.0,
-    "expected": 46,
-    "found": 46,
+    "expected": 42,
+    "found": 42,
     "r_files": [
      "t_ae_sum.csv",
      "t_ae_sum.txt"

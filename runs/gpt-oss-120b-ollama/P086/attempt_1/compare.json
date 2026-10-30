@@ -1,18 +1,18 @@
 {
  "produced_all": true,
  "equivalent": false,
- "score": 0.9642042545268351,
+ "score": 0.9601079923660569,
  "artifacts": [
   {
    "kind": "text",
    "name": "P086.lst",
    "r_file": null,
    "status": "mismatch",
-   "score": 0.8100358422939068,
+   "score": 0.7813620071684588,
    "detail": {
-    "recall": 0.8100358422939068,
+    "recall": 0.7813620071684588,
     "expected": 279,
-    "found": 226,
+    "found": 218,
     "r_files": [
      "adrs.csv",
      "adsl.csv",
@@ -23,18 +23,18 @@
      "P086.lst.csv"
     ],
     "missing_examples": [
+     "18",
      "22",
      "9",
      "10",
      "27",
      "2026",
+     "15",
      "824",
      "64",
      "69632",
      "84",
-     "35248",
-     "7",
-     "9.0401"
+     "35248"
     ]
    }
   },

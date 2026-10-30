@@ -1,18 +1,18 @@
 {
  "produced_all": true,
- "equivalent": false,
- "score": 0.9555555555555555,
+ "equivalent": true,
+ "score": 1.0,
  "artifacts": [
   {
    "kind": "text",
    "name": "P008.lst",
    "r_file": null,
-   "status": "mismatch",
-   "score": 0.9111111111111111,
+   "status": "ok",
+   "score": 1.0,
    "detail": {
-    "recall": 0.9111111111111111,
-    "expected": 180,
-    "found": 164,
+    "recall": 1.0,
+    "expected": 120,
+    "found": 120,
     "r_files": [
      "advs.csv",
      "P008.csv",
@@ -20,10 +20,7 @@
      "P008.lst.txt",
      "P008.txt"
     ],
-    "missing_examples": [
-     "15",
-     "17"
-    ]
+    "missing_examples": []
    }
   },
   {

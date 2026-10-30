@@ -1,18 +1,18 @@
 {
  "produced_all": true,
  "equivalent": false,
- "score": 0.9639035087719299,
+ "score": 0.9588626126126126,
  "artifacts": [
   {
    "kind": "text",
    "name": "P087.lst",
    "r_file": null,
    "status": "mismatch",
-   "score": 0.9289473684210526,
+   "score": 0.9087837837837838,
    "detail": {
-    "recall": 0.9289473684210526,
-    "expected": 380,
-    "found": 353,
+    "recall": 0.9087837837837838,
+    "expected": 296,
+    "found": 269,
     "r_files": [
      "adsl.csv",
      "advs.csv",

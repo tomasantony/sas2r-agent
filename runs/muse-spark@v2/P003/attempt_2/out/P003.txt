@@ -1,0 +1,31 @@
+Table 14-5-02: Summary of Serious Treatment-Emergent Adverse Events by System Organ Class and Preferred Term
+(Safety Population - SAFFL=Y; Serious TEAEs where TRTEMFL=Y and AESER=Y)
+Placebo (N=86)   Xanomeline Low Dose (N=84)   Xanomeline High Dose (N=84)
+Result format: n ( % ) [number of events]; P-values from Fisher's Exact Test (two-sided, XP2_FISH)
+High Dose vs Placebo (TRTAN 0 vs 2); Low Dose vs Placebo (TRTAN 0 vs 1)
+Safety population: 86 Placebo, 84 Low, 84 High; Total 254 subjects; 100 percent accounted.
+
+System Organ Class / Preferred Term        | Placebo N=86       | Low N=84           | High N=84          | P High     | P Low     
+-----------------------------------------------------------------------------------------------------------------------------------
+Subjects with Serious Adverse Event        | 0 (0.0%) [0]       | 1 (1.2%) [1]       | 2 (2.4%) [2]       | 0.2427     | 0.4941    
+NERVOUS SYSTEM DISORDERS                   | 0 (0.0%) [0]       | 1 (1.2%) [1]       | 2 (2.4%) [2]       | 0.2427     | 0.4941    
+  PARTIAL SEIZURES WITH SECONDARY GENERALI | 0 (0.0%) [0]       | 0 (0.0%) [0]       | 1 (1.2%) [1]       | 0.4941     | 1.0000    
+  SYNCOPE                                  | 0 (0.0%) [0]       | 1 (1.2%) [1]       | 1 (1.2%) [1]       | 0.4941     | 0.4941    
+
+Appendix: Fisher's Exact Test details (2x2 TRTAN*EVENT counts)
+PT level: TRTAN 0 vs 2 and 0 vs 1 by AEDECOD; SOC level by AEBODSYS; Subject level overall.
+
+Subject level overall:
+  High vs Placebo (0 vs 2): TRT0 EVENT=1:0 EVENT=0:86; TRT2 EVENT=1:2 EVENT=0:82; Two-sided p=0.2427
+  Low vs Placebo (0 vs 1): TRT0 EVENT=1:0 EVENT=0:86; TRT1 EVENT=1:1 EVENT=0:83; Two-sided p=0.4941
+
+SOC level:
+  NERVOUS SYSTEM DISORDERS High vs Pbo: [0,86;2,82] p=0.2427 | Low vs Pbo: [0,86;1,83] p=0.4941
+
+PT level:
+  PARTIAL SEIZURES WITH SECONDARY GENERALISATION High vs Pbo: [0,86;1,83] p=0.4941 | Low vs Pbo: [0,86;0,84] p=1.0000
+  SYNCOPE High vs Pbo: [0,86;1,83] p=0.4941 | Low vs Pbo: [0,86;1,83] p=0.4941
+
+Note: DENOM = number of safety subjects per treatment; count = distinct subjects with event;
+events = total number of serious TEAE records; % = count/DENOM*100 (8.1 format, 1 decimal).
+Fisher's Exact two-sided p-value (XP2_FISH) from TRTAN*EVENT table.

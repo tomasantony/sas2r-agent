@@ -1,18 +1,18 @@
 {
  "produced_all": true,
  "equivalent": false,
- "score": 0.9523076923076923,
+ "score": 0.9467353951890034,
  "artifacts": [
   {
    "kind": "text",
    "name": "P083.lst",
    "r_file": null,
    "status": "mismatch",
-   "score": 0.9046153846153846,
+   "score": 0.8934707903780069,
    "detail": {
-    "recall": 0.9046153846153846,
-    "expected": 325,
-    "found": 294,
+    "recall": 0.8934707903780069,
+    "expected": 291,
+    "found": 260,
     "r_files": [
      "adsl.csv",
      "P083.csv",

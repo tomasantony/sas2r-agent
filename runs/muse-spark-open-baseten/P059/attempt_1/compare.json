@@ -1,18 +1,18 @@
 {
  "produced_all": true,
  "equivalent": true,
- "score": 0.9772727272727273,
+ "score": 0.9758064516129032,
  "artifacts": [
   {
    "kind": "text",
    "name": "P059.lst",
    "r_file": null,
    "status": "ok",
-   "score": 0.9772727272727273,
+   "score": 0.9758064516129032,
    "detail": {
-    "recall": 0.9772727272727273,
-    "expected": 132,
-    "found": 129,
+    "recall": 0.9758064516129032,
+    "expected": 124,
+    "found": 121,
     "r_files": [
      "adpp_sum.csv",
      "adpp_sum_t.csv",

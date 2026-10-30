@@ -1,17 +1,17 @@
 {
  "produced_all": true,
  "equivalent": false,
- "score": 0.012345679012345678,
+ "score": 0.01282051282051282,
  "artifacts": [
   {
    "kind": "text",
    "name": "l_sae.rtf",
    "r_file": null,
    "status": "mismatch",
-   "score": 0.012345679012345678,
+   "score": 0.01282051282051282,
    "detail": {
-    "recall": 0.012345679012345678,
-    "expected": 324,
+    "recall": 0.01282051282051282,
+    "expected": 312,
     "found": 4,
     "r_files": [
      "l_sae.csv",

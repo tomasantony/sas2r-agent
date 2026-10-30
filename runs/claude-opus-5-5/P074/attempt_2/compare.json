@@ -1,27 +1,23 @@
 {
  "produced_all": true,
- "equivalent": false,
- "score": 0.9342723004694836,
+ "equivalent": true,
+ "score": 1.0,
  "artifacts": [
   {
    "kind": "text",
    "name": "t_lb_shift.rtf",
    "r_file": null,
-   "status": "mismatch",
-   "score": 0.9342723004694836,
+   "status": "ok",
+   "score": 1.0,
    "detail": {
-    "recall": 0.9342723004694836,
-    "expected": 1065,
-    "found": 995,
+    "recall": 1.0,
+    "expected": 969,
+    "found": 969,
     "r_files": [
      "t_lb_shift.csv",
      "t_lb_shift.txt"
     ],
-    "missing_examples": [
-     "27",
-     "15",
-     "46"
-    ]
+    "missing_examples": []
    }
   }
  ]

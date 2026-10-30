@@ -1,0 +1,491 @@
+Table 14-5-02: Serious Treatment-Emergent Adverse Events (TRTEMFL=Y and AESER=Y)
+(Safety Population SAFFL=Y)
+Placebo (TRTAN=0) N = 86   Xanomeline Low Dose (TRTAN=54) N = 84   Xanomeline High Dose (TRTAN=81) N = 84
+Total safety N = 254
+Result format: n ( % ) [number of events] with % using format 8.1 (1 decimal, half away from zero)
+P-values from PROC FREQ TRTAN*EVENT / EXACT (Fisher two-sided XP2_FISH)
+High Dose versus Placebo: WHERE TRTAN in (0,2) ; Low Dose versus Placebo: WHERE TRTAN in (0,1)
+
+Descriptive summary: n (%) [events] by treatment (raw TRTAN 0, 54, 81)
+
+System Organ Class / Preferred Term        | Placebo N=86       | Low N=84           | High N=84         
+--------------------------------------------------------------------------------------------------------------
+Overall TRTAN=0 : 0 (0.0%) [0] with DENOM = 86
+Overall TRTAN=54 : 1 (1.2%) [1] with DENOM = 84
+Overall TRTAN=81 : 2 (2.4%) [2] with DENOM = 84
+
+Subjects with Serious Adverse Event:
+Subjects with Serious Adverse Event        | 0 (0.0%) [0]       | 1 (1.2%) [1]       | 2 (2.4%) [2]      
+NERVOUS SYSTEM DISORDERS                   | 0 (0.0%) [0]       | 1 (1.2%) [1]       | 2 (2.4%) [2]      
+  PARTIAL SEIZURES WITH SECONDARY GENERALI | 0 (0.0%) [0]       | 0 (0.0%) [0]       | 1 (1.2%) [1]      
+  SYNCOPE                                  | 0 (0.0%) [0]       | 1 (1.2%) [1]       | 1 (1.2%) [1]      
+
+Safety denominators: 86 Placebo subjects, 84 Low Dose subjects, 84 High Dose subjects, 254 total subjects, 100 percent accounted (100.00 percent).
+
+==================================================================================
+PROC FREQ Listings (SAS-faithful: WHERE TRTAN in (0,2) and (0,1) on raw TRTAN 0,54,81)
+==================================================================================
+
+The FREQ Procedure
+HIGH DOSE VERSUS PLACEBO : PT LEVEL
+AEDECOD=PARTIAL SEIZURES WITH SECONDARY GENERALISATION
+Table of TRTAN by EVENT
+
+TRTAN     EVENT       Frequency       Percent       Row Pct       Col Pct
+--------------------------------------------------------------------------------
+    0        0           86       100.00       100.00       100.00
+    0        1            0         0.00         0.00         0.00
+  Total for TRTAN=0 : Frequency = 86  Percent = 100.00  Row Pct = 100.00
+  Total for EVENT=0 : Frequency = 86  Percent = 100.00  Col Pct = 100.00
+  Total for EVENT=1 : Frequency = 0  Percent = 0.00  Col Pct = 100.00
+Total Frequency = 86
+Total Percent = 100.00
+Sample Size = 86
+
+Statistics for Table of TRTAN by EVENT
+
+Fisher's Exact Test
+----------------------------------
+Cell (1,1) Frequency (F) 0
+Left-sided Pr <= F 1.0000
+Right-sided Pr >= F 1.0000
+Table Probability (P) 1.0000
+Two-sided Pr <= P 1.0000
+Two-sided Fisher p-value (XP2_FISH) 1.0000
+
+The FREQ Procedure
+LOW DOSE VERSUS PLACEBO : PT LEVEL
+AEDECOD=PARTIAL SEIZURES WITH SECONDARY GENERALISATION
+Table of TRTAN by EVENT
+
+TRTAN     EVENT       Frequency       Percent       Row Pct       Col Pct
+--------------------------------------------------------------------------------
+    0        0           86       100.00       100.00       100.00
+    0        1            0         0.00         0.00         0.00
+  Total for TRTAN=0 : Frequency = 86  Percent = 100.00  Row Pct = 100.00
+  Total for EVENT=0 : Frequency = 86  Percent = 100.00  Col Pct = 100.00
+  Total for EVENT=1 : Frequency = 0  Percent = 0.00  Col Pct = 100.00
+Total Frequency = 86
+Total Percent = 100.00
+Sample Size = 86
+
+Statistics for Table of TRTAN by EVENT
+
+Fisher's Exact Test
+----------------------------------
+Cell (1,1) Frequency (F) 0
+Left-sided Pr <= F 1.0000
+Right-sided Pr >= F 1.0000
+Table Probability (P) 1.0000
+Two-sided Pr <= P 1.0000
+Two-sided Fisher p-value (XP2_FISH) 1.0000
+
+The FREQ Procedure
+HIGH DOSE VERSUS PLACEBO : PT LEVEL
+AEDECOD=SYNCOPE
+Table of TRTAN by EVENT
+
+TRTAN     EVENT       Frequency       Percent       Row Pct       Col Pct
+--------------------------------------------------------------------------------
+    0        0           86       100.00       100.00       100.00
+    0        1            0         0.00         0.00         0.00
+  Total for TRTAN=0 : Frequency = 86  Percent = 100.00  Row Pct = 100.00
+  Total for EVENT=0 : Frequency = 86  Percent = 100.00  Col Pct = 100.00
+  Total for EVENT=1 : Frequency = 0  Percent = 0.00  Col Pct = 100.00
+Total Frequency = 86
+Total Percent = 100.00
+Sample Size = 86
+
+Statistics for Table of TRTAN by EVENT
+
+Fisher's Exact Test
+----------------------------------
+Cell (1,1) Frequency (F) 0
+Left-sided Pr <= F 1.0000
+Right-sided Pr >= F 1.0000
+Table Probability (P) 1.0000
+Two-sided Pr <= P 1.0000
+Two-sided Fisher p-value (XP2_FISH) 1.0000
+
+The FREQ Procedure
+LOW DOSE VERSUS PLACEBO : PT LEVEL
+AEDECOD=SYNCOPE
+Table of TRTAN by EVENT
+
+TRTAN     EVENT       Frequency       Percent       Row Pct       Col Pct
+--------------------------------------------------------------------------------
+    0        0           86       100.00       100.00       100.00
+    0        1            0         0.00         0.00         0.00
+  Total for TRTAN=0 : Frequency = 86  Percent = 100.00  Row Pct = 100.00
+  Total for EVENT=0 : Frequency = 86  Percent = 100.00  Col Pct = 100.00
+  Total for EVENT=1 : Frequency = 0  Percent = 0.00  Col Pct = 100.00
+Total Frequency = 86
+Total Percent = 100.00
+Sample Size = 86
+
+Statistics for Table of TRTAN by EVENT
+
+Fisher's Exact Test
+----------------------------------
+Cell (1,1) Frequency (F) 0
+Left-sided Pr <= F 1.0000
+Right-sided Pr >= F 1.0000
+Table Probability (P) 1.0000
+Two-sided Pr <= P 1.0000
+Two-sided Fisher p-value (XP2_FISH) 1.0000
+
+The FREQ Procedure
+HIGH DOSE VERSUS PLACEBO : SOC LEVEL
+AEBODSYS=NERVOUS SYSTEM DISORDERS
+Table of TRTAN by EVENT
+
+TRTAN     EVENT       Frequency       Percent       Row Pct       Col Pct
+--------------------------------------------------------------------------------
+    0        0           86       100.00       100.00       100.00
+    0        1            0         0.00         0.00         0.00
+  Total for TRTAN=0 : Frequency = 86  Percent = 100.00  Row Pct = 100.00
+  Total for EVENT=0 : Frequency = 86  Percent = 100.00  Col Pct = 100.00
+  Total for EVENT=1 : Frequency = 0  Percent = 0.00  Col Pct = 100.00
+Total Frequency = 86
+Total Percent = 100.00
+Sample Size = 86
+
+Statistics for Table of TRTAN by EVENT
+
+Fisher's Exact Test
+----------------------------------
+Cell (1,1) Frequency (F) 0
+Left-sided Pr <= F 1.0000
+Right-sided Pr >= F 1.0000
+Table Probability (P) 1.0000
+Two-sided Pr <= P 1.0000
+Two-sided Fisher p-value (XP2_FISH) 1.0000
+
+The FREQ Procedure
+LOW DOSE VERSUS PLACEBO : SOC LEVEL
+AEBODSYS=NERVOUS SYSTEM DISORDERS
+Table of TRTAN by EVENT
+
+TRTAN     EVENT       Frequency       Percent       Row Pct       Col Pct
+--------------------------------------------------------------------------------
+    0        0           86       100.00       100.00       100.00
+    0        1            0         0.00         0.00         0.00
+  Total for TRTAN=0 : Frequency = 86  Percent = 100.00  Row Pct = 100.00
+  Total for EVENT=0 : Frequency = 86  Percent = 100.00  Col Pct = 100.00
+  Total for EVENT=1 : Frequency = 0  Percent = 0.00  Col Pct = 100.00
+Total Frequency = 86
+Total Percent = 100.00
+Sample Size = 86
+
+Statistics for Table of TRTAN by EVENT
+
+Fisher's Exact Test
+----------------------------------
+Cell (1,1) Frequency (F) 0
+Left-sided Pr <= F 1.0000
+Right-sided Pr >= F 1.0000
+Table Probability (P) 1.0000
+Two-sided Pr <= P 1.0000
+Two-sided Fisher p-value (XP2_FISH) 1.0000
+
+The FREQ Procedure
+HIGH DOSE VERSUS PLACEBO : SUBJECT LEVEL
+OVERALL=ALL SUBJECTS
+Table of TRTAN by EVENT
+
+TRTAN     EVENT       Frequency       Percent       Row Pct       Col Pct
+--------------------------------------------------------------------------------
+    0        0           86       100.00       100.00       100.00
+    0        1            0         0.00         0.00         0.00
+  Total for TRTAN=0 : Frequency = 86  Percent = 100.00  Row Pct = 100.00
+  Total for EVENT=0 : Frequency = 86  Percent = 100.00  Col Pct = 100.00
+  Total for EVENT=1 : Frequency = 0  Percent = 0.00  Col Pct = 100.00
+Total Frequency = 86
+Total Percent = 100.00
+Sample Size = 86
+
+Statistics for Table of TRTAN by EVENT
+
+Fisher's Exact Test
+----------------------------------
+Cell (1,1) Frequency (F) 0
+Left-sided Pr <= F 1.0000
+Right-sided Pr >= F 1.0000
+Table Probability (P) 1.0000
+Two-sided Pr <= P 1.0000
+Two-sided Fisher p-value (XP2_FISH) 1.0000
+
+The FREQ Procedure
+LOW DOSE VERSUS PLACEBO : SUBJECT LEVEL
+OVERALL=ALL SUBJECTS
+Table of TRTAN by EVENT
+
+TRTAN     EVENT       Frequency       Percent       Row Pct       Col Pct
+--------------------------------------------------------------------------------
+    0        0           86       100.00       100.00       100.00
+    0        1            0         0.00         0.00         0.00
+  Total for TRTAN=0 : Frequency = 86  Percent = 100.00  Row Pct = 100.00
+  Total for EVENT=0 : Frequency = 86  Percent = 100.00  Col Pct = 100.00
+  Total for EVENT=1 : Frequency = 0  Percent = 0.00  Col Pct = 100.00
+Total Frequency = 86
+Total Percent = 100.00
+Sample Size = 86
+
+Statistics for Table of TRTAN by EVENT
+
+Fisher's Exact Test
+----------------------------------
+Cell (1,1) Frequency (F) 0
+Left-sided Pr <= F 1.0000
+Right-sided Pr >= F 1.0000
+Table Probability (P) 1.0000
+Two-sided Pr <= P 1.0000
+Two-sided Fisher p-value (XP2_FISH) 1.0000
+
+==================================================================================
+Supplemental: proper 2-arm Fisher tables using raw codes 0 vs 81 and 0 vs 54
+(same subjects relabelled Low=54 High=81 for interpretation)
+==================================================================================
+
+The FREQ Procedure
+HIGH (81) VERSUS PLACEBO (0) : PT LEVEL
+AEDECOD=PARTIAL SEIZURES WITH SECONDARY GENERALISATION
+Table of TRTAN by EVENT
+
+TRTAN     EVENT       Frequency       Percent       Row Pct       Col Pct
+--------------------------------------------------------------------------------
+    0        0           86        50.59       100.00        50.89
+    0        1            0         0.00         0.00         0.00
+  Total for TRTAN=0 : Frequency = 86  Percent = 50.59  Row Pct = 100.00
+   81        0           83        48.82        98.81        49.11
+   81        1            1         0.59         1.19       100.00
+  Total for TRTAN=81 : Frequency = 84  Percent = 49.41  Row Pct = 100.00
+  Total for EVENT=0 : Frequency = 169  Percent = 99.41  Col Pct = 100.00
+  Total for EVENT=1 : Frequency = 1  Percent = 0.59  Col Pct = 100.00
+Total Frequency = 170
+Total Percent = 100.00
+Sample Size = 170
+
+Statistics for Table of TRTAN by EVENT
+
+Fisher's Exact Test
+----------------------------------
+Cell (1,1) Frequency (F) 0
+Left-sided Pr <= F 0.4941
+Right-sided Pr >= F 1.0000
+Table Probability (P) 0.0000
+Two-sided Pr <= P 0.4941
+Two-sided Fisher p-value (XP2_FISH) 0.4941
+
+The FREQ Procedure
+LOW (54) VERSUS PLACEBO (0) : PT LEVEL
+AEDECOD=PARTIAL SEIZURES WITH SECONDARY GENERALISATION
+Table of TRTAN by EVENT
+
+TRTAN     EVENT       Frequency       Percent       Row Pct       Col Pct
+--------------------------------------------------------------------------------
+    0        0           86        50.59       100.00        50.59
+    0        1            0         0.00         0.00         0.00
+  Total for TRTAN=0 : Frequency = 86  Percent = 50.59  Row Pct = 100.00
+   54        0           84        49.41       100.00        49.41
+   54        1            0         0.00         0.00         0.00
+  Total for TRTAN=54 : Frequency = 84  Percent = 49.41  Row Pct = 100.00
+  Total for EVENT=0 : Frequency = 170  Percent = 100.00  Col Pct = 100.00
+  Total for EVENT=1 : Frequency = 0  Percent = 0.00  Col Pct = 100.00
+Total Frequency = 170
+Total Percent = 100.00
+Sample Size = 170
+
+Statistics for Table of TRTAN by EVENT
+
+Fisher's Exact Test
+----------------------------------
+Cell (1,1) Frequency (F) 0
+Left-sided Pr <= F 1.0000
+Right-sided Pr >= F 1.0000
+Table Probability (P) 0.0000
+Two-sided Pr <= P 1.0000
+Two-sided Fisher p-value (XP2_FISH) 1.0000
+
+The FREQ Procedure
+HIGH (81) VERSUS PLACEBO (0) : PT LEVEL
+AEDECOD=SYNCOPE
+Table of TRTAN by EVENT
+
+TRTAN     EVENT       Frequency       Percent       Row Pct       Col Pct
+--------------------------------------------------------------------------------
+    0        0           86        50.59       100.00        50.89
+    0        1            0         0.00         0.00         0.00
+  Total for TRTAN=0 : Frequency = 86  Percent = 50.59  Row Pct = 100.00
+   81        0           83        48.82        98.81        49.11
+   81        1            1         0.59         1.19       100.00
+  Total for TRTAN=81 : Frequency = 84  Percent = 49.41  Row Pct = 100.00
+  Total for EVENT=0 : Frequency = 169  Percent = 99.41  Col Pct = 100.00
+  Total for EVENT=1 : Frequency = 1  Percent = 0.59  Col Pct = 100.00
+Total Frequency = 170
+Total Percent = 100.00
+Sample Size = 170
+
+Statistics for Table of TRTAN by EVENT
+
+Fisher's Exact Test
+----------------------------------
+Cell (1,1) Frequency (F) 0
+Left-sided Pr <= F 0.4941
+Right-sided Pr >= F 1.0000
+Table Probability (P) 0.0000
+Two-sided Pr <= P 0.4941
+Two-sided Fisher p-value (XP2_FISH) 0.4941
+
+The FREQ Procedure
+LOW (54) VERSUS PLACEBO (0) : PT LEVEL
+AEDECOD=SYNCOPE
+Table of TRTAN by EVENT
+
+TRTAN     EVENT       Frequency       Percent       Row Pct       Col Pct
+--------------------------------------------------------------------------------
+    0        0           86        50.59       100.00        50.89
+    0        1            0         0.00         0.00         0.00
+  Total for TRTAN=0 : Frequency = 86  Percent = 50.59  Row Pct = 100.00
+   54        0           83        48.82        98.81        49.11
+   54        1            1         0.59         1.19       100.00
+  Total for TRTAN=54 : Frequency = 84  Percent = 49.41  Row Pct = 100.00
+  Total for EVENT=0 : Frequency = 169  Percent = 99.41  Col Pct = 100.00
+  Total for EVENT=1 : Frequency = 1  Percent = 0.59  Col Pct = 100.00
+Total Frequency = 170
+Total Percent = 100.00
+Sample Size = 170
+
+Statistics for Table of TRTAN by EVENT
+
+Fisher's Exact Test
+----------------------------------
+Cell (1,1) Frequency (F) 0
+Left-sided Pr <= F 0.4941
+Right-sided Pr >= F 1.0000
+Table Probability (P) 0.0000
+Two-sided Pr <= P 0.4941
+Two-sided Fisher p-value (XP2_FISH) 0.4941
+
+The FREQ Procedure
+HIGH (81) VERSUS PLACEBO (0) : SOC LEVEL
+AEBODSYS=NERVOUS SYSTEM DISORDERS
+Table of TRTAN by EVENT
+
+TRTAN     EVENT       Frequency       Percent       Row Pct       Col Pct
+--------------------------------------------------------------------------------
+    0        0           86        50.59       100.00        51.19
+    0        1            0         0.00         0.00         0.00
+  Total for TRTAN=0 : Frequency = 86  Percent = 50.59  Row Pct = 100.00
+   81        0           82        48.24        97.62        48.81
+   81        1            2         1.18         2.38       100.00
+  Total for TRTAN=81 : Frequency = 84  Percent = 49.41  Row Pct = 100.00
+  Total for EVENT=0 : Frequency = 168  Percent = 98.82  Col Pct = 100.00
+  Total for EVENT=1 : Frequency = 2  Percent = 1.18  Col Pct = 100.00
+Total Frequency = 170
+Total Percent = 100.00
+Sample Size = 170
+
+Statistics for Table of TRTAN by EVENT
+
+Fisher's Exact Test
+----------------------------------
+Cell (1,1) Frequency (F) 0
+Left-sided Pr <= F 0.2427
+Right-sided Pr >= F 1.0000
+Table Probability (P) 0.0000
+Two-sided Pr <= P 0.2427
+Two-sided Fisher p-value (XP2_FISH) 0.2427
+
+The FREQ Procedure
+LOW (54) VERSUS PLACEBO (0) : SOC LEVEL
+AEBODSYS=NERVOUS SYSTEM DISORDERS
+Table of TRTAN by EVENT
+
+TRTAN     EVENT       Frequency       Percent       Row Pct       Col Pct
+--------------------------------------------------------------------------------
+    0        0           86        50.59       100.00        50.89
+    0        1            0         0.00         0.00         0.00
+  Total for TRTAN=0 : Frequency = 86  Percent = 50.59  Row Pct = 100.00
+   54        0           83        48.82        98.81        49.11
+   54        1            1         0.59         1.19       100.00
+  Total for TRTAN=54 : Frequency = 84  Percent = 49.41  Row Pct = 100.00
+  Total for EVENT=0 : Frequency = 169  Percent = 99.41  Col Pct = 100.00
+  Total for EVENT=1 : Frequency = 1  Percent = 0.59  Col Pct = 100.00
+Total Frequency = 170
+Total Percent = 100.00
+Sample Size = 170
+
+Statistics for Table of TRTAN by EVENT
+
+Fisher's Exact Test
+----------------------------------
+Cell (1,1) Frequency (F) 0
+Left-sided Pr <= F 0.4941
+Right-sided Pr >= F 1.0000
+Table Probability (P) 0.0000
+Two-sided Pr <= P 0.4941
+Two-sided Fisher p-value (XP2_FISH) 0.4941
+
+The FREQ Procedure
+HIGH (81) VERSUS PLACEBO (0) : SUBJECT LEVEL
+OVERALL=ALL SUBJECTS
+Table of TRTAN by EVENT
+
+TRTAN     EVENT       Frequency       Percent       Row Pct       Col Pct
+--------------------------------------------------------------------------------
+    0        0           86        50.59       100.00        51.19
+    0        1            0         0.00         0.00         0.00
+  Total for TRTAN=0 : Frequency = 86  Percent = 50.59  Row Pct = 100.00
+   81        0           82        48.24        97.62        48.81
+   81        1            2         1.18         2.38       100.00
+  Total for TRTAN=81 : Frequency = 84  Percent = 49.41  Row Pct = 100.00
+  Total for EVENT=0 : Frequency = 168  Percent = 98.82  Col Pct = 100.00
+  Total for EVENT=1 : Frequency = 2  Percent = 1.18  Col Pct = 100.00
+Total Frequency = 170
+Total Percent = 100.00
+Sample Size = 170
+
+Statistics for Table of TRTAN by EVENT
+
+Fisher's Exact Test
+----------------------------------
+Cell (1,1) Frequency (F) 0
+Left-sided Pr <= F 0.2427
+Right-sided Pr >= F 1.0000
+Table Probability (P) 0.0000
+Two-sided Pr <= P 0.2427
+Two-sided Fisher p-value (XP2_FISH) 0.2427
+
+The FREQ Procedure
+LOW (54) VERSUS PLACEBO (0) : SUBJECT LEVEL
+OVERALL=ALL SUBJECTS
+Table of TRTAN by EVENT
+
+TRTAN     EVENT       Frequency       Percent       Row Pct       Col Pct
+--------------------------------------------------------------------------------
+    0        0           86        50.59       100.00        50.89
+    0        1            0         0.00         0.00         0.00
+  Total for TRTAN=0 : Frequency = 86  Percent = 50.59  Row Pct = 100.00
+   54        0           83        48.82        98.81        49.11
+   54        1            1         0.59         1.19       100.00
+  Total for TRTAN=54 : Frequency = 84  Percent = 49.41  Row Pct = 100.00
+  Total for EVENT=0 : Frequency = 169  Percent = 99.41  Col Pct = 100.00
+  Total for EVENT=1 : Frequency = 1  Percent = 0.59  Col Pct = 100.00
+Total Frequency = 170
+Total Percent = 100.00
+Sample Size = 170
+
+Statistics for Table of TRTAN by EVENT
+
+Fisher's Exact Test
+----------------------------------
+Cell (1,1) Frequency (F) 0
+Left-sided Pr <= F 0.4941
+Right-sided Pr >= F 1.0000
+Table Probability (P) 0.0000
+Two-sided Pr <= P 0.4941
+Two-sided Fisher p-value (XP2_FISH) 0.4941
+
+Note: DENOM = safety subjects per treatment; count = distinct subjects; events = records; % = count/DENOM*100 (8.1).
+Fisher two-sided XP2_FISH from TRTAN*EVENT. Percents in FREQ tables use 2 decimals; p-values use 4 decimals.

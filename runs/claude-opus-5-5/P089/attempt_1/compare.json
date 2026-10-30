@@ -1,18 +1,18 @@
 {
  "produced_all": true,
  "equivalent": false,
- "score": 0.9763719512195121,
+ "score": 0.9695121951219512,
  "artifacts": [
   {
    "kind": "text",
    "name": "P089.lst",
    "r_file": null,
    "status": "mismatch",
-   "score": 0.9054878048780488,
+   "score": 0.8780487804878049,
    "detail": {
-    "recall": 0.9054878048780488,
+    "recall": 0.8780487804878049,
     "expected": 328,
-    "found": 297,
+    "found": 288,
     "r_files": [
      "adex.csv",
      "adex_base.csv",
@@ -22,6 +22,7 @@
     ],
     "missing_examples": [
      "37",
+     "10",
      "27",
      "2026",
      "584",
@@ -31,8 +32,7 @@
      "35248",
      "9.0401",
      "8",
-     "40",
-     "200"
+     "12"
     ]
    }
   },

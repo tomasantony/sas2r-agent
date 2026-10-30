@@ -1,18 +1,18 @@
 {
  "produced_all": true,
  "equivalent": false,
- "score": 0.9780405405405406,
+ "score": 0.9702743902439024,
  "artifacts": [
   {
    "kind": "text",
    "name": "P089.lst",
    "r_file": null,
    "status": "mismatch",
-   "score": 0.9121621621621622,
+   "score": 0.8810975609756098,
    "detail": {
-    "recall": 0.9121621621621622,
-    "expected": 444,
-    "found": 405,
+    "recall": 0.8810975609756098,
+    "expected": 328,
+    "found": 289,
     "r_files": [
      "adex.csv",
      "adex_base.csv",

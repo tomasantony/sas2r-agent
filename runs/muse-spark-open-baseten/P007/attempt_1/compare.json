@@ -11,7 +11,7 @@
    "score": 0.0,
    "detail": {
     "recall": 0.0,
-    "expected": 147,
+    "expected": 99,
     "found": 0,
     "r_files": [],
     "missing_examples": [
@@ -21,12 +21,12 @@
      "50",
      "0",
      "83",
-     "9",
-     "2023",
      "2",
      "-4",
      "23",
-     "27"
+     "3",
+     "-5",
+     "28"
     ],
     "expected_file": "<any>.txt or .csv rendering of the table/listing"
    }

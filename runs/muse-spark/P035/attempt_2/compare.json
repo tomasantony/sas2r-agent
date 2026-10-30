@@ -1,18 +1,18 @@
 {
  "produced_all": true,
  "equivalent": true,
- "score": 0.9924242424242424,
+ "score": 0.9919354838709677,
  "artifacts": [
   {
    "kind": "text",
    "name": "P035.lst",
    "r_file": null,
    "status": "ok",
-   "score": 0.9924242424242424,
+   "score": 0.9919354838709677,
    "detail": {
-    "recall": 0.9924242424242424,
-    "expected": 132,
-    "found": 131,
+    "recall": 0.9919354838709677,
+    "expected": 124,
+    "found": 123,
     "r_files": [
      "P035.csv",
      "P035.txt",

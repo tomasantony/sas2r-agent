@@ -1,17 +1,17 @@
 {
  "produced_all": true,
- "equivalent": false,
- "score": 0.9130434782608695,
+ "equivalent": true,
+ "score": 1.0,
  "artifacts": [
   {
    "kind": "text",
    "name": "t_ae_sum.rtf",
    "r_file": null,
-   "status": "mismatch",
-   "score": 0.9130434782608695,
+   "status": "ok",
+   "score": 1.0,
    "detail": {
-    "recall": 0.9130434782608695,
-    "expected": 46,
+    "recall": 1.0,
+    "expected": 42,
     "found": 42,
     "r_files": [
      "t_ae_sum.csv",
@@ -19,12 +19,7 @@
      "t_ae_sum.txt",
      "t_ae_sum_counts.csv"
     ],
-    "missing_examples": [
-     "27",
-     "2026",
-     "15",
-     "46"
-    ]
+    "missing_examples": []
    }
   }
  ]

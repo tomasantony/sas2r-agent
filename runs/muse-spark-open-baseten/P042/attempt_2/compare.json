@@ -1,17 +1,17 @@
 {
  "produced_all": true,
- "equivalent": false,
- "score": 0.936454711044875,
+ "equivalent": true,
+ "score": 1.0,
  "artifacts": [
   {
    "kind": "text",
    "name": "P042.lst",
    "r_file": null,
    "status": "ok",
-   "score": 0.9672131147540983,
+   "score": 1.0,
    "detail": {
-    "recall": 0.9672131147540983,
-    "expected": 122,
+    "recall": 1.0,
+    "expected": 118,
     "found": 118,
     "r_files": [
      "example1.csv",
@@ -44,21 +44,18 @@
      "P042.lst.txt",
      "P042.txt"
     ],
-    "missing_examples": [
-     "27",
-     "26"
-    ]
+    "missing_examples": []
    }
   },
   {
    "kind": "text",
    "name": "example1.html",
    "r_file": null,
-   "status": "mismatch",
-   "score": 0.8181818181818182,
+   "status": "ok",
+   "score": 1.0,
    "detail": {
-    "recall": 0.8181818181818182,
-    "expected": 11,
+    "recall": 1.0,
+    "expected": 9,
     "found": 9,
     "r_files": [
      "example1.csv",
@@ -91,21 +88,18 @@
      "P042.lst.txt",
      "P042.txt"
     ],
-    "missing_examples": [
-     "27",
-     "26"
-    ]
+    "missing_examples": []
    }
   },
   {
    "kind": "text",
    "name": "example2.html",
    "r_file": null,
-   "status": "mismatch",
-   "score": 0.8333333333333334,
+   "status": "ok",
+   "score": 1.0,
    "detail": {
-    "recall": 0.8333333333333334,
-    "expected": 12,
+    "recall": 1.0,
+    "expected": 10,
     "found": 10,
     "r_files": [
      "example1.csv",
@@ -138,10 +132,7 @@
      "P042.lst.txt",
      "P042.txt"
     ],
-    "missing_examples": [
-     "27",
-     "26"
-    ]
+    "missing_examples": []
    }
   },
   {

@@ -11,8 +11,8 @@
    "score": 1.0,
    "detail": {
     "recall": 1.0,
-    "expected": 64,
-    "found": 64,
+    "expected": 48,
+    "found": 48,
     "r_files": [
      "P093.csv",
      "P093.txt"

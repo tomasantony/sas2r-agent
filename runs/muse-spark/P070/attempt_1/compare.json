@@ -11,7 +11,7 @@
    "score": 0.0,
    "detail": {
     "recall": 0.0,
-    "expected": 75,
+    "expected": 71,
     "found": 0,
     "r_files": [],
     "missing_examples": [

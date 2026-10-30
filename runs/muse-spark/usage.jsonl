@@ -234,3 +234,9 @@
 {"ts": 1793322225.1086164, "tag": "P069:1", "model": "muse-spark-1.3", "in": 7832, "out": 8622, "reasoning": 4575, "finish": "stop", "sec": 64.0}
 {"ts": 1793322278.8936775, "tag": "P074:1", "model": "muse-spark-1.3", "in": 8120, "out": 6748, "reasoning": 2664, "finish": "stop", "sec": 52.4}
 {"ts": 1793322368.6944542, "tag": "P079:1", "model": "muse-spark-1.3", "in": 5797, "out": 11393, "reasoning": 6449, "finish": "stop", "sec": 88.0}
+{"ts": 1793322493.8380995, "tag": "P001:1", "model": "muse-spark-1.3", "in": 4417, "out": 8910, "reasoning": 4990, "finish": "stop", "sec": 61.7}
+{"ts": 1793322594.8025048, "tag": "P002:1", "model": "muse-spark-1.3", "in": 4441, "out": 15041, "reasoning": 10698, "finish": "stop", "sec": 98.3}
+{"ts": 1793322618.4733264, "tag": "P002:2", "model": "muse-spark-1.3", "in": 9161, "out": 4773, "reasoning": 799, "finish": "stop", "sec": 22.3}
+{"ts": 1793322714.2849734, "tag": "P003:1", "model": "muse-spark-1.3", "in": 4045, "out": 12511, "reasoning": 6381, "finish": "stop", "sec": 94.0}
+{"ts": 1793322838.9134958, "tag": "P003:2", "model": "muse-spark-1.3", "in": 11306, "out": 19745, "reasoning": 12899, "finish": "stop", "sec": 122.8}
+{"ts": 1793322937.1112704, "tag": "P003:3", "model": "muse-spark-1.3", "in": 19969, "out": 14287, "reasoning": 7140, "finish": "stop", "sec": 96.3}

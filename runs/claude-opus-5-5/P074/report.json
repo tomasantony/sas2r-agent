@@ -21,8 +21,8 @@
    "output_tokens": 7392,
    "seconds_llm": 60.9353506565094,
    "produced_all": true,
-   "equivalent": false,
-   "score": 0.8892018779342723,
+   "equivalent": true,
+   "score": 0.9762641898864809,
    "note": ""
   },
   {
@@ -33,8 +33,8 @@
    "output_tokens": 5443,
    "seconds_llm": 39.72862529754639,
    "produced_all": true,
-   "equivalent": false,
-   "score": 0.9342723004694836,
+   "equivalent": true,
+   "score": 1.0,
    "note": ""
   },
   {
@@ -50,5 +50,5 @@
    "note": ""
   }
  ],
- "best_attempt": 3
+ "best_attempt": 2
 }

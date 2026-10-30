@@ -7,7 +7,7 @@
  "runs": true,
  "produced_all": true,
  "equivalent": true,
- "best_score": 0.998212689901698,
+ "best_score": 0.9978142076502733,
  "iterations": 3,
  "input_tokens": 31167,
  "output_tokens": 23707,
@@ -22,7 +22,7 @@
    "seconds_llm": 33.16686248779297,
    "produced_all": true,
    "equivalent": false,
-   "score": 0.9758713136729223,
+   "score": 0.9704918032786886,
    "note": ""
   },
   {
@@ -34,7 +34,7 @@
    "seconds_llm": 35.04374361038208,
    "produced_all": true,
    "equivalent": false,
-   "score": 0.8811438784629133,
+   "score": 0.887431693989071,
    "note": ""
   },
   {
@@ -46,7 +46,7 @@
    "seconds_llm": 13.834875345230103,
    "produced_all": true,
    "equivalent": true,
-   "score": 0.998212689901698,
+   "score": 0.9978142076502733,
    "note": ""
   }
  ],

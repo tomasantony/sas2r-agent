@@ -11,8 +11,8 @@
    "score": 1.0,
    "detail": {
     "recall": 1.0,
-    "expected": 116,
-    "found": 116,
+    "expected": 46,
+    "found": 46,
     "r_files": [
      "l_death.csv",
      "l_death.txt"

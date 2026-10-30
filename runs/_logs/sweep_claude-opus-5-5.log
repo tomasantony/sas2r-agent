@@ -77,3 +77,8 @@ P092: translated=True runs=True all_outputs=True equivalent=True score=1.000 ite
 P093: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=3320/2518 21s  spent=$17.95
 P094: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=2380/1664 16s  spent=$17.99
 P095: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=2371/2705 25s  spent=$18.06
+P096: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=4753/5667 45s  spent=$18.19
+P097: translated=True runs=True all_outputs=True equivalent=True score=0.983 iters=3 tokens=32840/26950 206s  spent=$18.86
+P098: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=15233/13295 115s  spent=$19.19
+P099: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=7803/7697 62s  spent=$19.37
+P100: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=2938/3610 31s  spent=$19.45

@@ -1,0 +1,87 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P100",
+ "provider": "claude-opus-5-5",
+ "model": "claude-opus-5-5",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T21:13:52",
+ "agent_commit": "34aebd07390478c3a96d15ddb03bc7d48e93e06a",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 2938,
+  "output_tokens": 3610,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 29.3
+ },
+ "inputs": {
+  "prompt_translate.md": "81eeaffd0e0f000c0d93e8bff492692ae32176e4b20ab3d8312310f22d26dcc9"
+ },
+ "model_output": {
+  "response.md": "49b45104b9a996a32d1c82bd7448c6f8c7ef164ccbcb2f7fc61e86e132f1e929",
+  "script.R": "da5d07e3a8e507fa4b6830e3ad3d5bd104dd44f858263f1aa47272effb2a1cc6"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.0,
+  "timed_out": false,
+  "log_sha256": "2bde39b896131dea16d6d3f0fb5cff242cdd208e80e49c37da9571dcd4c88e10"
+ },
+ "r_outputs": {
+  "P100.csv": "72777892542e1d073cbd0d3619c950672a89e6ce85ee961c7f4f5c71c018e69d",
+  "P100.txt": "a1e402e8cd3e0fc86128d960a6aac5bce946cc1fd771e9bc1895704d19fe4823",
+  "sashtml.csv": "72777892542e1d073cbd0d3619c950672a89e6ce85ee961c7f4f5c71c018e69d",
+  "sashtml.txt": "a1e402e8cd3e0fc86128d960a6aac5bce946cc1fd771e9bc1895704d19fe4823",
+  "tumorsize.csv": "8cb0d2f0d656ea4f54b5d8b2ce7173d6f2c7fe5e8762fc0c9c61dff6650aaed8",
+  "tumorsize_band_sg_v94.csv": "8867ee5ac2893a3356b281076297ebc9d76ba57df0c90287378314e8d716416d",
+  "tumorsize_band_sg_v94.png": "805bf4675ce178f9d8a11158390cc3b497f4499996a5311d59083ebaf8e4090f",
+  "tumorsize_sg_v94.csv": "f7ab5c711c46533991738b8d807e822ccce8dabefcb115ad4cae2ad16d98fa40",
+  "tumorsize_sg_v94.png": "06bbc7e37128851403f678a6f10c5d3a0bfb8e5214fdc05f5649d1ab09602ed0",
+  "tumorsizedesc.csv": "f7ab5c711c46533991738b8d807e822ccce8dabefcb115ad4cae2ad16d98fa40"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P100.lst",
+   "sha256": "c8608c396df8b8822851c2ae3a7e462f1152cb2ecf8357ff8f27e1b0d39f2ae5",
+   "frozen_sha256": "c8608c396df8b8822851c2ae3a7e462f1152cb2ecf8357ff8f27e1b0d39f2ae5",
+   "ok": true
+  },
+  {
+   "file": "datasets/P100/sashtml.htm",
+   "sha256": "3ec870f1d636deab785670eac14863ee371b3549cf111135486b9d184953648f",
+   "frozen_sha256": "3ec870f1d636deab785670eac14863ee371b3549cf111135486b9d184953648f",
+   "ok": true
+  },
+  {
+   "file": "datasets/P100/TumorSize_Band_SG_V94.png",
+   "sha256": "4b8acabca114ec403a0e42a901b17f4b7e3503da3f84855597b319492aed0b8c",
+   "frozen_sha256": "4b8acabca114ec403a0e42a901b17f4b7e3503da3f84855597b319492aed0b8c",
+   "ok": true
+  },
+  {
+   "file": "datasets/P100/TumorSize_SG_V94.png",
+   "sha256": "a183b1e1ae2a1727924603f245d097e759f67e3d1906818422ec1146777f1237",
+   "frozen_sha256": "a183b1e1ae2a1727924603f245d097e759f67e3d1906818422ec1146777f1237",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}
