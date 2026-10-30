@@ -1,0 +1,72 @@
+Shift Table of Diastolic Blood Pressure (DIABP) by Baseline and Post-Baseline Category
+Analysis Population: Safety (SAFFL=Y), ANL01FL=Y, AVISITN=99
+
+------------------------------------------------------------
+PARAMN=815 PARAM=Diastolic Blood Pressure (mmHg) After Lying Down For 5 Minutes
+------------------------------------------------------------
+Post-Baseline Result
+Treatment                      Baseline      Low         Normal           High          Total        
+Result                         Result          n %            n %            n %            n %      
+------------------------------ ---------- ------ ------- ------ ------- ------ ------- ------ -------
+Placebo (N = 81)               Low             2 (  2.5)     NA NA          NA NA          NA NA     
+                               Normal         NA NA          66 ( 81.5)     NA NA          NA NA     
+                               High           NA NA          NA NA           2 (  2.5)     NA NA     
+                               Total          NA NA          NA NA          NA NA           0 (  0.0)
+
+Xanomeline Low Dose (N = 72)   Low             0 (  0.0)     NA NA          NA NA          NA NA     
+                               Normal         NA NA          66 ( 91.7)     NA NA          NA NA     
+                               High           NA NA          NA NA           0 (  0.0)     NA NA     
+                               Total          NA NA          NA NA          NA NA           0 (  0.0)
+
+Xanomeline High Dose (N = 73)  Low             1 (  1.4)     NA NA          NA NA          NA NA     
+                               Normal         NA NA          64 ( 87.7)     NA NA          NA NA     
+                               High           NA NA          NA NA           1 (  1.4)     NA NA     
+                               Total          NA NA          NA NA          NA NA           0 (  0.0)
+
+
+------------------------------------------------------------
+PARAMN=816 PARAM=Diastolic Blood Pressure (mmHg) After Standing For 1 Minute
+------------------------------------------------------------
+Post-Baseline Result
+Treatment                      Baseline      Low         Normal           High          Total        
+Result                         Result          n %            n %            n %            n %      
+------------------------------ ---------- ------ ------- ------ ------- ------ ------- ------ -------
+Placebo (N = 81)               Low             4 (  4.9)     NA NA          NA NA          NA NA     
+                               Normal         NA NA          57 ( 70.4)     NA NA          NA NA     
+                               High           NA NA          NA NA           4 (  4.9)     NA NA     
+                               Total          NA NA          NA NA          NA NA           0 (  0.0)
+
+Xanomeline Low Dose (N = 72)   Low             0 (  0.0)     NA NA          NA NA          NA NA     
+                               Normal         NA NA          59 ( 81.9)     NA NA          NA NA     
+                               High           NA NA          NA NA           0 (  0.0)     NA NA     
+                               Total          NA NA          NA NA          NA NA           0 (  0.0)
+
+Xanomeline High Dose (N = 73)  Low             0 (  0.0)     NA NA          NA NA          NA NA     
+                               Normal         NA NA          57 ( 78.1)     NA NA          NA NA     
+                               High           NA NA          NA NA           2 (  2.7)     NA NA     
+                               Total          NA NA          NA NA          NA NA           0 (  0.0)
+
+
+------------------------------------------------------------
+PARAMN=817 PARAM=Diastolic Blood Pressure (mmHg) After Standing For 3 Minutes
+------------------------------------------------------------
+Post-Baseline Result
+Treatment                      Baseline      Low         Normal           High          Total        
+Result                         Result          n %            n %            n %            n %      
+------------------------------ ---------- ------ ------- ------ ------- ------ ------- ------ -------
+Placebo (N = 81)               Low             2 (  2.5)     NA NA          NA NA          NA NA     
+                               Normal         NA NA          63 ( 77.8)     NA NA          NA NA     
+                               High           NA NA          NA NA           4 (  4.9)     NA NA     
+                               Total          NA NA          NA NA          NA NA           0 (  0.0)
+
+Xanomeline Low Dose (N = 72)   Low             0 (  0.0)     NA NA          NA NA          NA NA     
+                               Normal         NA NA          55 ( 76.4)     NA NA          NA NA     
+                               High           NA NA          NA NA           1 (  1.4)     NA NA     
+                               Total          NA NA          NA NA          NA NA           0 (  0.0)
+
+Xanomeline High Dose (N = 73)  Low             1 (  1.4)     NA NA          NA NA          NA NA     
+                               Normal         NA NA          54 ( 74.0)     NA NA          NA NA     
+                               High           NA NA          NA NA           2 (  2.7)     NA NA     
+                               Total          NA NA          NA NA          NA NA           0 (  0.0)
+
+

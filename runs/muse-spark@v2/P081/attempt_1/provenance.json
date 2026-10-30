@@ -1,0 +1,65 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P081",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 1,
+ "prompt_version": 2,
+ "run_name": "muse-spark@v2",
+ "recorded_at": "2026-10-29T22:59:46",
+ "agent_commit": "c2ad21bd64e63ca9c44876bef9975bef53491dfe",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 5032,
+  "output_tokens": 7678,
+  "reasoning_tokens": 4323,
+  "finish_reason": "stop",
+  "seconds": 38.4
+ },
+ "inputs": {
+  "prompt_translate.md": "73d8d6d82008934b4c535fffa78c7a64e8bf87d5b1670e1770e2296e9cf15a7c"
+ },
+ "model_output": {
+  "response.md": "a99c95cd27f9d45d8cfa6efef1c415c13e3e8f0baa5685b4386601e02a9cc8e4",
+  "script.R": "05738fa1dd5bbbd6943d52d9f329f2eff2e7022110fb1b5923a887e0d057edfc"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.4,
+  "timed_out": false,
+  "log_sha256": "e6f8cfa24c3701e4eafab4aee5475b9d15a592c7ba00e43666eba77e18fcd1d3"
+ },
+ "r_outputs": {
+  "f_mean_cfb.csv": "7f3301dfef82d00e7c626deb534fafcdfc00e1844b403e4659a8f9aba2b14c63",
+  "f_mean_cfb.png": "4c4f971a7b2a1375437965dbd4fe56c4f38d2a0ae14573bae24c1baf5f7548e7",
+  "f_mean_cfb_table.csv": "a66a636ae9a3ec6c459ed6010ae9aa1302d0c76fd35f7a99c699942378068def",
+  "f_mean_cfb_table.txt": "0e56911eab6efd63a1ed9dcce6a3da3776bb53329535b4a655684f42ce7878b8"
+ },
+ "sas_reference": [
+  {
+   "file": "tlf/f_mean_cfb.rtf",
+   "sha256": "b3d3ed00153fc6764ae226e1f22d85fb1c181b02c6d23a3c465f068f6ec40b1c",
+   "frozen_sha256": "b3d3ed00153fc6764ae226e1f22d85fb1c181b02c6d23a3c465f068f6ec40b1c",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

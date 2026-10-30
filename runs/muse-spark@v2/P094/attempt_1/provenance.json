@@ -1,0 +1,67 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P094",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 1,
+ "prompt_version": 2,
+ "run_name": "muse-spark@v2",
+ "recorded_at": "2026-10-29T23:15:35",
+ "agent_commit": "c2ad21bd64e63ca9c44876bef9975bef53491dfe",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 1987,
+  "output_tokens": 5030,
+  "reasoning_tokens": 3597,
+  "finish_reason": "stop",
+  "seconds": 29.4
+ },
+ "inputs": {
+  "prompt_translate.md": "faccc4999f14952a156a5cac7e1cf811b4a84b9cfcabd9d36fabcd699950df10"
+ },
+ "model_output": {
+  "response.md": "b2f0df8950a0549a7c504cce67317d2b0fe123d5fa43c930734b831feda7560c",
+  "script.R": "9375a90e61c5b7fda3442e6ab517f1d819abf8d19b443c8cd2e3b184daa9d6e7"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 0.9,
+  "timed_out": false,
+  "log_sha256": "27d61621f4b2a8162ec296afde3bb013c7b9ed511d87807c692878c8314744c2"
+ },
+ "r_outputs": {
+  "classtest.csv": "e56d3dfa89d1855c1fb7643fbc2f83d123f93dfb09bb38de9dde94c5fe7a9bea",
+  "classtest_dups.csv": "e001a5b595994b816fd54e1f258b052f9a6af219251201afb3f47cc35b044525",
+  "classtest_sort.csv": "1833a0fded8a365c4955e8e4be17dc546cc82bfa58879b5290460bf9bcd79d27",
+  "P094.csv": "f1dedb50cd0b7b78cbe24340c23c9c1cc4b3d7f6748b8313a3cff9ca9ae817d6",
+  "P094.lst": "129d8bc6e8fedec4db0bb51753c309f02c4674419cd5f3188ca1f565b9f2eab9",
+  "P094.txt": "129d8bc6e8fedec4db0bb51753c309f02c4674419cd5f3188ca1f565b9f2eab9"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P094.lst",
+   "sha256": "5f7cd5ac3892e80a5fba1bfa26a725379f9727139f889b06280708090896b8e6",
+   "frozen_sha256": "5f7cd5ac3892e80a5fba1bfa26a725379f9727139f889b06280708090896b8e6",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

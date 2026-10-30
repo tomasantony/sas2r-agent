@@ -1,0 +1,15 @@
+Listing of SDTM VS (P030_vs.sas - PROC PRINT of SDTM_VS)
+Rows: 9
+
+STUDYID | DOMAIN | USUBJID | VSSEQ | VSTESTCD | VSTEST | VSORRES | VSORRESU | VSSTRESC | VSSTRESN | VSSTRESU | VSDTC | VSTDY | VISIT | VSPOS
+--------------------------------------------------------------------------------------------------------------------------------------------
+ONCO-2026 | VS | ONCO-2026-101 | 1 | DIABP | Diastolic Blood Pressure | 80 | mmHg | 80 | 80 | mmHg | 2026-01-02 | -3 | SCREENING | SITTING
+ONCO-2026 | VS | ONCO-2026-101 | 2 | SYSBP | Systolic Blood Pressure | 120 | mmHg | 120 | 120 | mmHg | 2026-01-02 | -3 | SCREENING | SITTING
+ONCO-2026 | VS | ONCO-2026-101 | 3 | SYSBP | Systolic Blood Pressure | 125 | mmHg | 125 | 125 | mmHg | 2026-01-15 | 11 | CYCLE 1 DAY 1 | SITTING
+ONCO-2026 | VS | ONCO-2026-102 | 1 | SYSBP | Systolic Blood Pressure | 130 | mmHg | 130 | 130 | mmHg | 2026-01-05 | -3 | SCREENING | SUPINE
+ONCO-2026 | VS | ONCO-2026-103 | 1 | DIABP | Diastolic Blood Pressure | 76 | mmHg | 76 | 76 | mmHg | 2026-01-05 | -5 | SCREENING | SITTING
+ONCO-2026 | VS | ONCO-2026-103 | 2 | SYSBP | Systolic Blood Pressure | 118 | mmHg | 118 | 118 | mmHg | 2026-01-05 | -5 | SCREENING | SITTING
+ONCO-2026 | VS | ONCO-2026-103 | 3 | DIABP | Diastolic Blood Pressure | 80 | mmHg | 80 | 80 | mmHg | 2026-01-15 | 6 | CYCLE 1 DAY 1 | SITTING
+ONCO-2026 | VS | ONCO-2026-103 | 4 | SYSBP | Systolic Blood Pressure | 122 | mmHg | 122 | 122 | mmHg | 2026-01-15 | 6 | CYCLE 1 DAY 1 | SITTING
+ONCO-2026 | VS | ONCO-2026-105 | 1 | SYSBP | Systolic Blood Pressure | 140 | mmHg | 140 | 140 | mmHg | 2026-01-12 | -3 | SCREENING | SITTING
+

@@ -1,0 +1,35 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "t_exposure.rtf",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 58,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "14.1",
+     "3",
+     "63",
+     "82",
+     "95",
+     "158.78",
+     "163",
+     "162.98",
+     "34.79",
+     "24.81",
+     "28.46",
+     "171"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  }
+ ]
+}

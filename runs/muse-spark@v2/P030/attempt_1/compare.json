@@ -1,0 +1,30 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.9736842105263158,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P030.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9736842105263158,
+   "detail": {
+    "recall": 0.9736842105263158,
+    "expected": 114,
+    "found": 111,
+    "r_files": [
+     "P030.csv",
+     "P030.lst.txt",
+     "P030.txt",
+     "sdtm_vs.csv"
+    ],
+    "missing_examples": [
+     "5",
+     "7",
+     "8"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,501 @@
+"Type","Day","NewCases"
+"Constant",1,9
+"Constant",2,5
+"Constant",3,8
+"Constant",4,8
+"Constant",5,5
+"Constant",6,13
+"Constant",7,11
+"Constant",8,12
+"Constant",9,9
+"Constant",10,3
+"Constant",11,13
+"Constant",12,5
+"Constant",13,12
+"Constant",14,14
+"Constant",15,11
+"Constant",16,11
+"Constant",17,11
+"Constant",18,10
+"Constant",19,12
+"Constant",20,14
+"Constant",21,11
+"Constant",22,11
+"Constant",23,13
+"Constant",24,12
+"Constant",25,14
+"Constant",26,13
+"Constant",27,15
+"Constant",28,11
+"Constant",29,12
+"Constant",30,11
+"Constant",31,5
+"Constant",32,12
+"Constant",33,5
+"Constant",34,9
+"Constant",35,10
+"Constant",36,12
+"Constant",37,11
+"Constant",38,11
+"Constant",39,11
+"Constant",40,8
+"Constant",41,15
+"Constant",42,9
+"Constant",43,9
+"Constant",44,16
+"Constant",45,13
+"Constant",46,8
+"Constant",47,13
+"Constant",48,9
+"Constant",49,5
+"Constant",50,12
+"Constant",51,11
+"Constant",52,16
+"Constant",53,9
+"Constant",54,7
+"Constant",55,9
+"Constant",56,7
+"Constant",57,12
+"Constant",58,7
+"Constant",59,7
+"Constant",60,12
+"Constant",61,11
+"Constant",62,9
+"Constant",63,5
+"Constant",64,9
+"Constant",65,12
+"Constant",66,6
+"Constant",67,14
+"Constant",68,15
+"Constant",69,9
+"Constant",70,7
+"Constant",71,10
+"Constant",72,7
+"Constant",73,9
+"Constant",74,8
+"Constant",75,12
+"Constant",76,10
+"Constant",77,7
+"Constant",78,10
+"Constant",79,11
+"Constant",80,12
+"Constant",81,4
+"Constant",82,12
+"Constant",83,12
+"Constant",84,16
+"Constant",85,13
+"Constant",86,12
+"Constant",87,7
+"Constant",88,6
+"Constant",89,14
+"Constant",90,12
+"Constant",91,7
+"Constant",92,7
+"Constant",93,5
+"Constant",94,11
+"Constant",95,4
+"Constant",96,12
+"Constant",97,6
+"Constant",98,9
+"Constant",99,11
+"Constant",100,8
+"Early Peak",1,8
+"Early Peak",2,13
+"Early Peak",3,18
+"Early Peak",4,24
+"Early Peak",5,24
+"Early Peak",6,28
+"Early Peak",7,31
+"Early Peak",8,31
+"Early Peak",9,35
+"Early Peak",10,37
+"Early Peak",11,37
+"Early Peak",12,37
+"Early Peak",13,33
+"Early Peak",14,37
+"Early Peak",15,32
+"Early Peak",16,32
+"Early Peak",17,33
+"Early Peak",18,33
+"Early Peak",19,29
+"Early Peak",20,27
+"Early Peak",21,26
+"Early Peak",22,27
+"Early Peak",23,23
+"Early Peak",24,24
+"Early Peak",25,20
+"Early Peak",26,20
+"Early Peak",27,21
+"Early Peak",28,13
+"Early Peak",29,16
+"Early Peak",30,17
+"Early Peak",31,16
+"Early Peak",32,14
+"Early Peak",33,12
+"Early Peak",34,13
+"Early Peak",35,15
+"Early Peak",36,10
+"Early Peak",37,11
+"Early Peak",38,11
+"Early Peak",39,9
+"Early Peak",40,7
+"Early Peak",41,7
+"Early Peak",42,7
+"Early Peak",43,7
+"Early Peak",44,8
+"Early Peak",45,9
+"Early Peak",46,5
+"Early Peak",47,2
+"Early Peak",48,3
+"Early Peak",49,3
+"Early Peak",50,4
+"Early Peak",51,3
+"Early Peak",52,5
+"Early Peak",53,3
+"Early Peak",54,3
+"Early Peak",55,4
+"Early Peak",56,0
+"Early Peak",57,3
+"Early Peak",58,0
+"Early Peak",59,2
+"Early Peak",60,0
+"Early Peak",61,0
+"Early Peak",62,4
+"Early Peak",63,2
+"Early Peak",64,0
+"Early Peak",65,0
+"Early Peak",66,0
+"Early Peak",67,0
+"Early Peak",68,0
+"Early Peak",69,0
+"Early Peak",70,0
+"Early Peak",71,1
+"Early Peak",72,0
+"Early Peak",73,0
+"Early Peak",74,1
+"Early Peak",75,0
+"Early Peak",76,0
+"Early Peak",77,1
+"Early Peak",78,2
+"Early Peak",79,0
+"Early Peak",80,0
+"Early Peak",81,0
+"Early Peak",82,0
+"Early Peak",83,0
+"Early Peak",84,0
+"Early Peak",85,1
+"Early Peak",86,1
+"Early Peak",87,1
+"Early Peak",88,0
+"Early Peak",89,0
+"Early Peak",90,0
+"Early Peak",91,0
+"Early Peak",92,1
+"Early Peak",93,1
+"Early Peak",94,1
+"Early Peak",95,0
+"Early Peak",96,0
+"Early Peak",97,1
+"Early Peak",98,0
+"Early Peak",99,0
+"Early Peak",100,0
+"Flattened",1,3
+"Flattened",2,5
+"Flattened",3,7
+"Flattened",4,11
+"Flattened",5,10
+"Flattened",6,13
+"Flattened",7,16
+"Flattened",8,16
+"Flattened",9,20
+"Flattened",10,23
+"Flattened",11,24
+"Flattened",12,25
+"Flattened",13,21
+"Flattened",14,27
+"Flattened",15,22
+"Flattened",16,23
+"Flattened",17,26
+"Flattened",18,26
+"Flattened",19,24
+"Flattened",20,23
+"Flattened",21,23
+"Flattened",22,24
+"Flattened",23,21
+"Flattened",24,23
+"Flattened",25,20
+"Flattened",26,21
+"Flattened",27,22
+"Flattened",28,15
+"Flattened",29,19
+"Flattened",30,20
+"Flattened",31,19
+"Flattened",32,17
+"Flattened",33,16
+"Flattened",34,17
+"Flattened",35,20
+"Flattened",36,14
+"Flattened",37,16
+"Flattened",38,16
+"Flattened",39,14
+"Flattened",40,12
+"Flattened",41,12
+"Flattened",42,12
+"Flattened",43,12
+"Flattened",44,13
+"Flattened",45,14
+"Flattened",46,10
+"Flattened",47,7
+"Flattened",48,8
+"Flattened",49,8
+"Flattened",50,9
+"Flattened",51,10
+"Flattened",52,13
+"Flattened",53,11
+"Flattened",54,10
+"Flattened",55,8
+"Flattened",56,4
+"Flattened",57,10
+"Flattened",58,3
+"Flattened",59,6
+"Flattened",60,0
+"Flattened",61,3
+"Flattened",62,7
+"Flattened",63,7
+"Flattened",64,3
+"Flattened",65,4
+"Flattened",66,0
+"Flattened",67,2
+"Flattened",68,2
+"Flattened",69,3
+"Flattened",70,3
+"Flattened",71,7
+"Flattened",72,2
+"Flattened",73,0
+"Flattened",74,3
+"Flattened",75,0
+"Flattened",76,3
+"Flattened",77,4
+"Flattened",78,5
+"Flattened",79,2
+"Flattened",80,0
+"Flattened",81,0
+"Flattened",82,0
+"Flattened",83,0
+"Flattened",84,0
+"Flattened",85,3
+"Flattened",86,3
+"Flattened",87,4
+"Flattened",88,0
+"Flattened",89,0
+"Flattened",90,1
+"Flattened",91,0
+"Flattened",92,4
+"Flattened",93,3
+"Flattened",94,2
+"Flattened",95,0
+"Flattened",96,0
+"Flattened",97,2
+"Flattened",98,1
+"Flattened",99,2
+"Flattened",100,1
+"Second Outbreak",1,4
+"Second Outbreak",2,5
+"Second Outbreak",3,5
+"Second Outbreak",4,8
+"Second Outbreak",5,6
+"Second Outbreak",6,9
+"Second Outbreak",7,12
+"Second Outbreak",8,13
+"Second Outbreak",9,17
+"Second Outbreak",10,20
+"Second Outbreak",11,22
+"Second Outbreak",12,25
+"Second Outbreak",13,23
+"Second Outbreak",14,29
+"Second Outbreak",15,27
+"Second Outbreak",16,29
+"Second Outbreak",17,33
+"Second Outbreak",18,34
+"Second Outbreak",19,32
+"Second Outbreak",20,32
+"Second Outbreak",21,32
+"Second Outbreak",22,33
+"Second Outbreak",23,30
+"Second Outbreak",24,32
+"Second Outbreak",25,28
+"Second Outbreak",26,27
+"Second Outbreak",27,27
+"Second Outbreak",28,19
+"Second Outbreak",29,21
+"Second Outbreak",30,21
+"Second Outbreak",31,19
+"Second Outbreak",32,16
+"Second Outbreak",33,14
+"Second Outbreak",34,13
+"Second Outbreak",35,14
+"Second Outbreak",36,9
+"Second Outbreak",37,9
+"Second Outbreak",38,8
+"Second Outbreak",39,6
+"Second Outbreak",40,4
+"Second Outbreak",41,3
+"Second Outbreak",42,3
+"Second Outbreak",43,3
+"Second Outbreak",44,3
+"Second Outbreak",45,5
+"Second Outbreak",46,1
+"Second Outbreak",47,0
+"Second Outbreak",48,0
+"Second Outbreak",49,0
+"Second Outbreak",50,1
+"Second Outbreak",51,2
+"Second Outbreak",52,5
+"Second Outbreak",53,3
+"Second Outbreak",54,3
+"Second Outbreak",55,1
+"Second Outbreak",56,0
+"Second Outbreak",57,4
+"Second Outbreak",58,0
+"Second Outbreak",59,2
+"Second Outbreak",60,0
+"Second Outbreak",61,1
+"Second Outbreak",62,6
+"Second Outbreak",63,8
+"Second Outbreak",64,7
+"Second Outbreak",65,9
+"Second Outbreak",66,7
+"Second Outbreak",67,11
+"Second Outbreak",68,13
+"Second Outbreak",69,15
+"Second Outbreak",70,15
+"Second Outbreak",71,19
+"Second Outbreak",72,13
+"Second Outbreak",73,8
+"Second Outbreak",74,13
+"Second Outbreak",75,6
+"Second Outbreak",76,8
+"Second Outbreak",77,10
+"Second Outbreak",78,10
+"Second Outbreak",79,3
+"Second Outbreak",80,1
+"Second Outbreak",81,0
+"Second Outbreak",82,0
+"Second Outbreak",83,0
+"Second Outbreak",84,0
+"Second Outbreak",85,2
+"Second Outbreak",86,1
+"Second Outbreak",87,2
+"Second Outbreak",88,0
+"Second Outbreak",89,0
+"Second Outbreak",90,0
+"Second Outbreak",91,0
+"Second Outbreak",92,2
+"Second Outbreak",93,1
+"Second Outbreak",94,1
+"Second Outbreak",95,0
+"Second Outbreak",96,0
+"Second Outbreak",97,1
+"Second Outbreak",98,0
+"Second Outbreak",99,1
+"Second Outbreak",100,0
+"Exponential",1,0
+"Exponential",2,0
+"Exponential",3,0
+"Exponential",4,0
+"Exponential",5,0
+"Exponential",6,0
+"Exponential",7,0
+"Exponential",8,0
+"Exponential",9,0
+"Exponential",10,0
+"Exponential",11,0
+"Exponential",12,0
+"Exponential",13,0
+"Exponential",14,1
+"Exponential",15,0
+"Exponential",16,0
+"Exponential",17,1
+"Exponential",18,1
+"Exponential",19,0
+"Exponential",20,0
+"Exponential",21,0
+"Exponential",22,1
+"Exponential",23,0
+"Exponential",24,1
+"Exponential",25,0
+"Exponential",26,0
+"Exponential",27,1
+"Exponential",28,0
+"Exponential",29,0
+"Exponential",30,1
+"Exponential",31,1
+"Exponential",32,0
+"Exponential",33,0
+"Exponential",34,1
+"Exponential",35,2
+"Exponential",36,0
+"Exponential",37,1
+"Exponential",38,1
+"Exponential",39,1
+"Exponential",40,1
+"Exponential",41,1
+"Exponential",42,1
+"Exponential",43,2
+"Exponential",44,2
+"Exponential",45,3
+"Exponential",46,2
+"Exponential",47,1
+"Exponential",48,1
+"Exponential",49,2
+"Exponential",50,2
+"Exponential",51,3
+"Exponential",52,4
+"Exponential",53,4
+"Exponential",54,4
+"Exponential",55,3
+"Exponential",56,2
+"Exponential",57,5
+"Exponential",58,3
+"Exponential",59,4
+"Exponential",60,2
+"Exponential",61,3
+"Exponential",62,5
+"Exponential",63,5
+"Exponential",64,4
+"Exponential",65,5
+"Exponential",66,4
+"Exponential",67,6
+"Exponential",68,6
+"Exponential",69,7
+"Exponential",70,8
+"Exponential",71,11
+"Exponential",72,10
+"Exponential",73,9
+"Exponential",74,12
+"Exponential",75,11
+"Exponential",76,13
+"Exponential",77,16
+"Exponential",78,17
+"Exponential",79,16
+"Exponential",80,17
+"Exponential",81,17
+"Exponential",82,19
+"Exponential",83,19
+"Exponential",84,22
+"Exponential",85,25
+"Exponential",86,26
+"Exponential",87,28
+"Exponential",88,29
+"Exponential",89,31
+"Exponential",90,34
+"Exponential",91,34
+"Exponential",92,40
+"Exponential",93,42
+"Exponential",94,45
+"Exponential",95,46
+"Exponential",96,50
+"Exponential",97,55
+"Exponential",98,58
+"Exponential",99,63
+"Exponential",100,66

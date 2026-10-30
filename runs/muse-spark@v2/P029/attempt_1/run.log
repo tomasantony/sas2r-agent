@@ -1,0 +1,17 @@
+sandbox: docker run --rm --name sas2r-3759500e35a6 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P029\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+P029 TU mapping started
+edc_tu rows: 4  cols: SUBJID,LNKID,TYPE,LOC,METH,VISIT,TUDT 
+edc_dm rows: 5  cols: SUBJID,BRTHDT,GENDER,RACE,ETHNIC,RFICDT,SITE 
+edc_ex rows: 7  cols: SUBJID,VISIT,TRT,DOSE,UNIT,STDT,ENDT,LOT,ROUTE,FREQ,FORM,ADJ,ADJRS 
+ivrs_rand rows: 5  cols: SUBJID,RAND_DT,TRT_CODE 
+dm_for_tu rows: 5 
+        USUBJID    RFSTDTC
+1 ONCO-2026-101 2026-01-15
+2 ONCO-2026-102 2026-01-20
+3 ONCO-2026-103 2026-01-15
+5 ONCO-2026-104 2026-01-12
+4 ONCO-2026-105 2026-01-25
+Error in prettyNum(.Internal(format(x, trim, digits, nsmall, width, 3L,  : 
+  invalid 'trim' argument
+Calls: sapply ... lapply -> FUN -> format -> format.default -> prettyNum
+Execution halted

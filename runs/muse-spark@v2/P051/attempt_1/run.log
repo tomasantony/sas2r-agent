@@ -1,0 +1,9 @@
+sandbox: docker run --rm --name sas2r-e6fe0ba4d605 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P051\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading: /bench/data/raw/cdisc-pilot/adam/adcm.xpt 
+ADCM columns: STUDYID,SITEID,USUBJID,TRTA,TRTAN,AGE,AGEGR1,AGEGR1N,RACE,RACEN,SEX,SAFFL,TRTSDT,TRTEDT,ASTDT,ASTDTF,ASTDY,AENDT,AENDTF,AENDY,AENRF,ADURN,CMSTDTC,CMENDTC,CMSEQ,CMSPID,CMTRT,CMDECOD,CMINDC,CMCLAS,CMDOSE,CMDOSU,CMDOSFRQ,CMROUTE,PREFL,ONTRTFL,AOCCBFL,ATC1BFL,AOCCBPFL,AOCCOFL,ATC1OFL,AOCCOPFL 
+ADCM nrow: 7510 
+After SAFFL=Y nrow: 7510 
+[1] "C"
+[1] "en_US.UTF-8"
+Error: unexpected 'else' in "else"
+Execution halted

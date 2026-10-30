@@ -1,0 +1,116 @@
+The SAS System                                        15:30 Tuesday, October 27, 2026
+Program: P085_adlb.sas  ADLB (Laboratory Analysis Dataset) - BDS Structure
+Standard: CDISC ADaM IG 1.3
+
+PROC CONTENTS DATA=ADLB VARNUM;
+
+                          The CONTENTS Procedure
+
+ Data Set Name        WORK.ADLB                              Observations          14
+ Member Type          DATA                                   Variables             37
+ Engine               V9                                     Indexes               0
+ Created              10/27/2026 15:30:00                    Observation Length    848
+ Last Modified        10/27/2026 15:30:00                    Deleted Observations  0
+ Protection                                                  Compressed          NO
+ Data Set Type                                               Sorted              YES
+ Label
+ Data Representation  WINDOWS_64
+ Encoding             wlatin1  Western (Windows)
+
+                    Engine/Host Dependent Information
+
+ Data Set Page Size   65536
+ Number of Data Set Pages  9
+ First Data Page      1
+ Max Obs per Page     82
+ Obs in First Data Page  14
+ Number of Data Set Repairs  0
+ Filename             /bench/output/sas/datasets/P085/adlb.sas7bdat
+ Release Created      9.0401M6
+ Host Created         X64_10PRO
+ Inode Number         69632
+ Access Permission    rw-r--r--
+ Owner Name           sasdemo
+ File Size            64K
+ File Size (bytes)    35248
+
+                     Sortedby STUDYID USUBJID PARAMCD AVISITN ADT
+                     Validated YES Character Set ANSI
+
+                          Variables in Creation Order
+
+#     Variable   Type   Len     Format    Label
+------------------------------------------------------------------------------------------
+1     STUDYID    Char   12                Study Identifier
+2     USUBJID    Char   20                Unique Subject Identifier
+3     LBSEQ      Num    8       BEST12.   
+4     TRTP       Char   40                Planned Treatment
+5     TRTPN      Num    8       BEST12.   Planned Treatment (N)
+6     AGE        Num    8       BEST12.   
+7     SEX        Char   1                 
+8     SAFFL      Char   1                 Safety Population Flag
+9     TRTSDT     Num    8       DATE9.    
+10    TRTEDT     Num    8       DATE9.    
+11    PARAMCD    Char   8                 Parameter Code
+12    PARAM      Char   200               Parameter
+13    PARAMN     Num    8       BEST12.   Parameter (N)
+14    PARCAT1    Char   50                Parameter Category 1
+15    AVAL       Num    8       BEST12.   Analysis Value
+16    AVALC      Char   200               
+17    AVALU      Char   20                Analysis Value Unit
+18    BASE       Num    8       BEST12.   Baseline Value
+19    CHG        Num    8       BEST12.   Change from Baseline
+20    PCHG       Num    8       BEST12.   Percent Change from Baseline
+21    ADT        Num    8       DATE9.    Analysis Date
+22    ADY        Num    8       BEST12.   Analysis Relative Day
+23    AVISIT     Char   40                Analysis Visit
+24    AVISITN    Num    8       BEST12.   Analysis Visit (N)
+25    ABLFL      Char   1                 Baseline Record Flag
+26    ANL01FL    Char   1                 Analysis Record Flag 01
+27    ANRLO      Num    8       BEST12.   Analysis Normal Range Lower Limit
+28    ANRHI      Num    8       BEST12.   Analysis Normal Range Upper Limit
+29    ANRIND     Char   20                Analysis Normal Range Indicator
+30    BNRIND     Char   10                Baseline Normal Range Indicator
+31    SHIFT1     Char   40                Shift 1
+32    A1LO       Num    8       BEST12.   
+33    A1HI       Num    8       BEST12.   
+34    R2A1HI     Num    8       BEST12.   Ratio to Analysis Range 1 Upper Limit
+35    BR2A1HI    Num    8       BEST12.   Baseline Ratio to Analysis Range 1 Upper Limit
+36    ANRIND2    Char   20                
+37    ASEQ       Num    8       BEST12.   Analysis Sequence Number
+
+PROC PRINT DATA=ADLB (OBS=20) NOOBS;
+Observations printed: 14 of 14
+
+STUDYID|USUBJID|LBSEQ|TRTP|TRTPN|AGE|SEX|SAFFL|TRTSDT|TRTEDT|PARAMCD|PARAM|PARAMN|PARCAT1|AVAL|AVALC|AVALU|BASE|CHG|PCHG|ADT|ADY|AVISIT|AVISITN|ABLFL|ANL01FL|ANRLO|ANRHI|ANRIND|BNRIND|SHIFT1|A1LO|A1HI|R2A1HI|BR2A1HI|ANRIND2|ASEQ
+STUDY01|STUDY01-1001|1|Treatment A|1|59|M|Y|15JAN2024|15JUN2024|ALT|Alanine Aminotransferase|1|CHEMISTRY|24||U/L|.|.|.|15JAN2024|1|Baseline|1|||7|56|NORMAL|||7|56|0.428571429|.|NORMAL|1
+STUDY01|STUDY01-1001|4|Treatment A|1|59|M|Y|15JAN2024|15JUN2024|ALT|Alanine Aminotransferase|1|CHEMISTRY|28||U/L|.|.|.|12FEB2024|29|Week 4|2||Y|7|56|NORMAL|||7|56|0.5|.|NORMAL|2
+STUDY01|STUDY01-1001|6|Treatment A|1|59|M|Y|15JAN2024|15JUN2024|ALT|Alanine Aminotransferase|1|CHEMISTRY|32||U/L|.|.|.|11MAR2024|57|Week 8|3||Y|7|56|NORMAL|||7|56|0.571428571|.|NORMAL|3
+STUDY01|STUDY01-1001|2|Treatment A|1|59|M|Y|15JAN2024|15JUN2024|AST|Aspartate Aminotransferase|2|CHEMISTRY|26||U/L|.|.|.|15JAN2024|1|Baseline|1|||10|40|NORMAL|||10|40|0.65|.|NORMAL|4
+STUDY01|STUDY01-1001|5|Treatment A|1|59|M|Y|15JAN2024|15JUN2024|AST|Aspartate Aminotransferase|2|CHEMISTRY|30||U/L|.|.|.|12FEB2024|29|Week 4|2||Y|10|40|NORMAL|||10|40|0.75|.|NORMAL|5
+STUDY01|STUDY01-1001|3|Treatment A|1|59|M|Y|15JAN2024|15JUN2024|CREAT|Creatinine|5|CHEMISTRY|0.9||mg/dL|0.9|0|0|15JAN2024|1|Baseline|1|Y||0.7|1.3|NORMAL|NORMAL|NORMAL to NORMAL|0.7|1.3|0.692307692|0.692307692|NORMAL|6
+STUDY01|STUDY01-1002|1|Placebo|2|45|F|Y|18JAN2024|18JUN2024|ALT|Alanine Aminotransferase|1|CHEMISTRY|18||U/L|.|.|.|18JAN2024|1|Baseline|1|||7|56|NORMAL|||7|56|0.321428571|.|NORMAL|1
+STUDY01|STUDY01-1002|2|Placebo|2|45|F|Y|18JAN2024|18JUN2024|ALT|Alanine Aminotransferase|1|CHEMISTRY|20||U/L|.|.|.|15FEB2024|29|Week 4|2||Y|7|56|NORMAL|||7|56|0.357142857|.|NORMAL|2
+STUDY01|STUDY01-1003|1|Treatment A|1|43|M|Y|20JAN2024|01APR2024|ALT|Alanine Aminotransferase|1|CHEMISTRY|35||U/L|.|.|.|20JAN2024|1|Baseline|1|||7|56|NORMAL|||7|56|0.625|.|NORMAL|1
+STUDY01|STUDY01-1003|2|Treatment A|1|43|M|Y|20JAN2024|01APR2024|ALT|Alanine Aminotransferase|1|CHEMISTRY|95||U/L|.|.|.|17FEB2024|29|Week 4|2||Y|7|56|HIGH|||7|56|1.696428571|.|HIGH|2
+STUDY01|STUDY01-1003|3|Treatment A|1|43|M|Y|20JAN2024|01APR2024|ALT|Alanine Aminotransferase|1|CHEMISTRY|180||U/L|.|.|.|15MAR2024|56|Week 8|3||Y|7|56|HIGH|||7|56|3.214285714|.|>3xULN|3
+STUDY01|STUDY01-1004|1|Treatment A|1|51|F|Y|25JAN2024|25JUN2024|ALT|Alanine Aminotransferase|1|CHEMISTRY|20||U/L|20|0|0|25JAN2024|1|Baseline|1|Y||7|56|NORMAL|NORMAL|NORMAL to NORMAL|7|56|0.357142857|0.357142857|NORMAL|1
+STUDY01|STUDY01-1005|1|Placebo|2|36|M|Y|28JAN2024|.|ALT|Alanine Aminotransferase|1|CHEMISTRY|19||U/L|19|0|0|28JAN2024|1|Baseline|1|Y||7|56|NORMAL|NORMAL|NORMAL to NORMAL|7|56|0.339285714|0.339285714|NORMAL|1
+STUDY01|STUDY01-1006|1|Treatment A|1|68|F|Y|30JAN2024|01JUL2024|ALT|Alanine Aminotransferase|1|CHEMISTRY|30||U/L|30|0|0|30JAN2024|1|Baseline|1|Y||7|56|NORMAL|NORMAL|NORMAL to NORMAL|7|56|0.535714286|0.535714286|NORMAL|1
+
+Supplemental rounded values (5 decimals) for verification:
+R2A1HI_5|BR2A1HI_5|PCHG_5|CHG_5
+0.42857|.|.|.
+0.50000|.|.|.
+0.57143|.|.|.
+0.65000|.|.|.
+0.75000|.|.|.
+0.69231|0.69231|0.00000|0.00000
+0.32143|.|.|.
+0.35714|.|.|.
+0.62500|.|.|.
+1.69643|.|.|.
+3.21429|.|.|.
+0.35714|0.35714|0.00000|0.00000
+0.33929|0.33929|0.00000|0.00000
+0.53571|0.53571|0.00000|0.00000

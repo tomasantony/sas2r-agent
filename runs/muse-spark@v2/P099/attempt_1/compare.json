@@ -1,0 +1,145 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P099.lst",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 30,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "100",
+     "10",
+     "3.03182",
+     "3",
+     "16",
+     "1000",
+     "12.0596",
+     "0",
+     "37",
+     "8.40995",
+     "27",
+     "10.4495"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPanel.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgpanel.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPanel1.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgpanel1.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPanel2.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgpanel2.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgplot.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot1.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgplot1.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot2.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgplot2.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGRender.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgrender.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGRender1.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgrender1.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGRender2.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgrender2.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGRender3.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgrender3.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGRender4.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgrender4.png"
+   }
+  }
+ ]
+}

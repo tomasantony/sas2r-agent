@@ -1,0 +1,6 @@
+sandbox: docker run --rm --name sas2r-8666f211d602 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P052\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADVSMAX...
+advsmax_final rows: 250
+range: min_base=40 max_base=98 min_aval=41 max_aval=90 axis_min=40 axis_max=98
+[1] TRUE
+Done.

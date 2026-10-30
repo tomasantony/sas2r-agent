@@ -1,0 +1,20 @@
+sandbox: docker run --rm --name sas2r-e9934c402c56 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P032\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADVS from: /bench/data/raw/cdisc-pilot/adam/advs.xpt
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+ADVS n=1800
+[1] "C"
+[1] "en_US.UTF-8"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+Done

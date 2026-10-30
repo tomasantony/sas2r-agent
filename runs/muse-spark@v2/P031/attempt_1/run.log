@@ -1,0 +1,4 @@
+sandbox: docker run --rm --name sas2r-d18b8699857e --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P031\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+P031 Boxplot group: generating data
+Wrote /work/out/p031_f_plsr_box_plot.csv rows: 120 
+Wrote /work/out/p031_f_plsr_box_plot.png 

@@ -1,0 +1,32 @@
+[Sponsor Name]   Page 1
+Protocol: [Protocol Number]
+
+Figure 14.2.4
+Mean Change from Baseline Over Time
+Efficacy Analysis Set
+
+Supporting Data Table: n per Visit per Treatment (sum of n)
+Parameter: ACTOT
+
+Detail summary by treatment and visit:
+Treatment                 Visit                n       Mean         SE         LCLM         UCLM
+Placebo                   Week4               85       0.39       0.53        -0.66         1.44
+Placebo                   Week8               83       0.02       0.56        -1.09         1.14
+Placebo                   Week12              81      -0.15       0.46        -1.08         0.77
+Drug X Low Dose           Week4               75      -0.59       0.63        -1.85         0.67
+Drug X Low Dose           Week8               75      -1.32       0.60        -2.51        -0.13
+Drug X Low Dose           Week12              74      -2.87       0.54        -3.95        -1.79
+Drug X High Dose          Week4               59      -1.91       0.64        -3.18        -0.64
+Drug X High Dose          Week8               59      -4.48       0.67        -5.83        -3.13
+Drug X High Dose          Week12              59      -5.74       0.63        -7.01        -4.47
+
+Tabulate (TRTA rows x AVISIT columns, sum of n):
+TRTA | Week4 | Week8 | Week12 
+Placebo | 85 | 83 | 81 
+Drug X Low Dose | 75 | 75 | 74 
+Drug X High Dose | 59 | 59 | 59 
+
+Data cutoff: [DDMONYYYY].
+Error bars represent 95% confidence intervals.
+n = number of subjects with non-missing change from baseline.
+Program: f_mean_cfb.sas | Run: 30OCT2026

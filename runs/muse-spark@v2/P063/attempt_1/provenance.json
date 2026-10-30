@@ -1,0 +1,65 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P063",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 1,
+ "prompt_version": 2,
+ "run_name": "muse-spark@v2",
+ "recorded_at": "2026-10-29T22:45:47",
+ "agent_commit": "c2ad21bd64e63ca9c44876bef9975bef53491dfe",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 2828,
+  "output_tokens": 11036,
+  "reasoning_tokens": 8249,
+  "finish_reason": "stop",
+  "seconds": 62.5
+ },
+ "inputs": {
+  "prompt_translate.md": "e354b38fbca43b11474c676e80f9efb11ce9ba03f82772009c7b6a158b0061f2"
+ },
+ "model_output": {
+  "response.md": "f52f57baf883695741276d869cfa011e2fe012695f203f58aed35f66cb053e93",
+  "script.R": "ea4e5c07e3216232b233eb4e4fcb88c5a9625f3bbb3303554dca36feca7d7912"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.5,
+  "timed_out": false,
+  "log_sha256": "65446a19df90d6eb8c2005d62eb028aae004d1615c0b363ee50cbc8766d8fffe"
+ },
+ "r_outputs": {
+  "gant.csv": "5c47ddf947d0c281052a9bdac25c9adb7595dc75b0fb7a76937ff43667b6fa68",
+  "gant.png": "ec305819b4c54de2833810ab3a81c890eab85e3a723241dbcd073d6394bde2cc",
+  "gant.txt": "e44b77895a1c3bdad9ff6df78055b7f504d1ba5440193f47a7139f09a57fee1d",
+  "gant.xlsx": "feb20c30692ca4abecf3e8af4171c51bc30fea9646e061d5856af5752a0abe27"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P063/gant.xlsx",
+   "sha256": "7a8e32ef29642ba911f23c7335cb7e287c88de447d5f55ac9e263368ea185be7",
+   "frozen_sha256": "7a8e32ef29642ba911f23c7335cb7e287c88de447d5f55ac9e263368ea185be7",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

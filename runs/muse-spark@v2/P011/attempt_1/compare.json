@@ -1,0 +1,64 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9528539107950873,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P011.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9728506787330317,
+   "detail": {
+    "recall": 0.9728506787330317,
+    "expected": 221,
+    "found": 215,
+    "r_files": [
+     "dm.csv",
+     "P011.csv",
+     "P011.txt"
+    ],
+    "missing_examples": [
+     "1938",
+     "1942",
+     "1949",
+     "1951",
+     "1947",
+     "1954"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "dm",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@v2\\P011\\attempt_1\\out\\dm.csv",
+   "status": "mismatch",
+   "score": 0.9328571428571428,
+   "detail": {
+    "rows_sas": 50,
+    "rows_r": 50,
+    "cols_sas": 14,
+    "cols_r": 14,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.9328571428571428,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(BRTHDTC, 1, '1938-01-23', nan)",
+     "(BRTHDTC, 2, '1948-09-15', nan)",
+     "(BRTHDTC, 3, '1944-05-16', nan)",
+     "(BRTHDTC, 4, '1942-04-13', nan)",
+     "(BRTHDTC, 5, '1956-04-03', '1956-03-04')",
+     "(BRTHDTC, 6, '1949-04-22', nan)",
+     "(BRTHDTC, 7, '1951-10-21', nan)",
+     "(BRTHDTC, 8, '1947-08-25', nan)",
+     "(BRTHDTC, 9, '1954-07-19', nan)",
+     "(BRTHDTC, 10, '1952-08-17', nan)"
+    ],
+    "worst_columns": {
+     "BRTHDTC": 47
+    }
+   }
+  }
+ ]
+}

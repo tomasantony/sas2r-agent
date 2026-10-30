@@ -1,0 +1,10 @@
+Range for Shift Plot - Maximum Baseline and Maximum Post-baseline Measurement
+Filter: PARAMCD=DIABP and ATPTN=815 and ANL01FL=Y and ADY>1 and SAFFL=Y
+
+min_base     max_base     min_aval     max_aval    
+40           98           41           90          
+
+Axis viewmin (min of min_base, min_aval) = 40
+Axis viewmax (max of max_base, max_aval) = 98
+Number of distinct STUDYID = 1
+Panel rows = 1  columns = 2

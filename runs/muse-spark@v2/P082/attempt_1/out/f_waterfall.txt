@@ -1,0 +1,21 @@
+[Sponsor Name] 
+Protocol: [Protocol Number] 
+
+Figure 14.2.3 
+Waterfall Plot of Best Percentage Change from Baseline in Sum of Target Lesions 
+Efficacy Analysis Set 
+
+Efficacy Analysis Set (N=222) 
+Y-axis: Best Percentage Change from Baseline (%)  (-100 to 100 by 20)
+X-axis: subjects sorted by PCHG (display suppressed)
+Reference lines: -30% (PR threshold, blue dash), +20% (PD threshold, red dash), 0 (black solid)
+
+Counts by Best Overall Response (AVALC):
+PR: 121 (54.5%)
+SD: 101 (45.5%)
+
+Data cutoff: [DDMONYYYY]. 
+Each bar represents one subject. 
+CR=Complete Response, PR=Partial Response, SD=Stable Disease, PD=Progressive Disease 
+Dashed lines: RECIST 1.1 thresholds for PR (-30%) and PD (+20%) 
+Program: P082_f_waterfall.sas | Run: 30OCT2026 

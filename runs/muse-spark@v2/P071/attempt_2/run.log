@@ -1,0 +1,9 @@
+sandbox: docker run --rm --name sas2r-7b86ac4cabf2 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P071\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADSL: /bench/data/raw/own-synthetic/adam/adsl.sas7bdat
+Big N:
+              TRTA bign
+1 Drug X High Dose   63
+2  Drug X Low Dose   82
+3          Placebo   95
+Total: 240
+Done. Rows: 11

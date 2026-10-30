@@ -1,0 +1,15 @@
+"USUBJID","SUBJID","VISIT","PARAM","AVAL","STUDYID","TRT01P","BASE","ABLFL","CHG"
+"ABC-301-101",101,"Screenin","HbA1c",8.2,"ABC-301","Drug X 10 mg",8.2,"Y",0
+"ABC-301-101",101,"Baseline","HbA1c",8.1,"ABC-301","Drug X 10 mg",8.2,"",-0.0999999999999996
+"ABC-301-101",101,"Week12","HbA1c",7.4,"ABC-301","Drug X 10 mg",8.2,"",-0.799999999999999
+"ABC-301-101",101,"Week24","HbA1c",6.9,"ABC-301","Drug X 10 mg",8.2,"",-1.3
+"ABC-301-102",102,"Screenin","HbA1c",8.5,"ABC-301","Placebo",8.5,"Y",0
+"ABC-301-102",102,"Baseline","HbA1c",8.4,"ABC-301","Placebo",8.5,"",-0.0999999999999996
+"ABC-301-102",102,"Week12","HbA1c",8.1,"ABC-301","Placebo",8.5,"",-0.4
+"ABC-301-102",102,"Week24","HbA1c",7.9,"ABC-301","Placebo",8.5,"",-0.6
+"ABC-301-103",103,"Screenin","HbA1c",7.9,"ABC-301","Drug X 10 mg",7.9,"Y",0
+"ABC-301-103",103,"Baseline","HbA1c",7.8,"ABC-301","Drug X 10 mg",7.9,"",-0.100000000000001
+"ABC-301-103",103,"Week24","HbA1c",7,"ABC-301","Drug X 10 mg",7.9,"",-0.9
+"ABC-301-104",104,"Screenin","HbA1c",8.3,"ABC-301","Placebo",8.3,"Y",0
+"ABC-301-104",104,"Baseline","HbA1c",8.2,"ABC-301","Placebo",8.3,"",-0.100000000000001
+"ABC-301-104",104,"Week24","HbA1c",8,"ABC-301","Placebo",8.3,"",-0.300000000000001

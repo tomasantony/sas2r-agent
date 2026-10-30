@@ -1,0 +1,24 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "t_exposure.rtf",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 58,
+    "found": 58,
+    "r_files": [
+     "t_exposure.csv",
+     "t_exposure.txt"
+    ],
+    "missing_examples": []
+   }
+  }
+ ]
+}

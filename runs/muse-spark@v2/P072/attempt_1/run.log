@@ -1,0 +1,6 @@
+sandbox: docker run --rm --name sas2r-6ba7b2200bbe --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P072\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADSL: /bench/data/raw/own-synthetic/adam/adsl.sas7bdat
+ADSL cols: STUDYID,USUBJID,SUBJID,SITEID,COUNTRY,REGION1,SEX,RACE,ETHNIC,AGEGR1,AGEU,ARM,ARMCD,TRT01P,TRT01A,TRTP,TRTA,SAFFL,ITTFL,EFFFL,RANDFL,PPROTFL,COMPLFL,DTHFL,EOSSTT,DCSREAS,DTHCAUS,AGE,AGEGR1N,RACEN,ETHNICN,HEIGHTBL,WEIGHTBL,BMIBL,ECOGBL,TRT01PN,TRTPN,TRT01AN,TRTAN,RANDDT,TRTSDT,TRTEDT,TRTDUR,DTHDT
+BigN: Drug X High Dose 63; Drug X Low Dose 82; Placebo 95 Total 240
+Display order: Placebo | Drug X Low Dose | Drug X High Dose
+Done

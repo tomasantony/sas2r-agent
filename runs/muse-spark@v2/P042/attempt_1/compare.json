@@ -1,0 +1,168 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P042.lst",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 118,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "50",
+     "100",
+     "120",
+     "80",
+     "40",
+     "300",
+     "220",
+     "70",
+     "980",
+     "786",
+     "86",
+     "420"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "example1.html",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 9,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "50",
+     "100",
+     "120",
+     "80",
+     "40",
+     "300",
+     "220",
+     "70",
+     "980"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "example2.html",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 10,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "40",
+     "220",
+     "300",
+     "70",
+     "50",
+     "120",
+     "100",
+     "80"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "example3.html",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 56,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "786",
+     "86",
+     "420",
+     "334",
+     "196.5",
+     "156.57",
+     "1",
+     "45",
+     "125",
+     "295",
+     "261.25",
+     "127.83"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "example4.html",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 23,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "786",
+     "12",
+     "1",
+     "45",
+     "17",
+     "598",
+     "9",
+     "746",
+     "110",
+     "18",
+     "630",
+     "10"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "example5.html",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 20,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "40",
+     "225",
+     "350",
+     "80",
+     "45",
+     "230",
+     "250",
+     "73",
+     "420",
+     "205",
+     "76",
+     "60"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  }
+ ]
+}

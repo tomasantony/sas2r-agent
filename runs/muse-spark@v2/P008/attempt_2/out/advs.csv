@@ -1,0 +1,529 @@
+"STUDYID","USUBJID","TRT01A","TRTSDT","TRTEDT","PARAMCD","PARAM","AVAL","AVISIT","AVISITN","ASTDT","ASTDY","SRCDOM","SRCVAR","SRCSEQ","BASE","ABLFL","CHG"
+"CDISC-01","CDISC-01-701-001","Active Drug 50mg",2023-01-17,2023-04-09,"DIABP","Diastolic Blood Pressure",97,"Visit 1",1,2023-01-15,-2,"VS","VSSEQ",1,97,"Y",0
+"CDISC-01","CDISC-01-701-001","Active Drug 50mg",2023-01-17,2023-04-09,"DIABP","Diastolic Blood Pressure",89,"Visit 2",2,2023-02-14,29,"VS","VSSEQ",5,97,"",-8
+"CDISC-01","CDISC-01-701-001","Active Drug 50mg",2023-01-17,2023-04-09,"DIABP","Diastolic Blood Pressure",87,"Visit 3",3,2023-03-17,60,"VS","VSSEQ",9,97,"",-10
+"CDISC-01","CDISC-01-701-001","Active Drug 50mg",2023-01-17,2023-04-09,"PULSE","Pulse Rate",68,"Visit 1",1,2023-01-15,-2,"VS","VSSEQ",2,68,"Y",0
+"CDISC-01","CDISC-01-701-001","Active Drug 50mg",2023-01-17,2023-04-09,"PULSE","Pulse Rate",95,"Visit 2",2,2023-02-14,29,"VS","VSSEQ",6,68,"",27
+"CDISC-01","CDISC-01-701-001","Active Drug 50mg",2023-01-17,2023-04-09,"PULSE","Pulse Rate",67,"Visit 3",3,2023-03-17,60,"VS","VSSEQ",10,68,"",-1
+"CDISC-01","CDISC-01-701-001","Active Drug 50mg",2023-01-17,2023-04-09,"SYSBP","Systolic Blood Pressure",110,"Visit 1",1,2023-01-15,-2,"VS","VSSEQ",3,110,"Y",0
+"CDISC-01","CDISC-01-701-001","Active Drug 50mg",2023-01-17,2023-04-09,"SYSBP","Systolic Blood Pressure",146,"Visit 2",2,2023-02-14,29,"VS","VSSEQ",7,110,"",36
+"CDISC-01","CDISC-01-701-001","Active Drug 50mg",2023-01-17,2023-04-09,"SYSBP","Systolic Blood Pressure",111,"Visit 3",3,2023-03-17,60,"VS","VSSEQ",11,110,"",1
+"CDISC-01","CDISC-01-701-001","Active Drug 50mg",2023-01-17,2023-04-09,"WEIGHT","Weight",87.1,"Visit 1",1,2023-01-15,-2,"VS","VSSEQ",4,87.1,"Y",0
+"CDISC-01","CDISC-01-701-001","Active Drug 50mg",2023-01-17,2023-04-09,"WEIGHT","Weight",78.7,"Visit 2",2,2023-02-14,29,"VS","VSSEQ",8,87.1,"",-8.39999999999999
+"CDISC-01","CDISC-01-701-001","Active Drug 50mg",2023-01-17,2023-04-09,"WEIGHT","Weight",79.8,"Visit 3",3,2023-03-17,60,"VS","VSSEQ",12,87.1,"",-7.3
+"CDISC-01","CDISC-01-701-004","Active Drug 50mg",2023-01-05,2023-03-27,"DIABP","Diastolic Blood Pressure",71,"Visit 1",1,2023-01-02,-3,"VS","VSSEQ",1,71,"Y",0
+"CDISC-01","CDISC-01-701-004","Active Drug 50mg",2023-01-05,2023-03-27,"DIABP","Diastolic Blood Pressure",83,"Visit 2",2,2023-01-31,27,"VS","VSSEQ",5,71,"",12
+"CDISC-01","CDISC-01-701-004","Active Drug 50mg",2023-01-05,2023-03-27,"DIABP","Diastolic Blood Pressure",70,"Visit 3",3,2023-03-05,60,"VS","VSSEQ",9,71,"",-1
+"CDISC-01","CDISC-01-701-004","Active Drug 50mg",2023-01-05,2023-03-27,"PULSE","Pulse Rate",79,"Visit 1",1,2023-01-02,-3,"VS","VSSEQ",2,79,"Y",0
+"CDISC-01","CDISC-01-701-004","Active Drug 50mg",2023-01-05,2023-03-27,"PULSE","Pulse Rate",86,"Visit 2",2,2023-01-31,27,"VS","VSSEQ",6,79,"",7
+"CDISC-01","CDISC-01-701-004","Active Drug 50mg",2023-01-05,2023-03-27,"PULSE","Pulse Rate",71,"Visit 3",3,2023-03-05,60,"VS","VSSEQ",10,79,"",-8
+"CDISC-01","CDISC-01-701-004","Active Drug 50mg",2023-01-05,2023-03-27,"SYSBP","Systolic Blood Pressure",149,"Visit 1",1,2023-01-02,-3,"VS","VSSEQ",3,149,"Y",0
+"CDISC-01","CDISC-01-701-004","Active Drug 50mg",2023-01-05,2023-03-27,"SYSBP","Systolic Blood Pressure",113,"Visit 2",2,2023-01-31,27,"VS","VSSEQ",7,149,"",-36
+"CDISC-01","CDISC-01-701-004","Active Drug 50mg",2023-01-05,2023-03-27,"SYSBP","Systolic Blood Pressure",117,"Visit 3",3,2023-03-05,60,"VS","VSSEQ",11,149,"",-32
+"CDISC-01","CDISC-01-701-004","Active Drug 50mg",2023-01-05,2023-03-27,"WEIGHT","Weight",80.4,"Visit 1",1,2023-01-02,-3,"VS","VSSEQ",4,80.4,"Y",0
+"CDISC-01","CDISC-01-701-004","Active Drug 50mg",2023-01-05,2023-03-27,"WEIGHT","Weight",57.1,"Visit 2",2,2023-01-31,27,"VS","VSSEQ",8,80.4,"",-23.3
+"CDISC-01","CDISC-01-701-004","Active Drug 50mg",2023-01-05,2023-03-27,"WEIGHT","Weight",70,"Visit 3",3,2023-03-05,60,"VS","VSSEQ",12,80.4,"",-10.4
+"CDISC-01","CDISC-01-701-005","Placebo",2023-01-10,2023-02-06,"DIABP","Diastolic Blood Pressure",92,"Visit 1",1,2023-01-07,-3,"VS","VSSEQ",1,92,"Y",0
+"CDISC-01","CDISC-01-701-005","Placebo",2023-01-10,2023-02-06,"DIABP","Diastolic Blood Pressure",86,"Visit 2",2,2023-02-03,25,"VS","VSSEQ",5,92,"",-6
+"CDISC-01","CDISC-01-701-005","Placebo",2023-01-10,2023-02-06,"PULSE","Pulse Rate",91,"Visit 1",1,2023-01-07,-3,"VS","VSSEQ",2,91,"Y",0
+"CDISC-01","CDISC-01-701-005","Placebo",2023-01-10,2023-02-06,"PULSE","Pulse Rate",62,"Visit 2",2,2023-02-03,25,"VS","VSSEQ",6,91,"",-29
+"CDISC-01","CDISC-01-701-005","Placebo",2023-01-10,2023-02-06,"SYSBP","Systolic Blood Pressure",136,"Visit 1",1,2023-01-07,-3,"VS","VSSEQ",3,136,"Y",0
+"CDISC-01","CDISC-01-701-005","Placebo",2023-01-10,2023-02-06,"SYSBP","Systolic Blood Pressure",118,"Visit 2",2,2023-02-03,25,"VS","VSSEQ",7,136,"",-18
+"CDISC-01","CDISC-01-701-005","Placebo",2023-01-10,2023-02-06,"WEIGHT","Weight",75.9,"Visit 1",1,2023-01-07,-3,"VS","VSSEQ",4,75.9,"Y",0
+"CDISC-01","CDISC-01-701-005","Placebo",2023-01-10,2023-02-06,"WEIGHT","Weight",68,"Visit 2",2,2023-02-03,25,"VS","VSSEQ",8,75.9,"",-7.90000000000001
+"CDISC-01","CDISC-01-701-006","Active Drug 50mg",2023-01-22,2023-03-24,"DIABP","Diastolic Blood Pressure",98,"Visit 1",1,2023-01-22,1,"VS","VSSEQ",1,98,"Y",0
+"CDISC-01","CDISC-01-701-006","Active Drug 50mg",2023-01-22,2023-03-24,"DIABP","Diastolic Blood Pressure",72,"Visit 2",2,2023-02-18,28,"VS","VSSEQ",5,98,"",-26
+"CDISC-01","CDISC-01-701-006","Active Drug 50mg",2023-01-22,2023-03-24,"DIABP","Diastolic Blood Pressure",93,"Visit 3",3,2023-03-24,62,"VS","VSSEQ",9,98,"",-5
+"CDISC-01","CDISC-01-701-006","Active Drug 50mg",2023-01-22,2023-03-24,"PULSE","Pulse Rate",100,"Visit 1",1,2023-01-22,1,"VS","VSSEQ",2,100,"Y",0
+"CDISC-01","CDISC-01-701-006","Active Drug 50mg",2023-01-22,2023-03-24,"PULSE","Pulse Rate",84,"Visit 2",2,2023-02-18,28,"VS","VSSEQ",6,100,"",-16
+"CDISC-01","CDISC-01-701-006","Active Drug 50mg",2023-01-22,2023-03-24,"PULSE","Pulse Rate",89,"Visit 3",3,2023-03-24,62,"VS","VSSEQ",10,100,"",-11
+"CDISC-01","CDISC-01-701-006","Active Drug 50mg",2023-01-22,2023-03-24,"SYSBP","Systolic Blood Pressure",159,"Visit 1",1,2023-01-22,1,"VS","VSSEQ",3,159,"Y",0
+"CDISC-01","CDISC-01-701-006","Active Drug 50mg",2023-01-22,2023-03-24,"SYSBP","Systolic Blood Pressure",153,"Visit 2",2,2023-02-18,28,"VS","VSSEQ",7,159,"",-6
+"CDISC-01","CDISC-01-701-006","Active Drug 50mg",2023-01-22,2023-03-24,"SYSBP","Systolic Blood Pressure",145,"Visit 3",3,2023-03-24,62,"VS","VSSEQ",11,159,"",-14
+"CDISC-01","CDISC-01-701-006","Active Drug 50mg",2023-01-22,2023-03-24,"WEIGHT","Weight",87.2,"Visit 1",1,2023-01-22,1,"VS","VSSEQ",4,87.2,"Y",0
+"CDISC-01","CDISC-01-701-006","Active Drug 50mg",2023-01-22,2023-03-24,"WEIGHT","Weight",76.2,"Visit 2",2,2023-02-18,28,"VS","VSSEQ",8,87.2,"",-11
+"CDISC-01","CDISC-01-701-006","Active Drug 50mg",2023-01-22,2023-03-24,"WEIGHT","Weight",62.8,"Visit 3",3,2023-03-24,62,"VS","VSSEQ",12,87.2,"",-24.4
+"CDISC-01","CDISC-01-701-007","Active Drug 50mg",2023-01-04,2023-03-28,"DIABP","Diastolic Blood Pressure",79,"Visit 1",1,2023-01-03,-1,"VS","VSSEQ",1,79,"Y",0
+"CDISC-01","CDISC-01-701-007","Active Drug 50mg",2023-01-04,2023-03-28,"DIABP","Diastolic Blood Pressure",76,"Visit 2",2,2023-02-01,29,"VS","VSSEQ",5,79,"",-3
+"CDISC-01","CDISC-01-701-007","Active Drug 50mg",2023-01-04,2023-03-28,"DIABP","Diastolic Blood Pressure",76,"Visit 3",3,2023-03-04,60,"VS","VSSEQ",9,79,"",-3
+"CDISC-01","CDISC-01-701-007","Active Drug 50mg",2023-01-04,2023-03-28,"PULSE","Pulse Rate",67,"Visit 1",1,2023-01-03,-1,"VS","VSSEQ",2,67,"Y",0
+"CDISC-01","CDISC-01-701-007","Active Drug 50mg",2023-01-04,2023-03-28,"PULSE","Pulse Rate",85,"Visit 2",2,2023-02-01,29,"VS","VSSEQ",6,67,"",18
+"CDISC-01","CDISC-01-701-007","Active Drug 50mg",2023-01-04,2023-03-28,"PULSE","Pulse Rate",90,"Visit 3",3,2023-03-04,60,"VS","VSSEQ",10,67,"",23
+"CDISC-01","CDISC-01-701-007","Active Drug 50mg",2023-01-04,2023-03-28,"SYSBP","Systolic Blood Pressure",147,"Visit 1",1,2023-01-03,-1,"VS","VSSEQ",3,147,"Y",0
+"CDISC-01","CDISC-01-701-007","Active Drug 50mg",2023-01-04,2023-03-28,"SYSBP","Systolic Blood Pressure",134,"Visit 2",2,2023-02-01,29,"VS","VSSEQ",7,147,"",-13
+"CDISC-01","CDISC-01-701-007","Active Drug 50mg",2023-01-04,2023-03-28,"SYSBP","Systolic Blood Pressure",110,"Visit 3",3,2023-03-04,60,"VS","VSSEQ",11,147,"",-37
+"CDISC-01","CDISC-01-701-007","Active Drug 50mg",2023-01-04,2023-03-28,"WEIGHT","Weight",85.8,"Visit 1",1,2023-01-03,-1,"VS","VSSEQ",4,85.8,"Y",0
+"CDISC-01","CDISC-01-701-007","Active Drug 50mg",2023-01-04,2023-03-28,"WEIGHT","Weight",86.2,"Visit 2",2,2023-02-01,29,"VS","VSSEQ",8,85.8,"",0.400000000000006
+"CDISC-01","CDISC-01-701-007","Active Drug 50mg",2023-01-04,2023-03-28,"WEIGHT","Weight",75,"Visit 3",3,2023-03-04,60,"VS","VSSEQ",12,85.8,"",-10.8
+"CDISC-01","CDISC-01-701-011","Active Drug 50mg",2023-01-12,2023-04-02,"DIABP","Diastolic Blood Pressure",84,"Visit 1",1,2023-01-08,-4,"VS","VSSEQ",1,84,"Y",0
+"CDISC-01","CDISC-01-701-011","Active Drug 50mg",2023-01-12,2023-04-02,"DIABP","Diastolic Blood Pressure",70,"Visit 2",2,2023-02-06,26,"VS","VSSEQ",5,84,"",-14
+"CDISC-01","CDISC-01-701-011","Active Drug 50mg",2023-01-12,2023-04-02,"DIABP","Diastolic Blood Pressure",74,"Visit 3",3,2023-03-09,57,"VS","VSSEQ",9,84,"",-10
+"CDISC-01","CDISC-01-701-011","Active Drug 50mg",2023-01-12,2023-04-02,"PULSE","Pulse Rate",93,"Visit 1",1,2023-01-08,-4,"VS","VSSEQ",2,93,"Y",0
+"CDISC-01","CDISC-01-701-011","Active Drug 50mg",2023-01-12,2023-04-02,"PULSE","Pulse Rate",93,"Visit 2",2,2023-02-06,26,"VS","VSSEQ",6,93,"",0
+"CDISC-01","CDISC-01-701-011","Active Drug 50mg",2023-01-12,2023-04-02,"PULSE","Pulse Rate",69,"Visit 3",3,2023-03-09,57,"VS","VSSEQ",10,93,"",-24
+"CDISC-01","CDISC-01-701-011","Active Drug 50mg",2023-01-12,2023-04-02,"SYSBP","Systolic Blood Pressure",147,"Visit 1",1,2023-01-08,-4,"VS","VSSEQ",3,147,"Y",0
+"CDISC-01","CDISC-01-701-011","Active Drug 50mg",2023-01-12,2023-04-02,"SYSBP","Systolic Blood Pressure",121,"Visit 2",2,2023-02-06,26,"VS","VSSEQ",7,147,"",-26
+"CDISC-01","CDISC-01-701-011","Active Drug 50mg",2023-01-12,2023-04-02,"SYSBP","Systolic Blood Pressure",129,"Visit 3",3,2023-03-09,57,"VS","VSSEQ",11,147,"",-18
+"CDISC-01","CDISC-01-701-011","Active Drug 50mg",2023-01-12,2023-04-02,"WEIGHT","Weight",92.9,"Visit 1",1,2023-01-08,-4,"VS","VSSEQ",4,92.9,"Y",0
+"CDISC-01","CDISC-01-701-011","Active Drug 50mg",2023-01-12,2023-04-02,"WEIGHT","Weight",89.1,"Visit 2",2,2023-02-06,26,"VS","VSSEQ",8,92.9,"",-3.80000000000001
+"CDISC-01","CDISC-01-701-011","Active Drug 50mg",2023-01-12,2023-04-02,"WEIGHT","Weight",78.7,"Visit 3",3,2023-03-09,57,"VS","VSSEQ",12,92.9,"",-14.2
+"CDISC-01","CDISC-01-701-012","NOT TREATED",,,"DIABP","Diastolic Blood Pressure",88,"Visit 1",1,2023-01-02,,"VS","VSSEQ",1,,"",
+"CDISC-01","CDISC-01-701-012","NOT TREATED",,,"PULSE","Pulse Rate",80,"Visit 1",1,2023-01-02,,"VS","VSSEQ",2,,"",
+"CDISC-01","CDISC-01-701-012","NOT TREATED",,,"SYSBP","Systolic Blood Pressure",147,"Visit 1",1,2023-01-02,,"VS","VSSEQ",3,,"",
+"CDISC-01","CDISC-01-701-012","NOT TREATED",,,"WEIGHT","Weight",60.9,"Visit 1",1,2023-01-02,,"VS","VSSEQ",4,,"",
+"CDISC-01","CDISC-01-701-016","Placebo",2023-01-04,2023-03-27,"DIABP","Diastolic Blood Pressure",99,"Visit 1",1,2023-01-03,-1,"VS","VSSEQ",1,99,"Y",0
+"CDISC-01","CDISC-01-701-016","Placebo",2023-01-04,2023-03-27,"DIABP","Diastolic Blood Pressure",99,"Visit 2",2,2023-01-30,27,"VS","VSSEQ",5,99,"",0
+"CDISC-01","CDISC-01-701-016","Placebo",2023-01-04,2023-03-27,"DIABP","Diastolic Blood Pressure",91,"Visit 3",3,2023-03-01,57,"VS","VSSEQ",9,99,"",-8
+"CDISC-01","CDISC-01-701-016","Placebo",2023-01-04,2023-03-27,"PULSE","Pulse Rate",92,"Visit 1",1,2023-01-03,-1,"VS","VSSEQ",2,92,"Y",0
+"CDISC-01","CDISC-01-701-016","Placebo",2023-01-04,2023-03-27,"PULSE","Pulse Rate",95,"Visit 2",2,2023-01-30,27,"VS","VSSEQ",6,92,"",3
+"CDISC-01","CDISC-01-701-016","Placebo",2023-01-04,2023-03-27,"PULSE","Pulse Rate",66,"Visit 3",3,2023-03-01,57,"VS","VSSEQ",10,92,"",-26
+"CDISC-01","CDISC-01-701-016","Placebo",2023-01-04,2023-03-27,"SYSBP","Systolic Blood Pressure",117,"Visit 1",1,2023-01-03,-1,"VS","VSSEQ",3,117,"Y",0
+"CDISC-01","CDISC-01-701-016","Placebo",2023-01-04,2023-03-27,"SYSBP","Systolic Blood Pressure",119,"Visit 2",2,2023-01-30,27,"VS","VSSEQ",7,117,"",2
+"CDISC-01","CDISC-01-701-016","Placebo",2023-01-04,2023-03-27,"SYSBP","Systolic Blood Pressure",121,"Visit 3",3,2023-03-01,57,"VS","VSSEQ",11,117,"",4
+"CDISC-01","CDISC-01-701-016","Placebo",2023-01-04,2023-03-27,"WEIGHT","Weight",93,"Visit 1",1,2023-01-03,-1,"VS","VSSEQ",4,93,"Y",0
+"CDISC-01","CDISC-01-701-016","Placebo",2023-01-04,2023-03-27,"WEIGHT","Weight",61.6,"Visit 2",2,2023-01-30,27,"VS","VSSEQ",8,93,"",-31.4
+"CDISC-01","CDISC-01-701-016","Placebo",2023-01-04,2023-03-27,"WEIGHT","Weight",91.9,"Visit 3",3,2023-03-01,57,"VS","VSSEQ",12,93,"",-1.09999999999999
+"CDISC-01","CDISC-01-701-017","Active Drug 50mg",2023-01-02,2023-03-26,"DIABP","Diastolic Blood Pressure",94,"Visit 1",1,2023-01-02,1,"VS","VSSEQ",1,94,"Y",0
+"CDISC-01","CDISC-01-701-017","Active Drug 50mg",2023-01-02,2023-03-26,"DIABP","Diastolic Blood Pressure",99,"Visit 2",2,2023-01-30,29,"VS","VSSEQ",5,94,"",5
+"CDISC-01","CDISC-01-701-017","Active Drug 50mg",2023-01-02,2023-03-26,"DIABP","Diastolic Blood Pressure",81,"Visit 3",3,2023-03-02,60,"VS","VSSEQ",9,94,"",-13
+"CDISC-01","CDISC-01-701-017","Active Drug 50mg",2023-01-02,2023-03-26,"PULSE","Pulse Rate",73,"Visit 1",1,2023-01-02,1,"VS","VSSEQ",2,73,"Y",0
+"CDISC-01","CDISC-01-701-017","Active Drug 50mg",2023-01-02,2023-03-26,"PULSE","Pulse Rate",68,"Visit 2",2,2023-01-30,29,"VS","VSSEQ",6,73,"",-5
+"CDISC-01","CDISC-01-701-017","Active Drug 50mg",2023-01-02,2023-03-26,"PULSE","Pulse Rate",85,"Visit 3",3,2023-03-02,60,"VS","VSSEQ",10,73,"",12
+"CDISC-01","CDISC-01-701-017","Active Drug 50mg",2023-01-02,2023-03-26,"SYSBP","Systolic Blood Pressure",123,"Visit 1",1,2023-01-02,1,"VS","VSSEQ",3,123,"Y",0
+"CDISC-01","CDISC-01-701-017","Active Drug 50mg",2023-01-02,2023-03-26,"SYSBP","Systolic Blood Pressure",114,"Visit 2",2,2023-01-30,29,"VS","VSSEQ",7,123,"",-9
+"CDISC-01","CDISC-01-701-017","Active Drug 50mg",2023-01-02,2023-03-26,"SYSBP","Systolic Blood Pressure",125,"Visit 3",3,2023-03-02,60,"VS","VSSEQ",11,123,"",2
+"CDISC-01","CDISC-01-701-017","Active Drug 50mg",2023-01-02,2023-03-26,"WEIGHT","Weight",58.7,"Visit 1",1,2023-01-02,1,"VS","VSSEQ",4,58.7,"Y",0
+"CDISC-01","CDISC-01-701-017","Active Drug 50mg",2023-01-02,2023-03-26,"WEIGHT","Weight",73.4,"Visit 2",2,2023-01-30,29,"VS","VSSEQ",8,58.7,"",14.7
+"CDISC-01","CDISC-01-701-017","Active Drug 50mg",2023-01-02,2023-03-26,"WEIGHT","Weight",72.1,"Visit 3",3,2023-03-02,60,"VS","VSSEQ",12,58.7,"",13.4
+"CDISC-01","CDISC-01-701-028","Placebo",2023-01-23,2023-04-12,"DIABP","Diastolic Blood Pressure",73,"Visit 1",1,2023-01-18,-5,"VS","VSSEQ",1,73,"Y",0
+"CDISC-01","CDISC-01-701-028","Placebo",2023-01-23,2023-04-12,"DIABP","Diastolic Blood Pressure",78,"Visit 2",2,2023-02-15,24,"VS","VSSEQ",5,73,"",5
+"CDISC-01","CDISC-01-701-028","Placebo",2023-01-23,2023-04-12,"DIABP","Diastolic Blood Pressure",95,"Visit 3",3,2023-03-19,56,"VS","VSSEQ",9,73,"",22
+"CDISC-01","CDISC-01-701-028","Placebo",2023-01-23,2023-04-12,"PULSE","Pulse Rate",78,"Visit 1",1,2023-01-18,-5,"VS","VSSEQ",2,78,"Y",0
+"CDISC-01","CDISC-01-701-028","Placebo",2023-01-23,2023-04-12,"PULSE","Pulse Rate",84,"Visit 2",2,2023-02-15,24,"VS","VSSEQ",6,78,"",6
+"CDISC-01","CDISC-01-701-028","Placebo",2023-01-23,2023-04-12,"PULSE","Pulse Rate",60,"Visit 3",3,2023-03-19,56,"VS","VSSEQ",10,78,"",-18
+"CDISC-01","CDISC-01-701-028","Placebo",2023-01-23,2023-04-12,"SYSBP","Systolic Blood Pressure",126,"Visit 1",1,2023-01-18,-5,"VS","VSSEQ",3,126,"Y",0
+"CDISC-01","CDISC-01-701-028","Placebo",2023-01-23,2023-04-12,"SYSBP","Systolic Blood Pressure",125,"Visit 2",2,2023-02-15,24,"VS","VSSEQ",7,126,"",-1
+"CDISC-01","CDISC-01-701-028","Placebo",2023-01-23,2023-04-12,"SYSBP","Systolic Blood Pressure",131,"Visit 3",3,2023-03-19,56,"VS","VSSEQ",11,126,"",5
+"CDISC-01","CDISC-01-701-028","Placebo",2023-01-23,2023-04-12,"WEIGHT","Weight",88.9,"Visit 1",1,2023-01-18,-5,"VS","VSSEQ",4,88.9,"Y",0
+"CDISC-01","CDISC-01-701-028","Placebo",2023-01-23,2023-04-12,"WEIGHT","Weight",76.8,"Visit 2",2,2023-02-15,24,"VS","VSSEQ",8,88.9,"",-12.1
+"CDISC-01","CDISC-01-701-028","Placebo",2023-01-23,2023-04-12,"WEIGHT","Weight",86.1,"Visit 3",3,2023-03-19,56,"VS","VSSEQ",12,88.9,"",-2.80000000000001
+"CDISC-01","CDISC-01-701-030","Placebo",2023-01-26,2023-04-16,"DIABP","Diastolic Blood Pressure",74,"Visit 1",1,2023-01-23,-3,"VS","VSSEQ",1,74,"Y",0
+"CDISC-01","CDISC-01-701-030","Placebo",2023-01-26,2023-04-16,"DIABP","Diastolic Blood Pressure",73,"Visit 2",2,2023-02-21,27,"VS","VSSEQ",5,74,"",-1
+"CDISC-01","CDISC-01-701-030","Placebo",2023-01-26,2023-04-16,"DIABP","Diastolic Blood Pressure",84,"Visit 3",3,2023-03-21,55,"VS","VSSEQ",9,74,"",10
+"CDISC-01","CDISC-01-701-030","Placebo",2023-01-26,2023-04-16,"PULSE","Pulse Rate",69,"Visit 1",1,2023-01-23,-3,"VS","VSSEQ",2,69,"Y",0
+"CDISC-01","CDISC-01-701-030","Placebo",2023-01-26,2023-04-16,"PULSE","Pulse Rate",95,"Visit 2",2,2023-02-21,27,"VS","VSSEQ",6,69,"",26
+"CDISC-01","CDISC-01-701-030","Placebo",2023-01-26,2023-04-16,"PULSE","Pulse Rate",91,"Visit 3",3,2023-03-21,55,"VS","VSSEQ",10,69,"",22
+"CDISC-01","CDISC-01-701-030","Placebo",2023-01-26,2023-04-16,"SYSBP","Systolic Blood Pressure",114,"Visit 1",1,2023-01-23,-3,"VS","VSSEQ",3,114,"Y",0
+"CDISC-01","CDISC-01-701-030","Placebo",2023-01-26,2023-04-16,"SYSBP","Systolic Blood Pressure",148,"Visit 2",2,2023-02-21,27,"VS","VSSEQ",7,114,"",34
+"CDISC-01","CDISC-01-701-030","Placebo",2023-01-26,2023-04-16,"SYSBP","Systolic Blood Pressure",135,"Visit 3",3,2023-03-21,55,"VS","VSSEQ",11,114,"",21
+"CDISC-01","CDISC-01-701-030","Placebo",2023-01-26,2023-04-16,"WEIGHT","Weight",63.3,"Visit 1",1,2023-01-23,-3,"VS","VSSEQ",4,63.3,"Y",0
+"CDISC-01","CDISC-01-701-030","Placebo",2023-01-26,2023-04-16,"WEIGHT","Weight",62.8,"Visit 2",2,2023-02-21,27,"VS","VSSEQ",8,63.3,"",-0.5
+"CDISC-01","CDISC-01-701-030","Placebo",2023-01-26,2023-04-16,"WEIGHT","Weight",88.3,"Visit 3",3,2023-03-21,55,"VS","VSSEQ",12,63.3,"",25
+"CDISC-01","CDISC-01-701-035","Placebo",2023-01-04,,"DIABP","Diastolic Blood Pressure",85,"Visit 1",1,2023-01-01,-3,"VS","VSSEQ",1,85,"Y",0
+"CDISC-01","CDISC-01-701-035","Placebo",2023-01-04,,"DIABP","Diastolic Blood Pressure",88,"Visit 2",2,2023-01-29,26,"VS","VSSEQ",5,85,"",3
+"CDISC-01","CDISC-01-701-035","Placebo",2023-01-04,,"DIABP","Diastolic Blood Pressure",85,"Visit 3",3,2023-03-02,58,"VS","VSSEQ",9,85,"",0
+"CDISC-01","CDISC-01-701-035","Placebo",2023-01-04,,"PULSE","Pulse Rate",92,"Visit 1",1,2023-01-01,-3,"VS","VSSEQ",2,92,"Y",0
+"CDISC-01","CDISC-01-701-035","Placebo",2023-01-04,,"PULSE","Pulse Rate",65,"Visit 2",2,2023-01-29,26,"VS","VSSEQ",6,92,"",-27
+"CDISC-01","CDISC-01-701-035","Placebo",2023-01-04,,"PULSE","Pulse Rate",82,"Visit 3",3,2023-03-02,58,"VS","VSSEQ",10,92,"",-10
+"CDISC-01","CDISC-01-701-035","Placebo",2023-01-04,,"SYSBP","Systolic Blood Pressure",136,"Visit 1",1,2023-01-01,-3,"VS","VSSEQ",3,136,"Y",0
+"CDISC-01","CDISC-01-701-035","Placebo",2023-01-04,,"SYSBP","Systolic Blood Pressure",128,"Visit 2",2,2023-01-29,26,"VS","VSSEQ",7,136,"",-8
+"CDISC-01","CDISC-01-701-035","Placebo",2023-01-04,,"SYSBP","Systolic Blood Pressure",115,"Visit 3",3,2023-03-02,58,"VS","VSSEQ",11,136,"",-21
+"CDISC-01","CDISC-01-701-035","Placebo",2023-01-04,,"WEIGHT","Weight",71.2,"Visit 1",1,2023-01-01,-3,"VS","VSSEQ",4,71.2,"Y",0
+"CDISC-01","CDISC-01-701-035","Placebo",2023-01-04,,"WEIGHT","Weight",76.7,"Visit 2",2,2023-01-29,26,"VS","VSSEQ",8,71.2,"",5.5
+"CDISC-01","CDISC-01-701-035","Placebo",2023-01-04,,"WEIGHT","Weight",89.9,"Visit 3",3,2023-03-02,58,"VS","VSSEQ",12,71.2,"",18.7
+"CDISC-01","CDISC-01-701-040","NOT TREATED",,,"DIABP","Diastolic Blood Pressure",95,"Visit 1",1,2023-01-06,,"VS","VSSEQ",1,,"",
+"CDISC-01","CDISC-01-701-040","NOT TREATED",,,"PULSE","Pulse Rate",96,"Visit 1",1,2023-01-06,,"VS","VSSEQ",2,,"",
+"CDISC-01","CDISC-01-701-040","NOT TREATED",,,"SYSBP","Systolic Blood Pressure",154,"Visit 1",1,2023-01-06,,"VS","VSSEQ",3,,"",
+"CDISC-01","CDISC-01-701-040","NOT TREATED",,,"WEIGHT","Weight",57,"Visit 1",1,2023-01-06,,"VS","VSSEQ",4,,"",
+"CDISC-01","CDISC-01-701-041","Placebo",2023-01-18,2023-03-09,"DIABP","Diastolic Blood Pressure",82,"Visit 1",1,2023-01-15,-3,"VS","VSSEQ",1,82,"Y",0
+"CDISC-01","CDISC-01-701-041","Placebo",2023-01-18,2023-03-09,"DIABP","Diastolic Blood Pressure",83,"Visit 2",2,2023-02-11,25,"VS","VSSEQ",5,82,"",1
+"CDISC-01","CDISC-01-701-041","Placebo",2023-01-18,2023-03-09,"PULSE","Pulse Rate",79,"Visit 1",1,2023-01-15,-3,"VS","VSSEQ",2,79,"Y",0
+"CDISC-01","CDISC-01-701-041","Placebo",2023-01-18,2023-03-09,"PULSE","Pulse Rate",75,"Visit 2",2,2023-02-11,25,"VS","VSSEQ",6,79,"",-4
+"CDISC-01","CDISC-01-701-041","Placebo",2023-01-18,2023-03-09,"SYSBP","Systolic Blood Pressure",148,"Visit 1",1,2023-01-15,-3,"VS","VSSEQ",3,148,"Y",0
+"CDISC-01","CDISC-01-701-041","Placebo",2023-01-18,2023-03-09,"SYSBP","Systolic Blood Pressure",116,"Visit 2",2,2023-02-11,25,"VS","VSSEQ",7,148,"",-32
+"CDISC-01","CDISC-01-701-041","Placebo",2023-01-18,2023-03-09,"WEIGHT","Weight",56.7,"Visit 1",1,2023-01-15,-3,"VS","VSSEQ",4,56.7,"Y",0
+"CDISC-01","CDISC-01-701-041","Placebo",2023-01-18,2023-03-09,"WEIGHT","Weight",94.1,"Visit 2",2,2023-02-11,25,"VS","VSSEQ",8,56.7,"",37.4
+"CDISC-01","CDISC-01-701-042","Active Drug 50mg",2023-01-07,2023-03-29,"DIABP","Diastolic Blood Pressure",71,"Visit 1",1,2023-01-04,-3,"VS","VSSEQ",1,71,"Y",0
+"CDISC-01","CDISC-01-701-042","Active Drug 50mg",2023-01-07,2023-03-29,"DIABP","Diastolic Blood Pressure",78,"Visit 2",2,2023-02-01,26,"VS","VSSEQ",5,71,"",7
+"CDISC-01","CDISC-01-701-042","Active Drug 50mg",2023-01-07,2023-03-29,"DIABP","Diastolic Blood Pressure",95,"Visit 3",3,2023-03-07,60,"VS","VSSEQ",9,71,"",24
+"CDISC-01","CDISC-01-701-042","Active Drug 50mg",2023-01-07,2023-03-29,"PULSE","Pulse Rate",82,"Visit 1",1,2023-01-04,-3,"VS","VSSEQ",2,82,"Y",0
+"CDISC-01","CDISC-01-701-042","Active Drug 50mg",2023-01-07,2023-03-29,"PULSE","Pulse Rate",88,"Visit 2",2,2023-02-01,26,"VS","VSSEQ",6,82,"",6
+"CDISC-01","CDISC-01-701-042","Active Drug 50mg",2023-01-07,2023-03-29,"PULSE","Pulse Rate",94,"Visit 3",3,2023-03-07,60,"VS","VSSEQ",10,82,"",12
+"CDISC-01","CDISC-01-701-042","Active Drug 50mg",2023-01-07,2023-03-29,"SYSBP","Systolic Blood Pressure",121,"Visit 1",1,2023-01-04,-3,"VS","VSSEQ",3,121,"Y",0
+"CDISC-01","CDISC-01-701-042","Active Drug 50mg",2023-01-07,2023-03-29,"SYSBP","Systolic Blood Pressure",151,"Visit 2",2,2023-02-01,26,"VS","VSSEQ",7,121,"",30
+"CDISC-01","CDISC-01-701-042","Active Drug 50mg",2023-01-07,2023-03-29,"SYSBP","Systolic Blood Pressure",140,"Visit 3",3,2023-03-07,60,"VS","VSSEQ",11,121,"",19
+"CDISC-01","CDISC-01-701-042","Active Drug 50mg",2023-01-07,2023-03-29,"WEIGHT","Weight",81.7,"Visit 1",1,2023-01-04,-3,"VS","VSSEQ",4,81.7,"Y",0
+"CDISC-01","CDISC-01-701-042","Active Drug 50mg",2023-01-07,2023-03-29,"WEIGHT","Weight",59.9,"Visit 2",2,2023-02-01,26,"VS","VSSEQ",8,81.7,"",-21.8
+"CDISC-01","CDISC-01-701-042","Active Drug 50mg",2023-01-07,2023-03-29,"WEIGHT","Weight",61.9,"Visit 3",3,2023-03-07,60,"VS","VSSEQ",12,81.7,"",-19.8
+"CDISC-01","CDISC-01-701-045","Placebo",2023-02-02,2023-04-03,"DIABP","Diastolic Blood Pressure",85,"Visit 1",1,2023-02-01,-1,"VS","VSSEQ",1,85,"Y",0
+"CDISC-01","CDISC-01-701-045","Placebo",2023-02-02,2023-04-03,"DIABP","Diastolic Blood Pressure",93,"Visit 2",2,2023-02-28,27,"VS","VSSEQ",5,85,"",8
+"CDISC-01","CDISC-01-701-045","Placebo",2023-02-02,2023-04-03,"DIABP","Diastolic Blood Pressure",89,"Visit 3",3,2023-04-03,61,"VS","VSSEQ",9,85,"",4
+"CDISC-01","CDISC-01-701-045","Placebo",2023-02-02,2023-04-03,"PULSE","Pulse Rate",83,"Visit 1",1,2023-02-01,-1,"VS","VSSEQ",2,83,"Y",0
+"CDISC-01","CDISC-01-701-045","Placebo",2023-02-02,2023-04-03,"PULSE","Pulse Rate",92,"Visit 2",2,2023-02-28,27,"VS","VSSEQ",6,83,"",9
+"CDISC-01","CDISC-01-701-045","Placebo",2023-02-02,2023-04-03,"PULSE","Pulse Rate",63,"Visit 3",3,2023-04-03,61,"VS","VSSEQ",10,83,"",-20
+"CDISC-01","CDISC-01-701-045","Placebo",2023-02-02,2023-04-03,"SYSBP","Systolic Blood Pressure",149,"Visit 1",1,2023-02-01,-1,"VS","VSSEQ",3,149,"Y",0
+"CDISC-01","CDISC-01-701-045","Placebo",2023-02-02,2023-04-03,"SYSBP","Systolic Blood Pressure",128,"Visit 2",2,2023-02-28,27,"VS","VSSEQ",7,149,"",-21
+"CDISC-01","CDISC-01-701-045","Placebo",2023-02-02,2023-04-03,"SYSBP","Systolic Blood Pressure",150,"Visit 3",3,2023-04-03,61,"VS","VSSEQ",11,149,"",1
+"CDISC-01","CDISC-01-701-045","Placebo",2023-02-02,2023-04-03,"WEIGHT","Weight",83.9,"Visit 1",1,2023-02-01,-1,"VS","VSSEQ",4,83.9,"Y",0
+"CDISC-01","CDISC-01-701-045","Placebo",2023-02-02,2023-04-03,"WEIGHT","Weight",66.7,"Visit 2",2,2023-02-28,27,"VS","VSSEQ",8,83.9,"",-17.2
+"CDISC-01","CDISC-01-701-045","Placebo",2023-02-02,2023-04-03,"WEIGHT","Weight",71.3,"Visit 3",3,2023-04-03,61,"VS","VSSEQ",12,83.9,"",-12.6
+"CDISC-01","CDISC-01-701-048","Active Drug 50mg",2023-02-03,2023-02-23,"DIABP","Diastolic Blood Pressure",81,"Visit 1",1,2023-01-31,-3,"VS","VSSEQ",1,81,"Y",0
+"CDISC-01","CDISC-01-701-048","Active Drug 50mg",2023-02-03,2023-02-23,"PULSE","Pulse Rate",65,"Visit 1",1,2023-01-31,-3,"VS","VSSEQ",2,65,"Y",0
+"CDISC-01","CDISC-01-701-048","Active Drug 50mg",2023-02-03,2023-02-23,"SYSBP","Systolic Blood Pressure",153,"Visit 1",1,2023-01-31,-3,"VS","VSSEQ",3,153,"Y",0
+"CDISC-01","CDISC-01-701-048","Active Drug 50mg",2023-02-03,2023-02-23,"WEIGHT","Weight",90.9,"Visit 1",1,2023-01-31,-3,"VS","VSSEQ",4,90.9,"Y",0
+"CDISC-01","CDISC-01-702-008","Active Drug 50mg",2023-01-20,2023-04-13,"DIABP","Diastolic Blood Pressure",76,"Visit 1",1,2023-01-20,1,"VS","VSSEQ",1,76,"Y",0
+"CDISC-01","CDISC-01-702-008","Active Drug 50mg",2023-01-20,2023-04-13,"DIABP","Diastolic Blood Pressure",89,"Visit 2",2,2023-02-19,31,"VS","VSSEQ",5,76,"",13
+"CDISC-01","CDISC-01-702-008","Active Drug 50mg",2023-01-20,2023-04-13,"DIABP","Diastolic Blood Pressure",83,"Visit 3",3,2023-03-19,59,"VS","VSSEQ",9,76,"",7
+"CDISC-01","CDISC-01-702-008","Active Drug 50mg",2023-01-20,2023-04-13,"PULSE","Pulse Rate",86,"Visit 1",1,2023-01-20,1,"VS","VSSEQ",2,86,"Y",0
+"CDISC-01","CDISC-01-702-008","Active Drug 50mg",2023-01-20,2023-04-13,"PULSE","Pulse Rate",91,"Visit 2",2,2023-02-19,31,"VS","VSSEQ",6,86,"",5
+"CDISC-01","CDISC-01-702-008","Active Drug 50mg",2023-01-20,2023-04-13,"PULSE","Pulse Rate",98,"Visit 3",3,2023-03-19,59,"VS","VSSEQ",10,86,"",12
+"CDISC-01","CDISC-01-702-008","Active Drug 50mg",2023-01-20,2023-04-13,"SYSBP","Systolic Blood Pressure",132,"Visit 1",1,2023-01-20,1,"VS","VSSEQ",3,132,"Y",0
+"CDISC-01","CDISC-01-702-008","Active Drug 50mg",2023-01-20,2023-04-13,"SYSBP","Systolic Blood Pressure",128,"Visit 2",2,2023-02-19,31,"VS","VSSEQ",7,132,"",-4
+"CDISC-01","CDISC-01-702-008","Active Drug 50mg",2023-01-20,2023-04-13,"SYSBP","Systolic Blood Pressure",150,"Visit 3",3,2023-03-19,59,"VS","VSSEQ",11,132,"",18
+"CDISC-01","CDISC-01-702-008","Active Drug 50mg",2023-01-20,2023-04-13,"WEIGHT","Weight",84.3,"Visit 1",1,2023-01-20,1,"VS","VSSEQ",4,84.3,"Y",0
+"CDISC-01","CDISC-01-702-008","Active Drug 50mg",2023-01-20,2023-04-13,"WEIGHT","Weight",55.6,"Visit 2",2,2023-02-19,31,"VS","VSSEQ",8,84.3,"",-28.7
+"CDISC-01","CDISC-01-702-008","Active Drug 50mg",2023-01-20,2023-04-13,"WEIGHT","Weight",81,"Visit 3",3,2023-03-19,59,"VS","VSSEQ",12,84.3,"",-3.3
+"CDISC-01","CDISC-01-702-009","Active Drug 50mg",2023-01-26,2023-04-19,"DIABP","Diastolic Blood Pressure",98,"Visit 1",1,2023-01-26,1,"VS","VSSEQ",1,98,"Y",0
+"CDISC-01","CDISC-01-702-009","Active Drug 50mg",2023-01-26,2023-04-19,"DIABP","Diastolic Blood Pressure",82,"Visit 2",2,2023-02-26,32,"VS","VSSEQ",5,98,"",-16
+"CDISC-01","CDISC-01-702-009","Active Drug 50mg",2023-01-26,2023-04-19,"DIABP","Diastolic Blood Pressure",91,"Visit 3",3,2023-03-28,62,"VS","VSSEQ",9,98,"",-7
+"CDISC-01","CDISC-01-702-009","Active Drug 50mg",2023-01-26,2023-04-19,"PULSE","Pulse Rate",89,"Visit 1",1,2023-01-26,1,"VS","VSSEQ",2,89,"Y",0
+"CDISC-01","CDISC-01-702-009","Active Drug 50mg",2023-01-26,2023-04-19,"PULSE","Pulse Rate",81,"Visit 2",2,2023-02-26,32,"VS","VSSEQ",6,89,"",-8
+"CDISC-01","CDISC-01-702-009","Active Drug 50mg",2023-01-26,2023-04-19,"PULSE","Pulse Rate",83,"Visit 3",3,2023-03-28,62,"VS","VSSEQ",10,89,"",-6
+"CDISC-01","CDISC-01-702-009","Active Drug 50mg",2023-01-26,2023-04-19,"SYSBP","Systolic Blood Pressure",159,"Visit 1",1,2023-01-26,1,"VS","VSSEQ",3,159,"Y",0
+"CDISC-01","CDISC-01-702-009","Active Drug 50mg",2023-01-26,2023-04-19,"SYSBP","Systolic Blood Pressure",123,"Visit 2",2,2023-02-26,32,"VS","VSSEQ",7,159,"",-36
+"CDISC-01","CDISC-01-702-009","Active Drug 50mg",2023-01-26,2023-04-19,"SYSBP","Systolic Blood Pressure",126,"Visit 3",3,2023-03-28,62,"VS","VSSEQ",11,159,"",-33
+"CDISC-01","CDISC-01-702-009","Active Drug 50mg",2023-01-26,2023-04-19,"WEIGHT","Weight",70.2,"Visit 1",1,2023-01-26,1,"VS","VSSEQ",4,70.2,"Y",0
+"CDISC-01","CDISC-01-702-009","Active Drug 50mg",2023-01-26,2023-04-19,"WEIGHT","Weight",62.5,"Visit 2",2,2023-02-26,32,"VS","VSSEQ",8,70.2,"",-7.7
+"CDISC-01","CDISC-01-702-009","Active Drug 50mg",2023-01-26,2023-04-19,"WEIGHT","Weight",79.3,"Visit 3",3,2023-03-28,62,"VS","VSSEQ",12,70.2,"",9.09999999999999
+"CDISC-01","CDISC-01-702-013","Placebo",2023-01-25,2023-04-14,"DIABP","Diastolic Blood Pressure",89,"Visit 1",1,2023-01-21,-4,"VS","VSSEQ",1,89,"Y",0
+"CDISC-01","CDISC-01-702-013","Placebo",2023-01-25,2023-04-14,"DIABP","Diastolic Blood Pressure",88,"Visit 2",2,2023-02-21,28,"VS","VSSEQ",5,89,"",-1
+"CDISC-01","CDISC-01-702-013","Placebo",2023-01-25,2023-04-14,"DIABP","Diastolic Blood Pressure",81,"Visit 3",3,2023-03-23,58,"VS","VSSEQ",9,89,"",-8
+"CDISC-01","CDISC-01-702-013","Placebo",2023-01-25,2023-04-14,"PULSE","Pulse Rate",69,"Visit 1",1,2023-01-21,-4,"VS","VSSEQ",2,69,"Y",0
+"CDISC-01","CDISC-01-702-013","Placebo",2023-01-25,2023-04-14,"PULSE","Pulse Rate",97,"Visit 2",2,2023-02-21,28,"VS","VSSEQ",6,69,"",28
+"CDISC-01","CDISC-01-702-013","Placebo",2023-01-25,2023-04-14,"PULSE","Pulse Rate",81,"Visit 3",3,2023-03-23,58,"VS","VSSEQ",10,69,"",12
+"CDISC-01","CDISC-01-702-013","Placebo",2023-01-25,2023-04-14,"SYSBP","Systolic Blood Pressure",115,"Visit 1",1,2023-01-21,-4,"VS","VSSEQ",3,115,"Y",0
+"CDISC-01","CDISC-01-702-013","Placebo",2023-01-25,2023-04-14,"SYSBP","Systolic Blood Pressure",134,"Visit 2",2,2023-02-21,28,"VS","VSSEQ",7,115,"",19
+"CDISC-01","CDISC-01-702-013","Placebo",2023-01-25,2023-04-14,"SYSBP","Systolic Blood Pressure",125,"Visit 3",3,2023-03-23,58,"VS","VSSEQ",11,115,"",10
+"CDISC-01","CDISC-01-702-013","Placebo",2023-01-25,2023-04-14,"WEIGHT","Weight",68.2,"Visit 1",1,2023-01-21,-4,"VS","VSSEQ",4,68.2,"Y",0
+"CDISC-01","CDISC-01-702-013","Placebo",2023-01-25,2023-04-14,"WEIGHT","Weight",76.1,"Visit 2",2,2023-02-21,28,"VS","VSSEQ",8,68.2,"",7.89999999999999
+"CDISC-01","CDISC-01-702-013","Placebo",2023-01-25,2023-04-14,"WEIGHT","Weight",74.5,"Visit 3",3,2023-03-23,58,"VS","VSSEQ",12,68.2,"",6.3
+"CDISC-01","CDISC-01-702-014","Active Drug 50mg",2023-02-01,2023-04-22,"DIABP","Diastolic Blood Pressure",84,"Visit 1",1,2023-01-28,-4,"VS","VSSEQ",1,84,"Y",0
+"CDISC-01","CDISC-01-702-014","Active Drug 50mg",2023-02-01,2023-04-22,"DIABP","Diastolic Blood Pressure",75,"Visit 2",2,2023-02-28,28,"VS","VSSEQ",5,84,"",-9
+"CDISC-01","CDISC-01-702-014","Active Drug 50mg",2023-02-01,2023-04-22,"DIABP","Diastolic Blood Pressure",89,"Visit 3",3,2023-03-27,55,"VS","VSSEQ",9,84,"",5
+"CDISC-01","CDISC-01-702-014","Active Drug 50mg",2023-02-01,2023-04-22,"PULSE","Pulse Rate",82,"Visit 1",1,2023-01-28,-4,"VS","VSSEQ",2,82,"Y",0
+"CDISC-01","CDISC-01-702-014","Active Drug 50mg",2023-02-01,2023-04-22,"PULSE","Pulse Rate",68,"Visit 2",2,2023-02-28,28,"VS","VSSEQ",6,82,"",-14
+"CDISC-01","CDISC-01-702-014","Active Drug 50mg",2023-02-01,2023-04-22,"PULSE","Pulse Rate",63,"Visit 3",3,2023-03-27,55,"VS","VSSEQ",10,82,"",-19
+"CDISC-01","CDISC-01-702-014","Active Drug 50mg",2023-02-01,2023-04-22,"SYSBP","Systolic Blood Pressure",154,"Visit 1",1,2023-01-28,-4,"VS","VSSEQ",3,154,"Y",0
+"CDISC-01","CDISC-01-702-014","Active Drug 50mg",2023-02-01,2023-04-22,"SYSBP","Systolic Blood Pressure",110,"Visit 2",2,2023-02-28,28,"VS","VSSEQ",7,154,"",-44
+"CDISC-01","CDISC-01-702-014","Active Drug 50mg",2023-02-01,2023-04-22,"SYSBP","Systolic Blood Pressure",127,"Visit 3",3,2023-03-27,55,"VS","VSSEQ",11,154,"",-27
+"CDISC-01","CDISC-01-702-014","Active Drug 50mg",2023-02-01,2023-04-22,"WEIGHT","Weight",84.5,"Visit 1",1,2023-01-28,-4,"VS","VSSEQ",4,84.5,"Y",0
+"CDISC-01","CDISC-01-702-014","Active Drug 50mg",2023-02-01,2023-04-22,"WEIGHT","Weight",87.9,"Visit 2",2,2023-02-28,28,"VS","VSSEQ",8,84.5,"",3.40000000000001
+"CDISC-01","CDISC-01-702-014","Active Drug 50mg",2023-02-01,2023-04-22,"WEIGHT","Weight",81.5,"Visit 3",3,2023-03-27,55,"VS","VSSEQ",12,84.5,"",-3
+"CDISC-01","CDISC-01-702-015","Active Drug 50mg",2023-01-11,2023-04-03,"DIABP","Diastolic Blood Pressure",71,"Visit 1",1,2023-01-09,-2,"VS","VSSEQ",1,71,"Y",0
+"CDISC-01","CDISC-01-702-015","Active Drug 50mg",2023-01-11,2023-04-03,"DIABP","Diastolic Blood Pressure",90,"Visit 2",2,2023-02-06,27,"VS","VSSEQ",5,71,"",19
+"CDISC-01","CDISC-01-702-015","Active Drug 50mg",2023-01-11,2023-04-03,"DIABP","Diastolic Blood Pressure",95,"Visit 3",3,2023-03-08,57,"VS","VSSEQ",9,71,"",24
+"CDISC-01","CDISC-01-702-015","Active Drug 50mg",2023-01-11,2023-04-03,"PULSE","Pulse Rate",72,"Visit 1",1,2023-01-09,-2,"VS","VSSEQ",2,72,"Y",0
+"CDISC-01","CDISC-01-702-015","Active Drug 50mg",2023-01-11,2023-04-03,"PULSE","Pulse Rate",60,"Visit 2",2,2023-02-06,27,"VS","VSSEQ",6,72,"",-12
+"CDISC-01","CDISC-01-702-015","Active Drug 50mg",2023-01-11,2023-04-03,"PULSE","Pulse Rate",89,"Visit 3",3,2023-03-08,57,"VS","VSSEQ",10,72,"",17
+"CDISC-01","CDISC-01-702-015","Active Drug 50mg",2023-01-11,2023-04-03,"SYSBP","Systolic Blood Pressure",148,"Visit 1",1,2023-01-09,-2,"VS","VSSEQ",3,148,"Y",0
+"CDISC-01","CDISC-01-702-015","Active Drug 50mg",2023-01-11,2023-04-03,"SYSBP","Systolic Blood Pressure",150,"Visit 2",2,2023-02-06,27,"VS","VSSEQ",7,148,"",2
+"CDISC-01","CDISC-01-702-015","Active Drug 50mg",2023-01-11,2023-04-03,"SYSBP","Systolic Blood Pressure",132,"Visit 3",3,2023-03-08,57,"VS","VSSEQ",11,148,"",-16
+"CDISC-01","CDISC-01-702-015","Active Drug 50mg",2023-01-11,2023-04-03,"WEIGHT","Weight",78.1,"Visit 1",1,2023-01-09,-2,"VS","VSSEQ",4,78.1,"Y",0
+"CDISC-01","CDISC-01-702-015","Active Drug 50mg",2023-01-11,2023-04-03,"WEIGHT","Weight",64,"Visit 2",2,2023-02-06,27,"VS","VSSEQ",8,78.1,"",-14.1
+"CDISC-01","CDISC-01-702-015","Active Drug 50mg",2023-01-11,2023-04-03,"WEIGHT","Weight",74.2,"Visit 3",3,2023-03-08,57,"VS","VSSEQ",12,78.1,"",-3.89999999999999
+"CDISC-01","CDISC-01-702-019","Placebo",2023-01-28,2023-04-18,"DIABP","Diastolic Blood Pressure",78,"Visit 1",1,2023-01-25,-3,"VS","VSSEQ",1,78,"Y",0
+"CDISC-01","CDISC-01-702-019","Placebo",2023-01-28,2023-04-18,"DIABP","Diastolic Blood Pressure",98,"Visit 2",2,2023-02-23,27,"VS","VSSEQ",5,78,"",20
+"CDISC-01","CDISC-01-702-019","Placebo",2023-01-28,2023-04-18,"DIABP","Diastolic Blood Pressure",92,"Visit 3",3,2023-03-23,55,"VS","VSSEQ",9,78,"",14
+"CDISC-01","CDISC-01-702-019","Placebo",2023-01-28,2023-04-18,"PULSE","Pulse Rate",60,"Visit 1",1,2023-01-25,-3,"VS","VSSEQ",2,60,"Y",0
+"CDISC-01","CDISC-01-702-019","Placebo",2023-01-28,2023-04-18,"PULSE","Pulse Rate",92,"Visit 2",2,2023-02-23,27,"VS","VSSEQ",6,60,"",32
+"CDISC-01","CDISC-01-702-019","Placebo",2023-01-28,2023-04-18,"PULSE","Pulse Rate",99,"Visit 3",3,2023-03-23,55,"VS","VSSEQ",10,60,"",39
+"CDISC-01","CDISC-01-702-019","Placebo",2023-01-28,2023-04-18,"SYSBP","Systolic Blood Pressure",133,"Visit 1",1,2023-01-25,-3,"VS","VSSEQ",3,133,"Y",0
+"CDISC-01","CDISC-01-702-019","Placebo",2023-01-28,2023-04-18,"SYSBP","Systolic Blood Pressure",114,"Visit 2",2,2023-02-23,27,"VS","VSSEQ",7,133,"",-19
+"CDISC-01","CDISC-01-702-019","Placebo",2023-01-28,2023-04-18,"SYSBP","Systolic Blood Pressure",110,"Visit 3",3,2023-03-23,55,"VS","VSSEQ",11,133,"",-23
+"CDISC-01","CDISC-01-702-019","Placebo",2023-01-28,2023-04-18,"WEIGHT","Weight",82.7,"Visit 1",1,2023-01-25,-3,"VS","VSSEQ",4,82.7,"Y",0
+"CDISC-01","CDISC-01-702-019","Placebo",2023-01-28,2023-04-18,"WEIGHT","Weight",60.9,"Visit 2",2,2023-02-23,27,"VS","VSSEQ",8,82.7,"",-21.8
+"CDISC-01","CDISC-01-702-019","Placebo",2023-01-28,2023-04-18,"WEIGHT","Weight",78,"Visit 3",3,2023-03-23,55,"VS","VSSEQ",12,82.7,"",-4.7
+"CDISC-01","CDISC-01-702-020","Active Drug 50mg",2023-02-03,2023-04-24,"DIABP","Diastolic Blood Pressure",80,"Visit 1",1,2023-01-30,-4,"VS","VSSEQ",1,80,"Y",0
+"CDISC-01","CDISC-01-702-020","Active Drug 50mg",2023-02-03,2023-04-24,"DIABP","Diastolic Blood Pressure",76,"Visit 2",2,2023-02-27,25,"VS","VSSEQ",5,80,"",-4
+"CDISC-01","CDISC-01-702-020","Active Drug 50mg",2023-02-03,2023-04-24,"DIABP","Diastolic Blood Pressure",76,"Visit 3",3,2023-03-31,57,"VS","VSSEQ",9,80,"",-4
+"CDISC-01","CDISC-01-702-020","Active Drug 50mg",2023-02-03,2023-04-24,"PULSE","Pulse Rate",94,"Visit 1",1,2023-01-30,-4,"VS","VSSEQ",2,94,"Y",0
+"CDISC-01","CDISC-01-702-020","Active Drug 50mg",2023-02-03,2023-04-24,"PULSE","Pulse Rate",71,"Visit 2",2,2023-02-27,25,"VS","VSSEQ",6,94,"",-23
+"CDISC-01","CDISC-01-702-020","Active Drug 50mg",2023-02-03,2023-04-24,"PULSE","Pulse Rate",93,"Visit 3",3,2023-03-31,57,"VS","VSSEQ",10,94,"",-1
+"CDISC-01","CDISC-01-702-020","Active Drug 50mg",2023-02-03,2023-04-24,"SYSBP","Systolic Blood Pressure",110,"Visit 1",1,2023-01-30,-4,"VS","VSSEQ",3,110,"Y",0
+"CDISC-01","CDISC-01-702-020","Active Drug 50mg",2023-02-03,2023-04-24,"SYSBP","Systolic Blood Pressure",123,"Visit 2",2,2023-02-27,25,"VS","VSSEQ",7,110,"",13
+"CDISC-01","CDISC-01-702-020","Active Drug 50mg",2023-02-03,2023-04-24,"SYSBP","Systolic Blood Pressure",139,"Visit 3",3,2023-03-31,57,"VS","VSSEQ",11,110,"",29
+"CDISC-01","CDISC-01-702-020","Active Drug 50mg",2023-02-03,2023-04-24,"WEIGHT","Weight",80.3,"Visit 1",1,2023-01-30,-4,"VS","VSSEQ",4,80.3,"Y",0
+"CDISC-01","CDISC-01-702-020","Active Drug 50mg",2023-02-03,2023-04-24,"WEIGHT","Weight",64.8,"Visit 2",2,2023-02-27,25,"VS","VSSEQ",8,80.3,"",-15.5
+"CDISC-01","CDISC-01-702-020","Active Drug 50mg",2023-02-03,2023-04-24,"WEIGHT","Weight",67.2,"Visit 3",3,2023-03-31,57,"VS","VSSEQ",12,80.3,"",-13.1
+"CDISC-01","CDISC-01-702-025","Placebo",2023-01-29,2023-04-20,"DIABP","Diastolic Blood Pressure",98,"Visit 1",1,2023-01-27,-2,"VS","VSSEQ",1,98,"Y",0
+"CDISC-01","CDISC-01-702-025","Placebo",2023-01-29,2023-04-20,"DIABP","Diastolic Blood Pressure",91,"Visit 2",2,2023-02-23,26,"VS","VSSEQ",5,98,"",-7
+"CDISC-01","CDISC-01-702-025","Placebo",2023-01-29,2023-04-20,"DIABP","Diastolic Blood Pressure",80,"Visit 3",3,2023-03-26,57,"VS","VSSEQ",9,98,"",-18
+"CDISC-01","CDISC-01-702-025","Placebo",2023-01-29,2023-04-20,"PULSE","Pulse Rate",93,"Visit 1",1,2023-01-27,-2,"VS","VSSEQ",2,93,"Y",0
+"CDISC-01","CDISC-01-702-025","Placebo",2023-01-29,2023-04-20,"PULSE","Pulse Rate",67,"Visit 2",2,2023-02-23,26,"VS","VSSEQ",6,93,"",-26
+"CDISC-01","CDISC-01-702-025","Placebo",2023-01-29,2023-04-20,"PULSE","Pulse Rate",81,"Visit 3",3,2023-03-26,57,"VS","VSSEQ",10,93,"",-12
+"CDISC-01","CDISC-01-702-025","Placebo",2023-01-29,2023-04-20,"SYSBP","Systolic Blood Pressure",132,"Visit 1",1,2023-01-27,-2,"VS","VSSEQ",3,132,"Y",0
+"CDISC-01","CDISC-01-702-025","Placebo",2023-01-29,2023-04-20,"SYSBP","Systolic Blood Pressure",126,"Visit 2",2,2023-02-23,26,"VS","VSSEQ",7,132,"",-6
+"CDISC-01","CDISC-01-702-025","Placebo",2023-01-29,2023-04-20,"SYSBP","Systolic Blood Pressure",112,"Visit 3",3,2023-03-26,57,"VS","VSSEQ",11,132,"",-20
+"CDISC-01","CDISC-01-702-025","Placebo",2023-01-29,2023-04-20,"WEIGHT","Weight",68.7,"Visit 1",1,2023-01-27,-2,"VS","VSSEQ",4,68.7,"Y",0
+"CDISC-01","CDISC-01-702-025","Placebo",2023-01-29,2023-04-20,"WEIGHT","Weight",92.3,"Visit 2",2,2023-02-23,26,"VS","VSSEQ",8,68.7,"",23.6
+"CDISC-01","CDISC-01-702-025","Placebo",2023-01-29,2023-04-20,"WEIGHT","Weight",64.5,"Visit 3",3,2023-03-26,57,"VS","VSSEQ",12,68.7,"",-4.2
+"CDISC-01","CDISC-01-702-026","Active Drug 50mg",2023-02-01,2023-02-23,"DIABP","Diastolic Blood Pressure",80,"Visit 1",1,2023-01-29,-3,"VS","VSSEQ",1,80,"Y",0
+"CDISC-01","CDISC-01-702-026","Active Drug 50mg",2023-02-01,2023-02-23,"PULSE","Pulse Rate",79,"Visit 1",1,2023-01-29,-3,"VS","VSSEQ",2,79,"Y",0
+"CDISC-01","CDISC-01-702-026","Active Drug 50mg",2023-02-01,2023-02-23,"SYSBP","Systolic Blood Pressure",156,"Visit 1",1,2023-01-29,-3,"VS","VSSEQ",3,156,"Y",0
+"CDISC-01","CDISC-01-702-026","Active Drug 50mg",2023-02-01,2023-02-23,"WEIGHT","Weight",93.7,"Visit 1",1,2023-01-29,-3,"VS","VSSEQ",4,93.7,"Y",0
+"CDISC-01","CDISC-01-702-036","NOT TREATED",,,"DIABP","Diastolic Blood Pressure",100,"Visit 1",1,2023-01-27,,"VS","VSSEQ",1,,"",
+"CDISC-01","CDISC-01-702-036","NOT TREATED",,,"PULSE","Pulse Rate",61,"Visit 1",1,2023-01-27,,"VS","VSSEQ",2,,"",
+"CDISC-01","CDISC-01-702-036","NOT TREATED",,,"SYSBP","Systolic Blood Pressure",131,"Visit 1",1,2023-01-27,,"VS","VSSEQ",3,,"",
+"CDISC-01","CDISC-01-702-036","NOT TREATED",,,"WEIGHT","Weight",74.3,"Visit 1",1,2023-01-27,,"VS","VSSEQ",4,,"",
+"CDISC-01","CDISC-01-702-043","Active Drug 50mg",2023-01-23,2023-04-12,"DIABP","Diastolic Blood Pressure",77,"Visit 1",1,2023-01-19,-4,"VS","VSSEQ",1,77,"Y",0
+"CDISC-01","CDISC-01-702-043","Active Drug 50mg",2023-01-23,2023-04-12,"DIABP","Diastolic Blood Pressure",95,"Visit 2",2,2023-02-15,24,"VS","VSSEQ",5,77,"",18
+"CDISC-01","CDISC-01-702-043","Active Drug 50mg",2023-01-23,2023-04-12,"DIABP","Diastolic Blood Pressure",73,"Visit 3",3,2023-03-19,56,"VS","VSSEQ",9,77,"",-4
+"CDISC-01","CDISC-01-702-043","Active Drug 50mg",2023-01-23,2023-04-12,"PULSE","Pulse Rate",61,"Visit 1",1,2023-01-19,-4,"VS","VSSEQ",2,61,"Y",0
+"CDISC-01","CDISC-01-702-043","Active Drug 50mg",2023-01-23,2023-04-12,"PULSE","Pulse Rate",69,"Visit 2",2,2023-02-15,24,"VS","VSSEQ",6,61,"",8
+"CDISC-01","CDISC-01-702-043","Active Drug 50mg",2023-01-23,2023-04-12,"PULSE","Pulse Rate",60,"Visit 3",3,2023-03-19,56,"VS","VSSEQ",10,61,"",-1
+"CDISC-01","CDISC-01-702-043","Active Drug 50mg",2023-01-23,2023-04-12,"SYSBP","Systolic Blood Pressure",154,"Visit 1",1,2023-01-19,-4,"VS","VSSEQ",3,154,"Y",0
+"CDISC-01","CDISC-01-702-043","Active Drug 50mg",2023-01-23,2023-04-12,"SYSBP","Systolic Blood Pressure",125,"Visit 2",2,2023-02-15,24,"VS","VSSEQ",7,154,"",-29
+"CDISC-01","CDISC-01-702-043","Active Drug 50mg",2023-01-23,2023-04-12,"SYSBP","Systolic Blood Pressure",136,"Visit 3",3,2023-03-19,56,"VS","VSSEQ",11,154,"",-18
+"CDISC-01","CDISC-01-702-043","Active Drug 50mg",2023-01-23,2023-04-12,"WEIGHT","Weight",66.5,"Visit 1",1,2023-01-19,-4,"VS","VSSEQ",4,66.5,"Y",0
+"CDISC-01","CDISC-01-702-043","Active Drug 50mg",2023-01-23,2023-04-12,"WEIGHT","Weight",62.5,"Visit 2",2,2023-02-15,24,"VS","VSSEQ",8,66.5,"",-4
+"CDISC-01","CDISC-01-702-043","Active Drug 50mg",2023-01-23,2023-04-12,"WEIGHT","Weight",87.2,"Visit 3",3,2023-03-19,56,"VS","VSSEQ",12,66.5,"",20.7
+"CDISC-01","CDISC-01-702-049","Placebo",2023-01-23,2023-04-15,"DIABP","Diastolic Blood Pressure",97,"Visit 1",1,2023-01-22,-1,"VS","VSSEQ",1,97,"Y",0
+"CDISC-01","CDISC-01-702-049","Placebo",2023-01-23,2023-04-15,"DIABP","Diastolic Blood Pressure",95,"Visit 2",2,2023-02-22,31,"VS","VSSEQ",5,97,"",-2
+"CDISC-01","CDISC-01-702-049","Placebo",2023-01-23,2023-04-15,"DIABP","Diastolic Blood Pressure",100,"Visit 3",3,2023-03-22,59,"VS","VSSEQ",9,97,"",3
+"CDISC-01","CDISC-01-702-049","Placebo",2023-01-23,2023-04-15,"PULSE","Pulse Rate",91,"Visit 1",1,2023-01-22,-1,"VS","VSSEQ",2,91,"Y",0
+"CDISC-01","CDISC-01-702-049","Placebo",2023-01-23,2023-04-15,"PULSE","Pulse Rate",68,"Visit 2",2,2023-02-22,31,"VS","VSSEQ",6,91,"",-23
+"CDISC-01","CDISC-01-702-049","Placebo",2023-01-23,2023-04-15,"PULSE","Pulse Rate",63,"Visit 3",3,2023-03-22,59,"VS","VSSEQ",10,91,"",-28
+"CDISC-01","CDISC-01-702-049","Placebo",2023-01-23,2023-04-15,"SYSBP","Systolic Blood Pressure",121,"Visit 1",1,2023-01-22,-1,"VS","VSSEQ",3,121,"Y",0
+"CDISC-01","CDISC-01-702-049","Placebo",2023-01-23,2023-04-15,"SYSBP","Systolic Blood Pressure",146,"Visit 2",2,2023-02-22,31,"VS","VSSEQ",7,121,"",25
+"CDISC-01","CDISC-01-702-049","Placebo",2023-01-23,2023-04-15,"SYSBP","Systolic Blood Pressure",129,"Visit 3",3,2023-03-22,59,"VS","VSSEQ",11,121,"",8
+"CDISC-01","CDISC-01-702-049","Placebo",2023-01-23,2023-04-15,"WEIGHT","Weight",92.4,"Visit 1",1,2023-01-22,-1,"VS","VSSEQ",4,92.4,"Y",0
+"CDISC-01","CDISC-01-702-049","Placebo",2023-01-23,2023-04-15,"WEIGHT","Weight",66.7,"Visit 2",2,2023-02-22,31,"VS","VSSEQ",8,92.4,"",-25.7
+"CDISC-01","CDISC-01-702-049","Placebo",2023-01-23,2023-04-15,"WEIGHT","Weight",85.4,"Visit 3",3,2023-03-22,59,"VS","VSSEQ",12,92.4,"",-7
+"CDISC-01","CDISC-01-703-002","Placebo",2023-01-25,2023-04-18,"DIABP","Diastolic Blood Pressure",89,"Visit 1",1,2023-01-25,1,"VS","VSSEQ",1,89,"Y",0
+"CDISC-01","CDISC-01-703-002","Placebo",2023-01-25,2023-04-18,"DIABP","Diastolic Blood Pressure",76,"Visit 2",2,2023-02-22,29,"VS","VSSEQ",5,89,"",-13
+"CDISC-01","CDISC-01-703-002","Placebo",2023-01-25,2023-04-18,"DIABP","Diastolic Blood Pressure",94,"Visit 3",3,2023-03-26,61,"VS","VSSEQ",9,89,"",5
+"CDISC-01","CDISC-01-703-002","Placebo",2023-01-25,2023-04-18,"PULSE","Pulse Rate",99,"Visit 1",1,2023-01-25,1,"VS","VSSEQ",2,99,"Y",0
+"CDISC-01","CDISC-01-703-002","Placebo",2023-01-25,2023-04-18,"PULSE","Pulse Rate",63,"Visit 2",2,2023-02-22,29,"VS","VSSEQ",6,99,"",-36
+"CDISC-01","CDISC-01-703-002","Placebo",2023-01-25,2023-04-18,"PULSE","Pulse Rate",72,"Visit 3",3,2023-03-26,61,"VS","VSSEQ",10,99,"",-27
+"CDISC-01","CDISC-01-703-002","Placebo",2023-01-25,2023-04-18,"SYSBP","Systolic Blood Pressure",116,"Visit 1",1,2023-01-25,1,"VS","VSSEQ",3,116,"Y",0
+"CDISC-01","CDISC-01-703-002","Placebo",2023-01-25,2023-04-18,"SYSBP","Systolic Blood Pressure",152,"Visit 2",2,2023-02-22,29,"VS","VSSEQ",7,116,"",36
+"CDISC-01","CDISC-01-703-002","Placebo",2023-01-25,2023-04-18,"SYSBP","Systolic Blood Pressure",117,"Visit 3",3,2023-03-26,61,"VS","VSSEQ",11,116,"",1
+"CDISC-01","CDISC-01-703-002","Placebo",2023-01-25,2023-04-18,"WEIGHT","Weight",76.8,"Visit 1",1,2023-01-25,1,"VS","VSSEQ",4,76.8,"Y",0
+"CDISC-01","CDISC-01-703-002","Placebo",2023-01-25,2023-04-18,"WEIGHT","Weight",65.6,"Visit 2",2,2023-02-22,29,"VS","VSSEQ",8,76.8,"",-11.2
+"CDISC-01","CDISC-01-703-002","Placebo",2023-01-25,2023-04-18,"WEIGHT","Weight",64,"Visit 3",3,2023-03-26,61,"VS","VSSEQ",12,76.8,"",-12.8
+"CDISC-01","CDISC-01-703-010","Placebo",2023-01-20,2023-03-06,"DIABP","Diastolic Blood Pressure",74,"Visit 1",1,2023-01-15,-5,"VS","VSSEQ",1,74,"Y",0
+"CDISC-01","CDISC-01-703-010","Placebo",2023-01-20,2023-03-06,"DIABP","Diastolic Blood Pressure",72,"Visit 2",2,2023-02-15,27,"VS","VSSEQ",5,74,"",-2
+"CDISC-01","CDISC-01-703-010","Placebo",2023-01-20,2023-03-06,"PULSE","Pulse Rate",95,"Visit 1",1,2023-01-15,-5,"VS","VSSEQ",2,95,"Y",0
+"CDISC-01","CDISC-01-703-010","Placebo",2023-01-20,2023-03-06,"PULSE","Pulse Rate",100,"Visit 2",2,2023-02-15,27,"VS","VSSEQ",6,95,"",5
+"CDISC-01","CDISC-01-703-010","Placebo",2023-01-20,2023-03-06,"SYSBP","Systolic Blood Pressure",111,"Visit 1",1,2023-01-15,-5,"VS","VSSEQ",3,111,"Y",0
+"CDISC-01","CDISC-01-703-010","Placebo",2023-01-20,2023-03-06,"SYSBP","Systolic Blood Pressure",113,"Visit 2",2,2023-02-15,27,"VS","VSSEQ",7,111,"",2
+"CDISC-01","CDISC-01-703-010","Placebo",2023-01-20,2023-03-06,"WEIGHT","Weight",76.5,"Visit 1",1,2023-01-15,-5,"VS","VSSEQ",4,76.5,"Y",0
+"CDISC-01","CDISC-01-703-010","Placebo",2023-01-20,2023-03-06,"WEIGHT","Weight",90.9,"Visit 2",2,2023-02-15,27,"VS","VSSEQ",8,76.5,"",14.4
+"CDISC-01","CDISC-01-703-018","Placebo",2023-01-04,2023-03-26,"DIABP","Diastolic Blood Pressure",98,"Visit 1",1,2023-01-01,-3,"VS","VSSEQ",1,98,"Y",0
+"CDISC-01","CDISC-01-703-018","Placebo",2023-01-04,2023-03-26,"DIABP","Diastolic Blood Pressure",71,"Visit 2",2,2023-01-29,26,"VS","VSSEQ",5,98,"",-27
+"CDISC-01","CDISC-01-703-018","Placebo",2023-01-04,2023-03-26,"DIABP","Diastolic Blood Pressure",86,"Visit 3",3,2023-02-28,56,"VS","VSSEQ",9,98,"",-12
+"CDISC-01","CDISC-01-703-018","Placebo",2023-01-04,2023-03-26,"PULSE","Pulse Rate",84,"Visit 1",1,2023-01-01,-3,"VS","VSSEQ",2,84,"Y",0
+"CDISC-01","CDISC-01-703-018","Placebo",2023-01-04,2023-03-26,"PULSE","Pulse Rate",61,"Visit 2",2,2023-01-29,26,"VS","VSSEQ",6,84,"",-23
+"CDISC-01","CDISC-01-703-018","Placebo",2023-01-04,2023-03-26,"PULSE","Pulse Rate",69,"Visit 3",3,2023-02-28,56,"VS","VSSEQ",10,84,"",-15
+"CDISC-01","CDISC-01-703-018","Placebo",2023-01-04,2023-03-26,"SYSBP","Systolic Blood Pressure",120,"Visit 1",1,2023-01-01,-3,"VS","VSSEQ",3,120,"Y",0
+"CDISC-01","CDISC-01-703-018","Placebo",2023-01-04,2023-03-26,"SYSBP","Systolic Blood Pressure",122,"Visit 2",2,2023-01-29,26,"VS","VSSEQ",7,120,"",2
+"CDISC-01","CDISC-01-703-018","Placebo",2023-01-04,2023-03-26,"SYSBP","Systolic Blood Pressure",117,"Visit 3",3,2023-02-28,56,"VS","VSSEQ",11,120,"",-3
+"CDISC-01","CDISC-01-703-018","Placebo",2023-01-04,2023-03-26,"WEIGHT","Weight",58.3,"Visit 1",1,2023-01-01,-3,"VS","VSSEQ",4,58.3,"Y",0
+"CDISC-01","CDISC-01-703-018","Placebo",2023-01-04,2023-03-26,"WEIGHT","Weight",65.8,"Visit 2",2,2023-01-29,26,"VS","VSSEQ",8,58.3,"",7.5
+"CDISC-01","CDISC-01-703-018","Placebo",2023-01-04,2023-03-26,"WEIGHT","Weight",71.7,"Visit 3",3,2023-02-28,56,"VS","VSSEQ",12,58.3,"",13.4
+"CDISC-01","CDISC-01-703-023","Placebo",2023-01-05,2023-03-28,"DIABP","Diastolic Blood Pressure",97,"Visit 1",1,2023-01-03,-2,"VS","VSSEQ",1,97,"Y",0
+"CDISC-01","CDISC-01-703-023","Placebo",2023-01-05,2023-03-28,"DIABP","Diastolic Blood Pressure",74,"Visit 2",2,2023-02-02,29,"VS","VSSEQ",5,97,"",-23
+"CDISC-01","CDISC-01-703-023","Placebo",2023-01-05,2023-03-28,"DIABP","Diastolic Blood Pressure",83,"Visit 3",3,2023-03-02,57,"VS","VSSEQ",9,97,"",-14
+"CDISC-01","CDISC-01-703-023","Placebo",2023-01-05,2023-03-28,"PULSE","Pulse Rate",66,"Visit 1",1,2023-01-03,-2,"VS","VSSEQ",2,66,"Y",0
+"CDISC-01","CDISC-01-703-023","Placebo",2023-01-05,2023-03-28,"PULSE","Pulse Rate",82,"Visit 2",2,2023-02-02,29,"VS","VSSEQ",6,66,"",16
+"CDISC-01","CDISC-01-703-023","Placebo",2023-01-05,2023-03-28,"PULSE","Pulse Rate",93,"Visit 3",3,2023-03-02,57,"VS","VSSEQ",10,66,"",27
+"CDISC-01","CDISC-01-703-023","Placebo",2023-01-05,2023-03-28,"SYSBP","Systolic Blood Pressure",146,"Visit 1",1,2023-01-03,-2,"VS","VSSEQ",3,146,"Y",0
+"CDISC-01","CDISC-01-703-023","Placebo",2023-01-05,2023-03-28,"SYSBP","Systolic Blood Pressure",159,"Visit 2",2,2023-02-02,29,"VS","VSSEQ",7,146,"",13
+"CDISC-01","CDISC-01-703-023","Placebo",2023-01-05,2023-03-28,"SYSBP","Systolic Blood Pressure",127,"Visit 3",3,2023-03-02,57,"VS","VSSEQ",11,146,"",-19
+"CDISC-01","CDISC-01-703-023","Placebo",2023-01-05,2023-03-28,"WEIGHT","Weight",92.4,"Visit 1",1,2023-01-03,-2,"VS","VSSEQ",4,92.4,"Y",0
+"CDISC-01","CDISC-01-703-023","Placebo",2023-01-05,2023-03-28,"WEIGHT","Weight",83.5,"Visit 2",2,2023-02-02,29,"VS","VSSEQ",8,92.4,"",-8.90000000000001
+"CDISC-01","CDISC-01-703-023","Placebo",2023-01-05,2023-03-28,"WEIGHT","Weight",84.7,"Visit 3",3,2023-03-02,57,"VS","VSSEQ",12,92.4,"",-7.7
+"CDISC-01","CDISC-01-703-024","Placebo",2023-01-27,2023-04-18,"DIABP","Diastolic Blood Pressure",77,"Visit 1",1,2023-01-24,-3,"VS","VSSEQ",1,77,"Y",0
+"CDISC-01","CDISC-01-703-024","Placebo",2023-01-27,2023-04-18,"DIABP","Diastolic Blood Pressure",74,"Visit 2",2,2023-02-25,30,"VS","VSSEQ",5,77,"",-3
+"CDISC-01","CDISC-01-703-024","Placebo",2023-01-27,2023-04-18,"DIABP","Diastolic Blood Pressure",76,"Visit 3",3,2023-03-23,56,"VS","VSSEQ",9,77,"",-1
+"CDISC-01","CDISC-01-703-024","Placebo",2023-01-27,2023-04-18,"PULSE","Pulse Rate",76,"Visit 1",1,2023-01-24,-3,"VS","VSSEQ",2,76,"Y",0
+"CDISC-01","CDISC-01-703-024","Placebo",2023-01-27,2023-04-18,"PULSE","Pulse Rate",88,"Visit 2",2,2023-02-25,30,"VS","VSSEQ",6,76,"",12
+"CDISC-01","CDISC-01-703-024","Placebo",2023-01-27,2023-04-18,"PULSE","Pulse Rate",60,"Visit 3",3,2023-03-23,56,"VS","VSSEQ",10,76,"",-16
+"CDISC-01","CDISC-01-703-024","Placebo",2023-01-27,2023-04-18,"SYSBP","Systolic Blood Pressure",127,"Visit 1",1,2023-01-24,-3,"VS","VSSEQ",3,127,"Y",0
+"CDISC-01","CDISC-01-703-024","Placebo",2023-01-27,2023-04-18,"SYSBP","Systolic Blood Pressure",137,"Visit 2",2,2023-02-25,30,"VS","VSSEQ",7,127,"",10
+"CDISC-01","CDISC-01-703-024","Placebo",2023-01-27,2023-04-18,"SYSBP","Systolic Blood Pressure",141,"Visit 3",3,2023-03-23,56,"VS","VSSEQ",11,127,"",14
+"CDISC-01","CDISC-01-703-024","Placebo",2023-01-27,2023-04-18,"WEIGHT","Weight",90,"Visit 1",1,2023-01-24,-3,"VS","VSSEQ",4,90,"Y",0
+"CDISC-01","CDISC-01-703-024","Placebo",2023-01-27,2023-04-18,"WEIGHT","Weight",76.5,"Visit 2",2,2023-02-25,30,"VS","VSSEQ",8,90,"",-13.5
+"CDISC-01","CDISC-01-703-024","Placebo",2023-01-27,2023-04-18,"WEIGHT","Weight",89.6,"Visit 3",3,2023-03-23,56,"VS","VSSEQ",12,90,"",-0.400000000000006
+"CDISC-01","CDISC-01-703-034","Placebo",2023-01-08,2023-04-01,"DIABP","Diastolic Blood Pressure",78,"Visit 1",1,2023-01-08,1,"VS","VSSEQ",1,78,"Y",0
+"CDISC-01","CDISC-01-703-034","Placebo",2023-01-08,2023-04-01,"DIABP","Diastolic Blood Pressure",90,"Visit 2",2,2023-02-08,32,"VS","VSSEQ",5,78,"",12
+"CDISC-01","CDISC-01-703-034","Placebo",2023-01-08,2023-04-01,"DIABP","Diastolic Blood Pressure",83,"Visit 3",3,2023-03-10,62,"VS","VSSEQ",9,78,"",5
+"CDISC-01","CDISC-01-703-034","Placebo",2023-01-08,2023-04-01,"PULSE","Pulse Rate",79,"Visit 1",1,2023-01-08,1,"VS","VSSEQ",2,79,"Y",0
+"CDISC-01","CDISC-01-703-034","Placebo",2023-01-08,2023-04-01,"PULSE","Pulse Rate",70,"Visit 2",2,2023-02-08,32,"VS","VSSEQ",6,79,"",-9
+"CDISC-01","CDISC-01-703-034","Placebo",2023-01-08,2023-04-01,"PULSE","Pulse Rate",93,"Visit 3",3,2023-03-10,62,"VS","VSSEQ",10,79,"",14
+"CDISC-01","CDISC-01-703-034","Placebo",2023-01-08,2023-04-01,"SYSBP","Systolic Blood Pressure",142,"Visit 1",1,2023-01-08,1,"VS","VSSEQ",3,142,"Y",0
+"CDISC-01","CDISC-01-703-034","Placebo",2023-01-08,2023-04-01,"SYSBP","Systolic Blood Pressure",133,"Visit 2",2,2023-02-08,32,"VS","VSSEQ",7,142,"",-9
+"CDISC-01","CDISC-01-703-034","Placebo",2023-01-08,2023-04-01,"SYSBP","Systolic Blood Pressure",116,"Visit 3",3,2023-03-10,62,"VS","VSSEQ",11,142,"",-26
+"CDISC-01","CDISC-01-703-034","Placebo",2023-01-08,2023-04-01,"WEIGHT","Weight",60.4,"Visit 1",1,2023-01-08,1,"VS","VSSEQ",4,60.4,"Y",0
+"CDISC-01","CDISC-01-703-034","Placebo",2023-01-08,2023-04-01,"WEIGHT","Weight",76.3,"Visit 2",2,2023-02-08,32,"VS","VSSEQ",8,60.4,"",15.9
+"CDISC-01","CDISC-01-703-034","Placebo",2023-01-08,2023-04-01,"WEIGHT","Weight",74.3,"Visit 3",3,2023-03-10,62,"VS","VSSEQ",12,60.4,"",13.9
+"CDISC-01","CDISC-01-703-039","Placebo",2023-01-26,2023-04-16,"DIABP","Diastolic Blood Pressure",98,"Visit 1",1,2023-01-22,-4,"VS","VSSEQ",1,98,"Y",0
+"CDISC-01","CDISC-01-703-039","Placebo",2023-01-26,2023-04-16,"DIABP","Diastolic Blood Pressure",89,"Visit 2",2,2023-02-19,25,"VS","VSSEQ",5,98,"",-9
+"CDISC-01","CDISC-01-703-039","Placebo",2023-01-26,2023-04-16,"DIABP","Diastolic Blood Pressure",78,"Visit 3",3,2023-03-25,59,"VS","VSSEQ",9,98,"",-20
+"CDISC-01","CDISC-01-703-039","Placebo",2023-01-26,2023-04-16,"PULSE","Pulse Rate",73,"Visit 1",1,2023-01-22,-4,"VS","VSSEQ",2,73,"Y",0
+"CDISC-01","CDISC-01-703-039","Placebo",2023-01-26,2023-04-16,"PULSE","Pulse Rate",85,"Visit 2",2,2023-02-19,25,"VS","VSSEQ",6,73,"",12
+"CDISC-01","CDISC-01-703-039","Placebo",2023-01-26,2023-04-16,"PULSE","Pulse Rate",99,"Visit 3",3,2023-03-25,59,"VS","VSSEQ",10,73,"",26
+"CDISC-01","CDISC-01-703-039","Placebo",2023-01-26,2023-04-16,"SYSBP","Systolic Blood Pressure",144,"Visit 1",1,2023-01-22,-4,"VS","VSSEQ",3,144,"Y",0
+"CDISC-01","CDISC-01-703-039","Placebo",2023-01-26,2023-04-16,"SYSBP","Systolic Blood Pressure",151,"Visit 2",2,2023-02-19,25,"VS","VSSEQ",7,144,"",7
+"CDISC-01","CDISC-01-703-039","Placebo",2023-01-26,2023-04-16,"SYSBP","Systolic Blood Pressure",137,"Visit 3",3,2023-03-25,59,"VS","VSSEQ",11,144,"",-7
+"CDISC-01","CDISC-01-703-039","Placebo",2023-01-26,2023-04-16,"WEIGHT","Weight",80.2,"Visit 1",1,2023-01-22,-4,"VS","VSSEQ",4,80.2,"Y",0
+"CDISC-01","CDISC-01-703-039","Placebo",2023-01-26,2023-04-16,"WEIGHT","Weight",68.5,"Visit 2",2,2023-02-19,25,"VS","VSSEQ",8,80.2,"",-11.7
+"CDISC-01","CDISC-01-703-039","Placebo",2023-01-26,2023-04-16,"WEIGHT","Weight",65.1,"Visit 3",3,2023-03-25,59,"VS","VSSEQ",12,80.2,"",-15.1
+"CDISC-01","CDISC-01-703-046","Active Drug 50mg",2023-01-06,2023-03-29,"DIABP","Diastolic Blood Pressure",97,"Visit 1",1,2023-01-05,-1,"VS","VSSEQ",1,97,"Y",0
+"CDISC-01","CDISC-01-703-046","Active Drug 50mg",2023-01-06,2023-03-29,"DIABP","Diastolic Blood Pressure",71,"Visit 2",2,2023-02-01,27,"VS","VSSEQ",5,97,"",-26
+"CDISC-01","CDISC-01-703-046","Active Drug 50mg",2023-01-06,2023-03-29,"DIABP","Diastolic Blood Pressure",89,"Visit 3",3,2023-03-06,60,"VS","VSSEQ",9,97,"",-8
+"CDISC-01","CDISC-01-703-046","Active Drug 50mg",2023-01-06,2023-03-29,"PULSE","Pulse Rate",78,"Visit 1",1,2023-01-05,-1,"VS","VSSEQ",2,78,"Y",0
+"CDISC-01","CDISC-01-703-046","Active Drug 50mg",2023-01-06,2023-03-29,"PULSE","Pulse Rate",89,"Visit 2",2,2023-02-01,27,"VS","VSSEQ",6,78,"",11
+"CDISC-01","CDISC-01-703-046","Active Drug 50mg",2023-01-06,2023-03-29,"PULSE","Pulse Rate",68,"Visit 3",3,2023-03-06,60,"VS","VSSEQ",10,78,"",-10
+"CDISC-01","CDISC-01-703-046","Active Drug 50mg",2023-01-06,2023-03-29,"SYSBP","Systolic Blood Pressure",147,"Visit 1",1,2023-01-05,-1,"VS","VSSEQ",3,147,"Y",0
+"CDISC-01","CDISC-01-703-046","Active Drug 50mg",2023-01-06,2023-03-29,"SYSBP","Systolic Blood Pressure",135,"Visit 2",2,2023-02-01,27,"VS","VSSEQ",7,147,"",-12
+"CDISC-01","CDISC-01-703-046","Active Drug 50mg",2023-01-06,2023-03-29,"SYSBP","Systolic Blood Pressure",122,"Visit 3",3,2023-03-06,60,"VS","VSSEQ",11,147,"",-25
+"CDISC-01","CDISC-01-703-046","Active Drug 50mg",2023-01-06,2023-03-29,"WEIGHT","Weight",56.4,"Visit 1",1,2023-01-05,-1,"VS","VSSEQ",4,56.4,"Y",0
+"CDISC-01","CDISC-01-703-046","Active Drug 50mg",2023-01-06,2023-03-29,"WEIGHT","Weight",64.1,"Visit 2",2,2023-02-01,27,"VS","VSSEQ",8,56.4,"",7.7
+"CDISC-01","CDISC-01-703-046","Active Drug 50mg",2023-01-06,2023-03-29,"WEIGHT","Weight",61,"Visit 3",3,2023-03-06,60,"VS","VSSEQ",12,56.4,"",4.6
+"CDISC-01","CDISC-01-703-047","Active Drug 50mg",2023-01-11,2023-04-04,"DIABP","Diastolic Blood Pressure",94,"Visit 1",1,2023-01-11,1,"VS","VSSEQ",1,94,"Y",0
+"CDISC-01","CDISC-01-703-047","Active Drug 50mg",2023-01-11,2023-04-04,"DIABP","Diastolic Blood Pressure",70,"Visit 2",2,2023-02-10,31,"VS","VSSEQ",5,94,"",-24
+"CDISC-01","CDISC-01-703-047","Active Drug 50mg",2023-01-11,2023-04-04,"DIABP","Diastolic Blood Pressure",93,"Visit 3",3,2023-03-09,58,"VS","VSSEQ",9,94,"",-1
+"CDISC-01","CDISC-01-703-047","Active Drug 50mg",2023-01-11,2023-04-04,"PULSE","Pulse Rate",93,"Visit 1",1,2023-01-11,1,"VS","VSSEQ",2,93,"Y",0
+"CDISC-01","CDISC-01-703-047","Active Drug 50mg",2023-01-11,2023-04-04,"PULSE","Pulse Rate",86,"Visit 2",2,2023-02-10,31,"VS","VSSEQ",6,93,"",-7
+"CDISC-01","CDISC-01-703-047","Active Drug 50mg",2023-01-11,2023-04-04,"PULSE","Pulse Rate",64,"Visit 3",3,2023-03-09,58,"VS","VSSEQ",10,93,"",-29
+"CDISC-01","CDISC-01-703-047","Active Drug 50mg",2023-01-11,2023-04-04,"SYSBP","Systolic Blood Pressure",158,"Visit 1",1,2023-01-11,1,"VS","VSSEQ",3,158,"Y",0
+"CDISC-01","CDISC-01-703-047","Active Drug 50mg",2023-01-11,2023-04-04,"SYSBP","Systolic Blood Pressure",123,"Visit 2",2,2023-02-10,31,"VS","VSSEQ",7,158,"",-35
+"CDISC-01","CDISC-01-703-047","Active Drug 50mg",2023-01-11,2023-04-04,"SYSBP","Systolic Blood Pressure",122,"Visit 3",3,2023-03-09,58,"VS","VSSEQ",11,158,"",-36
+"CDISC-01","CDISC-01-703-047","Active Drug 50mg",2023-01-11,2023-04-04,"WEIGHT","Weight",93.5,"Visit 1",1,2023-01-11,1,"VS","VSSEQ",4,93.5,"Y",0
+"CDISC-01","CDISC-01-703-047","Active Drug 50mg",2023-01-11,2023-04-04,"WEIGHT","Weight",84.9,"Visit 2",2,2023-02-10,31,"VS","VSSEQ",8,93.5,"",-8.59999999999999
+"CDISC-01","CDISC-01-703-047","Active Drug 50mg",2023-01-11,2023-04-04,"WEIGHT","Weight",85.7,"Visit 3",3,2023-03-09,58,"VS","VSSEQ",12,93.5,"",-7.8
+"CDISC-01","CDISC-01-703-050","Placebo",2023-02-01,2023-02-23,"DIABP","Diastolic Blood Pressure",90,"Visit 1",1,2023-02-01,1,"VS","VSSEQ",1,90,"Y",0
+"CDISC-01","CDISC-01-703-050","Placebo",2023-02-01,2023-02-23,"PULSE","Pulse Rate",67,"Visit 1",1,2023-02-01,1,"VS","VSSEQ",2,67,"Y",0
+"CDISC-01","CDISC-01-703-050","Placebo",2023-02-01,2023-02-23,"SYSBP","Systolic Blood Pressure",134,"Visit 1",1,2023-02-01,1,"VS","VSSEQ",3,134,"Y",0
+"CDISC-01","CDISC-01-703-050","Placebo",2023-02-01,2023-02-23,"WEIGHT","Weight",90.9,"Visit 1",1,2023-02-01,1,"VS","VSSEQ",4,90.9,"Y",0
+"CDISC-01","CDISC-01-704-003","Placebo",2023-01-30,2023-04-21,"DIABP","Diastolic Blood Pressure",92,"Visit 1",1,2023-01-28,-2,"VS","VSSEQ",1,92,"Y",0
+"CDISC-01","CDISC-01-704-003","Placebo",2023-01-30,2023-04-21,"DIABP","Diastolic Blood Pressure",87,"Visit 2",2,2023-02-25,27,"VS","VSSEQ",5,92,"",-5
+"CDISC-01","CDISC-01-704-003","Placebo",2023-01-30,2023-04-21,"DIABP","Diastolic Blood Pressure",84,"Visit 3",3,2023-03-30,60,"VS","VSSEQ",9,92,"",-8
+"CDISC-01","CDISC-01-704-003","Placebo",2023-01-30,2023-04-21,"PULSE","Pulse Rate",85,"Visit 1",1,2023-01-28,-2,"VS","VSSEQ",2,85,"Y",0
+"CDISC-01","CDISC-01-704-003","Placebo",2023-01-30,2023-04-21,"PULSE","Pulse Rate",62,"Visit 2",2,2023-02-25,27,"VS","VSSEQ",6,85,"",-23
+"CDISC-01","CDISC-01-704-003","Placebo",2023-01-30,2023-04-21,"PULSE","Pulse Rate",76,"Visit 3",3,2023-03-30,60,"VS","VSSEQ",10,85,"",-9
+"CDISC-01","CDISC-01-704-003","Placebo",2023-01-30,2023-04-21,"SYSBP","Systolic Blood Pressure",116,"Visit 1",1,2023-01-28,-2,"VS","VSSEQ",3,116,"Y",0
+"CDISC-01","CDISC-01-704-003","Placebo",2023-01-30,2023-04-21,"SYSBP","Systolic Blood Pressure",118,"Visit 2",2,2023-02-25,27,"VS","VSSEQ",7,116,"",2
+"CDISC-01","CDISC-01-704-003","Placebo",2023-01-30,2023-04-21,"SYSBP","Systolic Blood Pressure",113,"Visit 3",3,2023-03-30,60,"VS","VSSEQ",11,116,"",-3
+"CDISC-01","CDISC-01-704-003","Placebo",2023-01-30,2023-04-21,"WEIGHT","Weight",80.3,"Visit 1",1,2023-01-28,-2,"VS","VSSEQ",4,80.3,"Y",0
+"CDISC-01","CDISC-01-704-003","Placebo",2023-01-30,2023-04-21,"WEIGHT","Weight",85.5,"Visit 2",2,2023-02-25,27,"VS","VSSEQ",8,80.3,"",5.2
+"CDISC-01","CDISC-01-704-003","Placebo",2023-01-30,2023-04-21,"WEIGHT","Weight",85.6,"Visit 3",3,2023-03-30,60,"VS","VSSEQ",12,80.3,"",5.3
+"CDISC-01","CDISC-01-704-021","Active Drug 50mg",2023-02-01,2023-04-23,"DIABP","Diastolic Blood Pressure",72,"Visit 1",1,2023-01-29,-3,"VS","VSSEQ",1,72,"Y",0
+"CDISC-01","CDISC-01-704-021","Active Drug 50mg",2023-02-01,2023-04-23,"DIABP","Diastolic Blood Pressure",95,"Visit 2",2,2023-02-28,28,"VS","VSSEQ",5,72,"",23
+"CDISC-01","CDISC-01-704-021","Active Drug 50mg",2023-02-01,2023-04-23,"DIABP","Diastolic Blood Pressure",92,"Visit 3",3,2023-03-29,57,"VS","VSSEQ",9,72,"",20
+"CDISC-01","CDISC-01-704-021","Active Drug 50mg",2023-02-01,2023-04-23,"PULSE","Pulse Rate",97,"Visit 1",1,2023-01-29,-3,"VS","VSSEQ",2,97,"Y",0
+"CDISC-01","CDISC-01-704-021","Active Drug 50mg",2023-02-01,2023-04-23,"PULSE","Pulse Rate",63,"Visit 2",2,2023-02-28,28,"VS","VSSEQ",6,97,"",-34
+"CDISC-01","CDISC-01-704-021","Active Drug 50mg",2023-02-01,2023-04-23,"PULSE","Pulse Rate",85,"Visit 3",3,2023-03-29,57,"VS","VSSEQ",10,97,"",-12
+"CDISC-01","CDISC-01-704-021","Active Drug 50mg",2023-02-01,2023-04-23,"SYSBP","Systolic Blood Pressure",142,"Visit 1",1,2023-01-29,-3,"VS","VSSEQ",3,142,"Y",0
+"CDISC-01","CDISC-01-704-021","Active Drug 50mg",2023-02-01,2023-04-23,"SYSBP","Systolic Blood Pressure",160,"Visit 2",2,2023-02-28,28,"VS","VSSEQ",7,142,"",18
+"CDISC-01","CDISC-01-704-021","Active Drug 50mg",2023-02-01,2023-04-23,"SYSBP","Systolic Blood Pressure",125,"Visit 3",3,2023-03-29,57,"VS","VSSEQ",11,142,"",-17
+"CDISC-01","CDISC-01-704-021","Active Drug 50mg",2023-02-01,2023-04-23,"WEIGHT","Weight",64.4,"Visit 1",1,2023-01-29,-3,"VS","VSSEQ",4,64.4,"Y",0
+"CDISC-01","CDISC-01-704-021","Active Drug 50mg",2023-02-01,2023-04-23,"WEIGHT","Weight",83.8,"Visit 2",2,2023-02-28,28,"VS","VSSEQ",8,64.4,"",19.4
+"CDISC-01","CDISC-01-704-021","Active Drug 50mg",2023-02-01,2023-04-23,"WEIGHT","Weight",71.2,"Visit 3",3,2023-03-29,57,"VS","VSSEQ",12,64.4,"",6.8
+"CDISC-01","CDISC-01-704-022","Placebo",2023-01-08,2023-03-31,"DIABP","Diastolic Blood Pressure",83,"Visit 1",1,2023-01-07,-1,"VS","VSSEQ",1,83,"Y",0
+"CDISC-01","CDISC-01-704-022","Placebo",2023-01-08,2023-03-31,"DIABP","Diastolic Blood Pressure",75,"Visit 2",2,2023-02-06,30,"VS","VSSEQ",5,83,"",-8
+"CDISC-01","CDISC-01-704-022","Placebo",2023-01-08,2023-03-31,"DIABP","Diastolic Blood Pressure",76,"Visit 3",3,2023-03-06,58,"VS","VSSEQ",9,83,"",-7
+"CDISC-01","CDISC-01-704-022","Placebo",2023-01-08,2023-03-31,"PULSE","Pulse Rate",80,"Visit 1",1,2023-01-07,-1,"VS","VSSEQ",2,80,"Y",0
+"CDISC-01","CDISC-01-704-022","Placebo",2023-01-08,2023-03-31,"PULSE","Pulse Rate",75,"Visit 2",2,2023-02-06,30,"VS","VSSEQ",6,80,"",-5
+"CDISC-01","CDISC-01-704-022","Placebo",2023-01-08,2023-03-31,"PULSE","Pulse Rate",64,"Visit 3",3,2023-03-06,58,"VS","VSSEQ",10,80,"",-16
+"CDISC-01","CDISC-01-704-022","Placebo",2023-01-08,2023-03-31,"SYSBP","Systolic Blood Pressure",119,"Visit 1",1,2023-01-07,-1,"VS","VSSEQ",3,119,"Y",0
+"CDISC-01","CDISC-01-704-022","Placebo",2023-01-08,2023-03-31,"SYSBP","Systolic Blood Pressure",129,"Visit 2",2,2023-02-06,30,"VS","VSSEQ",7,119,"",10
+"CDISC-01","CDISC-01-704-022","Placebo",2023-01-08,2023-03-31,"SYSBP","Systolic Blood Pressure",125,"Visit 3",3,2023-03-06,58,"VS","VSSEQ",11,119,"",6
+"CDISC-01","CDISC-01-704-022","Placebo",2023-01-08,2023-03-31,"WEIGHT","Weight",70.7,"Visit 1",1,2023-01-07,-1,"VS","VSSEQ",4,70.7,"Y",0
+"CDISC-01","CDISC-01-704-022","Placebo",2023-01-08,2023-03-31,"WEIGHT","Weight",88.7,"Visit 2",2,2023-02-06,30,"VS","VSSEQ",8,70.7,"",18
+"CDISC-01","CDISC-01-704-022","Placebo",2023-01-08,2023-03-31,"WEIGHT","Weight",75.9,"Visit 3",3,2023-03-06,58,"VS","VSSEQ",12,70.7,"",5.2
+"CDISC-01","CDISC-01-704-027","Placebo",2023-01-18,2023-02-27,"DIABP","Diastolic Blood Pressure",85,"Visit 1",1,2023-01-18,1,"VS","VSSEQ",1,85,"Y",0
+"CDISC-01","CDISC-01-704-027","Placebo",2023-01-18,2023-02-27,"DIABP","Diastolic Blood Pressure",91,"Visit 2",2,2023-02-15,29,"VS","VSSEQ",5,85,"",6
+"CDISC-01","CDISC-01-704-027","Placebo",2023-01-18,2023-02-27,"PULSE","Pulse Rate",99,"Visit 1",1,2023-01-18,1,"VS","VSSEQ",2,99,"Y",0
+"CDISC-01","CDISC-01-704-027","Placebo",2023-01-18,2023-02-27,"PULSE","Pulse Rate",75,"Visit 2",2,2023-02-15,29,"VS","VSSEQ",6,99,"",-24
+"CDISC-01","CDISC-01-704-027","Placebo",2023-01-18,2023-02-27,"SYSBP","Systolic Blood Pressure",151,"Visit 1",1,2023-01-18,1,"VS","VSSEQ",3,151,"Y",0
+"CDISC-01","CDISC-01-704-027","Placebo",2023-01-18,2023-02-27,"SYSBP","Systolic Blood Pressure",159,"Visit 2",2,2023-02-15,29,"VS","VSSEQ",7,151,"",8
+"CDISC-01","CDISC-01-704-027","Placebo",2023-01-18,2023-02-27,"WEIGHT","Weight",58.8,"Visit 1",1,2023-01-18,1,"VS","VSSEQ",4,58.8,"Y",0
+"CDISC-01","CDISC-01-704-027","Placebo",2023-01-18,2023-02-27,"WEIGHT","Weight",57.2,"Visit 2",2,2023-02-15,29,"VS","VSSEQ",8,58.8,"",-1.59999999999999
+"CDISC-01","CDISC-01-704-029","Placebo",2023-01-25,2023-04-16,"DIABP","Diastolic Blood Pressure",95,"Visit 1",1,2023-01-22,-3,"VS","VSSEQ",1,95,"Y",0
+"CDISC-01","CDISC-01-704-029","Placebo",2023-01-25,2023-04-16,"DIABP","Diastolic Blood Pressure",92,"Visit 2",2,2023-02-20,27,"VS","VSSEQ",5,95,"",-3
+"CDISC-01","CDISC-01-704-029","Placebo",2023-01-25,2023-04-16,"DIABP","Diastolic Blood Pressure",87,"Visit 3",3,2023-03-21,56,"VS","VSSEQ",9,95,"",-8
+"CDISC-01","CDISC-01-704-029","Placebo",2023-01-25,2023-04-16,"PULSE","Pulse Rate",67,"Visit 1",1,2023-01-22,-3,"VS","VSSEQ",2,67,"Y",0
+"CDISC-01","CDISC-01-704-029","Placebo",2023-01-25,2023-04-16,"PULSE","Pulse Rate",85,"Visit 2",2,2023-02-20,27,"VS","VSSEQ",6,67,"",18
+"CDISC-01","CDISC-01-704-029","Placebo",2023-01-25,2023-04-16,"PULSE","Pulse Rate",61,"Visit 3",3,2023-03-21,56,"VS","VSSEQ",10,67,"",-6
+"CDISC-01","CDISC-01-704-029","Placebo",2023-01-25,2023-04-16,"SYSBP","Systolic Blood Pressure",114,"Visit 1",1,2023-01-22,-3,"VS","VSSEQ",3,114,"Y",0
+"CDISC-01","CDISC-01-704-029","Placebo",2023-01-25,2023-04-16,"SYSBP","Systolic Blood Pressure",130,"Visit 2",2,2023-02-20,27,"VS","VSSEQ",7,114,"",16
+"CDISC-01","CDISC-01-704-029","Placebo",2023-01-25,2023-04-16,"SYSBP","Systolic Blood Pressure",140,"Visit 3",3,2023-03-21,56,"VS","VSSEQ",11,114,"",26
+"CDISC-01","CDISC-01-704-029","Placebo",2023-01-25,2023-04-16,"WEIGHT","Weight",61.1,"Visit 1",1,2023-01-22,-3,"VS","VSSEQ",4,61.1,"Y",0
+"CDISC-01","CDISC-01-704-029","Placebo",2023-01-25,2023-04-16,"WEIGHT","Weight",87.2,"Visit 2",2,2023-02-20,27,"VS","VSSEQ",8,61.1,"",26.1
+"CDISC-01","CDISC-01-704-029","Placebo",2023-01-25,2023-04-16,"WEIGHT","Weight",62.3,"Visit 3",3,2023-03-21,56,"VS","VSSEQ",12,61.1,"",1.2
+"CDISC-01","CDISC-01-704-031","Placebo",2023-01-07,2023-03-28,"DIABP","Diastolic Blood Pressure",88,"Visit 1",1,2023-01-03,-4,"VS","VSSEQ",1,88,"Y",0
+"CDISC-01","CDISC-01-704-031","Placebo",2023-01-07,2023-03-28,"DIABP","Diastolic Blood Pressure",80,"Visit 2",2,2023-02-02,27,"VS","VSSEQ",5,88,"",-8
+"CDISC-01","CDISC-01-704-031","Placebo",2023-01-07,2023-03-28,"DIABP","Diastolic Blood Pressure",97,"Visit 3",3,2023-03-03,56,"VS","VSSEQ",9,88,"",9
+"CDISC-01","CDISC-01-704-031","Placebo",2023-01-07,2023-03-28,"PULSE","Pulse Rate",60,"Visit 1",1,2023-01-03,-4,"VS","VSSEQ",2,60,"Y",0
+"CDISC-01","CDISC-01-704-031","Placebo",2023-01-07,2023-03-28,"PULSE","Pulse Rate",89,"Visit 2",2,2023-02-02,27,"VS","VSSEQ",6,60,"",29
+"CDISC-01","CDISC-01-704-031","Placebo",2023-01-07,2023-03-28,"PULSE","Pulse Rate",68,"Visit 3",3,2023-03-03,56,"VS","VSSEQ",10,60,"",8
+"CDISC-01","CDISC-01-704-031","Placebo",2023-01-07,2023-03-28,"SYSBP","Systolic Blood Pressure",155,"Visit 1",1,2023-01-03,-4,"VS","VSSEQ",3,155,"Y",0
+"CDISC-01","CDISC-01-704-031","Placebo",2023-01-07,2023-03-28,"SYSBP","Systolic Blood Pressure",113,"Visit 2",2,2023-02-02,27,"VS","VSSEQ",7,155,"",-42
+"CDISC-01","CDISC-01-704-031","Placebo",2023-01-07,2023-03-28,"SYSBP","Systolic Blood Pressure",117,"Visit 3",3,2023-03-03,56,"VS","VSSEQ",11,155,"",-38
+"CDISC-01","CDISC-01-704-031","Placebo",2023-01-07,2023-03-28,"WEIGHT","Weight",75.4,"Visit 1",1,2023-01-03,-4,"VS","VSSEQ",4,75.4,"Y",0
+"CDISC-01","CDISC-01-704-031","Placebo",2023-01-07,2023-03-28,"WEIGHT","Weight",84,"Visit 2",2,2023-02-02,27,"VS","VSSEQ",8,75.4,"",8.59999999999999
+"CDISC-01","CDISC-01-704-031","Placebo",2023-01-07,2023-03-28,"WEIGHT","Weight",91.8,"Visit 3",3,2023-03-03,56,"VS","VSSEQ",12,75.4,"",16.4
+"CDISC-01","CDISC-01-704-032","Active Drug 50mg",2023-01-12,2023-04-01,"DIABP","Diastolic Blood Pressure",97,"Visit 1",1,2023-01-07,-5,"VS","VSSEQ",1,97,"Y",0
+"CDISC-01","CDISC-01-704-032","Active Drug 50mg",2023-01-12,2023-04-01,"DIABP","Diastolic Blood Pressure",87,"Visit 2",2,2023-02-08,28,"VS","VSSEQ",5,97,"",-10
+"CDISC-01","CDISC-01-704-032","Active Drug 50mg",2023-01-12,2023-04-01,"DIABP","Diastolic Blood Pressure",89,"Visit 3",3,2023-03-07,55,"VS","VSSEQ",9,97,"",-8
+"CDISC-01","CDISC-01-704-032","Active Drug 50mg",2023-01-12,2023-04-01,"PULSE","Pulse Rate",84,"Visit 1",1,2023-01-07,-5,"VS","VSSEQ",2,84,"Y",0
+"CDISC-01","CDISC-01-704-032","Active Drug 50mg",2023-01-12,2023-04-01,"PULSE","Pulse Rate",78,"Visit 2",2,2023-02-08,28,"VS","VSSEQ",6,84,"",-6
+"CDISC-01","CDISC-01-704-032","Active Drug 50mg",2023-01-12,2023-04-01,"PULSE","Pulse Rate",70,"Visit 3",3,2023-03-07,55,"VS","VSSEQ",10,84,"",-14
+"CDISC-01","CDISC-01-704-032","Active Drug 50mg",2023-01-12,2023-04-01,"SYSBP","Systolic Blood Pressure",137,"Visit 1",1,2023-01-07,-5,"VS","VSSEQ",3,137,"Y",0
+"CDISC-01","CDISC-01-704-032","Active Drug 50mg",2023-01-12,2023-04-01,"SYSBP","Systolic Blood Pressure",144,"Visit 2",2,2023-02-08,28,"VS","VSSEQ",7,137,"",7
+"CDISC-01","CDISC-01-704-032","Active Drug 50mg",2023-01-12,2023-04-01,"SYSBP","Systolic Blood Pressure",126,"Visit 3",3,2023-03-07,55,"VS","VSSEQ",11,137,"",-11
+"CDISC-01","CDISC-01-704-032","Active Drug 50mg",2023-01-12,2023-04-01,"WEIGHT","Weight",89.9,"Visit 1",1,2023-01-07,-5,"VS","VSSEQ",4,89.9,"Y",0
+"CDISC-01","CDISC-01-704-032","Active Drug 50mg",2023-01-12,2023-04-01,"WEIGHT","Weight",60.4,"Visit 2",2,2023-02-08,28,"VS","VSSEQ",8,89.9,"",-29.5
+"CDISC-01","CDISC-01-704-032","Active Drug 50mg",2023-01-12,2023-04-01,"WEIGHT","Weight",67.6,"Visit 3",3,2023-03-07,55,"VS","VSSEQ",12,89.9,"",-22.3
+"CDISC-01","CDISC-01-704-033","Placebo",2023-01-27,2023-02-14,"DIABP","Diastolic Blood Pressure",74,"Visit 1",1,2023-01-24,-3,"VS","VSSEQ",1,74,"Y",0
+"CDISC-01","CDISC-01-704-033","Placebo",2023-01-27,2023-02-14,"PULSE","Pulse Rate",95,"Visit 1",1,2023-01-24,-3,"VS","VSSEQ",2,95,"Y",0
+"CDISC-01","CDISC-01-704-033","Placebo",2023-01-27,2023-02-14,"SYSBP","Systolic Blood Pressure",122,"Visit 1",1,2023-01-24,-3,"VS","VSSEQ",3,122,"Y",0
+"CDISC-01","CDISC-01-704-033","Placebo",2023-01-27,2023-02-14,"WEIGHT","Weight",59.9,"Visit 1",1,2023-01-24,-3,"VS","VSSEQ",4,59.9,"Y",0
+"CDISC-01","CDISC-01-704-037","Active Drug 50mg",2023-01-06,2023-03-28,"DIABP","Diastolic Blood Pressure",79,"Visit 1",1,2023-01-04,-2,"VS","VSSEQ",1,79,"Y",0
+"CDISC-01","CDISC-01-704-037","Active Drug 50mg",2023-01-06,2023-03-28,"DIABP","Diastolic Blood Pressure",76,"Visit 2",2,2023-02-04,30,"VS","VSSEQ",5,79,"",-3
+"CDISC-01","CDISC-01-704-037","Active Drug 50mg",2023-01-06,2023-03-28,"DIABP","Diastolic Blood Pressure",78,"Visit 3",3,2023-03-02,56,"VS","VSSEQ",9,79,"",-1
+"CDISC-01","CDISC-01-704-037","Active Drug 50mg",2023-01-06,2023-03-28,"PULSE","Pulse Rate",79,"Visit 1",1,2023-01-04,-2,"VS","VSSEQ",2,79,"Y",0
+"CDISC-01","CDISC-01-704-037","Active Drug 50mg",2023-01-06,2023-03-28,"PULSE","Pulse Rate",83,"Visit 2",2,2023-02-04,30,"VS","VSSEQ",6,79,"",4
+"CDISC-01","CDISC-01-704-037","Active Drug 50mg",2023-01-06,2023-03-28,"PULSE","Pulse Rate",74,"Visit 3",3,2023-03-02,56,"VS","VSSEQ",10,79,"",-5
+"CDISC-01","CDISC-01-704-037","Active Drug 50mg",2023-01-06,2023-03-28,"SYSBP","Systolic Blood Pressure",133,"Visit 1",1,2023-01-04,-2,"VS","VSSEQ",3,133,"Y",0
+"CDISC-01","CDISC-01-704-037","Active Drug 50mg",2023-01-06,2023-03-28,"SYSBP","Systolic Blood Pressure",135,"Visit 2",2,2023-02-04,30,"VS","VSSEQ",7,133,"",2
+"CDISC-01","CDISC-01-704-037","Active Drug 50mg",2023-01-06,2023-03-28,"SYSBP","Systolic Blood Pressure",145,"Visit 3",3,2023-03-02,56,"VS","VSSEQ",11,133,"",12
+"CDISC-01","CDISC-01-704-037","Active Drug 50mg",2023-01-06,2023-03-28,"WEIGHT","Weight",84.2,"Visit 1",1,2023-01-04,-2,"VS","VSSEQ",4,84.2,"Y",0
+"CDISC-01","CDISC-01-704-037","Active Drug 50mg",2023-01-06,2023-03-28,"WEIGHT","Weight",72.4,"Visit 2",2,2023-02-04,30,"VS","VSSEQ",8,84.2,"",-11.8
+"CDISC-01","CDISC-01-704-037","Active Drug 50mg",2023-01-06,2023-03-28,"WEIGHT","Weight",80,"Visit 3",3,2023-03-02,56,"VS","VSSEQ",12,84.2,"",-4.2
+"CDISC-01","CDISC-01-704-038","Placebo",2023-01-05,2023-03-28,"DIABP","Diastolic Blood Pressure",96,"Visit 1",1,2023-01-03,-2,"VS","VSSEQ",1,96,"Y",0
+"CDISC-01","CDISC-01-704-038","Placebo",2023-01-05,2023-03-28,"DIABP","Diastolic Blood Pressure",90,"Visit 2",2,2023-02-04,31,"VS","VSSEQ",5,96,"",-6
+"CDISC-01","CDISC-01-704-038","Placebo",2023-01-05,2023-03-28,"DIABP","Diastolic Blood Pressure",84,"Visit 3",3,2023-03-06,61,"VS","VSSEQ",9,96,"",-12
+"CDISC-01","CDISC-01-704-038","Placebo",2023-01-05,2023-03-28,"PULSE","Pulse Rate",85,"Visit 1",1,2023-01-03,-2,"VS","VSSEQ",2,85,"Y",0
+"CDISC-01","CDISC-01-704-038","Placebo",2023-01-05,2023-03-28,"PULSE","Pulse Rate",90,"Visit 2",2,2023-02-04,31,"VS","VSSEQ",6,85,"",5
+"CDISC-01","CDISC-01-704-038","Placebo",2023-01-05,2023-03-28,"PULSE","Pulse Rate",80,"Visit 3",3,2023-03-06,61,"VS","VSSEQ",10,85,"",-5
+"CDISC-01","CDISC-01-704-038","Placebo",2023-01-05,2023-03-28,"SYSBP","Systolic Blood Pressure",111,"Visit 1",1,2023-01-03,-2,"VS","VSSEQ",3,111,"Y",0
+"CDISC-01","CDISC-01-704-038","Placebo",2023-01-05,2023-03-28,"SYSBP","Systolic Blood Pressure",145,"Visit 2",2,2023-02-04,31,"VS","VSSEQ",7,111,"",34
+"CDISC-01","CDISC-01-704-038","Placebo",2023-01-05,2023-03-28,"SYSBP","Systolic Blood Pressure",148,"Visit 3",3,2023-03-06,61,"VS","VSSEQ",11,111,"",37
+"CDISC-01","CDISC-01-704-038","Placebo",2023-01-05,2023-03-28,"WEIGHT","Weight",58.7,"Visit 1",1,2023-01-03,-2,"VS","VSSEQ",4,58.7,"Y",0
+"CDISC-01","CDISC-01-704-038","Placebo",2023-01-05,2023-03-28,"WEIGHT","Weight",80.2,"Visit 2",2,2023-02-04,31,"VS","VSSEQ",8,58.7,"",21.5
+"CDISC-01","CDISC-01-704-038","Placebo",2023-01-05,2023-03-28,"WEIGHT","Weight",71.8,"Visit 3",3,2023-03-06,61,"VS","VSSEQ",12,58.7,"",13.1
+"CDISC-01","CDISC-01-704-044","Active Drug 50mg",2023-01-16,2023-03-24,"DIABP","Diastolic Blood Pressure",100,"Visit 1",1,2023-01-13,-3,"VS","VSSEQ",1,100,"Y",0
+"CDISC-01","CDISC-01-704-044","Active Drug 50mg",2023-01-16,2023-03-24,"DIABP","Diastolic Blood Pressure",78,"Visit 2",2,2023-02-13,29,"VS","VSSEQ",5,100,"",-22
+"CDISC-01","CDISC-01-704-044","Active Drug 50mg",2023-01-16,2023-03-24,"DIABP","Diastolic Blood Pressure",74,"Visit 3",3,2023-03-16,60,"VS","VSSEQ",9,100,"",-26
+"CDISC-01","CDISC-01-704-044","Active Drug 50mg",2023-01-16,2023-03-24,"PULSE","Pulse Rate",69,"Visit 1",1,2023-01-13,-3,"VS","VSSEQ",2,69,"Y",0
+"CDISC-01","CDISC-01-704-044","Active Drug 50mg",2023-01-16,2023-03-24,"PULSE","Pulse Rate",95,"Visit 2",2,2023-02-13,29,"VS","VSSEQ",6,69,"",26
+"CDISC-01","CDISC-01-704-044","Active Drug 50mg",2023-01-16,2023-03-24,"PULSE","Pulse Rate",75,"Visit 3",3,2023-03-16,60,"VS","VSSEQ",10,69,"",6
+"CDISC-01","CDISC-01-704-044","Active Drug 50mg",2023-01-16,2023-03-24,"SYSBP","Systolic Blood Pressure",125,"Visit 1",1,2023-01-13,-3,"VS","VSSEQ",3,125,"Y",0
+"CDISC-01","CDISC-01-704-044","Active Drug 50mg",2023-01-16,2023-03-24,"SYSBP","Systolic Blood Pressure",119,"Visit 2",2,2023-02-13,29,"VS","VSSEQ",7,125,"",-6
+"CDISC-01","CDISC-01-704-044","Active Drug 50mg",2023-01-16,2023-03-24,"SYSBP","Systolic Blood Pressure",128,"Visit 3",3,2023-03-16,60,"VS","VSSEQ",11,125,"",3
+"CDISC-01","CDISC-01-704-044","Active Drug 50mg",2023-01-16,2023-03-24,"WEIGHT","Weight",69.2,"Visit 1",1,2023-01-13,-3,"VS","VSSEQ",4,69.2,"Y",0
+"CDISC-01","CDISC-01-704-044","Active Drug 50mg",2023-01-16,2023-03-24,"WEIGHT","Weight",69.8,"Visit 2",2,2023-02-13,29,"VS","VSSEQ",8,69.2,"",0.599999999999994
+"CDISC-01","CDISC-01-704-044","Active Drug 50mg",2023-01-16,2023-03-24,"WEIGHT","Weight",92.4,"Visit 3",3,2023-03-16,60,"VS","VSSEQ",12,69.2,"",23.2

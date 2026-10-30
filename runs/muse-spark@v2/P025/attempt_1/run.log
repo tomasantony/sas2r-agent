@@ -1,0 +1,11 @@
+sandbox: docker run --rm --name sas2r-ccd49032649a --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P025\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading edc_ex: /bench/data/raw/faijal-oncology/raw_data/edc_ex.xlsx
+edc_ex rows=7 cols=SUBJID|VISIT|TRT|DOSE|UNIT|STDT|ENDT|LOT|ROUTE|FREQ|FORM|ADJ|ADJRS
+Reading edc_dm: /bench/data/raw/faijal-oncology/raw_data/edc_dm.xlsx
+Reading ivrs_rand: /bench/data/raw/faijal-oncology/raw_data/ivrs_rand.xlsx
+ivrs_rand date cols: RAND_DT
+RFSTDTC derived from ivrs_rand
+RFSTDTC coalesce(rand/dm, first-ex)
+dm_for_ex rows=4
+sdtm_ex rows=6
+Done. Outputs written to /work/out

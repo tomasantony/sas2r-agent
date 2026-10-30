@@ -1,0 +1,9 @@
+sandbox: docker run --rm --name sas2r-c7f21f71166b --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P063\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Building dummy data
+min= -2  max= 30 
+range= 32 
+Writing gant.csv
+Writing gant.txt
+Writing gant.xlsx
+Writing gant.png
+Done

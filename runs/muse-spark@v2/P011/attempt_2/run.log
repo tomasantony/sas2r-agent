@@ -1,0 +1,3 @@
+sandbox: docker run --rm --name sas2r-091cf829ca0a --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P011\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+DM rows: 50  cols: 14 
+Audit printed: 10 rows

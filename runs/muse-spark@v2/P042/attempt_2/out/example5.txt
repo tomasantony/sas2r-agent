@@ -1,0 +1,29 @@
+Sales for the Western Sectors
+
+Manager    Department     Sales
+-------    ----------   -------
+Adams      Paper         $40.00
+Adams      Canned       $225.00
+Adams      Meat/Dairy   $350.00
+Adams      Produce       $80.00
+
+Brown      Paper         $45.00
+Brown      Canned       $230.00
+Brown      Meat/Dairy   $250.00
+Brown      Produce       $73.00
+
+Pelfrey    Paper         $45.00
+Pelfrey    Canned       $420.00
+Pelfrey    Meat/Dairy   $205.00
+Pelfrey    Produce       $76.00
+
+Reveiz     Paper         $60.00
+Reveiz     Canned       $420.00
+Reveiz     Meat/Dairy   $600.00
+Reveiz     Produce       $30.00
+
+Taylor     Paper         $53.00
+Taylor     Canned       $120.00
+Taylor     Meat/Dairy   $130.00
+Taylor     Produce       $50.00
+

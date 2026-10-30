@@ -1,0 +1,13 @@
+sandbox: docker run --rm --name sas2r-9bb98da9a317 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P043\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading /bench/data/derived/cdisc-pilot/adam-split/adlbc.xpt
+ADLBC rows=74264 cols=46
+STUDYID, SUBJID, USUBJID, TRTP, TRTPN, TRTA, TRTAN, TRTSDT, TRTEDT, AGE, AGEGR1, AGEGR1N, RACE, RACEN, SEX, COMP24FL, DSRAEFL, SAFFL, AVISIT, AVISITN, ADY, ADT, VISIT, VISITNUM, PARAM, PARAMCD, PARAMN, PARCAT1, AVAL, BASE, CHG, A1LO, A1HI, R2A1LO, R2A1HI, BR2A1LO, BR2A1HI, ANL01FL, ALBTRVAL, ANRIND, BNRIND, ABLFL, AENTMTFL, LBSEQ, LBNRIND, LBSTRESN
+After PARAMCD=SODIUM rows=2052
+START rows=246
+LLN=135
+ULN=145
+Final LLN=135 ULN=145
+TRTA levels: Placebo | Xanomeline High Dose | Xanomeline Low Dose
+Wrote sgrender.png
+Wrote sgrender.csv
+Wrote sgrender.txt

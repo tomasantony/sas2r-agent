@@ -1,0 +1,65 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P035",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 1,
+ "prompt_version": 2,
+ "run_name": "muse-spark@v2",
+ "recorded_at": "2026-10-29T21:58:21",
+ "agent_commit": "c2ad21bd64e63ca9c44876bef9975bef53491dfe",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 3593,
+  "output_tokens": 19070,
+  "reasoning_tokens": 13616,
+  "finish_reason": "stop",
+  "seconds": 120.6
+ },
+ "inputs": {
+  "prompt_translate.md": "cc592e5eb7ea2248ae4bbf88f98395957a686309b0f47d920b259f854bbe07c2"
+ },
+ "model_output": {
+  "response.md": "2ee33206cc7760fb6ad5c2bec7662fef340343f442924c0625434b4902b7cf05",
+  "script.R": "52b2fd4cd8c5d505139a743146f4905aa219d6f686d434bf821f49118560573e"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.5,
+  "timed_out": false,
+  "log_sha256": "df81940f64e1bfa7ab370bf2570b4de9e4ab4dbc85bc23a876b82250e7b8927f"
+ },
+ "r_outputs": {
+  "CLXCHECKNOBS.csv": "348b21a28994df22d30617a3de87dca162c6d195f2e8e636cd78e48167d8857c",
+  "P035.csv": "348b21a28994df22d30617a3de87dca162c6d195f2e8e636cd78e48167d8857c",
+  "P035.lst": "3d69f60e6e1e7aa846f8daae12d0dde25207cd82fc83e10e4421b7a73e838067",
+  "P035.txt": "3d69f60e6e1e7aa846f8daae12d0dde25207cd82fc83e10e4421b7a73e838067"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P035.lst",
+   "sha256": "7d3677b6f685889ecc9af4a85d23cd42b0504c9ef958f652fd6ca1d010fec2fa",
+   "frozen_sha256": "7d3677b6f685889ecc9af4a85d23cd42b0504c9ef958f652fd6ca1d010fec2fa",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.9354838709677419,
+  "produced_all": true
+ }
+}

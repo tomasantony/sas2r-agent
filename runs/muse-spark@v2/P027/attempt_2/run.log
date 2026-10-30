@@ -1,0 +1,12 @@
+sandbox: docker run --rm --name sas2r-a741edd7723d --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P027\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+P027 RS mapping started
+edc_rs cols: SUBJID,TESTCD,ORRES,VISIT,RSDT 
+edc_rs n: 3 
+Using cols: SUBJID TESTCD ORRES VISIT RSDT 
+edc_dm cols: SUBJID,BRTHDT,GENDER,RACE,ETHNIC,RFICDT,SITE 
+edc_ex cols: SUBJID,VISIT,TRT,DOSE,UNIT,STDT,ENDT,LOT,ROUTE,FREQ,FORM,ADJ,ADJRS 
+ivrs_rand cols: SUBJID,RAND_DT,TRT_CODE 
+EX date col: STDT  RAND date col: RAND_DT 
+dm_for_rs n: 5  non-missing RFSTDTC: 5 
+sdtm_rs n: 3 
+Done. Wrote rs.csv, P027.csv, P027.txt, P027.lst to /work/out 

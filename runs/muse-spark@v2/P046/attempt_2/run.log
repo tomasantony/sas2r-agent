@@ -1,0 +1,27 @@
+sandbox: docker run --rm --name sas2r-10e21337e738 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P046\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Reading: /bench/data/raw/cdisc-pilot/adam/advs.xpt
+advs nrow=454
+Warning message:
+Removed 1 row containing missing values or values outside the scale range
+(`geom_point()`). 
+Warning messages:
+1: Removed 1 row containing non-finite outside the scale range (`stat_smooth()`). 
+2: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  pseudoinverse used at 68.296
+3: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  neighborhood radius 5.4176
+4: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  reciprocal condition number  1.4251e-16
+5: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  There are other near singularities as well. 29.35
+6: In predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :
+  pseudoinverse used at 68.296
+7: In predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :
+  neighborhood radius 5.4176
+8: In predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :
+  reciprocal condition number  1.4251e-16
+9: In predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :
+  There are other near singularities as well. 29.35
+10: Removed 1 row containing missing values or values outside the scale range
+(`geom_point()`). 
+Done

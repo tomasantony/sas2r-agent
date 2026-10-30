@@ -1,0 +1,46 @@
+sandbox: docker run --rm --name sas2r-31ebc2e5518c --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P054\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Reading: /bench/data/raw/cdisc-pilot/adam/advs.xpt 
+inds rows: 678 
+                                                            Var1 Freq
+1 Diastolic Blood Pressure (mmHg) After Lying Down For 5 Minutes  226
+2    Diastolic Blood Pressure (mmHg) After Standing For 1 Minute  226
+3   Diastolic Blood Pressure (mmHg) After Standing For 3 Minutes  226
+    Var1 Freq
+1   High   63
+2    Low   28
+3 Normal  587
+    Var1 Freq
+1   High   28
+2    Low   44
+3 Normal  606
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+cnt_base rows: 678 
+unmapped BNRIND:  
+unmapped ANRIND:  
+trans rows: 36  groups: 3 
+# A tibble: 36 × 15
+   PARAM   PARAMN TRTPN TRTTX BNRINDN BNRIND    N1 PCT1     N2 PCT2     N3 PCT3 
+   <chr>    <dbl> <dbl> <chr>   <int> <chr>  <dbl> <chr> <dbl> <chr> <dbl> <chr>
+ 1 Diasto…    815     0 Plac…       1 Low        2 (  2…     0 (  0…     0 (  0…
+ 2 Diasto…    815     0 Plac…       2 Normal     0 (  0…    66 ( 81…     0 (  0…
+ 3 Diasto…    815     0 Plac…       3 High       0 (  0…     0 (  0…     2 (  2…
+ 4 Diasto…    815     0 Plac…       4 Total      0 (  0…     0 (  0…     0 (  0…
+ 5 Diasto…    815    54 Xano…       1 Low        0 (  0…     0 (  0…     0 (  0…
+ 6 Diasto…    815    54 Xano…       2 Normal     0 (  0…    66 ( 91…     0 (  0…
+ 7 Diasto…    815    54 Xano…       3 High       0 (  0…     0 (  0…     0 (  0…
+ 8 Diasto…    815    54 Xano…       4 Total      0 (  0…     0 (  0…     0 (  0…
+ 9 Diasto…    815    81 Xano…       1 Low        1 (  1…     0 (  0…     0 (  0…
+10 Diasto…    815    81 Xano…       2 Normal     0 (  0…    64 ( 87…     0 (  0…
+# ℹ 26 more rows
+# ℹ 3 more variables: N4 <dbl>, PCT4 <chr>, DENOM <dbl>
+Done. Rows: 36  BY groups: 3 

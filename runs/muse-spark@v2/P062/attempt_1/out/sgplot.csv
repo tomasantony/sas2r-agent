@@ -1,0 +1,13 @@
+"source","DIAGID","boxid","box_x","box_y","text_x","text_y","text_x2","text_y2","text","text2","sizeresponse","_LINEID","lineid","line_x","line_y"
+"diagram_box","1",1,30,100,,,,,,,,,,,
+"diagram_box","1",1,70,100,,,,,,,,,,,
+"diagram_box","1",1,70,90,,,,,,,,,,,
+"diagram_box","1",1,30,90,,,,,,,,,,,
+"diagram_box","2",2,37,55,,,,,,,,,,,
+"diagram_box","2",2,63,55,,,,,,,,,,,
+"diagram_box","2",2,63,45,,,,,,,,,,,
+"diagram_box","2",2,37,45,,,,,,,,,,,
+"diagram_box_text","1",,,,50,95,,,"Assessed for eligibility (n=100)",,10,,,,
+"diagram_box_text","2",,,,50,50,,,"Randomized (n=90)",,10,,,,
+"diagram_line",,,,,,,,,,,,"1",1,50,90
+"diagram_line",,,,,,,,,,,,"1",1,50,55

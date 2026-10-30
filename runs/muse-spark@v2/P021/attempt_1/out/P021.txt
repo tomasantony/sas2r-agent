@@ -1,0 +1,28 @@
+Table 1: Demographics and Baseline Characteristics
+Population: Intent-to-Treat (ITT)
+
+Demographic Parameter           |Active Drug |     Placebo|       Total|
+------------------------------------------------------------------------
+Total Subjects                  |          19|          28|          47|
+  F - n                         |           8|          12|          20|
+  F - %                         |        42.1|        42.9|        42.6|
+  M - n                         |          11|          16|          27|
+  M - %                         |        57.9|        57.1|        57.4|
+  ASIAN - n                     |           2|           3|           5|
+  ASIAN - %                     |        10.5|        10.7|        10.6|
+  BLACK OR AFRICAN AMERICAN - n |           1|           5|           6|
+  BLACK OR AFRICAN AMERICAN - % |         5.3|        17.9|        12.8|
+  OTHER - n                     |           0|           2|           2|
+  OTHER - %                     |         0.0|         7.1|         4.3|
+  WHITE - n                     |          16|          18|          34|
+  WHITE - %                     |        84.2|        64.3|        72.3|
+Age (years) - n                 |          19|          28|          47|
+Age (years) - Mean              |        73.3|        75.1|        74.4|
+Age (years) - SD                |        6.36|        5.80|        6.03|
+Age (years) - Min               |          65|          65|          65|
+Age (years) - Max               |          84|          84|          84|
+------------------------------------------------------------------------
+
+N = 47 randomized subjects (ITTFL='Y').
+Statistics: N (5.0), ColPctN % (5.1), Mean (5.1), SD (5.2), Min/Max (5.0).
+Missing statistics displayed as 0 (MISSTEXT). Missing class levels included.

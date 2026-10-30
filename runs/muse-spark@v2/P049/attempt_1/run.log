@@ -1,0 +1,10 @@
+sandbox: docker run --rm --name sas2r-98f6ca7eff88 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P049\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADSL
+Using ADSL: /bench/data/raw/cdisc-pilot/adam/adsl.xpt
+Transposed rows:
+11 rows, 5 cols
+Wrote /work/out/P049.txt
+Error in `[[<-.data.frame`(`*tmp*`, "Subject Disposition", value = c("Completed",  : 
+  replacement has 11 rows, data has 0
+Calls: [[<- -> [[<-.data.frame
+Execution halted

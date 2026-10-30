@@ -1,0 +1,5 @@
+sandbox: docker run --rm --name sas2r-02109415cb51 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P068\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+[1] "C"
+Big N: Drug X High Dose=63, Drug X Low Dose=82, Placebo=95 Total=240
+Wrote /work/out/t_ae_soc_pt.txt rows=17
+Wrote /work/out/t_ae_soc_pt.csv

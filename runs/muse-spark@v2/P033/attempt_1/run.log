@@ -1,0 +1,35 @@
+sandbox: docker run --rm --name sas2r-87f93eaa70e4 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P033\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADSL: /bench/data/raw/cdisc-pilot/adam/adsl.xpt 
+Reading ADPC: /bench/data/raw/cdisc-pilot/adam/adpc.xpt 
+ADSL: 254 rows x 48 cols
+ADPC: 2463 rows x 200 cols
+SORTadpc: 2463 rows
+Plot rows (non-missing AVAL/EACTM): 2460
+BY groups (USUBJID x PARCAT1): 84
+            USUBJID            PARCAT1
+1  Study001_1001001 DRUG ANAL 1 Plasma
+2  Study001_1001001 DRUG ANAL 2 Plasma
+3  Study001_1001001 DRUG ANAL 3 Plasma
+4  Study001_1001002 DRUG ANAL 1 Plasma
+5  Study001_1001002 DRUG ANAL 2 Plasma
+6  Study001_1001002 DRUG ANAL 3 Plasma
+7  Study001_1001003 DRUG ANAL 1 Plasma
+8  Study001_1001003 DRUG ANAL 2 Plasma
+9  Study001_1001003 DRUG ANAL 3 Plasma
+10 Study001_1001004 DRUG ANAL 1 Plasma
+11 Study001_1001004 DRUG ANAL 2 Plasma
+12 Study001_1001004 DRUG ANAL 3 Plasma
+13 Study001_1001005 DRUG ANAL 1 Plasma
+14 Study001_1001005 DRUG ANAL 2 Plasma
+15 Study001_1001005 DRUG ANAL 3 Plasma
+16 Study001_1001006 DRUG ANAL 1 Plasma
+17 Study001_1001006 DRUG ANAL 2 Plasma
+18 Study001_1001006 DRUG ANAL 3 Plasma
+19 Study001_1001007 DRUG ANAL 1 Plasma
+20 Study001_1001007 DRUG ANAL 2 Plasma
+Facets: 84 panels (4 cols x 21 rows), PNG 16.0 x 32.0 in
+Wrote figure: /work/out/sasgraph.png 
+Wrote plotted data: /work/out/sasgraph.csv 
+Wrote dataset: /work/out/SORTadpc.csv 
+Wrote text rendering: /work/out/sasgraph.txt 
+Done.

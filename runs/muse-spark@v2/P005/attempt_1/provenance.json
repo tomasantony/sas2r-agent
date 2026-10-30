@@ -1,0 +1,70 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P005",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 1,
+ "prompt_version": 2,
+ "run_name": "muse-spark@v2",
+ "recorded_at": "2026-10-29T21:18:26",
+ "agent_commit": "c2ad21bd64e63ca9c44876bef9975bef53491dfe",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 3186,
+  "output_tokens": 11700,
+  "reasoning_tokens": 5753,
+  "finish_reason": "stop",
+  "seconds": 81.2
+ },
+ "inputs": {
+  "prompt_translate.md": "0e256d97dee568faf7dca128f281265fb4230f1047cb56e76f08061f7ecec9ba"
+ },
+ "model_output": {
+  "response.md": "aad4aac032f80429760dae2824409d839cbde02455e7c1abca05dba5325456c3",
+  "script.R": "1838efa72ddca9103070d86f8e3f873d3878dd1d4455e955d4a3417e6fcd31f3"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.3,
+  "timed_out": false,
+  "log_sha256": "a0bcb02981eba29dfc1039a7e49e18c41527c1dcdfae04a3cd0d5d2e09d93772"
+ },
+ "r_outputs": {
+  "adlb.csv": "5fda4c13d4da4d2ce3373678d45f171effb80f6f6cbc1d5934dd2da3dfd09d3d",
+  "P005.csv": "dd0ed4a13f2a17a48244a3e678fdea26ceffea6dfd9b51791486a751a7b9eda2",
+  "P005.txt": "b2d9b560ca66364e2641b1deeb7c48355c22fd4a29d54f1370e1662e4693591e"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P005.lst",
+   "sha256": "15b5e6f38b69ef9d1c203f4e17dc8372ffa89962a45f65410ecd3c02826e773f",
+   "frozen_sha256": "15b5e6f38b69ef9d1c203f4e17dc8372ffa89962a45f65410ecd3c02826e773f",
+   "ok": true
+  },
+  {
+   "file": "datasets/P005/adlb.sas7bdat",
+   "sha256": "1ed3f6ff3af879aaa85973b9951c455403dea9cedddef4d6f1fe5c19ec59d6c9",
+   "frozen_sha256": "1ed3f6ff3af879aaa85973b9951c455403dea9cedddef4d6f1fe5c19ec59d6c9",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

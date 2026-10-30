@@ -1,0 +1,113 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9802380952380952,
+ "artifacts": [
+  {
+   "kind": "dataset",
+   "name": "raw_ae",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@v2\\P066\\attempt_1\\out\\raw_ae.csv",
+   "status": "mismatch",
+   "score": 0.9583333333333334,
+   "detail": {
+    "rows_sas": 4,
+    "rows_r": 4,
+    "cols_sas": 6,
+    "cols_r": 6,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.9583333333333334,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(AETERM, 3, 'Dizzines', 'Dizziness')"
+    ],
+    "worst_columns": {
+     "AETERM": 1
+    }
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "raw_dm",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@v2\\P066\\attempt_1\\out\\raw_dm.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 4,
+    "rows_r": 4,
+    "cols_sas": 6,
+    "cols_r": 6,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "raw_ex",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@v2\\P066\\attempt_1\\out\\raw_ex.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 4,
+    "rows_r": 4,
+    "cols_sas": 4,
+    "cols_r": 4,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "raw_lb",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@v2\\P066\\attempt_1\\out\\raw_lb.csv",
+   "status": "mismatch",
+   "score": 0.9428571428571428,
+   "detail": {
+    "rows_sas": 14,
+    "rows_r": 14,
+    "cols_sas": 5,
+    "cols_r": 5,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.9428571428571428,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(VISIT, 1, 'Screenin', 'Screening')",
+     "(VISIT, 5, 'Screenin', 'Screening')",
+     "(VISIT, 9, 'Screenin', 'Screening')",
+     "(VISIT, 12, 'Screenin', 'Screening')"
+    ],
+    "worst_columns": {
+     "VISIT": 4
+    }
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "raw_vs",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@v2\\P066\\attempt_1\\out\\raw_vs.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 4,
+    "rows_r": 4,
+    "cols_sas": 5,
+    "cols_r": 5,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  }
+ ]
+}

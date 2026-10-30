@@ -1,0 +1,107 @@
+[Sponsor Name]                                                                                                         Page 1 of 3
+Protocol: [Protocol Number]
+
+                                                          Listing 16.2.2                                                          
+                                                  Listing of Protocol Deviations                                                  
+                                                           All Subjects                                                           
+
+  Treatment    |   Site   |    Subject     |    Deviation     |      Sub-      |           Description            |    Start     |     End      |    Epoch     |  Severity 
+               |          |       ID       |     Category     |    category    |                                  |     Date     |     Date     |              |           
+---------------+----------+----------------+------------------+----------------+----------------------------------+--------------+--------------+--------------+-----------
+Drug X High Dose | 001      | SYN001-001030  | MINOR            | PROHIBITED MEDICATION | Prohibited concomitant medication taken | 2025-04-24   | 2025-04-28   | TREATMENT    | MINOR     
+               |          | SYN001-001078  | MINOR            | VISIT SCHEDULE | Visit outside protocol window    | 2025-07-17   | 2025-07-19   | TREATMENT    | MINOR     
+Drug X High Dose | 001      | SYN001-001216  | MINOR            | VISIT SCHEDULE | Visit outside protocol window    | 2025-06-11   | 2025-06-15   | TREATMENT    | MINOR     
+               | 003      | SYN001-003056  | MINOR            | PROHIBITED MEDICATION | Prohibited concomitant medication taken | 2025-07-13   | 2025-07-21   | TREATMENT    | MINOR     
+Drug X High Dose | 004      | SYN001-004009  | MAJOR            | STUDY TREATMENT | Study drug dose missed > 3 consecutive days | 2025-06-20   | 2025-06-23   | TREATMENT    | MAJOR     
+               |          | SYN001-004075  | MINOR            | PROHIBITED MEDICATION | Prohibited concomitant medication taken | 2025-06-12   | 2025-06-18   | TREATMENT    | MINOR     
+Drug X High Dose | 004      | SYN001-004177  | MINOR            | PROHIBITED MEDICATION | Prohibited concomitant medication taken | 2025-05-07   | 2025-05-12   | TREATMENT    | MINOR     
+               | 005      | SYN001-005028  | MAJOR            | STUDY TREATMENT | Study drug dose missed > 3 consecutive days | 2025-06-10   | 2025-06-10   | TREATMENT    | MAJOR     
+Drug X High Dose |          | SYN001-005238  | MINOR            | VISIT SCHEDULE | Visit outside protocol window    | 2025-09-18   | 2025-09-26   | TREATMENT    | MINOR     
+               | 006      | SYN001-006011  | MAJOR            | STUDY TREATMENT | Study drug dose missed > 3 consecutive days | 2025-03-17   | 2025-03-24   | TREATMENT    | MAJOR     
+Drug X High Dose |          | SYN001-006053  | MAJOR            | STUDY TREATMENT | Study drug dose missed > 3 consecutive days | 2025-03-11   | 2025-03-14   | TREATMENT    | MAJOR     
+               | 006      | SYN001-006083  | MINOR            | PROHIBITED MEDICATION | Prohibited concomitant medication taken | 2025-06-02   | 2025-06-09   | TREATMENT    | MINOR     
+Drug X High Dose |          | SYN001-006209  | MAJOR            | STUDY TREATMENT | Study drug dose missed > 3 consecutive days | 2025-05-23   | 2025-06-01   | TREATMENT    | MAJOR     
+
+Data cutoff: [DDMONYYYY].
+Source: ADaM datasets
+Program: P078_l_dv.sas | Run: 30OCT2026 02:58
+
+---------------------------------------- NEW PAGE (Break after Treatment) ----------------------------------------
+
+[Sponsor Name]                                                                                                         Page 2 of 3
+Protocol: [Protocol Number]
+
+                                                          Listing 16.2.2                                                          
+                                                  Listing of Protocol Deviations                                                  
+                                                           All Subjects                                                           
+
+  Treatment    |   Site   |    Subject     |    Deviation     |      Sub-      |           Description            |    Start     |     End      |    Epoch     |  Severity 
+               |          |       ID       |     Category     |    category    |                                  |     Date     |     Date     |              |           
+---------------+----------+----------------+------------------+----------------+----------------------------------+--------------+--------------+--------------+-----------
+Drug X Low Dose | 001      | SYN001-001048  | MAJOR            | STUDY TREATMENT | Study drug dose missed > 3 consecutive days | 2025-03-15   | 2025-03-20   | TREATMENT    | MAJOR     
+               |          | SYN001-001180  | MINOR            | PROHIBITED MEDICATION | Prohibited concomitant medication taken | 2025-06-06   | 2025-06-07   | TREATMENT    | MINOR     
+Drug X Low Dose | 001      | SYN001-001228  | MAJOR            | STUDY TREATMENT | Study drug dose missed > 3 consecutive days | 2025-08-17   | 2025-08-20   | TREATMENT    | MAJOR     
+               | 002      | SYN001-002001  | MAJOR            | STUDY TREATMENT | Study drug dose missed > 3 consecutive days | 2025-08-17   | 2025-08-20   | TREATMENT    | MAJOR     
+Drug X Low Dose |          | SYN001-002025  | MINOR            | PROHIBITED MEDICATION | Prohibited concomitant medication taken | 2025-05-18   | 2025-05-23   | TREATMENT    | MINOR     
+               | 002      | SYN001-002097  | MAJOR            | STUDY TREATMENT | Study drug dose missed > 3 consecutive days | 2025-05-14   | 2025-05-15   | TREATMENT    | MAJOR     
+Drug X Low Dose |          | SYN001-002169  | MAJOR            | STUDY TREATMENT | Study drug dose missed > 3 consecutive days | 2025-04-21   | 2025-04-28   | TREATMENT    | MAJOR     
+               | 003      | SYN001-003116  | MINOR            | VISIT SCHEDULE | Visit outside protocol window    | 2025-07-23   | 2025-08-01   | TREATMENT    | MINOR     
+Drug X Low Dose |          | SYN001-003236  | MINOR            | VISIT SCHEDULE | Visit outside protocol window    | 2025-06-27   | 2025-06-27   | TREATMENT    | MINOR     
+               | 004      | SYN001-004057  | MINOR            | VISIT SCHEDULE | Visit outside protocol window    | 2025-06-23   | 2025-06-29   | TREATMENT    | MINOR     
+Drug X Low Dose |          | SYN001-004087  | MINOR            | PROHIBITED MEDICATION | Prohibited concomitant medication taken | 2025-07-18   | 2025-07-26   | TREATMENT    | MINOR     
+               | 004      | SYN001-004141  | MINOR            | VISIT SCHEDULE | Visit outside protocol window    | 2025-05-21   | 2025-05-21   | TREATMENT    | MINOR     
+Drug X Low Dose |          | SYN001-004183  | MAJOR            | STUDY TREATMENT | Study drug dose missed > 3 consecutive days | 2025-06-02   | 2025-06-10   | TREATMENT    | MAJOR     
+               | 004      | SYN001-004207  | MINOR            | VISIT SCHEDULE | Visit outside protocol window    | 2025-08-06   | 2025-08-13   | TREATMENT    | MINOR     
+Drug X Low Dose | 005      | SYN001-005100  | MAJOR            | STUDY TREATMENT | Study drug dose missed > 3 consecutive days | 2025-08-13   | 2025-08-21   | TREATMENT    | MAJOR     
+               |          | SYN001-005142  | MAJOR            | STUDY TREATMENT | Study drug dose missed > 3 consecutive days | 2025-06-18   | 2025-06-19   | TREATMENT    | MAJOR     
+Drug X Low Dose | 005      | SYN001-005148  | MINOR            | PROHIBITED MEDICATION | Prohibited concomitant medication taken | 2025-07-02   | 2025-07-09   | TREATMENT    | MINOR     
+               |          | SYN001-005196  | MAJOR            | STUDY TREATMENT | Study drug dose missed > 3 consecutive days | 2025-06-17   | 2025-06-22   | TREATMENT    | MAJOR     
+Drug X Low Dose | 005      | SYN001-005214  | MINOR            | VISIT SCHEDULE | Visit outside protocol window    | 2025-06-21   | 2025-06-26   | TREATMENT    | MINOR     
+               | 006      | SYN001-006059  | MINOR            | PROHIBITED MEDICATION | Prohibited concomitant medication taken | 2025-04-21   | 2025-04-28   | TREATMENT    | MINOR     
+Drug X Low Dose |          | SYN001-006101  | MAJOR            | STUDY TREATMENT | Study drug dose missed > 3 consecutive days | 2025-04-17   | 2025-04-24   | TREATMENT    | MAJOR     
+               | 006      | SYN001-006119  | MINOR            | VISIT SCHEDULE | Visit outside protocol window    | 2025-08-06   | 2025-08-12   | TREATMENT    | MINOR     
+Drug X Low Dose |          | SYN001-006131  | MINOR            | PROHIBITED MEDICATION | Prohibited concomitant medication taken | 2025-04-16   | 2025-04-18   | TREATMENT    | MINOR     
+               | 006      | SYN001-006149  | MINOR            | VISIT SCHEDULE | Visit outside protocol window    | 2025-04-25   | 2025-04-27   | TREATMENT    | MINOR     
+
+Data cutoff: [DDMONYYYY].
+Source: ADaM datasets
+Program: P078_l_dv.sas | Run: 30OCT2026 02:58
+
+---------------------------------------- NEW PAGE (Break after Treatment) ----------------------------------------
+
+[Sponsor Name]                                                                                                         Page 3 of 3
+Protocol: [Protocol Number]
+
+                                                          Listing 16.2.2                                                          
+                                                  Listing of Protocol Deviations                                                  
+                                                           All Subjects                                                           
+
+  Treatment    |   Site   |    Subject     |    Deviation     |      Sub-      |           Description            |    Start     |     End      |    Epoch     |  Severity 
+               |          |       ID       |     Category     |    category    |                                  |     Date     |     Date     |              |           
+---------------+----------+----------------+------------------+----------------+----------------------------------+--------------+--------------+--------------+-----------
+Placebo        | 001      | SYN001-001006  | MINOR            | PROHIBITED MEDICATION | Prohibited concomitant medication taken | 2025-07-01   | 2025-07-01   | TREATMENT    | MINOR     
+               |          | SYN001-001060  | MAJOR            | STUDY TREATMENT | Study drug dose missed > 3 consecutive days | 2025-03-27   | 2025-04-02   | TREATMENT    | MAJOR     
+Placebo        | 001      | SYN001-001072  | MINOR            | VISIT SCHEDULE | Visit outside protocol window    | 2025-02-18   | 2025-02-18   | TREATMENT    | MINOR     
+               |          | SYN001-001168  | MAJOR            | STUDY TREATMENT | Study drug dose missed > 3 consecutive days | 2025-04-22   | 2025-04-26   | TREATMENT    | MAJOR     
+Placebo        | 001      | SYN001-001192  | MINOR            | VISIT SCHEDULE | Visit outside protocol window    | 2025-07-22   | 2025-07-30   | TREATMENT    | MINOR     
+               |          | SYN001-001222  | MINOR            | VISIT SCHEDULE | Visit outside protocol window    | 2025-05-13   | 2025-05-14   | TREATMENT    | MINOR     
+Placebo        | 002      | SYN001-002019  | MINOR            | PROHIBITED MEDICATION | Prohibited concomitant medication taken | 2025-02-17   | 2025-02-22   | TREATMENT    | MINOR     
+               |          | SYN001-002163  | MINOR            | PROHIBITED MEDICATION | Prohibited concomitant medication taken | 2025-07-01   | 2025-07-05   | TREATMENT    | MINOR     
+Placebo        | 002      | SYN001-002199  | MAJOR            | STUDY TREATMENT | Study drug dose missed > 3 consecutive days | 2025-07-01   | 2025-07-05   | TREATMENT    | MAJOR     
+               |          | SYN001-002205  | MAJOR            | STUDY TREATMENT | Study drug dose missed > 3 consecutive days | 2025-07-23   | 2025-07-26   | TREATMENT    | MAJOR     
+Placebo        | 003      | SYN001-003074  | MINOR            | PROHIBITED MEDICATION | Prohibited concomitant medication taken | 2025-07-14   | 2025-07-20   | TREATMENT    | MINOR     
+               |          | SYN001-003092  | MINOR            | PROHIBITED MEDICATION | Prohibited concomitant medication taken | 2025-07-05   | 2025-07-05   | TREATMENT    | MINOR     
+Placebo        | 003      | SYN001-003122  | MAJOR            | STUDY TREATMENT | Study drug dose missed > 3 consecutive days | 2025-09-27   | 2025-09-28   | TREATMENT    | MAJOR     
+               | 004      | SYN001-004003  | MAJOR            | STUDY TREATMENT | Study drug dose missed > 3 consecutive days | 2025-07-14   | 2025-07-18   | TREATMENT    | MAJOR     
+Placebo        |          | SYN001-004027  | MINOR            | PROHIBITED MEDICATION | Prohibited concomitant medication taken | 2025-05-03   | 2025-05-04   | TREATMENT    | MINOR     
+               | 004      | SYN001-004039  | MINOR            | VISIT SCHEDULE | Visit outside protocol window    | 2025-06-23   | 2025-06-26   | TREATMENT    | MINOR     
+Placebo        |          | SYN001-004105  | MINOR            | VISIT SCHEDULE | Visit outside protocol window    | 2025-09-22   | 2025-09-24   | TREATMENT    | MINOR     
+               | 005      | SYN001-005076  | MINOR            | VISIT SCHEDULE | Visit outside protocol window    | 2025-04-08   | 2025-04-10   | TREATMENT    | MINOR     
+Placebo        |          | SYN001-005166  | MINOR            | PROHIBITED MEDICATION | Prohibited concomitant medication taken | 2025-06-24   | 2025-06-25   | TREATMENT    | MINOR     
+               | 006      | SYN001-006029  | MINOR            | VISIT SCHEDULE | Visit outside protocol window    | 2025-09-15   | 2025-09-21   | TREATMENT    | MINOR     
+Placebo        |          | SYN001-006095  | MINOR            | VISIT SCHEDULE | Visit outside protocol window    | 2025-08-08   | 2025-08-13   | TREATMENT    | MINOR     
+
+Data cutoff: [DDMONYYYY].
+Source: ADaM datasets
+Program: P078_l_dv.sas | Run: 30OCT2026 02:58
+

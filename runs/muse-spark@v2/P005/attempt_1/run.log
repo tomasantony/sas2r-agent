@@ -1,0 +1,13 @@
+sandbox: docker run --rm --name sas2r-da7401340e13 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P005\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Read adsl from /bench/data/derived/c2c/data/adam/adsl.sas7bdat n=50
+Read lb from /bench/data/derived/c2c/data/sdtm/lb.sas7bdat n=516
+ADSL cols: 
+ [1] "STUDYID" "USUBJID" "SUBJID"  "SITEID"  "SEX"     "RACE"    "TRT01P" 
+ [8] "TRT01A"  "ITTFL"   "SAFFL"   "BRTHDT"  "RFICDT"  "TRTSDT"  "TRTEDT" 
+[15] "EOSDT"   "AGE"     "TRTDURD"
+LB cols: 
+ [1] "STUDYID"  "DOMAIN"   "USUBJID"  "LBSEQ"    "LBTESTCD" "LBTEST"  
+ [7] "LBCAT"    "LBORRES"  "LBORRESU" "LBSTRESC" "LBSTRESU" "VISIT"   
+[13] "VISITNUM" "LBSTRESN" "LBDTC"   
+Done. ADLB n=
+516

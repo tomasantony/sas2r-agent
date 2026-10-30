@@ -1,0 +1,66 @@
+PROC CONTENTS DATA=ADCM VARNUM;
+Variables in Creation Order:
+  1  STUDYID      Char  Study Identifier
+  2  USUBJID      Char  Unique Subject Identifier
+  3  CMSEQ        Num   Sequence Number
+  4  CMTRT        Char  Reported Name of Drug/Therapy
+  5  CMDECOD      Char  Standardized Medication Name
+  6  CMCLAS       Char  Medication Class
+  7  CMSTDTC      Char  
+  8  CMENDTC      Char  
+  9  CMDOSE       Num   Dose per Administration
+ 10  CMDOSU       Char  Dose Units
+ 11  CMROUTE      Char  Route of Administration
+ 12  CMFRQ        Char  Dosing Frequency
+ 13  CMINDC       Char  Indication
+ 14  CMONGO       Char  Ongoing Medication
+ 15  TRTP         Char  Planned Treatment
+ 16  TRTPN        Num   Planned Treatment (N)
+ 17  AGE          Num   
+ 18  SEX          Char  
+ 19  SAFFL        Char  Safety Population Flag
+ 20  TRTSDT       Date  
+ 21  TRTEDT       Date  
+ 22  ASTDT        Date  Analysis Start Date
+ 23  AENDT        Date  Analysis End Date
+ 24  ASTDY        Num   Analysis Start Relative Day
+ 25  AENDY        Num   Analysis End Relative Day
+ 26  CMDURN       Num   Medication Duration (Days)
+ 27  PREFL        Char  Prior Medication Flag
+ 28  ONTRTFL      Char  On-Treatment Flag
+ 29  CONCOMFL     Char  Concomitant Medication Flag
+ 30  ADTEFFL      Char  Medication Active at End of Treatment Flag
+ 31  ADTEFN       Num   
+ 32  CMDECOD_UP   Char  
+ 33  CMCLAS_UP    Char  
+ 34  ATCCD1       Char  ATC Level 1 Code
+ 35  ATC1         Char  ATC Level 1 Text
+ 36  ATCCD2       Char  
+ 37  ATC2         Char  
+ 38  ASEQ         Num   Analysis Sequence Number
+
+Number of Observations: 11
+Number of Variables: 38
+
+PROC PRINT DATA=ADCM (OBS=15) NOOBS;
+Observations displayed: 11 of 11
+
+STUDYID | USUBJID | CMSEQ | CMTRT | CMDECOD | CMCLAS | CMSTDTC | CMENDTC | CMDOSE | CMDOSU | CMROUTE | CMFRQ | CMINDC | CMONGO | TRTP | TRTPN | AGE | SEX | SAFFL | TRTSDT | TRTEDT | ASTDT | AENDT | ASTDY | AENDY | CMDURN | PREFL | ONTRTFL | CONCOMFL | ADTEFFL | ADTEFN | CMDECOD_UP | CMCLAS_UP | ATCCD1 | ATC1 | ATCCD2 | ATC2 | ASEQ
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+STUDY01 | STUDY01-1001 | 2 | LISINOPRIL | LISINOPRIL | ACE INHIBITORS | 2023-01-10 | . | 10 | mg | ORAL | QD | HYPERTENSION | Y | Treatment A | 1 | 59 | M | Y | 15JAN2024 | 15JUN2024 | 10JAN2023 |  | -370 |  |  | Y | Y | Y | Y | 1 | LISINOPRIL | ACE INHIBITORS | C09A | ACE INHIBITORS, PLAIN |  |  | 1
+STUDY01 | STUDY01-1001 | 1 | ASPIRIN | ASPIRIN | ANALGESICS | 2023-06-15 | . | 81 | mg | ORAL | QD | CARDIOVASCULAR PROTECTION | Y | Treatment A | 1 | 59 | M | Y | 15JAN2024 | 15JUN2024 | 15JUN2023 |  | -214 |  |  | Y | Y | Y | Y | 1 | ASPIRIN | ANALGESICS | N02 | ANALGESICS |  |  | 2
+STUDY01 | STUDY01-1001 | 3 | ACETAMINOPHEN | PARACETAMOL | ANALGESICS | 2024-02-01 | 2024-02-03 | 500 | mg | ORAL | PRN | HEADACHE | N | Treatment A | 1 | 59 | M | Y | 15JAN2024 | 15JUN2024 | 01FEB2024 | 03FEB2024 | 18 | 20 | 3 | N | Y | Y | N | 0 | PARACETAMOL | ANALGESICS | N02 | ANALGESICS |  |  | 3
+STUDY01 | STUDY01-1002 | 1 | METFORMIN | METFORMIN | ANTIDIABETICS | 2022-03-20 | . | 500 | mg | ORAL | BID | DIABETES | Y | Placebo | 2 | 45 | F | Y | 18JAN2024 | 18JUN2024 | 20MAR2022 |  | -669 |  |  | Y | Y | Y | Y | 1 | METFORMIN | ANTIDIABETICS | A10 | DRUGS USED IN DIABETES |  |  | 1
+STUDY01 | STUDY01-1002 | 2 | ATORVASTATIN | ATORVASTATIN | STATINS | 2023-08-01 | . | 20 | mg | ORAL | QD | HYPERLIPIDEMIA | Y | Placebo | 2 | 45 | F | Y | 18JAN2024 | 18JUN2024 | 01AUG2023 |  | -170 |  |  | Y | Y | Y | Y | 1 | ATORVASTATIN | STATINS | C10AA | HMG COA REDUCTASE INHIBITORS |  |  | 2
+STUDY01 | STUDY01-1003 | 1 | OMEPRAZOLE | OMEPRAZOLE | PROTON PUMP INHIBITORS | 2024-01-15 | . | 20 | mg | ORAL | QD | GERD | Y | Treatment A | 1 | 43 | M | Y | 20JAN2024 | 01APR2024 | 15JAN2024 |  | -5 |  |  | Y | Y | Y | Y | 1 | OMEPRAZOLE | PROTON PUMP INHIBITORS | A02BC | PROTON PUMP INHIBITORS |  |  | 1
+STUDY01 | STUDY01-1003 | 2 | IBUPROFEN | IBUPROFEN | NSAIDS | 2024-02-20 | 2024-02-22 | 400 | mg | ORAL | TID | BACK PAIN | N | Treatment A | 1 | 43 | M | Y | 20JAN2024 | 01APR2024 | 20FEB2024 | 22FEB2024 | 32 | 34 | 3 | N | Y | Y | N | 0 | IBUPROFEN | NSAIDS | M01A | ANTIINFLAMMATORY, ANTIRHEUMATIC NON-STEROIDS |  |  | 2
+STUDY01 | STUDY01-1004 | 1 | AMLODIPINE | AMLODIPINE | CALCIUM CHANNEL BLOCKERS | 2023-05-10 | . | 5 | mg | ORAL | QD | HYPERTENSION | Y | Treatment A | 1 | 51 | F | Y | 25JAN2024 | 25JUN2024 | 10MAY2023 |  | -260 |  |  | Y | Y | Y | Y | 1 | AMLODIPINE | CALCIUM CHANNEL BLOCKERS | C08CA | DIHYDROPYRIDINE DERIVATIVES |  |  | 1
+STUDY01 | STUDY01-1005 | 1 | LORATADINE | LORATADINE | ANTIHISTAMINES | 2024-03-01 | 2024-03-15 | 10 | mg | ORAL | QD | ALLERGIES | N | Placebo | 2 | 36 | M | Y | 28JAN2024 |  | 01MAR2024 | 15MAR2024 | 34 | 48 | 15 | N | Y | Y | N | 0 | LORATADINE | ANTIHISTAMINES | R06A | ANTIHISTAMINES FOR SYSTEMIC USE |  |  | 1
+STUDY01 | STUDY01-1006 | 1 | LEVOTHYROXINE | LEVOTHYROXINE | THYROID HORMONES | 2020-01-01 | . | 75 | mcg | ORAL | QD | HYPOTHYROIDISM | Y | Treatment A | 1 | 68 | F | Y | 30JAN2024 | 01JUL2024 | 01JAN2020 |  | -1490 |  |  | Y | Y | Y | Y | 1 | LEVOTHYROXINE | THYROID HORMONES | H03AA | THYROID HORMONES |  |  | 1
+STUDY01 | STUDY01-1006 | 2 | CALCIUM | CALCIUM CARBONATE | SUPPLEMENTS | 2023-09-01 | . | 600 | mg | ORAL | QD | BONE HEALTH | Y | Treatment A | 1 | 68 | F | Y | 30JAN2024 | 01JUL2024 | 01SEP2023 |  | -151 |  |  | Y | Y | Y | Y | 1 | CALCIUM CARBONATE | SUPPLEMENTS | A12AA | CALCIUM |  |  | 2
+
+Subjects: 6  Records: 11
+ONTRTFL: Y=11
+PREFL: N=3 Y=8
+CONCOMFL: Y=11
+ADTEFFL: N=3 Y=8

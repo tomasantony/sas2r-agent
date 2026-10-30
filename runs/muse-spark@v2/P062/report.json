@@ -1,0 +1,32 @@
+{
+ "id": "P062",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "family": "morioka",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 1.0,
+ "iterations": 1,
+ "input_tokens": 5946,
+ "output_tokens": 3229,
+ "seconds": 18.433695077896118,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 1.5303492546081543,
+   "input_tokens": 5946,
+   "output_tokens": 3229,
+   "seconds_llm": 16.785971879959106,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 1.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 1,
+ "prompt_version": 2,
+ "run_name": "muse-spark@v2"
+}

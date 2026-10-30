@@ -1,0 +1,90 @@
+Vital Signs
+Treatment-Emergent Abnormal High or Low at Any Time
+
+The FREQ Procedure
+Table of PARAM by TRTPN by CRIT1FL
+Controlling for PARAM=Diastolic Blood Pressure (mmHg)
+Table of TRTPN by CRIT1FL
+TRTPN       N        Y        Total
+Frequency |
+0 N Frequency 77 Percent 30.92 Row Pct 92.77 Col Pct 34.07
+0 Y Frequency 6 Percent 2.41 Row Pct 7.23 Col Pct 26.09
+0 Total Frequency 83 Percent 33.33
+Frequency |
+54 N Frequency 77 Percent 30.92 Row Pct 91.67 Col Pct 34.07
+54 Y Frequency 7 Percent 2.81 Row Pct 8.33 Col Pct 30.43
+54 Total Frequency 84 Percent 33.73
+Frequency |
+81 N Frequency 72 Percent 28.92 Row Pct 87.80 Col Pct 31.86
+81 Y Frequency 10 Percent 4.02 Row Pct 12.20 Col Pct 43.48
+81 Total Frequency 82 Percent 32.93
+Total Frequency 249 Percent 100.00
+N Total Frequency 226 Percent 90.76
+Y Total Frequency 23 Percent 9.24
+Statistics for Table of TRTPN by CRITFL
+Statistic                     DF       Value        Prob
+Chi-Square                   2      1.3369      0.5125
+Likelihood Ratio Chi-Square  2      1.2978      0.5226
+Mantel-Haenszel Chi-Square   1      1.2058      0.2722
+Phi Coefficient                       0.0733
+Contingency Coefficient               0.0731
+Cramer's V                            0.0733
+Fisher's Exact Test
+Cell (1,1) Frequency (F)  77
+Table Probability (P)  0.0208
+Two-sided Pr <= P (XP2_FISH)  0.5376
+Two-sided Pr <= P  0.5376
+Effective Sample Size = 249
+Frequency Missing = 0
+Total Frequency = 249
+
+The FREQ Procedure
+Table of PARAM by TRTPN by CRIT2FL
+Controlling for PARAM=Diastolic Blood Pressure (mmHg)
+Table of TRTPN by CRIT2FL
+TRTPN       N        Y        Total
+Frequency |
+0 N Frequency 70 Percent 28.11 Row Pct 84.34 Col Pct 32.56
+0 Y Frequency 13 Percent 5.22 Row Pct 15.66 Col Pct 38.24
+0 Total Frequency 83 Percent 33.33
+Frequency |
+54 N Frequency 71 Percent 28.51 Row Pct 84.52 Col Pct 33.02
+54 Y Frequency 13 Percent 5.22 Row Pct 15.48 Col Pct 38.24
+54 Total Frequency 84 Percent 33.73
+Frequency |
+81 N Frequency 74 Percent 29.72 Row Pct 90.24 Col Pct 34.42
+81 Y Frequency 8 Percent 3.21 Row Pct 9.76 Col Pct 23.53
+81 Total Frequency 82 Percent 32.93
+Total Frequency 249 Percent 100.00
+N Total Frequency 215 Percent 86.35
+Y Total Frequency 34 Percent 13.65
+Statistics for Table of TRTPN by CRITFL
+Statistic                     DF       Value        Prob
+Chi-Square                   2      1.5773      0.4545
+Likelihood Ratio Chi-Square  2      1.6579      0.4365
+Mantel-Haenszel Chi-Square   1      1.2110      0.2711
+Phi Coefficient                       0.0796
+Contingency Coefficient               0.0793
+Cramer's V                            0.0796
+Fisher's Exact Test
+Cell (1,1) Frequency (F)  70
+Table Probability (P)  0.0125
+Two-sided Pr <= P (XP2_FISH)  0.4701
+Two-sided Pr <= P  0.4701
+Effective Sample Size = 249
+Frequency Missing = 0
+Total Frequency = 249
+
+Vital Sign (unit) | Abnormality Direction | Treatment | N | n | (%) | P value*
+--------------------------------------------------------------------------------
+Diastolic Blood Pressure (mmHg) | Low | 0 | 83 | 6 | (7.2) | 0.538
+Diastolic Blood Pressure (mmHg) | Low | 54 | 84 | 7 | (8.3) | 
+Diastolic Blood Pressure (mmHg) | Low | 81 | 82 | 10 | (12.2) | 
+Diastolic Blood Pressure (mmHg) | High | 0 | 83 | 13 | (15.7) | 0.470
+Diastolic Blood Pressure (mmHg) | High | 54 | 84 | 13 | (15.5) | 
+Diastolic Blood Pressure (mmHg) | High | 81 | 82 | 8 | (9.8) | 
+
+Abbreviations:  N = number of patients with a normal (i.e., not low if calculating `low` and not high if calculating `high`)
+baseline and at least one post-baseline measure, n = number of patients wtih an abnormal post-baseline result in the
+specified category.
+*P values are from Fisher's Exact test.

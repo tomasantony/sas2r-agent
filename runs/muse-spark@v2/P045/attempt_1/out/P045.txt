@@ -1,0 +1,14 @@
+Table 7.5 Summary of Serious Adverse Events
+Safety Population
+-
+
+Preferred Term                                     Placebo         Treatment 1     Treatment 2     p-value   
+                                                   N=86            N=84            N=84            b         
+--------------------------------------------------------------------------------------------------------------
+Number of subjects reporting serious adverse events 0(0.0)          1(1.0)          2(2.0)          0.3255    
+PARTIAL SEIZURES WITH SECONDARY GENERALISATION     0(0.0)          0(0.0)          1(1.0)          0.6614    
+SYNCOPE                                            0(0.0)          1(1.0)          1(1.0)          0.5503    
+--------------------------------------------------------------------------------------------------------------
+-
+Denominator for each % is treatment column N
+*b = p-values are from Fisher's Exact Test

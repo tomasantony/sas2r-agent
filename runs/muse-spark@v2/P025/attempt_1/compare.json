@@ -1,0 +1,27 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P025.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 102,
+    "found": 102,
+    "r_files": [
+     "P025.csv",
+     "P025.lst.csv",
+     "P025.lst.txt",
+     "P025.txt",
+     "sdtm_ex.csv"
+    ],
+    "missing_examples": []
+   }
+  }
+ ]
+}

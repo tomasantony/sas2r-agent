@@ -1,0 +1,56 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9155555555555556,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P024.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9111111111111111,
+   "detail": {
+    "recall": 0.9111111111111111,
+    "expected": 45,
+    "found": 41,
+    "r_files": [
+     "ds.csv",
+     "P024.csv",
+     "P024.txt"
+    ],
+    "missing_examples": [
+     "136",
+     "159",
+     "86",
+     "116"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "ds",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@v2\\P024\\attempt_1\\out\\ds.csv",
+   "status": "mismatch",
+   "score": 0.92,
+   "detail": {
+    "rows_sas": 5,
+    "rows_r": 5,
+    "cols_sas": 10,
+    "cols_r": 10,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.92,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(DSSTDY, 1, 136, '126')",
+     "(DSSTDY, 2, 159, '147')",
+     "(DSSTDY, 3, 86, '81')",
+     "(DSSTDY, 5, 116, '106')"
+    ],
+    "worst_columns": {
+     "DSSTDY": 4
+    }
+   }
+  }
+ ]
+}

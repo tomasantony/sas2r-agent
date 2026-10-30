@@ -1,0 +1,70 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P092",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 1,
+ "prompt_version": 2,
+ "run_name": "muse-spark@v2",
+ "recorded_at": "2026-10-29T23:14:28",
+ "agent_commit": "c2ad21bd64e63ca9c44876bef9975bef53491dfe",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 1979,
+  "output_tokens": 3349,
+  "reasoning_tokens": 2143,
+  "finish_reason": "stop",
+  "seconds": 19.6
+ },
+ "inputs": {
+  "prompt_translate.md": "a557a7fa6fca8ad0620b3e8cdff0c7ee5e0432441f353f73c5cfff917e443bb5"
+ },
+ "model_output": {
+  "response.md": "7b2fbb48ebd2f5da34747ed6e3476aaee9353bbe8046059ca3612b47c612cc7a",
+  "script.R": "2cda7f5faa1d9b48a80cc9f073ec53dec3141c97dcf27b48d7d2b58e6589b888"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.5,
+  "timed_out": false,
+  "log_sha256": "00e892e0085978c66af866e2947d296badfb23018ecf87a9811b22d857615e29"
+ },
+ "r_outputs": {
+  "sct1.csv": "319bb058ecd628f229701bf9323c3b6e691904b4322705fcdf5c233727a333d7",
+  "sct1.png": "d6b1d86b31af704bf86bf0f58d9b91372d6c661fabacb9a16b64ebaab83e0f62",
+  "sct1.txt": "fb3f94a0d107e612b9f2bdaceba850347ed672e21ea172d035f61849dd5e5fae"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P092/sct1.htm",
+   "sha256": "866421b6084be29e14636b9ef34fbd7702c8fe52d1501533f17ae49483862742",
+   "frozen_sha256": "866421b6084be29e14636b9ef34fbd7702c8fe52d1501533f17ae49483862742",
+   "ok": true
+  },
+  {
+   "file": "datasets/P092/sct1.png",
+   "sha256": "b34b0b45f9c319489e944612b25e10091713d5058231f39b4de7c7332f9034bc",
+   "frozen_sha256": "b34b0b45f9c319489e944612b25e10091713d5058231f39b4de7c7332f9034bc",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

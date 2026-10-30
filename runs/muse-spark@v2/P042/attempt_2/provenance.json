@@ -1,0 +1,109 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P042",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 2,
+ "prompt_version": 2,
+ "run_name": "muse-spark@v2",
+ "recorded_at": "2026-10-29T22:12:44",
+ "agent_commit": "c2ad21bd64e63ca9c44876bef9975bef53491dfe",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 8524,
+  "output_tokens": 8671,
+  "reasoning_tokens": 4364,
+  "finish_reason": "stop",
+  "seconds": 41.1
+ },
+ "inputs": {
+  "prompt_translate.md": "494626f434cd1ab7ed624019dacf9a6305407166d56b59a4e371fbdedfb991fb"
+ },
+ "model_output": {
+  "response.md": "d40b286a07bee74b6d6bee02d86b95fe6784ddf41d1ebe94e31921f8fed4dff4",
+  "script.R": "b58bdf3a10e3f03280f1186b30004b23e8b09ec45461e881f2909f7f8905b04f"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.0,
+  "timed_out": false,
+  "log_sha256": "7819dadba06d83dae32589f413d10e4bb5c5f5a09eba41a42bf361298e02525e"
+ },
+ "r_outputs": {
+  "example1.csv": "5a772168a5fd2091ad0500cc27e2b51005165236f2420ff4d6735a9eb8669744",
+  "example1.html": "e59f6db506d8f3ffa89f20888a04667ddcd874c53ce9bcc6d81a8149908a9c85",
+  "example1.txt": "3249026e780c95e8c13990c94daca78ca14b4751c72981941b10364f95db74ce",
+  "example2.csv": "01503362eaf354043b53adaee27e861bae2a6ce4147566ea61a561bf2d345ccc",
+  "example2.html": "f5969af95622e3c88e784f0f2d6a0611131871fcd43eefd53bf58af0690705ff",
+  "example2.txt": "827761e820e4ae5352bd29a8d2586b308a5b3c22133a1d57ff8c6da19b2ff796",
+  "example3.csv": "e7063d42baaadd31551291adc76b11333da621477d68019dadc874f058a04fdf",
+  "example3.html": "661f9395a5f6aaf9326d09bd94b8b7579592a0b5b4492d3a28c9df231f8e03c7",
+  "example3.txt": "d5e064b123f3b7915f641d2bd23859016298ecf88f7dbdb52d6596aca7aa9c68",
+  "example4.csv": "e0b4dec2672925069d18e5269f89480bfce5c3ff112e65d06eea3bc5756a128b",
+  "example4.html": "cf9c377f62804124ca864f41a20a37951c7f3bd286ef2c3e2b56c2a88fa254a2",
+  "example4.txt": "7391956d501dd5b8f2158a6d842cbedc0b5ac7c1bb56f60b8ca45a80555774c1",
+  "example5.csv": "8eda9708871e9b2c5478f2d83da7f0fdfc692b4917bd0dcc98f6f6997d272564",
+  "example5.html": "0037a5019971e4852d3d6684ee83908f24c8d06098fd39f80e1ec2013f22b5e6",
+  "example5.txt": "d7a2f0c4f4daa004f0d260da8449a4a836e261a13650c4cb2de28be8c85f25b5",
+  "P042.csv": "9a798213b311ad92ef1abad7195fd412cf2f7c17e1e09d464146de42fb2dad2f",
+  "P042.lst": "377f08dd2cb0e31ba2443ac918f7d5b685767beee6f505047b97b0b591e8157e",
+  "P042.txt": "377f08dd2cb0e31ba2443ac918f7d5b685767beee6f505047b97b0b591e8157e"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P042.lst",
+   "sha256": "e5f6ab3ae153efd41caa295fa8399b1ae9657787813f8bbcbe59c43333a41830",
+   "frozen_sha256": "e5f6ab3ae153efd41caa295fa8399b1ae9657787813f8bbcbe59c43333a41830",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example1.html",
+   "sha256": "719d66082f5e9aae8658bf36f292681394782ae896a8bddc0244b3437202b818",
+   "frozen_sha256": "719d66082f5e9aae8658bf36f292681394782ae896a8bddc0244b3437202b818",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example2.html",
+   "sha256": "430b0139ae2d551bee7d2325cbc1362dfebfd67088c2a75b292e35ab0613897a",
+   "frozen_sha256": "430b0139ae2d551bee7d2325cbc1362dfebfd67088c2a75b292e35ab0613897a",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example3.html",
+   "sha256": "3148ed9e824d49951a86eace1f167f532336d2899b6bc12f6000c6f6bbc0cc65",
+   "frozen_sha256": "3148ed9e824d49951a86eace1f167f532336d2899b6bc12f6000c6f6bbc0cc65",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example4.html",
+   "sha256": "a692fd578f5012d028ab79bac2d10196418dee63b522a9062e09d7e70cdcec2d",
+   "frozen_sha256": "a692fd578f5012d028ab79bac2d10196418dee63b522a9062e09d7e70cdcec2d",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example5.html",
+   "sha256": "9bdcfb5e6ab881fbd44e2a7cdb513e5863741d1a67e89dbce3175a3881ee969d",
+   "frozen_sha256": "9bdcfb5e6ab881fbd44e2a7cdb513e5863741d1a67e89dbce3175a3881ee969d",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

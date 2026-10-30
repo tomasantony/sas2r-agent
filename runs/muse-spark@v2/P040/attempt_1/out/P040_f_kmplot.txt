@@ -1,0 +1,84 @@
+Example K-M Plot
+PROC LIFETEST  Product-Limit Survival Estimates  (TIME day*CENSOR(1) ; STRATA arm)
+Plots = survival (atrisk = 0 to 330 by 30)
+
+Stratum: Arm 1
+day          Survival    Failure       StdErr     N_Failed       N_Left
+143            0.9412     0.0588       0.0606            1           16 
+164            0.8824     0.1176       0.0886            2           15 
+188            0.7647     0.2353       0.1345            4           13 
+190            0.7059     0.2941       0.1566            5           12 
+192            0.6471     0.3529       0.1791            6           11 
+206            0.5882     0.4118       0.2029            7           10 
+213            0.5294     0.4706       0.2287            8            9 
+216            0.4706     0.5294       0.2572            9            7+
+220            0.4034     0.5966       0.3000           10            6 
+227.23         0.3361     0.6639       0.3512           11            5 
+234            0.2689     0.7311       0.4163           12            4 
+244            0.2689     0.7311       0.4163           12            3*
+246            0.1793     0.8207       0.5831           13            2 
+265            0.0896     0.9104       0.9165           14            1 
+304            0.0000     1.0000          Inf           15            0 
+  * censored-only time ; + event and censored tied (censored after events)
+
+Stratum: Arm 2
+day          Survival    Failure       StdErr     N_Failed       N_Left
+142            0.9524     0.0476       0.0488            1           20 
+156            0.9048     0.0952       0.0708            2           19 
+163            0.8571     0.1429       0.0891            3           18 
+198            0.8095     0.1905       0.1059            4           17 
+204            0.8095     0.1905       0.1059            4           16*
+205            0.7589     0.2411       0.1240            5           15 
+232            0.6577     0.3423       0.1601            7           13 
+233            0.4554     0.5446       0.2446           11            9 
+239            0.4048     0.5952       0.2715           12            8 
+240            0.3542     0.6458       0.3026           13            7 
+261            0.3036     0.6964       0.3397           14            6 
+280            0.2024     0.7976       0.4458           16            4 
+296            0.1012     0.8988       0.6699           18            2 
+323            0.0506     0.9494       0.9740           19            1 
+344            0.0506     0.9494       0.9740           19            0*
+  * censored-only time ; + event and censored tied (censored after events)
+
+Quartile Estimates (95% Confidence Interval, Transform = LOG-LOG)
+Stratum    Percent    Estimate     Lower        Upper       
+Arm 1      75         190          143          213         
+Arm 1      50         216          188          234         
+Arm 1      25         246          216                      
+Arm 2      75         232          142          233         
+Arm 2      50         233          232          280         
+Arm 2      25         280          233          323         
+
+Means (Restricted to Largest Event Time per Stratum)
+Stratum    Tau          Mean         StdErr      
+Arm 1      304          218.8502     10.2149     
+Arm 2      323          240.7946     10.9071     
+
+Summary of the Number of Censored and Uncensored Values
+Stratum        Failed   Censored      Total       Pct_Cens
+Arm 1              15          2         17           11.8
+Arm 2              19          2         21            9.5
+Total              34          4         38           10.5
+
+Rank Statistics (Observed vs Expected under H0)
+Stratum        Observed     Expected   O-E(LogRank)  O-E(Wilcoxon)
+Arm 1                15        11.00         4.0033          94.00
+Arm 2                19        23.00        -4.0033         -94.00
+
+Covariance Matrix for the Log-Rank Statistics
+  Arm 1  6.7376
+Covariance Matrix for the Wilcoxon (Breslow) Statistics
+  Arm 1  4135.35
+
+Test of Equality over Strata
+Test           Chi-Square     DF Pr > Chi-Square
+Log-Rank           2.3787      1       0.1230
+Wilcoxon           2.1367      1       0.1438
+
+Number at Risk (atrisk = 0 to 330 by 30)
+Time            0     30     60     90    120    150    180    210    240    270    300    330
+Arm 1          17     17     17     17     17     16     15     10      4      1      1      0
+Arm 2          21     21     21     21     21     20     18     15      8      6      2      1
+
+Note: Censoring indicated by '+' on plot; survival step function with Greenwood standard errors.
+Mean restricted to largest event time (Arm 1 tau=304, Arm 2 tau=323).

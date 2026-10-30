@@ -1,0 +1,24 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P093.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 48,
+    "found": 48,
+    "r_files": [
+     "P093.csv",
+     "P093.txt"
+    ],
+    "missing_examples": []
+   }
+  }
+ ]
+}

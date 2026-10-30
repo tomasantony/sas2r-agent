@@ -1,0 +1,71 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P017",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 1,
+ "prompt_version": 2,
+ "run_name": "muse-spark@v2",
+ "recorded_at": "2026-10-29T21:36:18",
+ "agent_commit": "c2ad21bd64e63ca9c44876bef9975bef53491dfe",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 2470,
+  "output_tokens": 9569,
+  "reasoning_tokens": 7525,
+  "finish_reason": "stop",
+  "seconds": 69.4
+ },
+ "inputs": {
+  "prompt_translate.md": "f17eda095ffda7042ec6c293d830f1a9c059669655988b9b74595d30db58f62c"
+ },
+ "model_output": {
+  "response.md": "a877a085029e8f752d3ef8d1a6f02ba5ce200baf3e6892f346fb91b2c0a23f9a",
+  "script.R": "063731b34dd01fcda2e8fc5135ab21ed2c8fe421db860b2e47ab88ee0e0ae7c3"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.2,
+  "timed_out": false,
+  "log_sha256": "cafbab48fbc2c96885592d3d7d66cf06b45477aaec8a67ee16b62e7da5ff373a"
+ },
+ "r_outputs": {
+  "P017.csv": "0bd3e625c535f98b512316d3eca817721efcc704a8658d348a4777167e00072e",
+  "P017.lst": "7bd57a0debd0684cc467038191eb0bad3f296144a5acec21d8368d05049c254b",
+  "P017.txt": "7bd57a0debd0684cc467038191eb0bad3f296144a5acec21d8368d05049c254b",
+  "sv.csv": "3aa054fd5c77306f9967b0a309356da6d4c716c1964887f624c72054bef68ceb"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P017.lst",
+   "sha256": "80e27fd157519bc42ca6ede791d79e9d4bd171c6a03d63e82d2acaccaa17ccc4",
+   "frozen_sha256": "80e27fd157519bc42ca6ede791d79e9d4bd171c6a03d63e82d2acaccaa17ccc4",
+   "ok": true
+  },
+  {
+   "file": "datasets/P017/sv.sas7bdat",
+   "sha256": "cc33937939340d87cde512ff3cf969b9a7caf6257f437867feb52822f58126a7",
+   "frozen_sha256": "cc33937939340d87cde512ff3cf969b9a7caf6257f437867feb52822f58126a7",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

@@ -1,0 +1,15 @@
+The MEANS Procedure
+
+Type                    N         Mean      Std Dev  Minimum  Maximum      Sum
+Constant              100      10.0000       3.0318        3       16     1000
+Constant              100        10.00         3.03        3       16     1000
+Early Peak            100      10.0000      12.0596        0       37     1000
+Early Peak            100        10.00        12.06        0       37     1000
+Flattened             100      10.0000       8.4100        0       27     1000
+Flattened             100        10.00         8.41        0       27     1000
+Second Outbreak       100      10.0000      10.4495        0       34     1000
+Second Outbreak       100        10.00        10.45        0       34     1000
+Exponential           100      10.0000      15.7999        0       66     1000
+Exponential           100        10.00        15.80        0       66     1000
+
+N total rows: 500

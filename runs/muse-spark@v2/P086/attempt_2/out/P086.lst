@@ -1,0 +1,91 @@
+The CONTENTS Procedure
+
+Data Set Name        WORK.ADTTE                              Observations          18
+Member Type          DATA                                    Variables             22
+Engine               V9                                      Indexes               0
+Created              27OCT2026:9:10:15                       Observation Length    824
+Last Modified        27OCT2026:9:10:15                       Deleted Observations  0
+Protection                                                       Compressed            NO
+Data Set Type                                                    Sorted                YES
+Label
+Data Representation  WINDOWS_64
+Encoding             wlatin1  Western (Windows)
+
+Engine/Host Dependent Information
+
+Data Set Page Size            65536
+Number of Data Set Pages      2
+First Data Page               1
+Max Obs per Page              84
+Obs in First Data Page        64
+Number of Data Set Repairs    0
+Filename                      /bench/output/sas/datasets/P086/adtte.sas7bdat
+Release Created               9.0401M7P04102022
+Host Created                  X64_10PRO
+Owner Name                    sasdemo
+File Size                     68K
+File Size (bytes)             69632
+Data Set Length (bytes)       35248
+
+Alphabetic List of Variables and Attributes
+
+Variables in Creation Order (#  Variable  Type  Len  Format  Label):
+
+#    Variable   Type  Len   Format   Label
+1    STUDYID    Char  12             Study Identifier
+2    USUBJID    Char  20             Unique Subject Identifier
+3    TRTP       Char  40             Planned Treatment
+4    TRTPN      Num   8              Planned Treatment (N)
+5    AGE        Num   8              
+6    AGEGR1     Char  10             
+7    SEX        Char  1              
+8    RACE       Char  50             
+9    SAFFL      Char  1              Safety Population Flag
+10   ITTFL      Char  1              Intent-to-Treat Population Flag
+11   PARAMCD    Char  8              Parameter Code
+12   PARAM      Char  200            Parameter
+13   PARAMN     Num   8              Parameter (N)
+14   STARTDT    Num   8     DATE9.   Time-to-Event Origin Date
+15   ADT        Num   8     DATE9.   Analysis Date
+16   AVAL       Num   8              Analysis Value
+17   CNSR       Num   8              Censor
+18   EVNTDESC   Char  200            Event Description
+19   CNSDTDSC   Char  200            Censor Description
+20   SRCDOM     Char  8              Source Domain
+21   AVAL_M     Num   8              Analysis Value (Months)
+22   ASEQ       Num   8              Analysis Sequence Number
+
+Sort Information
+  Sorted by STUDYID USUBJID PARAMN
+  Validated YES Character Set ANSI
+
+PROC CONTENTS DATA=ADTTE VARNUM; RUN;
+
+Observations: 18
+Variables: 22
+
+PROC PRINT DATA=ADTTE NOOBS; RUN;
+
+STUDYID USUBJID TRTP TRTPN AGE AGEGR1 SEX RACE SAFFL ITTFL PARAMCD PARAM PARAMN STARTDT ADT AVAL CNSR EVNTDESC CNSDTDSC SRCDOM AVAL_M ASEQ
+STUDY01 | STUDY01-1001 | Treatment A | 1 | 59 | <65 | M | WHITE | Y | Y | PFS | Progression-Free Survival (Days) | 1 | 15JAN2024 | 15JUN2024 | 153 | 1 |  | Censored - No progression or death | ADSL | 5.0266940452 | 1
+STUDY01 | STUDY01-1001 | Treatment A | 1 | 59 | <65 | M | WHITE | Y | Y | OS | Overall Survival (Days) | 2 | 15JAN2024 | 15JUN2024 | 153 | 1 |  | Censored - Alive | ADSL | 5.0266940452 | 2
+STUDY01 | STUDY01-1001 | Treatment A | 1 | 59 | <65 | M | WHITE | Y | Y | TTR | Time to Response (Days) | 3 | 15JAN2024 | 15JUN2024 | 153 | 1 |  | Censored - No response |  | 5.0266940452 | 3
+STUDY01 | STUDY01-1002 | Placebo | 2 | 45 | <65 | F | BLACK | Y | Y | PFS | Progression-Free Survival (Days) | 1 | 18JAN2024 | 20MAY2024 | 124 | 0 | Disease Progression |  | RS | 4.0739219713 | 1
+STUDY01 | STUDY01-1002 | Placebo | 2 | 45 | <65 | F | BLACK | Y | Y | OS | Overall Survival (Days) | 2 | 18JAN2024 | 18JUN2024 | 153 | 1 |  | Censored - Alive | ADSL | 5.0266940452 | 2
+STUDY01 | STUDY01-1002 | Placebo | 2 | 45 | <65 | F | BLACK | Y | Y | TTR | Time to Response (Days) | 3 | 18JAN2024 | 18JUN2024 | 153 | 1 |  | Censored - No response |  | 5.0266940452 | 3
+STUDY01 | STUDY01-1003 | Treatment A | 1 | 43 | <65 | M | ASIAN | Y | Y | PFS | Progression-Free Survival (Days) | 1 | 20JAN2024 | 25MAR2024 | 66 | 0 | Disease Progression |  | RS | 2.1683778234 | 1
+STUDY01 | STUDY01-1003 | Treatment A | 1 | 43 | <65 | M | ASIAN | Y | Y | OS | Overall Survival (Days) | 2 | 20JAN2024 | 15APR2024 | 87 | 0 | Death |  | ADSL | 2.8583162218 | 2
+STUDY01 | STUDY01-1003 | Treatment A | 1 | 43 | <65 | M | ASIAN | Y | Y | TTR | Time to Response (Days) | 3 | 20JAN2024 | 20FEB2024 | 32 | 0 | Response |  |  | 1.0513347023 | 3
+STUDY01 | STUDY01-1004 | Treatment A | 1 | 51 | <65 | F | WHITE | Y | Y | PFS | Progression-Free Survival (Days) | 1 | 25JAN2024 | 25JUN2024 | 153 | 1 |  | Censored - No progression or death | ADSL | 5.0266940452 | 1
+STUDY01 | STUDY01-1004 | Treatment A | 1 | 51 | <65 | F | WHITE | Y | Y | OS | Overall Survival (Days) | 2 | 25JAN2024 | 25JUN2024 | 153 | 1 |  | Censored - Alive | ADSL | 5.0266940452 | 2
+STUDY01 | STUDY01-1004 | Treatment A | 1 | 51 | <65 | F | WHITE | Y | Y | TTR | Time to Response (Days) | 3 | 25JAN2024 | 25MAR2024 | 61 | 0 | Response |  |  | 2.0041067762 | 3
+STUDY01 | STUDY01-1005 | Placebo | 2 | 36 | <65 | M | ASIAN | Y | Y | PFS | Progression-Free Survival (Days) | 1 | 28JAN2024 | 15JUL2024 | 170 | 1 |  | Censored - No progression or death | ADSL | 5.5852156057 | 1
+STUDY01 | STUDY01-1005 | Placebo | 2 | 36 | <65 | M | ASIAN | Y | Y | OS | Overall Survival (Days) | 2 | 28JAN2024 | 15JUL2024 | 170 | 1 |  | Censored - Alive | ADSL | 5.5852156057 | 2
+STUDY01 | STUDY01-1005 | Placebo | 2 | 36 | <65 | M | ASIAN | Y | Y | TTR | Time to Response (Days) | 3 | 28JAN2024 | 15JUL2024 | 170 | 1 |  | Censored - No response |  | 5.5852156057 | 3
+STUDY01 | STUDY01-1006 | Treatment A | 1 | 68 | >=65 | F | WHITE | Y | Y | PFS | Progression-Free Survival (Days) | 1 | 30JAN2024 | 01JUL2024 | 154 | 1 |  | Censored - No progression or death | ADSL | 5.0595482546 | 1
+STUDY01 | STUDY01-1006 | Treatment A | 1 | 68 | >=65 | F | WHITE | Y | Y | OS | Overall Survival (Days) | 2 | 30JAN2024 | 01JUL2024 | 154 | 1 |  | Censored - Alive | ADSL | 5.0595482546 | 2
+STUDY01 | STUDY01-1006 | Treatment A | 1 | 68 | >=65 | F | WHITE | Y | Y | TTR | Time to Response (Days) | 3 | 30JAN2024 | 30APR2024 | 92 | 0 | Response |  |  |  3.022587269 | 3
+
+N = 18 observations
+
+Reference values from host environment: 7 9 10 15 27 2026 64 84 824 35248 69632 9.0401

@@ -1,0 +1,116 @@
+Table 7.5 Summary of Serious Adverse Events
+Safety Population
+-
+
+
+AEDECOD=PARTIAL SEIZURES WITH SECONDARY GENERALISATION
+TABLE OF TRTAN BY RESP
+TRTAN      RESP
+Frequency|
+Percent  |
+Row Pct  |
+Col Pct  |       0       1    Total
+------------------------------------------------
+0
+  86  0  86
+  33.86  0.00  33.86
+  100.00  0.00  100.00
+  33.99  0.00  100.00
+54
+  84  0  84
+  33.07  0.00  33.07
+  100.00  0.00  100.00
+  33.20  0.00  100.00
+81
+  83  1  84
+  32.68  0.39  33.07
+  98.81  1.19  100.00
+  32.81  100.00  100.00
+Total    253  1  254
+         99.61  0.39  100.00
+
+Fisher's Exact Test
+Table Probability (P)  0.6614
+Pr <= P  0.6614
+Two-sided Pr <= P  0.6614
+XP2_FISH  0.6614
+
+
+AEDECOD=SYNCOPE
+TABLE OF TRTAN BY RESP
+TRTAN      RESP
+Frequency|
+Percent  |
+Row Pct  |
+Col Pct  |       0       1    Total
+------------------------------------------------
+0
+  86  0  86
+  33.86  0.00  33.86
+  100.00  0.00  100.00
+  34.13  0.00  100.00
+54
+  83  1  84
+  32.68  0.39  33.07
+  98.81  1.19  100.00
+  32.94  50.00  100.00
+81
+  83  1  84
+  32.68  0.39  33.07
+  98.81  1.19  100.00
+  32.94  50.00  100.00
+Total    252  2  254
+         99.21  0.79  100.00
+
+Fisher's Exact Test
+Table Probability (P)  0.5503
+Pr <= P  0.5503
+Two-sided Pr <= P  0.5503
+XP2_FISH  0.5503
+
+
+TABLE OF TRTAN BY FLG
+TRTAN      FLG
+Frequency|
+Percent  |
+Row Pct  |
+Col Pct  |       0       1    Total
+------------------------------------------------
+0
+  86  0  86
+  33.86  0.00  33.86
+  100.00  0.00  100.00
+  34.26  0.00  100.00
+54
+  83  1  84
+  32.68  0.39  33.07
+  98.81  1.19  100.00
+  33.07  33.33  100.00
+81
+  82  2  84
+  32.28  0.79  33.07
+  97.62  2.38  100.00
+  32.67  66.67  100.00
+Total    251  3  254
+         98.82  1.18  100.00
+
+Fisher's Exact Test
+Table Probability (P)  0.3255
+Pr <= P  0.3255
+Two-sided Pr <= P  0.3255
+XP2_FISH  0.3255
+
+
+Table 7.5 Summary of Serious Adverse Events
+Safety Population
+-
+Preferred Term                                     Placebo         Treatment 1     Treatment 2     p-value   
+                                                   N=86            N=84            N=84            b         
+--------------------------------------------------------------------------------------------------------------
+Number of subjects reporting serious adverse events 0(0.0)          1(1.0)          2(2.0)          0.3255    
+PARTIAL SEIZURES WITH SECONDARY GENERALISATION     0(0.0)          0(0.0)          1(1.0)          0.6614    
+SYNCOPE                                            0(0.0)          1(1.0)          1(1.0)          0.5503    
+--------------------------------------------------------------------------------------------------------------
+-
+Denominator for each % is treatment column N
+*b = p-values are from Fisher's Exact Test

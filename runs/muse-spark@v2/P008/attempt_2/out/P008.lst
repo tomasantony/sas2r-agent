@@ -1,0 +1,19 @@
+ADVS Audit - Vital Signs Baseline and Change Analysis
+
+Obs   USUBJID      PARAMCD    AVISIT       ASTDT      TRTSDT     AVAL       BASE       CHG        ABLFL
+----- ------------ ---------- ------------ ---------- ---------- ---------- ---------- ---------- -----
+1     CDISC-01-701-001 DIABP      Visit 1      15JAN2023  17JAN2023  97         97         0          Y    
+2     CDISC-01-701-001 DIABP      Visit 2      14FEB2023  17JAN2023  89         97         -8              
+3     CDISC-01-701-001 DIABP      Visit 3      17MAR2023  17JAN2023  87         97         -10             
+4     CDISC-01-701-001 PULSE      Visit 1      15JAN2023  17JAN2023  68         68         0          Y    
+5     CDISC-01-701-001 PULSE      Visit 2      14FEB2023  17JAN2023  95         68         27              
+6     CDISC-01-701-001 PULSE      Visit 3      17MAR2023  17JAN2023  67         68         -1              
+7     CDISC-01-701-001 SYSBP      Visit 1      15JAN2023  17JAN2023  110        110        0          Y    
+8     CDISC-01-701-001 SYSBP      Visit 2      14FEB2023  17JAN2023  146        110        36              
+9     CDISC-01-701-001 SYSBP      Visit 3      17MAR2023  17JAN2023  111        110        1               
+10    CDISC-01-701-001 WEIGHT     Visit 1      15JAN2023  17JAN2023  87.1       87.1       0          Y    
+11    CDISC-01-701-001 WEIGHT     Visit 2      14FEB2023  17JAN2023  78.7       87.1       -8.4            
+12    CDISC-01-701-001 WEIGHT     Visit 3      17MAR2023  17JAN2023  79.8       87.1       -7.3            
+13    CDISC-01-701-004 DIABP      Visit 1      02JAN2023  05JAN2023  71         71         0          Y    
+14    CDISC-01-701-004 DIABP      Visit 2      31JAN2023  05JAN2023  83         71         12              
+15    CDISC-01-701-004 DIABP      Visit 3      05MAR2023  05JAN2023  70         71         -1              

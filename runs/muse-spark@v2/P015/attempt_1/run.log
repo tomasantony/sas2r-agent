@@ -1,0 +1,6 @@
+sandbox: docker run --rm --name sas2r-463c867fb900 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P015\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading: /bench/data/derived/c2c/data/raw/raw_lab.csv
+Raw columns: SUBJ, VISIT_NAM, VISIT_NUM, LAB_DAT, TEST_NAME, RESULT, UNIT
+Raw rows: 516
+LAB_DAT inferred format: %Y-%m-%d sample: 2023-01-15
+Wrote lb.csv rows=516 audit rows=12

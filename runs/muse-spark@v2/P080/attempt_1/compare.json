@@ -1,0 +1,17 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "figure",
+   "name": "f_forest.rtf",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@v2\\P080\\attempt_1\\out\\f_forest.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  }
+ ]
+}

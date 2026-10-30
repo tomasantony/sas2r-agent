@@ -1,0 +1,111 @@
+The CONTENTS Procedure
+
+Data Set Name                WORK.ADEX
+Member Type                  DATA  Observations 37
+Engine                       V9  Variables 31
+Created                      27OCT2026:10:27:20  Observation Length 584
+Last Modified                27OCT2026:10:27:20  Deleted Observations 0
+Protection                     Compressed NO
+Data Set Type                  Sorted NO
+Label                        
+Data Representation          WINDOWS_64
+Encoding                     wlatin1 Western (Windows)
+
+Engine/Host Dependent Information
+Data Set Page Size           65536
+Number of Data Set Pages     1
+First Data Page              1
+Max Obs per Page             112
+Obs in First Data Page       37
+Number of Data Set Repairs   0
+ExtendObsCounter             YES
+Filename                     C:\SAS\WORK\adex.sas7bdat
+Release Created              9.0401M7
+Host Created                 X64_10PRO
+Inode Number                 35248
+Access Permission            644
+Owner Name                   sasdemo
+File Size                    112
+File Size (bytes)            35248
+
+Variables in Creation Order
+#    Variable   Type  Len  Format   Informat Label
+1    STUDYID    Char  12                     Study Identifier
+2    USUBJID    Char  20                     Unique Subject Identifier
+3    TRTP       Char  40                     Planned Treatment
+4    TRTPN      Num   8                      Planned Treatment (N)
+5    SAFFL      Char  1                      Safety Population Flag
+6    TRTSDT     Num   8    DATE9.   DATE9.   
+7    TRTEDT     Num   8    DATE9.   DATE9.   
+8    AGE        Num   8                      
+9    SEX        Char  1                      
+10   PARAMCD    Char  8                      Parameter Code
+11   PARAM      Char  200                    Parameter
+12   PARAMN     Num   8                      Parameter (N)
+13   AVAL       Num   8                      Analysis Value
+14   AVALU      Char  20                     Analysis Value Unit
+15   ASTDT      Num   8    DATE9.   DATE9.   Analysis Start Date
+16   AENDT      Num   8    DATE9.   DATE9.   Analysis End Date
+17   ASTDY      Num   8                      Analysis Start Relative Day
+18   AENDY      Num   8                      Analysis End Relative Day
+19   EXDURN     Num   8                      Exposure Duration (Days)
+20   DOSINTFL   Char  1                      Dose Interruption Flag
+21   DOSEADFL   Char  1                      Dose Adjustment Flag
+22   EXTRT      Char  40                     Name of Treatment
+23   EXDOSE     Num   8                      Dose per Administration
+24   EXDOSU     Char  20                     Dose Units
+25   EXDOSFRM   Char  20                     Dose Form
+26   EXROUTE    Char  20                     Route of Administration
+27   EXSEQ      Num   8                      
+28   AVISIT     Char  40                     Analysis Visit
+29   AVISITN    Num   8                      Analysis Visit (N)
+30   ASEQ       Num   8                      Analysis Sequence Number
+31   DOSECAT    Char  20                     Dose Category
+
+Number of Observations: 37
+Number of Variables: 31
+
+The PRINT Procedure (OBS=20) NOOBS
+STUDYID | USUBJID | TRTP | TRTPN | SAFFL | TRTSDT | TRTEDT | AGE | SEX | PARAMCD | PARAM | PARAMN | AVAL | AVALU | ASTDT | AENDT | ASTDY | AENDY | EXDURN | DOSINTFL | DOSEADFL | EXTRT | EXDOSE | EXDOSU | EXDOSFRM | EXROUTE | EXSEQ | AVISIT | AVISITN | ASEQ | DOSECAT 
+STUDY01 | STUDY01-1001 | Treatment A | 1 | Y | 15JAN2024 | 15JUN2024 | 59 | M | DOSE | Dose | 1 | 100 | mg | 15JAN2024 | 28JAN2024 | 1 | 14 | 14 | N | N | Treatment A | 100 | mg | TABLET | ORAL | 1 | Week 1-2 | 1 | 1 | Medium 
+STUDY01 | STUDY01-1001 | Treatment A | 1 | Y | 15JAN2024 | 15JUN2024 | 59 | M | DOSE | Dose | 1 | 100 | mg | 29JAN2024 | 11FEB2024 | 15 | 28 | 14 | N | N | Treatment A | 100 | mg | TABLET | ORAL | 2 | Week 3-4 | 2 | 2 | Medium 
+STUDY01 | STUDY01-1001 | Treatment A | 1 | Y | 15JAN2024 | 15JUN2024 | 59 | M | DOSE | Dose | 1 | 150 | mg | 12FEB2024 | 10MAR2024 | 29 | 56 | 28 | N | Y | Treatment A | 150 | mg | TABLET | ORAL | 3 | Week 5-8 | 3 | 3 | High 
+STUDY01 | STUDY01-1001 | Treatment A | 1 | Y | 15JAN2024 | 15JUN2024 | 59 | M | DOSE | Dose | 1 | 150 | mg | 11MAR2024 | 15JUN2024 | 57 | 153 | 97 | N | N | Treatment A | 150 | mg | TABLET | ORAL | 4 | Week 9+ | 4 | 4 | High 
+STUDY01 | STUDY01-1001 | Treatment A | 1 | Y | 15JAN2024 | 15JUN2024 | 59 | M | TOTDUR | Total Exposure Duration (Days) | 2 | 153 | days |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 5 |  
+STUDY01 | STUDY01-1001 | Treatment A | 1 | Y | 15JAN2024 | 15JUN2024 | 59 | M | AVGDOSE | Average Daily Dose | 3 | 140.849673202614 | mg |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 6 |  
+STUDY01 | STUDY01-1001 | Treatment A | 1 | Y | 15JAN2024 | 15JUN2024 | 59 | M | MAXDOSE | Maximum Dose | 4 | 150 | mg |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 7 |  
+STUDY01 | STUDY01-1001 | Treatment A | 1 | Y | 15JAN2024 | 15JUN2024 | 59 | M | CUMDOSE | Cumulative Dose | 5 | 21550 | mg |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 8 |  
+STUDY01 | STUDY01-1001 | Treatment A | 1 | Y | 15JAN2024 | 15JUN2024 | 59 | M | NDOSADJ | Number of Dose Adjustments | 6 | 1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 9 |  
+STUDY01 | STUDY01-1002 | Placebo | 2 | Y | 18JAN2024 | 18JUN2024 | 45 | F | DOSE | Dose | 1 | 0 | mg | 18JAN2024 | 14FEB2024 | 1 | 28 | 28 | N | N | Placebo | 0 | mg | TABLET | ORAL | 1 | Week 1-4 | 1 | 1 | Placebo 
+STUDY01 | STUDY01-1002 | Placebo | 2 | Y | 18JAN2024 | 18JUN2024 | 45 | F | DOSE | Dose | 1 | 0 | mg | 15FEB2024 | 18JUN2024 | 29 | 153 | 125 | N | N | Placebo | 0 | mg | TABLET | ORAL | 2 | Week 5+ | 2 | 2 | Placebo 
+STUDY01 | STUDY01-1002 | Placebo | 2 | Y | 18JAN2024 | 18JUN2024 | 45 | F | TOTDUR | Total Exposure Duration (Days) | 2 | 153 | days |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 3 |  
+STUDY01 | STUDY01-1002 | Placebo | 2 | Y | 18JAN2024 | 18JUN2024 | 45 | F | NDOSADJ | Number of Dose Adjustments | 6 | 0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 4 |  
+STUDY01 | STUDY01-1003 | Treatment A | 1 | Y | 20JAN2024 | 01APR2024 | 43 | M | DOSE | Dose | 1 | 100 | mg | 20JAN2024 | 16FEB2024 | 1 | 28 | 28 | N | N | Treatment A | 100 | mg | TABLET | ORAL | 1 | Week 1-4 | 1 | 1 | Medium 
+STUDY01 | STUDY01-1003 | Treatment A | 1 | Y | 20JAN2024 | 01APR2024 | 43 | M | DOSE | Dose | 1 | 100 | mg | 17FEB2024 | 15MAR2024 | 29 | 56 | 28 | N | N | Treatment A | 100 | mg | TABLET | ORAL | 2 | Week 5-8 | 2 | 2 | Medium 
+STUDY01 | STUDY01-1003 | Treatment A | 1 | Y | 20JAN2024 | 01APR2024 | 43 | M | DOSE | Dose | 1 | 50 | mg | 16MAR2024 | 01APR2024 | 57 | 73 | 17 | N | Y | Treatment A | 50 | mg | TABLET | ORAL | 3 | Week 9+ | 3 | 3 | Low 
+STUDY01 | STUDY01-1003 | Treatment A | 1 | Y | 20JAN2024 | 01APR2024 | 43 | M | TOTDUR | Total Exposure Duration (Days) | 2 | 73 | days |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 4 |  
+STUDY01 | STUDY01-1003 | Treatment A | 1 | Y | 20JAN2024 | 01APR2024 | 43 | M | AVGDOSE | Average Daily Dose | 3 | 88.3561643835616 | mg |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 5 |  
+STUDY01 | STUDY01-1003 | Treatment A | 1 | Y | 20JAN2024 | 01APR2024 | 43 | M | MAXDOSE | Maximum Dose | 4 | 100 | mg |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 6 |  
+STUDY01 | STUDY01-1003 | Treatment A | 1 | Y | 20JAN2024 | 01APR2024 | 43 | M | CUMDOSE | Cumulative Dose | 5 | 6450 | mg |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 7 |  
+
+ISO dates:
+STUDY01 | STUDY01-1001 | Treatment A | 1 | Y | 2024-01-15 | 2024-06-15 | 59 | M | DOSE | Dose | 1 | 100 | mg | 2024-01-15 | 2024-01-28 | 1 | 14 | 14 | N | N | Treatment A | 100 | mg | TABLET | ORAL | 1 | Week 1-2 | 1 | 1 | Medium 
+STUDY01 | STUDY01-1001 | Treatment A | 1 | Y | 2024-01-15 | 2024-06-15 | 59 | M | DOSE | Dose | 1 | 100 | mg | 2024-01-29 | 2024-02-11 | 15 | 28 | 14 | N | N | Treatment A | 100 | mg | TABLET | ORAL | 2 | Week 3-4 | 2 | 2 | Medium 
+STUDY01 | STUDY01-1001 | Treatment A | 1 | Y | 2024-01-15 | 2024-06-15 | 59 | M | DOSE | Dose | 1 | 150 | mg | 2024-02-12 | 2024-03-10 | 29 | 56 | 28 | N | Y | Treatment A | 150 | mg | TABLET | ORAL | 3 | Week 5-8 | 3 | 3 | High 
+STUDY01 | STUDY01-1001 | Treatment A | 1 | Y | 2024-01-15 | 2024-06-15 | 59 | M | DOSE | Dose | 1 | 150 | mg | 2024-03-11 | 2024-06-15 | 57 | 153 | 97 | N | N | Treatment A | 150 | mg | TABLET | ORAL | 4 | Week 9+ | 4 | 4 | High 
+STUDY01 | STUDY01-1001 | Treatment A | 1 | Y | 2024-01-15 | 2024-06-15 | 59 | M | TOTDUR | Total Exposure Duration (Days) | 2 | 153 | days |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 5 |  
+STUDY01 | STUDY01-1001 | Treatment A | 1 | Y | 2024-01-15 | 2024-06-15 | 59 | M | AVGDOSE | Average Daily Dose | 3 | 140.849673202614 | mg |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 6 |  
+STUDY01 | STUDY01-1001 | Treatment A | 1 | Y | 2024-01-15 | 2024-06-15 | 59 | M | MAXDOSE | Maximum Dose | 4 | 150 | mg |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 7 |  
+STUDY01 | STUDY01-1001 | Treatment A | 1 | Y | 2024-01-15 | 2024-06-15 | 59 | M | CUMDOSE | Cumulative Dose | 5 | 21550 | mg |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 8 |  
+STUDY01 | STUDY01-1001 | Treatment A | 1 | Y | 2024-01-15 | 2024-06-15 | 59 | M | NDOSADJ | Number of Dose Adjustments | 6 | 1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 9 |  
+STUDY01 | STUDY01-1002 | Placebo | 2 | Y | 2024-01-18 | 2024-06-18 | 45 | F | DOSE | Dose | 1 | 0 | mg | 2024-01-18 | 2024-02-14 | 1 | 28 | 28 | N | N | Placebo | 0 | mg | TABLET | ORAL | 1 | Week 1-4 | 1 | 1 | Placebo 
+STUDY01 | STUDY01-1002 | Placebo | 2 | Y | 2024-01-18 | 2024-06-18 | 45 | F | DOSE | Dose | 1 | 0 | mg | 2024-02-15 | 2024-06-18 | 29 | 153 | 125 | N | N | Placebo | 0 | mg | TABLET | ORAL | 2 | Week 5+ | 2 | 2 | Placebo 
+STUDY01 | STUDY01-1002 | Placebo | 2 | Y | 2024-01-18 | 2024-06-18 | 45 | F | TOTDUR | Total Exposure Duration (Days) | 2 | 153 | days |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 3 |  
+STUDY01 | STUDY01-1002 | Placebo | 2 | Y | 2024-01-18 | 2024-06-18 | 45 | F | NDOSADJ | Number of Dose Adjustments | 6 | 0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 4 |  
+STUDY01 | STUDY01-1003 | Treatment A | 1 | Y | 2024-01-20 | 2024-04-01 | 43 | M | DOSE | Dose | 1 | 100 | mg | 2024-01-20 | 2024-02-16 | 1 | 28 | 28 | N | N | Treatment A | 100 | mg | TABLET | ORAL | 1 | Week 1-4 | 1 | 1 | Medium 
+STUDY01 | STUDY01-1003 | Treatment A | 1 | Y | 2024-01-20 | 2024-04-01 | 43 | M | DOSE | Dose | 1 | 100 | mg | 2024-02-17 | 2024-03-15 | 29 | 56 | 28 | N | N | Treatment A | 100 | mg | TABLET | ORAL | 2 | Week 5-8 | 2 | 2 | Medium 
+STUDY01 | STUDY01-1003 | Treatment A | 1 | Y | 2024-01-20 | 2024-04-01 | 43 | M | DOSE | Dose | 1 | 50 | mg | 2024-03-16 | 2024-04-01 | 57 | 73 | 17 | N | Y | Treatment A | 50 | mg | TABLET | ORAL | 3 | Week 9+ | 3 | 3 | Low 
+STUDY01 | STUDY01-1003 | Treatment A | 1 | Y | 2024-01-20 | 2024-04-01 | 43 | M | TOTDUR | Total Exposure Duration (Days) | 2 | 73 | days |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 4 |  
+STUDY01 | STUDY01-1003 | Treatment A | 1 | Y | 2024-01-20 | 2024-04-01 | 43 | M | AVGDOSE | Average Daily Dose | 3 | 88.3561643835616 | mg |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 5 |  
+STUDY01 | STUDY01-1003 | Treatment A | 1 | Y | 2024-01-20 | 2024-04-01 | 43 | M | MAXDOSE | Maximum Dose | 4 | 100 | mg |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 6 |  
+STUDY01 | STUDY01-1003 | Treatment A | 1 | Y | 2024-01-20 | 2024-04-01 | 43 | M | CUMDOSE | Cumulative Dose | 5 | 6450 | mg |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 7 |  
