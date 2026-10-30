@@ -1,0 +1,198 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.21069962942735573,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P042.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.1721311475409836,
+   "detail": {
+    "recall": 0.1721311475409836,
+    "expected": 122,
+    "found": 21,
+    "r_files": [
+     "example1.csv",
+     "example1.html",
+     "example2.csv",
+     "example2.html",
+     "P042.csv"
+    ],
+    "missing_examples": [
+     "27",
+     "26",
+     "100",
+     "120",
+     "80",
+     "300",
+     "220",
+     "70",
+     "980",
+     "786",
+     "86",
+     "420"
+    ]
+   }
+  },
+  {
+   "kind": "text",
+   "name": "example1.html",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.18181818181818182,
+   "detail": {
+    "recall": 0.18181818181818182,
+    "expected": 11,
+    "found": 2,
+    "r_files": [
+     "example1.csv",
+     "example1.html",
+     "example2.csv",
+     "example2.html",
+     "P042.csv"
+    ],
+    "missing_examples": [
+     "27",
+     "26",
+     "100",
+     "120",
+     "80",
+     "300",
+     "220",
+     "70",
+     "980"
+    ]
+   }
+  },
+  {
+   "kind": "text",
+   "name": "example2.html",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.25,
+   "detail": {
+    "recall": 0.25,
+    "expected": 12,
+    "found": 3,
+    "r_files": [
+     "example1.csv",
+     "example1.html",
+     "example2.csv",
+     "example2.html",
+     "P042.csv"
+    ],
+    "missing_examples": [
+     "27",
+     "26",
+     "220",
+     "300",
+     "70",
+     "120",
+     "100",
+     "80"
+    ]
+   }
+  },
+  {
+   "kind": "text",
+   "name": "example3.html",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.14285714285714285,
+   "detail": {
+    "recall": 0.14285714285714285,
+    "expected": 56,
+    "found": 8,
+    "r_files": [
+     "example1.csv",
+     "example1.html",
+     "example2.csv",
+     "example2.html",
+     "P042.csv"
+    ],
+    "missing_examples": [
+     "786",
+     "86",
+     "420",
+     "334",
+     "196.5",
+     "156.57",
+     "45",
+     "125",
+     "295",
+     "261.25",
+     "127.83",
+     "598"
+    ]
+   }
+  },
+  {
+   "kind": "text",
+   "name": "example4.html",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.21739130434782608,
+   "detail": {
+    "recall": 0.21739130434782608,
+    "expected": 23,
+    "found": 5,
+    "r_files": [
+     "example1.csv",
+     "example1.html",
+     "example2.csv",
+     "example2.html",
+     "P042.csv"
+    ],
+    "missing_examples": [
+     "786",
+     "12",
+     "17",
+     "598",
+     "746",
+     "110",
+     "18",
+     "630",
+     "10",
+     "350",
+     "6",
+     "695"
+    ]
+   }
+  },
+  {
+   "kind": "text",
+   "name": "example5.html",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.3,
+   "detail": {
+    "recall": 0.3,
+    "expected": 20,
+    "found": 6,
+    "r_files": [
+     "example1.csv",
+     "example1.html",
+     "example2.csv",
+     "example2.html",
+     "P042.csv"
+    ],
+    "missing_examples": [
+     "225",
+     "350",
+     "80",
+     "230",
+     "250",
+     "73",
+     "420",
+     "205",
+     "76",
+     "600",
+     "30",
+     "120"
+    ]
+   }
+  }
+ ]
+}

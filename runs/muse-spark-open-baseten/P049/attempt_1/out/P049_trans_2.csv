@@ -1,0 +1,29 @@
+"status","ord","tr0","tr54","tr81"
+"Completed",1,"58 (67.4%)",,
+"Completed",1,,"25 (29.8%)",
+"Completed",1,,,"27 (32.1%)"
+"Discontinued",1,"28 (32.6%)",,
+"Discontinued",1,,"59 (70.2%)",
+"Discontinued",1,,,"57 (67.9%)"
+"Adverse Event",2,"8 (9.3%)",,
+"Adverse Event",2,,"44 (52.4%)",
+"Adverse Event",2,,,"40 (47.6%)"
+"Death",2,"2 (2.3%)",,
+"Death",2,,"1 (1.2%)",
+"I/E Not Met",2,"1 (1.2%)",,
+"I/E Not Met",2,,,"2 (2.4%)"
+"Lack of Efficacy",2,"3 (3.5%)",,
+"Lack of Efficacy",2,,,"1 (1.2%)"
+"Lost to Follow-up",2,"1 (1.2%)",,
+"Lost to Follow-up",2,,"1 (1.2%)",
+"Physician Decision",2,"1 (1.2%)",,
+"Physician Decision",2,,,"2 (2.4%)"
+"Protocol Violation",2,"1 (1.2%)",,
+"Protocol Violation",2,,"1 (1.2%)",
+"Protocol Violation",2,,,"1 (1.2%)"
+"Sponsor Decision",2,"2 (2.3%)",,
+"Sponsor Decision",2,,"2 (2.4%)",
+"Sponsor Decision",2,,,"3 (3.6%)"
+"Withdrew Consent",2,"9 (10.5%)",,
+"Withdrew Consent",2,,"10 (11.9%)",
+"Withdrew Consent",2,,,"8 (9.5%)"

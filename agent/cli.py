@@ -92,8 +92,9 @@ def cmd_run(args):
     ids = ids_from_args(args)
     if not ids:
         sys.exit("no program ids given (use --ids P001 P002 or --all)")
+    run_name = f"{prov.name}@{args.tag}" if args.tag else prov.name
     if args.skip_done:
-        ids = [i for i in ids if not (RUNS_DIR / prov.name / i / "report.json").exists()]
+        ids = [i for i in ids if not (RUNS_DIR / run_name / i / "report.json").exists()]
     tin, tout, spent = provider_spend(prov.name)
     print(f"{prov.name}: {len(ids)} programs to run; spent so far ${spent:.2f} ({tin:,} in / {tout:,} out); "
           f"budget ${args.budget_usd:.2f}" if args.budget_usd else f"{prov.name}: {len(ids)} programs to run", flush=True)
@@ -103,7 +104,7 @@ def cmd_run(args):
             if spent >= args.budget_usd:
                 print(f"BUDGET STOP: estimated ${spent:.2f} >= ${args.budget_usd:.2f} before {pid}", flush=True)
                 break
-        rep = run_program(pid, prov, max_iterations=args.max_iters)
+        rep = run_program(pid, prov, max_iterations=args.max_iters, tag=args.tag or "")
         _, _, spent = provider_spend(prov.name)
         print(f"{pid}: translated={rep.translated} runs={rep.runs} all_outputs={rep.produced_all} "
               f"equivalent={rep.equivalent} score={rep.best_score:.3f} iters={rep.iterations} "
@@ -177,7 +178,8 @@ def cmd_rescore(args):
     from .expected import build_expected, expected_dir
     from .provenance import append_ledger, sha256, git_head
     from .config import REPO_ROOT
-    provs = [args.provider] if args.provider else [p.name for p in RUNS_DIR.iterdir() if p.is_dir() and not p.name.startswith("_") and p.name != "expected"]
+    provs = [p.name for p in RUNS_DIR.iterdir() if p.is_dir() and not p.name.startswith("_") and p.name != "expected"
+             and (not args.provider or p.name.split("@")[0] == args.provider)]
     ids = ids_from_args(args)
     for prov in provs:
         for pdir in sorted((RUNS_DIR / prov).glob("P*")):
@@ -227,7 +229,7 @@ def main(argv=None):
     p = sub.add_parser("models"); p.add_argument("--provider", required=True, choices=list(PROVIDERS)); p.set_defaults(fn=cmd_models)
     p = sub.add_parser("expected"); p.add_argument("--ids", nargs="*"); p.add_argument("--all", action="store_true"); p.add_argument("--force", action="store_true"); p.set_defaults(fn=cmd_expected)
     p = sub.add_parser("context"); p.add_argument("id"); p.set_defaults(fn=cmd_context)
-    p = sub.add_parser("run"); p.add_argument("--provider", required=True, choices=list(PROVIDERS)); p.add_argument("--ids", nargs="*"); p.add_argument("--all", action="store_true"); p.add_argument("--group"); p.add_argument("--max-iters", type=int); p.add_argument("--budget-usd", type=float, help="stop before the next program once the provider's estimated spend reaches this"); p.add_argument("--skip-done", action="store_true", help="skip programs that already have a report.json"); p.set_defaults(fn=cmd_run)
+    p = sub.add_parser("run"); p.add_argument("--provider", required=True, choices=list(PROVIDERS)); p.add_argument("--ids", nargs="*"); p.add_argument("--all", action="store_true"); p.add_argument("--group"); p.add_argument("--max-iters", type=int); p.add_argument("--budget-usd", type=float, help="stop before the next program once the provider's estimated spend reaches this"); p.add_argument("--skip-done", action="store_true", help="skip programs that already have a report.json"); p.add_argument("--tag", help="write under runs/<provider>@<tag> (a separate leaderboard row, e.g. a prompt version)"); p.set_defaults(fn=cmd_run)
     p = sub.add_parser("selftest"); p.add_argument("--ids", nargs="*"); p.add_argument("--all", action="store_true"); p.set_defaults(fn=cmd_selftest)
     p = sub.add_parser("keys", help="write .env from a folder of key files (values never printed)"); p.add_argument("--folder", default=r"D:\meta_hackathon\api key"); p.set_defaults(fn=cmd_keys)
     sub.add_parser("freeze", help="hash every SAS reference file into runs/reference_freeze.json").set_defaults(fn=cmd_freeze)

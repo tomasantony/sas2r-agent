@@ -1,0 +1,65 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P062",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T20:05:11",
+ "agent_commit": "96b45ab7514d692fda0319e8c98629d3d1f987c1",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 5565,
+  "output_tokens": 4351,
+  "reasoning_tokens": 1652,
+  "finish_reason": "stop",
+  "seconds": 13.4
+ },
+ "inputs": {
+  "prompt_translate.md": "839392a022d66b110d69dd95deffc4fadfbd046aeac4b2a7bc8ac1465ad7a809"
+ },
+ "model_output": {
+  "response.md": "282b42c695f0c29f24b9713571da15e024231d6662d339c95abd5bfb398409dc",
+  "reasoning.md": "cd4ca5872e927c2d745450987d8839f9f3dc0c4a6105691269fb4949b5f6d98d",
+  "script.R": "a9b1dd0e6ab02e95b8ca454440e572cf46be0f02a0fd023f8dbbabf42ab4b3ac"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.3,
+  "timed_out": false,
+  "log_sha256": "9d28b2be86b31e9f8779eba83939a7137a020df5c6723b6a75cc569d975a6ae6"
+ },
+ "r_outputs": {
+  "plot_diag.csv": "fbe06b633bee1e102aab5726d94eabab11dc59567c138c36b12804c13b0998ec",
+  "plot_diag_attr.csv": "221f845ccf46008cf074cc075632afee5323a7182011128c034faa6f4fc4a22a",
+  "sgplot.csv": "6162e56a8e44690f461de16e5b7315a0bbeedc3da72f1caf982a4a3d11a64294",
+  "sgplot.png": "f42b975422493389d0117d2293090b326cfe8a4f75f7ebd09d0fac15d94ad110",
+  "sgplot_data.csv": "6162e56a8e44690f461de16e5b7315a0bbeedc3da72f1caf982a4a3d11a64294"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P062/SGPlot.png",
+   "sha256": "8c5dcd668d358e58b3c6901d90c2f72907b7ad4947f6ac6f8196b5b03bfd8d9c",
+   "frozen_sha256": "8c5dcd668d358e58b3c6901d90c2f72907b7ad4947f6ac6f8196b5b03bfd8d9c",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

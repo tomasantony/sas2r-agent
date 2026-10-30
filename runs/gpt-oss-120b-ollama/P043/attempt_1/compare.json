@@ -1,0 +1,17 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "figure",
+   "name": "SGRender.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\gpt-oss-120b-ollama\\P043\\attempt_1\\out\\sgrender.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  }
+ ]
+}

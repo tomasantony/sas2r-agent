@@ -1,0 +1,4 @@
+sandbox: docker run --rm --name sas2r-ba2f68d8dfaf --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\claude-opus-5-5\P005\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Read ADSL: 50 rows; LB: 516 rows
+Wrote adlb.csv with 516 rows
+Wrote P005.txt / P005.csv

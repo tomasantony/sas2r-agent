@@ -1,0 +1,24 @@
+sandbox: docker run --rm --name sas2r-13fc4fc355c1 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P056\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Trying to read: /bench/data/derived/cdisc-pilot/adam/advs.sas7bdat 
+  read ok, nrow= 32139 
+Filtered ADVS nrow: 2194  nsubjid: 249 
+Error in `mutate()`:
+ℹ In argument: `PCTC = paste0("(", sas_put_5_1(PCT), ")")`.
+Caused by error in `if (is.na(x)) ...`:
+! the condition has length > 1
+Backtrace:
+     ▆
+  1. ├─left_join(all_n, all_fisher, by = "TEFL") %>% ...
+  2. ├─dplyr::mutate(., PCTC = paste0("(", sas_put_5_1(PCT), ")"), NC = as.character(N))
+  3. ├─dplyr:::mutate.data.frame(., PCTC = paste0("(", sas_put_5_1(PCT), ")"), NC = as.character(N))
+  4. │ └─dplyr:::mutate_cols(.data, dplyr_quosures(...), by)
+  5. │   ├─base::withCallingHandlers(...)
+  6. │   └─dplyr:::mutate_col(dots[[i]], data, mask, new_columns)
+  7. │     └─mask$eval_all_mutate(quo)
+  8. │       └─dplyr (local) eval()
+  9. ├─base::paste0("(", sas_put_5_1(PCT), ")")
+ 10. ├─global sas_put_5_1(PCT)
+ 11. └─base::.handleSimpleError(...)
+ 12.   └─dplyr (local) h(simpleError(msg, call))
+ 13.     └─rlang::abort(message, class = error_class, parent = parent, call = error_call)
+Execution halted

@@ -1,0 +1,62 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.7701149425287356,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P046.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.3103448275862069,
+   "detail": {
+    "recall": 0.3103448275862069,
+    "expected": 29,
+    "found": 9,
+    "r_files": [
+     "advs.csv",
+     "advs1.csv",
+     "P046_advs1.csv",
+     "P046_regout.csv",
+     "regout.csv",
+     "sgplot.csv",
+     "sgplot1.csv"
+    ],
+    "missing_examples": [
+     "454",
+     "453",
+     "3290.92",
+     "32.21",
+     "451",
+     "46082",
+     "102.177",
+     "452",
+     "49373",
+     "10.1083",
+     "0.0667",
+     "71.0243"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten\\P046\\attempt_2\\out\\sgplot.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot1.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten\\P046\\attempt_2\\out\\sgplot1.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  }
+ ]
+}

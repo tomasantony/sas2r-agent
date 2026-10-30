@@ -1,0 +1,36 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.26005361930294907,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P040_f_kmplot.pdf",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.26005361930294907,
+   "detail": {
+    "recall": 0.26005361930294907,
+    "expected": 373,
+    "found": 97,
+    "r_files": [
+     "one.csv"
+    ],
+    "missing_examples": [
+     "1",
+     "17",
+     "143",
+     "0.9412",
+     "0.0588",
+     "0.0571",
+     "16",
+     "0.8824",
+     "0.1176",
+     "0.0781",
+     "2",
+     "15"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+Sales Statistics for All Sectors
+
+Sector       Manager            Sum         Min         Max       Range        Mean         Std
+-----------------------------------------------------------------------------------------------
+Northeast    Alomar            $786         $86        $420        $334      $196.5     $156.57
+Northeast    Andrews         $1,045        $125        $420        $295     $261.25     $127.83
+Northwest    Reveiz          $1,110         $30        $600        $570      $277.5     $278.61
+Northwest    Brown             $598         $45        $250        $205      $149.5     $105.44
+Northwest    Pelfrey           $746         $45        $420        $375      $186.5     $170.39
+Southeast    Smith             $350         $50        $120         $70       $87.5      $29.86
+Southeast    Jones             $630         $40        $300        $260      $157.5     $123.39
+Southwest    Taylor            $353         $50        $130         $80      $88.25      $42.65
+Southwest    Adams             $695         $40        $350        $310     $173.75     $141.86

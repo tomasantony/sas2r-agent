@@ -1,0 +1,103 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P058",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 2,
+ "recorded_at": "2026-10-29T20:00:34",
+ "agent_commit": "96b45ab7514d692fda0319e8c98629d3d1f987c1",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 5349,
+  "output_tokens": 4603,
+  "reasoning_tokens": 2020,
+  "finish_reason": "stop",
+  "seconds": 15.2
+ },
+ "inputs": {
+  "prompt_translate.md": "8965d423fdb8d1dd0deb130b8ed24370544cbf7d0806c9de87a180232d46c5b9"
+ },
+ "model_output": {
+  "response.md": "b3d42df83c34a3402a538147a7fd7a69fde13a38b1c4f539db70cc73bdee5fa0",
+  "reasoning.md": "805f160bf5d490831499deb97f96db691d0436785ef691eb711c7db2b84d03e5",
+  "script.R": "62d854714cc92549e3d29a00861b72348c1aadec37316a0ff1140d8b657ffcd8"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 5.3,
+  "timed_out": false,
+  "log_sha256": "64112dbc8bc14bb523136db5201d663704d4f00091ff77654e5aa441b5f08804"
+ },
+ "r_outputs": {
+  "conc.csv": "514917e1c168cbd0e25ff45d1f4c47884be643ea24aa6b7d28887c2f2d8ca8af",
+  "sgrender.csv": "c07122d7ccfeffe0bc7a65f317d03c60354cc00ef918aa943a0916e444b0b943",
+  "sgrender.png": "00e246342e4a2b8a1e966b8fedd12debda43d28412c7c21ec20f3ee837627198",
+  "sgrender1.csv": "a038858c0304e9557b6eec0263c78c66c0f6b22b4790945366bef20913efa3cb",
+  "sgrender1.png": "861c29d516e4c141d22150c37b63cfc2e8499bd8d24749e8848feced87f82552",
+  "sgrender2.csv": "24dde23f0b64839a9cfb08881aa8647fa1d981daa8e83e46fb0a71ee74e1576a",
+  "sgrender2.png": "d26bd0d2996ef53d456f25380844eb9c4b728972594bdad05ff6836c04ff50cf",
+  "sgrender3.csv": "a54072f093c57b56809f3dcabc02dc2ab90bb31514e99e673b442b774d65f0a7",
+  "sgrender3.png": "3e64b56ee8adda05afbec122664c834e1065964bb895ecc86ae89602ce918448",
+  "sgrender4.csv": "a8f12c24e93b1c98e085ded992e1eca12cd035ef4d56bd2dfe605320623cd52d",
+  "sgrender4.png": "d7841b2eda9e013969d69061046f76eb5adb77bd0fa226d42273982773d6d0b6",
+  "sgrender5.csv": "5a8974e3799a88fd85b13194bd351e9230ae71db3ee75517becdfb61c35df0d2",
+  "sgrender5.png": "cdabd95b68bf48068f04b917f2634b62d1b6d8636cf0f56996072017674e9621"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P058/SGRender.png",
+   "sha256": "6d7cf8a4c3bede84e873784290d5ba625426d6971760dbdcc5e0a12484e855e5",
+   "frozen_sha256": "6d7cf8a4c3bede84e873784290d5ba625426d6971760dbdcc5e0a12484e855e5",
+   "ok": true
+  },
+  {
+   "file": "datasets/P058/SGRender1.png",
+   "sha256": "6e46f0ccb0ad59695e2ab797a2e502f48816bfd2517f47850fb3d34d787b3d40",
+   "frozen_sha256": "6e46f0ccb0ad59695e2ab797a2e502f48816bfd2517f47850fb3d34d787b3d40",
+   "ok": true
+  },
+  {
+   "file": "datasets/P058/SGRender2.png",
+   "sha256": "92e5420dd2351154ad7c9190779a5b28ae8d2250d81cad4e5eaa424cbba06bd0",
+   "frozen_sha256": "92e5420dd2351154ad7c9190779a5b28ae8d2250d81cad4e5eaa424cbba06bd0",
+   "ok": true
+  },
+  {
+   "file": "datasets/P058/SGRender3.png",
+   "sha256": "aed058a3b2352bebd5d6a7b0c946442e2cc2565c3ff522513d2867f4f2d21a4f",
+   "frozen_sha256": "aed058a3b2352bebd5d6a7b0c946442e2cc2565c3ff522513d2867f4f2d21a4f",
+   "ok": true
+  },
+  {
+   "file": "datasets/P058/SGRender4.png",
+   "sha256": "3db15dfbc56b2852326a410b0644b30f94d209c34d4ef8a50e98c41680e2b12e",
+   "frozen_sha256": "3db15dfbc56b2852326a410b0644b30f94d209c34d4ef8a50e98c41680e2b12e",
+   "ok": true
+  },
+  {
+   "file": "datasets/P058/SGRender5.png",
+   "sha256": "9656c9cdc1b4555baecf2eb4982144cece75afc081696bcf00ca8de688d7a3ef",
+   "frozen_sha256": "9656c9cdc1b4555baecf2eb4982144cece75afc081696bcf00ca8de688d7a3ef",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

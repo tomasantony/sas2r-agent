@@ -1,0 +1,46 @@
+sandbox: docker run --rm --name sas2r-e4b80ae5afed --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\gpt-oss-120b-ollama\P024\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Error in `mutate()`:
+ℹ In argument: `DSSTDTC = case_when(...)`.
+Caused by error in `case_when()`:
+! Failed to evaluate the right-hand side of formula 1.
+Caused by error in `format.default()`:
+! invalid 'trim' argument
+Backtrace:
+     ▆
+  1. ├─... %>% ...
+  2. ├─dplyr::mutate(...)
+  3. ├─dplyr::mutate(...)
+  4. ├─dplyr:::mutate.data.frame(...)
+  5. │ └─dplyr:::mutate_cols(.data, dplyr_quosures(...), by)
+  6. │   ├─base::withCallingHandlers(...)
+  7. │   └─dplyr:::mutate_col(dots[[i]], data, mask, new_columns)
+  8. │     └─mask$eval_all_mutate(quo)
+  9. │       └─dplyr (local) eval()
+ 10. ├─dplyr::case_when(...)
+ 11. │ └─dplyr:::eval_formulas(..., allow_empty_dots = FALSE)
+ 12. │   ├─base::withCallingHandlers(...)
+ 13. │   └─rlang::eval_tidy(pair$rhs, env = user_env)
+ 14. ├─base::format(STDT, "%Y-%m-%d")
+ 15. ├─base::format.default(STDT, "%Y-%m-%d")
+ 16. └─base::.handleSimpleError(...)
+ 17.   └─dplyr (local) h(simpleError(msg, call))
+ 18.     └─rlang::abort(message, parent = cnd, call = error_call)
+Execution halted

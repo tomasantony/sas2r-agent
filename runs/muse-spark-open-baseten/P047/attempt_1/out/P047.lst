@@ -1,0 +1,201 @@
+P047 - Mean of DBP Measures by Treatment: Profile Over Time
+============================================================
+
+Source: /bench/data/raw/cdisc-pilot/adam/advs.xpt
+Filtered ADVS N obs: 1547
+
+PROC CONTENTS DATA=ADVS
+-----------------------
+PROC CONTENTS DATA=ADVS
+'data.frame':	1547 obs. of  10 variables:
+ $ usubjid: chr  "01-701-1015" "01-701-1015" "01-701-1015" "01-701-1015" ...
+  ..- attr(*, "label")= chr "Unique Subject Identifier"
+ $ trtpn  : num  0 0 0 0 0 0 0 0 0 0 ...
+  ..- attr(*, "label")= chr "Planned Treatment (N)"
+ $ anl01fl: chr  "Y" "Y" "Y" "Y" ...
+  ..- attr(*, "label")= chr "Analysis Record Flag 01"
+ $ param  : chr  "Diastolic Blood Pressure (mmHg)" "Diastolic Blood Pressure (mmHg)" "Diastolic Blood Pressure (mmHg)" "Diastolic Blood Pressure (mmHg)" ...
+ $ paramcd: chr  "DIABP" "DIABP" "DIABP" "DIABP" ...
+ $ avisit : chr  "Week 2" "Week 4" "Week 6" "Week 8" ...
+ $ avisitn: num  2 4 6 8 12 16 20 24 26 2 ...
+  ..- attr(*, "label")= chr "Analysis Visit (N)"
+ $ atptn  : num  815 815 815 815 815 815 815 815 815 815 ...
+  ..- attr(*, "label")= chr "Analysis Timepoint (N)"
+ $ saffl  : chr  "Y" "Y" "Y" "Y" ...
+  ..- attr(*, "label")= chr "Safety Population Flag"
+ $ aval   : num  56 64 55 67 68 66 67 63 61 88 ...
+  ..- attr(*, "label")= chr "Analysis Value"
+
+Variables:
+    usubjid       trtpn     anl01fl       param     paramcd      avisit 
+"character"   "numeric" "character" "character" "character" "character" 
+    avisitn       atptn       saffl        aval 
+  "numeric"   "numeric" "character"   "numeric" 
+
+N obs: 1547 
+
+PROC FREQ DATA=ADVS
+-------------------
+Table of TRTPN
+--------------
+TRTPN=0  N=635  Percent=41.0%
+TRTPN=54  N=457  Percent=29.5%
+TRTPN=81  N=455  Percent=29.4%
+
+Table of AVISIT * AVISITN
+-------------------------
+Week 2               AVISITN= 2  N=250  Percent=16.2%
+Week 4               AVISITN= 4  N=227  Percent=14.7%
+Week 6               AVISITN= 6  N=208  Percent=13.4%
+Week 8               AVISITN= 8  N=189  Percent=12.2%
+Week 12              AVISITN=12  N=171  Percent=11.1%
+Week 16              AVISITN=16  N=147  Percent=9.5%
+Week 20              AVISITN=20  N=128  Percent=8.3%
+Week 24              AVISITN=24  N=116  Percent=7.5%
+Week 26              AVISITN=26  N=111  Percent=7.2%
+
+Table of AVAL (DIABP)
+---------------------
+AVAL=  41.0  N=  2  Percent=0.13%
+AVAL=  44.0  N=  1  Percent=0.06%
+AVAL=  45.0  N=  1  Percent=0.06%
+AVAL=  46.0  N=  1  Percent=0.06%
+AVAL=  48.0  N=  3  Percent=0.19%
+AVAL=  49.0  N=  1  Percent=0.06%
+AVAL=  50.0  N=  5  Percent=0.32%
+AVAL=  51.0  N=  1  Percent=0.06%
+AVAL=  52.0  N=  7  Percent=0.45%
+AVAL=  53.0  N=  1  Percent=0.06%
+AVAL=  54.0  N=  7  Percent=0.45%
+AVAL=  55.0  N=  7  Percent=0.45%
+AVAL=  56.0  N= 17  Percent=1.10%
+AVAL=  57.0  N=  9  Percent=0.58%
+AVAL=  58.0  N=  9  Percent=0.58%
+AVAL=  59.0  N=  6  Percent=0.39%
+AVAL=  60.0  N= 87  Percent=5.62%
+AVAL=  61.0  N=  7  Percent=0.45%
+AVAL=  62.0  N= 32  Percent=2.07%
+AVAL=  63.0  N= 11  Percent=0.71%
+AVAL=  64.0  N= 58  Percent=3.75%
+AVAL=  65.0  N=  6  Percent=0.39%
+AVAL=  66.0  N= 22  Percent=1.42%
+AVAL=  67.0  N= 14  Percent=0.90%
+AVAL=  68.0  N= 77  Percent=4.98%
+AVAL=  69.0  N= 13  Percent=0.84%
+AVAL=  70.0  N=206  Percent=13.32%
+AVAL=  71.0  N= 18  Percent=1.16%
+AVAL=  72.0  N= 85  Percent=5.49%
+AVAL=  73.0  N=  9  Percent=0.58%
+AVAL=  74.0  N= 65  Percent=4.20%
+AVAL=  75.0  N= 23  Percent=1.49%
+AVAL=  76.0  N= 57  Percent=3.68%
+AVAL=  77.0  N=  7  Percent=0.45%
+AVAL=  78.0  N= 84  Percent=5.43%
+AVAL=  79.0  N= 11  Percent=0.71%
+AVAL=  80.0  N=211  Percent=13.64%
+AVAL=  81.0  N=  8  Percent=0.52%
+AVAL=  82.0  N= 65  Percent=4.20%
+AVAL=  83.0  N=  8  Percent=0.52%
+AVAL=  84.0  N= 62  Percent=4.01%
+AVAL=  85.0  N= 14  Percent=0.90%
+AVAL=  86.0  N= 34  Percent=2.20%
+AVAL=  87.0  N=  8  Percent=0.52%
+AVAL=  88.0  N= 35  Percent=2.26%
+AVAL=  89.0  N=  1  Percent=0.06%
+AVAL=  90.0  N= 88  Percent=5.69%
+AVAL=  91.0  N=  1  Percent=0.06%
+AVAL=  92.0  N= 13  Percent=0.84%
+AVAL=  93.0  N=  1  Percent=0.06%
+AVAL=  94.0  N=  6  Percent=0.39%
+AVAL=  96.0  N=  4  Percent=0.26%
+AVAL=  98.0  N= 11  Percent=0.71%
+AVAL=  99.0  N=  1  Percent=0.06%
+AVAL= 100.0  N=  5  Percent=0.32%
+AVAL= 109.0  N=  1  Percent=0.06%
+
+PROC MEANS DATA=ADVS NOPRINT BY TRTPN AVISITN AVISIT
+---------------------------------------------------
+TRTPN  AVISITN AVISIT                  N     MEAN  LO(95%)  HI(95%)
+----------------------------------------------------------------------
+0      2      Week 2                 84    74.42    72.65    76.18
+0      4      Week 4                 82    74.54    72.56    76.51
+0      6      Week 6                 76    73.88    71.80    75.96
+0      8      Week 8                 73    75.27    73.50    77.05
+0      12     Week 12                69    72.75    70.68    74.83
+0      16     Week 16                68    74.34    72.25    76.42
+0      20     Week 20                66    72.98    71.05    74.92
+0      24     Week 24                59    72.90    70.44    75.36
+0      26     Week 26                58    72.21    70.07    74.35
+54     2      Week 2                 84    75.20    73.34    77.07
+54     4      Week 4                 72    75.97    74.24    77.71
+54     6      Week 6                 65    74.22    72.22    76.21
+54     8      Week 8                 60    75.00    72.99    77.01
+54     12     Week 12                52    75.56    73.10    78.02
+54     16     Week 16                42    73.83    71.35    76.32
+54     20     Week 20                30    72.57    69.88    75.25
+54     24     Week 24                27    76.07    73.07    79.08
+54     26     Week 26                25    72.44    69.13    75.75
+81     2      Week 2                 82    75.80    74.10    77.51
+81     4      Week 4                 73    76.12    74.29    77.96
+81     6      Week 6                 67    75.43    73.34    77.52
+81     8      Week 8                 56    76.23    74.23    78.24
+81     12     Week 12                50    73.68    71.55    75.81
+81     16     Week 16                37    75.68    72.84    78.51
+81     20     Week 20                32    73.44    70.19    76.69
+81     24     Week 24                30    73.87    71.00    76.73
+81     26     Week 26                28    72.96    69.68    76.25
+
+Note: LO/HI = MEAN +/- TINV(0.95, N-1)*STDERR  (SAS TINV function)
+
+PROC FREQ LIST TRTPN*AVISIT*AVISITN*AVAL (first 50 rows)
+--------------------------------------------------------
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 48.0 N=1
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 52.0 N=2
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 56.0 N=1
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 58.0 N=1
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 59.0 N=1
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 60.0 N=1
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 62.0 N=1
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 63.0 N=1
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 64.0 N=3
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 65.0 N=1
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 67.0 N=1
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 68.0 N=7
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 69.0 N=2
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 70.0 N=10
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 71.0 N=1
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 72.0 N=5
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 74.0 N=6
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 75.0 N=2
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 76.0 N=3
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 78.0 N=7
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 80.0 N=5
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 82.0 N=3
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 83.0 N=1
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 84.0 N=5
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 86.0 N=2
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 87.0 N=1
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 88.0 N=5
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 90.0 N=4
+TRTPN= 0 AVISIT=Week 2               AVISITN= 2 AVAL= 96.0 N=1
+TRTPN= 0 AVISIT=Week 4               AVISITN= 4 AVAL= 41.0 N=2
+TRTPN= 0 AVISIT=Week 4               AVISITN= 4 AVAL= 54.0 N=1
+TRTPN= 0 AVISIT=Week 4               AVISITN= 4 AVAL= 56.0 N=1
+TRTPN= 0 AVISIT=Week 4               AVISITN= 4 AVAL= 57.0 N=1
+TRTPN= 0 AVISIT=Week 4               AVISITN= 4 AVAL= 60.0 N=3
+TRTPN= 0 AVISIT=Week 4               AVISITN= 4 AVAL= 62.0 N=2
+TRTPN= 0 AVISIT=Week 4               AVISITN= 4 AVAL= 64.0 N=5
+TRTPN= 0 AVISIT=Week 4               AVISITN= 4 AVAL= 66.0 N=3
+TRTPN= 0 AVISIT=Week 4               AVISITN= 4 AVAL= 68.0 N=3
+TRTPN= 0 AVISIT=Week 4               AVISITN= 4 AVAL= 70.0 N=8
+TRTPN= 0 AVISIT=Week 4               AVISITN= 4 AVAL= 72.0 N=7
+TRTPN= 0 AVISIT=Week 4               AVISITN= 4 AVAL= 74.0 N=3
+TRTPN= 0 AVISIT=Week 4               AVISITN= 4 AVAL= 75.0 N=3
+TRTPN= 0 AVISIT=Week 4               AVISITN= 4 AVAL= 76.0 N=2
+TRTPN= 0 AVISIT=Week 4               AVISITN= 4 AVAL= 78.0 N=6
+TRTPN= 0 AVISIT=Week 4               AVISITN= 4 AVAL= 80.0 N=10
+TRTPN= 0 AVISIT=Week 4               AVISITN= 4 AVAL= 81.0 N=1
+TRTPN= 0 AVISIT=Week 4               AVISITN= 4 AVAL= 82.0 N=4
+TRTPN= 0 AVISIT=Week 4               AVISITN= 4 AVAL= 84.0 N=4
+TRTPN= 0 AVISIT=Week 4               AVISITN= 4 AVAL= 86.0 N=2
+TRTPN= 0 AVISIT=Week 4               AVISITN= 4 AVAL= 87.0 N=1

@@ -1,0 +1,60 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.15384615384615385,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P003.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.15384615384615385,
+   "detail": {
+    "recall": 0.15384615384615385,
+    "expected": 104,
+    "found": 16,
+    "r_files": [
+     "AEPTA.csv",
+     "AEPTA.txt",
+     "AEPTD.csv",
+     "AEPTD.txt",
+     "AESOCA.csv",
+     "AESOCA.txt",
+     "AESOCD.csv",
+     "AESOCD.txt",
+     "AESUBA.csv",
+     "AESUBA.txt",
+     "AESUBD.csv",
+     "AESUBD.txt",
+     "DENOM.csv",
+     "DENOM.txt",
+     "F1PT.csv",
+     "F1PT.txt",
+     "F1SOC.csv",
+     "F1SOC.txt",
+     "F1SUB.csv",
+     "F1SUB.txt",
+     "F2PT.csv",
+     "F2PT.txt",
+     "F2SOC.csv",
+     "F2SOC.txt",
+     "F2SUB.csv",
+     "F2SUB.txt",
+     "P003.csv",
+     "P003.txt",
+     "RESULTPT.csv",
+     "RESULTPT.txt",
+     "RESULTSOC.csv",
+     "RESULTSOC.txt",
+     "RESULTSUB.csv",
+     "RESULTSUB.txt"
+    ],
+    "missing_examples": [
+     "0",
+     "86",
+     "100"
+    ]
+   }
+  }
+ ]
+}

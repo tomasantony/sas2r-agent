@@ -1,0 +1,27 @@
+sandbox: docker run --rm --name sas2r-1aee4c6cfaa2 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P046\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+Reading: /bench/data/raw/cdisc-pilot/adam/advs.xpt 
+Warning messages:
+1: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  pseudoinverse used at 68.296
+2: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  neighborhood radius 5.4176
+3: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  reciprocal condition number  1.4251e-16
+4: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  There are other near singularities as well. 29.35
+Warning messages:
+1: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  pseudoinverse used at 68.296
+2: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  neighborhood radius 5.4176
+3: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  reciprocal condition number  1.4251e-16
+4: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  There are other near singularities as well. 29.35
+Outputs written to: /work/out 
+Files: advs.csv, advs1.csv, P046_advs1.csv, P046_anova.csv, P046_params.csv, P046_regout.csv, P046.csv, P046.lst, P046.lst.csv, P046.lst.txt, P046.txt, regout.csv, sgplot.csv, sgplot.png, sgplot1.csv, sgplot1.png 
+N read: 454  N used: 453 
+SS Model: 3290.92  SS Error: 46081.81  SS Total: 49372.73 
+MS Model: 3290.92  MS Error: 102.18  F: 32.21  p: <.0001 
+RootMSE: 10.1083  DepMean: 71.0243  R2: 0.0667 
+Intercept: 73.7137  Slope: -5.3906 

@@ -1,0 +1,203 @@
+Project: Oncology Clinical Trial Analysis
+Standard: CDISC SDTM / ADaM
+Dataset: Breast Cancer METABRIC
+Program: P061_oncology_sdtm_adam_tlf_analysis.sas (R translation)
+================================================================================ 
+
+Demographic Summary - Age
+-------------------------------------------------------------------------------- 
+         Variable    N    Mean StdDev   Min   Max
+ Age at Diagnosis 2498 60.4203 13.033 21.93 96.29
+
+N=2498  Mean=60.42  Std=13.03  Min=21.93  Max=96.29
+
+Gender Distribution
+-------------------------------------------------------------------------------- 
+ Category Frequency Percent Cumulative_Frequency Cumulative_Percent
+   Female      2509     100                 2509                100
+
+Tumor Stage Distribution
+-------------------------------------------------------------------------------- 
+ Category Frequency    Percent Cumulative_Frequency Cumulative_Percent
+        0        24  0.9565564                   24          0.9565564
+        1       630 25.1096054                  654         26.0661618
+        2       979 39.0195297                 1633         65.0856915
+        3       144  5.7393384                 1777         70.8250299
+        4        11  0.4384217                 1788         71.2634516
+  Missing       721 28.7365484                 2509        100.0000000
+
+Tumor Size Summary
+-------------------------------------------------------------------------------- 
+   Variable    N     Mean   StdDev Min Max
+ Tumor Size 2360 26.22009 15.37088   1 182
+N=2360  Mean=26.22  Std=15.37  Min=1.00  Max=182.00
+
+Chemotherapy Treatment Summary
+-------------------------------------------------------------------------------- 
+ Category Frequency  Percent Cumulative_Frequency Cumulative_Percent
+       No      1568 62.49502                 1568           62.49502
+      Yes       412 16.42088                 1980           78.91590
+  Missing       529 21.08410                 2509          100.00000
+
+ER Status Distribution
+-------------------------------------------------------------------------------- 
+ Category Frequency   Percent Cumulative_Frequency Cumulative_Percent
+ Negative       644 25.667597                  644           25.66760
+ Positive      1825 72.738143                 2469           98.40574
+  Missing        40  1.594261                 2509          100.00000
+
+HER2 Status Distribution
+-------------------------------------------------------------------------------- 
+ Category Frequency  Percent Cumulative_Frequency Cumulative_Percent
+ Negative      1733 69.07134                 1733           69.07134
+ Positive       247  9.84456                 1980           78.91590
+  Missing       529 21.08410                 2509          100.00000
+
+Kaplan-Meier Survival Curve - Summary
+-------------------------------------------------------------------------------- 
+Number of observations: 2509
+Censored (CNSR=1): 837 (42.3%)
+Events (CNSR=0): 1144 (57.7%)
+
+Survival estimates (first 20 time points):
+     time n_risk n_event n_censor      surv      std_err     lower     upper
+ 0.100000   1980       1        1 0.9994949 0.0005049230 0.9985058 1.0000000
+ 2.300000   1973       1        6 0.9989884 0.0007149745 0.9975880 1.0000000
+ 2.533333   1970       1        3 0.9984813 0.0008761793 0.9967655 1.0000000
+ 3.500000   1966       1        2 0.9979734 0.0010122820 0.9959913 0.9999594
+ 4.166667   1964       1        1 0.9974653 0.0011321393 0.9952488 0.9996867
+ 4.433333   1963       1        0 0.9969571 0.0012403634 0.9945290 0.9993912
+ 5.066667   1961       1        1 0.9964487 0.0013398745 0.9938261 0.9990783
+ 5.500000   1959       1        1 0.9959401 0.0014324894 0.9931364 0.9987517
+ 5.833333   1958       1        0 0.9954314 0.0015193830 0.9924579 0.9984138
+ 6.266667   1957       1        0 0.9949228 0.0016014869 0.9917889 0.9980666
+ 6.833333   1956       1        0 0.9944141 0.0016795038 0.9911278 0.9977113
+ 7.800000   1955       1        0 0.9939055 0.0017539790 0.9904737 0.9973492
+ 7.866667   1954       1        0 0.9933968 0.0018253461 0.9898256 0.9969809
+ 8.066667   1953       1        0 0.9928882 0.0018939565 0.9891830 0.9966072
+ 9.066667   1952       1        0 0.9923795 0.0019600997 0.9885452 0.9962287
+ 9.133333   1951       1        0 0.9918709 0.0020240176 0.9879118 0.9958458
+ 9.433333   1950       1        0 0.9913622 0.0020859148 0.9872823 0.9954590
+ 9.600000   1949       1        0 0.9908536 0.0021459662 0.9866565 0.9950685
+ 9.700000   1948       1        0 0.9903449 0.0022043225 0.9860339 0.9946747
+ 9.833333   1947       1        0 0.9898363 0.0022611151 0.9854145 0.9942779
+
+Median survival time: 156.33 months
+
+ADaM ADSL Contents
+-------------------------------------------------------------------------------- 
+                       Variable      Type Length
+                     Patient ID character      9
+               Age at Diagnosis   numeric      8
+         Type of Breast Surgery character     17
+                    Cancer Type character     14
+           Cancer Type Detailed character     41
+                    Cellularity character      8
+                   Chemotherapy character      3
+    Pam50 + Claudin-low subtype character     11
+                         Cohort   numeric      8
+      ER status measured by IHC character      8
+                      ER Status character      8
+      Neoplasm Histologic Grade   numeric      8
+   HER2 status measured by SNP6 character      7
+                    HER2 Status character      8
+ Tumor Other Histologic Subtype character     19
+                Hormone Therapy character      3
+      Inferred Menopausal State character      4
+            Integrative Cluster character      4
+       Primary Tumor Laterality character      5
+  Lymph nodes examined positive   numeric      8
+                 Mutation Count   numeric      8
+    Nottingham prognostic index   numeric      8
+                  Oncotree Code character      6
+      Overall Survival (Months)   numeric      8
+        Overall Survival Status character      8
+                      PR Status character      8
+                  Radio Therapy character      3
+   Relapse Free Status (Months)   numeric      8
+            Relapse Free Status character     12
+                            Sex character      6
+      3-Gene classifier subtype character     21
+                     Tumor Size   numeric      8
+                    Tumor Stage   numeric      8
+         Patient's Vital Status character     20
+                        STUDYID character      6
+                         DOMAIN character      2
+                        USUBJID character     16
+                            AGE   numeric      8
+                         TRT01P character      5
+                          SAFFL character      1
+
+ADaM ADSL First 10 Observations
+-------------------------------------------------------------------------------- 
+# A tibble: 10 × 40
+   `Patient ID` `Age at Diagnosis` `Type of Breast Surgery` `Cancer Type`
+   <chr>                     <dbl> <chr>                    <chr>        
+ 1 MB-0000                    75.6 Mastectomy               Breast Cancer
+ 2 MB-0002                    43.2 Breast Conserving        Breast Cancer
+ 3 MB-0005                    48.9 Mastectomy               Breast Cancer
+ 4 MB-0006                    47.7 Mastectomy               Breast Cancer
+ 5 MB-0008                    77.0 Mastectomy               Breast Cancer
+ 6 MB-0010                    78.8 Mastectomy               Breast Cancer
+ 7 MB-0014                    56.4 Breast Conserving        Breast Cancer
+ 8 MB-0020                    70   Mastectomy               Breast Cancer
+ 9 MB-0022                    89.1 Breast Conserving        Breast Cancer
+10 MB-0025                    76.2 <NA>                     Breast Cancer
+# ℹ 36 more variables: `Cancer Type Detailed` <chr>, Cellularity <chr>,
+#   Chemotherapy <chr>, `Pam50 + Claudin-low subtype` <chr>, Cohort <dbl>,
+#   `ER status measured by IHC` <chr>, `ER Status` <chr>,
+#   `Neoplasm Histologic Grade` <dbl>, `HER2 status measured by SNP6` <chr>,
+#   `HER2 Status` <chr>, `Tumor Other Histologic Subtype` <chr>,
+#   `Hormone Therapy` <chr>, `Inferred Menopausal State` <chr>,
+#   `Integrative Cluster` <chr>, `Primary Tumor Laterality` <chr>, …
+
+Detailed Frequency Tables with Counts and Percentages
+-------------------------------------------------------------------------------- 
+
+Sex:
+Female                           2509  100.00%  Cum N= 2509 Cum %=100.00%
+
+Tumor Stage:
+0                                  24    0.96%  Cum N=   24 Cum %=  0.96%
+1                                 630   25.11%  Cum N=  654 Cum %= 26.07%
+2                                 979   39.02%  Cum N= 1633 Cum %= 65.09%
+3                                 144    5.74%  Cum N= 1777 Cum %= 70.83%
+4                                  11    0.44%  Cum N= 1788 Cum %= 71.26%
+Missing                           721   28.74%  Cum N= 2509 Cum %=100.00%
+
+Chemotherapy:
+No                               1568   62.50%  Cum N= 1568 Cum %= 62.50%
+Yes                               412   16.42%  Cum N= 1980 Cum %= 78.92%
+Missing                           529   21.08%  Cum N= 2509 Cum %=100.00%
+
+ER Status:
+Negative                          644   25.67%  Cum N=  644 Cum %= 25.67%
+Positive                         1825   72.74%  Cum N= 2469 Cum %= 98.41%
+Missing                            40    1.59%  Cum N= 2509 Cum %=100.00%
+
+HER2 Status:
+Negative                         1733   69.07%  Cum N= 1733 Cum %= 69.07%
+Positive                          247    9.84%  Cum N= 1980 Cum %= 78.92%
+Missing                           529   21.08%  Cum N= 2509 Cum %=100.00%
+
+Additional Descriptive Statistics (All Numeric Variables)
+-------------------------------------------------------------------------------- 
+Age at Diagnosis: N=2498 Mean=60.4203 Std=13.0330 Min=21.9300 Max=96.2900 Median=61.1100 Q1=50.9200 Q3=70.0000
+Tumor Size: N=2360 Mean=26.2201 Std=15.3709 Min=1.0000 Max=182.0000 Median=22.4100 Q1=17.0000 Q3=30.0000
+Overall Survival (Months): N=1981 Mean=125.2443 Std=76.1118 Min=0.0000 Max=355.2000 Median=116.4667 Q1=60.8667 Q3=185.1333
+
+Kaplan-Meier Quartiles
+-------------------------------------------------------------------------------- 
+$quantile
+       75        50        25 
+262.86667 156.33333  71.06667 
+
+$lower
+   75    50    25 
+251.2 148.1  64.3 
+
+$upper
+      75       50       25 
+278.3667 168.3000  78.6000 
+
+

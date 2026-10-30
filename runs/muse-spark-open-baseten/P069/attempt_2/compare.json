@@ -1,0 +1,31 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9130434782608695,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "t_ae_sum.rtf",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9130434782608695,
+   "detail": {
+    "recall": 0.9130434782608695,
+    "expected": 46,
+    "found": 42,
+    "r_files": [
+     "t_ae_sum.csv",
+     "t_ae_sum.rtf",
+     "t_ae_sum.txt",
+     "t_ae_sum_counts.csv"
+    ],
+    "missing_examples": [
+     "27",
+     "2026",
+     "15",
+     "46"
+    ]
+   }
+  }
+ ]
+}

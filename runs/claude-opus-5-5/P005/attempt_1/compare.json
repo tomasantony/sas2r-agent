@@ -1,0 +1,44 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P005.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 150,
+    "found": 150,
+    "r_files": [
+     "adlb.csv",
+     "P005.csv",
+     "P005.txt"
+    ],
+    "missing_examples": []
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adlb",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\claude-opus-5-5\\P005\\attempt_1\\out\\adlb.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 516,
+    "rows_r": 516,
+    "cols_sas": 20,
+    "cols_r": 20,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  }
+ ]
+}

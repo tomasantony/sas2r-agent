@@ -1,0 +1,72 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.6233333333333333,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P024.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.4666666666666667,
+   "detail": {
+    "recall": 0.4666666666666667,
+    "expected": 45,
+    "found": 21,
+    "r_files": [
+     "ds.csv",
+     "P024.lst.csv",
+     "P024.lst.txt"
+    ],
+    "missing_examples": [
+     "2026",
+     "-5",
+     "-20",
+     "136",
+     "2",
+     "-6",
+     "-15",
+     "159",
+     "3",
+     "-4",
+     "86",
+     "4"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "ds",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\gpt-oss-120b-ollama\\P024\\attempt_1\\out\\ds.csv",
+   "status": "mismatch",
+   "score": 0.78,
+   "detail": {
+    "rows_sas": 5,
+    "rows_r": 5,
+    "cols_sas": 10,
+    "cols_r": 10,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.78,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(DSSTDTC, 1, '2026-05-20', nan)",
+     "(DSSTDTC, 2, '2026-06-15', nan)",
+     "(DSSTDTC, 3, '2026-04-05', nan)",
+     "(DSSTDTC, 4, '2026-03-15', nan)",
+     "(DSSTDTC, 5, '2026-05-10', nan)",
+     "(DSSTDY, 1, 136, nan)",
+     "(DSSTDY, 2, 159, nan)",
+     "(DSSTDY, 3, 86, nan)",
+     "(DSSTDY, 4, 63, nan)",
+     "(DSSTDY, 5, 116, nan)"
+    ],
+    "worst_columns": {
+     "DSSTDTC": 5,
+     "DSSTDY": 5,
+     "DTHFL": 1
+    }
+   }
+  }
+ ]
+}

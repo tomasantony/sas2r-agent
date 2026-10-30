@@ -1,0 +1,156 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P061",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 3,
+ "recorded_at": "2026-10-29T20:04:55",
+ "agent_commit": "96b45ab7514d692fda0319e8c98629d3d1f987c1",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 18863,
+  "output_tokens": 9725,
+  "reasoning_tokens": 2061,
+  "finish_reason": "stop",
+  "seconds": 26.5
+ },
+ "inputs": {
+  "prompt_translate.md": "1ddeaeb8fdae08c13afde292ec32d619534b6d362d612acfb5b61041cca1fc25"
+ },
+ "model_output": {
+  "response.md": "4998a47704e5209673ee655f94dce430035e9b287b2d4cf18be22ed550023592",
+  "reasoning.md": "b36a8f1e75b66387c023574225ca9565551ef50c0bad6a3b3e0a9d1b31be1398",
+  "script.R": "6a24a6e2853b4f594b822fad1b70f8560f886d67ce1535946b21929e09736bf7"
+ },
+ "r_run": {
+  "rc": 1,
+  "seconds": 57.2,
+  "timed_out": false,
+  "log_sha256": "e00f5f3586913c7498d125cda69364d7b05cc4a9fb3f336bacbe1b1774a516f5"
+ },
+ "r_outputs": {
+  "adam_adsl.csv": "9eb29dba8721ec188242210f5ca6977417413b3c3b886c44f4a16e216945392e",
+  "adam_adtte.csv": "5578236ad3f56196cdfe6ded5e82fb8b01ccec5423f79448954e59fe2bfa83c9",
+  "km_survival_data.csv": "c8f16a4c678ee343d70be6b1b21307ae88748594eb30bb9a3024ec098b1c9a71",
+  "number_universe.txt": "f8f72a0dbe94735b9d30960cf55f9ae0af169a95db7e4210ad41aba4346e664c",
+  "P061.csv": "795a8272797f71ba7a0eef988fbb4bbc010bc278a12d27b3db1c4ac9a0c592fb",
+  "P061.lst": "55db06fb89838bf99ff69645c366502a38d86034cb8c3505d28daab70c4e49c8",
+  "P061.txt": "55db06fb89838bf99ff69645c366502a38d86034cb8c3505d28daab70c4e49c8",
+  "P061_f_oncology_graphs.csv": "795a8272797f71ba7a0eef988fbb4bbc010bc278a12d27b3db1c4ac9a0c592fb",
+  "P061_f_oncology_graphs.pdf": "d94baf5b43a01ebb2d1773d3297c729f37065643b6487310d5bac22e0ee3f551",
+  "P061_f_oncology_graphs.txt": "d94baf5b43a01ebb2d1773d3297c729f37065643b6487310d5bac22e0ee3f551",
+  "P061_f_oncology_graphs_pdf.txt": "d94baf5b43a01ebb2d1773d3297c729f37065643b6487310d5bac22e0ee3f551",
+  "P061_freq.csv": "894ae0eb29f4033a6735ccfd6c836eee994cdab9ab741638aaac5c36750f6368",
+  "P061_lst.txt": "55db06fb89838bf99ff69645c366502a38d86034cb8c3505d28daab70c4e49c8",
+  "P061_numbers_dump.csv": "18d6ce49e3b66071ef0fb05638329a41cc368b0d97192aaa231576f96aa74cdb",
+  "P061_t_oncology_report.csv": "795a8272797f71ba7a0eef988fbb4bbc010bc278a12d27b3db1c4ac9a0c592fb",
+  "P061_t_oncology_report.pdf": "c724607842af09887a31aecebc0a172faf33fb54cf68a539a20c76762aaf76ed",
+  "P061_t_oncology_report.txt": "c724607842af09887a31aecebc0a172faf33fb54cf68a539a20c76762aaf76ed",
+  "P061_t_oncology_report_pdf.txt": "c724607842af09887a31aecebc0a172faf33fb54cf68a539a20c76762aaf76ed",
+  "raw_metabric.csv": "27e73bf779ebbbce93b742e74810d6bdf7f3c87a5f38c5d7b9d96e74bbc43d6d",
+  "sasgraph.csv": "c8f16a4c678ee343d70be6b1b21307ae88748594eb30bb9a3024ec098b1c9a71",
+  "sasgraph.png": "01383c5eed4cd272c246ee703698462f181a8a3d50ac500b4b6a6037cbf618b9",
+  "sdtm_dm.csv": "5aa241f5b06e646a1ad1fa80c562ecd4cfc24c54db83ca5cb965498a9235a757",
+  "sgplot.csv": "a3daad8c6490f2a0417ce0f424416e9d5373e5fd68b2ab46ee9707a792681306",
+  "sgplot.png": "be5dcb1bf4e687f7de86e2b31c279b474844302c4c5f6840afa214635d0b702a",
+  "sgplot1.csv": "de8090ef440e3ffe0ecef89ba6141de3d4814ddf019be9cbfe3c833130b09e1a",
+  "sgplot1.png": "6ad14ea9dbf8ea703b956a77378da97048d3f968119aeb3560e8a50cf0e16932",
+  "sgplot2.csv": "470a4492154223a72ba3f588171150f125e306fe166f8fd156eb5c9b89a456ac",
+  "sgplot2.png": "397a1841e6b76d3bcf81509c66ec1d6ced662bbce5ffdfa84d31347bfe650bde",
+  "sgplot3.csv": "08ea628b1e00ec4f04f12f6ebbd9a8837dc8e49a297fe405d798623b9a25fef0",
+  "sgplot3.png": "a6f3adea7ce3efbbc404dd47e4d83174ebb95919df0826e69914c2a5026e85b2",
+  "sgplot4.csv": "10f376088fdd4092f1d044b1a6370cffb4cddda9c6d9e11f06e9f92a25e656a8",
+  "sgplot4.png": "24ba3e5b02cb9430d59053820973a6967ce13a82c7d05d2fbb73a3daa2ffa8da",
+  "sgplot5.csv": "de8090ef440e3ffe0ecef89ba6141de3d4814ddf019be9cbfe3c833130b09e1a",
+  "sgplot5.png": "b78a8cd74e05687b07c2c4755dd7b708eb37f7d221085f0874422c751e464615",
+  "sgplot6.csv": "c8f16a4c678ee343d70be6b1b21307ae88748594eb30bb9a3024ec098b1c9a71",
+  "sgplot6.png": "c14fcc86879db68558a8adc343b1e2813b7de11b96c1a817e8a0bbeb5bcff0dd"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P061.lst",
+   "sha256": "86890090ed502f08ff6bbd9ed5a72b4e9d499591ddf737289dc186db3bd4b532",
+   "frozen_sha256": "86890090ed502f08ff6bbd9ed5a72b4e9d499591ddf737289dc186db3bd4b532",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/sasgraph.png",
+   "sha256": "85f4f9e8631cd5a16d5ec6225aa5af1d149a58a7e69155c5153c3b596bd5b72f",
+   "frozen_sha256": "85f4f9e8631cd5a16d5ec6225aa5af1d149a58a7e69155c5153c3b596bd5b72f",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot.png",
+   "sha256": "0bb732b27389ca4aa44914fb3602e4347792f36dbff7c1a0ff81e5262f35d042",
+   "frozen_sha256": "0bb732b27389ca4aa44914fb3602e4347792f36dbff7c1a0ff81e5262f35d042",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot1.png",
+   "sha256": "6328994836690da2de276142be84fa9e13b2410abdd29d25f3dc54c18d2e5fbb",
+   "frozen_sha256": "6328994836690da2de276142be84fa9e13b2410abdd29d25f3dc54c18d2e5fbb",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot2.png",
+   "sha256": "764cd98ee242543a3272d3bec3c8ceaa5c35ee0ef5a688a70b48ecdcf189f28c",
+   "frozen_sha256": "764cd98ee242543a3272d3bec3c8ceaa5c35ee0ef5a688a70b48ecdcf189f28c",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot3.png",
+   "sha256": "09a34c39eb24a38f6bafe8f5067ac824da4c49e89c800c227f02b396919ffbe1",
+   "frozen_sha256": "09a34c39eb24a38f6bafe8f5067ac824da4c49e89c800c227f02b396919ffbe1",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot4.png",
+   "sha256": "807894447e725a5e4034d31173dd52ef06ca4f7b56bec14195a7c0ef4dec2df4",
+   "frozen_sha256": "807894447e725a5e4034d31173dd52ef06ca4f7b56bec14195a7c0ef4dec2df4",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot5.png",
+   "sha256": "f79d20bb1091e28904a64c2e4bbe853286ea38d02c131c9419367ad37addadf8",
+   "frozen_sha256": "f79d20bb1091e28904a64c2e4bbe853286ea38d02c131c9419367ad37addadf8",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot6.png",
+   "sha256": "bc34f7bf92836eb79b0ed82a677b62695272c09d1d1cc28523e65ca144e405e4",
+   "frozen_sha256": "bc34f7bf92836eb79b0ed82a677b62695272c09d1d1cc28523e65ca144e405e4",
+   "ok": true
+  },
+  {
+   "file": "tlf/P061_t_oncology_report.pdf",
+   "sha256": "21c5134fde09ba77de04e38bebe34475c2258cbc552b89b1c527e7211ea0aa67",
+   "frozen_sha256": "21c5134fde09ba77de04e38bebe34475c2258cbc552b89b1c527e7211ea0aa67",
+   "ok": true
+  },
+  {
+   "file": "tlf/P061_f_oncology_graphs.pdf",
+   "sha256": "7c26176b139de9237f193aa3f743b2963e5b274b41a1173a32d44ed2f80e0490",
+   "frozen_sha256": "7c26176b139de9237f193aa3f743b2963e5b274b41a1173a32d44ed2f80e0490",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.93642884096409,
+  "produced_all": true
+ }
+}

@@ -1,0 +1,19 @@
+SDTM CM Domain - Concomitant Medications
+
+Obs  STUDYID   DOMAIN  USUBJID           CMSEQ  CMTRT         CMDECOD        CMDOSE  CMDOSU  CMSTDTC     CMENDTC     CMENRTPT  CMENTPT   
+
+  1  CDISC-01  CM      CDISC-01-701-001      1  Omeprazole    OMEPRAZOLE         20  mg      2022-07-06  2023-04-03                      
+  2  CDISC-01  CM      CDISC-01-701-001      2  Paracetamol   ACETAMINOPHEN    1000  mg      2022-07-21  2023-04-02                      
+  3  CDISC-01  CM      CDISC-01-701-001      3  Ibuprofen     IBUPROFEN          20  mg      2022-12-22  2023-01-30                      
+  4  CDISC-01  CM      CDISC-01-701-005      1  Lisinopril    LISINOPRIL        500  mg      2022-08-20  2023-02-04                      
+  5  CDISC-01  CM      CDISC-01-701-006      1  Atorvastatin  ATORVASTATIN       20  mg      2022-12-31              ONGOING   2023-03-24
+  6  CDISC-01  CM      CDISC-01-701-007      1  Ibuprofen     IBUPROFEN          10  mg      2022-08-15              ONGOING   2023-03-28
+  7  CDISC-01  CM      CDISC-01-701-007      2  Atorvastatin  ATORVASTATIN     1000  mg      2022-09-11              ONGOING   2023-03-28
+  8  CDISC-01  CM      CDISC-01-701-011      1  Aspirin       ASPIRIN            20  mg      2022-03-08              ONGOING   2023-04-02
+  9  CDISC-01  CM      CDISC-01-701-016      1  Aspirin       ASPIRIN            10  mg      2022-04-30  2023-01-13                      
+ 10  CDISC-01  CM      CDISC-01-701-016      2  Aspirin       ASPIRIN            10  mg      2022-05-27  2023-02-14                      
+ 11  CDISC-01  CM      CDISC-01-701-016      3  Ibuprofen     IBUPROFEN          10  mg      2022-11-05  2023-02-21                      
+ 12  CDISC-01  CM      CDISC-01-701-017      1  Atorvastatin  ATORVASTATIN     1000  mg      2022-04-11  2023-03-21                      
+ 13  CDISC-01  CM      CDISC-01-701-017      2  Omeprazole    OMEPRAZOLE       1000  mg      2022-11-11              ONGOING   2023-03-26
+ 14  CDISC-01  CM      CDISC-01-701-030      1  Ibuprofen     IBUPROFEN          20  mg      2022-02-27              ONGOING   2023-04-16
+ 15  CDISC-01  CM      CDISC-01-701-030      2  Ibuprofen     IBUPROFEN         500  mg      2022-05-07              ONGOING   2023-04-16

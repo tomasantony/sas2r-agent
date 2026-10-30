@@ -1,0 +1,27 @@
+Vital Signs
+Treatment-Emergent Abnormal High or Low at Any Time
+
+------------------------------------------------------------------------------------------------------------------------------------
+Vital Sign                          Abnormality  Treatment                 N      n      (%)   P value*
+(unit)                              Direction                                                          
+------------------------------------------------------------------------------------------------------------------------------------
+Diastolic Blood Pressure (mmHg)     Low          0                        83      6    (7.2)      0.538
+Diastolic Blood Pressure (mmHg)     Low          54                       84      7    (8.3)           
+Diastolic Blood Pressure (mmHg)     Low          81                       82     10   (12.2)           
+Diastolic Blood Pressure (mmHg)     High         0                        83     13   (15.7)      0.470
+Diastolic Blood Pressure (mmHg)     High         54                       84     13   (15.5)           
+Diastolic Blood Pressure (mmHg)     High         81                       82      8    (9.8)           
+------------------------------------------------------------------------------------------------------------------------------------
+
+Abbreviations:  N = number of patients with a normal (i.e., not low if calculating `low` and not high if calculating `high`)
+baseline and at least one post-baseline measure, n = number of patients with an abnormal post-baseline result in the
+specified category.
+*P values are from Fisher's Exact test.
+
+Detail:
+PARAM=Diastolic Blood Pressure (mmHg) TEFL=Low TRTPN=0 TOTN=83 N=6 PCT=7.23 PCTC=(7.2) P=7.2289 PVALUE=0.538
+PARAM=Diastolic Blood Pressure (mmHg) TEFL=Low TRTPN=54 TOTN=84 N=7 PCT=8.33 PCTC=(8.3) P=8.3333 PVALUE=
+PARAM=Diastolic Blood Pressure (mmHg) TEFL=Low TRTPN=81 TOTN=82 N=10 PCT=12.20 PCTC=(12.2) P=12.1951 PVALUE=
+PARAM=Diastolic Blood Pressure (mmHg) TEFL=High TRTPN=0 TOTN=83 N=13 PCT=15.66 PCTC=(15.7) P=15.6627 PVALUE=0.470
+PARAM=Diastolic Blood Pressure (mmHg) TEFL=High TRTPN=54 TOTN=84 N=13 PCT=15.48 PCTC=(15.5) P=15.4762 PVALUE=
+PARAM=Diastolic Blood Pressure (mmHg) TEFL=High TRTPN=81 TOTN=82 N=8 PCT=9.76 PCTC=(9.8) P=9.7561 PVALUE=

@@ -1,0 +1,33 @@
+sandbox: docker run --rm --name sas2r-8b2fb787aeb1 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\gpt-oss-120b-ollama\P034\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning messages:
+1: In arrows(x0 = subd$PCTPT, y0 = subd$PCmean - subd$PCSD, x1 = subd$PCTPT,  :
+  zero-length arrow is of indeterminate angle and so skipped
+2: In arrows(x0 = subd$PCTPT, y0 = subd$PCmean - subd$PCSD, x1 = subd$PCTPT,  :
+  zero-length arrow is of indeterminate angle and so skipped
+3: In arrows(x0 = subd$PCTPT, y0 = subd$PCmean - subd$PCSD, x1 = subd$PCTPT,  :
+  zero-length arrow is of indeterminate angle and so skipped
+4: In arrows(x0 = subd$PCTPT, y0 = subd$PCmean - subd$PCSD, x1 = subd$PCTPT,  :
+  zero-length arrow is of indeterminate angle and so skipped
+5: In arrows(x0 = subd$PCTPT, y0 = subd$PCmean - subd$PCSD, x1 = subd$PCTPT,  :
+  zero-length arrow is of indeterminate angle and so skipped
+Error in plot.window(...) : Logarithmic axis must have positive limits
+Calls: with ... eval -> plot -> plot.default -> localWindow -> plot.window
+Execution halted

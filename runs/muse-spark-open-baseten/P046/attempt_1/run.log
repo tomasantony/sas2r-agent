@@ -1,0 +1,30 @@
+sandbox: docker run --rm --name sas2r-9f1f29e08878 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P046\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading: /bench/data/raw/cdisc-pilot/adam/advs.xpt 
+Warning message:
+Removed 1 row containing missing values or values outside the scale range
+(`geom_point()`). 
+Warning message:
+Removed 1 row containing missing values or values outside the scale range
+(`geom_point()`). 
+NULL
+Error in `mutate()`:
+ℹ In argument: `residuals = residuals(fit)`.
+Caused by error:
+! `residuals` must be size 454 or 1, not 453.
+Backtrace:
+     ▆
+  1. ├─advs1 %>% ...
+  2. ├─dplyr::mutate(...)
+  3. ├─dplyr:::mutate.data.frame(., fitted_value = predict(fit, newdata = advs1), residuals = residuals(fit))
+  4. │ └─dplyr:::mutate_cols(.data, dplyr_quosures(...), by)
+  5. │   ├─base::withCallingHandlers(...)
+  6. │   └─dplyr:::mutate_col(dots[[i]], data, mask, new_columns)
+  7. │     └─mask$eval_all_mutate(quo)
+  8. │       └─dplyr (local) eval()
+  9. ├─dplyr:::dplyr_internal_error(...)
+ 10. │ └─rlang::abort(class = c(class, "dplyr:::internal_error"), dplyr_error_data = data)
+ 11. │   └─rlang:::signal_abort(cnd, .file)
+ 12. │     └─base::signalCondition(cnd)
+ 13. └─dplyr (local) `<fn>`(`<dpl:::__>`)
+ 14.   └─rlang::abort(message, class = error_class, parent = parent, call = error_call)
+Execution halted

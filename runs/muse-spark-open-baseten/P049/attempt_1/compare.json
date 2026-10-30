@@ -1,0 +1,32 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P049.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 59,
+    "found": 59,
+    "r_files": [
+     "disp.csv",
+     "disp_2.csv",
+     "freq.csv",
+     "P049.csv",
+     "P049.lst.csv",
+     "P049.lst.txt",
+     "P049.txt",
+     "P049_table.csv",
+     "P049_trans_2.csv",
+     "trans_2.csv"
+    ],
+    "missing_examples": []
+   }
+  }
+ ]
+}

@@ -18,6 +18,9 @@ from .config import BENCHMARK_ROOT, RUNS_DIR
 
 OUT = BENCHMARK_ROOT / "output" / "sas"
 NUM = re.compile(r"-?\d+(?:\.\d+)?")
+# SAS run stamps such as "27OCT2026 15:46", "27OCT2026:15:46:32" or "17MAR2014:23:57" (titles/footers)
+# are the time the reference was produced, not program output; they are removed before counting numbers.
+RUN_STAMP = re.compile(r"\b\d{1,2}[A-Za-z]{3}\d{2,4}(?:[ :T]\d{1,2}:\d{2}(?::\d{2})?)?\b")
 
 
 @dataclass
@@ -95,6 +98,7 @@ def extract_text(path: Path) -> str:
 def number_tokens(text: str) -> Counter:
     """Multiset of numbers in a text, normalised so 1.50 and 1.5 agree and huge ids are ignored."""
     c: Counter = Counter()
+    text = RUN_STAMP.sub(" ", text)
     for tok in NUM.findall(text):
         if len(tok.lstrip("-").split(".")[0]) > 9:   # identifiers, timestamps, byte counts
             continue

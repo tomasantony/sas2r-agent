@@ -1,0 +1,4 @@
+sandbox: docker run --rm --name sas2r-0ff2d0ab45b0 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P072\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Error in if (is.na(x)) return("") : the condition has length > 1
+Calls: cat_stats -> ifelse -> paste0 -> fmt_int
+Execution halted

@@ -1,0 +1,32 @@
+sandbox: docker run --rm --name sas2r-b26c8a50d82a --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\gpt-oss-120b-ollama\P034\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning messages:
+1: In arrows(x0 = subd$PCTPT[ok], y0 = subd$PCmean[ok] - subd$PCSD[ok],  :
+  zero-length arrow is of indeterminate angle and so skipped
+2: In arrows(x0 = subd$PCTPT[ok], y0 = subd$PCmean[ok] - subd$PCSD[ok],  :
+  zero-length arrow is of indeterminate angle and so skipped
+3: In arrows(x0 = subd$PCTPT[ok], y0 = subd$PCmean[ok] - subd$PCSD[ok],  :
+  zero-length arrow is of indeterminate angle and so skipped
+4: In arrows(x0 = subd$PCTPT[ok], y0 = subd$PCmean[ok] - subd$PCSD[ok],  :
+  zero-length arrow is of indeterminate angle and so skipped
+5: In arrows(x0 = subd$PCTPT[ok], y0 = subd$PCmean[ok] - subd$PCSD[ok],  :
+  zero-length arrow is of indeterminate angle and so skipped
+null device 
+          1 

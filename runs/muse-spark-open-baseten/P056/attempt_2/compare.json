@@ -1,0 +1,46 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.4794520547945205,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P056.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.4794520547945205,
+   "detail": {
+    "recall": 0.4794520547945205,
+    "expected": 146,
+    "found": 70,
+    "r_files": [
+     "P056.csv",
+     "P056.lst.csv",
+     "P056.lst.txt",
+     "P056.txt",
+     "P056_advs_filtered.csv",
+     "P056_all_fisher.csv",
+     "P056_all_n.csv",
+     "P056_plot_data.csv",
+     "P056_table_vals.csv",
+     "P056_te_n.csv",
+     "P056_totn.csv"
+    ],
+    "missing_examples": [
+     "30.92",
+     "2.41",
+     "33.33",
+     "92.77",
+     "34.07",
+     "26.09",
+     "2.81",
+     "33.73",
+     "91.67",
+     "30.43",
+     "28.92",
+     "4.02"
+    ]
+   }
+  }
+ ]
+}

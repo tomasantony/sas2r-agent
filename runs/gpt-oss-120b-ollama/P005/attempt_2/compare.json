@@ -1,0 +1,45 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P005.lst",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 150,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "1",
+     "-1",
+     "-701",
+     "15",
+     "2023",
+     "24",
+     "0",
+     "2",
+     "34",
+     "10",
+     "3",
+     "19"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adlb",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "adlb.csv"
+   }
+  }
+ ]
+}

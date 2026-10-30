@@ -1,0 +1,228 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.8347147561955879,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P061.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.3398492571304631,
+   "detail": {
+    "recall": 0.3398492571304631,
+    "expected": 36884,
+    "found": 12535,
+    "r_files": [
+     "adam_adsl.csv",
+     "adam_adtte.csv",
+     "km_survival_data.csv",
+     "P061.csv",
+     "P061_f_oncology_graphs.csv",
+     "P061_f_oncology_graphs.txt",
+     "P061_freq.csv",
+     "P061_t_oncology_report.csv",
+     "P061_t_oncology_report.txt",
+     "raw_metabric.csv",
+     "sasgraph.csv",
+     "sdtm_dm.csv",
+     "sgplot.csv",
+     "sgplot1.csv",
+     "sgplot2.csv",
+     "sgplot3.csv",
+     "sgplot4.csv",
+     "sgplot5.csv",
+     "sgplot6.csv"
+    ],
+    "missing_examples": [
+     "2026",
+     "560",
+     "65536",
+     "116",
+     "106",
+     "38384",
+     "9.0401",
+     "200",
+     "1.34",
+     "630",
+     "35.23",
+     "654"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "sasgraph.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten\\P061\\attempt_1\\out\\sasgraph.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten\\P061\\attempt_1\\out\\sgplot.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot1.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten\\P061\\attempt_1\\out\\sgplot1.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot2.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten\\P061\\attempt_1\\out\\sgplot2.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot3.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten\\P061\\attempt_1\\out\\sgplot3.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot4.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten\\P061\\attempt_1\\out\\sgplot4.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot5.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten\\P061\\attempt_1\\out\\sgplot5.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot6.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten\\P061\\attempt_1\\out\\sgplot6.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "P061_t_oncology_report.pdf",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.4210583861797507,
+   "detail": {
+    "recall": 0.4210583861797507,
+    "expected": 9146,
+    "found": 3851,
+    "r_files": [
+     "adam_adsl.csv",
+     "adam_adtte.csv",
+     "km_survival_data.csv",
+     "P061.csv",
+     "P061_f_oncology_graphs.csv",
+     "P061_f_oncology_graphs.txt",
+     "P061_freq.csv",
+     "P061_t_oncology_report.csv",
+     "P061_t_oncology_report.txt",
+     "raw_metabric.csv",
+     "sasgraph.csv",
+     "sdtm_dm.csv",
+     "sgplot.csv",
+     "sgplot1.csv",
+     "sgplot2.csv",
+     "sgplot3.csv",
+     "sgplot4.csv",
+     "sgplot5.csv",
+     "sgplot6.csv"
+    ],
+    "missing_examples": [
+     "1.34",
+     "35.23",
+     "91.33",
+     "8.05",
+     "99.38",
+     "0.62",
+     "1981",
+     "0.9995",
+     "0.000505",
+     "1979",
+     "0.767",
+     "1978"
+    ]
+   }
+  },
+  {
+   "kind": "text",
+   "name": "P061_f_oncology_graphs.pdf",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.4209546748412525,
+   "detail": {
+    "recall": 0.4209546748412525,
+    "expected": 9134,
+    "found": 3845,
+    "r_files": [
+     "adam_adsl.csv",
+     "adam_adtte.csv",
+     "km_survival_data.csv",
+     "P061.csv",
+     "P061_f_oncology_graphs.csv",
+     "P061_f_oncology_graphs.txt",
+     "P061_freq.csv",
+     "P061_t_oncology_report.csv",
+     "P061_t_oncology_report.txt",
+     "raw_metabric.csv",
+     "sasgraph.csv",
+     "sdtm_dm.csv",
+     "sgplot.csv",
+     "sgplot1.csv",
+     "sgplot2.csv",
+     "sgplot3.csv",
+     "sgplot4.csv",
+     "sgplot5.csv",
+     "sgplot6.csv"
+    ],
+    "missing_examples": [
+     "800",
+     "1981",
+     "0.9995",
+     "0.000505",
+     "1979",
+     "0.767",
+     "1978",
+     "1.233",
+     "1977",
+     "1.267",
+     "1976",
+     "1.433"
+    ]
+   }
+  }
+ ]
+}

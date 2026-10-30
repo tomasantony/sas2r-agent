@@ -1,0 +1,19 @@
+claude-opus-5-5: 83 programs to run; spent so far $5.16 (287,868 in / 200,272 out); budget $45.00
+P001: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=6365/5054 42s  spent=$5.28
+P002: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=6462/6141 49s  spent=$5.43
+P003: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=5984/6162 51s  spent=$5.58
+P004: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=4149/3944 33s  spent=$5.67
+P005: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=4592/5844 50s  spent=$5.81
+P006: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=4290/4609 43s  spent=$5.92
+P007: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=3381/3100 30s  spent=$5.99
+P008: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=3988/5503 45s  spent=$6.12
+P010: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=4297/4587 39s  spent=$6.23
+P011: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=2 tokens=13728/10871 92s  spent=$6.50
+P012: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=3266/2946 28s  spent=$6.57
+P013: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=3562/2476 23s  spent=$6.64
+P014: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=2 tokens=10180/6700 58s  spent=$6.81
+P015: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=4312/4255 35s  spent=$6.91
+P016: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=3117/1732 20s  spent=$6.96
+P017: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=3240/4286 39s  spent=$7.06
+P021: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=3056/2959 28s  spent=$7.13
+P023: translated=True runs=True all_outputs=True equivalent=True score=1.000 iters=1 tokens=5147/5128 48s  spent=$7.26

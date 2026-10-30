@@ -1,0 +1,43 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9807973380601425,
+ "artifacts": [
+  {
+   "kind": "dataset",
+   "name": "adae",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\gpt-oss-120b-ollama\\P002\\attempt_3\\out\\adae.csv",
+   "status": "mismatch",
+   "score": 0.9807973380601425,
+   "detail": {
+    "rows_sas": 1191,
+    "rows_r": 1191,
+    "cols_sas": 54,
+    "cols_r": 54,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.9807973380601425,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(STUDYID, 1, 'CDISCPILOT01', nan)",
+     "(STUDYID, 2, 'CDISCPILOT01', nan)",
+     "(STUDYID, 3, 'CDISCPILOT01', nan)",
+     "(STUDYID, 4, 'CDISCPILOT01', nan)",
+     "(STUDYID, 5, 'CDISCPILOT01', nan)",
+     "(STUDYID, 6, 'CDISCPILOT01', nan)",
+     "(STUDYID, 7, 'CDISCPILOT01', nan)",
+     "(STUDYID, 8, 'CDISCPILOT01', nan)",
+     "(STUDYID, 9, 'CDISCPILOT01', nan)",
+     "(STUDYID, 10, 'CDISCPILOT01', nan)"
+    ],
+    "worst_columns": {
+     "STUDYID": 1191,
+     "ASTDTF": 15,
+     "ASTDT": 7,
+     "ASTDY": 7,
+     "TRTEMFL": 7
+    }
+   }
+  }
+ ]
+}

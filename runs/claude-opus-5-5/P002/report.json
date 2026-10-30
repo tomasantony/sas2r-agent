@@ -1,0 +1,30 @@
+{
+ "id": "P002",
+ "provider": "claude-opus-5-5",
+ "model": "claude-opus-5-5",
+ "family": "pilot",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 1.0,
+ "iterations": 1,
+ "input_tokens": 6462,
+ "output_tokens": 6141,
+ "seconds": 49.127269983291626,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 1.5279650688171387,
+   "input_tokens": 6462,
+   "output_tokens": 6141,
+   "seconds_llm": 47.30373215675354,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 1.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 1
+}

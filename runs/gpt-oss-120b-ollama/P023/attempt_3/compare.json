@@ -1,0 +1,37 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.20422535211267606,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P023.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.20422535211267606,
+   "detail": {
+    "recall": 0.20422535211267606,
+    "expected": 142,
+    "found": 29,
+    "r_files": [
+     "P023.csv",
+     "sdtm_dm.csv"
+    ],
+    "missing_examples": [
+     "2026",
+     "-1",
+     "-5",
+     "-20",
+     "-15",
+     "-2",
+     "1965",
+     "-4",
+     "-12",
+     "-8",
+     "-6",
+     "-10"
+    ]
+   }
+  }
+ ]
+}

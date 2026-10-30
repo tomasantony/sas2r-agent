@@ -1,0 +1,33 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P003.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 104,
+    "found": 104,
+    "r_files": [
+     "f1pt.csv",
+     "f1soc.csv",
+     "f1sub.csv",
+     "f2pt.csv",
+     "f2soc.csv",
+     "f2sub.csv",
+     "P003.csv",
+     "P003.txt",
+     "resultpt.csv",
+     "resultsoc.csv",
+     "resultsub.csv"
+    ],
+    "missing_examples": []
+   }
+  }
+ ]
+}

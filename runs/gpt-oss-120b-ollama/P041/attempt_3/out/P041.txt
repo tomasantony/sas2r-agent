@@ -1,0 +1,12 @@
+Demography
+
+                                   Group 1     Group 2     Group 3       Total
+------------------------------------------------------------------------------
+Age                                                                           
+    50-59                                1           2           4           7
+    >=60                                 1           2           4           7
+Gender                                                                        
+  Male                                   9          10           9          28
+  Female                                 9          10           9          28
+
+NOTE: Numbers in parentheses are percentages

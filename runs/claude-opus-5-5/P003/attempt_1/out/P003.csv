@@ -1,0 +1,9 @@
+"analysis","byvar","byval","comparison","N","F","left_p","right_p","table_p","twosided_p"
+"F1PT","AEDECOD","PARTIAL SEIZURES WITH SECONDARY GENERALISATION","2 vs 0",86,,,,,
+"F1PT","AEDECOD","SYNCOPE","2 vs 0",86,,,,,
+"F2PT","AEDECOD","PARTIAL SEIZURES WITH SECONDARY GENERALISATION","1 vs 0",86,,,,,
+"F2PT","AEDECOD","SYNCOPE","1 vs 0",86,,,,,
+"F1SOC","AEBODSYS","NERVOUS SYSTEM DISORDERS","2 vs 0",86,,,,,
+"F2SOC","AEBODSYS","NERVOUS SYSTEM DISORDERS","1 vs 0",86,,,,,
+"F1SUB","","","2 vs 0",86,,,,,
+"F2SUB","","","1 vs 0",86,,,,,

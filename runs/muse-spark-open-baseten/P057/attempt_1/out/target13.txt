@@ -1,0 +1,25 @@
+Figure 14.2-x.x Arithmetic/Geometric Mean concentration-time plot per [analyte] (overlaying) and analyte separately
+Analysis set: PK analysis set
+PCTESTCD=ANAL1  Meantype=A  SD=BOTH
+
+Mean concentration-time data used for plot:
+
+# A tibble: 31 × 6
+   TRTAN TRTA  PCTPT     N PCMEAN    PCSD     
+   <dbl> <chr> <chr> <int> <chr>     <chr>    
+ 1     1 A     0.0      28 ""        ""       
+ 2     1 A     0.3      28 "1619.26" "1391.83"
+ 3     1 A     0.5      28 "3387.59" "2332.94"
+ 4     1 A     1.0      28 "2380.18" "1075.17"
+ 5     1 A     1.5      28 "1144.64" "696.85" 
+ 6     1 A     2.0      28 "723.00"  "785.59" 
+ 7     1 A     3.0      28 "354.24"  "346.30" 
+ 8     1 A     4.0      28 "156.00"  "179.35" 
+ 9     1 A     6.0      28 "26.57"   "17.52"  
+10     1 A     8.0      28 "10.15"   "7.75"   
+# ℹ 21 more rows
+
+X-axis ticks: 0 4 8 12 24 36 48 72 96   XMAX= 100 
+Y-axis (linear) max ~ 6292.58   Y-axis (log) max ~ 4065.11 
+
+Note: Linear view shows mean +/- SD (both directions). Semilog view shows mean only on log10 scale.

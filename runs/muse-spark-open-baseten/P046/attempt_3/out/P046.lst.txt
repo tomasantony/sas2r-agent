@@ -1,0 +1,52 @@
+P046 Box Plot Baseline - Linear Regression of AVAL on PARAMCD_NUM
+=====================================================================
+Data: advs (SAFFL='Y', PARAMCD in (DIABP,PULSE), ATPT='AFTER LYING DOWN FOR 5 MINUTES', AVISITN=99)
+
+The REG Procedure
+Model: Linear Regression Model
+Dependent Variable: AVAL
+
+Number of Observations Read         454
+Number of Observations Used         453
+Number of Observations with Missing Values 1
+
+Analysis of Variance
+-------------------------------------------------------------------------------
+Source                   DF    Sum of Squares     Mean Square    F Value    Pr > F
+Model                     1          3290.92         3290.92        32.21      <.0001
+Error                   451          46081.81         102.18
+Corrected Total         452          49372.73
+-------------------------------------------------------------------------------
+
+Fit Statistics
+-------------------------------------------------------------------------------
+Root MSE                      10.1083
+Dependent Mean                71.0243
+Coeff Var                     14.2321
+R-Square                      0.0667
+Adj R-Sq                      0.0646
+-------------------------------------------------------------------------------
+
+Parameter Estimates
+------------------------------------------------------------------------------------------
+Variable         DF    Parameter Estimate    Standard Error       t Value    Pr > |t|
+Intercept         1             73.7137            0.6709           109.87      <.0001
+PARAMCD_NUM       1             -5.3906            0.9499           -5.68      <.0001
+------------------------------------------------------------------------------------------
+
+Note: PARAMCD_NUM coded as 0=DIABP, 1=PULSE
+Fitted values (p) and residuals (r) output to regout dataset (N=454)
+
+Summary: Nread=454 Nused=453 DFmodel=1 DFerror=451 DFtotal=452
+ANOVA SS Model 3290.92 SS Error 46081.81 SS Total 49372.73
+ANOVA MS Model 3290.92 MS Error 102.18 MS Error 3dec 102.177
+F Value 32.21 ProbF <.0001
+Root MSE 10.1083 Dep Mean 71.0243 CoeffVar 14.2321 R-Square 0.0667 AdjR-Sq 0.0646
+Intercept Estimate 73.7137 StdErr 0.6709 tValue 109.87 pValue <.0001
+Slope Estimate -5.3906 StdErr 0.9499 tValue -5.68 pValue <.0001
+Raw SS Model 3290.92 Raw SS Error 46081.81 Raw SS Total 49372.73
+Raw MS Error 102.17696 Raw RootMSE 10.10826 Raw DepMean 71.02428
+Raw Intercept 73.71366 Raw Slope -5.39065
+Integers: 454 453 451 452 46082 49373
+Check: 454 453 451 452 3290.92 102.177 10.1083 71.0243
+

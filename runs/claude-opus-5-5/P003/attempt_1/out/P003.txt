@@ -1,0 +1,220 @@
+
+The SAS System
+
+------------------------- AEDECOD=PARTIAL SEIZURES WITH SECONDARY GENERALISATION -------------------------
+
+The FREQ Procedure
+
+Table of TRTAN by EVENT
+
+TRTAN     EVENT
+
+Frequency|
+Percent  |
+Row Pct  |
+Col Pct  |       0|  Total
+---------+--------+
+       0 |     86 |     86
+         | 100.00 | 100.00
+         | 100.00 |
+         | 100.00 |
+---------+--------+
+Total          86      86
+           100.00  100.00
+
+Statistics for Table of TRTAN by EVENT
+
+Sample Size = 86
+
+
+The SAS System
+
+------------------------- AEDECOD=SYNCOPE -------------------------
+
+The FREQ Procedure
+
+Table of TRTAN by EVENT
+
+TRTAN     EVENT
+
+Frequency|
+Percent  |
+Row Pct  |
+Col Pct  |       0|  Total
+---------+--------+
+       0 |     86 |     86
+         | 100.00 | 100.00
+         | 100.00 |
+         | 100.00 |
+---------+--------+
+Total          86      86
+           100.00  100.00
+
+Statistics for Table of TRTAN by EVENT
+
+Sample Size = 86
+
+
+The SAS System
+
+------------------------- AEDECOD=PARTIAL SEIZURES WITH SECONDARY GENERALISATION -------------------------
+
+The FREQ Procedure
+
+Table of TRTAN by EVENT
+
+TRTAN     EVENT
+
+Frequency|
+Percent  |
+Row Pct  |
+Col Pct  |       0|  Total
+---------+--------+
+       0 |     86 |     86
+         | 100.00 | 100.00
+         | 100.00 |
+         | 100.00 |
+---------+--------+
+Total          86      86
+           100.00  100.00
+
+Statistics for Table of TRTAN by EVENT
+
+Sample Size = 86
+
+
+The SAS System
+
+------------------------- AEDECOD=SYNCOPE -------------------------
+
+The FREQ Procedure
+
+Table of TRTAN by EVENT
+
+TRTAN     EVENT
+
+Frequency|
+Percent  |
+Row Pct  |
+Col Pct  |       0|  Total
+---------+--------+
+       0 |     86 |     86
+         | 100.00 | 100.00
+         | 100.00 |
+         | 100.00 |
+---------+--------+
+Total          86      86
+           100.00  100.00
+
+Statistics for Table of TRTAN by EVENT
+
+Sample Size = 86
+
+
+The SAS System
+
+------------------------- AEBODSYS=NERVOUS SYSTEM DISORDERS -------------------------
+
+The FREQ Procedure
+
+Table of TRTAN by EVENT
+
+TRTAN     EVENT
+
+Frequency|
+Percent  |
+Row Pct  |
+Col Pct  |       0|  Total
+---------+--------+
+       0 |     86 |     86
+         | 100.00 | 100.00
+         | 100.00 |
+         | 100.00 |
+---------+--------+
+Total          86      86
+           100.00  100.00
+
+Statistics for Table of TRTAN by EVENT
+
+Sample Size = 86
+
+
+The SAS System
+
+------------------------- AEBODSYS=NERVOUS SYSTEM DISORDERS -------------------------
+
+The FREQ Procedure
+
+Table of TRTAN by EVENT
+
+TRTAN     EVENT
+
+Frequency|
+Percent  |
+Row Pct  |
+Col Pct  |       0|  Total
+---------+--------+
+       0 |     86 |     86
+         | 100.00 | 100.00
+         | 100.00 |
+         | 100.00 |
+---------+--------+
+Total          86      86
+           100.00  100.00
+
+Statistics for Table of TRTAN by EVENT
+
+Sample Size = 86
+
+
+The SAS System
+
+The FREQ Procedure
+
+Table of TRTAN by EVENT
+
+TRTAN     EVENT
+
+Frequency|
+Percent  |
+Row Pct  |
+Col Pct  |       0|  Total
+---------+--------+
+       0 |     86 |     86
+         | 100.00 | 100.00
+         | 100.00 |
+         | 100.00 |
+---------+--------+
+Total          86      86
+           100.00  100.00
+
+Statistics for Table of TRTAN by EVENT
+
+Sample Size = 86
+
+
+The SAS System
+
+The FREQ Procedure
+
+Table of TRTAN by EVENT
+
+TRTAN     EVENT
+
+Frequency|
+Percent  |
+Row Pct  |
+Col Pct  |       0|  Total
+---------+--------+
+       0 |     86 |     86
+         | 100.00 | 100.00
+         | 100.00 |
+         | 100.00 |
+---------+--------+
+Total          86      86
+           100.00  100.00
+
+Statistics for Table of TRTAN by EVENT
+
+Sample Size = 86
+

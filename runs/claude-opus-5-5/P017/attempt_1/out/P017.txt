@@ -1,0 +1,15 @@
+SV Domain Audit
+
+Obs  STUDYID   DOMAIN  USUBJID           VISIT    SVSTDTC     SVENDTC     VISITNUM  VISITDY
+  1  CDISC-01  SV      CDISC-01-701-001  Visit 1  2023-01-15  2023-01-15        1.       1.
+  2  CDISC-01  SV      CDISC-01-701-001  Visit 2  2023-02-14  2023-02-14        2.      31.
+  3  CDISC-01  SV      CDISC-01-701-001  Visit 3  2023-03-17  2023-03-17        3.      61.
+  4  CDISC-01  SV      CDISC-01-701-004  Visit 1  2023-01-02  2023-01-02        1.       1.
+  5  CDISC-01  SV      CDISC-01-701-004  Visit 2  2023-01-31  2023-01-31        2.      31.
+  6  CDISC-01  SV      CDISC-01-701-004  Visit 3  2023-03-05  2023-03-05        3.      61.
+  7  CDISC-01  SV      CDISC-01-701-005  Visit 1  2023-01-07  2023-01-07        1.       1.
+  8  CDISC-01  SV      CDISC-01-701-005  Visit 2  2023-02-03  2023-02-03        2.      31.
+  9  CDISC-01  SV      CDISC-01-701-006  Visit 1  2023-01-22  2023-01-22        1.       1.
+ 10  CDISC-01  SV      CDISC-01-701-006  Visit 2  2023-02-18  2023-02-18        2.      31.
+ 11  CDISC-01  SV      CDISC-01-701-006  Visit 3  2023-03-24  2023-03-24        3.      61.
+ 12  CDISC-01  SV      CDISC-01-701-007  Visit 1  2023-01-03  2023-01-03        1.       1.

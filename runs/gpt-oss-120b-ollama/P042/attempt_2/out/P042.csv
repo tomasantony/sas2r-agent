@@ -1,0 +1,11 @@
+Sector,Manager,Department,Sales
+Sector,Manager,Department,
+se,1,np1,50
+se,2,np1,40
+nw,3,np1,60
+nw,4,np1,45
+nw,9,np1,45
+sw,5,np1,53
+sw,6,np1,40
+ne,7,np1,90
+ne,8,np1,200

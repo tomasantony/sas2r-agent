@@ -1,0 +1,54 @@
+{
+ "id": "P012",
+ "provider": "gpt-oss-120b-ollama",
+ "model": "gpt-oss:120b",
+ "family": "c2c",
+ "translated": true,
+ "runs": false,
+ "produced_all": false,
+ "equivalent": false,
+ "best_score": 0.0,
+ "iterations": 3,
+ "input_tokens": 10616,
+ "output_tokens": 6370,
+ "seconds": 29.43402671813965,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 1,
+   "seconds_r": 1.2747766971588135,
+   "input_tokens": 1983,
+   "output_tokens": 2186,
+   "seconds_llm": 8.123557806015015,
+   "produced_all": false,
+   "equivalent": false,
+   "score": 0.0,
+   "note": ""
+  },
+  {
+   "n": 2,
+   "rc": 1,
+   "seconds_r": 1.5965967178344727,
+   "input_tokens": 3499,
+   "output_tokens": 1914,
+   "seconds_llm": 9.014092683792114,
+   "produced_all": false,
+   "equivalent": false,
+   "score": 0.0,
+   "note": ""
+  },
+  {
+   "n": 3,
+   "rc": 1,
+   "seconds_r": 1.6414129734039307,
+   "input_tokens": 5134,
+   "output_tokens": 2270,
+   "seconds_llm": 7.472576141357422,
+   "produced_all": false,
+   "equivalent": false,
+   "score": 0.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 1
+}

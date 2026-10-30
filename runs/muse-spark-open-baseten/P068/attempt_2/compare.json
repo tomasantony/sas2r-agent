@@ -1,0 +1,30 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.972972972972973,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "t_ae_soc_pt.rtf",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.972972972972973,
+   "detail": {
+    "recall": 0.972972972972973,
+    "expected": 111,
+    "found": 108,
+    "r_files": [
+     "t_ae_soc_pt.csv",
+     "t_ae_soc_pt.rtf",
+     "t_ae_soc_pt.txt",
+     "t_ae_soc_pt_rtf.csv"
+    ],
+    "missing_examples": [
+     "27",
+     "2026",
+     "46"
+    ]
+   }
+  }
+ ]
+}

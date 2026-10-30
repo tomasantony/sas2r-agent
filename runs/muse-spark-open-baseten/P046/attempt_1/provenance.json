@@ -1,0 +1,77 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P046",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T19:50:53",
+ "agent_commit": "96b45ab7514d692fda0319e8c98629d3d1f987c1",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 1563,
+  "output_tokens": 6831,
+  "reasoning_tokens": 2884,
+  "finish_reason": "stop",
+  "seconds": 19.6
+ },
+ "inputs": {
+  "prompt_translate.md": "1bfbc0512a96eb82bfe535ac2c5e20c0fc9f8ecf5e66224a3c419642c02e222b"
+ },
+ "model_output": {
+  "response.md": "175e410fddbe6bd0ea95bb48f3c339db2d03f2fa693800357a864d481c1d3e89",
+  "reasoning.md": "3d119225fd5ec58e58fa881a59d2677b73288c05f89a7670490ee1acb8ab06fa",
+  "script.R": "96550ff77def68e704d764186cc767f7e5d84bf8c363104e9524ff85cca6c522"
+ },
+ "r_run": {
+  "rc": 1,
+  "seconds": 4.0,
+  "timed_out": false,
+  "log_sha256": "93c69c20d39ef7faff1d53736c0c7e16b94f001726576bdb2e81206616a5d426"
+ },
+ "r_outputs": {
+  "advs.csv": "a78aa15ae6affb0abb51f5462628613edab5360c6d0e8a6a86b295d40a6400ad",
+  "advs1.csv": "8eb3d494ff6e951ff7e0c08facaf00c5c403d9c98ae5bf777472461036004361",
+  "P046_advs1.csv": "8eb3d494ff6e951ff7e0c08facaf00c5c403d9c98ae5bf777472461036004361",
+  "sgplot.csv": "7c9739b1cf3986ca123d60788d23549990e22e2d199693e27fa781d245a88173",
+  "sgplot.png": "4f4a8364f9e475e3988c09b0a74b42344c217b8f39f63177178da24dbfdc531e"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P046.lst",
+   "sha256": "7ebfc1a7322471cdc03bd231b1aa1de3905930aec02d3647f1c71c3478b4c52b",
+   "frozen_sha256": "7ebfc1a7322471cdc03bd231b1aa1de3905930aec02d3647f1c71c3478b4c52b",
+   "ok": true
+  },
+  {
+   "file": "datasets/P046/SGPlot.png",
+   "sha256": "8fb37c21f46e31f2ac07681e2428db61dc42b8ff986dc9df31e0f10be4e51f63",
+   "frozen_sha256": "8fb37c21f46e31f2ac07681e2428db61dc42b8ff986dc9df31e0f10be4e51f63",
+   "ok": true
+  },
+  {
+   "file": "datasets/P046/SGPlot1.png",
+   "sha256": "1ce964a39384da1cc7cdbdbc375365cee65a7e9129d080e0a816e0520f0faca2",
+   "frozen_sha256": "1ce964a39384da1cc7cdbdbc375365cee65a7e9129d080e0a816e0520f0faca2",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.7586206896551725,
+  "produced_all": true
+ }
+}

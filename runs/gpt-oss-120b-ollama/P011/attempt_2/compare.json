@@ -1,0 +1,55 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.9751131221719457,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P011.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9502262443438914,
+   "detail": {
+    "recall": 0.9502262443438914,
+    "expected": 221,
+    "found": 210,
+    "r_files": [
+     "dm.csv",
+     "P011.lst.csv",
+     "P011.lst.txt"
+    ],
+    "missing_examples": [
+     "10",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "dm",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\gpt-oss-120b-ollama\\P011\\attempt_2\\out\\dm.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 50,
+    "rows_r": 50,
+    "cols_sas": 14,
+    "cols_r": 14,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  }
+ ]
+}

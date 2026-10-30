@@ -1,0 +1,94 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P042",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T19:47:38",
+ "agent_commit": "96b45ab7514d692fda0319e8c98629d3d1f987c1",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 2581,
+  "output_tokens": 9923,
+  "reasoning_tokens": 5385,
+  "finish_reason": "stop",
+  "seconds": 29.1
+ },
+ "inputs": {
+  "prompt_translate.md": "6adf823ff9f282c5b0cbac7e469084a7b81f64da68e614aa75260e60111cad87"
+ },
+ "model_output": {
+  "response.md": "4f61d031a007eaba002010e1a1fb778dc0376a15a765fa47ba3f3beeaeb96682",
+  "reasoning.md": "bb3d4d8b574aa797306f01e63acd0b229b38242051924633eab906df44865357",
+  "script.R": "38dd8e54763f7284981ea601fc5c2ae9354025b03d4e5cc28e16c3cfeeba0143"
+ },
+ "r_run": {
+  "rc": 1,
+  "seconds": 0.9,
+  "timed_out": false,
+  "log_sha256": "1d596149281c19bc6a46a594bc5219100de05ca842fed8da14063ed093143acf"
+ },
+ "r_outputs": {
+  "example1.csv": "215deab19bbaef3b0a1d2ab39680fc8cab8e88306d97d7e8b849be0ddc4f7cfc",
+  "example1.html": "b886a43bf200d7c6faad0646df28d4297e6c7ec5d58ce631728c73911ff12649",
+  "example1.html.csv": "215deab19bbaef3b0a1d2ab39680fc8cab8e88306d97d7e8b849be0ddc4f7cfc",
+  "example1.html.txt": "42ff6bc75408f3c55467d335bd4084bfa7e73648664c7be552a19879aa1b2452"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P042.lst",
+   "sha256": "e5f6ab3ae153efd41caa295fa8399b1ae9657787813f8bbcbe59c43333a41830",
+   "frozen_sha256": "e5f6ab3ae153efd41caa295fa8399b1ae9657787813f8bbcbe59c43333a41830",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example1.html",
+   "sha256": "719d66082f5e9aae8658bf36f292681394782ae896a8bddc0244b3437202b818",
+   "frozen_sha256": "719d66082f5e9aae8658bf36f292681394782ae896a8bddc0244b3437202b818",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example2.html",
+   "sha256": "430b0139ae2d551bee7d2325cbc1362dfebfd67088c2a75b292e35ab0613897a",
+   "frozen_sha256": "430b0139ae2d551bee7d2325cbc1362dfebfd67088c2a75b292e35ab0613897a",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example3.html",
+   "sha256": "3148ed9e824d49951a86eace1f167f532336d2899b6bc12f6000c6f6bbc0cc65",
+   "frozen_sha256": "3148ed9e824d49951a86eace1f167f532336d2899b6bc12f6000c6f6bbc0cc65",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example4.html",
+   "sha256": "a692fd578f5012d028ab79bac2d10196418dee63b522a9062e09d7e70cdcec2d",
+   "frozen_sha256": "a692fd578f5012d028ab79bac2d10196418dee63b522a9062e09d7e70cdcec2d",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example5.html",
+   "sha256": "9bdcfb5e6ab881fbd44e2a7cdb513e5863741d1a67e89dbce3175a3881ee969d",
+   "frozen_sha256": "9bdcfb5e6ab881fbd44e2a7cdb513e5863741d1a67e89dbce3175a3881ee969d",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.3833576062015121,
+  "produced_all": true
+ }
+}

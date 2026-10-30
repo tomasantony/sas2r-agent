@@ -1,0 +1,21 @@
+Table 14.3.1
+Overall Summary of Treatment-Emergent Adverse Events
+Safety Analysis Set
+
+Category | Placebo (N=95) | Drug X Low Dose (N=82) | Drug X High Dose (N=63)
+----------------------------------------------------------------------------
+Subjects with no TEAE | 26 (27.4) | 19 (23.2) | 20 (31.7)
+Subjects with at least one TEAE | 69 (72.6) | 63 (76.8) | 43 (68.3)
+  Grade >=3 TEAE | 16 (16.8) | 11 (13.4) | 12 (19.0)
+  Serious Adverse Event | 9 (9.5) | 12 (14.6) | 6 (9.5)
+  TEAE Leading to Study Drug Discontinuation | 10 (10.5) | 9 (11.0) | 3 (4.8)
+  TEAE Leading to Dose Modification | 31 (32.6) | 26 (31.7) | 18 (28.6)
+
+TEAE = Treatment-Emergent Adverse Event; SAE = Serious Adverse Event
+Subjects are counted once per category.
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Program: &sysin. | Run: 27OCT2026 15:46
+SAS reference numbers: 1 1252 0 1033 2 255 128 192 68 136 102 170 20 10 9.4 2026 27 15 46 41 100 15840 12240 360 720 19 14.3 8 67 3 5964 8530 11096 13662 63 82 95 26 27.4 23.2 31.7 69 72.6 76.8 43 68.3 16 16.8 11 13.4 12 19.0 9 9.5 14.6 6 10.5 11.0 4.8 31 32.6 18 28.6
+Total (N=240)
+Page 1 of 1

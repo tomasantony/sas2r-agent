@@ -1,0 +1,42 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P052.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 4,
+    "found": 4,
+    "r_files": [
+     "advsmax_final3.csv",
+     "figure_data.csv",
+     "P052.csv",
+     "P052.lst.csv",
+     "P052.lst.txt",
+     "P052.txt",
+     "P052_dataset.csv",
+     "range.csv",
+     "range2.csv",
+     "sgrender.csv"
+    ],
+    "missing_examples": []
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGRender.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten\\P052\\attempt_2\\out\\sgrender.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  }
+ ]
+}

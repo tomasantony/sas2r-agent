@@ -1,0 +1,37 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P052.lst",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 4,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "40",
+     "98",
+     "2",
+     "1"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGRender.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgrender.png"
+   }
+  }
+ ]
+}

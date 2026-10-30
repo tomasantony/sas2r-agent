@@ -1,0 +1,16 @@
+P052 - Range for Shift Plot (DIABP, ATPTN=815, ANL01FL=Y, ADY>1, SAFFL=Y)
+==========================================================================
+
+Number of distinct STUDYID: 1
+Axis limits: MIN=40  MAX=98  (equated)
+
+MIN_BASE     MAX_BASE     MIN_AVAL     MAX_AVAL    
+--------     --------     --------     --------    
+40           98           41           90          
+
+Derived equated range: MIN=40  MAX=98
+Panel layout: ROWS=1  COLUMNS=2
+
+Note: 4 numbers (MIN_BASE, MAX_BASE, MIN_AVAL, MAX_AVAL) define axis equating.
+Values: 40, 98, 41, 90
+

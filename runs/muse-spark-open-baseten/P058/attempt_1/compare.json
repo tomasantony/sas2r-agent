@@ -1,0 +1,67 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.0,
+ "artifacts": [
+  {
+   "kind": "figure",
+   "name": "SGRender.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgrender.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGRender1.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgrender1.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGRender2.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgrender2.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGRender3.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgrender3.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGRender4.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgrender4.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGRender5.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgrender5.png"
+   }
+  }
+ ]
+}

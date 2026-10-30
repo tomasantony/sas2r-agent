@@ -1,0 +1,17 @@
+ADTTE Audit - Time to First Adverse Event
+Obs USUBJID TRT01A PARAM CNSR AVAL EVENTDT EOSDT
+ 1 CDISC-01-701-001 Active Drug 50mg Time to First Adverse Event 0 83 09APR2023 09APR2023
+ 2 CDISC-01-701-004 Active Drug 50mg Time to First Adverse Event 0 23 27JAN2023 27MAR2023
+ 3 CDISC-01-701-005 Placebo Time to First Adverse Event 1 28  06FEB2023
+ 4 CDISC-01-701-006 Active Drug 50mg Time to First Adverse Event 0 15 05FEB2023 24MAR2023
+ 5 CDISC-01-701-007 Active Drug 50mg Time to First Adverse Event 0 3 06JAN2023 28MAR2023
+ 6 CDISC-01-701-011 Active Drug 50mg Time to First Adverse Event 1 81  02APR2023
+ 7 CDISC-01-701-016 Placebo Time to First Adverse Event 1 83  27MAR2023
+ 8 CDISC-01-701-017 Active Drug 50mg Time to First Adverse Event 0 52 22FEB2023 26MAR2023
+ 9 CDISC-01-701-028 Placebo Time to First Adverse Event 1 80  12APR2023
+10 CDISC-01-701-030 Placebo Time to First Adverse Event 0 62 28MAR2023 16APR2023
+11 CDISC-01-701-035 Placebo Time to First Adverse Event 1 82  26MAR2023
+12 CDISC-01-701-041 Placebo Time to First Adverse Event 1 51  09MAR2023
+13 CDISC-01-701-042 Active Drug 50mg Time to First Adverse Event 0 30 05FEB2023 29MAR2023
+14 CDISC-01-701-045 Placebo Time to First Adverse Event 0 4 05FEB2023 03APR2023
+15 CDISC-01-701-048 Active Drug 50mg Time to First Adverse Event 0 17 19FEB2023 23FEB2023

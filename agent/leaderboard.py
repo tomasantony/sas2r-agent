@@ -9,7 +9,7 @@ from .config import RUNS_DIR, REPO_ROOT
 
 def collect() -> dict[str, list[dict]]:
     out: dict[str, list[dict]] = {}
-    for prov in sorted(p for p in RUNS_DIR.iterdir() if p.is_dir() and p.name != "expected"):
+    for prov in sorted(p for p in RUNS_DIR.iterdir() if p.is_dir() and p.name != "expected" and not p.name.startswith("_")):
         rows = []
         for rep in sorted(prov.glob("P*/report.json")):
             rows.append(json.loads(rep.read_text(encoding="utf-8")))
@@ -44,6 +44,7 @@ def summarise(rows: list[dict]) -> dict:
         "cost_per_equivalent_usd": cost / n_eq if n_eq else None,
         "mean_seconds": sum(r["seconds"] for r in rows) / n if n else 0.0,
         "model": rows[0]["model"] if rows else "",
+        "prompt_versions": sorted({r.get("prompt_version", 1) for r in rows}),
     }
 
 
@@ -60,21 +61,22 @@ def build(write_html: bool = True) -> dict:
     data = collect()
     from .config import PROVIDERS
     board = {prov: {"overall": summarise(rows), "by_group": by_group(rows, groups),
-                    "role": PROVIDERS[prov].role if prov in PROVIDERS else "?",
-                    "note": PROVIDERS[prov].note if prov in PROVIDERS else "",
+                    "role": PROVIDERS[prov.split("@")[0]].role if prov.split("@")[0] in PROVIDERS else "?",
+                    "note": PROVIDERS[prov.split("@")[0]].note if prov.split("@")[0] in PROVIDERS else "",
                     "programs": [{k: r.get(k) for k in ("id", "family", "translated", "runs", "produced_all", "equivalent", "best_score", "iterations", "best_attempt", "input_tokens", "output_tokens", "seconds")} for r in rows]}
              for prov, rows in data.items()}
     RUNS_DIR.mkdir(parents=True, exist_ok=True)
     (RUNS_DIR / "leaderboard.json").write_text(json.dumps(board, indent=1), encoding="utf-8")
     from .config import PROVIDERS
-    md = ["| row | model | programs | runs | all outputs | equivalent | mean iters | mean sec | list $/M in/out | cost | $/program | $/equivalent |",
-          "|---|---|---|---|---|---|---|---|---|---|---|---|"]
+    md = ["| row | model | prompt | programs | runs | all outputs | equivalent | mean iters | mean sec | list $/M in/out | cost | $/program | $/equivalent |",
+          "|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
     for prov, b in board.items():
         o = b["overall"]
-        role = PROVIDERS[prov].role if prov in PROVIDERS else "?"
+        role = PROVIDERS[prov.split("@")[0]].role if prov.split("@")[0] in PROVIDERS else "?"
+        pv = "v" + "+".join(str(v) for v in o.get("prompt_versions", [1]))
         pin, pout = o["list_price_per_m"]
         per_eq = f"${o['cost_per_equivalent_usd']:.3f}" if o["cost_per_equivalent_usd"] is not None else "n/a"
-        md.append(f"| {role} | {prov} ({o['model']}) | {o['programs']} | {o['runs_pct']:.0f}% | "
+        md.append(f"| {role} | {prov} ({o['model']}) | {pv} | {o['programs']} | {o['runs_pct']:.0f}% | "
                   f"{o['produced_all_pct']:.0f}% | {o['equivalent_pct']:.0f}% | {o['mean_iterations']:.2f} | {o['mean_seconds']:.0f} | "
                   f"{pin:.2f}/{pout:.2f} | ${o['cost_usd']:.2f} | ${o['cost_per_program_usd']:.3f} | {per_eq} |")
     md.append("")

@@ -1,0 +1,35 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P041.lst",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 22,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "1",
+     "2",
+     "3",
+     "50",
+     "-59",
+     "4",
+     "7",
+     "60",
+     "17",
+     "15",
+     "11",
+     "43"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  }
+ ]
+}

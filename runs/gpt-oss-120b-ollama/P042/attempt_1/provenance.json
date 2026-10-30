@@ -1,0 +1,89 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P042",
+ "provider": "gpt-oss-120b-ollama",
+ "model": "gpt-oss:120b",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T20:09:28",
+ "agent_commit": "96b45ab7514d692fda0319e8c98629d3d1f987c1",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 2515,
+  "output_tokens": 3995,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 10.2
+ },
+ "inputs": {
+  "prompt_translate.md": "6adf823ff9f282c5b0cbac7e469084a7b81f64da68e614aa75260e60111cad87"
+ },
+ "model_output": {
+  "response.md": "aeeccc3bab01a69934b7846ce047ab9a2343efcf85162283e3c1914c0cd43dce",
+  "reasoning.md": "d5a9d4e99cf4a50985bb958ae7a711c94d37afca003354c9abe95672485b7f70",
+  "script.R": "6928a8c5bcf237fa3c87d6995926de65d099d9213bcd6e4e4911d4a944c03685"
+ },
+ "r_run": {
+  "rc": 1,
+  "seconds": 1.5,
+  "timed_out": false,
+  "log_sha256": "11a588adf6212800d3fc51754beb973a67e4d16d02cca8ade2abfb7d608421e3"
+ },
+ "r_outputs": {},
+ "sas_reference": [
+  {
+   "file": "logs/P042.lst",
+   "sha256": "e5f6ab3ae153efd41caa295fa8399b1ae9657787813f8bbcbe59c43333a41830",
+   "frozen_sha256": "e5f6ab3ae153efd41caa295fa8399b1ae9657787813f8bbcbe59c43333a41830",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example1.html",
+   "sha256": "719d66082f5e9aae8658bf36f292681394782ae896a8bddc0244b3437202b818",
+   "frozen_sha256": "719d66082f5e9aae8658bf36f292681394782ae896a8bddc0244b3437202b818",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example2.html",
+   "sha256": "430b0139ae2d551bee7d2325cbc1362dfebfd67088c2a75b292e35ab0613897a",
+   "frozen_sha256": "430b0139ae2d551bee7d2325cbc1362dfebfd67088c2a75b292e35ab0613897a",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example3.html",
+   "sha256": "3148ed9e824d49951a86eace1f167f532336d2899b6bc12f6000c6f6bbc0cc65",
+   "frozen_sha256": "3148ed9e824d49951a86eace1f167f532336d2899b6bc12f6000c6f6bbc0cc65",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example4.html",
+   "sha256": "a692fd578f5012d028ab79bac2d10196418dee63b522a9062e09d7e70cdcec2d",
+   "frozen_sha256": "a692fd578f5012d028ab79bac2d10196418dee63b522a9062e09d7e70cdcec2d",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example5.html",
+   "sha256": "9bdcfb5e6ab881fbd44e2a7cdb513e5863741d1a67e89dbce3175a3881ee969d",
+   "frozen_sha256": "9bdcfb5e6ab881fbd44e2a7cdb513e5863741d1a67e89dbce3175a3881ee969d",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.0,
+  "produced_all": false
+ }
+}

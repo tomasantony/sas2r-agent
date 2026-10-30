@@ -1,0 +1,12 @@
+"STUDYID","ORD1","ORD2","DCREASCD","TRT1","TRT2","TRT3","ORD3"
+"CDISCPILOT01",1,1,"Completed the Study","##25#(##0.3)","##27#(##0.3)","##58#(##0.7)",1
+"CDISCPILOT01",1,1,"Discontinued","##59#(##0.7)","##57#(##0.7)","##28#(##0.3)",2
+"CDISCPILOT01",2,1,"Adverse Event","##44#(##0.5)","##40#(##0.5)","###8#(##0.1)",1
+"CDISCPILOT01",2,1,"Death","###1#(##0.0)","###0","###2#(##0.0)",2
+"CDISCPILOT01",3,2,"Lack of Efficacy","###0","###1#(##0.0)","###3#(##0.0)",1
+"CDISCPILOT01",4,3,"Withdrew Consent","##10#(##0.1)","###8#(##0.1)","###9#(##0.1)",1
+"CDISCPILOT01",4,3,"Sponsor Decision","###2#(##0.0)","###3#(##0.0)","###2#(##0.0)",2
+"CDISCPILOT01",4,3,"I/E Not Met","###0","###2#(##0.0)","###1#(##0.0)",3
+"CDISCPILOT01",4,3,"Physician Decision","###0","###2#(##0.0)","###1#(##0.0)",4
+"CDISCPILOT01",4,3,"Protocol Violation","###1#(##0.0)","###1#(##0.0)","###1#(##0.0)",5
+"CDISCPILOT01",4,3,"Lost to Follow-up","###1#(##0.0)","###0","###1#(##0.0)",6

@@ -1,0 +1,46 @@
+sandbox: docker run --rm --name sas2r-3463712ca8d7 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P061\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: ggpubr
+
+Attaching package: ‘survminer’
+
+The following object is masked from ‘package:survival’:
+
+    myeloma
+
+Ignoring unknown labels:
+• fill : "Strata"
+Ignoring unknown labels:
+• fill : "Strata"
+Warning messages:
+1: Removed 1 row containing missing values or values outside the scale range
+(`geom_bar()`). 
+2: Removed 1 row containing missing values or values outside the scale range
+(`geom_text()`). 
+Warning messages:
+1: Removed 11 rows containing non-finite outside the scale range (`stat_bin()`). 
+2: Removed 11 rows containing non-finite outside the scale range
+(`stat_density()`). 
+Warning message:
+Removed 554 rows containing missing values or values outside the scale range
+(`geom_point()`). 
+Warning message:
+Removed 528 rows containing non-finite outside the scale range
+(`stat_boxplot()`). 
+Warning message:
+Removed 11 rows containing non-finite outside the scale range (`stat_bin()`). 
+Ignoring unknown labels:
+• fill : "Strata"
+[1] TRUE
+[1] TRUE
+All outputs written to /work/out 

@@ -1,0 +1,64 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P043",
+ "provider": "gpt-oss-120b-ollama",
+ "model": "gpt-oss:120b",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T20:10:03",
+ "agent_commit": "96b45ab7514d692fda0319e8c98629d3d1f987c1",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 2458,
+  "output_tokens": 2263,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 6.6
+ },
+ "inputs": {
+  "prompt_translate.md": "592462d59a1a4dc232dab8df02cf9d7191c632a865df899d6805473dee0df567"
+ },
+ "model_output": {
+  "response.md": "40a1ccde0df2b44587f1b014a9dd675fc7ec632c5273e517c70f3f2d95506259",
+  "reasoning.md": "8f34c791ed44980dad43836b9b1e6545de1ba4e2d8cd3541ff074609ff24f230",
+  "script.R": "84358ef5bcfe3b9d4ec9cb88e3d9d8d3a1c3177176ab5a9b6594c3e01bf54f2e"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 3.1,
+  "timed_out": false,
+  "log_sha256": "6a7bd3aea89167f2c966fd3c93a7b3f7cf5edd1922c18d0ac5743081b92f1e99"
+ },
+ "r_outputs": {
+  "sgrender.png": "2f38e1f208490b74e07e9462202bc4bd7b4e2f16e5104509e3c48780e5c10c91",
+  "sgrender.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "sgrender_plot_data.csv": "9c438876a2138c012f68b52cda764e20c7a3b0fcde9fbb2dbb9675077d8bfdaa",
+  "START.csv": "b024f66bd3f08ce9ab705b16aa42f33d0f316eccb1dc4330c65102d87182a2c6"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P043/SGRender.png",
+   "sha256": "04f69503d5218c8fc78e53f90d229f6ca554e0e419a94832193f96e7d596c660",
+   "frozen_sha256": "04f69503d5218c8fc78e53f90d229f6ca554e0e419a94832193f96e7d596c660",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

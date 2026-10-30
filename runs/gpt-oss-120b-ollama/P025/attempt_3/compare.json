@@ -1,0 +1,37 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.5,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P025.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.5,
+   "detail": {
+    "recall": 0.5,
+    "expected": 102,
+    "found": 51,
+    "r_files": [
+     "P025.csv",
+     "P025_listing.csv"
+    ],
+    "missing_examples": [
+     "2026",
+     "-1",
+     "-15",
+     "11",
+     "-2",
+     "-5",
+     "32",
+     "-20",
+     "13",
+     "4",
+     "-10",
+     "34"
+    ]
+   }
+  }
+ ]
+}

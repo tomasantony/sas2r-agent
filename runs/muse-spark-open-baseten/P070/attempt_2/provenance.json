@@ -1,0 +1,64 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P070",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 2,
+ "recorded_at": "2026-10-29T20:10:21",
+ "agent_commit": "96b45ab7514d692fda0319e8c98629d3d1f987c1",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 11899,
+  "output_tokens": 3256,
+  "reasoning_tokens": 315,
+  "finish_reason": "stop",
+  "seconds": 8.8
+ },
+ "inputs": {
+  "prompt_translate.md": "3c7fc70e62372d9158edefc133c016e92e57fa0aa0a238bd82b9423235f8922e"
+ },
+ "model_output": {
+  "response.md": "99c6c0d615bf161c536bab5c3c9ef88b1e709ccdd2cc61fcc0f3dbe558407890",
+  "reasoning.md": "12811c0ba7c660779fa31dbce2087c3dd4287cbfab8fe9ceabfe5ea8f59d34ba",
+  "script.R": "250f73b0098296935922052557d722c06de1adb57183520e06cf44573fce5e4f"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.5,
+  "timed_out": false,
+  "log_sha256": "5cf979c277c1e9d6f4dde012157e312b99ed96ff4a305a29631a7a72716549a4"
+ },
+ "r_outputs": {
+  "t_cm.csv": "3d34addb175dcbe432a77211d4738f7b1ff3bf8dd0c8a6041b3db076ec25c987",
+  "t_cm.rtf": "0fe1e5115a5f2916bb424bdf033350e8f4ac2eac7326db056a0a625864afa6ab",
+  "t_cm.txt": "0fe1e5115a5f2916bb424bdf033350e8f4ac2eac7326db056a0a625864afa6ab",
+  "t_cm_final.csv": "967cb2933ea30ac469fdd0594327a37f8cb0b5e6658929d7f5b4606063d4523e"
+ },
+ "sas_reference": [
+  {
+   "file": "tlf/t_cm.rtf",
+   "sha256": "6f5e1b4375a727c617634f7fae6be4731a26a28b9fb33ca56c24e43728e8961f",
+   "frozen_sha256": "6f5e1b4375a727c617634f7fae6be4731a26a28b9fb33ca56c24e43728e8961f",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 0.96,
+  "produced_all": true
+ }
+}

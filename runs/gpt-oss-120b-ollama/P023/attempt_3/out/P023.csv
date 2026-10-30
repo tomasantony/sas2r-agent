@@ -1,0 +1,6 @@
+"STUDYID","DOMAIN","USUBJID","SUBJID","SITEID","RFSTDTC","RFENDTC","RFXSTDTC","RFXENDTC","RFICDTC","RFPENDTC","BRTHDTC","AGE","AGEU","SEX","RACE","ETHNIC","ARMCD","ARM","ACTARMCD","ACTARM","COUNTRY","DTHFL","DTHDTC"
+"ONCO-2026","DM","ONCO-2026-101","101","SITE01",,,,,,,,,"YEARS","M","ASIAN","NOT_HISPANIC","DRUGA","Experimental Drug A","DRUGA","Experimental Drug A","IND","N",""
+"ONCO-2026","DM","ONCO-2026-102","102","SITE01",,,,,,,,,"YEARS","F","WHITE","HISPANIC","DRUGA","Experimental Drug A","DRUGA","Experimental Drug A","IND","N",""
+"ONCO-2026","DM","ONCO-2026-103","103","SITE02",,,,,,,,,"YEARS","M","WHITE","NOT_HISPANIC","PBO","Placebo","PBO","Placebo","IND","Y",
+"ONCO-2026","DM","ONCO-2026-104","104","SITE02",,,,,,,,,"YEARS","F","BLACK","NOT_HISPANIC","PBO","Placebo","PBO","Placebo","IND","N",""
+"ONCO-2026","DM","ONCO-2026-105","105","SITE01",,,,,,,,,"YEARS","M","WHITE","HISPANIC","DRUGA","Experimental Drug A","DRUGA","Experimental Drug A","IND","N",""

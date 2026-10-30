@@ -1,0 +1,20 @@
+sandbox: docker run --rm --name sas2r-f36c16f27811 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P057\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADPC from: /bench/data/raw/cdisc-pilot/adam/adpc.xpt 
+Rows after PCTESTCD filter: 821 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Wrote CSV: /work/out/target13.csv rows 31 
+pdf 
+  2 
+Wrote PNG: /work/out/target13.png 
+Wrote TXT: /work/out/target13.txt 
+Done. Outputs in /work/out 

@@ -1,0 +1,65 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P041",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T19:47:08",
+ "agent_commit": "96b45ab7514d692fda0319e8c98629d3d1f987c1",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 2566,
+  "output_tokens": 4953,
+  "reasoning_tokens": 1188,
+  "finish_reason": "stop",
+  "seconds": 14.0
+ },
+ "inputs": {
+  "prompt_translate.md": "21e0b029a020881c2adb02371f7e741c2a06b1ed31b1e33ed53401e3a951e81c"
+ },
+ "model_output": {
+  "response.md": "b405f3a9fb1099191a09523db045124e394c5f7f19c3a180439e5dae9aef7c78",
+  "reasoning.md": "b6e90e847e6e6ff95bfe28367313d937bb6dd3792e91356d443ff5a289b45b64",
+  "script.R": "f5a90a4d002b80ec3a8769dd35de3bf6790f62d647650639d569ca6eaadc0f47"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.6,
+  "timed_out": false,
+  "log_sha256": "f40cccf3114e314112836f238cdcc0855e41109a25ec50eb0654ebcad6d7647d"
+ },
+ "r_outputs": {
+  "P041.csv": "3892dab982e4c988dea5d8b8e6e68ea8820b78a86c2e9da00a0c9c293f79fbaa",
+  "P041.lst": "cb72974fd5283369e822923b43bafed8cf1c015584245eda7f32800910c2b948",
+  "P041.txt": "cb72974fd5283369e822923b43bafed8cf1c015584245eda7f32800910c2b948",
+  "P041_final.csv": "3892dab982e4c988dea5d8b8e6e68ea8820b78a86c2e9da00a0c9c293f79fbaa",
+  "P041_table.csv": "39abd5e94b2c7f438e02953506b03ba33f062d3fd3d67ab37aa39bdba672df8f"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P041.lst",
+   "sha256": "30b72f6688a7b183b9eee9a4a4098ec1eb3e9c4fbccc8d689c075fac607acfdc",
+   "frozen_sha256": "30b72f6688a7b183b9eee9a4a4098ec1eb3e9c4fbccc8d689c075fac607acfdc",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

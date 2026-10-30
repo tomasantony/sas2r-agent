@@ -1,0 +1,16 @@
+sandbox: docker run --rm --name sas2r-c90da96bf843 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\gpt-oss-120b-ollama\P032\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error in sprintf("%-6s %-8s %-8s %8d %12.2f %12.2f %12.2f %12.2f %12.2f %12.2f",  : 
+  invalid format '%12.2f'; use format %s for character objects
+Calls: apply -> FUN -> sprintf
+Execution halted

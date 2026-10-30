@@ -1,0 +1,43 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9303417607363871,
+ "artifacts": [
+  {
+   "kind": "dataset",
+   "name": "adae",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\gpt-oss-120b-ollama\\P002\\attempt_2\\out\\adae.csv",
+   "status": "mismatch",
+   "score": 0.9303417607363871,
+   "detail": {
+    "rows_sas": 1191,
+    "rows_r": 1191,
+    "cols_sas": 54,
+    "cols_r": 54,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.9303417607363871,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(TRTSDT, 1, datetime.date(2014, 1, 2), '2004-01-02')",
+     "(TRTSDT, 2, datetime.date(2014, 1, 2), '2004-01-02')",
+     "(TRTSDT, 3, datetime.date(2014, 1, 2), '2004-01-02')",
+     "(TRTSDT, 4, datetime.date(2012, 8, 5), '2002-08-05')",
+     "(TRTSDT, 5, datetime.date(2012, 8, 5), '2002-08-05')",
+     "(TRTSDT, 6, datetime.date(2012, 8, 5), '2002-08-05')",
+     "(TRTSDT, 7, datetime.date(2012, 8, 5), '2002-08-05')",
+     "(TRTSDT, 8, datetime.date(2013, 7, 19), '2003-07-19')",
+     "(TRTSDT, 9, datetime.date(2013, 7, 19), '2003-07-19')",
+     "(TRTSDT, 10, datetime.date(2014, 7, 1), '2004-06-30')"
+    ],
+    "worst_columns": {
+     "TRTSDT": 1191,
+     "TRTEDT": 1191,
+     "ASTDY": 1180,
+     "AENDY": 718,
+     "TRTEMFL": 53
+    }
+   }
+  }
+ ]
+}

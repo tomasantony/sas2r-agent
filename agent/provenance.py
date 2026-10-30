@@ -68,7 +68,8 @@ def hash_tree(folder: Path) -> dict[str, str]:
 
 
 def write_attempt_provenance(adir: Path, *, pid: str, provider: str, model: str, attempt: int,
-                             completion, run_result, compare_report, expected: dict, sandbox: dict) -> dict:
+                             completion, run_result, compare_report, expected: dict, sandbox: dict,
+                             prompt_version: int = 1, run_name: str = "") -> dict:
     refs = []
     for a in expected["artifacts"]:
         try:
@@ -78,6 +79,7 @@ def write_attempt_provenance(adir: Path, *, pid: str, provider: str, model: str,
     rec = {
         "schema": "sas2r-agent/provenance/1",
         "program": pid, "provider": provider, "model": model, "attempt": attempt,
+        "prompt_version": prompt_version, "run_name": run_name or provider,
         "recorded_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
         "agent_commit": git_head(REPO_ROOT),
         "benchmark_commit": freeze_reference()["benchmark_commit"],

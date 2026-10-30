@@ -1,0 +1,21 @@
+sandbox: docker run --rm --name sas2r-79c4a4b94a9e --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P045\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+There were 50 or more warnings (use warnings() to see the first 50)
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning: stack imbalance in '<-', 8 then 10
+Warning: stack imbalance in '{', 4 then 6
+Warning: stack imbalance in 'if', 2 then 4
+Warning messages:
+1: In gregexpr("[0-9]+\\.[0-9]+|[0-9]+", paste(sas_ref_lines, collapse = " ")) :
+  unable to translate '                                                           The SAS System  ------------------------------ Dictionary-Derived Term=PARTIAL SEIZURES WITH SECONDARY GENERALISATION ------------------------------                                             ...' to a wide string
+2: In gregexpr("[0-9]+\\.[0-9]+|[0-9]+", paste(sas_ref_lines, collapse = " ")) :
+  input string 1 is invalid

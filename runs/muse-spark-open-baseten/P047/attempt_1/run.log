@@ -1,0 +1,37 @@
+sandbox: docker run --rm --name sas2r-0e92bc16bf3a --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P047\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADVS from: /bench/data/raw/cdisc-pilot/adam/advs.xpt
+Error in `geom_text()`:
+! Problem while computing aesthetics.
+ℹ Error occurred in the 5th layer.
+Caused by error:
+! object 'trtpn' not found
+Backtrace:
+     ▆
+  1. ├─ggplot2::ggsave(...)
+  2. │ └─base::lapply(plot, grid.draw)
+  3. │   ├─grid (local) FUN(X[[i]], ...)
+  4. │   └─ggplot2 (local) `grid.draw.ggplot2::ggplot`(X[[i]], ...)
+  5. │     ├─base::print(x)
+  6. │     └─ggplot2 (local) `print.ggplot2::ggplot`(x)
+  7. │       ├─ggplot2::ggplot_build(x)
+  8. │       └─ggplot2 (local) `ggplot_build.ggplot2::ggplot`(x)
+  9. │         └─ggplot2:::by_layer(...)
+ 10. │           ├─rlang::try_fetch(...)
+ 11. │           │ ├─base::tryCatch(...)
+ 12. │           │ │ └─base (local) tryCatchList(expr, classes, parentenv, handlers)
+ 13. │           │ │   └─base (local) tryCatchOne(expr, names, parentenv, handlers[[1L]])
+ 14. │           │ │     └─base (local) doTryCatch(return(expr), name, parentenv, handler)
+ 15. │           │ └─base::withCallingHandlers(...)
+ 16. │           └─ggplot2 (local) f(l = layers[[i]], d = data[[i]])
+ 17. │             └─l$compute_aesthetics(d, plot)
+ 18. │               └─ggplot2 (local) compute_aesthetics(..., self = self)
+ 19. │                 └─ggplot2:::eval_aesthetics(aesthetics, data)
+ 20. │                   └─base::lapply(aesthetics, eval_tidy, data = data, env = env)
+ 21. │                     └─rlang (local) FUN(X[[i]], ...)
+ 22. ├─base::factor(trtpn)
+ 23. └─base::.handleSimpleError(...)
+ 24.   └─rlang (local) h(simpleError(msg, call))
+ 25.     └─handlers[[1L]](cnd)
+ 26.       └─cli::cli_abort(...)
+ 27.         └─rlang::abort(...)
+Execution halted

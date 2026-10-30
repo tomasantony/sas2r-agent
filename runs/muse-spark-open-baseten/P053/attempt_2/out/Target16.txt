@@ -1,0 +1,63 @@
+P053 - Outliers Scatter Quant
+Source: advsmax.xpt  Filter: PARAMCD=DIABP ATPTN=815 ANL01FL=Y ADY>1 SAFFL=Y
+
+Reference limits: ANRLO mean = 60.00  ANRHI mean = 90.00
+Y-axis range: 40 to 100 by 10  (margin 1% of AVAL range)
+AVAL Min=41 Max=90 Margin=0.4900
+Axis ticks: 40 50 60 70 80 90 100
+
+Scatter Plot-Max. Post-baseline vs Max. Baseline for Lab Test 1 (mmol/L)
+  Points: AVAL vs BASE by TRTPN, reference line REF=BASE, H/V ref at ANRLO/ANRHI
+
+Baseline Shift Frequency Table (BNRIND * ANRIND by TRTPN)
+--------------------------------------------------------------------------------
+Treatment            Max Baseline         | Low N (%)          | Normal N (%)      
+-----------------------------------------------------------------------------------
+0 (N = 84)           High                 | 0 ( 0.0)           | 2 (2.4)           
+                     Low                  | 6 (7.1)            | 1 (1.2)           
+                     Normal               | 11 (13.1)          | 64 (76.2)         
+
+54 (N = 84)          High                 | 0 ( 0.0)           | 1 (1.2)           
+                     Low                  | 3 (3.6)            | 1 (1.2)           
+                     Normal               | 12 (14.3)          | 67 (79.8)         
+
+81 (N = 82)          High                 | 0 ( 0.0)           | 1 (1.2)           
+                     Low                  | 6 (7.3)            | 0 ( 0.0)          
+                     Normal               | 5 (6.1)            | 70 (85.4)         
+
+
+Treatment Emergent High Table
+--------------------------------------------------------------------------------
+TRTPN      Nx         n          %          FishersP    
+------------------------------------------------------------
+0          84         5          500.0      1.0000      
+  TRTPN=0 Nx=84 n=5 percent=500.00 FishersP=1.0000
+54         84         5          500.0      1.0000      
+  TRTPN=54 Nx=84 n=5 percent=500.00 FishersP=1.0000
+81         82         5          500.0      1.0000      
+  TRTPN=81 Nx=82 n=5 percent=500.00 FishersP=1.0000
+
+Fisher's Exact p-value (XP2_FISH) = 1.0000
+
+Notes:
+Scatter Plot: Includes subjects with both a baseline and a post-baseline measure. Reference limits apply to most of the participants are used in the plot
+N=number of subjects with at least one post-baseline measure; Nx=number of subjects with maximum baseline either normal or low and have at least one post-baseline measure.
+Summary tables used the reference limits set 1 (Male, Age 18-65, LLN 60.00 mmol/L ULN 90.00 mmol/L) set 2 (Female, Age 18-65, LLN=60.00 mmol/L ULN=90.00 mmol/L).
+
+All counts and percents:
+TRTPN=0 BNRIND=High ANRIND=Normal COUNT=2 PERCENT=2.4 PERCENT2=2.38
+TRTPN=0 BNRIND=Low ANRIND=Low COUNT=6 PERCENT=7.1 PERCENT2=7.14
+TRTPN=0 BNRIND=Low ANRIND=Normal COUNT=1 PERCENT=1.2 PERCENT2=1.19
+TRTPN=0 BNRIND=Normal ANRIND=Low COUNT=11 PERCENT=13.1 PERCENT2=13.10
+TRTPN=0 BNRIND=Normal ANRIND=Normal COUNT=64 PERCENT=76.2 PERCENT2=76.19
+TRTPN=54 BNRIND=High ANRIND=Normal COUNT=1 PERCENT=1.2 PERCENT2=1.19
+TRTPN=54 BNRIND=Low ANRIND=Low COUNT=3 PERCENT=3.6 PERCENT2=3.57
+TRTPN=54 BNRIND=Low ANRIND=Normal COUNT=1 PERCENT=1.2 PERCENT2=1.19
+TRTPN=54 BNRIND=Normal ANRIND=Low COUNT=12 PERCENT=14.3 PERCENT2=14.29
+TRTPN=54 BNRIND=Normal ANRIND=Normal COUNT=67 PERCENT=79.8 PERCENT2=79.76
+TRTPN=81 BNRIND=High ANRIND=Normal COUNT=1 PERCENT=1.2 PERCENT2=1.22
+TRTPN=81 BNRIND=Low ANRIND=Low COUNT=6 PERCENT=7.3 PERCENT2=7.32
+TRTPN=81 BNRIND=Normal ANRIND=Low COUNT=5 PERCENT=6.1 PERCENT2=6.10
+TRTPN=81 BNRIND=Normal ANRIND=Normal COUNT=70 PERCENT=85.4 PERCENT2=85.37
+Axis values: 40 50 60 70 80 90 100
+ANRLO=60 ANRHI=90

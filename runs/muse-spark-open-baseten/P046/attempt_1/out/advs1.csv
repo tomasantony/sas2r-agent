@@ -1,0 +1,455 @@
+"USUBJID","SAFFL","PARAMCD","TRTPN","TRTP","AVAL","AVISIT","AVISITN","ATPT","PARAMCD_NUM"
+"01-701-1015","Y","DIABP",0,"Placebo",61,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1015","Y","PULSE",0,"Placebo",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1023","Y","DIABP",0,"Placebo",86,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1023","Y","PULSE",0,"Placebo",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1028","Y","DIABP",81,"Xanomeline High Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1028","Y","PULSE",81,"Xanomeline High Dose",53,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1033","Y","DIABP",54,"Xanomeline Low Dose",76,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1033","Y","PULSE",54,"Xanomeline Low Dose",54,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1034","Y","DIABP",81,"Xanomeline High Dose",67,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1034","Y","PULSE",81,"Xanomeline High Dose",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1047","Y","DIABP",0,"Placebo",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1047","Y","PULSE",0,"Placebo",69,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1097","Y","DIABP",54,"Xanomeline Low Dose",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1097","Y","PULSE",54,"Xanomeline Low Dose",58,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1115","Y","DIABP",54,"Xanomeline Low Dose",76,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1115","Y","PULSE",54,"Xanomeline Low Dose",50,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1118","Y","DIABP",0,"Placebo",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1118","Y","PULSE",0,"Placebo",65,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1130","Y","DIABP",0,"Placebo",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1130","Y","PULSE",0,"Placebo",63,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1133","Y","DIABP",81,"Xanomeline High Dose",66,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1133","Y","PULSE",81,"Xanomeline High Dose",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1146","Y","DIABP",81,"Xanomeline High Dose",56,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1146","Y","PULSE",81,"Xanomeline High Dose",52,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1148","Y","DIABP",81,"Xanomeline High Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1148","Y","PULSE",81,"Xanomeline High Dose",62,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1153","Y","DIABP",0,"Placebo",58,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1153","Y","PULSE",0,"Placebo",76,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1180","Y","DIABP",81,"Xanomeline High Dose",84,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1180","Y","PULSE",81,"Xanomeline High Dose",58,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1188","Y","DIABP",54,"Xanomeline Low Dose",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1188","Y","PULSE",54,"Xanomeline Low Dose",65,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1192","Y","DIABP",54,"Xanomeline Low Dose",83,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1192","Y","PULSE",54,"Xanomeline Low Dose",82,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1203","Y","DIABP",0,"Placebo",51,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1203","Y","PULSE",0,"Placebo",54,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1211","Y","DIABP",54,"Xanomeline Low Dose",59,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1211","Y","PULSE",54,"Xanomeline Low Dose",65,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1234","Y","DIABP",0,"Placebo",93,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1234","Y","PULSE",0,"Placebo",50,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1239","Y","DIABP",81,"Xanomeline High Dose",84,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1239","Y","PULSE",81,"Xanomeline High Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1275","Y","DIABP",81,"Xanomeline High Dose",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1275","Y","PULSE",81,"Xanomeline High Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1287","Y","DIABP",81,"Xanomeline High Dose",62,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1287","Y","PULSE",81,"Xanomeline High Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1294","Y","DIABP",54,"Xanomeline Low Dose",84,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1294","Y","PULSE",54,"Xanomeline Low Dose",54,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1302","Y","DIABP",81,"Xanomeline High Dose",76,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1302","Y","PULSE",81,"Xanomeline High Dose",53,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1317","Y","DIABP",54,"Xanomeline Low Dose",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1317","Y","PULSE",54,"Xanomeline Low Dose",56,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1324","Y","DIABP",54,"Xanomeline Low Dose",56,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1324","Y","PULSE",54,"Xanomeline Low Dose",54,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1341","Y","DIABP",54,"Xanomeline Low Dose",81,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1341","Y","PULSE",54,"Xanomeline Low Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1345","Y","DIABP",0,"Placebo",48,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1345","Y","PULSE",0,"Placebo",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1363","Y","DIABP",0,"Placebo",46,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1363","Y","PULSE",0,"Placebo",54,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1383","Y","DIABP",81,"Xanomeline High Dose",62,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1383","Y","PULSE",81,"Xanomeline High Dose",79,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1392","Y","DIABP",0,"Placebo",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1392","Y","PULSE",0,"Placebo",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1415","Y","DIABP",0,"Placebo",67,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1415","Y","PULSE",0,"Placebo",65,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1429","Y","DIABP",54,"Xanomeline Low Dose",78,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1429","Y","PULSE",54,"Xanomeline Low Dose",73,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1440","Y","DIABP",0,"Placebo",67,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1440","Y","PULSE",0,"Placebo",55,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1442","Y","DIABP",54,"Xanomeline Low Dose",85,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1442","Y","PULSE",54,"Xanomeline Low Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-701-1444","Y","DIABP",81,"Xanomeline High Dose",82,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-701-1444","Y","PULSE",81,"Xanomeline High Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-702-1082","Y","DIABP",54,"Xanomeline Low Dose",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-702-1082","Y","PULSE",54,"Xanomeline Low Dose",78,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-703-1042","Y","DIABP",0,"Placebo",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-703-1042","Y","PULSE",0,"Placebo",88,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-703-1076","Y","DIABP",81,"Xanomeline High Dose",82,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-703-1076","Y","PULSE",81,"Xanomeline High Dose",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-703-1086","Y","DIABP",54,"Xanomeline Low Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-703-1086","Y","PULSE",54,"Xanomeline Low Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-703-1096","Y","DIABP",0,"Placebo",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-703-1096","Y","PULSE",0,"Placebo",78,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-703-1100","Y","DIABP",0,"Placebo",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-703-1100","Y","PULSE",0,"Placebo",73,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-703-1119","Y","DIABP",54,"Xanomeline Low Dose",82,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-703-1119","Y","PULSE",54,"Xanomeline Low Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-703-1182","Y","DIABP",54,"Xanomeline Low Dose",84,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-703-1182","Y","PULSE",54,"Xanomeline Low Dose",84,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-703-1210","Y","DIABP",0,"Placebo",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-703-1210","Y","PULSE",0,"Placebo",56,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-703-1258","Y","DIABP",81,"Xanomeline High Dose",90,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-703-1258","Y","PULSE",81,"Xanomeline High Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-703-1295","Y","DIABP",81,"Xanomeline High Dose",78,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-703-1295","Y","PULSE",81,"Xanomeline High Dose",76,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-703-1299","Y","DIABP",0,"Placebo",58,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-703-1299","Y","PULSE",0,"Placebo",104,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-703-1335","Y","DIABP",81,"Xanomeline High Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-703-1335","Y","PULSE",81,"Xanomeline High Dose",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-703-1379","Y","DIABP",54,"Xanomeline Low Dose",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-703-1379","Y","PULSE",54,"Xanomeline Low Dose",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-703-1439","Y","DIABP",81,"Xanomeline High Dose",84,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-703-1439","Y","PULSE",81,"Xanomeline High Dose",85,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1008","Y","DIABP",81,"Xanomeline High Dose",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1008","Y","PULSE",81,"Xanomeline High Dose",56,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1010","Y","DIABP",0,"Placebo",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1010","Y","PULSE",0,"Placebo",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1017","Y","DIABP",81,"Xanomeline High Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1017","Y","PULSE",81,"Xanomeline High Dose",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1025","Y","DIABP",54,"Xanomeline Low Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1025","Y","PULSE",54,"Xanomeline Low Dose",86,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1065","Y","DIABP",81,"Xanomeline High Dose",88,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1065","Y","PULSE",81,"Xanomeline High Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1074","Y","DIABP",81,"Xanomeline High Dose",88,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1074","Y","PULSE",81,"Xanomeline High Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1093","Y","DIABP",81,"Xanomeline High Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1093","Y","PULSE",81,"Xanomeline High Dose",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1114","Y","DIABP",54,"Xanomeline Low Dose",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1114","Y","PULSE",54,"Xanomeline Low Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1120","Y","DIABP",54,"Xanomeline Low Dose",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1120","Y","PULSE",54,"Xanomeline Low Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1127","Y","DIABP",0,"Placebo",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1127","Y","PULSE",0,"Placebo",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1135","Y","DIABP",54,"Xanomeline Low Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1135","Y","PULSE",54,"Xanomeline Low Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1164","Y","DIABP",0,"Placebo",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1164","Y","PULSE",0,"Placebo",84,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1218","Y","DIABP",54,"Xanomeline Low Dose",90,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1218","Y","PULSE",54,"Xanomeline Low Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1233","Y","DIABP",0,"Placebo",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1233","Y","PULSE",0,"Placebo",59,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1241","Y","DIABP",81,"Xanomeline High Dose",76,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1241","Y","PULSE",81,"Xanomeline High Dose",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1260","Y","DIABP",0,"Placebo",86,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1260","Y","PULSE",0,"Placebo",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1266","Y","DIABP",81,"Xanomeline High Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1266","Y","PULSE",81,"Xanomeline High Dose",66,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1323","Y","DIABP",54,"Xanomeline Low Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1323","Y","PULSE",54,"Xanomeline Low Dose",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1325","Y","DIABP",54,"Xanomeline Low Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1325","Y","PULSE",54,"Xanomeline Low Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1332","Y","DIABP",81,"Xanomeline High Dose",76,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1332","Y","PULSE",81,"Xanomeline High Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1351","Y","DIABP",0,"Placebo",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1351","Y","PULSE",0,"Placebo",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1388","Y","DIABP",0,"Placebo",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1388","Y","PULSE",0,"Placebo",62,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1435","Y","DIABP",0,"Placebo",78,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1435","Y","PULSE",0,"Placebo",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-704-1445","Y","DIABP",0,"Placebo",84,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-704-1445","Y","PULSE",0,"Placebo",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-705-1031","Y","DIABP",54,"Xanomeline Low Dose",84,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-705-1031","Y","PULSE",54,"Xanomeline Low Dose",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-705-1059","Y","DIABP",0,"Placebo",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-705-1059","Y","PULSE",0,"Placebo",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-705-1186","Y","DIABP",0,"Placebo",75,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-705-1186","Y","PULSE",0,"Placebo",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-705-1280","Y","DIABP",81,"Xanomeline High Dose",90,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-705-1280","Y","PULSE",81,"Xanomeline High Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-705-1281","Y","DIABP",81,"Xanomeline High Dose",90,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-705-1281","Y","PULSE",81,"Xanomeline High Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-705-1282","Y","DIABP",0,"Placebo",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-705-1282","Y","PULSE",0,"Placebo",78,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-705-1292","Y","DIABP",54,"Xanomeline Low Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-705-1292","Y","PULSE",54,"Xanomeline Low Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-705-1303","Y","DIABP",81,"Xanomeline High Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-705-1303","Y","PULSE",81,"Xanomeline High Dose",82,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-705-1310","Y","DIABP",81,"Xanomeline High Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-705-1310","Y","PULSE",81,"Xanomeline High Dose",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-705-1349","Y","DIABP",0,"Placebo",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-705-1349","Y","PULSE",0,"Placebo",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-705-1377","Y","DIABP",81,"Xanomeline High Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-705-1377","Y","PULSE",81,"Xanomeline High Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-705-1393","Y","DIABP",54,"Xanomeline Low Dose",90,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-705-1393","Y","PULSE",54,"Xanomeline Low Dose",100,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-705-1431","Y","DIABP",54,"Xanomeline Low Dose",65,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-705-1431","Y","PULSE",54,"Xanomeline Low Dose",62,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-706-1041","Y","DIABP",0,"Placebo",86,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-706-1041","Y","PULSE",0,"Placebo",87,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-706-1049","Y","DIABP",81,"Xanomeline High Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-706-1049","Y","PULSE",81,"Xanomeline High Dose",84,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-707-1206","Y","DIABP",0,"Placebo",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-707-1206","Y","PULSE",0,"Placebo",56,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1032","Y","DIABP",54,"Xanomeline Low Dose",90,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1032","Y","PULSE",54,"Xanomeline Low Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1084","Y","DIABP",54,"Xanomeline Low Dose",62,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1084","Y","PULSE",54,"Xanomeline Low Dose",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1087","Y","DIABP",0,"Placebo",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1087","Y","PULSE",0,"Placebo",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1158","Y","DIABP",0,"Placebo",90,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1158","Y","PULSE",0,"Placebo",88,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1171","Y","DIABP",0,"Placebo",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1171","Y","PULSE",0,"Placebo",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1178","Y","DIABP",81,"Xanomeline High Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1178","Y","PULSE",81,"Xanomeline High Dose",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1213","Y","DIABP",81,"Xanomeline High Dose",75,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1213","Y","PULSE",81,"Xanomeline High Dose",75,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1216","Y","DIABP",81,"Xanomeline High Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1216","Y","PULSE",81,"Xanomeline High Dose",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1253","Y","DIABP",0,"Placebo",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1253","Y","PULSE",0,"Placebo",88,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1272","Y","DIABP",54,"Xanomeline Low Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1272","Y","PULSE",54,"Xanomeline Low Dose",62,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1286","Y","DIABP",0,"Placebo",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1286","Y","PULSE",0,"Placebo",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1296","Y","DIABP",0,"Placebo",90,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1296","Y","PULSE",0,"Placebo",94,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1297","Y","DIABP",54,"Xanomeline Low Dose",84,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1297","Y","PULSE",54,"Xanomeline Low Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1316","Y","DIABP",0,"Placebo",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1316","Y","PULSE",0,"Placebo",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1336","Y","DIABP",81,"Xanomeline High Dose",78,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1336","Y","PULSE",81,"Xanomeline High Dose",56,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1342","Y","DIABP",0,"Placebo",82,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1342","Y","PULSE",0,"Placebo",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1347","Y","DIABP",81,"Xanomeline High Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1347","Y","PULSE",81,"Xanomeline High Dose",84,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1348","Y","DIABP",54,"Xanomeline Low Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1348","Y","PULSE",54,"Xanomeline Low Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1353","Y","DIABP",54,"Xanomeline Low Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1353","Y","PULSE",54,"Xanomeline Low Dose",66,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1378","Y","DIABP",0,"Placebo",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1378","Y","PULSE",0,"Placebo",55,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1406","Y","DIABP",81,"Xanomeline High Dose",78,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1406","Y","PULSE",81,"Xanomeline High Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-708-1428","Y","DIABP",54,"Xanomeline Low Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-708-1428","Y","PULSE",54,"Xanomeline Low Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-709-1001","Y","DIABP",0,"Placebo",78,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-709-1001","Y","PULSE",0,"Placebo",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-709-1007","Y","DIABP",54,"Xanomeline Low Dose",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-709-1007","Y","PULSE",54,"Xanomeline Low Dose",54,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-709-1020","Y","DIABP",54,"Xanomeline Low Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-709-1020","Y","PULSE",54,"Xanomeline Low Dose",66,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-709-1029","Y","DIABP",81,"Xanomeline High Dose",62,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-709-1029","Y","PULSE",81,"Xanomeline High Dose",54,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-709-1081","Y","DIABP",54,"Xanomeline Low Dose",62,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-709-1081","Y","PULSE",54,"Xanomeline Low Dose",62,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-709-1088","Y","DIABP",0,"Placebo",78,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-709-1088","Y","PULSE",0,"Placebo",63,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-709-1099","Y","DIABP",81,"Xanomeline High Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-709-1099","Y","PULSE",81,"Xanomeline High Dose",69,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-709-1102","Y","DIABP",54,"Xanomeline Low Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-709-1102","Y","PULSE",54,"Xanomeline Low Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-709-1168","Y","DIABP",81,"Xanomeline High Dose",76,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-709-1168","Y","PULSE",81,"Xanomeline High Dose",56,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-709-1217","Y","DIABP",54,"Xanomeline Low Dose",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-709-1217","Y","PULSE",54,"Xanomeline Low Dose",51,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-709-1238","Y","DIABP",81,"Xanomeline High Dose",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-709-1238","Y","PULSE",81,"Xanomeline High Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-709-1259","Y","DIABP",0,"Placebo",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-709-1259","Y","PULSE",0,"Placebo",54,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-709-1285","Y","DIABP",54,"Xanomeline Low Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-709-1285","Y","PULSE",54,"Xanomeline Low Dose",48,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-709-1301","Y","DIABP",0,"Placebo",88,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-709-1301","Y","PULSE",0,"Placebo",92,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-709-1306","Y","DIABP",0,"Placebo",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-709-1306","Y","PULSE",0,"Placebo",66,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-709-1309","Y","DIABP",81,"Xanomeline High Dose",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-709-1309","Y","PULSE",81,"Xanomeline High Dose",66,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-709-1312","Y","DIABP",0,"Placebo",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-709-1312","Y","PULSE",0,"Placebo",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-709-1326","Y","DIABP",54,"Xanomeline Low Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-709-1326","Y","PULSE",54,"Xanomeline Low Dose",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-709-1339","Y","DIABP",0,"Placebo",76,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-709-1339","Y","PULSE",0,"Placebo",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1006","Y","DIABP",81,"Xanomeline High Dose",90,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1006","Y","PULSE",81,"Xanomeline High Dose",76,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1021","Y","DIABP",81,"Xanomeline High Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1021","Y","PULSE",81,"Xanomeline High Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1027","Y","DIABP",0,"Placebo",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1027","Y","PULSE",0,"Placebo",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1045","Y","DIABP",54,"Xanomeline Low Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1045","Y","PULSE",54,"Xanomeline Low Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1053","Y","DIABP",54,"Xanomeline Low Dose",78,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1053","Y","PULSE",54,"Xanomeline Low Dose",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1060","Y","DIABP",0,"Placebo",90,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1060","Y","PULSE",0,"Placebo",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1070","Y","DIABP",81,"Xanomeline High Dose",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1070","Y","PULSE",81,"Xanomeline High Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1077","Y","DIABP",0,"Placebo",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1077","Y","PULSE",0,"Placebo",76,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1078","Y","DIABP",0,"Placebo",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1078","Y","PULSE",0,"Placebo",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1137","Y","DIABP",81,"Xanomeline High Dose",94,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1137","Y","PULSE",81,"Xanomeline High Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1142","Y","DIABP",81,"Xanomeline High Dose",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1142","Y","PULSE",81,"Xanomeline High Dose",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1154","Y","DIABP",54,"Xanomeline Low Dose",86,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1154","Y","PULSE",54,"Xanomeline Low Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1166","Y","DIABP",54,"Xanomeline Low Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1166","Y","PULSE",54,"Xanomeline Low Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1183","Y","DIABP",0,"Placebo",90,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1183","Y","PULSE",0,"Placebo",56,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1187","Y","DIABP",81,"Xanomeline High Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1187","Y","PULSE",81,"Xanomeline High Dose",76,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1235","Y","DIABP",54,"Xanomeline Low Dose",84,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1235","Y","PULSE",54,"Xanomeline Low Dose",84,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1249","Y","DIABP",81,"Xanomeline High Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1249","Y","PULSE",81,"Xanomeline High Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1264","Y","DIABP",0,"Placebo",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1264","Y","PULSE",0,"Placebo",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1271","Y","DIABP",0,"Placebo",82,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1271","Y","PULSE",0,"Placebo",76,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1278","Y","DIABP",81,"Xanomeline High Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1278","Y","PULSE",81,"Xanomeline High Dose",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1300","Y","DIABP",54,"Xanomeline Low Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1300","Y","PULSE",54,"Xanomeline Low Dose",76,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1314","Y","DIABP",0,"Placebo",66,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1314","Y","PULSE",0,"Placebo",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1315","Y","DIABP",0,"Placebo",100,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1315","Y","PULSE",0,"Placebo",92,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1354","Y","DIABP",81,"Xanomeline High Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1354","Y","PULSE",81,"Xanomeline High Dose",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1358","Y","DIABP",54,"Xanomeline Low Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1358","Y","PULSE",54,"Xanomeline Low Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1368","Y","DIABP",0,"Placebo",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1368","Y","PULSE",0,"Placebo",84,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1385","Y","DIABP",54,"Xanomeline Low Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1385","Y","PULSE",54,"Xanomeline Low Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-710-1408","Y","DIABP",81,"Xanomeline High Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-710-1408","Y","PULSE",81,"Xanomeline High Dose",92,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-711-1012","Y","DIABP",81,"Xanomeline High Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-711-1012","Y","PULSE",81,"Xanomeline High Dose",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-711-1036","Y","DIABP",0,"Placebo",76,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-711-1036","Y","PULSE",0,"Placebo",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-711-1143","Y","DIABP",54,"Xanomeline Low Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-711-1143","Y","PULSE",54,"Xanomeline Low Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-713-1043","Y","DIABP",54,"Xanomeline Low Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-713-1043","Y","PULSE",54,"Xanomeline Low Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-713-1073","Y","DIABP",54,"Xanomeline Low Dose",90,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-713-1073","Y","PULSE",54,"Xanomeline Low Dose",65,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-713-1106","Y","DIABP",81,"Xanomeline High Dose",50,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-713-1106","Y","PULSE",81,"Xanomeline High Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-713-1141","Y","DIABP",81,"Xanomeline High Dose",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-713-1141","Y","PULSE",81,"Xanomeline High Dose",,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-713-1179","Y","DIABP",0,"Placebo",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-713-1179","Y","PULSE",0,"Placebo",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-713-1209","Y","DIABP",81,"Xanomeline High Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-713-1209","Y","PULSE",81,"Xanomeline High Dose",88,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-713-1256","Y","DIABP",0,"Placebo",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-713-1256","Y","PULSE",0,"Placebo",94,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-713-1269","Y","DIABP",0,"Placebo",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-713-1269","Y","PULSE",0,"Placebo",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-713-1448","Y","DIABP",54,"Xanomeline Low Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-713-1448","Y","PULSE",54,"Xanomeline Low Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-714-1035","Y","DIABP",0,"Placebo",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-714-1035","Y","PULSE",0,"Placebo",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-714-1068","Y","DIABP",54,"Xanomeline Low Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-714-1068","Y","PULSE",54,"Xanomeline Low Dose",66,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-714-1195","Y","DIABP",54,"Xanomeline Low Dose",76,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-714-1195","Y","PULSE",54,"Xanomeline Low Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-714-1288","Y","DIABP",81,"Xanomeline High Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-714-1288","Y","PULSE",81,"Xanomeline High Dose",56,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-714-1375","Y","DIABP",0,"Placebo",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-714-1375","Y","PULSE",0,"Placebo",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-715-1085","Y","DIABP",54,"Xanomeline Low Dose",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-715-1085","Y","PULSE",54,"Xanomeline Low Dose",66,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-715-1107","Y","DIABP",54,"Xanomeline Low Dose",63,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-715-1107","Y","PULSE",54,"Xanomeline Low Dose",49,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-715-1155","Y","DIABP",0,"Placebo",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-715-1155","Y","PULSE",0,"Placebo",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-715-1207","Y","DIABP",0,"Placebo",56,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-715-1207","Y","PULSE",0,"Placebo",78,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-715-1319","Y","DIABP",81,"Xanomeline High Dose",67,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-715-1319","Y","PULSE",81,"Xanomeline High Dose",48,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-715-1321","Y","DIABP",81,"Xanomeline High Dose",56,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-715-1321","Y","PULSE",81,"Xanomeline High Dose",52,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-715-1397","Y","DIABP",0,"Placebo",71,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-715-1397","Y","PULSE",0,"Placebo",67,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1024","Y","DIABP",0,"Placebo",78,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1024","Y","PULSE",0,"Placebo",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1026","Y","DIABP",0,"Placebo",90,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1026","Y","PULSE",0,"Placebo",76,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1044","Y","DIABP",0,"Placebo",76,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1044","Y","PULSE",0,"Placebo",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1063","Y","DIABP",54,"Xanomeline Low Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1063","Y","PULSE",54,"Xanomeline Low Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1071","Y","DIABP",81,"Xanomeline High Dose",88,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1071","Y","PULSE",81,"Xanomeline High Dose",62,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1094","Y","DIABP",54,"Xanomeline Low Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1094","Y","PULSE",54,"Xanomeline Low Dose",52,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1103","Y","DIABP",54,"Xanomeline Low Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1103","Y","PULSE",54,"Xanomeline Low Dose",66,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1108","Y","DIABP",0,"Placebo",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1108","Y","PULSE",0,"Placebo",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1151","Y","DIABP",54,"Xanomeline Low Dose",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1151","Y","PULSE",54,"Xanomeline Low Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1157","Y","DIABP",54,"Xanomeline Low Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1157","Y","PULSE",54,"Xanomeline Low Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1160","Y","DIABP",0,"Placebo",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1160","Y","PULSE",0,"Placebo",78,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1167","Y","DIABP",54,"Xanomeline Low Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1167","Y","PULSE",54,"Xanomeline Low Dose",78,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1177","Y","DIABP",0,"Placebo",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1177","Y","PULSE",0,"Placebo",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1189","Y","DIABP",81,"Xanomeline High Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1189","Y","PULSE",81,"Xanomeline High Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1229","Y","DIABP",81,"Xanomeline High Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1229","Y","PULSE",81,"Xanomeline High Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1298","Y","DIABP",54,"Xanomeline Low Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1298","Y","PULSE",54,"Xanomeline Low Dose",76,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1308","Y","DIABP",0,"Placebo",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1308","Y","PULSE",0,"Placebo",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1311","Y","DIABP",54,"Xanomeline Low Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1311","Y","PULSE",54,"Xanomeline Low Dose",88,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1364","Y","DIABP",81,"Xanomeline High Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1364","Y","PULSE",81,"Xanomeline High Dose",66,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1373","Y","DIABP",81,"Xanomeline High Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1373","Y","PULSE",81,"Xanomeline High Dose",58,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1418","Y","DIABP",81,"Xanomeline High Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1418","Y","PULSE",81,"Xanomeline High Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1441","Y","DIABP",0,"Placebo",62,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1441","Y","PULSE",0,"Placebo",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-716-1447","Y","DIABP",81,"Xanomeline High Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-716-1447","Y","PULSE",81,"Xanomeline High Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-717-1004","Y","DIABP",54,"Xanomeline Low Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-717-1004","Y","PULSE",54,"Xanomeline Low Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-717-1109","Y","DIABP",81,"Xanomeline High Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-717-1109","Y","PULSE",81,"Xanomeline High Dose",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-717-1174","Y","DIABP",81,"Xanomeline High Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-717-1174","Y","PULSE",81,"Xanomeline High Dose",90,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-717-1201","Y","DIABP",0,"Placebo",84,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-717-1201","Y","PULSE",0,"Placebo",66,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-717-1344","Y","DIABP",0,"Placebo",78,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-717-1344","Y","PULSE",0,"Placebo",88,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-717-1357","Y","DIABP",81,"Xanomeline High Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-717-1357","Y","PULSE",81,"Xanomeline High Dose",47,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-717-1446","Y","DIABP",54,"Xanomeline Low Dose",74,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-717-1446","Y","PULSE",54,"Xanomeline Low Dose",80,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-718-1079","Y","DIABP",54,"Xanomeline Low Dose",73,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-718-1079","Y","PULSE",54,"Xanomeline Low Dose",83,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-718-1101","Y","DIABP",81,"Xanomeline High Dose",60,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-718-1101","Y","PULSE",81,"Xanomeline High Dose",55,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-718-1139","Y","DIABP",0,"Placebo",71,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-718-1139","Y","PULSE",0,"Placebo",56,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-718-1150","Y","DIABP",0,"Placebo",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-718-1150","Y","PULSE",0,"Placebo",57,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-718-1170","Y","DIABP",54,"Xanomeline Low Dose",79,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-718-1170","Y","PULSE",54,"Xanomeline Low Dose",62,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-718-1172","Y","DIABP",0,"Placebo",99,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-718-1172","Y","PULSE",0,"Placebo",59,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-718-1250","Y","DIABP",54,"Xanomeline Low Dose",64,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-718-1250","Y","PULSE",54,"Xanomeline Low Dose",55,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-718-1254","Y","DIABP",54,"Xanomeline Low Dose",72,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-718-1254","Y","PULSE",54,"Xanomeline Low Dose",55,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-718-1328","Y","DIABP",81,"Xanomeline High Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-718-1328","Y","PULSE",81,"Xanomeline High Dose",52,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-718-1355","Y","DIABP",0,"Placebo",71,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-718-1355","Y","PULSE",0,"Placebo",65,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-718-1371","Y","DIABP",81,"Xanomeline High Dose",70,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-718-1371","Y","PULSE",81,"Xanomeline High Dose",66,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1
+"01-718-1427","Y","DIABP",81,"Xanomeline High Dose",68,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",0
+"01-718-1427","Y","PULSE",81,"Xanomeline High Dose",66,"End of Treatment",99,"AFTER LYING DOWN FOR 5 MINUTES",1

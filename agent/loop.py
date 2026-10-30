@@ -12,7 +12,7 @@ from .config import RUNS_DIR, SETTINGS, Provider
 from .context import build_context
 from .expected import build_expected
 from .llm import LLM, extract_r_code
-from .prompts import SYSTEM, translate_prompt, repair_prompt
+from .prompts import SYSTEM, translate_prompt, repair_prompt, PROMPT_VERSION
 from .provenance import write_attempt_provenance
 from .runner import run_r
 from .config import R_PACKAGES
@@ -49,14 +49,19 @@ class ProgramReport:
     seconds: float
     attempts: list[Attempt] = field(default_factory=list)
     best_attempt: int | None = None
+    prompt_version: int = 1
+    run_name: str = ""
 
 
-def run_program(pid: str, provider: Provider, max_iterations: int | None = None, fresh: bool = True) -> ProgramReport:
+def run_program(pid: str, provider: Provider, max_iterations: int | None = None, fresh: bool = True,
+                tag: str = "") -> ProgramReport:
+    """tag != "" writes under runs/<provider>@<tag>/ so a prompt or settings change gets its own row."""
     max_it = max_iterations or SETTINGS.max_iterations
+    run_name = f"{provider.name}@{tag}" if tag else provider.name
     ctx = build_context(pid)
     expected = build_expected(pid)
     llm = LLM(provider)
-    base = RUNS_DIR / provider.name / pid
+    base = RUNS_DIR / run_name / pid
     if fresh and base.exists():
         shutil.rmtree(base)
     base.mkdir(parents=True, exist_ok=True)
@@ -65,7 +70,8 @@ def run_program(pid: str, provider: Provider, max_iterations: int | None = None,
     messages = [{"role": "system", "content": system}, {"role": "user", "content": translate_prompt(ctx, expected)}]
     (base / "prompt_translate.md").write_text(messages[1]["content"], encoding="utf-8")
 
-    rep = ProgramReport(pid, provider.name, provider.model, ctx.info.family, False, False, False, False, 0.0, 0, 0, 0, 0.0)
+    rep = ProgramReport(pid, provider.name, provider.model, ctx.info.family, False, False, False, False, 0.0, 0, 0, 0, 0.0,
+                        prompt_version=PROMPT_VERSION, run_name=run_name)
     t_start = time.time()
     for n in range(1, max_it + 1):
         adir = base / f"attempt_{n}"
@@ -95,7 +101,7 @@ def run_program(pid: str, provider: Provider, max_iterations: int | None = None,
         save_report(report, adir / "compare.json")
         write_attempt_provenance(adir, pid=pid, provider=provider.name, model=comp.model, attempt=n,
                                  completion=comp, run_result=run, compare_report=report, expected=expected,
-                                 sandbox=run.sandbox)
+                                 sandbox=run.sandbox, prompt_version=PROMPT_VERSION, run_name=run_name)
         att = Attempt(n, run.rc, run.seconds, comp.input_tokens, comp.output_tokens, comp.seconds,
                       report.produced_all, report.equivalent, report.score, "timed out" if run.timed_out else "")
         rep.attempts.append(att)

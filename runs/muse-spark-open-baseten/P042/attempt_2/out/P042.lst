@@ -1,0 +1,100 @@
+P042 - Grocery Sales Reports
+Date: 29OCT2026
+
+=== Example 1: Sales for the Southeast Sector ===
+Sales for the Southeast Sector
+for 29OCT2026
+
+Manager    Department         Sales
+-----------------------------------
+Smith      Paper                $50
+Smith      Meat/Dairy          $100
+Smith      Canned              $120
+Smith      Produce              $80
+Jones      Paper                $40
+Jones      Meat/Dairy          $300
+Jones      Canned              $220
+Jones      Produce              $70
+-----------------------------------
+                               $980
+
+=== Example 2: Sales for the Southeast Sector (with min/max) ===
+Sales for the Southeast Sector
+for 29OCT2026
+
+Manager    Department     Sales
+-------------------------------
+Jones      Paper            $40
+Jones      Canned          $220
+Jones      Meat/Dairy      $300
+Jones      Produce          $70
+Smith      Paper            $50
+Smith      Canned          $120
+Smith      Meat/Dairy      $100
+Smith      Produce          $80
+
+       Departmental sales ranged from $40 to $300.
+
+=== Example 3: Sales Statistics for All Sectors ===
+Sales Statistics for All Sectors
+
+Sector       Manager            Sum         Min         Max       Range        Mean         Std
+-----------------------------------------------------------------------------------------------
+Northeast    Alomar            $786         $86        $420        $334      $196.5     $156.57
+Northeast    Andrews         $1,045        $125        $420        $295     $261.25     $127.83
+Northwest    Reveiz          $1,110         $30        $600        $570      $277.5     $278.61
+Northwest    Brown             $598         $45        $250        $205      $149.5     $105.44
+Northwest    Pelfrey           $746         $45        $420        $375      $186.5     $170.39
+Southeast    Smith             $350         $50        $120         $70       $87.5      $29.86
+Southeast    Jones             $630         $40        $300        $260      $157.5     $123.39
+Southwest    Taylor            $353         $50        $130         $80      $88.25      $42.65
+Southwest    Adams             $695         $40        $350        $310     $173.75     $141.86
+
+=== Example 4: Individual Store Sales as a Percent of All Sales ===
+Individual Store Sales as a Percent of All Sales
+
+Sector       Manager        Total  Percent                                         
+                            Sales of Sales                                         
+--------------------------------------------------------------------------------
+Northeast    Alomar          $786      12%                                         
+Northeast    Andrews       $1,045      17% Sales substantially above expectations. 
+Northwest    Reveiz        $1,110      18% Sales substantially above expectations. 
+Northwest    Brown           $598       9%                                         
+Northwest    Pelfrey         $746      12%                                         
+Southeast    Smith           $350       6%                                         
+Southeast    Jones           $630      10%                                         
+Southwest    Taylor          $353       6%                                         
+Southwest    Adams           $695      11%                                         
+--------------------------------------------------------------------------------
+                           $6,313     100%                                         
+
+=== Example 5: Sales for the Western Sectors ===
+Sales for the Western Sectors
+
+Manager    Department     Sales
+-------------------------------
+Adams      Paper            $40
+Adams      Canned          $225
+Adams      Meat/Dairy      $350
+Adams      Produce          $80
+
+Brown      Paper            $45
+Brown      Canned          $230
+Brown      Meat/Dairy      $250
+Brown      Produce          $73
+
+Pelfrey    Paper            $45
+Pelfrey    Canned          $420
+Pelfrey    Meat/Dairy      $205
+Pelfrey    Produce          $76
+
+Reveiz     Paper            $60
+Reveiz     Canned          $420
+Reveiz     Meat/Dairy      $600
+Reveiz     Produce          $30
+
+Taylor     Paper            $53
+Taylor     Canned          $120
+Taylor     Meat/Dairy      $130
+Taylor     Produce          $50
+

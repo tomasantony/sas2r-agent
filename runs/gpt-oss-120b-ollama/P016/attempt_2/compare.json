@@ -1,0 +1,40 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.8018867924528302,
+ "artifacts": [
+  {
+   "kind": "dataset",
+   "name": "mh",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\gpt-oss-120b-ollama\\P016\\attempt_2\\out\\mh.csv",
+   "status": "mismatch",
+   "score": 0.8018867924528302,
+   "detail": {
+    "rows_sas": 53,
+    "rows_r": 53,
+    "cols_sas": 6,
+    "cols_r": 6,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.8018867924528302,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(MHTERM, 12, 'Hypertension', 'Depression')",
+     "(MHTERM, 13, 'Depression', 'Hypertension')",
+     "(MHTERM, 15, 'Hypertension', 'Osteoarthritis')",
+     "(MHTERM, 16, 'Osteoarthritis', 'Hypertension')",
+     "(MHTERM, 21, 'Type 2 Diabetes', 'Osteoarthritis')",
+     "(MHTERM, 22, 'Osteoarthritis', 'Type 2 Diabetes')",
+     "(MHTERM, 27, 'Depression', 'Hyperlipidemia')",
+     "(MHTERM, 28, 'Hyperlipidemia', 'Depression')",
+     "(MHTERM, 39, 'Type 2 Diabetes', 'Osteoarthritis')",
+     "(MHTERM, 40, 'Osteoarthritis', 'Type 2 Diabetes')"
+    ],
+    "worst_columns": {
+     "MHSTDTC": 53,
+     "MHTERM": 10
+    }
+   }
+  }
+ ]
+}

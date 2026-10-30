@@ -1,0 +1,15 @@
+"SUBJID","VISIT","LBDT","PARAM","AVAL"
+101,"Screening",2021-12-28,"HbA1c",8.2
+101,"Baseline",2022-01-10,"HbA1c",8.1
+101,"Week12",2022-04-04,"HbA1c",7.4
+101,"Week24",2022-06-28,"HbA1c",6.9
+102,"Screening",2021-12-30,"HbA1c",8.5
+102,"Baseline",2022-01-12,"HbA1c",8.4
+102,"Week12",2022-04-06,"HbA1c",8.1
+102,"Week24",2022-06-26,"HbA1c",7.9
+103,"Screening",2021-12-29,"HbA1c",7.9
+103,"Baseline",2022-01-15,"HbA1c",7.8
+103,"Week24",2022-06-27,"HbA1c",7
+104,"Screening",2021-12-31,"HbA1c",8.3
+104,"Baseline",2022-01-18,"HbA1c",8.2
+104,"Week24",2022-06-25,"HbA1c",8

@@ -1,0 +1,2 @@
+Summary of DBP (DIABP) by Treatment and Visit
+TRTPN  AVISITN  AVISIT          N         MEAN       STDERR         LCLM         UCLM           LO           HI
