@@ -1,0 +1,55 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P046.lst",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 29,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "1",
+     "454",
+     "453",
+     "3290.92",
+     "32.21",
+     "451",
+     "46082",
+     "102.177",
+     "452",
+     "49373",
+     "10.1083",
+     "0.0667"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgplot.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot1.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgplot1.png"
+   }
+  }
+ ]
+}

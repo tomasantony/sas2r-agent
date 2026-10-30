@@ -1,0 +1,22 @@
+Table 14.5.02 Serious Treatment-Emergent Adverse Events by System Organ Class and Preferred Term
+Safety Population (N=254)
+
+Note: n (%) [events] = number of subjects (percentage) [number of events]; p-values from Fisher's exact test.
+Serious TEAEs defined as TRTEMFL='Y' and AESER='Y'.
+
+System Organ Class / Preferred Term                Placebo (N=86)       Xanomeline Low Dose (N=0) Xanomeline High Dose (N=0) Xanomeline Low Dose vs Placebo p Xanomeline High Dose vs Placebo p
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Any Serious TEAE                                   0 (0.0%) [0]                                                   1.0000       1.0000      
+NERVOUS SYSTEM DISORDERS                           0 (0.0%) [0]                                                   1.0000       1.0000      
+  PARTIAL SEIZURES WITH SECONDARY GENERALISATION   0 (0.0%) [0]                                                   1.0000       1.0000      
+  SYNCOPE                                          0 (0.0%) [0]                                                   1.0000       1.0000      
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Footnotes: Percentages based on Safety Population (SAFFL='Y') denominators.
+Placebo N=86, Low Dose N=0, High Dose N=0.
+Total N=254 100%
+
+Program: P003_at14-5-02.sas  Generated: 2026-10-30T05:07:18
+
+Summary counts: Placebo 86 Low 84 High 84 Total 254
+Reference numbers: 0 1 86 100

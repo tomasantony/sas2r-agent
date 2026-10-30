@@ -1,0 +1,19 @@
+"Demographic_Parameter","Category","Statistic","Active Drug 50mg","Placebo","Total"
+"Total Subjects","Total","N",19,28,47
+"Sex","F","n",8,12,20
+"Sex","F","%",42.1,42.9,42.6
+"Sex","M","n",11,16,27
+"Sex","M","%",57.9,57.1,57.4
+"Race","ASIAN","n",2,3,5
+"Race","ASIAN","%",10.5,10.7,10.6
+"Race","BLACK OR AFRICAN AMERICAN","n",1,5,6
+"Race","BLACK OR AFRICAN AMERICAN","%",5.3,17.9,12.8
+"Race","OTHER","n",0,2,2
+"Race","OTHER","%",0,7.1,4.3
+"Race","WHITE","n",16,18,34
+"Race","WHITE","%",84.2,64.3,72.3
+"Age (years)","","n",19,28,47
+"Age (years)","","Mean",73.2631578947368,75.1428571428571,74.3829787234042
+"Age (years)","","SD",6.35821520434747,5.79728088059097,6.03451374608687
+"Age (years)","","Min",65,65,65
+"Age (years)","","Max",84,84,84

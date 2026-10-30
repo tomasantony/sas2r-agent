@@ -1,0 +1,72 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P083",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-baseten@v3",
+ "recorded_at": "2026-10-30T02:32:47",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 12015,
+  "output_tokens": 7964,
+  "reasoning_tokens": 1930,
+  "finish_reason": "stop",
+  "seconds": 21.8
+ },
+ "inputs": {
+  "prompt_translate.md": "eac491f72c43ed9803b65da0f342ac603a0a56090fb054f704b41dfb89791512"
+ },
+ "model_output": {
+  "response.md": "a6d7932136b101092909bb94e8c8d9737365e3715e68f52a447547208578abe2",
+  "reasoning.md": "d16f19ba338941844a88209919bec879b5891c5e67dc47ea182602bdd939ff81",
+  "script.R": "db15d6a35436541f9aaf9381951f369f7e2c5dc0d5fe68083841d7e65bf86167"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.5,
+  "timed_out": false,
+  "log_sha256": "d82fe3a5c586559ba4f4339e337739d653aee7be290a1bcc5144ddbbcfa4058a"
+ },
+ "r_outputs": {
+  "adsl.csv": "ca9070e5434dd429e3141ad1877ca241b8c94f00bb92563f5c16eefe6a1a79a7",
+  "P083.csv": "ca9070e5434dd429e3141ad1877ca241b8c94f00bb92563f5c16eefe6a1a79a7",
+  "P083.lst": "cf92559baa737379587e155bd086a594480ab4cf4d51163e8a97350d6d28f295",
+  "P083.txt": "cf92559baa737379587e155bd086a594480ab4cf4d51163e8a97350d6d28f295"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P083.lst",
+   "sha256": "1c2030052abf2d34936c72f99dd85b4ce7b3234c71e4b2167cf9b82d207f8e23",
+   "frozen_sha256": "1c2030052abf2d34936c72f99dd85b4ce7b3234c71e4b2167cf9b82d207f8e23",
+   "ok": true
+  },
+  {
+   "file": "datasets/P083/adsl.sas7bdat",
+   "sha256": "877c3e3df7d385db626d62fa578e9bdd7a88c8a64f04370dccfdad1d718626cf",
+   "frozen_sha256": "877c3e3df7d385db626d62fa578e9bdd7a88c8a64f04370dccfdad1d718626cf",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P100",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-baseten@v3",
+ "recorded_at": "2026-10-30T02:43:12",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 3447,
+  "output_tokens": 4825,
+  "reasoning_tokens": 2243,
+  "finish_reason": "stop",
+  "seconds": 15.4
+ },
+ "inputs": {
+  "prompt_translate.md": "81eeaffd0e0f000c0d93e8bff492692ae32176e4b20ab3d8312310f22d26dcc9"
+ },
+ "model_output": {
+  "response.md": "238cbe8b4c977ce35e1a225e24c48cada798c68f79523c25c0dd5dd684aa6c25",
+  "reasoning.md": "3aad6d3ef1c60d9ae6a3336cba18c13d4a8233f7fc6edb6b2572304954e0b5a1",
+  "script.R": "81e56837b8cf9fff7e6b33cb2db28aa1a20a0a018dfbf879c66bcccb157e9311"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.6,
+  "timed_out": false,
+  "log_sha256": "395addf06ac5262aaa6f7a3ea2c1fa5f8011b8c01d7e055a9dabec7e885df381"
+ },
+ "r_outputs": {
+  "P100.csv": "8c76658cc51457ed6dc28c86f259e9b8345dfcf8ad7ba429721b79a62ba58502",
+  "P100.lst": "2ffb017a71d88fb1fd57837f684c1ddd8431c77238f5834be7af90c855671232",
+  "P100.txt": "2ffb017a71d88fb1fd57837f684c1ddd8431c77238f5834be7af90c855671232",
+  "sashtml.csv": "8c76658cc51457ed6dc28c86f259e9b8345dfcf8ad7ba429721b79a62ba58502",
+  "sashtml.htm": "360eba901e4fda13b38203268cb3bdf1065c1b172d7fc9a30c523ec5d4b139b8",
+  "sashtml.txt": "2ffb017a71d88fb1fd57837f684c1ddd8431c77238f5834be7af90c855671232",
+  "TumorSize.csv": "6601f3a5bbf1a5a70851712bf26a61e3a8180a1dc9bf15fd2c6233ee3df54f72",
+  "tumorsize_band_sg_v94.csv": "67e02e9414ad7aaa2d5521727b2959b02e1a1d12b89133bb8b8ff970232c5442",
+  "tumorsize_band_sg_v94.png": "ea1527734d8d51d039236f9f38a7aeaad06d778909c51381b773de52093d6fc6",
+  "tumorsize_sg_v94.csv": "ffc7cf60831a8a0f3beae576d1d13ad481b7bdd022ec880e7f80629d6d28d68b",
+  "tumorsize_sg_v94.png": "4e8dcb0b0e6d68f0c840a412f7750ca7646a23bda6ad19c88d6818b8366b8810",
+  "TumorSizeDesc.csv": "941e25fb95c60c31ab023c198aafe97134192fbf33b906ae3195bc399faed977"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P100.lst",
+   "sha256": "c8608c396df8b8822851c2ae3a7e462f1152cb2ecf8357ff8f27e1b0d39f2ae5",
+   "frozen_sha256": "c8608c396df8b8822851c2ae3a7e462f1152cb2ecf8357ff8f27e1b0d39f2ae5",
+   "ok": true
+  },
+  {
+   "file": "datasets/P100/sashtml.htm",
+   "sha256": "3ec870f1d636deab785670eac14863ee371b3549cf111135486b9d184953648f",
+   "frozen_sha256": "3ec870f1d636deab785670eac14863ee371b3549cf111135486b9d184953648f",
+   "ok": true
+  },
+  {
+   "file": "datasets/P100/TumorSize_Band_SG_V94.png",
+   "sha256": "4b8acabca114ec403a0e42a901b17f4b7e3503da3f84855597b319492aed0b8c",
+   "frozen_sha256": "4b8acabca114ec403a0e42a901b17f4b7e3503da3f84855597b319492aed0b8c",
+   "ok": true
+  },
+  {
+   "file": "datasets/P100/TumorSize_SG_V94.png",
+   "sha256": "a183b1e1ae2a1727924603f245d097e759f67e3d1906818422ec1146777f1237",
+   "frozen_sha256": "a183b1e1ae2a1727924603f245d097e759f67e3d1906818422ec1146777f1237",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.9199999999999999,
+  "produced_all": true
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P099",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-baseten@v3",
+ "recorded_at": "2026-10-30T02:42:54",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 14466,
+  "output_tokens": 6197,
+  "reasoning_tokens": 136,
+  "finish_reason": "stop",
+  "seconds": 15.9
+ },
+ "inputs": {
+  "prompt_translate.md": "abc93c30c9ad92eb292b6c39c116118a6dbf7b503f83c621e6563847e90bcae9"
+ },
+ "model_output": {
+  "response.md": "8534158f40b8f7376e46871db91a659b3ae1a6b266a58c55d898864d6586284b",
+  "reasoning.md": "665fa2f07087b912f881da351a1dbcb0511242399744108de2b1fb5f1565d8a0",
+  "script.R": "be45766c5852c162416d12bafaa30e4e3bd32cde809f95cfdf3a77e3f926e504"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 3.8,
+  "timed_out": false,
+  "log_sha256": "ce02accfd07cb71e1225bec47eb972f2e4978ae593c168a92f825e08535266f1"
+ },
+ "r_outputs": {
+  "P099.csv": "2d2bb2ad65707a4903b399c6286b5e1769aaca9dc4c8ea99d09d89bde91424bc",
+  "P099.lst": "12dde2e63b456607bf8cdeabee1142cd5da4898003738cf37b3645ebd1d307dd",
+  "P099.txt": "12dde2e63b456607bf8cdeabee1142cd5da4898003738cf37b3645ebd1d307dd",
+  "sgpanel.csv": "3dca8fd1c8db5d4d9e816cdb5976e57923a3ccfd5f11bb6298bf82f706e6fcc0",
+  "sgpanel.png": "9c549b8c51946ec841da5349e5f63e1c5f59cca1533f83a5220a7906b99a557b",
+  "sgpanel1.csv": "bf377ab7c87d01c541eff6e0ae44fe9d86174323b5432a09993026b24b5ab22f",
+  "sgpanel1.png": "af7296296e15c653034bb2f73b06fd2a41325ec78de00844ea5ce9c4a041ac82",
+  "sgpanel2.csv": "9f8f8134351daf1deb95db7fee695219b5fd2854a2829c67376bf03f87723cbc",
+  "sgpanel2.png": "5ad12e57eb7c1a158b34291992092a03651c8b99fdf6395e2fc7b7665e419d7e",
+  "sgplot.csv": "b290f5bdec4e1c2c02b55440fd927e598ec07ce178e44d1d3ceefa57008b9781",
+  "sgplot.png": "8ba21d7e98a6e79792456afe3610ee66e9dfe0c1112e12bcb3756b66efa48317",
+  "sgplot1.csv": "49e30cf7a9fb5f5ed60a6ae361556e2f1239e1d33ba298d98bcd9e660e6d7a28",
+  "sgplot1.png": "d8334d91f8a37963b5f352f777b2216533d3c6cf52fcdfe82ff6fdef66850714",
+  "sgplot2.csv": "d19f78d8c09e15aa85f6d67837126ee5e15001025cc7bfab38b1d4a946aa47ab",
+  "sgplot2.png": "691101694ada443197c12cf3fe3a12e156f2b11f223a74ce6d7c48a1977505c3",
+  "sgrender.csv": "c22405ec2028c2a6ecd219d5b790c2d81a52d6438d4c70d2a4b94c8c8601acf1",
+  "sgrender.png": "a15e309b4c1a9b5cbfe5d14e1dc20c7bbd3bddccb51c716cba6b8a7caa4e9a66",
+  "sgrender1.csv": "51a3ef88edf38fc669a0352d2af83a78e1a60264ef4da5a30498e06f4397fe5e",
+  "sgrender1.png": "86c9936088f8f425834902b08b7b612021269c4fbe29becca2d8175b4782a22e",
+  "sgrender2.csv": "2804f9e3a856d640d17fcf1af6896f8668b8a26d1e13cea83d67511a2f4fb933",
+  "sgrender2.png": "d296bfc41554147602082f3e28e82e17e8e6e5e6497235ff2738ef8967b73b60",
+  "sgrender3.csv": "fee6c57b2938cd78b0ef76edc4e4b4b9776a6985b70087cc8634887ca7ced62a",
+  "sgrender3.png": "79206e148bd62c687304ae7578574e872d0770cea7ef3652af0b5d11fd6b490a",
+  "sgrender4.csv": "45b89ee70079fb7b9f5e1b9ddbe1a75700db541d43d0378a6f62e7116081d4b3",
+  "sgrender4.png": "1f5a1f1720160ebc550fb9f47e298087561901d43d725458070733631506943b"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P099.lst",
+   "sha256": "95d35d368bd3a973cd55141a275e591caaa84e0d098d942716dbd01b72e1b8dd",
+   "frozen_sha256": "95d35d368bd3a973cd55141a275e591caaa84e0d098d942716dbd01b72e1b8dd",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGPanel.png",
+   "sha256": "03f23726c669eaae78671f46b697916f366d0afee25757214b17bfc02ed293ee",
+   "frozen_sha256": "03f23726c669eaae78671f46b697916f366d0afee25757214b17bfc02ed293ee",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGPanel1.png",
+   "sha256": "6c03d38227624e5a4c734e89dd60518226056f74fe33d422c861fb7284e1de38",
+   "frozen_sha256": "6c03d38227624e5a4c734e89dd60518226056f74fe33d422c861fb7284e1de38",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGPanel2.png",
+   "sha256": "eae52da8f165c9749547389ff209eb84371a25e4537c0fa5591883fc0b531774",
+   "frozen_sha256": "eae52da8f165c9749547389ff209eb84371a25e4537c0fa5591883fc0b531774",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGPlot.png",
+   "sha256": "5a72c39bf799585c9a31100eb3beec0f3e20511381e79ebbd6744c7f14332e1c",
+   "frozen_sha256": "5a72c39bf799585c9a31100eb3beec0f3e20511381e79ebbd6744c7f14332e1c",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGPlot1.png",
+   "sha256": "d5a02d73bc152c2ff1cff6cb43c78695b1b6c4884eda38d3c9e9263561870856",
+   "frozen_sha256": "d5a02d73bc152c2ff1cff6cb43c78695b1b6c4884eda38d3c9e9263561870856",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGPlot2.png",
+   "sha256": "7258199636bd16f5676b9bebc47ae2cfea737f859b32a49f515b284492b8c645",
+   "frozen_sha256": "7258199636bd16f5676b9bebc47ae2cfea737f859b32a49f515b284492b8c645",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGRender.png",
+   "sha256": "e4347da332eaa5a8ec86a38ff5fc1bacc07a3258322778499f94e87a2212aac0",
+   "frozen_sha256": "e4347da332eaa5a8ec86a38ff5fc1bacc07a3258322778499f94e87a2212aac0",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGRender1.png",
+   "sha256": "fa656ba4418d9e9792e2e8c9915543fe1e377893a9e396ecd20b4880377c8d89",
+   "frozen_sha256": "fa656ba4418d9e9792e2e8c9915543fe1e377893a9e396ecd20b4880377c8d89",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGRender2.png",
+   "sha256": "fbf467c6d0fed1048dde6b1315b9d87f77fbe18c7c00a75e7b34ac214148dfba",
+   "frozen_sha256": "fbf467c6d0fed1048dde6b1315b9d87f77fbe18c7c00a75e7b34ac214148dfba",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGRender3.png",
+   "sha256": "3ca9ac48180db0f4db93f1c45fc761155d39fb272c0706ca38a9a03255c0f933",
+   "frozen_sha256": "3ca9ac48180db0f4db93f1c45fc761155d39fb272c0706ca38a9a03255c0f933",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGRender4.png",
+   "sha256": "dfd45d668dc8f730cd38570b073e30e3767c0052b417a5cdeeaaf7fd63f9556a",
+   "frozen_sha256": "dfd45d668dc8f730cd38570b073e30e3767c0052b417a5cdeeaaf7fd63f9556a",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

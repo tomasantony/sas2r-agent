@@ -1,0 +1,67 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P095",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-baseten@v3",
+ "recorded_at": "2026-10-30T02:39:42",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 3068,
+  "output_tokens": 6276,
+  "reasoning_tokens": 4318,
+  "finish_reason": "stop",
+  "seconds": 20.1
+ },
+ "inputs": {
+  "prompt_translate.md": "26a17b635c45da8a7090801fd540287d9881d149e4b98d72c5091311597cf298"
+ },
+ "model_output": {
+  "response.md": "77403e5b284c8eed075e4777197c0e8c0886ce6da5db06eea29a66447fcdd212",
+  "reasoning.md": "8264f9d5f9d14dbbd9883355ec738cab3bcff58daa2199ac041d16d958140c71",
+  "script.R": "a2faaf35bfa94ac715adf945065e478a8efa50bd78a382eb68fdef2f1e4fb12d"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.0,
+  "timed_out": false,
+  "log_sha256": "75d7d32519397611d3540bd027c099ca795dfb9bfc17cf429e2312501ad2d2ed"
+ },
+ "r_outputs": {
+  "tumorsize.csv": "cf0d9bc00c7ff48107eded9782e392c3d99abbf1085ed7ecab71ad31e56c5c9b",
+  "tumorsize_band_sg_v94.csv": "5237c3ef2a534d6118cff30c85c70ebf0e536c354e9af4786e2554592437df5c",
+  "tumorsize_band_sg_v94.png": "f7b432883626b324204f5517f343fc7561e0b14bf9f015476cedb931bb9680d3",
+  "tumorsize_band_sg_v94.txt": "35685751dd5b8a9c4e1f9feace04e845d9bc0225b657e41e6be9c8334a60334c",
+  "tumorsize_desc.csv": "5237c3ef2a534d6118cff30c85c70ebf0e536c354e9af4786e2554592437df5c"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P095/TumorSize_Band_SG_V94.png",
+   "sha256": "4b8acabca114ec403a0e42a901b17f4b7e3503da3f84855597b319492aed0b8c",
+   "frozen_sha256": "4b8acabca114ec403a0e42a901b17f4b7e3503da3f84855597b319492aed0b8c",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

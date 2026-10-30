@@ -1,0 +1,29 @@
+"Table","Obs","Name","Subject","Score"
+"CLASSTEST table before sorting",1,"Judy","Reading",91
+"CLASSTEST table before sorting",2,"Judy","Math",79
+"CLASSTEST table before sorting",3,"Barbara","Math",90
+"CLASSTEST table before sorting",4,"Barbara","Reading",86
+"CLASSTEST table before sorting",5,"Barbara","Math",90
+"CLASSTEST table before sorting",6,"Louise","Math",72
+"CLASSTEST table before sorting",7,"Louise","Reading",65
+"CLASSTEST table before sorting",8,"William","Math",61
+"CLASSTEST table before sorting",9,"William","Reading",71
+"CLASSTEST table before sorting",10,"Henry","Math",62
+"CLASSTEST table before sorting",11,"Henry","Reading",75
+"CLASSTEST table before sorting",12,"Henry","Reading",84
+"CLASSTEST table before sorting",13,"Jane","Math",94
+"CLASSTEST table before sorting",14,"Jane","Reading",96
+"CLASSTEST_SORT table keeping the high Score for each Name and Subject",1,"Barbara","Math",90
+"CLASSTEST_SORT table keeping the high Score for each Name and Subject",2,"Barbara","Reading",86
+"CLASSTEST_SORT table keeping the high Score for each Name and Subject",3,"Henry","Math",62
+"CLASSTEST_SORT table keeping the high Score for each Name and Subject",4,"Henry","Reading",84
+"CLASSTEST_SORT table keeping the high Score for each Name and Subject",5,"Jane","Math",94
+"CLASSTEST_SORT table keeping the high Score for each Name and Subject",6,"Jane","Reading",96
+"CLASSTEST_SORT table keeping the high Score for each Name and Subject",7,"Judy","Math",79
+"CLASSTEST_SORT table keeping the high Score for each Name and Subject",8,"Judy","Reading",91
+"CLASSTEST_SORT table keeping the high Score for each Name and Subject",9,"Louise","Math",72
+"CLASSTEST_SORT table keeping the high Score for each Name and Subject",10,"Louise","Reading",65
+"CLASSTEST_SORT table keeping the high Score for each Name and Subject",11,"William","Math",61
+"CLASSTEST_SORT table keeping the high Score for each Name and Subject",12,"William","Reading",71
+"CLASSTEST_DUPS table with the removed lower test scores",1,"Barbara","Math",90
+"CLASSTEST_DUPS table with the removed lower test scores",2,"Henry","Reading",75

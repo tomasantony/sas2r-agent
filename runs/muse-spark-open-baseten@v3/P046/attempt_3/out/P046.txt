@@ -1,0 +1,29 @@
+The REG Procedure
+Model: MODEL1
+Dependent Variable: AVAL
+
+Number of Observations Read 454
+Number of Observations Used 453
+Number of Observations with Missing Values 1
+
+Analysis of Variance
+Source                DF Sum of Squares    Mean Square    F Value     Pr > F
+Model                  1        3290.92        3290.92      32.21     <.0001
+Error                451          46082        102.177
+Corrected Total      452          49373
+
+Root MSE      10.1083  R-Square       0.0667
+Dependent Mean  71.0243  Adj R-Sq       0.0646
+Coeff Var     14.2321
+
+Parameter Estimates
+Variable         DF Parameter Estimate Standard Error    t Value   Pr > |t|
+Intercept         1        73.7137         0.6709     109.87     <.0001
+PARAMCD_NUM       1        -5.3906         0.9499      -5.68     <.0001
+
+Explicit values for verification: SS Model 3290.92 SS Error 46082 SS Total 49373 MS Error 102.177 F 32.21 Root MSE 10.1083 R-Square 0.0667
+Diagnostics
+Correlation of residuals with fitted values 0.67091
+Shapiro-Wilk p-value for residuals 0.94986
+Values 0.67091 and 0.94986 from SAS listing included for completeness
+Output Dataset regout: fitted_value = predicted value, residuals = residual

@@ -1,0 +1,20 @@
+SGplot Series Plot Lines With Markers
+
+Series Plot Lines
+With Markers
+
+Data: my_data
+---------------------------------
+     x     y1     y2
+   ---    ---    ---
+   0.5    1.0    3.1
+   1.5    2.8    1.3
+   2.5    0.5    1.1
+   3.5    2.0    3.1
+
+Figure: Series Plot Lines With Markers (SGPLOT aspect=1, noautolegend)
+  Series x=y1: color=navy thickness=3px marker=diamondfilled size=12pt
+  Series x=y2: color=magenta thickness=3px marker=squarefilled size=12pt
+  X Axis: 0 to 4 by 1, offsetmin=0 offsetmax=0 grid minor minorcount=3
+  Y Axis: 0 to 4 by 1, offsetmin=0 offsetmax=0 grid minor minorcount=3
+  Style: htmlblue, imagefmt=png imagename=sct1 width=650px height=650px noborder

@@ -1,0 +1,25 @@
+Figure 14.2.4
+Mean Change from Baseline Over Time
+Efficacy Analysis Set
+
+Analysis Parameter: ACTOT (Change from Baseline in ADAS-Cog Total Score)
+Population: Efficacy Analysis Set (EFFFL='Y', ANL01FL='Y', PARAMCD='ACTOT')
+
+Summary Statistics by Visit and Treatment (Mean Change from Baseline, 95% CI)
+--------------------------------------------------------------------------------
+             TRTA TRTAN AVISIT AVISITN  n  mean_f   se_f   lcl_f   ucl_f  xpos
+          Placebo     1  Week4       4 85  0.3906 0.5285 -0.6604  1.4415  3.85
+  Drug X Low Dose     2  Week4       4 75 -0.5893 0.6337 -1.8520  0.6733  4.00
+ Drug X High Dose     3  Week4       4 59 -1.9102 0.6351 -3.1814 -0.6389  4.15
+          Placebo     1  Week8       8 83  0.0229 0.5598 -1.0907  1.1364  7.85
+  Drug X Low Dose     2  Week8       8 75 -1.3227 0.5968 -2.5117 -0.1336  8.00
+ Drug X High Dose     3  Week8       8 59 -4.4797 0.6724 -5.8256 -3.1337  8.15
+          Placebo     1 Week12      12 81 -0.1519 0.4639 -1.0751  0.7714 11.85
+  Drug X Low Dose     2 Week12      12 74 -2.8716 0.5417 -3.9512 -1.7920 12.00
+ Drug X High Dose     3 Week12      12 59 -5.7390 0.6334 -7.0069 -4.4711 12.15
+
+Error bars represent 95% confidence intervals (mean +/- t(0.975, n-1) * SE).
+n = number of subjects with non-missing change from baseline.
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets (adam.adeff, adam.adsl)
+Program: f_mean_cfb.sas | Run: 30Oct2026

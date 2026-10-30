@@ -1,0 +1,46 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P015.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 120,
+    "found": 120,
+    "r_files": [
+     "lb.csv",
+     "P015.csv",
+     "P015.lst.csv",
+     "P015.lst.txt",
+     "P015.txt"
+    ],
+    "missing_examples": []
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "lb",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten@v3\\P015\\attempt_1\\out\\lb.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 516,
+    "rows_r": 516,
+    "cols_sas": 15,
+    "cols_r": 15,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  }
+ ]
+}

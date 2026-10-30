@@ -1,0 +1,1383 @@
+Common Treatment-Emergent Adverse Events - tcount3
+ TRTAN                                        AEDECOD numAE numusubjid
+     0                                       PRURITUS     8         86
+    54                                       PRURITUS    21         84
+    81                                       PRURITUS    26         84
+     0                      APPLICATION SITE PRURITUS     6         86
+    54                      APPLICATION SITE PRURITUS    22         84
+    81                      APPLICATION SITE PRURITUS    22         84
+     0                      APPLICATION SITE ERYTHEMA     3         86
+    54                      APPLICATION SITE ERYTHEMA    12         84
+    81                      APPLICATION SITE ERYTHEMA    15         84
+     0                                       ERYTHEMA     8         86
+    54                                       ERYTHEMA    14         84
+    81                                       ERYTHEMA    14         84
+     0                                           RASH     5         86
+    54                                           RASH    13         84
+    81                                           RASH     9         84
+     0                                      DIZZINESS     2         86
+    54                                      DIZZINESS     8         84
+    81                                      DIZZINESS    11         84
+     0                    APPLICATION SITE DERMATITIS     5         86
+    54                    APPLICATION SITE DERMATITIS     9         84
+    81                    APPLICATION SITE DERMATITIS     7         84
+     0                    APPLICATION SITE IRRITATION     3         86
+    54                    APPLICATION SITE IRRITATION     9         84
+    81                    APPLICATION SITE IRRITATION     9         84
+     0                                      DIARRHOEA     9         86
+    54                                      DIARRHOEA     4         84
+    81                                      DIARRHOEA     4         84
+     0                                  HYPERHIDROSIS     2         86
+    54                                  HYPERHIDROSIS     4         84
+    81                                  HYPERHIDROSIS     8         84
+     0                              SINUS BRADYCARDIA     2         86
+    54                              SINUS BRADYCARDIA     7         84
+    81                              SINUS BRADYCARDIA     8         84
+     0                                       VOMITING     3         86
+    54                                       VOMITING     3         84
+    81                                       VOMITING     7         84
+     0                      APPLICATION SITE VESICLES     1         86
+    54                      APPLICATION SITE VESICLES     4         84
+    81                      APPLICATION SITE VESICLES     6         84
+     0                                NASOPHARYNGITIS     2         86
+    54                                NASOPHARYNGITIS     4         84
+    81                                NASOPHARYNGITIS     6         84
+     0                                         NAUSEA     3         86
+    54                                         NAUSEA     3         84
+    81                                         NAUSEA     6         84
+     0                                SKIN IRRITATION     3         86
+    54                                SKIN IRRITATION     6         84
+    81                                SKIN IRRITATION     5         84
+     0              UPPER RESPIRATORY TRACT INFECTION     6         86
+    54              UPPER RESPIRATORY TRACT INFECTION     1         84
+    81              UPPER RESPIRATORY TRACT INFECTION     3         84
+     0                                        BLISTER    NA         NA
+    54                                        BLISTER     5         84
+    81                                        BLISTER     1         84
+     0                                          COUGH     1         86
+    54                                          COUGH     5         84
+    81                                          COUGH     5         84
+     0                                        FATIGUE     1         86
+    54                                        FATIGUE     5         84
+    81                                        FATIGUE     5         84
+     0                                       HEADACHE     3         86
+    54                                       HEADACHE     3         84
+    81                                       HEADACHE     5         84
+     0                          MYOCARDIAL INFARCTION     4         86
+    54                          MYOCARDIAL INFARCTION     2         84
+    81                          MYOCARDIAL INFARCTION     4         84
+     0                        SALIVARY HYPERSECRETION    NA         NA
+    54                        SALIVARY HYPERSECRETION    NA         NA
+    81                        SALIVARY HYPERSECRETION     4         84
+     0                                        SYNCOPE    NA         NA
+    54                                        SYNCOPE     4         84
+    81                                        SYNCOPE     3         84
+     0        ELECTROCARDIOGRAM ST SEGMENT DEPRESSION     4         86
+    54        ELECTROCARDIOGRAM ST SEGMENT DEPRESSION     1         84
+    81        ELECTROCARDIOGRAM ST SEGMENT DEPRESSION    NA         NA
+     0                                 ABDOMINAL PAIN     1         86
+    54                                 ABDOMINAL PAIN     3         84
+    81                                 ABDOMINAL PAIN     1         84
+     0                                        ANXIETY    NA         NA
+    54                                        ANXIETY     3         84
+    81                                        ANXIETY    NA         NA
+     0                            ATRIAL FIBRILLATION     1         86
+    54                            ATRIAL FIBRILLATION     1         84
+    81                            ATRIAL FIBRILLATION     3         84
+     0                                      BACK PAIN     1         86
+    54                                      BACK PAIN     1         84
+    81                                      BACK PAIN     3         84
+     0                              CONFUSIONAL STATE     2         86
+    54                              CONFUSIONAL STATE     3         84
+    81                              CONFUSIONAL STATE     1         84
+     0                               NASAL CONGESTION     3         86
+    54                               NASAL CONGESTION     1         84
+    81                               NASAL CONGESTION     3         84
+     0                                     SOMNOLENCE     2         86
+    54                                     SOMNOLENCE     3         84
+    81                                     SOMNOLENCE     1         84
+     0                                      AGITATION     2         86
+    54                                      AGITATION     2         84
+    81                                      AGITATION     1         84
+     0                          APPLICATION SITE PAIN    NA         NA
+    54                          APPLICATION SITE PAIN    NA         NA
+    81                          APPLICATION SITE PAIN     2         84
+     0                  APPLICATION SITE PERSPIRATION    NA         NA
+    54                  APPLICATION SITE PERSPIRATION    NA         NA
+    81                  APPLICATION SITE PERSPIRATION     2         84
+     0                      APPLICATION SITE SWELLING    NA         NA
+    54                      APPLICATION SITE SWELLING     1         84
+    81                      APPLICATION SITE SWELLING     2         84
+     0                     APPLICATION SITE URTICARIA    NA         NA
+    54                     APPLICATION SITE URTICARIA     2         84
+    81                     APPLICATION SITE URTICARIA     1         84
+     0                                     ARTHRALGIA     1         86
+    54                                     ARTHRALGIA     2         84
+    81                                     ARTHRALGIA     1         84
+     0                              BURNING SENSATION    NA         NA
+    54                              BURNING SENSATION    NA         NA
+    81                              BURNING SENSATION     2         84
+     0                               CHEST DISCOMFORT    NA         NA
+    54                               CHEST DISCOMFORT    NA         NA
+    81                               CHEST DISCOMFORT     2         84
+     0                                     CHEST PAIN    NA         NA
+    54                                     CHEST PAIN    NA         NA
+    81                                     CHEST PAIN     2         84
+     0                                      CONTUSION     1         86
+    54                                      CONTUSION     1         84
+    81                                      CONTUSION     2         84
+     0                                      EPISTAXIS    NA         NA
+    54                                      EPISTAXIS     1         84
+    81                                      EPISTAXIS     2         84
+     0                                           FALL     1         86
+    54                                           FALL     2         84
+    81                                           FALL     1         84
+     0                                   HIP FRACTURE     1         86
+    54                                   HIP FRACTURE    NA         NA
+    81                                   HIP FRACTURE     2         84
+     0                                       INSOMNIA     2         86
+    54                                       INSOMNIA    NA         NA
+    81                                       INSOMNIA     2         84
+     0                                        MALAISE    NA         NA
+    54                                        MALAISE     1         84
+    81                                        MALAISE     2         84
+     0                                         OEDEMA    NA         NA
+    54                                         OEDEMA     2         84
+    81                                         OEDEMA    NA         NA
+     0                              OEDEMA PERIPHERAL     2         86
+    54                              OEDEMA PERIPHERAL     1         84
+    81                              OEDEMA PERIPHERAL     2         84
+     0                                   PALPITATIONS    NA         NA
+    54                                   PALPITATIONS     2         84
+    81                                   PALPITATIONS    NA         NA
+     0                                  RASH PRURITIC    NA         NA
+    54                                  RASH PRURITIC     1         84
+    81                                  RASH PRURITIC     2         84
+     0                                  SHOULDER PAIN     1         86
+    54                                  SHOULDER PAIN     2         84
+    81                                  SHOULDER PAIN    NA         NA
+     0                                SKIN LACERATION     1         86
+    54                                SKIN LACERATION     2         84
+    81                                SKIN LACERATION    NA         NA
+     0                     TRANSIENT ISCHAEMIC ATTACK    NA         NA
+    54                     TRANSIENT ISCHAEMIC ATTACK     2         84
+    81                     TRANSIENT ISCHAEMIC ATTACK     1         84
+     0                      VENTRICULAR EXTRASYSTOLES    NA         NA
+    54                      VENTRICULAR EXTRASYSTOLES     2         84
+    81                      VENTRICULAR EXTRASYSTOLES     1         84
+     0                      VENTRICULAR SEPTAL DEFECT    NA         NA
+    54                      VENTRICULAR SEPTAL DEFECT     1         84
+    81                      VENTRICULAR SEPTAL DEFECT     2         84
+     0                                  EAR INFECTION     2         86
+    54                                  EAR INFECTION    NA         NA
+    81                                  EAR INFECTION    NA         NA
+     0             ELECTROCARDIOGRAM T WAVE INVERSION     2         86
+    54             ELECTROCARDIOGRAM T WAVE INVERSION     1         84
+    81             ELECTROCARDIOGRAM T WAVE INVERSION     1         84
+     0                                    EXCORIATION     2         86
+    54                                    EXCORIATION     1         84
+    81                                    EXCORIATION     1         84
+     0                                    HYPOTENSION     2         86
+    54                                    HYPOTENSION     1         84
+    81                                    HYPOTENSION    NA         NA
+     0                                        PYREXIA     2         86
+    54                                        PYREXIA    NA         NA
+    81                                        PYREXIA     1         84
+     0                        URINARY TRACT INFECTION     2         86
+    54                        URINARY TRACT INFECTION    NA         NA
+    81                        URINARY TRACT INFECTION     1         84
+     0                           ABDOMINAL DISCOMFORT    NA         NA
+    54                           ABDOMINAL DISCOMFORT    NA         NA
+    81                           ABDOMINAL DISCOMFORT     1         84
+     0                           ACROCHORDON EXCISION    NA         NA
+    54                           ACROCHORDON EXCISION    NA         NA
+    81                           ACROCHORDON EXCISION     1         84
+     0                              ACTINIC KERATOSIS    NA         NA
+    54                              ACTINIC KERATOSIS    NA         NA
+    81                              ACTINIC KERATOSIS     1         84
+     0                                    ALCOHOL USE    NA         NA
+    54                                    ALCOHOL USE    NA         NA
+    81                                    ALCOHOL USE     1         84
+     0                ALLERGIC GRANULOMATOUS ANGIITIS    NA         NA
+    54                ALLERGIC GRANULOMATOUS ANGIITIS    NA         NA
+    81                ALLERGIC GRANULOMATOUS ANGIITIS     1         84
+     0                                        AMNESIA    NA         NA
+    54                                        AMNESIA    NA         NA
+    81                                        AMNESIA     1         84
+     0                      APPLICATION SITE BLEEDING    NA         NA
+    54                      APPLICATION SITE BLEEDING     1         84
+    81                      APPLICATION SITE BLEEDING    NA         NA
+     0                  APPLICATION SITE DESQUAMATION    NA         NA
+    54                  APPLICATION SITE DESQUAMATION     1         84
+    81                  APPLICATION SITE DESQUAMATION    NA         NA
+     0                     APPLICATION SITE DISCHARGE    NA         NA
+    54                     APPLICATION SITE DISCHARGE    NA         NA
+    81                     APPLICATION SITE DISCHARGE     1         84
+     0                APPLICATION SITE DISCOLOURATION    NA         NA
+    54                APPLICATION SITE DISCOLOURATION     1         84
+    81                APPLICATION SITE DISCOLOURATION    NA         NA
+     0                      APPLICATION SITE REACTION     1         86
+    54                      APPLICATION SITE REACTION    NA         NA
+    81                      APPLICATION SITE REACTION     1         84
+     0                        APPLICATION SITE WARMTH    NA         NA
+    54                        APPLICATION SITE WARMTH     1         84
+    81                        APPLICATION SITE WARMTH    NA         NA
+     0                                      ARTHRITIS    NA         NA
+    54                                      ARTHRITIS    NA         NA
+    81                                      ARTHRITIS     1         84
+     0                                       ASTHENIA     1         86
+    54                                       ASTHENIA    NA         NA
+    81                                       ASTHENIA     1         84
+     0                                 ATRIAL FLUTTER    NA         NA
+    54                                 ATRIAL FLUTTER     1         84
+    81                                 ATRIAL FLUTTER     1         84
+     0            ATRIOVENTRICULAR BLOCK FIRST DEGREE     1         86
+    54            ATRIOVENTRICULAR BLOCK FIRST DEGREE     1         84
+    81            ATRIOVENTRICULAR BLOCK FIRST DEGREE    NA         NA
+     0                               BALANCE DISORDER    NA         NA
+    54                               BALANCE DISORDER     1         84
+    81                               BALANCE DISORDER    NA         NA
+     0                   BENIGN PROSTATIC HYPERPLASIA     1         86
+    54                   BENIGN PROSTATIC HYPERPLASIA    NA         NA
+    81                   BENIGN PROSTATIC HYPERPLASIA     1         84
+     0                                         BIOPSY    NA         NA
+    54                                         BIOPSY    NA         NA
+    81                                         BIOPSY     1         84
+     0                                BIOPSY PROSTATE    NA         NA
+    54                                BIOPSY PROSTATE    NA         NA
+    81                                BIOPSY PROSTATE     1         84
+     0                    BLOOD CHOLESTEROL INCREASED    NA         NA
+    54                    BLOOD CHOLESTEROL INCREASED    NA         NA
+    81                    BLOOD CHOLESTEROL INCREASED     1         84
+     0                        BLOOD GLUCOSE INCREASED    NA         NA
+    54                        BLOOD GLUCOSE INCREASED     1         84
+    81                        BLOOD GLUCOSE INCREASED     1         84
+     0                     BODY TEMPERATURE INCREASED    NA         NA
+    54                     BODY TEMPERATURE INCREASED     1         84
+    81                     BODY TEMPERATURE INCREASED    NA         NA
+     0                      BUNDLE BRANCH BLOCK RIGHT     1         86
+    54                      BUNDLE BRANCH BLOCK RIGHT     1         84
+    81                      BUNDLE BRANCH BLOCK RIGHT    NA         NA
+     0                              CALCULUS URETHRAL    NA         NA
+    54                              CALCULUS URETHRAL    NA         NA
+    81                              CALCULUS URETHRAL     1         84
+     0                               CARDIAC DISORDER    NA         NA
+    54                               CARDIAC DISORDER    NA         NA
+    81                               CARDIAC DISORDER     1         84
+     0                             CATARACT OPERATION     1         86
+    54                             CATARACT OPERATION     1         84
+    81                             CATARACT OPERATION    NA         NA
+     0                                     CELLULITIS    NA         NA
+    54                                     CELLULITIS     1         84
+    81                                     CELLULITIS    NA         NA
+     0                              CERUMEN IMPACTION    NA         NA
+    54                              CERUMEN IMPACTION     1         84
+    81                              CERUMEN IMPACTION    NA         NA
+     0                                         CHILLS     1         86
+    54                                         CHILLS     1         84
+    81                                         CHILLS     1         84
+     0                             COGNITIVE DISORDER    NA         NA
+    54                             COGNITIVE DISORDER    NA         NA
+    81                             COGNITIVE DISORDER     1         84
+     0                                   COLON CANCER    NA         NA
+    54                                   COLON CANCER     1         84
+    81                                   COLON CANCER    NA         NA
+     0                       COMPLEX PARTIAL SEIZURES    NA         NA
+    54                       COMPLEX PARTIAL SEIZURES     1         84
+    81                       COMPLEX PARTIAL SEIZURES    NA         NA
+     0                       CONJUNCTIVAL HAEMORRHAGE    NA         NA
+    54                       CONJUNCTIVAL HAEMORRHAGE     1         84
+    81                       CONJUNCTIVAL HAEMORRHAGE    NA         NA
+     0                          COORDINATION ABNORMAL    NA         NA
+    54                          COORDINATION ABNORMAL     1         84
+    81                          COORDINATION ABNORMAL    NA         NA
+     0                                       CYSTITIS     1         86
+    54                                       CYSTITIS    NA         NA
+    81                                       CYSTITIS     1         84
+     0                             DECREASED APPETITE     1         86
+    54                             DECREASED APPETITE    NA         NA
+    81                             DECREASED APPETITE     1         84
+     0                                       DELIRIUM    NA         NA
+    54                                       DELIRIUM    NA         NA
+    81                                       DELIRIUM     1         84
+     0                                       DELUSION     1         86
+    54                                       DELUSION    NA         NA
+    81                                       DELUSION     1         84
+     0                                 DEPRESSED MOOD    NA         NA
+    54                                 DEPRESSED MOOD     1         84
+    81                                 DEPRESSED MOOD    NA         NA
+     0                             DERMATITIS CONTACT    NA         NA
+    54                             DERMATITIS CONTACT     1         84
+    81                             DERMATITIS CONTACT    NA         NA
+     0                                      DYSPEPSIA     1         86
+    54                                      DYSPEPSIA     1         84
+    81                                      DYSPEPSIA    NA         NA
+     0                                      DYSPHAGIA    NA         NA
+    54                                      DYSPHAGIA     1         84
+    81                                      DYSPHAGIA    NA         NA
+     0                                      DYSPHONIA    NA         NA
+    54                                      DYSPHONIA     1         84
+    81                                      DYSPHONIA    NA         NA
+     0                                       DYSPNOEA     1         86
+    54                                       DYSPNOEA     1         84
+    81                                       DYSPNOEA     1         84
+     0                                        DYSURIA     1         86
+    54                                        DYSURIA     1         84
+    81                                        DYSURIA    NA         NA
+     0   ELECTROCARDIOGRAM T WAVE AMPLITUDE DECREASED     1         86
+    54   ELECTROCARDIOGRAM T WAVE AMPLITUDE DECREASED     1         84
+    81   ELECTROCARDIOGRAM T WAVE AMPLITUDE DECREASED    NA         NA
+     0                          FACIAL BONES FRACTURE    NA         NA
+    54                          FACIAL BONES FRACTURE    NA         NA
+    81                          FACIAL BONES FRACTURE     1         84
+     0                               FEELING ABNORMAL    NA         NA
+    54                               FEELING ABNORMAL    NA         NA
+    81                               FEELING ABNORMAL     1         84
+     0                                   FEELING COLD    NA         NA
+    54                                   FEELING COLD    NA         NA
+    81                                   FEELING COLD     1         84
+     0                                     FLANK PAIN    NA         NA
+    54                                     FLANK PAIN    NA         NA
+    81                                     FLANK PAIN     1         84
+     0                                   FOOD CRAVING     1         86
+    54                                   FOOD CRAVING     1         84
+    81                                   FOOD CRAVING    NA         NA
+     0                   GASTROINTESTINAL HAEMORRHAGE    NA         NA
+    54                   GASTROINTESTINAL HAEMORRHAGE    NA         NA
+    81                   GASTROINTESTINAL HAEMORRHAGE     1         84
+     0                                  HALLUCINATION    NA         NA
+    54                                  HALLUCINATION    NA         NA
+    81                                  HALLUCINATION     1         84
+     0                          HALLUCINATION, VISUAL    NA         NA
+    54                          HALLUCINATION, VISUAL    NA         NA
+    81                          HALLUCINATION, VISUAL     1         84
+     0                          HEMIANOPIA HOMONYMOUS    NA         NA
+    54                          HEMIANOPIA HOMONYMOUS     1         84
+    81                          HEMIANOPIA HOMONYMOUS    NA         NA
+     0                                      HORDEOLUM    NA         NA
+    54                                      HORDEOLUM    NA         NA
+    81                                      HORDEOLUM     1         84
+     0                                      HOT FLUSH    NA         NA
+    54                                      HOT FLUSH     1         84
+    81                                      HOT FLUSH    NA         NA
+     0                               HYPERSENSITIVITY    NA         NA
+    54                               HYPERSENSITIVITY     1         84
+    81                               HYPERSENSITIVITY    NA         NA
+     0                                    HYPERSOMNIA    NA         NA
+    54                                    HYPERSOMNIA    NA         NA
+    81                                    HYPERSOMNIA     1         84
+     0                                   HYPERTENSION     1         86
+    54                                   HYPERTENSION     1         84
+    81                                   HYPERTENSION    NA         NA
+     0                                   INCONTINENCE    NA         NA
+    54                                   INCONTINENCE     1         84
+    81                                   INCONTINENCE    NA         NA
+     0                             INCREASED APPETITE     1         86
+    54                             INCREASED APPETITE    NA         NA
+    81                             INCREASED APPETITE     1         84
+     0                                   INFLAMMATION    NA         NA
+    54                                   INFLAMMATION     1         84
+    81                                   INFLAMMATION    NA         NA
+     0                                      INFLUENZA     1         86
+    54                                      INFLUENZA     1         84
+    81                                      INFLUENZA     1         84
+     0                                   IRRITABILITY     1         86
+    54                                   IRRITABILITY     1         84
+    81                                   IRRITABILITY    NA         NA
+     0                              JOINT DISLOCATION    NA         NA
+    54                              JOINT DISLOCATION     1         84
+    81                              JOINT DISLOCATION    NA         NA
+     0                                       LETHARGY    NA         NA
+    54                                       LETHARGY     1         84
+    81                                       LETHARGY     1         84
+     0                               LIBIDO DECREASED    NA         NA
+    54                               LIBIDO DECREASED    NA         NA
+    81                               LIBIDO DECREASED     1         84
+     0                                       LISTLESS    NA         NA
+    54                                       LISTLESS    NA         NA
+    81                                       LISTLESS     1         84
+     0              LOWER RESPIRATORY TRACT INFECTION    NA         NA
+    54              LOWER RESPIRATORY TRACT INFECTION    NA         NA
+    81              LOWER RESPIRATORY TRACT INFECTION     1         84
+     0                 MALIGNANT FIBROUS HISTIOCYTOMA    NA         NA
+    54                 MALIGNANT FIBROUS HISTIOCYTOMA     1         84
+    81                 MALIGNANT FIBROUS HISTIOCYTOMA    NA         NA
+     0                            MICTURITION URGENCY     1         86
+    54                            MICTURITION URGENCY     1         84
+    81                            MICTURITION URGENCY     1         84
+     0                                  MUSCLE SPASMS    NA         NA
+    54                                  MUSCLE SPASMS     1         84
+    81                                  MUSCLE SPASMS     1         84
+     0                              MUSCULAR WEAKNESS    NA         NA
+    54                              MUSCULAR WEAKNESS     1         84
+    81                              MUSCULAR WEAKNESS    NA         NA
+     0                                        MYALGIA    NA         NA
+    54                                        MYALGIA    NA         NA
+    81                                        MYALGIA     1         84
+     0                            NASAL MUCOSA BIOPSY    NA         NA
+    54                            NASAL MUCOSA BIOPSY     1         84
+    81                            NASAL MUCOSA BIOPSY    NA         NA
+     0                                NEPHROLITHIASIS     1         86
+    54                                NEPHROLITHIASIS    NA         NA
+    81                                NEPHROLITHIASIS     1         84
+     0                                      NIGHTMARE    NA         NA
+    54                                      NIGHTMARE    NA         NA
+    81                                      NIGHTMARE     1         84
+     0                                           PAIN    NA         NA
+    54                                           PAIN     1         84
+    81                                           PAIN     1         84
+     0                                   PARAESTHESIA    NA         NA
+    54                                   PARAESTHESIA    NA         NA
+    81                                   PARAESTHESIA     1         84
+     0                              PARAESTHESIA ORAL    NA         NA
+    54                              PARAESTHESIA ORAL     1         84
+    81                              PARAESTHESIA ORAL    NA         NA
+     0                                       PAROSMIA    NA         NA
+    54                                       PAROSMIA    NA         NA
+    81                                       PAROSMIA     1         84
+     0 PARTIAL SEIZURES WITH SECONDARY GENERALISATION    NA         NA
+    54 PARTIAL SEIZURES WITH SECONDARY GENERALISATION    NA         NA
+    81 PARTIAL SEIZURES WITH SECONDARY GENERALISATION     1         84
+     0                            PHARYNGEAL ERYTHEMA    NA         NA
+    54                            PHARYNGEAL ERYTHEMA    NA         NA
+    81                            PHARYNGEAL ERYTHEMA     1         84
+     0                         PHARYNGOLARYNGEAL PAIN    NA         NA
+    54                         PHARYNGOLARYNGEAL PAIN     1         84
+    81                         PHARYNGOLARYNGEAL PAIN     1         84
+     0                                      PNEUMONIA    NA         NA
+    54                                      PNEUMONIA     1         84
+    81                                      PNEUMONIA    NA         NA
+     0                               PRODUCTIVE COUGH    NA         NA
+    54                               PRODUCTIVE COUGH    NA         NA
+    81                               PRODUCTIVE COUGH     1         84
+     0                                PROSTATE CANCER    NA         NA
+    54                                PROSTATE CANCER    NA         NA
+    81                                PROSTATE CANCER     1         84
+     0                           PRURITUS GENERALISED    NA         NA
+    54                           PRURITUS GENERALISED     1         84
+    81                           PRURITUS GENERALISED     1         84
+     0                              RASH ERYTHEMATOUS    NA         NA
+    54                              RASH ERYTHEMATOUS     1         84
+    81                              RASH ERYTHEMATOUS    NA         NA
+     0                            RASH MACULO-PAPULAR    NA         NA
+    54                            RASH MACULO-PAPULAR    NA         NA
+    81                            RASH MACULO-PAPULAR     1         84
+     0                             RECTAL HAEMORRHAGE    NA         NA
+    54                             RECTAL HAEMORRHAGE     1         84
+    81                             RECTAL HAEMORRHAGE    NA         NA
+     0                   RESPIRATORY TRACT CONGESTION    NA         NA
+    54                   RESPIRATORY TRACT CONGESTION    NA         NA
+    81                   RESPIRATORY TRACT CONGESTION     1         84
+     0                                   RESTLESSNESS    NA         NA
+    54                                   RESTLESSNESS     1         84
+    81                                   RESTLESSNESS    NA         NA
+     0                                       RHINITIS    NA         NA
+    54                                       RHINITIS    NA         NA
+    81                                       RHINITIS     1         84
+     0                                    RHINORRHOEA    NA         NA
+    54                                    RHINORRHOEA     1         84
+    81                                    RHINORRHOEA     1         84
+     0                            SECRETION DISCHARGE    NA         NA
+    54                            SECRETION DISCHARGE     1         84
+    81                            SECRETION DISCHARGE    NA         NA
+     0                               SKIN EXFOLIATION    NA         NA
+    54                               SKIN EXFOLIATION     1         84
+    81                               SKIN EXFOLIATION    NA         NA
+     0                           SKIN LESION EXCISION    NA         NA
+    54                           SKIN LESION EXCISION    NA         NA
+    81                           SKIN LESION EXCISION     1         84
+     0                            SKIN ODOUR ABNORMAL    NA         NA
+    54                            SKIN ODOUR ABNORMAL    NA         NA
+    81                            SKIN ODOUR ABNORMAL     1         84
+     0                             STOMACH DISCOMFORT    NA         NA
+    54                             STOMACH DISCOMFORT    NA         NA
+    81                             STOMACH DISCOMFORT     1         84
+     0                                         STUPOR    NA         NA
+    54                                         STUPOR     1         84
+    81                                         STUPOR    NA         NA
+     0                                   SUDDEN DEATH    NA         NA
+    54                                   SUDDEN DEATH     1         84
+    81                                   SUDDEN DEATH    NA         NA
+     0                 SUPRAVENTRICULAR EXTRASYSTOLES     1         86
+    54                 SUPRAVENTRICULAR EXTRASYSTOLES     1         84
+    81                 SUPRAVENTRICULAR EXTRASYSTOLES     1         84
+     0                   SUPRAVENTRICULAR TACHYCARDIA    NA         NA
+    54                   SUPRAVENTRICULAR TACHYCARDIA     1         84
+    81                   SUPRAVENTRICULAR TACHYCARDIA    NA         NA
+     0                                       SWELLING    NA         NA
+    54                                       SWELLING     1         84
+    81                                       SWELLING    NA         NA
+     0                              SYNCOPE VASOVAGAL    NA         NA
+    54                              SYNCOPE VASOVAGAL    NA         NA
+    81                              SYNCOPE VASOVAGAL     1         84
+     0                                          ULCER    NA         NA
+    54                                          ULCER     1         84
+    81                                          ULCER    NA         NA
+     0                                      URTICARIA    NA         NA
+    54                                      URTICARIA     1         84
+    81                                      URTICARIA     1         84
+     0                                        VERTIGO    NA         NA
+    54                                        VERTIGO     1         84
+    81                                        VERTIGO     1         84
+     0                                VIRAL INFECTION    NA         NA
+    54                                VIRAL INFECTION     1         84
+    81                                VIRAL INFECTION    NA         NA
+     0                                 VISION BLURRED    NA         NA
+    54                                 VISION BLURRED     1         84
+    81                                 VISION BLURRED     1         84
+     0                               WEIGHT DECREASED    NA         NA
+    54                               WEIGHT DECREASED    NA         NA
+    81                               WEIGHT DECREASED     1         84
+     0                 WOLFF-PARKINSON-WHITE SYNDROME    NA         NA
+    54                 WOLFF-PARKINSON-WHITE SYNDROME     1         84
+    81                 WOLFF-PARKINSON-WHITE SYNDROME    NA         NA
+     0                                          WOUND    NA         NA
+    54                                          WOUND     1         84
+    81                                          WOUND    NA         NA
+     0                              WOUND HAEMORRHAGE    NA         NA
+    54                              WOUND HAEMORRHAGE    NA         NA
+    81                              WOUND HAEMORRHAGE     1         84
+     0                                       ALOPECIA     1         86
+    54                                       ALOPECIA    NA         NA
+    81                                       ALOPECIA    NA         NA
+     0                    APPLICATION SITE INDURATION     1         86
+    54                    APPLICATION SITE INDURATION    NA         NA
+    81                    APPLICATION SITE INDURATION    NA         NA
+     0                             ATRIAL HYPERTROPHY     1         86
+    54                             ATRIAL HYPERTROPHY    NA         NA
+    81                             ATRIAL HYPERTROPHY    NA         NA
+     0           ATRIOVENTRICULAR BLOCK SECOND DEGREE     1         86
+    54           ATRIOVENTRICULAR BLOCK SECOND DEGREE    NA         NA
+    81           ATRIOVENTRICULAR BLOCK SECOND DEGREE    NA         NA
+     0           BLOOD ALKALINE PHOSPHATASE INCREASED     1         86
+    54           BLOOD ALKALINE PHOSPHATASE INCREASED    NA         NA
+    81           BLOOD ALKALINE PHOSPHATASE INCREASED    NA         NA
+     0         BLOOD CREATINE PHOSPHOKINASE INCREASED     1         86
+    54         BLOOD CREATINE PHOSPHOKINASE INCREASED    NA         NA
+    81         BLOOD CREATINE PHOSPHOKINASE INCREASED    NA         NA
+     0                            BLOOD URINE PRESENT     1         86
+    54                            BLOOD URINE PRESENT    NA         NA
+    81                            BLOOD URINE PRESENT    NA         NA
+     0                                    BRADYCARDIA     1         86
+    54                                    BRADYCARDIA    NA         NA
+    81                                    BRADYCARDIA    NA         NA
+     0                                     BRONCHITIS     1         86
+    54                                     BRONCHITIS    NA         NA
+    81                                     BRONCHITIS    NA         NA
+     0                       BUNDLE BRANCH BLOCK LEFT     1         86
+    54                       BUNDLE BRANCH BLOCK LEFT    NA         NA
+    81                       BUNDLE BRANCH BLOCK LEFT    NA         NA
+     0                     CARDIAC FAILURE CONGESTIVE     1         86
+    54                     CARDIAC FAILURE CONGESTIVE    NA         NA
+    81                     CARDIAC FAILURE CONGESTIVE    NA         NA
+     0                                     CERVICITIS     1         86
+    54                                     CERVICITIS    NA         NA
+    81                                     CERVICITIS    NA         NA
+     0                                     COLD SWEAT     1         86
+    54                                     COLD SWEAT    NA         NA
+    81                                     COLD SWEAT    NA         NA
+     0                              COMPLETED SUICIDE     1         86
+    54                              COMPLETED SUICIDE    NA         NA
+    81                              COMPLETED SUICIDE    NA         NA
+     0                                 CONJUNCTIVITIS     1         86
+    54                                 CONJUNCTIVITIS    NA         NA
+    81                                 CONJUNCTIVITIS    NA         NA
+     0                                   CONSTIPATION     1         86
+    54                                   CONSTIPATION    NA         NA
+    81                                   CONSTIPATION    NA         NA
+     0                                     CYSTOSCOPY     1         86
+    54                                     CYSTOSCOPY    NA         NA
+    81                                     CYSTOSCOPY    NA         NA
+     0                                    DEHYDRATION     1         86
+    54                                    DEHYDRATION    NA         NA
+    81                                    DEHYDRATION    NA         NA
+     0                              DIABETES MELLITUS     1         86
+    54                              DIABETES MELLITUS    NA         NA
+    81                              DIABETES MELLITUS    NA         NA
+     0                                 DISORIENTATION     1         86
+    54                                 DISORIENTATION    NA         NA
+    81                                 DISORIENTATION    NA         NA
+     0                                  DRUG ERUPTION     1         86
+    54                                  DRUG ERUPTION    NA         NA
+    81                                  DRUG ERUPTION    NA         NA
+     0                                       EAR PAIN     1         86
+    54                                       EAR PAIN    NA         NA
+    81                                       EAR PAIN    NA         NA
+     0                                      EMPHYSEMA     1         86
+    54                                      EMPHYSEMA    NA         NA
+    81                                      EMPHYSEMA    NA         NA
+     0                                    EYE ALLERGY     1         86
+    54                                    EYE ALLERGY    NA         NA
+    81                                    EYE ALLERGY    NA         NA
+     0                              EYE LASER SURGERY     1         86
+    54                              EYE LASER SURGERY    NA         NA
+    81                              EYE LASER SURGERY    NA         NA
+     0                                   EYE PRURITUS     1         86
+    54                                   EYE PRURITUS    NA         NA
+    81                                   EYE PRURITUS    NA         NA
+     0                                   EYE SWELLING     1         86
+    54                                   EYE SWELLING    NA         NA
+    81                                   EYE SWELLING    NA         NA
+     0                                     FLATULENCE     1         86
+    54                                     FLATULENCE    NA         NA
+    81                                     FLATULENCE    NA         NA
+     0                          GASTROENTERITIS VIRAL     1         86
+    54                          GASTROENTERITIS VIRAL    NA         NA
+    81                          GASTROENTERITIS VIRAL    NA         NA
+     0               GASTROOESOPHAGEAL REFLUX DISEASE     1         86
+    54               GASTROOESOPHAGEAL REFLUX DISEASE    NA         NA
+    81               GASTROOESOPHAGEAL REFLUX DISEASE    NA         NA
+     0                                      GLOSSITIS     1         86
+    54                                      GLOSSITIS    NA         NA
+    81                                      GLOSSITIS    NA         NA
+     0                                    HAEMOPTYSIS     1         86
+    54                                    HAEMOPTYSIS    NA         NA
+    81                                    HAEMOPTYSIS    NA         NA
+     0                           HEART RATE INCREASED     1         86
+    54                           HEART RATE INCREASED    NA         NA
+    81                           HEART RATE INCREASED    NA         NA
+     0                           HEART RATE IRREGULAR     1         86
+    54                           HEART RATE IRREGULAR    NA         NA
+    81                           HEART RATE IRREGULAR    NA         NA
+     0                                  HIATUS HERNIA     1         86
+    54                                  HIATUS HERNIA    NA         NA
+    81                                  HIATUS HERNIA    NA         NA
+     0                            HYPERBILIRUBINAEMIA     1         86
+    54                            HYPERBILIRUBINAEMIA    NA         NA
+    81                            HYPERBILIRUBINAEMIA    NA         NA
+     0                                  HYPONATRAEMIA     1         86
+    54                                  HYPONATRAEMIA    NA         NA
+    81                                  HYPONATRAEMIA    NA         NA
+     0                            LOCALISED INFECTION     1         86
+    54                            LOCALISED INFECTION    NA         NA
+    81                            LOCALISED INFECTION    NA         NA
+     0                        ORTHOSTATIC HYPOTENSION     1         86
+    54                        ORTHOSTATIC HYPOTENSION    NA         NA
+    81                        ORTHOSTATIC HYPOTENSION    NA         NA
+     0                              PAIN IN EXTREMITY     1         86
+    54                              PAIN IN EXTREMITY    NA         NA
+    81                              PAIN IN EXTREMITY    NA         NA
+     0                            PARKINSON'S DISEASE     1         86
+    54                            PARKINSON'S DISEASE    NA         NA
+    81                            PARKINSON'S DISEASE    NA         NA
+     0                                    PELVIC PAIN     1         86
+    54                                    PELVIC PAIN    NA         NA
+    81                                    PELVIC PAIN    NA         NA
+     0                                    POLLAKIURIA     1         86
+    54                                    POLLAKIURIA    NA         NA
+    81                                    POLLAKIURIA    NA         NA
+     0                                 POSTNASAL DRIP     1         86
+    54                                 POSTNASAL DRIP    NA         NA
+    81                                 POSTNASAL DRIP    NA         NA
+     0                      PSYCHOMOTOR HYPERACTIVITY     1         86
+    54                      PSYCHOMOTOR HYPERACTIVITY    NA         NA
+    81                      PSYCHOMOTOR HYPERACTIVITY    NA         NA
+     0                                          RALES     1         86
+    54                                          RALES    NA         NA
+    81                                          RALES    NA         NA
+     0                               SINUS ARRHYTHMIA     1         86
+    54                               SINUS ARRHYTHMIA    NA         NA
+    81                               SINUS ARRHYTHMIA    NA         NA
+     0                                     SKIN ULCER     1         86
+    54                                     SKIN ULCER    NA         NA
+    81                                     SKIN ULCER    NA         NA
+     0                                    TACHYCARDIA     1         86
+    54                                    TACHYCARDIA    NA         NA
+    81                                    TACHYCARDIA    NA         NA
+     0                                VAGINAL MYCOSIS     1         86
+    54                                VAGINAL MYCOSIS    NA         NA
+    81                                VAGINAL MYCOSIS    NA         NA
+     0                        VENTRICULAR HYPERTROPHY     1         86
+    54                        VENTRICULAR HYPERTROPHY    NA         NA
+    81                        VENTRICULAR HYPERTROPHY    NA         NA
+  AEpercent TRTAN_1 AEpercent_1    RelRisk aeseqno minusmaxAEpercent dispseqno
+ 0.09302326       0  0.09302326 0.00000000     273       -0.30952381         1
+ 0.25000000      NA  0.00000000 0.25000000     274       -0.30952381         1
+ 0.30952381      NA  0.00000000 0.30952381     275       -0.30952381         1
+ 0.06976744       0  0.06976744 0.00000000      31       -0.26190476         2
+ 0.26190476      NA  0.00000000 0.26190476      32       -0.26190476         2
+ 0.26190476      NA  0.00000000 0.26190476      33       -0.26190476         2
+ 0.03488372       0  0.03488372 0.00000000      22       -0.17857143         3
+ 0.14285714      NA  0.00000000 0.14285714      23       -0.17857143         3
+ 0.17857143      NA  0.00000000 0.17857143      24       -0.17857143         3
+ 0.09302326       0  0.09302326 0.00000000     154       -0.16666667         4
+ 0.16666667      NA  0.00000000 0.16666667     155       -0.16666667         4
+ 0.16666667      NA  0.00000000 0.16666667     156       -0.16666667         4
+ 0.05813953       0  0.05813953 0.00000000     282       -0.15476190         5
+ 0.15476190      NA  0.00000000 0.15476190     283       -0.15476190         5
+ 0.10714286      NA  0.00000000 0.10714286     284       -0.15476190         5
+ 0.02325581       0  0.02325581 0.00000000     129       -0.13095238         6
+ 0.09523810      NA  0.00000000 0.09523810     130       -0.13095238         6
+ 0.13095238      NA  0.00000000 0.13095238     131       -0.13095238         6
+ 0.05813953       0  0.05813953 0.00000000      16       -0.10714286         7
+ 0.10714286      NA  0.00000000 0.10714286      17       -0.10714286         7
+ 0.08333333      NA  0.00000000 0.08333333      18       -0.10714286         7
+ 0.03488372       0  0.03488372 0.00000000      26       -0.10714286         8
+ 0.10714286      NA  0.00000000 0.10714286      27       -0.10714286         8
+ 0.10714286      NA  0.00000000 0.10714286      28       -0.10714286         8
+ 0.10465116       0  0.10465116 0.00000000     125       -0.10465116         9
+ 0.04761905      NA  0.00000000 0.04761905     126       -0.10465116         9
+ 0.04761905      NA  0.00000000 0.04761905     127       -0.10465116         9
+ 0.02325581       0  0.02325581 0.00000000     196       -0.09523810        10
+ 0.04761905      NA  0.00000000 0.04761905     197       -0.09523810        10
+ 0.09523810      NA  0.00000000 0.09523810     198       -0.09523810        10
+ 0.02325581       0  0.02325581 0.00000000     300       -0.09523810        11
+ 0.08333333      NA  0.00000000 0.08333333     301       -0.09523810        11
+ 0.09523810      NA  0.00000000 0.09523810     302       -0.09523810        11
+ 0.03488372       0  0.03488372 0.00000000     348       -0.08333333        12
+ 0.03571429      NA  0.00000000 0.03571429     349       -0.08333333        12
+ 0.08333333      NA  0.00000000 0.08333333     350       -0.08333333        12
+ 0.01162791       0  0.01162791 0.00000000      40       -0.07142857        13
+ 0.04761905      NA  0.00000000 0.04761905      41       -0.07142857        13
+ 0.07142857      NA  0.00000000 0.07142857      42       -0.07142857        13
+ 0.02325581       0  0.02325581 0.00000000     241       -0.07142857        14
+ 0.04761905      NA  0.00000000 0.04761905     242       -0.07142857        14
+ 0.07142857      NA  0.00000000 0.07142857     243       -0.07142857        14
+ 0.03488372       0  0.03488372 0.00000000     244       -0.07142857        15
+ 0.03571429      NA  0.00000000 0.03571429     245       -0.07142857        15
+ 0.07142857      NA  0.00000000 0.07142857     246       -0.07142857        15
+ 0.03488372       0  0.03488372 0.00000000     304       -0.07142857        16
+ 0.07142857      NA  0.00000000 0.07142857     305       -0.07142857        16
+ 0.05952381      NA  0.00000000 0.05952381     306       -0.07142857        16
+ 0.06976744       0  0.06976744 0.00000000     330       -0.06976744        17
+ 0.01190476      NA  0.00000000 0.01190476     331       -0.06976744        17
+ 0.03571429      NA  0.00000000 0.03571429     332       -0.06976744        17
+ 0.00000000      NA          NA         NA      NA                NA        18
+ 0.05952381      NA  0.00000000 0.05952381      67       -0.05952381        18
+ 0.01190476      NA  0.00000000 0.01190476      68       -0.05952381        18
+ 0.01162791       0  0.01162791 0.00000000     110       -0.05952381        19
+ 0.05952381      NA  0.00000000 0.05952381     111       -0.05952381        19
+ 0.05952381      NA  0.00000000 0.05952381     112       -0.05952381        19
+ 0.01162791       0  0.01162791 0.00000000     168       -0.05952381        20
+ 0.05952381      NA  0.00000000 0.05952381     169       -0.05952381        20
+ 0.05952381      NA  0.00000000 0.05952381     170       -0.05952381        20
+ 0.03488372       0  0.03488372 0.00000000     184       -0.05952381        21
+ 0.03571429      NA  0.00000000 0.03571429     185       -0.05952381        21
+ 0.05952381      NA  0.00000000 0.05952381     186       -0.05952381        21
+ 0.04651163       0  0.04651163 0.00000000     234       -0.04761905        22
+ 0.02380952      NA  0.00000000 0.02380952     235       -0.04761905        22
+ 0.04761905      NA  0.00000000 0.04761905     236       -0.04761905        22
+ 0.00000000      NA          NA         NA      NA                NA        23
+ 0.00000000      NA          NA         NA      NA                NA        23
+ 0.04761905      NA  0.00000000 0.04761905     295       -0.04761905        23
+ 0.00000000      NA          NA         NA      NA                NA        24
+ 0.04761905      NA  0.00000000 0.04761905     323       -0.04761905        24
+ 0.03571429      NA  0.00000000 0.03571429     324       -0.04761905        24
+ 0.04651163       0  0.04651163 0.00000000     144       -0.04651163        25
+ 0.01190476      NA  0.00000000 0.01190476     145       -0.04651163        25
+ 0.00000000      NA          NA         NA      NA                NA        25
+ 0.01162791       0  0.01162791 0.00000000       2       -0.03571429        26
+ 0.03571429      NA  0.00000000 0.03571429       3       -0.03571429        26
+ 0.01190476      NA  0.00000000 0.01190476       4       -0.03571429        26
+ 0.00000000      NA          NA         NA      NA                NA        27
+ 0.03571429      NA  0.00000000 0.03571429      14       -0.03571429        27
+ 0.00000000      NA          NA         NA      NA                NA        27
+ 0.01162791       0  0.01162791 0.00000000      50       -0.03571429        28
+ 0.01190476      NA  0.00000000 0.01190476      51       -0.03571429        28
+ 0.03571429      NA  0.00000000 0.03571429      52       -0.03571429        28
+ 0.01162791       0  0.01162791 0.00000000      59       -0.03571429        29
+ 0.01190476      NA  0.00000000 0.01190476      60       -0.03571429        29
+ 0.03571429      NA  0.00000000 0.03571429      61       -0.03571429        29
+ 0.02325581       0  0.02325581 0.00000000     100       -0.03571429        30
+ 0.03571429      NA  0.00000000 0.03571429     101       -0.03571429        30
+ 0.01190476      NA  0.00000000 0.01190476     102       -0.03571429        30
+ 0.03488372       0  0.03488372 0.00000000     237       -0.03571429        31
+ 0.01190476      NA  0.00000000 0.01190476     238       -0.03571429        31
+ 0.03571429      NA  0.00000000 0.03571429     239       -0.03571429        31
+ 0.02325581       0  0.02325581 0.00000000     312       -0.03571429        32
+ 0.03571429      NA  0.00000000 0.03571429     313       -0.03571429        32
+ 0.01190476      NA  0.00000000 0.01190476     314       -0.03571429        32
+ 0.02325581       0  0.02325581 0.00000000       7       -0.02380952        33
+ 0.02380952      NA  0.00000000 0.02380952       8       -0.02380952        33
+ 0.01190476      NA  0.00000000 0.01190476       9       -0.02380952        33
+ 0.00000000      NA          NA         NA      NA                NA        34
+ 0.00000000      NA          NA         NA      NA                NA        34
+ 0.02380952      NA  0.00000000 0.02380952      29       -0.02380952        34
+ 0.00000000      NA          NA         NA      NA                NA        35
+ 0.00000000      NA          NA         NA      NA                NA        35
+ 0.02380952      NA  0.00000000 0.02380952      30       -0.02380952        35
+ 0.00000000      NA          NA         NA      NA                NA        36
+ 0.01190476      NA  0.00000000 0.01190476      36       -0.02380952        36
+ 0.02380952      NA  0.00000000 0.02380952      37       -0.02380952        36
+ 0.00000000      NA          NA         NA      NA                NA        37
+ 0.02380952      NA  0.00000000 0.02380952      38       -0.02380952        37
+ 0.01190476      NA  0.00000000 0.01190476      39       -0.02380952        37
+ 0.01162791       0  0.01162791 0.00000000      44       -0.02380952        38
+ 0.02380952      NA  0.00000000 0.02380952      45       -0.02380952        38
+ 0.01190476      NA  0.00000000 0.01190476      46       -0.02380952        38
+ 0.00000000      NA          NA         NA      NA                NA        39
+ 0.00000000      NA          NA         NA      NA                NA        39
+ 0.02380952      NA  0.00000000 0.02380952      81       -0.02380952        39
+ 0.00000000      NA          NA         NA      NA                NA        40
+ 0.00000000      NA          NA         NA      NA                NA        40
+ 0.02380952      NA  0.00000000 0.02380952      90       -0.02380952        40
+ 0.00000000      NA          NA         NA      NA                NA        41
+ 0.00000000      NA          NA         NA      NA                NA        41
+ 0.02380952      NA  0.00000000 0.02380952      91       -0.02380952        41
+ 0.01162791       0  0.01162791 0.00000000     106       -0.02380952        42
+ 0.01190476      NA  0.00000000 0.01190476     107       -0.02380952        42
+ 0.02380952      NA  0.00000000 0.02380952     108       -0.02380952        42
+ 0.00000000      NA          NA         NA      NA                NA        43
+ 0.01190476      NA  0.00000000 0.01190476     152       -0.02380952        43
+ 0.02380952      NA  0.00000000 0.02380952     153       -0.02380952        43
+ 0.01162791       0  0.01162791 0.00000000     165       -0.02380952        44
+ 0.02380952      NA  0.00000000 0.02380952     166       -0.02380952        44
+ 0.01190476      NA  0.00000000 0.01190476     167       -0.02380952        44
+ 0.01162791       0  0.01162791 0.00000000     191       -0.02380952        45
+ 0.00000000      NA          NA         NA      NA                NA        45
+ 0.02380952      NA  0.00000000 0.02380952     192       -0.02380952        45
+ 0.02325581       0  0.02325581 0.00000000     213       -0.02380952        46
+ 0.00000000      NA          NA         NA      NA                NA        46
+ 0.02380952      NA  0.00000000 0.02380952     214       -0.02380952        46
+ 0.00000000      NA          NA         NA      NA                NA        47
+ 0.01190476      NA  0.00000000 0.01190476     224       -0.02380952        47
+ 0.02380952      NA  0.00000000 0.02380952     225       -0.02380952        47
+ 0.00000000      NA          NA         NA      NA                NA        48
+ 0.02380952      NA  0.00000000 0.02380952     250       -0.02380952        48
+ 0.00000000      NA          NA         NA      NA                NA        48
+ 0.02325581       0  0.02325581 0.00000000     251       -0.02380952        49
+ 0.01190476      NA  0.00000000 0.01190476     252       -0.02380952        49
+ 0.02380952      NA  0.00000000 0.02380952     253       -0.02380952        49
+ 0.00000000      NA          NA         NA      NA                NA        50
+ 0.02380952      NA  0.00000000 0.02380952     258       -0.02380952        50
+ 0.00000000      NA          NA         NA      NA                NA        50
+ 0.00000000      NA          NA         NA      NA                NA        51
+ 0.01190476      NA  0.00000000 0.01190476     287       -0.02380952        51
+ 0.02380952      NA  0.00000000 0.02380952     288       -0.02380952        51
+ 0.01162791       0  0.01162791 0.00000000     297       -0.02380952        52
+ 0.02380952      NA  0.00000000 0.02380952     298       -0.02380952        52
+ 0.00000000      NA          NA         NA      NA                NA        52
+ 0.01162791       0  0.01162791 0.00000000     307       -0.02380952        53
+ 0.02380952      NA  0.00000000 0.02380952     308       -0.02380952        53
+ 0.00000000      NA          NA         NA      NA                NA        53
+ 0.00000000      NA          NA         NA      NA                NA        54
+ 0.02380952      NA  0.00000000 0.02380952     327       -0.02380952        54
+ 0.01190476      NA  0.00000000 0.01190476     328       -0.02380952        54
+ 0.00000000      NA          NA         NA      NA                NA        55
+ 0.02380952      NA  0.00000000 0.02380952     338       -0.02380952        55
+ 0.01190476      NA  0.00000000 0.01190476     339       -0.02380952        55
+ 0.00000000      NA          NA         NA      NA                NA        56
+ 0.01190476      NA  0.00000000 0.01190476     341       -0.02380952        56
+ 0.02380952      NA  0.00000000 0.02380952     342       -0.02380952        56
+ 0.02325581       0  0.02325581 0.00000000     142       -0.02325581        57
+ 0.00000000      NA          NA         NA      NA                NA        57
+ 0.00000000      NA          NA         NA      NA                NA        57
+ 0.02325581       0  0.02325581 0.00000000     148       -0.02325581        58
+ 0.01190476      NA  0.00000000 0.01190476     149       -0.02325581        58
+ 0.01190476      NA  0.00000000 0.01190476     150       -0.02325581        58
+ 0.02325581       0  0.02325581 0.00000000     157       -0.02325581        59
+ 0.01190476      NA  0.00000000 0.01190476     158       -0.02325581        59
+ 0.01190476      NA  0.00000000 0.01190476     159       -0.02325581        59
+ 0.02325581       0  0.02325581 0.00000000     204       -0.02325581        60
+ 0.01190476      NA  0.00000000 0.01190476     205       -0.02325581        60
+ 0.00000000      NA          NA         NA      NA                NA        60
+ 0.02325581       0  0.02325581 0.00000000     279       -0.02325581        61
+ 0.00000000      NA          NA         NA      NA                NA        61
+ 0.01190476      NA  0.00000000 0.01190476     280       -0.02325581        61
+ 0.02325581       0  0.02325581 0.00000000     333       -0.02325581        62
+ 0.00000000      NA          NA         NA      NA                NA        62
+ 0.01190476      NA  0.00000000 0.01190476     334       -0.02325581        62
+ 0.00000000      NA          NA         NA      NA                NA        63
+ 0.00000000      NA          NA         NA      NA                NA        63
+ 0.01190476      NA  0.00000000 0.01190476       1       -0.01190476        63
+ 0.00000000      NA          NA         NA      NA                NA        64
+ 0.00000000      NA          NA         NA      NA                NA        64
+ 0.01190476      NA  0.00000000 0.01190476       5       -0.01190476        64
+ 0.00000000      NA          NA         NA      NA                NA        65
+ 0.00000000      NA          NA         NA      NA                NA        65
+ 0.01190476      NA  0.00000000 0.01190476       6       -0.01190476        65
+ 0.00000000      NA          NA         NA      NA                NA        66
+ 0.00000000      NA          NA         NA      NA                NA        66
+ 0.01190476      NA  0.00000000 0.01190476      10       -0.01190476        66
+ 0.00000000      NA          NA         NA      NA                NA        67
+ 0.00000000      NA          NA         NA      NA                NA        67
+ 0.01190476      NA  0.00000000 0.01190476      11       -0.01190476        67
+ 0.00000000      NA          NA         NA      NA                NA        68
+ 0.00000000      NA          NA         NA      NA                NA        68
+ 0.01190476      NA  0.00000000 0.01190476      13       -0.01190476        68
+ 0.00000000      NA          NA         NA      NA                NA        69
+ 0.01190476      NA  0.00000000 0.01190476      15       -0.01190476        69
+ 0.00000000      NA          NA         NA      NA                NA        69
+ 0.00000000      NA          NA         NA      NA                NA        70
+ 0.01190476      NA  0.00000000 0.01190476      19       -0.01190476        70
+ 0.00000000      NA          NA         NA      NA                NA        70
+ 0.00000000      NA          NA         NA      NA                NA        71
+ 0.00000000      NA          NA         NA      NA                NA        71
+ 0.01190476      NA  0.00000000 0.01190476      20       -0.01190476        71
+ 0.00000000      NA          NA         NA      NA                NA        72
+ 0.01190476      NA  0.00000000 0.01190476      21       -0.01190476        72
+ 0.00000000      NA          NA         NA      NA                NA        72
+ 0.01162791       0  0.01162791 0.00000000      34       -0.01190476        73
+ 0.00000000      NA          NA         NA      NA                NA        73
+ 0.01190476      NA  0.00000000 0.01190476      35       -0.01190476        73
+ 0.00000000      NA          NA         NA      NA                NA        74
+ 0.01190476      NA  0.00000000 0.01190476      43       -0.01190476        74
+ 0.00000000      NA          NA         NA      NA                NA        74
+ 0.00000000      NA          NA         NA      NA                NA        75
+ 0.00000000      NA          NA         NA      NA                NA        75
+ 0.01190476      NA  0.00000000 0.01190476      47       -0.01190476        75
+ 0.01162791       0  0.01162791 0.00000000      48       -0.01190476        76
+ 0.00000000      NA          NA         NA      NA                NA        76
+ 0.01190476      NA  0.00000000 0.01190476      49       -0.01190476        76
+ 0.00000000      NA          NA         NA      NA                NA        77
+ 0.01190476      NA  0.00000000 0.01190476      53       -0.01190476        77
+ 0.01190476      NA  0.00000000 0.01190476      54       -0.01190476        77
+ 0.01162791       0  0.01162791 0.00000000      56       -0.01190476        78
+ 0.01190476      NA  0.00000000 0.01190476      57       -0.01190476        78
+ 0.00000000      NA          NA         NA      NA                NA        78
+ 0.00000000      NA          NA         NA      NA                NA        79
+ 0.01190476      NA  0.00000000 0.01190476      62       -0.01190476        79
+ 0.00000000      NA          NA         NA      NA                NA        79
+ 0.01162791       0  0.01162791 0.00000000      63       -0.01190476        80
+ 0.00000000      NA          NA         NA      NA                NA        80
+ 0.01190476      NA  0.00000000 0.01190476      64       -0.01190476        80
+ 0.00000000      NA          NA         NA      NA                NA        81
+ 0.00000000      NA          NA         NA      NA                NA        81
+ 0.01190476      NA  0.00000000 0.01190476      65       -0.01190476        81
+ 0.00000000      NA          NA         NA      NA                NA        82
+ 0.00000000      NA          NA         NA      NA                NA        82
+ 0.01190476      NA  0.00000000 0.01190476      66       -0.01190476        82
+ 0.00000000      NA          NA         NA      NA                NA        83
+ 0.00000000      NA          NA         NA      NA                NA        83
+ 0.01190476      NA  0.00000000 0.01190476      70       -0.01190476        83
+ 0.00000000      NA          NA         NA      NA                NA        84
+ 0.01190476      NA  0.00000000 0.01190476      72       -0.01190476        84
+ 0.01190476      NA  0.00000000 0.01190476      73       -0.01190476        84
+ 0.00000000      NA          NA         NA      NA                NA        85
+ 0.01190476      NA  0.00000000 0.01190476      75       -0.01190476        85
+ 0.00000000      NA          NA         NA      NA                NA        85
+ 0.01162791       0  0.01162791 0.00000000      79       -0.01190476        86
+ 0.01190476      NA  0.00000000 0.01190476      80       -0.01190476        86
+ 0.00000000      NA          NA         NA      NA                NA        86
+ 0.00000000      NA          NA         NA      NA                NA        87
+ 0.00000000      NA          NA         NA      NA                NA        87
+ 0.01190476      NA  0.00000000 0.01190476      82       -0.01190476        87
+ 0.00000000      NA          NA         NA      NA                NA        88
+ 0.00000000      NA          NA         NA      NA                NA        88
+ 0.01190476      NA  0.00000000 0.01190476      83       -0.01190476        88
+ 0.01162791       0  0.01162791 0.00000000      85       -0.01190476        89
+ 0.01190476      NA  0.00000000 0.01190476      86       -0.01190476        89
+ 0.00000000      NA          NA         NA      NA                NA        89
+ 0.00000000      NA          NA         NA      NA                NA        90
+ 0.01190476      NA  0.00000000 0.01190476      87       -0.01190476        90
+ 0.00000000      NA          NA         NA      NA                NA        90
+ 0.00000000      NA          NA         NA      NA                NA        91
+ 0.01190476      NA  0.00000000 0.01190476      88       -0.01190476        91
+ 0.00000000      NA          NA         NA      NA                NA        91
+ 0.01162791       0  0.01162791 0.00000000      92       -0.01190476        92
+ 0.01190476      NA  0.00000000 0.01190476      93       -0.01190476        92
+ 0.01190476      NA  0.00000000 0.01190476      94       -0.01190476        92
+ 0.00000000      NA          NA         NA      NA                NA        93
+ 0.00000000      NA          NA         NA      NA                NA        93
+ 0.01190476      NA  0.00000000 0.01190476      95       -0.01190476        93
+ 0.00000000      NA          NA         NA      NA                NA        94
+ 0.01190476      NA  0.00000000 0.01190476      97       -0.01190476        94
+ 0.00000000      NA          NA         NA      NA                NA        94
+ 0.00000000      NA          NA         NA      NA                NA        95
+ 0.01190476      NA  0.00000000 0.01190476      99       -0.01190476        95
+ 0.00000000      NA          NA         NA      NA                NA        95
+ 0.00000000      NA          NA         NA      NA                NA        96
+ 0.01190476      NA  0.00000000 0.01190476     103       -0.01190476        96
+ 0.00000000      NA          NA         NA      NA                NA        96
+ 0.00000000      NA          NA         NA      NA                NA        97
+ 0.01190476      NA  0.00000000 0.01190476     109       -0.01190476        97
+ 0.00000000      NA          NA         NA      NA                NA        97
+ 0.01162791       0  0.01162791 0.00000000     113       -0.01190476        98
+ 0.00000000      NA          NA         NA      NA                NA        98
+ 0.01190476      NA  0.00000000 0.01190476     114       -0.01190476        98
+ 0.01162791       0  0.01162791 0.00000000     116       -0.01190476        99
+ 0.00000000      NA          NA         NA      NA                NA        99
+ 0.01190476      NA  0.00000000 0.01190476     117       -0.01190476        99
+ 0.00000000      NA          NA         NA      NA                NA       100
+ 0.00000000      NA          NA         NA      NA                NA       100
+ 0.01190476      NA  0.00000000 0.01190476     119       -0.01190476       100
+ 0.01162791       0  0.01162791 0.00000000     120       -0.01190476       101
+ 0.00000000      NA          NA         NA      NA                NA       101
+ 0.01190476      NA  0.00000000 0.01190476     121       -0.01190476       101
+ 0.00000000      NA          NA         NA      NA                NA       102
+ 0.01190476      NA  0.00000000 0.01190476     122       -0.01190476       102
+ 0.00000000      NA          NA         NA      NA                NA       102
+ 0.00000000      NA          NA         NA      NA                NA       103
+ 0.01190476      NA  0.00000000 0.01190476     123       -0.01190476       103
+ 0.00000000      NA          NA         NA      NA                NA       103
+ 0.01162791       0  0.01162791 0.00000000     133       -0.01190476       104
+ 0.01190476      NA  0.00000000 0.01190476     134       -0.01190476       104
+ 0.00000000      NA          NA         NA      NA                NA       104
+ 0.00000000      NA          NA         NA      NA                NA       105
+ 0.01190476      NA  0.00000000 0.01190476     135       -0.01190476       105
+ 0.00000000      NA          NA         NA      NA                NA       105
+ 0.00000000      NA          NA         NA      NA                NA       106
+ 0.01190476      NA  0.00000000 0.01190476     136       -0.01190476       106
+ 0.00000000      NA          NA         NA      NA                NA       106
+ 0.01162791       0  0.01162791 0.00000000     137       -0.01190476       107
+ 0.01190476      NA  0.00000000 0.01190476     138       -0.01190476       107
+ 0.01190476      NA  0.00000000 0.01190476     139       -0.01190476       107
+ 0.01162791       0  0.01162791 0.00000000     140       -0.01190476       108
+ 0.01190476      NA  0.00000000 0.01190476     141       -0.01190476       108
+ 0.00000000      NA          NA         NA      NA                NA       108
+ 0.01162791       0  0.01162791 0.00000000     146       -0.01190476       109
+ 0.01190476      NA  0.00000000 0.01190476     147       -0.01190476       109
+ 0.00000000      NA          NA         NA      NA                NA       109
+ 0.00000000      NA          NA         NA      NA                NA       110
+ 0.00000000      NA          NA         NA      NA                NA       110
+ 0.01190476      NA  0.00000000 0.01190476     164       -0.01190476       110
+ 0.00000000      NA          NA         NA      NA                NA       111
+ 0.00000000      NA          NA         NA      NA                NA       111
+ 0.01190476      NA  0.00000000 0.01190476     171       -0.01190476       111
+ 0.00000000      NA          NA         NA      NA                NA       112
+ 0.00000000      NA          NA         NA      NA                NA       112
+ 0.01190476      NA  0.00000000 0.01190476     172       -0.01190476       112
+ 0.00000000      NA          NA         NA      NA                NA       113
+ 0.00000000      NA          NA         NA      NA                NA       113
+ 0.01190476      NA  0.00000000 0.01190476     173       -0.01190476       113
+ 0.01162791       0  0.01162791 0.00000000     175       -0.01190476       114
+ 0.01190476      NA  0.00000000 0.01190476     176       -0.01190476       114
+ 0.00000000      NA          NA         NA      NA                NA       114
+ 0.00000000      NA          NA         NA      NA                NA       115
+ 0.00000000      NA          NA         NA      NA                NA       115
+ 0.01190476      NA  0.00000000 0.01190476     178       -0.01190476       115
+ 0.00000000      NA          NA         NA      NA                NA       116
+ 0.00000000      NA          NA         NA      NA                NA       116
+ 0.01190476      NA  0.00000000 0.01190476     182       -0.01190476       116
+ 0.00000000      NA          NA         NA      NA                NA       117
+ 0.00000000      NA          NA         NA      NA                NA       117
+ 0.01190476      NA  0.00000000 0.01190476     183       -0.01190476       117
+ 0.00000000      NA          NA         NA      NA                NA       118
+ 0.01190476      NA  0.00000000 0.01190476     189       -0.01190476       118
+ 0.00000000      NA          NA         NA      NA                NA       118
+ 0.00000000      NA          NA         NA      NA                NA       119
+ 0.00000000      NA          NA         NA      NA                NA       119
+ 0.01190476      NA  0.00000000 0.01190476     193       -0.01190476       119
+ 0.00000000      NA          NA         NA      NA                NA       120
+ 0.01190476      NA  0.00000000 0.01190476     194       -0.01190476       120
+ 0.00000000      NA          NA         NA      NA                NA       120
+ 0.00000000      NA          NA         NA      NA                NA       121
+ 0.01190476      NA  0.00000000 0.01190476     199       -0.01190476       121
+ 0.00000000      NA          NA         NA      NA                NA       121
+ 0.00000000      NA          NA         NA      NA                NA       122
+ 0.00000000      NA          NA         NA      NA                NA       122
+ 0.01190476      NA  0.00000000 0.01190476     200       -0.01190476       122
+ 0.01162791       0  0.01162791 0.00000000     201       -0.01190476       123
+ 0.01190476      NA  0.00000000 0.01190476     202       -0.01190476       123
+ 0.00000000      NA          NA         NA      NA                NA       123
+ 0.00000000      NA          NA         NA      NA                NA       124
+ 0.01190476      NA  0.00000000 0.01190476     206       -0.01190476       124
+ 0.00000000      NA          NA         NA      NA                NA       124
+ 0.01162791       0  0.01162791 0.00000000     207       -0.01190476       125
+ 0.00000000      NA          NA         NA      NA                NA       125
+ 0.01190476      NA  0.00000000 0.01190476     208       -0.01190476       125
+ 0.00000000      NA          NA         NA      NA                NA       126
+ 0.01190476      NA  0.00000000 0.01190476     209       -0.01190476       126
+ 0.00000000      NA          NA         NA      NA                NA       126
+ 0.01162791       0  0.01162791 0.00000000     210       -0.01190476       127
+ 0.01190476      NA  0.00000000 0.01190476     211       -0.01190476       127
+ 0.01190476      NA  0.00000000 0.01190476     212       -0.01190476       127
+ 0.01162791       0  0.01162791 0.00000000     215       -0.01190476       128
+ 0.01190476      NA  0.00000000 0.01190476     216       -0.01190476       128
+ 0.00000000      NA          NA         NA      NA                NA       128
+ 0.00000000      NA          NA         NA      NA                NA       129
+ 0.01190476      NA  0.00000000 0.01190476     217       -0.01190476       129
+ 0.00000000      NA          NA         NA      NA                NA       129
+ 0.00000000      NA          NA         NA      NA                NA       130
+ 0.01190476      NA  0.00000000 0.01190476     218       -0.01190476       130
+ 0.01190476      NA  0.00000000 0.01190476     219       -0.01190476       130
+ 0.00000000      NA          NA         NA      NA                NA       131
+ 0.00000000      NA          NA         NA      NA                NA       131
+ 0.01190476      NA  0.00000000 0.01190476     220       -0.01190476       131
+ 0.00000000      NA          NA         NA      NA                NA       132
+ 0.00000000      NA          NA         NA      NA                NA       132
+ 0.01190476      NA  0.00000000 0.01190476     221       -0.01190476       132
+ 0.00000000      NA          NA         NA      NA                NA       133
+ 0.00000000      NA          NA         NA      NA                NA       133
+ 0.01190476      NA  0.00000000 0.01190476     223       -0.01190476       133
+ 0.00000000      NA          NA         NA      NA                NA       134
+ 0.01190476      NA  0.00000000 0.01190476     226       -0.01190476       134
+ 0.00000000      NA          NA         NA      NA                NA       134
+ 0.01162791       0  0.01162791 0.00000000     227       -0.01190476       135
+ 0.01190476      NA  0.00000000 0.01190476     228       -0.01190476       135
+ 0.01190476      NA  0.00000000 0.01190476     229       -0.01190476       135
+ 0.00000000      NA          NA         NA      NA                NA       136
+ 0.01190476      NA  0.00000000 0.01190476     230       -0.01190476       136
+ 0.01190476      NA  0.00000000 0.01190476     231       -0.01190476       136
+ 0.00000000      NA          NA         NA      NA                NA       137
+ 0.01190476      NA  0.00000000 0.01190476     232       -0.01190476       137
+ 0.00000000      NA          NA         NA      NA                NA       137
+ 0.00000000      NA          NA         NA      NA                NA       138
+ 0.00000000      NA          NA         NA      NA                NA       138
+ 0.01190476      NA  0.00000000 0.01190476     233       -0.01190476       138
+ 0.00000000      NA          NA         NA      NA                NA       139
+ 0.01190476      NA  0.00000000 0.01190476     240       -0.01190476       139
+ 0.00000000      NA          NA         NA      NA                NA       139
+ 0.01162791       0  0.01162791 0.00000000     247       -0.01190476       140
+ 0.00000000      NA          NA         NA      NA                NA       140
+ 0.01190476      NA  0.00000000 0.01190476     248       -0.01190476       140
+ 0.00000000      NA          NA         NA      NA                NA       141
+ 0.00000000      NA          NA         NA      NA                NA       141
+ 0.01190476      NA  0.00000000 0.01190476     249       -0.01190476       141
+ 0.00000000      NA          NA         NA      NA                NA       142
+ 0.01190476      NA  0.00000000 0.01190476     255       -0.01190476       142
+ 0.01190476      NA  0.00000000 0.01190476     256       -0.01190476       142
+ 0.00000000      NA          NA         NA      NA                NA       143
+ 0.00000000      NA          NA         NA      NA                NA       143
+ 0.01190476      NA  0.00000000 0.01190476     259       -0.01190476       143
+ 0.00000000      NA          NA         NA      NA                NA       144
+ 0.01190476      NA  0.00000000 0.01190476     260       -0.01190476       144
+ 0.00000000      NA          NA         NA      NA                NA       144
+ 0.00000000      NA          NA         NA      NA                NA       145
+ 0.00000000      NA          NA         NA      NA                NA       145
+ 0.01190476      NA  0.00000000 0.01190476     262       -0.01190476       145
+ 0.00000000      NA          NA         NA      NA                NA       146
+ 0.00000000      NA          NA         NA      NA                NA       146
+ 0.01190476      NA  0.00000000 0.01190476     263       -0.01190476       146
+ 0.00000000      NA          NA         NA      NA                NA       147
+ 0.00000000      NA          NA         NA      NA                NA       147
+ 0.01190476      NA  0.00000000 0.01190476     265       -0.01190476       147
+ 0.00000000      NA          NA         NA      NA                NA       148
+ 0.01190476      NA  0.00000000 0.01190476     266       -0.01190476       148
+ 0.01190476      NA  0.00000000 0.01190476     267       -0.01190476       148
+ 0.00000000      NA          NA         NA      NA                NA       149
+ 0.01190476      NA  0.00000000 0.01190476     268       -0.01190476       149
+ 0.00000000      NA          NA         NA      NA                NA       149
+ 0.00000000      NA          NA         NA      NA                NA       150
+ 0.00000000      NA          NA         NA      NA                NA       150
+ 0.01190476      NA  0.00000000 0.01190476     271       -0.01190476       150
+ 0.00000000      NA          NA         NA      NA                NA       151
+ 0.00000000      NA          NA         NA      NA                NA       151
+ 0.01190476      NA  0.00000000 0.01190476     272       -0.01190476       151
+ 0.00000000      NA          NA         NA      NA                NA       152
+ 0.01190476      NA  0.00000000 0.01190476     276       -0.01190476       152
+ 0.01190476      NA  0.00000000 0.01190476     277       -0.01190476       152
+ 0.00000000      NA          NA         NA      NA                NA       153
+ 0.01190476      NA  0.00000000 0.01190476     285       -0.01190476       153
+ 0.00000000      NA          NA         NA      NA                NA       153
+ 0.00000000      NA          NA         NA      NA                NA       154
+ 0.00000000      NA          NA         NA      NA                NA       154
+ 0.01190476      NA  0.00000000 0.01190476     286       -0.01190476       154
+ 0.00000000      NA          NA         NA      NA                NA       155
+ 0.01190476      NA  0.00000000 0.01190476     289       -0.01190476       155
+ 0.00000000      NA          NA         NA      NA                NA       155
+ 0.00000000      NA          NA         NA      NA                NA       156
+ 0.00000000      NA          NA         NA      NA                NA       156
+ 0.01190476      NA  0.00000000 0.01190476     290       -0.01190476       156
+ 0.00000000      NA          NA         NA      NA                NA       157
+ 0.01190476      NA  0.00000000 0.01190476     291       -0.01190476       157
+ 0.00000000      NA          NA         NA      NA                NA       157
+ 0.00000000      NA          NA         NA      NA                NA       158
+ 0.00000000      NA          NA         NA      NA                NA       158
+ 0.01190476      NA  0.00000000 0.01190476     292       -0.01190476       158
+ 0.00000000      NA          NA         NA      NA                NA       159
+ 0.01190476      NA  0.00000000 0.01190476     293       -0.01190476       159
+ 0.01190476      NA  0.00000000 0.01190476     294       -0.01190476       159
+ 0.00000000      NA          NA         NA      NA                NA       160
+ 0.01190476      NA  0.00000000 0.01190476     296       -0.01190476       160
+ 0.00000000      NA          NA         NA      NA                NA       160
+ 0.00000000      NA          NA         NA      NA                NA       161
+ 0.01190476      NA  0.00000000 0.01190476     303       -0.01190476       161
+ 0.00000000      NA          NA         NA      NA                NA       161
+ 0.00000000      NA          NA         NA      NA                NA       162
+ 0.00000000      NA          NA         NA      NA                NA       162
+ 0.01190476      NA  0.00000000 0.01190476     309       -0.01190476       162
+ 0.00000000      NA          NA         NA      NA                NA       163
+ 0.00000000      NA          NA         NA      NA                NA       163
+ 0.01190476      NA  0.00000000 0.01190476     310       -0.01190476       163
+ 0.00000000      NA          NA         NA      NA                NA       164
+ 0.00000000      NA          NA         NA      NA                NA       164
+ 0.01190476      NA  0.00000000 0.01190476     315       -0.01190476       164
+ 0.00000000      NA          NA         NA      NA                NA       165
+ 0.01190476      NA  0.00000000 0.01190476     316       -0.01190476       165
+ 0.00000000      NA          NA         NA      NA                NA       165
+ 0.00000000      NA          NA         NA      NA                NA       166
+ 0.01190476      NA  0.00000000 0.01190476     317       -0.01190476       166
+ 0.00000000      NA          NA         NA      NA                NA       166
+ 0.01162791       0  0.01162791 0.00000000     318       -0.01190476       167
+ 0.01190476      NA  0.00000000 0.01190476     319       -0.01190476       167
+ 0.01190476      NA  0.00000000 0.01190476     320       -0.01190476       167
+ 0.00000000      NA          NA         NA      NA                NA       168
+ 0.01190476      NA  0.00000000 0.01190476     321       -0.01190476       168
+ 0.00000000      NA          NA         NA      NA                NA       168
+ 0.00000000      NA          NA         NA      NA                NA       169
+ 0.01190476      NA  0.00000000 0.01190476     322       -0.01190476       169
+ 0.00000000      NA          NA         NA      NA                NA       169
+ 0.00000000      NA          NA         NA      NA                NA       170
+ 0.00000000      NA          NA         NA      NA                NA       170
+ 0.01190476      NA  0.00000000 0.01190476     325       -0.01190476       170
+ 0.00000000      NA          NA         NA      NA                NA       171
+ 0.01190476      NA  0.00000000 0.01190476     329       -0.01190476       171
+ 0.00000000      NA          NA         NA      NA                NA       171
+ 0.00000000      NA          NA         NA      NA                NA       172
+ 0.01190476      NA  0.00000000 0.01190476     335       -0.01190476       172
+ 0.01190476      NA  0.00000000 0.01190476     336       -0.01190476       172
+ 0.00000000      NA          NA         NA      NA                NA       173
+ 0.01190476      NA  0.00000000 0.01190476     343       -0.01190476       173
+ 0.01190476      NA  0.00000000 0.01190476     344       -0.01190476       173
+ 0.00000000      NA          NA         NA      NA                NA       174
+ 0.01190476      NA  0.00000000 0.01190476     345       -0.01190476       174
+ 0.00000000      NA          NA         NA      NA                NA       174
+ 0.00000000      NA          NA         NA      NA                NA       175
+ 0.01190476      NA  0.00000000 0.01190476     346       -0.01190476       175
+ 0.01190476      NA  0.00000000 0.01190476     347       -0.01190476       175
+ 0.00000000      NA          NA         NA      NA                NA       176
+ 0.00000000      NA          NA         NA      NA                NA       176
+ 0.01190476      NA  0.00000000 0.01190476     351       -0.01190476       176
+ 0.00000000      NA          NA         NA      NA                NA       177
+ 0.01190476      NA  0.00000000 0.01190476     352       -0.01190476       177
+ 0.00000000      NA          NA         NA      NA                NA       177
+ 0.00000000      NA          NA         NA      NA                NA       178
+ 0.01190476      NA  0.00000000 0.01190476     353       -0.01190476       178
+ 0.00000000      NA          NA         NA      NA                NA       178
+ 0.00000000      NA          NA         NA      NA                NA       179
+ 0.00000000      NA          NA         NA      NA                NA       179
+ 0.01190476      NA  0.00000000 0.01190476     354       -0.01190476       179
+ 0.01162791       0  0.01162791 0.00000000      12       -0.01162791       180
+ 0.00000000      NA          NA         NA      NA                NA       180
+ 0.00000000      NA          NA         NA      NA                NA       180
+ 0.01162791       0  0.01162791 0.00000000      25       -0.01162791       181
+ 0.00000000      NA          NA         NA      NA                NA       181
+ 0.00000000      NA          NA         NA      NA                NA       181
+ 0.01162791       0  0.01162791 0.00000000      55       -0.01162791       182
+ 0.00000000      NA          NA         NA      NA                NA       182
+ 0.00000000      NA          NA         NA      NA                NA       182
+ 0.01162791       0  0.01162791 0.00000000      58       -0.01162791       183
+ 0.00000000      NA          NA         NA      NA                NA       183
+ 0.00000000      NA          NA         NA      NA                NA       183
+ 0.01162791       0  0.01162791 0.00000000      69       -0.01162791       184
+ 0.00000000      NA          NA         NA      NA                NA       184
+ 0.00000000      NA          NA         NA      NA                NA       184
+ 0.01162791       0  0.01162791 0.00000000      71       -0.01162791       185
+ 0.00000000      NA          NA         NA      NA                NA       185
+ 0.00000000      NA          NA         NA      NA                NA       185
+ 0.01162791       0  0.01162791 0.00000000      74       -0.01162791       186
+ 0.00000000      NA          NA         NA      NA                NA       186
+ 0.00000000      NA          NA         NA      NA                NA       186
+ 0.01162791       0  0.01162791 0.00000000      76       -0.01162791       187
+ 0.00000000      NA          NA         NA      NA                NA       187
+ 0.00000000      NA          NA         NA      NA                NA       187
+ 0.01162791       0  0.01162791 0.00000000      77       -0.01162791       188
+ 0.00000000      NA          NA         NA      NA                NA       188
+ 0.00000000      NA          NA         NA      NA                NA       188
+ 0.01162791       0  0.01162791 0.00000000      78       -0.01162791       189
+ 0.00000000      NA          NA         NA      NA                NA       189
+ 0.00000000      NA          NA         NA      NA                NA       189
+ 0.01162791       0  0.01162791 0.00000000      84       -0.01162791       190
+ 0.00000000      NA          NA         NA      NA                NA       190
+ 0.00000000      NA          NA         NA      NA                NA       190
+ 0.01162791       0  0.01162791 0.00000000      89       -0.01162791       191
+ 0.00000000      NA          NA         NA      NA                NA       191
+ 0.00000000      NA          NA         NA      NA                NA       191
+ 0.01162791       0  0.01162791 0.00000000      96       -0.01162791       192
+ 0.00000000      NA          NA         NA      NA                NA       192
+ 0.00000000      NA          NA         NA      NA                NA       192
+ 0.01162791       0  0.01162791 0.00000000      98       -0.01162791       193
+ 0.00000000      NA          NA         NA      NA                NA       193
+ 0.00000000      NA          NA         NA      NA                NA       193
+ 0.01162791       0  0.01162791 0.00000000     104       -0.01162791       194
+ 0.00000000      NA          NA         NA      NA                NA       194
+ 0.00000000      NA          NA         NA      NA                NA       194
+ 0.01162791       0  0.01162791 0.00000000     105       -0.01162791       195
+ 0.00000000      NA          NA         NA      NA                NA       195
+ 0.00000000      NA          NA         NA      NA                NA       195
+ 0.01162791       0  0.01162791 0.00000000     115       -0.01162791       196
+ 0.00000000      NA          NA         NA      NA                NA       196
+ 0.00000000      NA          NA         NA      NA                NA       196
+ 0.01162791       0  0.01162791 0.00000000     118       -0.01162791       197
+ 0.00000000      NA          NA         NA      NA                NA       197
+ 0.00000000      NA          NA         NA      NA                NA       197
+ 0.01162791       0  0.01162791 0.00000000     124       -0.01162791       198
+ 0.00000000      NA          NA         NA      NA                NA       198
+ 0.00000000      NA          NA         NA      NA                NA       198
+ 0.01162791       0  0.01162791 0.00000000     128       -0.01162791       199
+ 0.00000000      NA          NA         NA      NA                NA       199
+ 0.00000000      NA          NA         NA      NA                NA       199
+ 0.01162791       0  0.01162791 0.00000000     132       -0.01162791       200
+ 0.00000000      NA          NA         NA      NA                NA       200
+ 0.00000000      NA          NA         NA      NA                NA       200
+ 0.01162791       0  0.01162791 0.00000000     143       -0.01162791       201
+ 0.00000000      NA          NA         NA      NA                NA       201
+ 0.00000000      NA          NA         NA      NA                NA       201
+ 0.01162791       0  0.01162791 0.00000000     151       -0.01162791       202
+ 0.00000000      NA          NA         NA      NA                NA       202
+ 0.00000000      NA          NA         NA      NA                NA       202
+ 0.01162791       0  0.01162791 0.00000000     160       -0.01162791       203
+ 0.00000000      NA          NA         NA      NA                NA       203
+ 0.00000000      NA          NA         NA      NA                NA       203
+ 0.01162791       0  0.01162791 0.00000000     161       -0.01162791       204
+ 0.00000000      NA          NA         NA      NA                NA       204
+ 0.00000000      NA          NA         NA      NA                NA       204
+ 0.01162791       0  0.01162791 0.00000000     162       -0.01162791       205
+ 0.00000000      NA          NA         NA      NA                NA       205
+ 0.00000000      NA          NA         NA      NA                NA       205
+ 0.01162791       0  0.01162791 0.00000000     163       -0.01162791       206
+ 0.00000000      NA          NA         NA      NA                NA       206
+ 0.00000000      NA          NA         NA      NA                NA       206
+ 0.01162791       0  0.01162791 0.00000000     174       -0.01162791       207
+ 0.00000000      NA          NA         NA      NA                NA       207
+ 0.00000000      NA          NA         NA      NA                NA       207
+ 0.01162791       0  0.01162791 0.00000000     177       -0.01162791       208
+ 0.00000000      NA          NA         NA      NA                NA       208
+ 0.00000000      NA          NA         NA      NA                NA       208
+ 0.01162791       0  0.01162791 0.00000000     179       -0.01162791       209
+ 0.00000000      NA          NA         NA      NA                NA       209
+ 0.00000000      NA          NA         NA      NA                NA       209
+ 0.01162791       0  0.01162791 0.00000000     180       -0.01162791       210
+ 0.00000000      NA          NA         NA      NA                NA       210
+ 0.00000000      NA          NA         NA      NA                NA       210
+ 0.01162791       0  0.01162791 0.00000000     181       -0.01162791       211
+ 0.00000000      NA          NA         NA      NA                NA       211
+ 0.00000000      NA          NA         NA      NA                NA       211
+ 0.01162791       0  0.01162791 0.00000000     187       -0.01162791       212
+ 0.00000000      NA          NA         NA      NA                NA       212
+ 0.00000000      NA          NA         NA      NA                NA       212
+ 0.01162791       0  0.01162791 0.00000000     188       -0.01162791       213
+ 0.00000000      NA          NA         NA      NA                NA       213
+ 0.00000000      NA          NA         NA      NA                NA       213
+ 0.01162791       0  0.01162791 0.00000000     190       -0.01162791       214
+ 0.00000000      NA          NA         NA      NA                NA       214
+ 0.00000000      NA          NA         NA      NA                NA       214
+ 0.01162791       0  0.01162791 0.00000000     195       -0.01162791       215
+ 0.00000000      NA          NA         NA      NA                NA       215
+ 0.00000000      NA          NA         NA      NA                NA       215
+ 0.01162791       0  0.01162791 0.00000000     203       -0.01162791       216
+ 0.00000000      NA          NA         NA      NA                NA       216
+ 0.00000000      NA          NA         NA      NA                NA       216
+ 0.01162791       0  0.01162791 0.00000000     222       -0.01162791       217
+ 0.00000000      NA          NA         NA      NA                NA       217
+ 0.00000000      NA          NA         NA      NA                NA       217
+ 0.01162791       0  0.01162791 0.00000000     254       -0.01162791       218
+ 0.00000000      NA          NA         NA      NA                NA       218
+ 0.00000000      NA          NA         NA      NA                NA       218
+ 0.01162791       0  0.01162791 0.00000000     257       -0.01162791       219
+ 0.00000000      NA          NA         NA      NA                NA       219
+ 0.00000000      NA          NA         NA      NA                NA       219
+ 0.01162791       0  0.01162791 0.00000000     261       -0.01162791       220
+ 0.00000000      NA          NA         NA      NA                NA       220
+ 0.00000000      NA          NA         NA      NA                NA       220
+ 0.01162791       0  0.01162791 0.00000000     264       -0.01162791       221
+ 0.00000000      NA          NA         NA      NA                NA       221
+ 0.00000000      NA          NA         NA      NA                NA       221
+ 0.01162791       0  0.01162791 0.00000000     269       -0.01162791       222
+ 0.00000000      NA          NA         NA      NA                NA       222
+ 0.00000000      NA          NA         NA      NA                NA       222
+ 0.01162791       0  0.01162791 0.00000000     270       -0.01162791       223
+ 0.00000000      NA          NA         NA      NA                NA       223
+ 0.00000000      NA          NA         NA      NA                NA       223
+ 0.01162791       0  0.01162791 0.00000000     278       -0.01162791       224
+ 0.00000000      NA          NA         NA      NA                NA       224
+ 0.00000000      NA          NA         NA      NA                NA       224
+ 0.01162791       0  0.01162791 0.00000000     281       -0.01162791       225
+ 0.00000000      NA          NA         NA      NA                NA       225
+ 0.00000000      NA          NA         NA      NA                NA       225
+ 0.01162791       0  0.01162791 0.00000000     299       -0.01162791       226
+ 0.00000000      NA          NA         NA      NA                NA       226
+ 0.00000000      NA          NA         NA      NA                NA       226
+ 0.01162791       0  0.01162791 0.00000000     311       -0.01162791       227
+ 0.00000000      NA          NA         NA      NA                NA       227
+ 0.00000000      NA          NA         NA      NA                NA       227
+ 0.01162791       0  0.01162791 0.00000000     326       -0.01162791       228
+ 0.00000000      NA          NA         NA      NA                NA       228
+ 0.00000000      NA          NA         NA      NA                NA       228
+ 0.01162791       0  0.01162791 0.00000000     337       -0.01162791       229
+ 0.00000000      NA          NA         NA      NA                NA       229
+ 0.00000000      NA          NA         NA      NA                NA       229
+ 0.01162791       0  0.01162791 0.00000000     340       -0.01162791       230
+ 0.00000000      NA          NA         NA      NA                NA       230
+ 0.00000000      NA          NA         NA      NA                NA       230

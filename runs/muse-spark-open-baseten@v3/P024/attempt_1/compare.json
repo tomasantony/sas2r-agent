@@ -1,0 +1,63 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.8400000000000001,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P024.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.8,
+   "detail": {
+    "recall": 0.8,
+    "expected": 45,
+    "found": 36,
+    "r_files": [
+     "ds.csv",
+     "P024.csv"
+    ],
+    "missing_examples": [
+     "136",
+     "2",
+     "159",
+     "3",
+     "86",
+     "4",
+     "63",
+     "5",
+     "116"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "ds",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten@v3\\P024\\attempt_1\\out\\ds.csv",
+   "status": "mismatch",
+   "score": 0.88,
+   "detail": {
+    "rows_sas": 5,
+    "rows_r": 5,
+    "cols_sas": 10,
+    "cols_r": 10,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.88,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(DSSTDY, 1, 136, nan)",
+     "(DSSTDY, 2, 159, nan)",
+     "(DSSTDY, 3, 86, nan)",
+     "(DSSTDY, 4, 63, nan)",
+     "(DSSTDY, 5, 116, nan)",
+     "(DTHFL, 3, 'Y', nan)"
+    ],
+    "worst_columns": {
+     "DSSTDY": 5,
+     "DTHFL": 1
+    }
+   }
+  }
+ ]
+}

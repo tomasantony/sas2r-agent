@@ -1,0 +1,58 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.976923076923077,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P019.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 156,
+    "found": 156,
+    "r_files": [
+     "P019.csv",
+     "qc_report.csv",
+     "qc_report.txt"
+    ],
+    "missing_examples": []
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "qc_report",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten@v3\\P019\\attempt_2\\out\\qc_report.csv",
+   "status": "mismatch",
+   "score": 0.9538461538461539,
+   "detail": {
+    "rows_sas": 39,
+    "rows_r": 39,
+    "cols_sas": 5,
+    "cols_r": 5,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.9538461538461539,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(CHECK_ID, 29, '', 'SDTM-017')",
+     "(CHECK_ID, 31, '', 'SDTM-019')",
+     "(CHECK_ID, 39, '', 'SDTM-025')",
+     "(DOMAIN, 29, '', 'SV')",
+     "(DOMAIN, 31, '', 'DS')",
+     "(DOMAIN, 39, '', 'CM')",
+     "(RULE, 29, '', 'SV dates valid and inside reference period')",
+     "(RULE, 31, '', 'DS date matches DM participation end')",
+     "(RULE, 39, '', 'Ongoing CM must be anchored to the DM reference end')"
+    ],
+    "worst_columns": {
+     "CHECK_ID": 3,
+     "DOMAIN": 3,
+     "RULE": 3
+    }
+   }
+  }
+ ]
+}

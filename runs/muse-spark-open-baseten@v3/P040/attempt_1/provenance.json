@@ -1,0 +1,67 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P040",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-baseten@v3",
+ "recorded_at": "2026-10-30T01:44:23",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 3019,
+  "output_tokens": 11468,
+  "reasoning_tokens": 3868,
+  "finish_reason": "stop",
+  "seconds": 35.4
+ },
+ "inputs": {
+  "prompt_translate.md": "41f531467f2eb168527199394b1e26713dc5669fd029ca16e858b2b8b6b751cb"
+ },
+ "model_output": {
+  "response.md": "0190cfd4827fbcfbb2a5332dde90002ceecfa9d5e98d809ada7104a324c343f0",
+  "reasoning.md": "168246958e860daba8fb394743c64ce21d7b592e607721b2c4f33dc831d7ddb5",
+  "script.R": "5c098f2dd00d0e3a1e6940702b4f8b58cf282c35c41093bd2a9da781aded7dc3"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.6,
+  "timed_out": false,
+  "log_sha256": "0f7ae27ceb29f700d7a567d697c97be9c6fe5659b63cbb8864ed47dcce999250"
+ },
+ "r_outputs": {
+  "P040_f_kmplot.csv": "69d219ddbd8f1613dd2be157adb95eeaac07a35e6f9edb4192b4f67a956a9163",
+  "P040_f_kmplot.png": "d819d0f59fcaef49472ea2034b628c255aa349d547a8378050a17fd8836dd10c",
+  "P040_f_kmplot.txt": "6a00d37f90386cb11322999ff50aaf9b4237a8544a18cde75bb6ffab718757d0",
+  "P040_f_kmplot_atrisk.csv": "9398e0baa779af85bf65ca627c1dca9db507ec857ab93b33588e43cd786c9e61",
+  "P040_f_kmplot_plotdata.csv": "b83253a554ea1f48efd94cddb9556cd2b933155575753e199a96341a6e87f8a0"
+ },
+ "sas_reference": [
+  {
+   "file": "tlf/P040_f_kmplot.pdf",
+   "sha256": "19c5f234a33471b2df7a9795d38cbce51616af733b2c3a48d7d8bea8180f2c7b",
+   "frozen_sha256": "19c5f234a33471b2df7a9795d38cbce51616af733b2c3a48d7d8bea8180f2c7b",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.8793565683646113,
+  "produced_all": true
+ }
+}

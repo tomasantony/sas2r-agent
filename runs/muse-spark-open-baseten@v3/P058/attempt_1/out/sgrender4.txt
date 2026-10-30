@@ -1,0 +1,21 @@
+Overlaid PK Concentration Plots
+Analyte: 2; Treatment=C
+N observations: 401
+N subjects: 27
+
+Summary by Time:
+ t=0 n=27 mean=20.0000
+ t=0.25 n=27 mean=97.3148
+ t=0.5 n=26 mean=1757.3846
+ t=1 n=26 mean=9920.7692
+ t=1.5 n=27 mean=14560.7407
+ t=2 n=27 mean=15960.0000
+ t=3 n=27 mean=15881.4815
+ t=4 n=27 mean=14159.6296
+ t=6 n=27 mean=9648.1481
+ t=8 n=27 mean=7155.5556
+ t=12 n=26 mean=4582.3077
+ t=24 n=26 mean=1712.3462
+ t=48 n=27 mean=301.8741
+ t=72 n=27 mean=78.3222
+ t=96 n=27 mean=32.6148

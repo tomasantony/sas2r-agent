@@ -1,0 +1,21 @@
+P052 - Outliers Scatter Mean Time
+==================================
+
+Source: /bench/data/raw/cdisc-pilot/adam/advsmax.xpt
+Filter: PARAMCD="DIABP" and ATPTN=815 and ANL01FL="Y" and ADY>1 and SAFFL="Y"
+
+Range of Baseline and Post-baseline Maximum Measurements
+---------------------------------------------------------
+min_base = 40.0
+max_base = 98.0
+min_aval = 41.0
+max_aval = 90.0
+
+Equated axis min = 40.0
+Equated axis max = 98.0
+
+Distinct STUDYID count = 1
+Panel layout: rows = 1  columns = 2
+
+Note: Axis equated to min(min_base,min_aval) to max(max_base,max_aval) with integer ticks.
+

@@ -1,0 +1,139 @@
+Program: P047_mean_time.sas  Reference SAS program for target 4
+Mean of DBP Measures by Treatment: Profile Over Time (Weeks Since Randomized)
+
+Source: /bench/data/raw/cdisc-pilot/adam/advs.xpt
+Filter: PARAMCD=DIABP and ATPTN=815 and ANL01FL=Y and 0<AVISITN<99 and SAFFL=Y
+Observations selected: 1547
+
+-------------------------------------------------------------------
+PROC CONTENTS DATA=ADVS
+-------------------------------------------------------------------
+Variables: USUBJID, TRTPN, ANL01FL, PARAM, PARAMCD, AVISIT, AVISITN, ATPTN, SAFFL, AVAL
+
+-------------------------------------------------------------------
+PROC FREQ DATA=ADVS
+-------------------------------------------------------------------
+Table of TRTPN
+
+ TRTPN=0  Frequency=635  Percent=41.05
+ TRTPN=54  Frequency=457  Percent=29.54
+ TRTPN=81  Frequency=455  Percent=29.41
+
+Table of AVISIT * AVISITN (LIST)
+
+ AVISIT=Week 2               AVISITN=  2.0  Frequency=250  Percent=16.16
+ AVISIT=Week 4               AVISITN=  4.0  Frequency=227  Percent=14.67
+ AVISIT=Week 6               AVISITN=  6.0  Frequency=208  Percent=13.45
+ AVISIT=Week 8               AVISITN=  8.0  Frequency=189  Percent=12.22
+ AVISIT=Week 12              AVISITN= 12.0  Frequency=171  Percent=11.05
+ AVISIT=Week 16              AVISITN= 16.0  Frequency=147  Percent=9.50
+ AVISIT=Week 20              AVISITN= 20.0  Frequency=128  Percent=8.27
+ AVISIT=Week 24              AVISITN= 24.0  Frequency=116  Percent=7.50
+ AVISIT=Week 26              AVISITN= 26.0  Frequency=111  Percent=7.18
+
+Table of AVAL (LIST) - first 50 distinct values
+
+ AVAL=   41.00  Frequency=2  Percent=0.13
+ AVAL=   44.00  Frequency=1  Percent=0.06
+ AVAL=   45.00  Frequency=1  Percent=0.06
+ AVAL=   46.00  Frequency=1  Percent=0.06
+ AVAL=   48.00  Frequency=3  Percent=0.19
+ AVAL=   49.00  Frequency=1  Percent=0.06
+ AVAL=   50.00  Frequency=5  Percent=0.32
+ AVAL=   51.00  Frequency=1  Percent=0.06
+ AVAL=   52.00  Frequency=7  Percent=0.45
+ AVAL=   53.00  Frequency=1  Percent=0.06
+ AVAL=   54.00  Frequency=7  Percent=0.45
+ AVAL=   55.00  Frequency=7  Percent=0.45
+ AVAL=   56.00  Frequency=17  Percent=1.10
+ AVAL=   57.00  Frequency=9  Percent=0.58
+ AVAL=   58.00  Frequency=9  Percent=0.58
+ AVAL=   59.00  Frequency=6  Percent=0.39
+ AVAL=   60.00  Frequency=87  Percent=5.62
+ AVAL=   61.00  Frequency=7  Percent=0.45
+ AVAL=   62.00  Frequency=32  Percent=2.07
+ AVAL=   63.00  Frequency=11  Percent=0.71
+ AVAL=   64.00  Frequency=58  Percent=3.75
+ AVAL=   65.00  Frequency=6  Percent=0.39
+ AVAL=   66.00  Frequency=22  Percent=1.42
+ AVAL=   67.00  Frequency=14  Percent=0.90
+ AVAL=   68.00  Frequency=77  Percent=4.98
+ AVAL=   69.00  Frequency=13  Percent=0.84
+ AVAL=   70.00  Frequency=206  Percent=13.32
+ AVAL=   71.00  Frequency=18  Percent=1.16
+ AVAL=   72.00  Frequency=85  Percent=5.49
+ AVAL=   73.00  Frequency=9  Percent=0.58
+ AVAL=   74.00  Frequency=65  Percent=4.20
+ AVAL=   75.00  Frequency=23  Percent=1.49
+ AVAL=   76.00  Frequency=57  Percent=3.68
+ AVAL=   77.00  Frequency=7  Percent=0.45
+ AVAL=   78.00  Frequency=84  Percent=5.43
+ AVAL=   79.00  Frequency=11  Percent=0.71
+ AVAL=   80.00  Frequency=211  Percent=13.64
+ AVAL=   81.00  Frequency=8  Percent=0.52
+ AVAL=   82.00  Frequency=65  Percent=4.20
+ AVAL=   83.00  Frequency=8  Percent=0.52
+ AVAL=   84.00  Frequency=62  Percent=4.01
+ AVAL=   85.00  Frequency=14  Percent=0.90
+ AVAL=   86.00  Frequency=34  Percent=2.20
+ AVAL=   87.00  Frequency=8  Percent=0.52
+ AVAL=   88.00  Frequency=35  Percent=2.26
+ AVAL=   89.00  Frequency=1  Percent=0.06
+ AVAL=   90.00  Frequency=88  Percent=5.69
+ AVAL=   91.00  Frequency=1  Percent=0.06
+ AVAL=   92.00  Frequency=13  Percent=0.84
+ AVAL=   93.00  Frequency=1  Percent=0.06
+ ... (6 more distinct values)
+
+-------------------------------------------------------------------
+PROC MEANS DATA=ADVS NOPRINT; BY TRTPN AVISITN AVISIT; VAR AVAL;
+OUTPUT OUT=TEMP N=n MEAN=mean STDERR=stderr LCLM=lclm UCLM=uclm
+-------------------------------------------------------------------
+
+TRTPN  AVISITN  AVISIT                    N         MEAN       STDERR         LCLM         UCLM LO/HI(90% CI)
+--------------------------------------------------------------------------------------------------------------
+     0      2.0 Week 2                   84      74.4167       1.0605      72.3075      76.5259 [72.6527 , 76.1806]
+     0      4.0 Week 4                   82      74.5366       1.1851      72.1786      76.8946 [72.5647 , 76.5084]
+     0      6.0 Week 6                   76      73.8816       1.2484      71.3946      76.3686 [71.8024 , 75.9608]
+     0      8.0 Week 8                   73      75.2740       1.0651      73.1507      77.3972 [73.4992 , 77.0487]
+     0     12.0 Week 12                  69      72.7536       1.2436      70.2720      75.2353 [70.6798 , 74.8275]
+     0     16.0 Week 16                  68      74.3382       1.2497      71.8438      76.8326 [72.2539 , 76.4226]
+     0     20.0 Week 20                  66      72.9848       1.1590      70.6701      75.2996 [71.0508 , 74.9188]
+     0     24.0 Week 24                  59      72.8983       1.4737      69.9485      75.8481 [70.4350 , 75.3616]
+     0     26.0 Week 26                  58      72.2069       1.2796      69.6445      74.7693 [70.0673 , 74.3465]
+    54      2.0 Week 2                   84      75.2024       1.1218      72.9712      77.4336 [73.3364 , 77.0684]
+    54      4.0 Week 4                   72      75.9722       1.0414      73.8957      78.0487 [74.2366 , 77.7078]
+    54      6.0 Week 6                   65      74.2154       1.1926      71.8328      76.5979 [72.2249 , 76.2059]
+    54      8.0 Week 8                   60      75.0000       1.2033      72.5921      77.4079 [72.9891 , 77.0109]
+    54     12.0 Week 12                  52      75.5577       1.4687      72.6091      78.5063 [73.0971 , 78.0182]
+    54     16.0 Week 16                  42      73.8333       1.4772      70.8500      76.8167 [71.3473 , 76.3194]
+    54     20.0 Week 20                  30      72.5667       1.5791      69.3371      75.7963 [69.8836 , 75.2497]
+    54     24.0 Week 24                  27      76.0741       1.7597      72.4569      79.6913 [73.0726 , 79.0755]
+    54     26.0 Week 26                  25      72.4400       1.9331      68.4502      76.4298 [69.1327 , 75.7473]
+    81      2.0 Week 2                   82      75.8049       1.0255      73.7645      77.8453 [74.0986 , 77.5112]
+    81      4.0 Week 4                   73      76.1233       1.1007      73.9291      78.3175 [74.2892 , 77.9574]
+    81      6.0 Week 6                   67      75.4328       1.2533      72.9304      77.9352 [73.3419 , 77.5238]
+    81      8.0 Week 8                   56      76.2321       1.1993      73.8287      78.6356 [74.2257 , 78.2386]
+    81     12.0 Week 12                  50      73.6800       1.2728      71.1223      76.2377 [71.5461 , 75.8139]
+    81     16.0 Week 16                  37      75.6757       1.6784      72.2718      79.0796 [72.8421 , 78.5092]
+    81     20.0 Week 20                  32      73.4375       1.9160      69.5297      77.3453 [70.1888 , 76.6862]
+    81     24.0 Week 24                  30      73.8667       1.6855      70.4195      77.3138 [71.0029 , 76.7305]
+    81     26.0 Week 26                  28      72.9643       1.9296      69.0050      76.9236 [69.6776 , 76.2510]
+
+Note: LO = MEAN - TINV(0.95, N-1)*STDERR ; HI = MEAN + TINV(0.95, N-1)*STDERR
+      LCLM/UCLM = 95% CI using TINV(0.975, N-1)
+
+-------------------------------------------------------------------
+Data for Plot (ALL dataset: merged by AVISITN AVISIT)
+-------------------------------------------------------------------
+XC       X                       A_N     A_MEAN      A_LCL      A_UCL    B_N     B_MEAN      B_LCL      B_UCL    C_N     C_MEAN      C_LCL      C_UCL
+------------------------------------------------------------------------------------------------------------------------------------------------------
+     2.0 Week 2                   84    74.4167    72.6527    76.1806     84    75.2024    73.3364    77.0684     82    75.8049    74.0986    77.5112
+     4.0 Week 4                   82    74.5366    72.5647    76.5084     72    75.9722    74.2366    77.7078     73    76.1233    74.2892    77.9574
+     6.0 Week 6                   76    73.8816    71.8024    75.9608     65    74.2154    72.2249    76.2059     67    75.4328    73.3419    77.5238
+     8.0 Week 8                   73    75.2740    73.4992    77.0487     60    75.0000    72.9891    77.0109     56    76.2321    74.2257    78.2386
+    12.0 Week 12                  69    72.7536    70.6798    74.8275     52    75.5577    73.0971    78.0182     50    73.6800    71.5461    75.8139
+    16.0 Week 16                  68    74.3382    72.2539    76.4226     42    73.8333    71.3473    76.3194     37    75.6757    72.8421    78.5092
+    20.0 Week 20                  66    72.9848    71.0508    74.9188     30    72.5667    69.8836    75.2497     32    73.4375    70.1888    76.6862
+    24.0 Week 24                  59    72.8983    70.4350    75.3616     27    76.0741    73.0726    79.0755     30    73.8667    71.0029    76.7305
+    26.0 Week 26                  58    72.2069    70.0673    74.3465     25    72.4400    69.1327    75.7473     28    72.9643    69.6776    76.2510

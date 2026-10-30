@@ -1,0 +1,66 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P034",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-baseten@v3",
+ "recorded_at": "2026-10-30T01:39:28",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 4622,
+  "output_tokens": 5340,
+  "reasoning_tokens": 1466,
+  "finish_reason": "stop",
+  "seconds": 20.0
+ },
+ "inputs": {
+  "prompt_translate.md": "46e90982e67685ca9420433eeaa93da9aded973f6b36f3faf18978dea27d8858"
+ },
+ "model_output": {
+  "response.md": "8a7c54c1147e97cbcd5a93331a6b865f1d5843812dcd7edfa6fc3002be27bc1f",
+  "reasoning.md": "ecab336d4fe3550bfd1c4a4758af42025432474411a07503eb9469731cb993a9",
+  "script.R": "184ec7fb8fe296ab3952fb44b37c68053d5a1f39ead8ea31963d1128bfe1929a"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 4.1,
+  "timed_out": false,
+  "log_sha256": "095866d7ab6f51dfb6cac136b36308052ef01c6e018ab92505c6f888859643f6"
+ },
+ "r_outputs": {
+  "target13.csv": "f92f79886ec23327692b2956d1bf0c4b1c7fe43423ef231fae8b58b765221c5c",
+  "target13.png": "c33c89f92f862e1573e9173b9e6d9d2874bff0dfe063ebc2ebc6677eae7bd42f",
+  "target13.txt": "7f8c0d1df3c44088cef23cb5a64565dc3c937fdf63acd00f713a8db1726a0f8c",
+  "target13_data.csv": "f92f79886ec23327692b2956d1bf0c4b1c7fe43423ef231fae8b58b765221c5c"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P034/target13.rtf",
+   "sha256": "69121608d9fac4a39217d86779d7973a5eb8923087fbeb7014b2c0348cd91e77",
+   "frozen_sha256": "69121608d9fac4a39217d86779d7973a5eb8923087fbeb7014b2c0348cd91e77",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

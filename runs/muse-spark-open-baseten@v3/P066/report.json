@@ -1,0 +1,56 @@
+{
+ "id": "P066",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "family": "wxzhai",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 1.0,
+ "iterations": 3,
+ "input_tokens": 12946,
+ "output_tokens": 52040,
+ "seconds": 88.37043833732605,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": null,
+   "seconds_r": 0,
+   "input_tokens": 3733,
+   "output_tokens": 48000,
+   "seconds_llm": 75.21092510223389,
+   "produced_all": false,
+   "equivalent": false,
+   "score": 0.0,
+   "note": "answer cut off at the output token limit"
+  },
+  {
+   "n": 2,
+   "rc": 0,
+   "seconds_r": 0.7338664531707764,
+   "input_tokens": 3775,
+   "output_tokens": 2315,
+   "seconds_llm": 6.516449928283691,
+   "produced_all": true,
+   "equivalent": false,
+   "score": 0.9802380952380952,
+   "note": ""
+  },
+  {
+   "n": 3,
+   "rc": 0,
+   "seconds_r": 0.8177082538604736,
+   "input_tokens": 5438,
+   "output_tokens": 1725,
+   "seconds_llm": 4.643967866897583,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 1.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 3,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-baseten@v3"
+}

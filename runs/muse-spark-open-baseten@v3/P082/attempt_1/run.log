@@ -1,0 +1,7 @@
+sandbox: docker run --rm --name sas2r-76bac840777d --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten@v3\P082\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+ADSL rows: 240
+ADTR rows: 1200
+ADRS rows: 480
+ADSL cols: STUDYID, USUBJID, SUBJID, SITEID, COUNTRY, REGION1, SEX, RACE, ETHNIC, AGEGR1, AGEU, ARM, ARMCD, TRT01P, TRT01A, TRTP, TRTA, SAFFL, ITTFL, EFFFL, RANDFL, PPROTFL, COMPLFL, DTHFL, EOSSTT, DCSREAS, DTHCAUS, AGE, AGEGR1N, RACEN, ETHNICN, HEIGHTBL, WEIGHTBL, BMIBL, ECOGBL, TRT01PN, TRTPN, TRT01AN, TRTAN, RANDDT, TRTSDT, TRTEDT, TRTDUR, DTHDT
+ADTR cols: STUDYID, USUBJID, TRTP, TRTA, SAFFL, EFFFL, TRTPN, TRTAN, TRTSDT, PARAMCD, PARAM, AVALC, BOR, AVISIT, AVISITN, AVAL, CHG, PCHG
+f_waterfall.R completed successfully. Outputs in /work/out

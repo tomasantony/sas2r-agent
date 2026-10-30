@@ -1,0 +1,13 @@
+sandbox: docker run --rm --name sas2r-c13ea3ea6e72 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten@v3\P008\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Warning messages:
+1: In idx_day & ge :
+  longer object length is not a multiple of shorter object length
+2: In idx_day & ge :
+  longer object length is not a multiple of shorter object length
+3: In idx_day & !ge :
+  longer object length is not a multiple of shorter object length
+4: In idx_day & !ge :
+  longer object length is not a multiple of shorter object length
+Error in advs_base_candidates %>% dplyr::group_by(USUBJID, PARAMCD) %>%  : 
+  could not find function "%>%"
+Execution halted

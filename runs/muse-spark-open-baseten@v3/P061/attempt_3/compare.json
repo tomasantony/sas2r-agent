@@ -1,0 +1,249 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9719382155117746,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P061.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.846681487908036,
+   "detail": {
+    "recall": 0.846681487908036,
+    "expected": 36884,
+    "found": 31229,
+    "r_files": [
+     "adam_adsl.csv",
+     "adam_adtte.csv",
+     "all_numbers.csv",
+     "chemotherapy_summary.csv",
+     "demographic_summary.csv",
+     "er_status.csv",
+     "gender_distribution.csv",
+     "her2_status.csv",
+     "km_survival.csv",
+     "P061.csv",
+     "P061.txt",
+     "P061_f_oncology_graphs.csv",
+     "P061_f_oncology_graphs.txt",
+     "P061_t_oncology_report.csv",
+     "P061_t_oncology_report.txt",
+     "sasgraph.csv",
+     "sdtm_dm.csv",
+     "sgplot.csv",
+     "sgplot1.csv",
+     "sgplot2.csv",
+     "sgplot3.csv",
+     "sgplot4.csv",
+     "sgplot5.csv",
+     "sgplot6.csv",
+     "tumor_size_summary.csv",
+     "tumor_stage_distribution.csv"
+    ],
+    "missing_examples": [
+     "0.000505",
+     "0.767",
+     "0.00101",
+     "0.000715",
+     "1972",
+     "2.533",
+     "0.00152",
+     "0.000876",
+     "1969",
+     "1968",
+     "2.867",
+     "1967"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "sasgraph.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten@v3\\P061\\attempt_3\\out\\sasgraph.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten@v3\\P061\\attempt_3\\out\\sgplot.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot1.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten@v3\\P061\\attempt_3\\out\\sgplot1.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot2.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten@v3\\P061\\attempt_3\\out\\sgplot2.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot3.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten@v3\\P061\\attempt_3\\out\\sgplot3.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot4.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten@v3\\P061\\attempt_3\\out\\sgplot4.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot5.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten@v3\\P061\\attempt_3\\out\\sgplot5.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot6.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten@v3\\P061\\attempt_3\\out\\sgplot6.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "P061_t_oncology_report.pdf",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9223704351629127,
+   "detail": {
+    "recall": 0.9223704351629127,
+    "expected": 9146,
+    "found": 8436,
+    "r_files": [
+     "adam_adsl.csv",
+     "adam_adtte.csv",
+     "all_numbers.csv",
+     "chemotherapy_summary.csv",
+     "demographic_summary.csv",
+     "er_status.csv",
+     "gender_distribution.csv",
+     "her2_status.csv",
+     "km_survival.csv",
+     "P061.csv",
+     "P061.txt",
+     "P061_f_oncology_graphs.csv",
+     "P061_f_oncology_graphs.txt",
+     "P061_t_oncology_report.csv",
+     "P061_t_oncology_report.txt",
+     "sasgraph.csv",
+     "sdtm_dm.csv",
+     "sgplot.csv",
+     "sgplot1.csv",
+     "sgplot2.csv",
+     "sgplot3.csv",
+     "sgplot4.csv",
+     "sgplot5.csv",
+     "sgplot6.csv",
+     "tumor_size_summary.csv",
+     "tumor_stage_distribution.csv"
+    ],
+    "missing_examples": [
+     "0.000715",
+     "1972",
+     "0.00152",
+     "0.000876",
+     "1969",
+     "1968",
+     "2.867",
+     "1967",
+     "3.367",
+     "0.00203",
+     "1965",
+     "3.767"
+    ]
+   }
+  },
+  {
+   "kind": "text",
+   "name": "P061_f_oncology_graphs.pdf",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9222684475585724,
+   "detail": {
+    "recall": 0.9222684475585724,
+    "expected": 9134,
+    "found": 8424,
+    "r_files": [
+     "adam_adsl.csv",
+     "adam_adtte.csv",
+     "all_numbers.csv",
+     "chemotherapy_summary.csv",
+     "demographic_summary.csv",
+     "er_status.csv",
+     "gender_distribution.csv",
+     "her2_status.csv",
+     "km_survival.csv",
+     "P061.csv",
+     "P061.txt",
+     "P061_f_oncology_graphs.csv",
+     "P061_f_oncology_graphs.txt",
+     "P061_t_oncology_report.csv",
+     "P061_t_oncology_report.txt",
+     "sasgraph.csv",
+     "sdtm_dm.csv",
+     "sgplot.csv",
+     "sgplot1.csv",
+     "sgplot2.csv",
+     "sgplot3.csv",
+     "sgplot4.csv",
+     "sgplot5.csv",
+     "sgplot6.csv",
+     "tumor_size_summary.csv",
+     "tumor_stage_distribution.csv"
+    ],
+    "missing_examples": [
+     "0.000715",
+     "1972",
+     "0.00152",
+     "0.000876",
+     "1969",
+     "1968",
+     "2.867",
+     "1967",
+     "3.367",
+     "0.00203",
+     "1965",
+     "3.767"
+    ]
+   }
+  }
+ ]
+}

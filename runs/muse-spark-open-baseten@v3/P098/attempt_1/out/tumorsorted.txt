@@ -1,0 +1,24 @@
+Tumor data (sorted by descending Response)
+# A tibble: 20 × 10
+       i Response Duration Dropped  Drug Code  codeloc baseline DrugLabel     j
+   <int>    <dbl>    <dbl>   <dbl> <dbl> <chr>   <dbl>    <dbl> <fct>     <int>
+ 1    19   29.4       4.83    NA       3 FL        0      192.  4.0 mg        1
+ 2    17   27.6      35.4     NA       1 FL        0      118.  2.0 mg        2
+ 3    20   26.0      13.2     NA       4 DLBCL     0      102.  3.0 F6 mg     3
+ 4     2   20.8      31.4     NA       0 DLBCL     0      189.  1.0 mg        4
+ 5     8   19.2       8.66    NA       0 DLBCL     0       31.4 1.0 mg        5
+ 6     4   19.2      40.9     NA       5 DLBCL     0      113.  4.0 F6 mg     6
+ 7    15   10.7      42.2     NA       1 DLBCL     0      185.  2.0 mg        7
+ 8    10    0.635     7.43    NA       3 DLBCL     0       44.0 4.0 mg        8
+ 9    12  -10.1      36.2     NA       1 DLBCL   -10.1     28.6 2.0 mg        9
+10    18  -12.2       9.77    NA       4 DLBCL   -12.2     88.4 3.0 F6 mg    10
+11    13  -13.3       1.50    NA       0 FL      -13.3    147.  1.0 mg       11
+12     1  -14.5      45.5     NA       4 FL      -14.5     86.6 3.0 F6 mg    12
+13     6  -16.5      45.2     NA       4 DLBCL   -16.5    189.  3.0 F6 mg    13
+14    11  -17.2      49.8     NA       2 DLBCL   -17.2    135.  3.0 mg       14
+15     9  -20.0      30.7     25.7     4 FL      -20.0     37.9 3.0 F6 mg    15
+16     3  -24.2      28.6     NA       1 FL      -24.2    164.  2.0 mg       16
+17    14  -36.2      42.0     NA       1 DLBCL   -36.2     44.2 2.0 mg       17
+18     7  -51.5      26.0     NA       4 FL      -51.5     35.5 3.0 F6 mg    18
+19    16  -56.6      28.5     NA       4 FL      -56.6    127.  3.0 F6 mg    19
+20     5  -63.5      11.9     NA       5 DLBCL   -63.5    172.  4.0 F6 mg    20

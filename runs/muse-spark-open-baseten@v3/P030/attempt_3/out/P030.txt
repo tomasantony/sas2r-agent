@@ -1,0 +1,28 @@
+PROC PRINT DATA=SDTM_VS
+Study: ONCO-2026  Domain: VS  (Vital Signs)
+Generated: 2026-10-30T05:36:40
+
+Obs | STUDYID | DOMAIN | USUBJID | VSSEQ | VSTESTCD | VSTEST | VSORRES | VSORRESU | VSSTRESC | VSSTRESN | VSSTRESU | VSDTC | VSTDY | VISIT | VSPOS
+--------------------------------------------------------------------------------------------------------------------------------------------------
+1 | ONCO-2026 | VS | ONCO-2026-101 | 1 | SYSBP | Systolic Blood Pressure | 120 | mmHg | 120 | 120 | mmHg | 2026-01-02 | -3 | SCREENING | SITTING
+2 | ONCO-2026 | VS | ONCO-2026-101 | 2 | DIABP | Diastolic Blood Pressure | 80 | mmHg | 80 | 80 | mmHg | 2026-01-02 | -3 | SCREENING | SITTING
+3 | ONCO-2026 | VS | ONCO-2026-101 | 3 | SYSBP | Systolic Blood Pressure | 125 | mmHg | 125 | 125 | mmHg | 2026-01-15 | 11 | CYCLE 1 DAY 1 | SITTING
+4 | ONCO-2026 | VS | ONCO-2026-102 | 1 | SYSBP | Systolic Blood Pressure | 130 | mmHg | 130 | 130 | mmHg | 2026-01-05 | -3 | SCREENING | SUPINE
+5 | ONCO-2026 | VS | ONCO-2026-103 | 1 | SYSBP | Systolic Blood Pressure | 118 | mmHg | 118 | 118 | mmHg | 2026-01-05 | -5 | SCREENING | SITTING
+6 | ONCO-2026 | VS | ONCO-2026-103 | 2 | DIABP | Diastolic Blood Pressure | 76 | mmHg | 76 | 76 | mmHg | 2026-01-05 | -5 | SCREENING | SITTING
+7 | ONCO-2026 | VS | ONCO-2026-103 | 3 | SYSBP | Systolic Blood Pressure | 122 | mmHg | 122 | 122 | mmHg | 2026-01-15 | 6 | CYCLE 1 DAY 1 | SITTING
+8 | ONCO-2026 | VS | ONCO-2026-103 | 4 | DIABP | Diastolic Blood Pressure | 80 | mmHg | 80 | 80 | mmHg | 2026-01-15 | 6 | CYCLE 1 DAY 1 | SITTING
+9 | ONCO-2026 | VS | ONCO-2026-105 | 1 | SYSBP | Systolic Blood Pressure | 140 | mmHg | 140 | 140 | mmHg | 2026-01-12 | -3 | SCREENING | SITTING
+
+Total observations: 9
+
+VSTDY values:
+-3 -3 11 -3 -5 -5 6 6 -3
+VSSEQ values:
+1 2 3 1 1 2 3 4 1
+VSSTRESN values:
+120 80 125 130 118 76 122 80 140
+VSDTC values:
+2026-01-02 2026-01-02 2026-01-15 2026-01-05 2026-01-05 2026-01-05 2026-01-15 2026-01-15 2026-01-12
+RFSTDTC values:
+2026-01-05 2026-01-08 2026-01-10 2026-01-15

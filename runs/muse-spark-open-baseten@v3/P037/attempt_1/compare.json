@@ -1,0 +1,40 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.3356164383561644,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P037.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.3356164383561644,
+   "detail": {
+    "recall": 0.3356164383561644,
+    "expected": 146,
+    "found": 49,
+    "r_files": [
+     "P037.csv",
+     "P037.lst.csv",
+     "P037.lst.txt",
+     "P037.txt",
+     "P037_table.csv"
+    ],
+    "missing_examples": [
+     "1",
+     "77",
+     "30.92",
+     "2.41",
+     "33.33",
+     "92.77",
+     "7.23",
+     "34.07",
+     "26.09",
+     "2.81",
+     "33.73",
+     "91.67"
+    ]
+   }
+  }
+ ]
+}

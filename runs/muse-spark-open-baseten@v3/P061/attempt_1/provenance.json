@@ -1,0 +1,121 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P061",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-baseten@v3",
+ "recorded_at": "2026-10-30T02:21:01",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 3841,
+  "output_tokens": 6352,
+  "reasoning_tokens": 65,
+  "finish_reason": "stop",
+  "seconds": 17.1
+ },
+ "inputs": {
+  "prompt_translate.md": "1ddeaeb8fdae08c13afde292ec32d619534b6d362d612acfb5b61041cca1fc25"
+ },
+ "model_output": {
+  "response.md": "1623027c721926c5942b179b89848f4eae428d763ac02ca2379a68d99d092786",
+  "reasoning.md": "4ac0e6978392a8783761f47acd699341d62fe514db3e439a43615fb23923c01a",
+  "script.R": "bdedb75f4552c5065d1cbfd0383c5e27dd50abeb3f75eb29ba78e4340474f6b2"
+ },
+ "r_run": {
+  "rc": 1,
+  "seconds": 1.9,
+  "timed_out": false,
+  "log_sha256": "15b4c9e2a2b471b66b1cfa217036f0c0c3837433a4878d673b2d0558d1287f5f"
+ },
+ "r_outputs": {},
+ "sas_reference": [
+  {
+   "file": "logs/P061.lst",
+   "sha256": "86890090ed502f08ff6bbd9ed5a72b4e9d499591ddf737289dc186db3bd4b532",
+   "frozen_sha256": "86890090ed502f08ff6bbd9ed5a72b4e9d499591ddf737289dc186db3bd4b532",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/sasgraph.png",
+   "sha256": "85f4f9e8631cd5a16d5ec6225aa5af1d149a58a7e69155c5153c3b596bd5b72f",
+   "frozen_sha256": "85f4f9e8631cd5a16d5ec6225aa5af1d149a58a7e69155c5153c3b596bd5b72f",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot.png",
+   "sha256": "0bb732b27389ca4aa44914fb3602e4347792f36dbff7c1a0ff81e5262f35d042",
+   "frozen_sha256": "0bb732b27389ca4aa44914fb3602e4347792f36dbff7c1a0ff81e5262f35d042",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot1.png",
+   "sha256": "6328994836690da2de276142be84fa9e13b2410abdd29d25f3dc54c18d2e5fbb",
+   "frozen_sha256": "6328994836690da2de276142be84fa9e13b2410abdd29d25f3dc54c18d2e5fbb",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot2.png",
+   "sha256": "764cd98ee242543a3272d3bec3c8ceaa5c35ee0ef5a688a70b48ecdcf189f28c",
+   "frozen_sha256": "764cd98ee242543a3272d3bec3c8ceaa5c35ee0ef5a688a70b48ecdcf189f28c",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot3.png",
+   "sha256": "09a34c39eb24a38f6bafe8f5067ac824da4c49e89c800c227f02b396919ffbe1",
+   "frozen_sha256": "09a34c39eb24a38f6bafe8f5067ac824da4c49e89c800c227f02b396919ffbe1",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot4.png",
+   "sha256": "807894447e725a5e4034d31173dd52ef06ca4f7b56bec14195a7c0ef4dec2df4",
+   "frozen_sha256": "807894447e725a5e4034d31173dd52ef06ca4f7b56bec14195a7c0ef4dec2df4",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot5.png",
+   "sha256": "f79d20bb1091e28904a64c2e4bbe853286ea38d02c131c9419367ad37addadf8",
+   "frozen_sha256": "f79d20bb1091e28904a64c2e4bbe853286ea38d02c131c9419367ad37addadf8",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot6.png",
+   "sha256": "bc34f7bf92836eb79b0ed82a677b62695272c09d1d1cc28523e65ca144e405e4",
+   "frozen_sha256": "bc34f7bf92836eb79b0ed82a677b62695272c09d1d1cc28523e65ca144e405e4",
+   "ok": true
+  },
+  {
+   "file": "tlf/P061_t_oncology_report.pdf",
+   "sha256": "21c5134fde09ba77de04e38bebe34475c2258cbc552b89b1c527e7211ea0aa67",
+   "frozen_sha256": "21c5134fde09ba77de04e38bebe34475c2258cbc552b89b1c527e7211ea0aa67",
+   "ok": true
+  },
+  {
+   "file": "tlf/P061_f_oncology_graphs.pdf",
+   "sha256": "7c26176b139de9237f193aa3f743b2963e5b274b41a1173a32d44ed2f80e0490",
+   "frozen_sha256": "7c26176b139de9237f193aa3f743b2963e5b274b41a1173a32d44ed2f80e0490",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.0,
+  "produced_all": false
+ }
+}

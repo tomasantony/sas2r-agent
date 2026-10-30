@@ -1,0 +1,74 @@
+Baseline Shift Frequency Table
+Scatter Plot-Max. Post-baseline vs Max. Baseline for Lab Test 1 (mmol/L)
+Reference limits: ANRLO=60 ANRHI=90 YAxisMin=40 YAxisMax=100 by 10
+
+Max Post Basline Result (shift from baseline)
+Treatment            Max. Baseline Result | Low                | Normal             
+----------------------------------------------------------------------------------- 
+0 (N = 84)           High                 |    0  (0.0)        |    2  (2.3)        
+0 (N = 84)           Low                  |    6  (7.1)        |    1  (1.1)        
+0 (N = 84)           Normal               |   11 (13.0)        |   64 (76.1)        
+
+54 (N = 84)          High                 |    0  (0.0)        |    1  (1.1)        
+54 (N = 84)          Low                  |    3  (3.5)        |    1  (1.1)        
+54 (N = 84)          Normal               |   12 (14.2)        |   67 (79.7)        
+
+81 (N = 82)          High                 |    0  (0.0)        |    1  (1.2)        
+81 (N = 82)          Low                  |    6  (7.3)        |    0  (0.0)        
+81 (N = 82)          Normal               |    5  (6.0)        |   70 (85.3)        
+
+
+Detailed Baseline Shift Counts and Percentages
+TRTPN        GroupN       BNRIND       ANRIND   COUNT        PERCENT_1dec PERCENT_2dec
+0            84           High         Normal   2        2.4          2.38        
+  truncated: 2.3 2.38  ValueFmt: 2 (2.4)  percent_raw: 2.3810
+0            84           Low          Low      6        7.1          7.14        
+  truncated: 7.1 7.14  ValueFmt: 6 (7.1)  percent_raw: 7.1429
+0            84           Low          Normal   1        1.2          1.19        
+  truncated: 1.1 1.19  ValueFmt: 1 (1.2)  percent_raw: 1.1905
+0            84           Normal       Low      11       13.1         13.10       
+  truncated: 13.0 13.09  ValueFmt: 11 (13.1)  percent_raw: 13.0952
+0            84           Normal       Normal   64       76.2         76.19       
+  truncated: 76.1 76.19  ValueFmt: 64 (76.2)  percent_raw: 76.1905
+54           84           High         Normal   1        1.2          1.19        
+  truncated: 1.1 1.19  ValueFmt: 1 (1.2)  percent_raw: 1.1905
+54           84           Low          Low      3        3.6          3.57        
+  truncated: 3.5 3.57  ValueFmt: 3 (3.6)  percent_raw: 3.5714
+54           84           Low          Normal   1        1.2          1.19        
+  truncated: 1.1 1.19  ValueFmt: 1 (1.2)  percent_raw: 1.1905
+54           84           Normal       Low      12       14.3         14.29       
+  truncated: 14.2 14.28  ValueFmt: 12 (14.3)  percent_raw: 14.2857
+54           84           Normal       Normal   67       79.8         79.76       
+  truncated: 79.7 79.76  ValueFmt: 67 (79.8)  percent_raw: 79.7619
+81           82           High         Normal   1        1.2          1.22        
+  truncated: 1.2 1.21  ValueFmt: 1 (1.2)  percent_raw: 1.2195
+81           82           Low          Low      6        7.3          7.32        
+  truncated: 7.3 7.31  ValueFmt: 6 (7.3)  percent_raw: 7.3171
+81           82           Normal       Low      5        6.1          6.10        
+  truncated: 6.0 6.09  ValueFmt: 5 (6.1)  percent_raw: 6.0976
+81           82           Normal       Normal   70       85.4         85.37       
+  truncated: 85.3 85.36  ValueFmt: 70 (85.4)  percent_raw: 85.3659
+
+Treatment Group Totals
+TRTPN 0 (N = 84) GroupN=84 GroupPercent=33.60 33.6
+TRTPN 54 (N = 84) GroupN=84 GroupPercent=33.60 33.6
+TRTPN 81 (N = 82) GroupN=82 GroupPercent=32.80 32.8
+Total N = 250
+Total N with comma = 250
+
+Treatment Emergent High
+TRTPN      Nx         n          percent_1dec percent_2dec FishersP    
+------------------------------------------------------------ 
+0          84         5          500.0        500.00       1.0000      
+  raw_percent=500.0000 p_raw=1.000000
+54         84         5          500.0        500.00       1.0000      
+  raw_percent=500.0000 p_raw=1.000000
+81         82         5          500.0        500.00       1.0000      
+  raw_percent=500.0000 p_raw=1.000000
+Total Nx=250 Total n=15 Total percent=6.00 6.0
+Fisher exact p=1.0000 1.000000 1.0000
+
+N=number of subjects with at least one post-baseline measure; Nx=number of subjects with maximum baseline either normal or low and have at least one post-baseline measure.
+Summary tables used the reference limits set 1 (Male, Age 18-65, LLNx 60 mmol/L ULNx 90 mmol/L) set 2 (Female, Age 18-65, LLN=60 mmol/L ULN=90 mmol/L).
+Scatter Plot: Includes subjects with both a baseline and a post-baseline measure.  Reference limits apply to most of the participants are used in the plot
+Reference totals: 235 250 15 0.0021 1.0000

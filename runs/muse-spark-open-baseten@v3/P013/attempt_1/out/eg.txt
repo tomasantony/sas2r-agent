@@ -1,0 +1,29 @@
+Dataset: EG (SDTM EG Domain)
+Rows: 141 
+Columns: STUDYID, DOMAIN, USUBJID, EGSEQ, VISITNUM, VISIT, EGTESTCD, EGTEST, EGORRES, EGORRESU, EGSTRESC, EGSTRESN, EGSTRESU, EGDTC 
+
+# A tibble: 20 × 14
+   STUDYID  DOMAIN USUBJID EGSEQ VISITNUM VISIT EGTESTCD EGTEST EGORRES EGORRESU
+   <chr>    <chr>  <chr>   <dbl>    <dbl> <chr> <chr>    <chr>  <chr>   <chr>   
+ 1 CDISC-01 EG     CDISC-…     1        1 Visi… HR       Heart… 73      beats/m…
+ 2 CDISC-01 EG     CDISC-…     2        1 Visi… QT       QT Du… 382     msec    
+ 3 CDISC-01 EG     CDISC-…     3        1 Visi… RR       RR Du… 772     msec    
+ 4 CDISC-01 EG     CDISC-…     1        1 Visi… HR       Heart… 79      beats/m…
+ 5 CDISC-01 EG     CDISC-…     2        1 Visi… QT       QT Du… 370     msec    
+ 6 CDISC-01 EG     CDISC-…     3        1 Visi… RR       RR Du… 909     msec    
+ 7 CDISC-01 EG     CDISC-…     1        1 Visi… HR       Heart… 77      beats/m…
+ 8 CDISC-01 EG     CDISC-…     2        1 Visi… QT       QT Du… 381     msec    
+ 9 CDISC-01 EG     CDISC-…     3        1 Visi… RR       RR Du… 800     msec    
+10 CDISC-01 EG     CDISC-…     1        1 Visi… HR       Heart… 94      beats/m…
+11 CDISC-01 EG     CDISC-…     2        1 Visi… QT       QT Du… 406     msec    
+12 CDISC-01 EG     CDISC-…     3        1 Visi… RR       RR Du… 757     msec    
+13 CDISC-01 EG     CDISC-…     1        1 Visi… HR       Heart… 60      beats/m…
+14 CDISC-01 EG     CDISC-…     2        1 Visi… QT       QT Du… 443     msec    
+15 CDISC-01 EG     CDISC-…     3        1 Visi… RR       RR Du… 665     msec    
+16 CDISC-01 EG     CDISC-…     1        1 Visi… HR       Heart… 76      beats/m…
+17 CDISC-01 EG     CDISC-…     2        1 Visi… QT       QT Du… 412     msec    
+18 CDISC-01 EG     CDISC-…     3        1 Visi… RR       RR Du… 890     msec    
+19 CDISC-01 EG     CDISC-…     1        1 Visi… HR       Heart… 92      beats/m…
+20 CDISC-01 EG     CDISC-…     2        1 Visi… QT       QT Du… 402     msec    
+# ℹ 4 more variables: EGSTRESC <chr>, EGSTRESN <dbl>, EGSTRESU <chr>,
+#   EGDTC <chr>

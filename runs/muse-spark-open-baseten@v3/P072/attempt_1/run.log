@@ -1,0 +1,36 @@
+sandbox: docker run --rm --name sas2r-da41020b30c0 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten@v3\P072\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error in `[<-`:
+! Assigned data `""` must be compatible with existing data.
+ℹ Error occurred for column `ord`.
+Caused by error in `vec_assign()`:
+! Can't convert <character> to <double>.
+Backtrace:
+     ▆
+  1. ├─base::`[<-`(`*tmp*`, is.na(all_stats_wide), value = `<chr>`)
+  2. ├─tibble:::`[<-.tbl_df`(`*tmp*`, is.na(all_stats_wide), value = `<chr>`)
+  3. │ └─tibble:::tbl_subassign_matrix(x, j, value, j_arg, substitute(value))
+  4. │   ├─base::withCallingHandlers(...)
+  5. │   └─tibble:::vectbl_assign(x[[j]], cells[[j]], value)
+  6. │     └─vctrs::vec_assign(x, i, value)
+  7. └─vctrs (local) `<fn>`() at vctrs/R/slice.R:263:3
+  8.   └─vctrs::vec_default_cast(...)
+  9.     ├─base::withRestarts(...) at vctrs/R/cast.R:236:3
+ 10.     │ └─base (local) withOneRestart(expr, restarts[[1L]])
+ 11.     │   └─base (local) doWithOneRestart(return(expr), restart)
+ 12.     └─vctrs::stop_incompatible_cast(...) at vctrs/R/cast.R:236:3
+ 13.       └─vctrs::stop_incompatible_type(...) at vctrs/R/conditions.R:172:3
+ 14.         └─vctrs:::stop_incompatible(...) at vctrs/R/conditions.R:146:3
+ 15.           └─vctrs:::stop_vctrs(...) at vctrs/R/conditions.R:95:3
+ 16.             └─rlang::abort(message, class = c(class, "vctrs_error"), ..., call = call) at vctrs/R/conditions.R:65:3
+Execution halted

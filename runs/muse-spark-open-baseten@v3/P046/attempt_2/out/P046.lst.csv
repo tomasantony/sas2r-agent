@@ -1,0 +1,29 @@
+"Table","Source","Value"
+"Obs","Number of Observations Read",454
+"Obs","Number of Observations Used",453
+"Obs","Number of Observations with Missing Values",1
+"ANOVA","Model DF",1
+"ANOVA","Error DF",451
+"ANOVA","Corrected Total DF",452
+"ANOVA","Model Sum of Squares",3290.92487265169
+"ANOVA","Error Sum of Squares",46081.8080191805
+"ANOVA","Corrected Total Sum of Squares",49372.7328918322
+"ANOVA","Model Mean Square",3290.92487265169
+"ANOVA","Error Mean Square",102.176957913926
+"ANOVA","F Value",32.2080921162673
+"ANOVA","Pr > F",2.48154672608851e-08
+"Fit","Root MSE",10.108261864135
+"Fit","Dependent Mean",71.0242825607064
+"Fit","Coeff Var",14.2321210432435
+"Fit","R-Square",0.0666547035154318
+"Fit","Adj R-Sq",0.0645852017493908
+"Param","Intercept DF",1
+"Param","Intercept Estimate",73.7136563876652
+"Param","Intercept Std Error",0.670908903898338
+"Param","Intercept t Value",109.871334184641
+"Param","Intercept Pr > |t|",0
+"Param","Slope DF",1
+"Param","Slope Estimate",-5.39064753810768
+"Param","Slope Std Error",0.949857458031219
+"Param","Slope t Value",-5.67521736290931
+"Param","Slope Pr > |t|",2.4815467260885e-08

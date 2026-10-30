@@ -1,0 +1,129 @@
+Common Treatment-Emergent Adverse Events
+------------------------------------------------------------
+Plot data (dispseqno <=20) : AEpercent = numAE / numusubjid
+
+                           AEDECOD TRTAN numAE numusubjid  AEpercent
+                          PRURITUS     0     8         86 0.09302326
+                          PRURITUS    54    21         84 0.25000000
+                          PRURITUS    81    26         84 0.30952381
+         APPLICATION SITE PRURITUS     0     6         86 0.06976744
+         APPLICATION SITE PRURITUS    54    22         84 0.26190476
+         APPLICATION SITE PRURITUS    81    22         84 0.26190476
+         APPLICATION SITE ERYTHEMA     0     3         86 0.03488372
+         APPLICATION SITE ERYTHEMA    54    12         84 0.14285714
+         APPLICATION SITE ERYTHEMA    81    15         84 0.17857143
+                          ERYTHEMA     0     8         86 0.09302326
+                          ERYTHEMA    54    14         84 0.16666667
+                          ERYTHEMA    81    14         84 0.16666667
+                              RASH     0     5         86 0.05813953
+                              RASH    54    13         84 0.15476190
+                              RASH    81     9         84 0.10714286
+                         DIZZINESS     0     2         86 0.02325581
+                         DIZZINESS    54     8         84 0.09523810
+                         DIZZINESS    81    11         84 0.13095238
+       APPLICATION SITE DERMATITIS     0     5         86 0.05813953
+       APPLICATION SITE DERMATITIS    54     9         84 0.10714286
+       APPLICATION SITE DERMATITIS    81     7         84 0.08333333
+       APPLICATION SITE IRRITATION     0     3         86 0.03488372
+       APPLICATION SITE IRRITATION    54     9         84 0.10714286
+       APPLICATION SITE IRRITATION    81     9         84 0.10714286
+                         DIARRHOEA     0     9         86 0.10465116
+                         DIARRHOEA    54     4         84 0.04761905
+                         DIARRHOEA    81     4         84 0.04761905
+                     HYPERHIDROSIS     0     2         86 0.02325581
+                     HYPERHIDROSIS    54     4         84 0.04761905
+                     HYPERHIDROSIS    81     8         84 0.09523810
+                 SINUS BRADYCARDIA     0     2         86 0.02325581
+                 SINUS BRADYCARDIA    54     7         84 0.08333333
+                 SINUS BRADYCARDIA    81     8         84 0.09523810
+                          VOMITING     0     3         86 0.03488372
+                          VOMITING    54     3         84 0.03571429
+                          VOMITING    81     7         84 0.08333333
+         APPLICATION SITE VESICLES     0     1         86 0.01162791
+         APPLICATION SITE VESICLES    54     4         84 0.04761905
+         APPLICATION SITE VESICLES    81     6         84 0.07142857
+                   NASOPHARYNGITIS     0     2         86 0.02325581
+                   NASOPHARYNGITIS    54     4         84 0.04761905
+                   NASOPHARYNGITIS    81     6         84 0.07142857
+                            NAUSEA     0     3         86 0.03488372
+                            NAUSEA    54     3         84 0.03571429
+                            NAUSEA    81     6         84 0.07142857
+                   SKIN IRRITATION     0     3         86 0.03488372
+                   SKIN IRRITATION    54     6         84 0.07142857
+                   SKIN IRRITATION    81     5         84 0.05952381
+ UPPER RESPIRATORY TRACT INFECTION     0     6         86 0.06976744
+ UPPER RESPIRATORY TRACT INFECTION    54     1         84 0.01190476
+ UPPER RESPIRATORY TRACT INFECTION    81     3         84 0.03571429
+                           BLISTER     0    NA         NA 0.00000000
+                           BLISTER    54     5         84 0.05952381
+                           BLISTER    81     1         84 0.01190476
+                             COUGH     0     1         86 0.01162791
+                             COUGH    54     5         84 0.05952381
+                             COUGH    81     5         84 0.05952381
+                           FATIGUE     0     1         86 0.01162791
+                           FATIGUE    54     5         84 0.05952381
+                           FATIGUE    81     5         84 0.05952381
+ AEpercent_1    RelRisk dispseqno
+  0.09302326 0.00000000         1
+  0.00000000 0.25000000         1
+  0.00000000 0.30952381         1
+  0.06976744 0.00000000         2
+  0.00000000 0.26190476         2
+  0.00000000 0.26190476         2
+  0.03488372 0.00000000         3
+  0.00000000 0.14285714         3
+  0.00000000 0.17857143         3
+  0.09302326 0.00000000         4
+  0.00000000 0.16666667         4
+  0.00000000 0.16666667         4
+  0.05813953 0.00000000         5
+  0.00000000 0.15476190         5
+  0.00000000 0.10714286         5
+  0.02325581 0.00000000         6
+  0.00000000 0.09523810         6
+  0.00000000 0.13095238         6
+  0.05813953 0.00000000         7
+  0.00000000 0.10714286         7
+  0.00000000 0.08333333         7
+  0.03488372 0.00000000         8
+  0.00000000 0.10714286         8
+  0.00000000 0.10714286         8
+  0.10465116 0.00000000         9
+  0.00000000 0.04761905         9
+  0.00000000 0.04761905         9
+  0.02325581 0.00000000        10
+  0.00000000 0.04761905        10
+  0.00000000 0.09523810        10
+  0.02325581 0.00000000        11
+  0.00000000 0.08333333        11
+  0.00000000 0.09523810        11
+  0.03488372 0.00000000        12
+  0.00000000 0.03571429        12
+  0.00000000 0.08333333        12
+  0.01162791 0.00000000        13
+  0.00000000 0.04761905        13
+  0.00000000 0.07142857        13
+  0.02325581 0.00000000        14
+  0.00000000 0.04761905        14
+  0.00000000 0.07142857        14
+  0.03488372 0.00000000        15
+  0.00000000 0.03571429        15
+  0.00000000 0.07142857        15
+  0.03488372 0.00000000        16
+  0.00000000 0.07142857        16
+  0.00000000 0.05952381        16
+  0.06976744 0.00000000        17
+  0.00000000 0.01190476        17
+  0.00000000 0.03571429        17
+          NA         NA        18
+  0.00000000 0.05952381        18
+  0.00000000 0.01190476        18
+  0.01162791 0.00000000        19
+  0.00000000 0.05952381        19
+  0.00000000 0.05952381        19
+  0.01162791 0.00000000        20
+  0.00000000 0.05952381        20
+  0.00000000 0.05952381        20
+
+Y-axis: dispseqno = rank of -max(AEpercent) per AEDECOD (1 = most common)
+X-axis: AEpercent (proportion)

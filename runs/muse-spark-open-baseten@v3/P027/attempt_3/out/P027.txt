@@ -1,0 +1,18 @@
+PROC PRINT DATA=SDTM_RS;
+Dataset: SDTM_RS  (3 observations)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Obs   STUDYID DOMAIN       USUBJID RSSEQ RSTESTCD           RSTEST      RSCAT
+   1 ONCO-2026     RS ONCO-2026-101     1 OVRLRESP Overall Response RECIST 1.1
+   2 ONCO-2026     RS ONCO-2026-103     1 OVRLRESP Overall Response RECIST 1.1
+   3 ONCO-2026     RS ONCO-2026-105     1 OVRLRESP Overall Response RECIST 1.1
+  RSORRES RSSTRESC       RSEVAL      RSDTC RSSTDY     VISIT
+ BASELINE BASELINE INVESTIGATOR 2026-01-02        SCREENING
+ BASELINE BASELINE INVESTIGATOR 2026-01-05        SCREENING
+ BASELINE BASELINE INVESTIGATOR 2026-01-12        SCREENING
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+Total observations: 3
+
+RSSTDY values:
+NA NA NA

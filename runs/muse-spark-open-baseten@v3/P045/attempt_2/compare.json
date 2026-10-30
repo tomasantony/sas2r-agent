@@ -1,0 +1,40 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.3842364532019704,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P045.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.3842364532019704,
+   "detail": {
+    "recall": 0.3842364532019704,
+    "expected": 203,
+    "found": 78,
+    "r_files": [
+     "final_report.csv",
+     "P045.csv",
+     "P045.txt",
+     "P045_body.csv",
+     "P045_table.csv"
+    ],
+    "missing_examples": [
+     "86",
+     "33.86",
+     "100",
+     "33.99",
+     "84",
+     "33.07",
+     "33.2",
+     "83",
+     "32.68",
+     "0.39",
+     "98.81",
+     "32.81"
+    ]
+   }
+  }
+ ]
+}

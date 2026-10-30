@@ -1,0 +1,26 @@
+sandbox: docker run --rm --name sas2r-942afe5e12c8 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten@v3\P085\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+In max(nchar(as.character(x)), na.rm = TRUE) :
+  no non-missing arguments to max; returning -Inf
+Error in sprintf("%-4d %-12s %-6s %-4d %-10s %s\n", contents_df$Num[i],  : 
+  invalid format '%-4d'; use format %f, %e, %g or %a for numeric objects
+Calls: cat -> sprintf
+Execution halted

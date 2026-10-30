@@ -1,0 +1,72 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P029",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-baseten@v3",
+ "recorded_at": "2026-10-30T01:35:04",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 3975,
+  "output_tokens": 7271,
+  "reasoning_tokens": 317,
+  "finish_reason": "stop",
+  "seconds": 21.3
+ },
+ "inputs": {
+  "prompt_translate.md": "80529bdb3fced1951f8df9d9f36a1d91101cc1e5cf166575b16c179b275b1769"
+ },
+ "model_output": {
+  "response.md": "653cb600455213699a6e71e3a2db37c645b69930d566a3f0d7b78ae63a3c4858",
+  "reasoning.md": "e4be7b73deb2b030afe15655e29bbd98380217dcebda587b3b0e704d88de9e91",
+  "script.R": "48fb0479b2114210c05ec803e60ca865c6cf7fb18bf4f427a8a9a573cbd96961"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.6,
+  "timed_out": false,
+  "log_sha256": "f6128a20cfc7746bd3896053e1bfe0922b19e9ec31ac5289aa80eff8d2562cdd"
+ },
+ "r_outputs": {
+  "P029.csv": "d213ee3d79ede4f28365ddf68937705564c9c9be6c3ad29815874506779e3f29",
+  "P029.lst": "d88912bd269a7af634a7cf250524cba2f27127084d042186f8fd1dae7c7d835c",
+  "P029.txt": "d88912bd269a7af634a7cf250524cba2f27127084d042186f8fd1dae7c7d835c",
+  "tu.csv": "d213ee3d79ede4f28365ddf68937705564c9c9be6c3ad29815874506779e3f29"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P029.lst",
+   "sha256": "ed79e168a539c9b2973a3bc79ee6b521a199ac34f6752b754e2c18fba8485877",
+   "frozen_sha256": "ed79e168a539c9b2973a3bc79ee6b521a199ac34f6752b754e2c18fba8485877",
+   "ok": true
+  },
+  {
+   "file": "datasets/P029/tu.xlsx",
+   "sha256": "9e06c7fa4b9b73531f6ee9f9345c40915664ef6be268bcbcc268be2ee0ea9a12",
+   "frozen_sha256": "9e06c7fa4b9b73531f6ee9f9345c40915664ef6be268bcbcc268be2ee0ea9a12",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.9325757575757576,
+  "produced_all": true
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P058",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-baseten@v3",
+ "recorded_at": "2026-10-30T02:18:13",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 3370,
+  "output_tokens": 7494,
+  "reasoning_tokens": 4695,
+  "finish_reason": "stop",
+  "seconds": 25.7
+ },
+ "inputs": {
+  "prompt_translate.md": "8965d423fdb8d1dd0deb130b8ed24370544cbf7d0806c9de87a180232d46c5b9"
+ },
+ "model_output": {
+  "response.md": "c9327df0613b2c044197b8eac87d0ea060cdab6a961f6035d6237a98d7a1d0a5",
+  "reasoning.md": "a9570fca2117df89a0799b7ee40ae990101cda22bf18d798b269e27c852dacc3",
+  "script.R": "2f0655e8b9422a25b71fe8f7af99a5ee0aa6b00d2ceed708e69333ed81405762"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 4.1,
+  "timed_out": false,
+  "log_sha256": "5d4bc6b19515ee9cec384f6e82c498532e400e7cc7b7ffbdaff99de8e131877c"
+ },
+ "r_outputs": {
+  "conc.csv": "c0123d084b5b1f71767c9dda4e72ea99d845267edcc554ae1aa3145b428265ac",
+  "sgrender.csv": "c4a5c11c665b646b63b578e40a5ce4b1f8b2918ec5591fb9ae60c2b17cdc25ce",
+  "sgrender.png": "222ac178198a44441a4462a3f0a6cce5c49d77eb91541b60b5cb6a5d5d027004",
+  "sgrender.txt": "ad41eb5dc9311024e682c4f34e74ae21101fef8602e631832bf8221e4705d7a8",
+  "sgrender1.csv": "b1c1057ae9b3a05142db07223aeae2e54d5ff8c0ba50b22bf3498fda0a87f670",
+  "sgrender1.png": "e24dcd670fc1dc48507f30c6f01b3f6f25cbcf6ad247d1b1705f9cc0971387d4",
+  "sgrender1.txt": "7c66fc4876e370a15ee50e5255f5cd06ecc1bdd39016999f7a9dbed618eee8ca",
+  "sgrender2.csv": "716d69ac1495bc471ed003d3a8beffe557898aa1522a1280038633551bdc2fad",
+  "sgrender2.png": "fa5d0f0ae3ab658a9b1f764d1404c132a4364dc4651da5746a749161c9acb551",
+  "sgrender2.txt": "0213013deaa84dbbcee040e1fe1b245499d69a758afd5d0ef87d5d48154eb2ff",
+  "sgrender3.csv": "fef1b1bc9bc29f117a987d5e7bfc07f6af1edc57278af165ea8d9d1efeef9045",
+  "sgrender3.png": "8f1dc01d9c09e6943fe4981858be920f33bc846d63cc088c6b687378e2b5cbb7",
+  "sgrender3.txt": "3d0ba1e6e06a5e69e7ec1f3473880cfc6f962db95c776c737624c6a4dd24997d",
+  "sgrender4.csv": "564e6ce004b9e770f7b22669bd93eacf364607b94b1de89aa8447c2f93c71523",
+  "sgrender4.png": "f8d6f070d1794fef152281c518e2e26bc2c6426b4319469a2e537983278c4b69",
+  "sgrender4.txt": "9a4082562f0b13e48f04380ea633d9720e3862febb5d1b49b4ee5ad614f94c4c",
+  "sgrender5.csv": "29f7c931f4abb04c76a473ccfa1a33243092ccece7c10b7f14731c02d396faf6",
+  "sgrender5.png": "f71a5b8aaf58bd5ba6ec794780803acc0fb7485176dabd21644ec7e628882b18",
+  "sgrender5.txt": "110205a5407fe4da09ad3e751235510c3f0490bce7d8c0ce7973c91510449e8b"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P058/SGRender.png",
+   "sha256": "6d7cf8a4c3bede84e873784290d5ba625426d6971760dbdcc5e0a12484e855e5",
+   "frozen_sha256": "6d7cf8a4c3bede84e873784290d5ba625426d6971760dbdcc5e0a12484e855e5",
+   "ok": true
+  },
+  {
+   "file": "datasets/P058/SGRender1.png",
+   "sha256": "6e46f0ccb0ad59695e2ab797a2e502f48816bfd2517f47850fb3d34d787b3d40",
+   "frozen_sha256": "6e46f0ccb0ad59695e2ab797a2e502f48816bfd2517f47850fb3d34d787b3d40",
+   "ok": true
+  },
+  {
+   "file": "datasets/P058/SGRender2.png",
+   "sha256": "92e5420dd2351154ad7c9190779a5b28ae8d2250d81cad4e5eaa424cbba06bd0",
+   "frozen_sha256": "92e5420dd2351154ad7c9190779a5b28ae8d2250d81cad4e5eaa424cbba06bd0",
+   "ok": true
+  },
+  {
+   "file": "datasets/P058/SGRender3.png",
+   "sha256": "aed058a3b2352bebd5d6a7b0c946442e2cc2565c3ff522513d2867f4f2d21a4f",
+   "frozen_sha256": "aed058a3b2352bebd5d6a7b0c946442e2cc2565c3ff522513d2867f4f2d21a4f",
+   "ok": true
+  },
+  {
+   "file": "datasets/P058/SGRender4.png",
+   "sha256": "3db15dfbc56b2852326a410b0644b30f94d209c34d4ef8a50e98c41680e2b12e",
+   "frozen_sha256": "3db15dfbc56b2852326a410b0644b30f94d209c34d4ef8a50e98c41680e2b12e",
+   "ok": true
+  },
+  {
+   "file": "datasets/P058/SGRender5.png",
+   "sha256": "9656c9cdc1b4555baecf2eb4982144cece75afc081696bcf00ca8de688d7a3ef",
+   "frozen_sha256": "9656c9cdc1b4555baecf2eb4982144cece75afc081696bcf00ca8de688d7a3ef",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

@@ -1,0 +1,5 @@
+sandbox: docker run --rm --name sas2r-512f98dc78cb --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten@v3\P039\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading AE from /bench/data/raw/cdisc-pilot/sdtm/ae.xpt 
+Reading SUPPAE from /bench/data/raw/cdisc-pilot/sdtm/suppae.xpt 
+Distinct IDVAR values: AESEQ 
+Wrote /work/out/aefull.csv rows 1191 cols 36 

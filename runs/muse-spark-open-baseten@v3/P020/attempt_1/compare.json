@@ -1,0 +1,42 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.9675324675324676,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P020.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9675324675324676,
+   "detail": {
+    "recall": 0.9675324675324676,
+    "expected": 308,
+    "found": 298,
+    "r_files": [
+     "P020.csv",
+     "P020.lst.csv",
+     "P020.lst.txt",
+     "P020.png.csv",
+     "P020.txt",
+     "P020_KM.csv",
+     "P020_means.csv",
+     "P020_plot_data.csv",
+     "P020_quartiles.csv",
+     "P020_summary.csv",
+     "P020_tests.csv"
+    ],
+    "missing_examples": [
+     "6.3899",
+     "22",
+     "4.5077",
+     "47",
+     "27",
+     "42.55",
+     "6.56877",
+     "-6.56877"
+    ]
+   }
+  }
+ ]
+}

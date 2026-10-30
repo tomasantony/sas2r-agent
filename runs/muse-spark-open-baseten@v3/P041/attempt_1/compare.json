@@ -1,0 +1,28 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P041.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 22,
+    "found": 22,
+    "r_files": [
+     "P041.csv",
+     "P041.lst.csv",
+     "P041.lst.txt",
+     "P041.txt",
+     "P041_display.csv",
+     "P041_table.csv"
+    ],
+    "missing_examples": []
+   }
+  }
+ ]
+}

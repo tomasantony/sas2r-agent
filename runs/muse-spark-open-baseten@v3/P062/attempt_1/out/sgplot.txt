@@ -1,0 +1,29 @@
+Flow Diagram - SGPlot
+=====================
+
+Boxes:
+  DIAGID boxid box_x box_y
+1      1     1    30   100
+2      1     1    70   100
+3      1     1    70    90
+4      1     1    30    90
+5      2     2    37    55
+6      2     2    63    55
+7      2     2    63    45
+8      2     2    37    45
+
+Text annotations:
+  DIAGID text_x text_y text_x2 text_y2                             text text2
+1      1     50     95      NA      NA Assessed for eligibility (n=100)  <NA>
+2      2     50     50      NA      NA                Randomized (n=90)  <NA>
+  sizeresponse
+1           10
+2           10
+
+Lines:
+  _LINEID lineid line_x line_y
+1       1      1     50     90
+2       1      1     50     55
+
+Axis limits: minx=0 maxx=100 miny=0 maxy=100
+Font: Courier

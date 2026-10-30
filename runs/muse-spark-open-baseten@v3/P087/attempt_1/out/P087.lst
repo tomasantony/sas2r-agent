@@ -1,0 +1,55 @@
+Procedure Contents for ADVS
+----------------------------------------
+Observations: 24
+Variables: 29
+
+Variable  Label
+----------------------------------------
+STUDYID  = Study Identifier
+USUBJID  = Unique Subject Identifier
+ASEQ     = Analysis Sequence Number
+PARAMCD  = Parameter Code
+PARAM    = Parameter
+PARAMN   = Parameter (N)
+PARCAT1  = Parameter Category 1
+AVAL     = Analysis Value
+AVALU    = Analysis Value Unit
+BASE     = Baseline Value
+CHG      = Change from Baseline
+PCHG     = Percent Change from Baseline
+ADT      = Analysis Date
+ADY      = Analysis Relative Day
+AVISIT   = Analysis Visit
+AVISITN  = Analysis Visit (N)
+ABLFL    = Baseline Record Flag
+ANL01FL  = Analysis Record Flag 01
+DTYPE    = Derivation Type
+TRTP     = Planned Treatment
+TRTPN    = Planned Treatment (N)
+TRTSDT   = Date of First Exposure to Treatment
+SAFFL    = Safety Population Flag
+
+Procedure Print for ADVS (obs=20)
+----------------------------------------
+STUDYID | USUBJID | ASEQ | PARAMCD | PARAM | AVAL | BASE | CHG | PCHG | ADT | ADY | AVISIT | ABLFL | ANL01FL | DTYPE
+--------------------------------------------------------------------------------------------------------------------
+STUDY01 | STUDY01-1001 | 1 | DIABP | Diastolic Blood Pres | 82 |  |  |  | 15JAN2024 | 1 | Baseline |  |  | 
+STUDY01 | STUDY01-1001 | 2 | DIABP | Diastolic Blood Pres | 78 |  |  |  | 12FEB2024 | 29 | Week 4 |  | Y | 
+STUDY01 | STUDY01-1001 | 3 | DIABP | Diastolic Blood Pres | 76 |  |  |  | 11MAR2024 | 57 | Week 8 |  | Y | 
+STUDY01 | STUDY01-1001 | 4 | PULSE | Pulse Rate | 72 |  |  |  | 15JAN2024 | 1 | Baseline |  |  | 
+STUDY01 | STUDY01-1001 | 5 | PULSE | Pulse Rate | 70 |  |  |  | 12FEB2024 | 29 | Week 4 |  | Y | 
+STUDY01 | STUDY01-1001 | 6 | SYSBP | Systolic Blood Press | 128 |  |  |  | 15JAN2024 | 1 | Baseline |  |  | 
+STUDY01 | STUDY01-1001 | 7 | SYSBP | Systolic Blood Press | 122 |  |  |  | 12FEB2024 | 29 | Week 4 |  | Y | 
+STUDY01 | STUDY01-1001 | 8 | SYSBP | Systolic Blood Press | 118 |  |  |  | 11MAR2024 | 57 | Week 8 |  | Y | 
+STUDY01 | STUDY01-1002 | 1 | DIABP | Diastolic Blood Pres | 90 |  |  |  | 18JAN2024 | 1 | Baseline |  |  | 
+STUDY01 | STUDY01-1002 | 2 | DIABP | Diastolic Blood Pres | 88 |  |  |  | 15FEB2024 | 29 | Week 4 |  | Y | 
+STUDY01 | STUDY01-1002 | 3 | SYSBP | Systolic Blood Press | 140 |  |  |  | 18JAN2024 | 1 | Baseline |  |  | 
+STUDY01 | STUDY01-1002 | 4 | SYSBP | Systolic Blood Press | 138 |  |  |  | 15FEB2024 | 29 | Week 4 |  | Y | 
+STUDY01 | STUDY01-1003 | 1 | DIABP | Diastolic Blood Pres | 75 | 75 | 0 | 0.00 | 20JAN2024 | 1 | Baseline | Y |  | 
+STUDY01 | STUDY01-1003 | 2 | SYSBP | Systolic Blood Press | 120 |  |  |  | 20JAN2024 | 1 | Baseline |  |  | 
+STUDY01 | STUDY01-1003 | 3 | SYSBP | Systolic Blood Press | 115 |  |  |  | 17FEB2024 | 29 | Week 4 |  | Y | 
+STUDY01 | STUDY01-1004 | 1 | SYSBP | Systolic Blood Press | 132 | 132 | 0 | 0.00 | 25JAN2024 | 1 | Baseline | Y |  | 
+STUDY01 | STUDY01-1005 | 1 | SYSBP | Systolic Blood Press | 118 | 118 | 0 | 0.00 | 28JAN2024 | 1 | Baseline | Y |  | 
+STUDY01 | STUDY01-1006 | 1 | SYSBP | Systolic Blood Press | 145 | 145 | 0 | 0.00 | 30JAN2024 | 1 | Baseline | Y |  | 
+ | STUDY01-1001 | 1 | DIABP |  | 78 |  |  |  |  |  | Maximum Post-Baseline |  |  | MAXIMUM
+ | STUDY01-1001 | 2 | PULSE |  | 70 |  |  |  |  |  | Maximum Post-Baseline |  |  | MAXIMUM

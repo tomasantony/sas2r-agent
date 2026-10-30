@@ -1,0 +1,1 @@
+Need to translate SAS program to R. Must read adam datasets from D:/meta_hackathon/sas2r-agent/data/raw/own-synthetic/adam . Let's explore files.

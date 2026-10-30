@@ -1,0 +1,17 @@
+DM Domain Audit (First 10 Records)
+
+Obs | STUDYID | USUBJID | SITEID | SEX | RACE | BRTHDTC | RFICDTC | RFSTDTC | RFENDTC | RFPENDTC | ARM | ARMCD
+--------------------------------------------------------------------------------------------------------------
+ 1 | CDISC-01 | CDISC-01-701-001 | 701 | M | WHITE | 1938-01-23 | 2023-01-15 | 2023-01-15 | 2023-04-09 | 2023-04-09 | Active Drug 50mg | ACT50
+ 2 | CDISC-01 | CDISC-01-703-002 | 703 | M | WHITE | 1948-09-15 | 2023-01-24 | 2023-01-24 | 2023-04-18 | 2023-04-18 | Placebo | PBO
+ 3 | CDISC-01 | CDISC-01-704-003 | 704 | F | WHITE | 1944-05-16 | 2023-01-27 | 2023-01-27 | 2023-04-21 | 2023-04-21 | Placebo | PBO
+ 4 | CDISC-01 | CDISC-01-701-004 | 701 | M | WHITE | 1942-04-13 | 2023-01-02 | 2023-01-02 | 2023-03-27 | 2023-03-27 | Active Drug 50mg | ACT50
+ 5 | CDISC-01 | CDISC-01-701-005 | 701 | F | WHITE | 1956-04-03 | 2023-01-06 | 2023-01-06 | 2023-02-06 | 2023-02-06 | Placebo | PBO
+ 6 | CDISC-01 | CDISC-01-701-006 | 701 | M | WHITE | 1949-04-22 | 2023-01-21 | 2023-01-21 | 2023-03-24 | 2023-03-24 | Active Drug 50mg | ACT50
+ 7 | CDISC-01 | CDISC-01-701-007 | 701 | F | WHITE | 1951-10-21 | 2023-01-03 | 2023-01-03 | 2023-03-28 | 2023-03-28 | Active Drug 50mg | ACT50
+ 8 | CDISC-01 | CDISC-01-702-008 | 702 | M | WHITE | 1947-08-25 | 2023-01-19 | 2023-01-19 | 2023-04-13 | 2023-04-13 | Placebo | PBO
+ 9 | CDISC-01 | CDISC-01-702-009 | 702 | M | WHITE | 1954-07-19 | 2023-01-25 | 2023-01-25 | 2023-04-19 | 2023-04-19 | Active Drug 50mg | ACT50
+10 | CDISC-01 | CDISC-01-703-010 | 703 | F | WHITE | 1952-08-17 | 2023-01-15 | 2023-01-15 | 2023-03-06 | 2023-03-06 | Placebo | PBO
+
+Total observations in DM: 50
+Audit shows first 10 records.

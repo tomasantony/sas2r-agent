@@ -1,0 +1,9 @@
+sandbox: docker run --rm --name sas2r-ed24be657b45 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten@v3\P045\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+[1] TRUE
+Done. Outputs written to /work/out 
+# A tibble: 3 × 5
+  aedecod                                             trt0   trt54 trt81 cvalue1
+  <chr>                                               <chr>  <chr> <chr>   <dbl>
+1 Number of subjects reporting serious adverse events 0 (0.… 1 (1… 2 (2…   0.326
+2 PARTIAL SEIZURES WITH SECONDARY GENERALISATION      0 (0.… 0 (0… 1 (1…   0.661
+3 SYNCOPE                                             0 (0.… 1 (1… 1 (1…   0.550

@@ -1,0 +1,72 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P091",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-baseten@v3",
+ "recorded_at": "2026-10-30T02:38:22",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 2963,
+  "output_tokens": 4827,
+  "reasoning_tokens": 2649,
+  "finish_reason": "stop",
+  "seconds": 14.9
+ },
+ "inputs": {
+  "prompt_translate.md": "8c07594c6ac4875b170ea6fb0c9c93aa4af89417941331b49cfcb5cb28303638"
+ },
+ "model_output": {
+  "response.md": "0ae0ecabd55d3a164b458e3f956619b26e371ab15252f023bffc734dc3e6e600",
+  "reasoning.md": "86a1fc6e03171dc84ef517b0156d33f8e52a7a9d321df054afbed2118f4c221e",
+  "script.R": "20fa46b17555b527ed11fd20c154d20f1f20b77801c3ec552b325e9204808a72"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.5,
+  "timed_out": false,
+  "log_sha256": "04bdbf1f0aef7e56287a7bfdb0fe36632a41099fe9f2b5d413ecbb0a6b2ded55"
+ },
+ "r_outputs": {
+  "bar1.csv": "0c8c77c5c6915468520a739e6a4f1d7a7562e5aa4732165f67179b6e526f9b8c",
+  "bar1.htm": "b784af79ad23619b375a9e0dec899857aecc99b1cc3a4a65078cca54a4efd801",
+  "bar1.png": "cb29aa1a445fdc3ef83bad058403996b6923dbe2784d213df0f933c373a4207b",
+  "bar1.txt": "b9b7f5b07dbb96b4797efd9c636af730e3773d8b9a28c4446b9062619cd049d0"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P091/bar1.htm",
+   "sha256": "24d4188ad0562eb8610a9842fb445bfdde899528958f289bd8db8320e62776c5",
+   "frozen_sha256": "24d4188ad0562eb8610a9842fb445bfdde899528958f289bd8db8320e62776c5",
+   "ok": true
+  },
+  {
+   "file": "datasets/P091/bar1.png",
+   "sha256": "2fc0273e6467dd482ed189a7440ac9775d2eedbe405f14956fcad703f5790c46",
+   "frozen_sha256": "2fc0273e6467dd482ed189a7440ac9775d2eedbe405f14956fcad703f5790c46",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

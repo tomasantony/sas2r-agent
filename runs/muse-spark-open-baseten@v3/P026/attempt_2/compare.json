@@ -1,0 +1,57 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9559178743961352,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P026.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.967391304347826,
+   "detail": {
+    "recall": 0.967391304347826,
+    "expected": 92,
+    "found": 89,
+    "r_files": [
+     "lb.csv",
+     "P026.csv",
+     "P026.lst.csv",
+     "P026.lst.txt",
+     "P026.txt"
+    ],
+    "missing_examples": [
+     "-3"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "lb",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten@v3\\P026\\attempt_2\\out\\lb.csv",
+   "status": "mismatch",
+   "score": 0.9444444444444444,
+   "detail": {
+    "rows_sas": 6,
+    "rows_r": 6,
+    "cols_sas": 18,
+    "cols_r": 18,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.9444444444444444,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(LBSTDY, 1, -3, nan)",
+     "(LBSTDY, 2, -3, nan)",
+     "(LBSTDY, 3, -5, nan)",
+     "(LBSTDY, 4, -5, nan)",
+     "(LBSTDY, 5, 6, nan)",
+     "(LBSTDY, 6, -3, nan)"
+    ],
+    "worst_columns": {
+     "LBSTDY": 6
+    }
+   }
+  }
+ ]
+}

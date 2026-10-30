@@ -1,0 +1,62 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.24242424242424243,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P097.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.7272727272727273,
+   "detail": {
+    "recall": 0.7272727272727273,
+    "expected": 121,
+    "found": 88,
+    "r_files": [
+     "P097.csv",
+     "P097.txt",
+     "P097_ParameterEstimates.csv",
+     "P097_Prob.csv",
+     "P097_ROCAssociation.csv",
+     "P097_ROCEst.csv",
+     "P097_WidePctls.csv"
+    ],
+    "missing_examples": [
+     "-8",
+     "0.374",
+     "0.074",
+     "1.885",
+     "1.228",
+     "0.337",
+     "4.469",
+     "0.513",
+     "0.277",
+     "0.948",
+     "0.543",
+     "0.224"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "Histogram.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "histogram.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPanel.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgpanel.png"
+   }
+  }
+ ]
+}

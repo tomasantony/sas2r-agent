@@ -1,0 +1,45 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P019.lst",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 156,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "-1",
+     "0",
+     "1",
+     "-2",
+     "-3",
+     "-4",
+     "-5",
+     "-6",
+     "-7",
+     "-8",
+     "-9",
+     "-10"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "qc_report",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "qc_report.csv"
+   }
+  }
+ ]
+}

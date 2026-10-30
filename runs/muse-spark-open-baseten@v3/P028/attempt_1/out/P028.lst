@@ -1,0 +1,35 @@
+P028 - SDTM TR Domain Listing
+Study: ONCO-2026  Domain: TR  Date: 2026-10-30
+
+Number of observations: 4
+Number of subjects: 1
+
+STUDYID | DOMAIN | USUBJID | TRSEQ | TRLNKID | TRTESTCD | TRTEST | TRORRES | TRORRESU | TRSTRESC | TRSTRESN | TRSTRESU | TREVAL | TRDTC | TRSTDY | VISIT
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+ONCO-2026 | TR | ONCO-2026-101 | 1 | T1 | LDIAM | Longest Diameter | 20 | mm | 20 | 20 | mm | INVESTIGATOR | 2026-01-02 |  | SCREENING
+ONCO-2026 | TR | ONCO-2026-101 | 2 | T1 | LDIAM | Longest Diameter | 35 | mm | 35 | 35 | mm | INVESTIGATOR | 2026-01-05 |  | SCREENING
+ONCO-2026 | TR | ONCO-2026-101 | 3 | NT1 | LDIAM | Longest Diameter | 15 | mm | 15 | 15 | mm | INVESTIGATOR | 2026-01-05 |  | SCREENING
+ONCO-2026 | TR | ONCO-2026-101 | 4 | T1 | LDIAM | Longest Diameter | 28 | mm | 28 | 28 | mm | INVESTIGATOR | 2026-01-12 |  | SCREENING
+
+Notes:
+TRTEST = Longest Diameter when TRTESTCD = LDIAM
+TRDTC derived from TRDT (date11. -> yymmdd10.)
+TRSTDY = (TRDTC - RFSTDTC) + 1 if TRDTC >= RFSTDTC else (TRDTC - RFSTDTC)
+TRSEQ is sequential per USUBJID ordered by TRDTC
+
+Summary Statistics
+------------------
+Counts by VISIT:
+  SCREENING: 4
+
+Counts by TRTESTCD:
+  LDIAM: 4
+
+TRSTRESN descriptive statistics:
+  N = 4
+  Mean = 24.5000
+  StdDev = 8.8129
+  Min = 15.0000
+  Median = 24.0000
+  Max = 35.0000
+

@@ -1,0 +1,111 @@
+Figure 1: Kaplan-Meier Event-Free Survival by Treatment
+Population: Safety Population
+----------------------------------------------------------------------
+
+PROC LIFETEST - Product-Limit Survival Estimates
+Time variable: AVAL * CNSR(1)   Strata: TRT01A
+
+
+Stratum: TRT01A = Active Drug 50mg
+----------------------------------------------------------------------
+Time         Survival    Failure     StdErr       Number       Number             
+                                                  Failed         Left     Censored
+----------------------------------------------------------------------
+3.000          0.9524     0.0476     0.0465            1           20             
+15.000         0.9048     0.0952     0.0641            2           19             
+17.000         0.8571     0.1429     0.0764            3           18             
+23.000*        0.8095     0.1905     0.0857            4           16            1
+30.000         0.7589     0.2411     0.0941            5           15             
+32.000         0.7083     0.2917     0.1005            6           14             
+36.000         0.6577     0.3423     0.1053            7           13             
+52.000         0.6071     0.3929     0.1087            8           12             
+66.000         0.5565     0.4435     0.1108            9           11             
+67.000         0.5060     0.4940     0.1117           10           10             
+68.000*        0.5060     0.4940     0.1117           10            9            1
+69.000         0.4497     0.5503     0.1125           11            8             
+80.000*        0.4497     0.5503     0.1125           11            7            1
+81.000*        0.4497     0.5503     0.1125           11            6            1
+82.000*        0.4497     0.5503     0.1125           11            5            1
+83.000*        0.3598     0.6402     0.1207           12            2            2
+84.000*        0.3598     0.6402     0.1207           12            0            2
+
+Quartile Estimates
+Percent           Point       95% CI                     
+               Estimate [Lower, Upper]                     
+------------------------------------------------------------
+75               32.000 [66.000, 3.000]
+50               69.000  [., 32.000]
+25                    .       [., .]
+
+Mean and Standard Error (Restricted to largest event time)
+Mean = 58.287   StdErr = .
+
+Summary of the Number of Censored and Uncensored Values
+Total = 21   Failed = 12   Censored = 9   Percent Censored = 42.86
+
+Stratum: TRT01A = Placebo
+----------------------------------------------------------------------
+Time         Survival    Failure     StdErr       Number       Number             
+                                                  Failed         Left     Censored
+----------------------------------------------------------------------
+4.000          0.9615     0.0385     0.0377            1           25             
+9.000          0.9231     0.0769     0.0523            2           24             
+12.000         0.8846     0.1154     0.0627            3           23             
+13.000         0.8077     0.1923     0.0773            5           21             
+16.000         0.7692     0.2308     0.0826            6           20             
+17.000         0.7308     0.2692     0.0870            7           19             
+21.000         0.6538     0.3462     0.0933            9           17             
+24.000         0.5769     0.4231     0.0969           11           15             
+26.000         0.5385     0.4615     0.0978           12           14             
+28.000*        0.5385     0.4615     0.0978           12           13            1
+40.000         0.4970     0.5030     0.0986           13           12             
+41.000*        0.4970     0.5030     0.0986           13           11            1
+44.000         0.4519     0.5481     0.0995           14           10             
+46.000*        0.4519     0.5481     0.0995           14            9            1
+51.000*        0.4519     0.5481     0.0995           14            8            1
+62.000         0.3954     0.6046     0.1018           15            7             
+80.000*        0.3954     0.6046     0.1018           15            5            2
+81.000*        0.3954     0.6046     0.1018           15            4            1
+82.000*        0.3954     0.6046     0.1018           15            2            2
+83.000*        0.3954     0.6046     0.1018           15            1            1
+84.000*        0.3954     0.6046     0.1018           15            0            1
+
+Quartile Estimates
+Percent           Point       95% CI                     
+               Estimate [Lower, Upper]                     
+------------------------------------------------------------
+75               17.000 [24.000, 9.000]
+50               40.000  [., 21.000]
+25                    .       [., .]
+
+Mean and Standard Error (Restricted to largest event time)
+Mean = 39.352   StdErr = .
+
+Summary of the Number of Censored and Uncensored Values
+Total = 26   Failed = 15   Censored = 11   Percent Censored = 42.31
+
+Rank Statistics (Log-Rank and Wilcoxon)
+Stratum             Log-Rank     Wilcoxon
+Active Drug 50mg      -2.0072    -106.0000
+Placebo               2.0072     106.0000
+
+Covariance Matrix for the Log-Rank Statistics
+               Active Drug 50mg     Placebo
+Active Drug 50mg      6.5688     -6.5688
+Placebo             -6.5688      6.5688
+
+Covariance Matrix for the Wilcoxon Statistics
+               Active Drug 50mg     Placebo
+Active Drug 50mg   7572.0952  -7572.0952
+Placebo          -7572.0952   7572.0952
+
+Test of Equality over Strata
+Test                       DF   Chi-Square   Pr > ChiSq
+------------------------------------------------------------
+Log-Rank                    1       0.6133       0.4335
+Wilcoxon                    1       1.4839       0.2232
+-2Log(LR)                   1       0.5717       0.4496
+
+----------------------------------------------------------------------
+Note: * indicates censored observation
+Survival SE by Greenwood's formula; Mean SE with m/(m-1) factor

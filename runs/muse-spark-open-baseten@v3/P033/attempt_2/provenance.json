@@ -1,0 +1,66 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P033",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-baseten@v3",
+ "recorded_at": "2026-10-30T01:39:03",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 6989,
+  "output_tokens": 2734,
+  "reasoning_tokens": 436,
+  "finish_reason": "stop",
+  "seconds": 7.9
+ },
+ "inputs": {
+  "prompt_translate.md": "4601de47018557e116840b0985d5604b24a28ea9625a46d27bf43a7492607c71"
+ },
+ "model_output": {
+  "response.md": "065e9e5178c6a69774743bbe0be5c815cbca9c016e6410b5c8c0b3077f035c54",
+  "reasoning.md": "4e8ef7ac1227f879d2e822d6e2ab6acbb0d6a2b428d79066b84b3bd592219bbf",
+  "script.R": "0149303111ec5224ebb03e655919c5332527acf11c7ada1ccb230d8c056feb25"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 7.5,
+  "timed_out": false,
+  "log_sha256": "43ff6714045b2afc7472873bc8092a09d3b56bc2cb7894f3a7856b4c6f3c7cd8"
+ },
+ "r_outputs": {
+  "sasgraph.csv": "19f97574df77a45c8ad4e60cc99aba462f45e44854aadaea025d49ba89489465",
+  "sasgraph.png": "dd5312a2514cf35b179c1d2e1425b7c46441708eae36d06943a1d643d76e1364",
+  "sasgraph.txt": "db18e1510a6257e9dca1d7cafd6d833ff828e7fe39269d0ce21144ec769cfbc5",
+  "SORTadpc.csv": "19f97574df77a45c8ad4e60cc99aba462f45e44854aadaea025d49ba89489465"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P033/sasgraph.png",
+   "sha256": "3cd66dd198ed08351e229f91e2d7e8e0a4b6cac01d661fc6c566f390ab016ea8",
+   "frozen_sha256": "3cd66dd198ed08351e229f91e2d7e8e0a4b6cac01d661fc6c566f390ab016ea8",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

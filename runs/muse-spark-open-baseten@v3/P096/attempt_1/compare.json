@@ -1,0 +1,47 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.9811320754716981,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P096.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9622641509433962,
+   "detail": {
+    "recall": 0.9622641509433962,
+    "expected": 53,
+    "found": 51,
+    "r_files": [
+     "Channel1.csv",
+     "means1.csv",
+     "means2.csv",
+     "P096.csv",
+     "P096.lst.csv",
+     "P096.lst.txt",
+     "P096.txt",
+     "P096_Seq.csv",
+     "Round.csv",
+     "RoundToEven.csv",
+     "Seq.csv",
+     "sgplot.csv"
+    ],
+    "missing_examples": [
+     "0.548",
+     "0.501"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten@v3\\P096\\attempt_1\\out\\sgplot.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  }
+ ]
+}

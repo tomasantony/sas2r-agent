@@ -1,0 +1,28 @@
+"TRTA","ord","category","cnt","bign","pct"
+"Drug X High Dose",0,"Subjects with no TEAE",20,63,31.7460317460317
+"Drug X Low Dose",0,"Subjects with no TEAE",19,82,23.1707317073171
+"Placebo",0,"Subjects with no TEAE",26,95,27.3684210526316
+"Drug X High Dose",1,"Subjects with at least one TEAE",43,63,68.2539682539683
+"Drug X Low Dose",1,"Subjects with at least one TEAE",63,82,76.8292682926829
+"Placebo",1,"Subjects with at least one TEAE",69,95,72.6315789473684
+"Drug X High Dose",2,"  Related TEAE",0,63,0
+"Drug X Low Dose",2,"  Related TEAE",0,82,0
+"Placebo",2,"  Related TEAE",0,95,0
+"Drug X High Dose",3,"  Grade >=3 TEAE",12,63,19.047619047619
+"Drug X Low Dose",3,"  Grade >=3 TEAE",11,82,13.4146341463415
+"Placebo",3,"  Grade >=3 TEAE",16,95,16.8421052631579
+"Drug X High Dose",4,"  Serious Adverse Event",6,63,9.52380952380952
+"Drug X Low Dose",4,"  Serious Adverse Event",12,82,14.6341463414634
+"Placebo",4,"  Serious Adverse Event",9,95,9.47368421052632
+"Drug X High Dose",5,"  Related Serious Adverse Event",0,63,0
+"Drug X Low Dose",5,"  Related Serious Adverse Event",0,82,0
+"Placebo",5,"  Related Serious Adverse Event",0,95,0
+"Drug X High Dose",6,"  TEAE Leading to Study Drug Discontinuation",3,63,4.76190476190476
+"Drug X Low Dose",6,"  TEAE Leading to Study Drug Discontinuation",9,82,10.9756097560976
+"Placebo",6,"  TEAE Leading to Study Drug Discontinuation",10,95,10.5263157894737
+"Drug X High Dose",7,"  TEAE Leading to Dose Modification",18,63,28.5714285714286
+"Drug X Low Dose",7,"  TEAE Leading to Dose Modification",26,82,31.7073170731707
+"Placebo",7,"  TEAE Leading to Dose Modification",31,95,32.6315789473684
+"Drug X High Dose",8,"  TEAE with Outcome of Death",0,63,0
+"Drug X Low Dose",8,"  TEAE with Outcome of Death",0,82,0
+"Placebo",8,"  TEAE with Outcome of Death",0,95,0

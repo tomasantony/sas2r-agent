@@ -1,0 +1,15 @@
+The SAS System
+
+PROC CONTENTS DATA=ADLB VARNUM;
+----------------------------------------------------------------
+Num  Variable     Type   Len  Format     Label
+-------------------------------------------------------------------------------- 
+1    STUDYID      Char   7               Study Identifier
+2    USUBJID      Char   12              Unique Subject Identifier
+3    ASEQ         Num    8               Analysis Sequence Number
+4    LBSEQ        Num    8               
+5    PARAMCD      Char   5               Parameter Code
+6    PARAM        Char   26              Parameter
+7    PARAMN       Num    8               Parameter (N)
+8    PARCAT1      Char   9               Parameter Category 1
+9    AVAL         Num    8               Analysis Value

@@ -1,0 +1,88 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P032",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-baseten@v3",
+ "recorded_at": "2026-10-30T01:37:34",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 4364,
+  "output_tokens": 6872,
+  "reasoning_tokens": 2717,
+  "finish_reason": "stop",
+  "seconds": 20.5
+ },
+ "inputs": {
+  "prompt_translate.md": "96de196401365377bf45c8692cfcd7d651a64f9f9c2df3ee7b20cc675cd630ba"
+ },
+ "model_output": {
+  "response.md": "545b5797c6d8e24fbb4480a42f79a9cb4713e9f13dae0615a9696957c319c88f",
+  "reasoning.md": "124d96d31b3ddf3847e9f3a73c45edaca69238cd9c716e00297f28d1c4ac3480",
+  "script.R": "1a26bcfab57c9695fee74174afbff50a579b1d676fcc5c652b44d95050099844"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 3.0,
+  "timed_out": false,
+  "log_sha256": "6d0cfab6ddb61b3135a14987b15654190fccb0af21bfa1753437c68ccc37451d"
+ },
+ "r_outputs": {
+  "advs_filtered.csv": "259110b5115436b558753ff9397ce0c49f60c4738b5ca07cad155ebe4e42dc73",
+  "all.csv": "f74bd754f6cf2e6421dbf0158042c5438cb12243c545c67ad0fb2aba281e73f5",
+  "clinicalhandout_dbpprofile.csv": "f74bd754f6cf2e6421dbf0158042c5438cb12243c545c67ad0fb2aba281e73f5",
+  "clinicalhandout_dbpprofile.png": "e9345b05e5e55a2e5e27efbb1a761ff71913ea154199ee2a346e97d5633700fa",
+  "DBP_Profile.csv": "24b93b5fdf0a5e5dd65d261f613d4ec6d1c01a3ee2c068b22b818eafca120c1b",
+  "DBP_Profile.html": "669800fa709e00d8026a334a5aab4ab93533cc0b0f7437e4c92342c23fd75b77",
+  "DBP_Profile.html.txt": "34f940d445dc4bc7800c8458b5f032b36b6a57353048da4242e0556dd7752aa6",
+  "DBP_Profile.txt": "34f940d445dc4bc7800c8458b5f032b36b6a57353048da4242e0556dd7752aa6",
+  "P032.csv": "24b93b5fdf0a5e5dd65d261f613d4ec6d1c01a3ee2c068b22b818eafca120c1b",
+  "P032.lst": "5db1866fc4d6dc2aba3a8f50557a034425fcee80aab2ffaf007cf0afea4615a5",
+  "P032.lst.csv": "24b93b5fdf0a5e5dd65d261f613d4ec6d1c01a3ee2c068b22b818eafca120c1b",
+  "P032.lst.txt": "5db1866fc4d6dc2aba3a8f50557a034425fcee80aab2ffaf007cf0afea4615a5",
+  "P032.txt": "5db1866fc4d6dc2aba3a8f50557a034425fcee80aab2ffaf007cf0afea4615a5",
+  "temp1.csv": "195205cf5e31b5cc9a8483433cc86414b811d356ee989c4dd7cfe3220b713b5e"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P032.lst",
+   "sha256": "52efebf18cf3bc7b66863ba959189e7fe5db2ecf443b22d61b5cd9898ce6d685",
+   "frozen_sha256": "52efebf18cf3bc7b66863ba959189e7fe5db2ecf443b22d61b5cd9898ce6d685",
+   "ok": true
+  },
+  {
+   "file": "datasets/P032/ClinicalHandout_DbpProfile.gif",
+   "sha256": "2956cb895ffe0d345d6737ec60dbd9ead7bb066f3ba795731317298964040b47",
+   "frozen_sha256": "2956cb895ffe0d345d6737ec60dbd9ead7bb066f3ba795731317298964040b47",
+   "ok": true
+  },
+  {
+   "file": "datasets/P032/DBP_Profile.html",
+   "sha256": "7550ca70a2158c00a57b62f7a3e55e997938c7db088dcc4cd00fcca256d39e7b",
+   "frozen_sha256": "7550ca70a2158c00a57b62f7a3e55e997938c7db088dcc4cd00fcca256d39e7b",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.8066825775656324,
+  "produced_all": true
+ }
+}

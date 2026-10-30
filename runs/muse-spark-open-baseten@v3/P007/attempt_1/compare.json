@@ -1,0 +1,46 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P007.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 99,
+    "found": 99,
+    "r_files": [
+     "adtte.csv",
+     "P007.csv",
+     "P007.lst.csv",
+     "P007.lst.txt",
+     "P007.txt"
+    ],
+    "missing_examples": []
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adtte",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten@v3\\P007\\attempt_1\\out\\adtte.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 47,
+    "rows_r": 47,
+    "cols_sas": 12,
+    "cols_r": 12,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  }
+ ]
+}

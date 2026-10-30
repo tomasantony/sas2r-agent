@@ -1,0 +1,61 @@
+Program: P032_target04.sas  Reference: Mean of DBP Measures by Treatment: Profile Over Time (Weeks Since Randomized)
+---------------------------------------------------------------------------------------------------------------
+Source dataset: /bench/data/raw/cdisc-pilot/adam/advs.xpt
+Filter: PARAMCD=DIABP and ATPTN=815 and ANL01FL=Y and 0<AVISITN<99 and SAFFL=Y  (N obs=1547)
+
+PROC CONTENTS (selected variables):
+  USUBJID  TRTPN  ANL01FL  PARAM  PARAMCD  AVISIT  AVISITN  ATPTN  SAFFL  AVAL
+
+PROC FREQ: TRTPN
+----------------
+  TRTPN= 0  N= 635  Percent= 41.05%
+  TRTPN=54  N= 457  Percent= 29.54%
+  TRTPN=81  N= 455  Percent= 29.41%
+
+PROC FREQ: AVISIT * AVISITN
+---------------------------
+  AVISIT=Week 2       AVISITN= 2.0  N= 250
+  AVISIT=Week 4       AVISITN= 4.0  N= 227
+  AVISIT=Week 6       AVISITN= 6.0  N= 208
+  AVISIT=Week 8       AVISITN= 8.0  N= 189
+  AVISIT=Week 12      AVISITN=12.0  N= 171
+  AVISIT=Week 16      AVISITN=16.0  N= 147
+  AVISIT=Week 20      AVISITN=20.0  N= 128
+  AVISIT=Week 24      AVISITN=24.0  N= 116
+  AVISIT=Week 26      AVISITN=26.0  N= 111
+
+PROC MEANS: Summary of AVAL by TRTPN and AVISIT (with 95% CI using TINV(0.95, n-1))
+-----------------------------------------------------------------------------------
+TRTPN  AVISIT       AVISITN      N       MEAN         LO         HI
+----------------------------------------------------------------------
+     0 Week 2          2.0     84      74.42      72.65      76.18
+     0 Week 4          4.0     82      74.54      72.56      76.51
+     0 Week 6          6.0     76      73.88      71.80      75.96
+     0 Week 8          8.0     73      75.27      73.50      77.05
+     0 Week 12        12.0     69      72.75      70.68      74.83
+     0 Week 16        16.0     68      74.34      72.25      76.42
+     0 Week 20        20.0     66      72.98      71.05      74.92
+     0 Week 24        24.0     59      72.90      70.44      75.36
+     0 Week 26        26.0     58      72.21      70.07      74.35
+    54 Week 2          2.0     84      75.20      73.34      77.07
+    54 Week 4          4.0     72      75.97      74.24      77.71
+    54 Week 6          6.0     65      74.22      72.22      76.21
+    54 Week 8          8.0     60      75.00      72.99      77.01
+    54 Week 12        12.0     52      75.56      73.10      78.02
+    54 Week 16        16.0     42      73.83      71.35      76.32
+    54 Week 20        20.0     30      72.57      69.88      75.25
+    54 Week 24        24.0     27      76.07      73.07      79.08
+    54 Week 26        26.0     25      72.44      69.13      75.75
+    81 Week 2          2.0     82      75.80      74.10      77.51
+    81 Week 4          4.0     73      76.12      74.29      77.96
+    81 Week 6          6.0     67      75.43      73.34      77.52
+    81 Week 8          8.0     56      76.23      74.23      78.24
+    81 Week 12        12.0     50      73.68      71.55      75.81
+    81 Week 16        16.0     37      75.68      72.84      78.51
+    81 Week 20        20.0     32      73.44      70.19      76.69
+    81 Week 24        24.0     30      73.87      71.00      76.73
+    81 Week 26        26.0     28      72.96      69.68      76.25
+
+Total groups: 27
+Overall N (sum of N): 1547
+

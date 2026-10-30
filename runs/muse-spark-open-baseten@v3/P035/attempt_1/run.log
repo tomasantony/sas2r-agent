@@ -1,0 +1,17 @@
+sandbox: docker run --rm --name sas2r-08b7b0284ace --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten@v3\P035\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading /bench/data/raw/cdisc-pilot/adam/adpp.xpt
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error in UseMethod("arrange") : 
+  no applicable method for 'arrange' applied to an object of class "NULL"
+Calls: %>% -> arrange
+Execution halted

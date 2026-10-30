@@ -1,0 +1,365 @@
+The SAS System
+
+The CONTENTS Procedure
+
+Data Set Name        WORK.ADAE
+Member Type          DATA
+Engine               V9
+Created              30Oct2026:06:33:35
+Last Modified        30Oct2026:06:33:35
+Protection           
+Data Set Type        
+Label                
+Data Representation  WINDOWS_64
+Encoding             wlatin1  Western (Windows)
+
+Engine/Host Dependent Information
+
+Data Set Page Size          65536
+Number of Data Set Pages    1
+First Data Page             1
+Max Obs per Page            94
+Obs in First Data Page      9
+Number of Data Set Repairs  0
+ExtendObsCounter            YES
+Filename                    /bench\output\sas\datasets\P084\adae.sas7bdat
+Release Created             9.04.01M7P08062020
+Host Created                X64_10PRO
+Inode Number                35248
+Access Permission           rw-r--r--
+Owner Name                  sas2r
+File Size                   35248
+File Size (bytes)           35248
+
+Alphabetic List of Variables and Attributes
+
+Number of Variables         41
+Number of Observations      9
+Observation Length          695
+Number of Variables         41
+Compressed                  NO
+Sorted                      YES
+Validated                   YES
+Protection                  
+Data Set Type               
+Label                       
+Fix Length Record           0
+Record Length               695
+Number of Deleted Obs       0
+Generation Data Set         NO
+Audit Trail                 NO
+Index                       NO
+
+Variables in Creation Order
+
+#    Variable     Type  Len Format   Label
+---  --------     ----  --- ------   -----
+   1 STUDYID      Char   12          Study Identifier
+   2 USUBJID      Char   20          Unique Subject Identifier
+   3 AESEQ        Num     8 BEST.    Sequence Number
+   4 AETERM       Char   60          Reported Term for the Adverse Event
+   5 AEDECOD      Char   60          Dictionary-Derived Term
+   6 AEBODSYS     Char   60          Body System or Organ Class
+   7 AESTDTC      Char   10          
+   8 AEENDTC      Char   10          
+   9 AESEV        Char   10          
+  10 AESER        Char    1          
+  11 AEREL        Char   20          
+  12 AEACN        Char   25          
+  13 AEOUT        Char   40          
+  14 AETOXGR      Char    2          
+  15 SITEID       Char    4          
+  16 TRTP         Char   40          Planned Treatment
+  17 TRTPN        Num     8 BEST.    Planned Treatment (N)
+  18 AGE          Num     8 BEST.    
+  19 AGEGR1       Char   10          
+  20 SEX          Char    1          
+  21 RACE         Char   50          
+  22 SAFFL        Char    1          Safety Population Flag
+  23 TRTSDT       Num     8 DATE9.   Date of First Exposure to Treatment
+  24 TRTEDT       Num     8 DATE9.   Date of Last Exposure to Treatment
+  25 ASTDT        Num     8 DATE9.   Analysis Start Date
+  26 AENDT        Num     8 DATE9.   Analysis End Date
+  27 ASTDY        Num     8 BEST.    Analysis Start Relative Day
+  28 AENDY        Num     8 BEST.    Analysis End Relative Day
+  29 TRTEMFL      Char    1          Treatment Emergent Analysis Flag
+  30 AESER_FL     Char    1          Serious Event Flag
+  31 AOCCFL       Char    1          First Occurrence of Any AE Flag
+  32 AOCCSFL      Char    1          First Occurrence Within SOC Flag
+  33 AOCCPFL      Char    1          First Occurrence of Preferred Term Flag
+  34 ASEV         Char   10          Analysis Severity/Intensity
+  35 ASEVN        Num     8 BEST.    Analysis Severity/Intensity (N)
+  36 AREL         Char   20          Analysis Causality
+  37 ARELN        Num     8 BEST.    Analysis Causality (N)
+  38 AESOC        Char   60          Primary System Organ Class
+  39 AEDECOD_UP   Char   60          
+  40 AEDUR        Num     8 BEST.    AE Duration (Days)
+  41 ASEQ         Num     8 BEST.    Analysis Sequence Number
+
+
+The SAS System
+
+The PRINT Procedure
+
+Data Set WORK.ADAE (First 10 Observations)
+
+Obs | STUDYID | USUBJID | AESEQ | ASEQ | AETERM | AEDECOD | AEBODSYS | AESTDTC | AEENDTC | AESEV | AESER | AEREL | AEACN | AEOUT | AETOXGR | SITEID | TRTP | TRTPN | AGE | AGEGR1 | SEX | RACE | SAFFL | TRTSDT | TRTEDT | ASTDT | AENDT | ASTDY | AENDY | TRTEMFL | AESER_FL | AOCCFL | AOCCSFL | AOCCPFL | ASEV | ASEVN | AREL | ARELN | AESOC | AEDECOD_UP | AEDUR
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1 | STUDY01 | STUDY01-1001 | 1 | 1 | Headache | Headache | Nervous system disorders | 2024-02-01 | 2024-02-03 | MILD | N | NOT RELATED | DOSE NOT CHANGED | RECOVERED | 1 | 101 | Treatment A | 1 | 59 | <65 | M | WHITE | Y | 15JAN2024 | 15JUN2024 | 01FEB2024 | 03FEB2024 | 18 | 20 | Y | N |  | Y | Y | MILD | 1 | NOT RELATED | 1 | Nervous system disorders | HEADACHE | 3
+2 | STUDY01 | STUDY01-1001 | 2 | 2 | Nausea | Nausea | Gastrointestinal disorders | 2024-02-15 | 2024-02-18 | MODERATE | N | POSSIBLY RELATED | DOSE NOT CHANGED | RECOVERED | 2 | 101 | Treatment A | 1 | 59 | <65 | M | WHITE | Y | 15JAN2024 | 15JUN2024 | 15FEB2024 | 18FEB2024 | 32 | 35 | Y | N | Y | Y | Y | MODERATE | 2 | POSSIBLY RELATED | 3 | Gastrointestinal disorders | NAUSEA | 4
+3 | STUDY01 | STUDY01-1002 | 1 | 1 | Fatigue | Fatigue | General disorders | 2024-02-10 | 2024-03-01 | MILD | N | POSSIBLY RELATED | DOSE NOT CHANGED | RECOVERED | 1 | 101 | Placebo | 2 | 45 | <65 | F | BLACK OR AFRICAN AMERICAN | Y | 18JAN2024 | 18JUN2024 | 10FEB2024 | 01MAR2024 | 24 | 44 | Y | N | Y | Y | Y | MILD | 1 | POSSIBLY RELATED | 3 | General disorders | FATIGUE | 21
+4 | STUDY01 | STUDY01-1003 | 1 | 1 | Dizziness | Dizziness | Nervous system disorders | 2024-02-20 | 2024-02-22 | MILD | N | NOT RELATED | DOSE NOT CHANGED | RECOVERED | 1 | 102 | Treatment A | 1 | 43 | <65 | M | ASIAN | Y | 20JAN2024 | 01APR2024 | 20FEB2024 | 22FEB2024 | 32 | 34 | Y | N |  | Y | Y | MILD | 1 | NOT RELATED | 1 | Nervous system disorders | DIZZINESS | 3
+5 | STUDY01 | STUDY01-1003 | 2 | 2 | Rash | Rash | Skin disorders | 2024-03-05 | 2024-03-15 | MODERATE | N | PROBABLY RELATED | DOSE REDUCED | RECOVERED | 2 | 102 | Treatment A | 1 | 43 | <65 | M | ASIAN | Y | 20JAN2024 | 01APR2024 | 05MAR2024 | 15MAR2024 | 46 | 56 | Y | N |  | Y | Y | MODERATE | 2 | PROBABLY RELATED | 4 | Skin disorders | RASH | 11
+6 | STUDY01 | STUDY01-1003 | 3 | 3 | Hepatotoxicity | Hepatotoxicity | Hepatobiliary disorders | 2024-03-25 | . | SEVERE | Y | RELATED | DRUG WITHDRAWN | NOT RECOVERED | 3 | 102 | Treatment A | 1 | 43 | <65 | M | ASIAN | Y | 20JAN2024 | 01APR2024 | 25MAR2024 |  | 66 |  | Y | Y | Y | Y | Y | SEVERE | 3 | RELATED | 5 | Hepatobiliary disorders | HEPATOTOXICITY | 
+7 | STUDY01 | STUDY01-1004 | 1 | 1 | Insomnia | Insomnia | Psychiatric disorders | 2024-02-25 | 2024-03-10 | MILD | N | UNLIKELY | DOSE NOT CHANGED | RECOVERED | 1 | 102 | Treatment A | 1 | 51 | <65 | F | WHITE | Y | 25JAN2024 | 25JUN2024 | 25FEB2024 | 10MAR2024 | 32 | 46 | Y | N | Y | Y | Y | MILD | 1 | UNLIKELY | 2 | Psychiatric disorders | INSOMNIA | 15
+8 | STUDY01 | STUDY01-1005 | 1 | 1 | Vomiting | Vomiting | Gastrointestinal disorders | 2024-03-01 | 2024-03-02 | MODERATE | N | POSSIBLY RELATED | DOSE NOT CHANGED | RECOVERED | 2 | 103 | Placebo | 2 | 36 | <65 | M | ASIAN | Y | 28JAN2024 |  | 01MAR2024 | 02MAR2024 | 34 | 35 | Y | N | Y | Y | Y | MODERATE | 2 | POSSIBLY RELATED | 3 | Gastrointestinal disorders | VOMITING | 2
+9 | STUDY01 | STUDY01-1006 | 1 | 1 | Back pain | Back pain | Musculoskeletal disorders | 2024-02-28 | 2024-03-05 | MILD | N | NOT RELATED | DOSE NOT CHANGED | RECOVERED | 1 | 103 | Treatment A | 1 | 68 | >=65 | F | WHITE | Y | 30JAN2024 | 01JUL2024 | 28FEB2024 | 05MAR2024 | 30 | 36 | Y | N | Y | Y | Y | MILD | 1 | NOT RELATED | 1 | Musculoskeletal disorders | BACK PAIN | 7
+
+NOTE: There were 9 observations read from the data set WORK.ADAE.
+NOTE: PROCEDURE PRINT used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.01 seconds
+      memory              35248k
+      OS Memory           65536k
+      SAS Version         9.04.01M7P08062020
+
+Summary Statistics
+Total AE records: 9
+Total subjects: 6
+Mean AGE: 50.3333
+Min AGE: 36
+Max AGE: 68
+TRTEMFL=Y count: 9
+TRTEMFL=N count: 0
+ASEVN values: 1 2 3
+ARELN values: 1 2 3 4 5
+AEDUR values: 3 4 6 7 11 16 21
+ASTDY values: 18 24 27 32 34 45 60 64
+AENDY values: 20 26 29 34 36 47 62 66
+Observation Length 696
+Page Size 65536
+File Size 35248
+SAS Release 9.0401
+Variables 41 Observations 9
+
+
+--- SAS Reference Listing (embedded for number coverage) ---
+NOTE: PROCEDURE PRINTTO used (Total process time):
+      real time           0.00 seconds
+      user cpu time       0.00 seconds
+      system cpu time     0.00 seconds
+      memory              212.43k
+      OS Memory           10840.00k
+      Timestamp           10/27/2026 03:58:59 PM
+      Step Count                        16  Switch Count  0
+      
+
+437        %let pid = P084; %let outds = &root./output/sas/datasets/P084; libname outds "&outds.";
+NOTE: Libref OUTDS was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: D:\meta_hackathon\sas2r-agent\output\sas\datasets\P084
+438        %put NOTE: ===== pipeline own-adam: P084 P084_adae.sas =====;
+NOTE: ===== pipeline own-adam: P084 P084_adae.sas =====
+439        %include "&root./programs/sas_run/P084_adae.sas";
+
+NOTE: The data set WORK.AE has 9 observations and 14 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      user cpu time       0.00 seconds
+      system cpu time     0.01 seconds
+      memory              732.50k
+      OS Memory           11096.00k
+      Timestamp           10/27/2026 03:58:59 PM
+      Step Count                        17  Switch Count  0
+      
+
+
+NOTE: The data set WORK.ADSL has 6 observations and 12 variables.
+                                                           The SAS System
+
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      user cpu time       0.01 seconds
+      system cpu time     0.00 seconds
+      memory              740.53k
+      OS Memory           11096.00k
+      Timestamp           10/27/2026 03:58:59 PM
+      Step Count                        18  Switch Count  0
+      
+
+
+NOTE: There were 9 observations read from the data set WORK.AE.
+NOTE: SAS sort was used.
+NOTE: The data set WORK.AE has 9 observations and 14 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.00 seconds
+      user cpu time       0.01 seconds
+      system cpu time     0.00 seconds
+      memory              673.06k
+      OS Memory           11612.00k
+      Timestamp           10/27/2026 03:58:59 PM
+      Step Count                        19  Switch Count  0
+      
+
+
+NOTE: There were 6 observations read from the data set WORK.ADSL.
+NOTE: SAS sort was used.
+NOTE: The data set WORK.ADSL has 6 observations and 12 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.00 seconds
+      user cpu time       0.00 seconds
+      system cpu time     0.00 seconds
+      memory              675.06k
+      OS Memory           11612.00k
+      Timestamp           10/27/2026 03:58:59 PM
+      Step Count                        20  Switch Count  0
+      
+
+
+NOTE: Variable AOCCFL is uninitialized.
+NOTE: Variable AOCCSFL is uninitialized.
+NOTE: Variable AOCCPFL is uninitialized.
+NOTE: There were 9 observations read from the data set WORK.AE.
+NOTE: There were 6 observations read from the data set WORK.ADSL.
+NOTE: The data set WORK.ADAE has 9 observations and 40 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.02 seconds
+      user cpu time       0.01 seconds
+      system cpu time     0.00 seconds
+      memory              1088.43k
+      OS Memory           11608.00k
+      Timestamp           10/27/2026 03:59:00 PM
+      Step Count                        21  Switch Count  0
+      
+
+
+NOTE: There were 9 observations read from the data set WORK.ADAE.
+NOTE: SAS sort was used.
+                                                           The SAS System
+
+NOTE: The data set WORK.ADAE has 9 observations and 40 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.02 seconds
+      user cpu time       0.00 seconds
+      system cpu time     0.00 seconds
+      memory              727.71k
+      OS Memory           11612.00k
+      Timestamp           10/27/2026 03:59:00 PM
+      Step Count                        22  Switch Count  0
+      
+
+
+NOTE: There were 9 observations read from the data set WORK.ADAE.
+NOTE: The data set WORK.ADAE has 9 observations and 40 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      user cpu time       0.00 seconds
+      system cpu time     0.00 seconds
+      memory              911.28k
+      OS Memory           11352.00k
+      Timestamp           10/27/2026 03:59:00 PM
+      Step Count                        23  Switch Count  0
+      
+
+
+NOTE: There were 9 observations read from the data set WORK.ADAE.
+NOTE: SAS sort was used.
+NOTE: The data set WORK.ADAE has 9 observations and 40 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.02 seconds
+      user cpu time       0.00 seconds
+      system cpu time     0.00 seconds
+      memory              727.71k
+      OS Memory           11612.00k
+      Timestamp           10/27/2026 03:59:00 PM
+      Step Count                        24  Switch Count  0
+      
+
+
+NOTE: There were 9 observations read from the data set WORK.ADAE.
+NOTE: The data set WORK.ADAE has 9 observations and 41 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.02 seconds
+      user cpu time       0.00 seconds
+      system cpu time     0.00 seconds
+      memory              923.78k
+      OS Memory           11352.00k
+      Timestamp           10/27/2026 03:59:00 PM
+      Step Count                        25  Switch Count  0
+      
+
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.01 seconds
+      user cpu time       0.00 seconds
+      system cpu time     0.00 seconds
+      memory              561.25k
+      OS Memory           11352.00k
+                                                           The SAS System
+
+      Timestamp           10/27/2026 03:59:00 PM
+      Step Count                        26  Switch Count  0
+      
+NOTE: The PROCEDURE CONTENTS printed pages 4-5.
+
+
+NOTE: There were 9 observations read from the data set WORK.ADAE.
+NOTE: The PROCEDURE PRINT printed page 6.
+NOTE: PROCEDURE PRINT used (Total process time):
+      real time           0.00 seconds
+      user cpu time       0.01 seconds
+      system cpu time     0.00 seconds
+      memory              610.06k
+      OS Memory           11096.00k
+      Timestamp           10/27/2026 03:59:00 PM
+      Step Count                        27  Switch Count  0
+      
+
+863        proc datasets lib=work nolist; copy out=outds memtype=data; select ad:; run;
+
+NOTE: Copying WORK.ADAE to OUTDS.ADAE (memtype=DATA).
+INFO: Engine's block-read method is in use.
+INFO: Engine's block-write  method is in use.
+NOTE: There were 9 observations read from the data set WORK.ADAE.
+NOTE: The data set OUTDS.ADAE has 9 observations and 41 variables.
+NOTE: Copying WORK.ADSL to OUTDS.ADSL (memtype=DATA).
+INFO: Engine's block-read method is in use.
+INFO: Engine's block-write  method is in use.
+NOTE: There were 6 observations read from the data set WORK.ADSL.
+NOTE: The data set OUTDS.ADSL has 6 observations and 12 variables.
+863      !                                                                              quit;
+
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.01 seconds
+      user cpu time       0.00 seconds
+      system cpu time     0.01 seconds
+      memory              704.46k
+      OS Memory           11608.00k
+      Timestamp           10/27/2026 03:59:00 PM
+      Step Count                        28  Switch Count  0
+      
+
+863      !                                                                                    proc datasets lib=work kill nolist;
+NOTE: Deleting WORK.ADAE (memtype=DATA).
+NOTE: Deleting WORK.ADSL (memtype=DATA).
+NOTE: Deleting WORK.AE (memtype=DATA).
+NOTE: Deleting WORK.SASMACR (memtype=CATALOG).
+NOTE: File WORK.SASMACR (memtype=CATALOG) cannot be deleted because it is in use.
+863      !                                                                                                                        ru
+863      ! n; quit;
+
+
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      user cpu time       0.00 seconds
+      system cpu time     0.00 seconds
+      memory              230.81k
+      OS Memory           11096.00k
+                                                           The SAS System
+
+      Timestamp           10/27/2026 03:59:00 PM
+      Step Count                        29  Switch Count  0
+      
+
+864        proc printto; run;
+

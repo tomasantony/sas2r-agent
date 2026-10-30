@@ -1,0 +1,72 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P044",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-baseten@v3",
+ "recorded_at": "2026-10-30T01:46:53",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 3404,
+  "output_tokens": 4673,
+  "reasoning_tokens": 1155,
+  "finish_reason": "stop",
+  "seconds": 14.7
+ },
+ "inputs": {
+  "prompt_translate.md": "61114f344c2a598a09371a495382752c339b3ac9673a0a43cf73a1b105ace996"
+ },
+ "model_output": {
+  "response.md": "e9e6d92d0f49819c54af1d2bc1568e027e7dc1f5bbd9c599aae70419064132dc",
+  "reasoning.md": "ba05b13a512df5d19e466f565de35e37df48919da4422c46ebf9d3194649d1e5",
+  "script.R": "312902494d2fddcbe61a962ec21e4a44b5324445ff8fd5fbb71d1a58424f2440"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 4.3,
+  "timed_out": false,
+  "log_sha256": "e663223b382961d0d1e9b0cff598c51a3cbb86771f6a71bfd76dab51735b9912"
+ },
+ "r_outputs": {
+  "AEgrid.csv": "29ef67010dd1e83e07ba47105415c53a2ab8b2d1348001d0bc1d73858aa0f20e",
+  "count.csv": "c5f0a54bfd0a57651457446450d3554d5718a8cda27a920f8b2e4a5f965c72e2",
+  "maxpercen2.csv": "11b89c3ff4d7d75a66f739261fc834bfbbede8832d52d5acdb9bfffb7754c982",
+  "sgplot.csv": "3c560f3095be5d94cbc46c43d38204adf6c14ae97aa2f5727f07cbae8cc4be14",
+  "sgplot.png": "af3ff62f3ffe705098f90b7922ac182b6f03f903834984da74cd0454ec047e68",
+  "sgplot.txt": "e242bc5e18fb5d84f0d049586691534d21283a6c60663da9130680f1d20634f0",
+  "tcount.csv": "aa015a987c75a76fd2b65f17853c19a7daf1fbe2c85b88841ef1e1da2d8df78e",
+  "tcount2.csv": "7f034460388a62c01f7a15daafb57655c8ec5fe5be3165dc4bd91ea7ad820af9",
+  "tcount3.csv": "f98d9b95678847744d828d790a8281d8526a7f83110c551ebf5657e775e5517b",
+  "tcount3.txt": "eeaa63e9c89396044fd162c62c3ee5aac4a59cc04a7c1fb7dd5cae89244c4590"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P044/SGPlot.png",
+   "sha256": "8566a0c5ddc7267daa2a988964f9c93d387637a6c2fbc7e1091828fb8e761c9d",
+   "frozen_sha256": "8566a0c5ddc7267daa2a988964f9c93d387637a6c2fbc7e1091828fb8e761c9d",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

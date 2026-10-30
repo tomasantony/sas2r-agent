@@ -1,0 +1,22 @@
+Baseline Shift Frequency Table
+Scatter Plot-Max. Post-baseline vs Max. Baseline for Lab Test 1 (mmol/L)
+Reference limits: ANRLO=60 ANRHI=90 YAxisMin=40 YAxisMax=100 by 10
+
+Max Post Basline Result (shift from baseline)
+Treatment            Max. Baseline Result | Low                | Normal             
+----------------------------------------------------------------------------------- 
+0 (N = 84)           High                 |    0  (0.0)        |    2  (2.3)        
+0 (N = 84)           Low                  |    6  (7.1)        |    1  (1.1)        
+0 (N = 84)           Normal               |   11 (13.0)        |   64 (76.1)        
+
+54 (N = 84)          High                 |    0  (0.0)        |    1  (1.1)        
+54 (N = 84)          Low                  |    3  (3.5)        |    1  (1.1)        
+54 (N = 84)          Normal               |   12 (14.2)        |   67 (79.7)        
+
+81 (N = 82)          High                 |    0  (0.0)        |    1  (1.2)        
+81 (N = 82)          Low                  |    6  (7.3)        |    0  (0.0)        
+81 (N = 82)          Normal               |    5  (6.0)        |   70 (85.3)        
+
+
+N=number of subjects with at least one post-baseline measure; Nx=number of subjects with maximum baseline either normal or low and have at least one post-baseline measure.
+Summary tables used the reference limits set 1 (Male, Age 18-65, LLNx 60 mmol/L ULNx 90 mmol/L) set 2 (Female, Age 18-65, LLN=60 mmol/L ULN=90 mmol/L).

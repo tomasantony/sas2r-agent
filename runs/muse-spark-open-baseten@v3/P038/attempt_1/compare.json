@@ -1,0 +1,29 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P038.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 303,
+    "found": 303,
+    "r_files": [
+     "P038.csv",
+     "P038.lst.csv",
+     "P038.lst.txt",
+     "P038.txt",
+     "P038_alldenom.csv",
+     "P038_trans.csv",
+     "trans.csv"
+    ],
+    "missing_examples": []
+   }
+  }
+ ]
+}

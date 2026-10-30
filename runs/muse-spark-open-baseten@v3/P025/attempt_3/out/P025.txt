@@ -1,0 +1,28 @@
+PROC PRINT DATA=SDTM_EX
+Study: ONCO-2026  Domain: EX  (Exposure)
+Generated: 2026-10-30T05:30:49
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+Obs | STUDYID | DOMAIN | USUBJID | EXSEQ | EXTRT | EXDOSE | EXDOSU | EXDOSFRM | EXDOSFRQ | EXVLDIST | EXLOT | EXSTDTC | EXENDTC | EXSTDY | EXENDY | VISIT
+--------------------------------------------------------------------------------------------------------------------------------------------
+1 | ONCO-2026 | EX | ONCO-2026-101 | 1 | DRUG_A | 200 | MG | SOLUTION FOR INJECTION | Q3W | INTRAVENOUS | LOT-A1 | 2026-01-15 | 2026-01-15 |  |  | CYCLE_1
+2 | ONCO-2026 | EX | ONCO-2026-101 | 2 | DRUG_A | 200 | MG | SOLUTION FOR INJECTION | Q3W | INTRAVENOUS | LOT-A1 | 2026-02-05 | 2026-02-05 |  |  | CYCLE_2
+3 | ONCO-2026 | EX | ONCO-2026-102 | 1 | DRUG_A | 200 | MG | SOLUTION FOR INJECTION | Q3W | INTRAVENOUS | LOT-A2 | 2026-01-20 | 2026-01-20 |  |  | CYCLE_1
+4 | ONCO-2026 | EX | ONCO-2026-102 | 2 | DRUG_A | 100 | MG | SOLUTION FOR INJECTION | Q3W | INTRAVENOUS | LOT-A2 | 2026-02-10 | 2026-02-10 |  |  | CYCLE_2
+5 | ONCO-2026 | EX | ONCO-2026-103 | 1 | PLACEBO | 0 | MG | SOLUTION FOR INJECTION | Q3W | INTRAVENOUS | LOT-P1 | 2026-01-15 | 2026-01-15 |  |  | CYCLE_1
+6 | ONCO-2026 | EX | ONCO-2026-105 | 1 | DRUG_A | 200 | MG | SOLUTION FOR INJECTION | Q3W | INTRAVENOUS | LOT-A1 | 2026-01-25 | 2026-01-25 |  |  | CYCLE_1
+--------------------------------------------------------------------------------------------------------------------------------------------
+N = 6 records
+
+Numeric values:
+Obs: 1 2 3 4 5 6
+EXSEQ: 1 2 1 2 1 1
+EXDOSE: 200 200 200 100 0 200
+
+Row details:
+Row 1: EXSEQ=1 EXDOSE=200 EXSTDY=NA EXENDY=NA Obs=1
+Row 2: EXSEQ=2 EXDOSE=200 EXSTDY=NA EXENDY=NA Obs=2
+Row 3: EXSEQ=1 EXDOSE=200 EXSTDY=NA EXENDY=NA Obs=3
+Row 4: EXSEQ=2 EXDOSE=100 EXSTDY=NA EXENDY=NA Obs=4
+Row 5: EXSEQ=1 EXDOSE=0 EXSTDY=NA EXENDY=NA Obs=5
+Row 6: EXSEQ=1 EXDOSE=200 EXSTDY=NA EXENDY=NA Obs=6

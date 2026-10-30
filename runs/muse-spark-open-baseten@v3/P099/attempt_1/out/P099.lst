@@ -1,0 +1,13 @@
+The MEANS Procedure
+
+Analysis Variable : NewCases
+
+Type                   N       Mean     StdDev    Min    Max        Sum
+-----------------------------------------------------------------------
+Constant             100    10.0000     3.0318      3     16       1000
+Early Peak           100    10.0000    12.0596      0     37       1000
+Flattened            100    10.0000     8.4100      0     27       1000
+Second Outbreak      100    10.0000    10.4495      0     34       1000
+Exponential          100    10.0000    15.7999      0     66       1000
+
+Total observations: 500

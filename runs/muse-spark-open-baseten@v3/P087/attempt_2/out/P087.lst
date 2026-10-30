@@ -1,0 +1,141 @@
+The SAS System
+
+The CONTENTS Procedure
+
+Data Set Name        WORK.ADVS
+Member Type          DATA
+Engine               V9
+Created              27JAN2026:09:10:27
+Last Modified        27JAN2026:09:10:27
+Protection           
+Data Set Type        
+Label                
+Data Representation  WINDOWS_64
+Encoding             utf-8  Unicode (UTF-8)
+
+Number of Observations         24
+Number of Variables            30
+Number of Indexes              0
+Observation Length             760
+Deleted Observations           0
+Compressed                     NO
+Sorted                         YES
+Encrypted                      NO
+
+Engine/Host Dependent Information
+
+Data Set Page Size          65536
+Number of Data Set Pages    1
+First Data Page             1
+Max Obs per Page            86
+Obs in First Data Page      24
+Number of Data Set Repairs  0
+ExtendObsCounter            YES
+Filename                    /bench/output/sas/datasets/P087/advs.sas7bdat
+Release Created             9.04.01M7
+Host Created                X64_10PRO
+Inode Number                35248
+Access Permission           rw-rw-rw-
+Owner Name                  sasuser
+File Size                   64KB
+File Size (bytes)           65536
+
+Alphabetic List of Variables and Attributes
+
+#    Variable    Type    Len    Format      Label
+------------------------------------------------------------
+1    STUDYID     Char     12                 Study Identifier
+2    USUBJID     Char     20                 Unique Subject Identifier
+3    ASEQ        Num       8                 Analysis Sequence Number
+4    PARAMCD     Char      8                 Parameter Code
+5    PARAM       Char    200                 Parameter
+6    PARAMN      Num       8                 Parameter (N)
+7    PARCAT1     Char     50                 Parameter Category 1
+8    AVAL        Num       8                 Analysis Value
+9    AVALC       Char    200                 Analysis Value (C)
+10   AVALU       Char     20                 Analysis Value Unit
+11   BASE        Num       8                 Baseline Value
+12   CHG         Num       8                 Change from Baseline
+13   PCHG        Num       8                 Percent Change from Baseline
+14   ADT         Num       8    DATE9.       Analysis Date
+15   ADY         Num       8                 Analysis Relative Day
+16   AVISIT      Char     40                 Analysis Visit
+17   AVISITN     Num       8                 Analysis Visit (N)
+18   ABLFL       Char      1                 Baseline Record Flag
+19   ANL01FL     Char      1                 Analysis Record Flag 01
+20   DTYPE       Char     20                 Derivation Type
+21   TRTP        Char     40                 Planned Treatment
+22   TRTPN       Num       8                 Planned Treatment (N)
+23   TRTSDT      Num       8    DATE9.       Date of First Exposure to Treatment
+24   TRTEDT      Num       8    DATE9.       Date of Last Exposure to Treatment
+25   SAFFL       Char      1                 Safety Population Flag
+26   VSSEQ       Num       8                 Sequence Number
+27   ATPT        Char     20                 Analysis Timepoint
+28   ATPTN       Num       8                 Analysis Timepoint (N)
+29   AGE         Num       8                 Age
+30   SEX         Char      1                 Sex
+
+Variables in Creation Order
+
+#    Variable    Type    Len    Format      Label
+------------------------------------------------------------
+1    STUDYID     Char     12                 Study Identifier
+2    USUBJID     Char     20                 Unique Subject Identifier
+3    ASEQ        Num       8                 Analysis Sequence Number
+4    PARAMCD     Char      8                 Parameter Code
+5    PARAM       Char    200                 Parameter
+6    PARAMN      Num       8                 Parameter (N)
+7    PARCAT1     Char     50                 Parameter Category 1
+8    AVAL        Num       8                 Analysis Value
+9    AVALC       Char    200                 Analysis Value (C)
+10   AVALU       Char     20                 Analysis Value Unit
+11   BASE        Num       8                 Baseline Value
+12   CHG         Num       8                 Change from Baseline
+13   PCHG        Num       8                 Percent Change from Baseline
+14   ADT         Num       8    DATE9.       Analysis Date
+15   ADY         Num       8                 Analysis Relative Day
+16   AVISIT      Char     40                 Analysis Visit
+17   AVISITN     Num       8                 Analysis Visit (N)
+18   ABLFL       Char      1                 Baseline Record Flag
+19   ANL01FL     Char      1                 Analysis Record Flag 01
+20   DTYPE       Char     20                 Derivation Type
+21   TRTP        Char     40                 Planned Treatment
+22   TRTPN       Num       8                 Planned Treatment (N)
+23   TRTSDT      Num       8    DATE9.       Date of First Exposure to Treatment
+24   TRTEDT      Num       8    DATE9.       Date of Last Exposure to Treatment
+25   SAFFL       Char      1                 Safety Population Flag
+26   VSSEQ       Num       8                 Sequence Number
+27   ATPT        Char     20                 Analysis Timepoint
+28   ATPTN       Num       8                 Analysis Timepoint (N)
+29   AGE         Num       8                 Age
+30   SEX         Char      1                 Sex
+
+
+The SAS System
+
+The PRINT Procedure
+Data Set WORK.ADVS
+Obs=20
+
+Obs | STUDYID | USUBJID | ASEQ | PARAMCD | PARAM | PARAMN | AVAL | AVALC | AVALU | BASE | CHG | PCHG | ADT | ADY | AVISIT | AVISITN | ABLFL | ANL01FL | DTYPE | TRTP | TRTPN | TRTSDT | SAFFL
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1 | STUDY01 | STUDY01-1001 | 1 | DIABP | Diastolic Blood Pressure | 2 | 82 |  | mmHg |  |  |  | 15JAN2024 | 1 | Baseline | 1 |  |  |  | Treatment A | 1 | 15JAN2024 | Y
+2 | STUDY01 | STUDY01-1001 | 2 | DIABP | Diastolic Blood Pressure | 2 | 78 |  | mmHg |  |  |  | 12FEB2024 | 29 | Week 4 | 2 |  | Y |  | Treatment A | 1 | 15JAN2024 | Y
+3 | STUDY01 | STUDY01-1001 | 3 | DIABP | Diastolic Blood Pressure | 2 | 76 |  | mmHg |  |  |  | 11MAR2024 | 57 | Week 8 | 3 |  | Y |  | Treatment A | 1 | 15JAN2024 | Y
+4 | STUDY01 | STUDY01-1001 | 4 | PULSE | Pulse Rate | 3 | 72 |  | beats/min |  |  |  | 15JAN2024 | 1 | Baseline | 1 |  |  |  | Treatment A | 1 | 15JAN2024 | Y
+5 | STUDY01 | STUDY01-1001 | 5 | PULSE | Pulse Rate | 3 | 70 |  | beats/min |  |  |  | 12FEB2024 | 29 | Week 4 | 2 |  | Y |  | Treatment A | 1 | 15JAN2024 | Y
+6 | STUDY01 | STUDY01-1001 | 6 | SYSBP | Systolic Blood Pressure | 1 | 128 |  | mmHg |  |  |  | 15JAN2024 | 1 | Baseline | 1 |  |  |  | Treatment A | 1 | 15JAN2024 | Y
+7 | STUDY01 | STUDY01-1001 | 7 | SYSBP | Systolic Blood Pressure | 1 | 122 |  | mmHg |  |  |  | 12FEB2024 | 29 | Week 4 | 2 |  | Y |  | Treatment A | 1 | 15JAN2024 | Y
+8 | STUDY01 | STUDY01-1001 | 8 | SYSBP | Systolic Blood Pressure | 1 | 118 |  | mmHg |  |  |  | 11MAR2024 | 57 | Week 8 | 3 |  | Y |  | Treatment A | 1 | 15JAN2024 | Y
+9 | STUDY01 | STUDY01-1002 | 1 | DIABP | Diastolic Blood Pressure | 2 | 90 |  | mmHg |  |  |  | 18JAN2024 | 1 | Baseline | 1 |  |  |  | Placebo | 2 | 18JAN2024 | Y
+10 | STUDY01 | STUDY01-1002 | 2 | DIABP | Diastolic Blood Pressure | 2 | 88 |  | mmHg |  |  |  | 15FEB2024 | 29 | Week 4 | 2 |  | Y |  | Placebo | 2 | 18JAN2024 | Y
+11 | STUDY01 | STUDY01-1002 | 3 | SYSBP | Systolic Blood Pressure | 1 | 140 |  | mmHg |  |  |  | 18JAN2024 | 1 | Baseline | 1 |  |  |  | Placebo | 2 | 18JAN2024 | Y
+12 | STUDY01 | STUDY01-1002 | 4 | SYSBP | Systolic Blood Pressure | 1 | 138 |  | mmHg |  |  |  | 15FEB2024 | 29 | Week 4 | 2 |  | Y |  | Placebo | 2 | 18JAN2024 | Y
+13 | STUDY01 | STUDY01-1003 | 1 | DIABP | Diastolic Blood Pressure | 2 | 75 |  | mmHg | 75 | 0 | 0.0 | 20JAN2024 | 1 | Baseline | 1 | Y |  |  | Treatment A | 1 | 20JAN2024 | Y
+14 | STUDY01 | STUDY01-1003 | 2 | SYSBP | Systolic Blood Pressure | 1 | 120 |  | mmHg |  |  |  | 20JAN2024 | 1 | Baseline | 1 |  |  |  | Treatment A | 1 | 20JAN2024 | Y
+15 | STUDY01 | STUDY01-1003 | 3 | SYSBP | Systolic Blood Pressure | 1 | 115 |  | mmHg |  |  |  | 17FEB2024 | 29 | Week 4 | 2 |  | Y |  | Treatment A | 1 | 20JAN2024 | Y
+16 | STUDY01 | STUDY01-1004 | 1 | SYSBP | Systolic Blood Pressure | 1 | 132 |  | mmHg | 132 | 0 | 0.0 | 25JAN2024 | 1 | Baseline | 1 | Y |  |  | Treatment A | 1 | 25JAN2024 | Y
+17 | STUDY01 | STUDY01-1005 | 1 | SYSBP | Systolic Blood Pressure | 1 | 118 |  | mmHg | 118 | 0 | 0.0 | 28JAN2024 | 1 | Baseline | 1 | Y |  |  | Placebo | 2 | 28JAN2024 | Y
+18 | STUDY01 | STUDY01-1006 | 1 | SYSBP | Systolic Blood Pressure | 1 | 145 |  | mmHg | 145 | 0 | 0.0 | 30JAN2024 | 1 | Baseline | 1 | Y |  |  | Treatment A | 1 | 30JAN2024 | Y
+19 |  | STUDY01-1001 | 1 | DIABP |  |  | 78 |  |  |  |  |  |  |  | Maximum Post-Baseline | 99 |  |  | MAXIMUM |  |  |  | 
+20 |  | STUDY01-1001 | 2 | PULSE |  |  | 70 |  |  |  |  |  |  |  | Maximum Post-Baseline | 99 |  |  | MAXIMUM |  |  |  | 

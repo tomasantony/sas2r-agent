@@ -1,0 +1,389 @@
+Target 17
+
+Systolic Blood Pressure Figure by Treatment
+
+created by Xiaopeng Li
+
+PROC PRINT data=ci;
+
+  Obs TRTA                             ADY         LCLM         UCLM
+---------------------------------------------------------------------- 
+    1 Placebo                            1      73.3024      78.0858
+    2 Placebo                           12           NA           NA
+    3 Placebo                           13     -66.7683     212.7683
+    4 Placebo                           14      66.8753      80.2358
+    5 Placebo                           15      73.5627      79.2280
+    6 Placebo                           16      66.2178      75.7822
+    7 Placebo                           17      59.5721      85.0945
+    8 Placebo                           19      66.2938      91.7062
+    9 Placebo                           20           NA           NA
+   10 Placebo                           21           NA           NA
+   11 Placebo                           22    -104.1807     226.1807
+   12 Placebo                           23      53.7345     117.2655
+   13 Placebo                           24           NA           NA
+   14 Placebo                           25           NA           NA
+   15 Placebo                           26      80.0000      80.0000
+   16 Placebo                           27      67.7746      79.6921
+   17 Placebo                           28      70.3303      81.5447
+   18 Placebo                           29      68.2141      79.5954
+   19 Placebo                           30      66.5630      78.5481
+   20 Placebo                           31      63.8158      87.6842
+   21 Placebo                           32      53.8113      92.5220
+   22 Placebo                           33     -53.0620     201.0620
+   23 Placebo                           34           NA           NA
+   24 Placebo                           36           NA           NA
+   25 Placebo                           39           NA           NA
+   26 Placebo                           40      62.2421      80.9579
+   27 Placebo                           41      71.9721      84.8279
+   28 Placebo                           42      54.3091      74.6909
+   29 Placebo                           43      70.8818      79.0039
+   30 Placebo                           44      66.9009      76.5991
+   31 Placebo                           45      -1.9434     175.9434
+   32 Placebo                           46      36.7930     110.5403
+   33 Placebo                           47      54.5876     105.4124
+   34 Placebo                           48      70.9910      91.6756
+   35 Placebo                           49      53.2130      77.1870
+   36 Placebo                           50      21.4690     148.5310
+   37 Placebo                           51           NA           NA
+   38 Placebo                           52           NA           NA
+   39 Placebo                           53           NA           NA
+   40 Placebo                           54      28.8814     105.1186
+   41 Placebo                           55      73.4993      82.5007
+   42 Placebo                           56      62.8007      87.7707
+   43 Placebo                           57      71.8256      79.5078
+   44 Placebo                           58      66.8824      81.1176
+   45 Placebo                           59      45.3035     100.0298
+   46 Placebo                           60      64.0677      79.1323
+   47 Placebo                           62      62.3245      91.0088
+   48 Placebo                           63      63.4917      97.0083
+   49 Placebo                           64      61.2350      84.7650
+   50 Placebo                           65           NA           NA
+   51 Placebo                           69           NA           NA
+   52 Placebo                           70           NA           NA
+   53 Placebo                           78           NA           NA
+   54 Placebo                           79           NA           NA
+   55 Placebo                           80           NA           NA
+   56 Placebo                           82           NA           NA
+   57 Placebo                           83      63.9127      84.0873
+   58 Placebo                           84      63.0982      85.9018
+   59 Placebo                           85      67.2619      74.9781
+   60 Placebo                           86      30.4120     114.9214
+   61 Placebo                           87      45.3035     100.0298
+   62 Placebo                           88      21.1752     122.8248
+   63 Placebo                           89      56.6518      84.0149
+   64 Placebo                           90      61.2863      82.7137
+   65 Placebo                           91      55.4655      91.0345
+   66 Placebo                           92      45.7104      98.2896
+   67 Placebo                           95           NA           NA
+   68 Placebo                           96           NA           NA
+   69 Placebo                           97           NA           NA
+   70 Placebo                          100           NA           NA
+   71 Placebo                          106           NA           NA
+   72 Placebo                          107           NA           NA
+   73 Placebo                          108      15.1752     116.8248
+   74 Placebo                          110     -88.1807     242.1807
+   75 Placebo                          111      69.1054      88.8946
+   76 Placebo                          112      63.1773      79.7458
+   77 Placebo                          113      71.6794      78.1539
+   78 Placebo                          114     -27.9434     149.9434
+   79 Placebo                          115      35.1752     136.8248
+   80 Placebo                          116      70.8552      97.1448
+   81 Placebo                          117           NA           NA
+   82 Placebo                          118      49.5257      99.4743
+   83 Placebo                          119           NA           NA
+   84 Placebo                          120           NA           NA
+   85 Placebo                          121     -57.0620     197.0620
+   86 Placebo                          122      11.4690     138.5310
+   87 Placebo                          123           NA           NA
+   88 Placebo                          126           NA           NA
+   89 Placebo                          127           NA           NA
+   90 Placebo                          132           NA           NA
+   91 Placebo                          134      36.8814     113.1186
+   92 Placebo                          135           NA           NA
+   93 Placebo                          136           NA           NA
+   94 Placebo                          138      55.1796      64.3204
+   95 Placebo                          139      62.0624      84.9376
+   96 Placebo                          140      67.6296      81.8249
+   97 Placebo                          141      66.2373      74.9055
+   98 Placebo                          142     -63.0620     191.0620
+   99 Placebo                          143      52.5876      92.7457
+  100 Placebo                          144      56.5876     107.4124
+  101 Placebo                          145      61.2543     101.4124
+  102 Placebo                          146      69.8333      84.5667
+  103 Placebo                          147           NA           NA
+  104 Placebo                          148           NA           NA
+  105 Placebo                          149      49.9702     104.6965
+  106 Placebo                          161      40.8814     117.1186
+  107 Placebo                          162      22.4650     113.5350
+  108 Placebo                          165           NA           NA
+  109 Placebo                          166           NA           NA
+  110 Placebo                          167      40.3100     101.0233
+  111 Placebo                          168      66.1300      77.8700
+  112 Placebo                          169      70.5457      81.5654
+  113 Placebo                          170      47.1201      85.8799
+  114 Placebo                          171      18.4650     109.5350
+  115 Placebo                          172      29.1702     121.4964
+  116 Placebo                          173      69.3947      86.6053
+  117 Placebo                          174           NA           NA
+  118 Placebo                          175      57.3947      74.6053
+  119 Placebo                          176           NA           NA
+  120 Placebo                          177       3.9097     169.0903
+  121 Placebo                          179    -148.7117     308.7117
+  122 Placebo                          180      58.9912      87.6755
+  123 Placebo                          181      60.2903      82.1097
+  124 Placebo                          182      58.4713      82.0287
+  125 Placebo                          183      67.5325      76.4675
+  126 Placebo                          184      64.4651      86.8683
+  127 Placebo                          185           NA           NA
+  128 Placebo                          186     -47.0620     207.0620
+  129 Placebo                          188       1.4690     128.5310
+  130 Placebo                          189      32.8814     109.1186
+  131 Placebo                          190           NA           NA
+  132 Placebo                          191      44.8254      93.8413
+  133 Placebo                          194      44.5876      95.4124
+  134 Placebo                          195           NA           NA
+  135 Placebo                          196     -72.7683     206.7683
+  136 Placebo                          197      62.2938      87.7062
+  137 Placebo                          198    -115.5931     265.5931
+  138 Placebo                          211           NA           NA
+  139 Xanomeline High Dose               1      75.0270      79.2825
+  140 Xanomeline High Dose               6           NA           NA
+  141 Xanomeline High Dose               8      52.0866      87.9134
+  142 Xanomeline High Dose              11           NA           NA
+  143 Xanomeline High Dose              12           NA           NA
+  144 Xanomeline High Dose              13      74.5669      87.0331
+  145 Xanomeline High Dose              14      69.5874      80.9581
+  146 Xanomeline High Dose              15      75.6987      81.1902
+  147 Xanomeline High Dose              16      62.7873      73.0460
+  148 Xanomeline High Dose              17           NA           NA
+  149 Xanomeline High Dose              18      63.9668      91.0332
+  150 Xanomeline High Dose              19      38.7208     114.6125
+  151 Xanomeline High Dose              20           NA           NA
+  152 Xanomeline High Dose              21     -19.6496     183.6496
+  153 Xanomeline High Dose              22      28.8814     105.1186
+  154 Xanomeline High Dose              26      53.7568     110.9099
+  155 Xanomeline High Dose              27      69.3561      80.5011
+  156 Xanomeline High Dose              28      72.4893      82.6218
+  157 Xanomeline High Dose              29      75.5297      83.5369
+  158 Xanomeline High Dose              30      62.9747      77.3587
+  159 Xanomeline High Dose              31      55.7345     119.2655
+  160 Xanomeline High Dose              32      65.4106      91.5894
+  161 Xanomeline High Dose              33           NA           NA
+  162 Xanomeline High Dose              34      53.9405      99.0595
+  163 Xanomeline High Dose              35      60.4276      73.5724
+  164 Xanomeline High Dose              36      68.2938      93.7062
+  165 Xanomeline High Dose              37           NA           NA
+  166 Xanomeline High Dose              40      68.8757      87.1243
+  167 Xanomeline High Dose              41      70.8348      85.7366
+  168 Xanomeline High Dose              42      68.9740      83.3593
+  169 Xanomeline High Dose              43      69.1878      83.3576
+  170 Xanomeline High Dose              44      63.2920      71.9080
+  171 Xanomeline High Dose              45    -120.5931     260.5931
+  172 Xanomeline High Dose              46      56.9301     101.7365
+  173 Xanomeline High Dose              47      77.5067      83.8266
+  174 Xanomeline High Dose              48      46.5876      97.4124
+  175 Xanomeline High Dose              49      47.4187     117.9146
+  176 Xanomeline High Dose              50      54.9608      89.0392
+  177 Xanomeline High Dose              54      58.1587     107.1746
+  178 Xanomeline High Dose              55      75.9109      86.5891
+  179 Xanomeline High Dose              56      53.0742      82.9258
+  180 Xanomeline High Dose              57      73.1567      80.8433
+  181 Xanomeline High Dose              58      62.8083      78.1917
+  182 Xanomeline High Dose              59           NA           NA
+  183 Xanomeline High Dose              60      56.5876     107.4124
+  184 Xanomeline High Dose              61      65.1057      82.0943
+  185 Xanomeline High Dose              62      76.2938     101.7062
+  186 Xanomeline High Dose              63     -41.3558     187.3558
+  187 Xanomeline High Dose              64     -49.0620     205.0620
+  188 Xanomeline High Dose              68      29.1752     130.8248
+  189 Xanomeline High Dose              69      55.2325     100.7675
+  190 Xanomeline High Dose              70      50.2452      87.7548
+  191 Xanomeline High Dose              71     -72.7683     206.7683
+  192 Xanomeline High Dose              77           NA           NA
+  193 Xanomeline High Dose              78           NA           NA
+  194 Xanomeline High Dose              82      76.6973      85.3027
+  195 Xanomeline High Dose              83      64.5262      81.4738
+  196 Xanomeline High Dose              84      56.5690      91.4310
+  197 Xanomeline High Dose              85      62.7545      80.2455
+  198 Xanomeline High Dose              86      52.8283      84.1717
+  199 Xanomeline High Dose              87      45.2828      84.7172
+  200 Xanomeline High Dose              88           NA           NA
+  201 Xanomeline High Dose              89      65.7442      80.9225
+  202 Xanomeline High Dose              90      58.5876      98.7457
+  203 Xanomeline High Dose              91           NA           NA
+  204 Xanomeline High Dose              92           NA           NA
+  205 Xanomeline High Dose              95           NA           NA
+  206 Xanomeline High Dose              98           NA           NA
+  207 Xanomeline High Dose              99           NA           NA
+  208 Xanomeline High Dose             103           NA           NA
+  209 Xanomeline High Dose             105           NA           NA
+  210 Xanomeline High Dose             109           NA           NA
+  211 Xanomeline High Dose             110           NA           NA
+  212 Xanomeline High Dose             111      71.8075      89.6925
+  213 Xanomeline High Dose             112      75.9224      89.7442
+  214 Xanomeline High Dose             113      69.4527      80.7473
+  215 Xanomeline High Dose             114           NA           NA
+  216 Xanomeline High Dose             116           NA           NA
+  217 Xanomeline High Dose             117           NA           NA
+  218 Xanomeline High Dose             118      68.2324      71.1009
+  219 Xanomeline High Dose             119      52.5876     103.4124
+  220 Xanomeline High Dose             120      20.0092     125.3241
+  221 Xanomeline High Dose             124           NA           NA
+  222 Xanomeline High Dose             127           NA           NA
+  223 Xanomeline High Dose             128           NA           NA
+  224 Xanomeline High Dose             137           NA           NA
+  225 Xanomeline High Dose             138      70.2938      95.7062
+  226 Xanomeline High Dose             139      31.0283     119.9717
+  227 Xanomeline High Dose             140      60.4448     100.0552
+  228 Xanomeline High Dose             141      65.8760      75.3740
+  229 Xanomeline High Dose             142      61.2634      76.1652
+  230 Xanomeline High Dose             145           NA           NA
+  231 Xanomeline High Dose             146           NA           NA
+  232 Xanomeline High Dose             147     -19.6496     183.6496
+  233 Xanomeline High Dose             148           NA           NA
+  234 Xanomeline High Dose             154           NA           NA
+  235 Xanomeline High Dose             155           NA           NA
+  236 Xanomeline High Dose             162           NA           NA
+  237 Xanomeline High Dose             165           NA           NA
+  238 Xanomeline High Dose             167      41.7104      94.2896
+  239 Xanomeline High Dose             168      33.1752     134.8248
+  240 Xanomeline High Dose             169      45.8109      97.5224
+  241 Xanomeline High Dose             170      61.1046      79.2288
+  242 Xanomeline High Dose             172      61.5857      87.0809
+  243 Xanomeline High Dose             173      66.9441      92.6559
+  244 Xanomeline High Dose             174      48.2938      73.7062
+  245 Xanomeline High Dose             175      66.2938      91.7062
+  246 Xanomeline High Dose             176           NA           NA
+  247 Xanomeline High Dose             177           NA           NA
+  248 Xanomeline High Dose             180      46.9301      91.7365
+  249 Xanomeline High Dose             181           NA           NA
+  250 Xanomeline High Dose             182      52.4159     108.9175
+  251 Xanomeline High Dose             183      61.6390      77.9610
+  252 Xanomeline High Dose             184      61.8869      75.1131
+  253 Xanomeline High Dose             186     -19.6496     183.6496
+  254 Xanomeline High Dose             188           NA           NA
+  255 Xanomeline High Dose             189      66.2938      91.7062
+  256 Xanomeline High Dose             190      21.4690     148.5310
+  257 Xanomeline High Dose             196           NA           NA
+  258 Xanomeline High Dose             200           NA           NA
+  259 Xanomeline Low Dose                1      74.1538      78.3938
+  260 Xanomeline Low Dose                5           NA           NA
+  261 Xanomeline Low Dose                8           NA           NA
+  262 Xanomeline Low Dose               11           NA           NA
+  263 Xanomeline Low Dose               12           NA           NA
+  264 Xanomeline Low Dose               13           NA           NA
+  265 Xanomeline Low Dose               14      70.1015      88.4985
+  266 Xanomeline Low Dose               15      73.3176      79.2465
+  267 Xanomeline Low Dose               16      68.8894      81.9439
+  268 Xanomeline Low Dose               17      62.6807      73.8193
+  269 Xanomeline Low Dose               18      78.1469      90.8531
+  270 Xanomeline Low Dose               19      52.4980      79.5020
+  271 Xanomeline Low Dose               20           NA           NA
+  272 Xanomeline Low Dose               21           NA           NA
+  273 Xanomeline Low Dose               22      38.8814     115.1186
+  274 Xanomeline Low Dose               24    -124.7400     243.7400
+  275 Xanomeline Low Dose               26           NA           NA
+  276 Xanomeline Low Dose               27      66.8481      78.7309
+  277 Xanomeline Low Dose               28      72.7450      86.2550
+  278 Xanomeline Low Dose               29      72.1032      79.5635
+  279 Xanomeline Low Dose               30      72.1894      84.9535
+  280 Xanomeline Low Dose               31           NA           NA
+  281 Xanomeline Low Dose               32      66.4522      83.1478
+  282 Xanomeline Low Dose               33           NA           NA
+  283 Xanomeline Low Dose               34      73.0107      81.9893
+  284 Xanomeline Low Dose               35           NA           NA
+  285 Xanomeline Low Dose               36           NA           NA
+  286 Xanomeline Low Dose               37           NA           NA
+  287 Xanomeline Low Dose               39      46.5876      97.4124
+  288 Xanomeline Low Dose               40           NA           NA
+  289 Xanomeline Low Dose               41      64.8520      84.4814
+  290 Xanomeline Low Dose               42      66.1939      80.4061
+  291 Xanomeline Low Dose               43      70.7105      79.1156
+  292 Xanomeline Low Dose               44      68.6269      88.5160
+  293 Xanomeline Low Dose               45      34.8814     111.1186
+  294 Xanomeline Low Dose               46      62.7432      82.6854
+  295 Xanomeline Low Dose               47           NA           NA
+  296 Xanomeline Low Dose               48      28.7208     104.6125
+  297 Xanomeline Low Dose               49      37.8814     114.1186
+  298 Xanomeline Low Dose               50      40.8483     108.4850
+  299 Xanomeline Low Dose               52           NA           NA
+  300 Xanomeline Low Dose               54           NA           NA
+  301 Xanomeline Low Dose               55      36.8733      90.4601
+  302 Xanomeline Low Dose               56      67.7539      78.9128
+  303 Xanomeline Low Dose               57      73.3919      81.2444
+  304 Xanomeline Low Dose               58      65.1984      85.0516
+  305 Xanomeline Low Dose               59      68.7709      92.2291
+  306 Xanomeline Low Dose               60      57.7359      83.8641
+  307 Xanomeline Low Dose               61      68.2938      93.7062
+  308 Xanomeline Low Dose               62      34.8814     111.1186
+  309 Xanomeline Low Dose               63     -51.0620     203.0620
+  310 Xanomeline Low Dose               64      58.3244      79.0090
+  311 Xanomeline Low Dose               65           NA           NA
+  312 Xanomeline Low Dose               67           NA           NA
+  313 Xanomeline Low Dose               69      13.1752     114.8248
+  314 Xanomeline Low Dose               70           NA           NA
+  315 Xanomeline Low Dose               76      -2.2372     150.2372
+  316 Xanomeline Low Dose               77           NA           NA
+  317 Xanomeline Low Dose               81           NA           NA
+  318 Xanomeline Low Dose               82           NA           NA
+  319 Xanomeline Low Dose               83      58.5007      95.0993
+  320 Xanomeline Low Dose               84      57.0730      86.9270
+  321 Xanomeline Low Dose               85      70.4085      82.5327
+  322 Xanomeline Low Dose               86      63.3196      88.6804
+  323 Xanomeline Low Dose               87      66.0634      85.9366
+  324 Xanomeline Low Dose               88           NA           NA
+  325 Xanomeline Low Dose               90     -37.0620     217.0620
+  326 Xanomeline Low Dose               92      82.0000      82.0000
+  327 Xanomeline Low Dose               94      56.2938      81.7062
+  328 Xanomeline Low Dose              104           NA           NA
+  329 Xanomeline Low Dose              106     -25.6496     177.6496
+  330 Xanomeline Low Dose              111     -57.0620     197.0620
+  331 Xanomeline Low Dose              112      65.9531      82.0469
+  332 Xanomeline Low Dose              113      64.4146      80.1308
+  333 Xanomeline Low Dose              114      62.6773      83.8941
+  334 Xanomeline Low Dose              115      38.8814     115.1186
+  335 Xanomeline Low Dose              116           NA           NA
+  336 Xanomeline Low Dose              117      57.7419      97.5915
+  337 Xanomeline Low Dose              118           NA           NA
+  338 Xanomeline Low Dose              119      58.2938      83.7062
+  339 Xanomeline Low Dose              120      61.0952      90.9048
+  340 Xanomeline Low Dose              121           NA           NA
+  341 Xanomeline Low Dose              126           NA           NA
+  342 Xanomeline Low Dose              127           NA           NA
+  343 Xanomeline Low Dose              134           NA           NA
+  344 Xanomeline Low Dose              138           NA           NA
+  345 Xanomeline Low Dose              139           NA           NA
+  346 Xanomeline Low Dose              140      66.2016      82.2984
+  347 Xanomeline Low Dose              141      65.9631      77.4915
+  348 Xanomeline Low Dose              142           NA           NA
+  349 Xanomeline Low Dose              143           NA           NA
+  350 Xanomeline Low Dose              144           NA           NA
+  351 Xanomeline Low Dose              145     -80.4745     224.4745
+  352 Xanomeline Low Dose              146      56.6959      88.6374
+  353 Xanomeline Low Dose              147     -17.9434     159.9434
+  354 Xanomeline Low Dose              153           NA           NA
+  355 Xanomeline Low Dose              164           NA           NA
+  356 Xanomeline Low Dose              166     -80.4745     224.4745
+  357 Xanomeline Low Dose              167      51.7104     104.2896
+  358 Xanomeline Low Dose              168      73.0317      82.9683
+  359 Xanomeline Low Dose              169      72.3039      87.0294
+  360 Xanomeline Low Dose              170      24.1752     125.8248
+  361 Xanomeline Low Dose              173           NA           NA
+  362 Xanomeline Low Dose              174     -58.9151     207.9151
+  363 Xanomeline Low Dose              176      42.0854     112.5813
+  364 Xanomeline Low Dose              180           NA           NA
+  365 Xanomeline Low Dose              181      66.0634      85.9366
+  366 Xanomeline Low Dose              183      67.9936      84.0064
+  367 Xanomeline Low Dose              184      58.0634      77.9366
+  368 Xanomeline Low Dose              185     -21.9434     155.9434
+  369 Xanomeline Low Dose              186           NA           NA
+  370 Xanomeline Low Dose              187           NA           NA
+  371 Xanomeline Low Dose              188           NA           NA
+  372 Xanomeline Low Dose              190      58.1841     109.8159
+  373 Xanomeline Low Dose              191           NA           NA
+  374 Xanomeline Low Dose              193           NA           NA
+  375 Xanomeline Low Dose              197           NA           NA
+  376 Xanomeline Low Dose              198           NA           NA
+  377 Xanomeline Low Dose              213           NA           NA
+
+Number of observations: 377

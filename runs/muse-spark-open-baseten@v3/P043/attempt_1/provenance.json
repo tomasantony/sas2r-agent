@@ -1,0 +1,68 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P043",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-baseten@v3",
+ "recorded_at": "2026-10-30T01:46:33",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 3964,
+  "output_tokens": 5808,
+  "reasoning_tokens": 1133,
+  "finish_reason": "stop",
+  "seconds": 19.9
+ },
+ "inputs": {
+  "prompt_translate.md": "592462d59a1a4dc232dab8df02cf9d7191c632a865df899d6805473dee0df567"
+ },
+ "model_output": {
+  "response.md": "bd41d46b97425aee2462a79338ac1fe56f3825c85ed32137b97259984683f3ea",
+  "reasoning.md": "abe9452e30dda3714f28d06f962d3af22cea3a9027b8bffa9b20d4ae77823055",
+  "script.R": "001d3385a5d1f98dc000c1304996a7a5facdfbe343116b959d294b8f9a6a560e"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 3.3,
+  "timed_out": false,
+  "log_sha256": "a8879593fd8babe68f7ee91063497a32f4c1b88e6372b27b6cca93f8132b81e7"
+ },
+ "r_outputs": {
+  "high.csv": "3a8dfe4ae1c952ccd1f91db305aec78ccd6a44366f8359baf3653d360751e6a8",
+  "low.csv": "6da727b3d73d52473403c440d478ec124bed1e6ef7dc48f84789f44a663f99a8",
+  "sgrender.csv": "b024f66bd3f08ce9ab705b16aa42f33d0f316eccb1dc4330c65102d87182a2c6",
+  "sgrender.png": "dd71ceb5c042c2f04e7579372bc79c95aadb8bd2e52d906026ede3e44a6fdf7d",
+  "sgrender.txt": "1f529694bfbeb758325173edd4e99f0fb72faa7f643e50ed19e5bc2e35882ec1",
+  "start.csv": "b024f66bd3f08ce9ab705b16aa42f33d0f316eccb1dc4330c65102d87182a2c6"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P043/SGRender.png",
+   "sha256": "04f69503d5218c8fc78e53f90d229f6ca554e0e419a94832193f96e7d596c660",
+   "frozen_sha256": "04f69503d5218c8fc78e53f90d229f6ca554e0e419a94832193f96e7d596c660",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

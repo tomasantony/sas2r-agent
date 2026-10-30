@@ -1,0 +1,40 @@
+The Round-To-Even Function
+
+Comparison of ROUND and ROUNDE (round-to-even) functions
+--------------------------------------------------------
+x          Round(x)     RoundE(x)   
+----------------------------------
+0          0            0           
+0.25       0            0           
+0.5        1            0           
+0.75       1            1           
+1          1            1           
+1.25       1            1           
+1.5        2            2           
+1.75       2            2           
+2          2            2           
+2.25       2            2           
+2.5        3            2           
+2.75       3            3           
+3          3            3           
+3.25       3            3           
+3.5        4            4           
+
+Lengths of circuit boards for Lot 1 - Rounded to nearest 0.1
+------------------------------------------------------------
+PROC MEANS: Sum and Mean (ndec=3)
+Variable                           N        Sum       Mean
+------------------------------------------------------------
+Length (True values)             425    429.530      1.011
+Round (Rounded values)           425    432.800      1.018
+RoundEven (Round-to-even values)        425    430.800      1.014
+
+PROC MEANS: Proportion rounded up (ndec=3)
+Variable                                          N       Mean
+-----------------------------------------------------------------
+RoundUp                                         425      0.560
+  Label: Proportion rounded up for ROUND
+RoundEvenUp                                     425      0.513
+  Label: Proportion rounded up for ROUNDE
+
+Note: ROUND = traditional half away from zero; ROUNDE = round half to even.

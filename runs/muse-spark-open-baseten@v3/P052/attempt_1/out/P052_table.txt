@@ -1,0 +1,5 @@
+P052 - Range Table
+ min_base max_base min_aval max_aval min max column_numbers row_numbers
+       40       98       41       90  40  98              2           1
+ count_study
+           1

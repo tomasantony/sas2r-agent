@@ -1,0 +1,31 @@
+sandbox: docker run --rm --name sas2r-7d427b93e1ee --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten@v3\P076\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading: /bench/data/raw/own-synthetic/adam/adsl.sas7bdat 
+Reading: /bench/data/raw/own-synthetic/adam/adae.sas7bdat 
+ADSL rows: 240 cols: 44 
+ADAE rows: 345 cols: 38 
+ae_list rows after join/filter/sort: 345 
+Wrote CSV: /work/out/l_ae.csv rows: 345 
+Wrote TXT: /work/out/l_ae.txt 
+Wrote RTF (text): /work/out/l_ae.rtf 
+P076 l_ae completed. Rows: 345 Pages: 3 
+Outputs in: /work/out 
+               TRTA       USUBJID                         SOC
+20 Drug X High Dose SYN001-001012    NERVOUS SYSTEM DISORDERS
+19 Drug X High Dose SYN001-001012 INFECTIONS AND INFESTATIONS
+93 Drug X High Dose SYN001-001066    NERVOUS SYSTEM DISORDERS
+                                  PT                          VERBATIM
+20                          Headache                          HEADACHE
+19 Upper respiratory tract infection UPPER RESPIRATORY TRACT INFECTION
+93                          Headache                          HEADACHE
+   START_DATE   END_DATE CTCAE_GRADE severity_d serious_d rel_d
+20 2025-04-25 2025-05-05           3   Moderate        No     Y
+19 2025-05-24 2025-05-30           3     Severe        No     Y
+93 2025-06-04 2025-06-14           4     Severe        No     N
+           action_d outcome_d
+20 Drug Interrupted  Resolved
+19 Dose Not Changed  Resolved
+93   Drug Withdrawn  Resolved
+          used (Mb) gc trigger (Mb) max used (Mb)
+Ncells  789808 42.2    1286247 68.7  1286247 68.7
+Vcells 1337227 10.3    8388608 64.0  2124316 16.3
+NOTE: l_ae.sas completed successfully (R translation).

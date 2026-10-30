@@ -1,0 +1,30 @@
+Figure 11.1 Scatterplot
+=======================
+
+LLN = 135
+ULN = 145
+
+N observations plotted: 246
+Treatments: Placebo, Xanomeline High Dose, Xanomeline Low Dose
+
+Reference lines:
+  Horizontal y=ULN (145) blue dashed
+  Horizontal y=LLN (135) red dashed
+  Vertical   x=LLN (135) red dashed
+  Vertical   x=ULN (145) blue dashed
+  Diagonal y=x (45-degree reference line) grey solid
+
+Data preview (first 10 rows):
+# A tibble: 10 × 9
+   USUBJID     TRTAN TRTA                 PARAMCD PARAM   AVAL  BASE  A1LO  A1HI
+   <chr>       <dbl> <chr>                <chr>   <chr>  <dbl> <dbl> <dbl> <dbl>
+ 1 01-701-1015     0 Placebo              SODIUM  Sodiu…   140   140   135   145
+ 2 01-701-1023     0 Placebo              SODIUM  Sodiu…   141   142   135   145
+ 3 01-701-1028    81 Xanomeline High Dose SODIUM  Sodiu…   140   139   135   145
+ 4 01-701-1033    54 Xanomeline Low Dose  SODIUM  Sodiu…   140   145   135   145
+ 5 01-701-1034    81 Xanomeline High Dose SODIUM  Sodiu…   134   138   135   145
+ 6 01-701-1047     0 Placebo              SODIUM  Sodiu…   142   144   135   145
+ 7 01-701-1097    54 Xanomeline Low Dose  SODIUM  Sodiu…   136   134   135   145
+ 8 01-701-1111    54 Xanomeline Low Dose  SODIUM  Sodiu…   138   137   135   145
+ 9 01-701-1115    54 Xanomeline Low Dose  SODIUM  Sodiu…   141   139   135   145
+10 01-701-1118     0 Placebo              SODIUM  Sodiu…   142   141   132   147

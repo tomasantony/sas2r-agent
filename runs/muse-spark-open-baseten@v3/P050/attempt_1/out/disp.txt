@@ -1,0 +1,49 @@
+Subject Disposition (disp)
+Source: /bench/data/raw/cdisc-pilot/adam/adsl.xpt
+
+trt01an=0 N=86
+trt01an=54 N=84
+trt01an=81 N=84
+trt01an=999 N=254
+
+col1                                     trt01an   trt01a        cnt nper
+-------------------------------------------------------------------------
+Completed the study                           0  Placebo         58  58( 67.4)
+Discontinued                                  0  Placebo         28  28( 32.6)
+  Adverse Event                               0  Placebo          8   8(  9.3)
+  Death                                       0  Placebo          2   2(  2.3)
+  I/E Not Met                                 0  Placebo          1   1(  1.2)
+  Lack of Efficacy                            0  Placebo          3   3(  3.5)
+  Lost to Follow-up                           0  Placebo          1   1(  1.2)
+  Physician Decision                          0  Placebo          1   1(  1.2)
+  Protocol Violation                          0  Placebo          1   1(  1.2)
+  Sponsor Decision                            0  Placebo          2   2(  2.3)
+  Withdrew Consent                            0  Placebo          9   9( 10.5)
+Completed the study                          54 Xanomeline Low Dose         25  25( 29.8)
+Discontinued                                 54 Xanomeline Low Dose         59  59( 70.2)
+  Adverse Event                              54 Xanomeline Low Dose         44  44( 52.4)
+  Death                                      54 Xanomeline Low Dose          1   1(  1.2)
+  Lost to Follow-up                          54 Xanomeline Low Dose          1   1(  1.2)
+  Protocol Violation                         54 Xanomeline Low Dose          1   1(  1.2)
+  Sponsor Decision                           54 Xanomeline Low Dose          2   2(  2.4)
+  Withdrew Consent                           54 Xanomeline Low Dose         10  10( 11.9)
+Completed the study                          81 Xanomeline High Dose         27  27( 32.1)
+Discontinued                                 81 Xanomeline High Dose         57  57( 67.9)
+  Adverse Event                              81 Xanomeline High Dose         40  40( 47.6)
+  I/E Not Met                                81 Xanomeline High Dose          2   2(  2.4)
+  Lack of Efficacy                           81 Xanomeline High Dose          1   1(  1.2)
+  Physician Decision                         81 Xanomeline High Dose          2   2(  2.4)
+  Protocol Violation                         81 Xanomeline High Dose          1   1(  1.2)
+  Sponsor Decision                           81 Xanomeline High Dose          3   3(  3.6)
+  Withdrew Consent                           81 Xanomeline High Dose          8   8(  9.5)
+Completed the study                         999    Total        110 110( 43.3)
+Discontinued                                999    Total        144 144( 56.7)
+  Adverse Event                             999    Total         92  92( 36.2)
+  Death                                     999    Total          3   3(  1.2)
+  I/E Not Met                               999    Total          3   3(  1.2)
+  Lack of Efficacy                          999    Total          4   4(  1.6)
+  Lost to Follow-up                         999    Total          2   2(  0.8)
+  Physician Decision                        999    Total          3   3(  1.2)
+  Protocol Violation                        999    Total          3   3(  1.2)
+  Sponsor Decision                          999    Total          7   7(  2.8)
+  Withdrew Consent                          999    Total         27  27( 10.6)

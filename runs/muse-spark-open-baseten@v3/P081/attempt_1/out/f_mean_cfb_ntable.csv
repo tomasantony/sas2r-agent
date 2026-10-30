@@ -1,0 +1,10 @@
+"TRTA","TRTAN","AVISIT","AVISITN","n"
+"Placebo",1,"Week4",4,85
+"Placebo",1,"Week8",8,83
+"Placebo",1,"Week12",12,81
+"Drug X Low Dose",2,"Week4",4,75
+"Drug X Low Dose",2,"Week8",8,75
+"Drug X Low Dose",2,"Week12",12,74
+"Drug X High Dose",3,"Week4",4,59
+"Drug X High Dose",3,"Week8",8,59
+"Drug X High Dose",3,"Week12",12,59

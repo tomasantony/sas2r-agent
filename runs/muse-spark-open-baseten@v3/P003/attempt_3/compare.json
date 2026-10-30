@@ -1,0 +1,37 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.41346153846153844,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P003.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.41346153846153844,
+   "detail": {
+    "recall": 0.41346153846153844,
+    "expected": 104,
+    "found": 43,
+    "r_files": [
+     "DENOM.csv",
+     "F1PT.csv",
+     "F1SOC.csv",
+     "F1SUB.csv",
+     "F2PT.csv",
+     "F2SOC.csv",
+     "F2SUB.csv",
+     "P003.csv",
+     "P003.txt",
+     "RESULTPT.csv",
+     "RESULTSOC.csv",
+     "RESULTSUB.csv"
+    ],
+    "missing_examples": [
+     "86",
+     "100"
+    ]
+   }
+  }
+ ]
+}

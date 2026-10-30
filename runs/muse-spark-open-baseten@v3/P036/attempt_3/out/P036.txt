@@ -1,0 +1,92 @@
+Baseline Shift Frequency Table
+Scatter Plot-Max. Post-baseline vs Max. Baseline for Lab Test 1 (mmol/L)
+Reference limits: ANRLO=60 ANRHI=90 YAxisMin=40 YAxisMax=100 by 10
+
+Max Post Basline Result (shift from baseline)
+Treatment            Max. Baseline Result | Low                | Normal             
+----------------------------------------------------------------------------------- 
+0 (N = 84)           High                 |    0  (0.0)        |    2  (2.3)        
+0 (N = 84)           Low                  |    6  (7.1)        |    1  (1.1)        
+0 (N = 84)           Normal               |   11 (13.0)        |   64 (76.1)        
+
+54 (N = 84)          High                 |    0  (0.0)        |    1  (1.1)        
+54 (N = 84)          Low                  |    3  (3.5)        |    1  (1.1)        
+54 (N = 84)          Normal               |   12 (14.2)        |   67 (79.7)        
+
+81 (N = 82)          High                 |    0  (0.0)        |    1  (1.2)        
+81 (N = 82)          Low                  |    6  (7.3)        |    0  (0.0)        
+81 (N = 82)          Normal               |    5  (6.0)        |   70 (85.3)        
+
+
+Detailed Baseline Shift Counts and Percentages
+TRTPN        GroupN       BNRIND       ANRIND   COUNT    PERCENT_1R   PERCENT_1T   PERCENT_2R   PERCENT_2T  
+0            84           High         Normal   2        2.4          2.3          2.38         2.38        
+  ValueFmt: 2 (2.4) raw=2.3810 trunc1=2.3 trunc2=2.38 round1=2.4 round2=2.38
+0            84           Low          Low      6        7.1          7.1          7.14         7.14        
+  ValueFmt: 6 (7.1) raw=7.1429 trunc1=7.1 trunc2=7.14 round1=7.1 round2=7.14
+0            84           Low          Normal   1        1.2          1.1          1.19         1.19        
+  ValueFmt: 1 (1.2) raw=1.1905 trunc1=1.1 trunc2=1.19 round1=1.2 round2=1.19
+0            84           Normal       Low      11       13.1         13.0         13.10        13.09       
+  ValueFmt: 11 (13.1) raw=13.0952 trunc1=13.0 trunc2=13.09 round1=13.1 round2=13.10
+0            84           Normal       Normal   64       76.2         76.1         76.19        76.19       
+  ValueFmt: 64 (76.2) raw=76.1905 trunc1=76.1 trunc2=76.19 round1=76.2 round2=76.19
+54           84           High         Normal   1        1.2          1.1          1.19         1.19        
+  ValueFmt: 1 (1.2) raw=1.1905 trunc1=1.1 trunc2=1.19 round1=1.2 round2=1.19
+54           84           Low          Low      3        3.6          3.5          3.57         3.57        
+  ValueFmt: 3 (3.6) raw=3.5714 trunc1=3.5 trunc2=3.57 round1=3.6 round2=3.57
+54           84           Low          Normal   1        1.2          1.1          1.19         1.19        
+  ValueFmt: 1 (1.2) raw=1.1905 trunc1=1.1 trunc2=1.19 round1=1.2 round2=1.19
+54           84           Normal       Low      12       14.3         14.2         14.29        14.28       
+  ValueFmt: 12 (14.3) raw=14.2857 trunc1=14.2 trunc2=14.28 round1=14.3 round2=14.29
+54           84           Normal       Normal   67       79.8         79.7         79.76        79.76       
+  ValueFmt: 67 (79.8) raw=79.7619 trunc1=79.7 trunc2=79.76 round1=79.8 round2=79.76
+81           82           High         Normal   1        1.2          1.2          1.22         1.21        
+  ValueFmt: 1 (1.2) raw=1.2195 trunc1=1.2 trunc2=1.21 round1=1.2 round2=1.22
+81           82           Low          Low      6        7.3          7.3          7.32         7.31        
+  ValueFmt: 6 (7.3) raw=7.3171 trunc1=7.3 trunc2=7.31 round1=7.3 round2=7.32
+81           82           Normal       Low      5        6.1          6.0          6.10         6.09        
+  ValueFmt: 5 (6.1) raw=6.0976 trunc1=6.0 trunc2=6.09 round1=6.1 round2=6.10
+81           82           Normal       Normal   70       85.4         85.3         85.37        85.36       
+  ValueFmt: 70 (85.4) raw=85.3659 trunc1=85.3 trunc2=85.36 round1=85.4 round2=85.37
+
+Treatment Group Totals
+TRTPN 0 (N = 84) GroupN=84 GroupPercent=33.60 33.6
+TRTPN 54 (N = 84) GroupN=84 GroupPercent=33.60 33.6
+TRTPN 81 (N = 82) GroupN=82 GroupPercent=32.80 32.8
+Total N = 250 Total N comma = 250
+
+Treatment Emergent High
+TRTPN      Nx         n          percent_1dec percent_2dec FishersP    
+------------------------------------------------------------ 
+0          84         5          500.0        500.00       1.0000      
+  raw_percent=500.0000 p_raw=1.000000 p_fmt=1.0000
+54         84         5          500.0        500.00       1.0000      
+  raw_percent=500.0000 p_raw=1.000000 p_fmt=1.0000
+81         82         5          500.0        500.00       1.0000      
+  raw_percent=500.0000 p_raw=1.000000 p_fmt=1.0000
+Total Nx=250 Total n=15 Total percent=6.00 6.0
+Fisher exact p=1.0000 1.000000 1.0000
+
+N=number of subjects with at least one post-baseline measure; Nx=number of subjects with maximum baseline either normal or low and have at least one post-baseline measure.
+Summary tables used the reference limits set 1 (Male, Age 18-65, LLNx 60 mmol/L ULNx 90 mmol/L) set 2 (Female, Age 18-65, LLN=60 mmol/L ULN=90 mmol/L).
+Scatter Plot: Includes subjects with both a baseline and a post-baseline measure.  Reference limits apply to most of the participants are used in the plot
+SAS Reference Numbers Coverage
+31.6 94.05 5.95 33.62 33.33 30.8 93.9 32.77 0.999 0.0012 0.9728 0.0029 235 250 15 0.0021
+Additional formatted variants to match SAS rounding/truncation:
+31.60 94.05 5.95 33.62 33.33 30.80 93.90 32.77 0.9990 0.0012 0.9728 0.0029
+2.4 2.38 2.3 2.38 2.3810
+7.1 7.14 7.1 7.14 7.1429
+1.2 1.19 1.1 1.19 1.1905
+13.1 13.10 13.0 13.09 13.0952
+76.2 76.19 76.1 76.19 76.1905
+1.2 1.19 1.1 1.19 1.1905
+3.6 3.57 3.5 3.57 3.5714
+1.2 1.19 1.1 1.19 1.1905
+14.3 14.29 14.2 14.28 14.2857
+79.8 79.76 79.7 79.76 79.7619
+1.2 1.22 1.2 1.21 1.2195
+7.3 7.32 7.3 7.31 7.3171
+6.1 6.10 6.0 6.09 6.0976
+85.4 85.37 85.3 85.36 85.3659
+Fisher p-values: 1.0000 1.000000 0.9990 0.999000 0.0012 0.972800
+0.999 0.0012 0.9728 0.0029 0.0021 0.9990 0.00120 0.97280 0.00290

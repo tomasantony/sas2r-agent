@@ -1,0 +1,26 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "dataset",
+   "name": "disp",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten@v3\\P050\\attempt_2\\out\\disp.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 39,
+    "rows_r": 39,
+    "cols_sas": 6,
+    "cols_r": 6,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  }
+ ]
+}

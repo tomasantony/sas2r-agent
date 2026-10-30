@@ -1,0 +1,38 @@
+sandbox: docker run --rm --name sas2r-b424b9a54d90 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten@v3\P046\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Using advs_path: /bench/data/raw/cdisc-pilot/adam/advs.xpt 
+Error in `mutate()`:
+ℹ In argument: `across(where(haven::is_labelled), haven::zap_labels)`.
+Caused by error in `across()`:
+ℹ In argument: `where(haven::is_labelled)`.
+Caused by error:
+! 'is_labelled' is not an exported object from 'namespace:haven'
+Backtrace:
+     ▆
+  1. ├─... %>% mutate(across(where(is.factor), as.character))
+  2. ├─dplyr::mutate(., across(where(is.factor), as.character))
+  3. ├─dplyr::mutate(., across(where(haven::is_labelled), haven::zap_label))
+  4. ├─dplyr::mutate(., across(where(haven::is_labelled), haven::zap_labels))
+  5. ├─dplyr:::mutate.data.frame(., across(where(haven::is_labelled), haven::zap_labels))
+  6. │ └─dplyr:::mutate_cols(.data, dplyr_quosures(...), by)
+  7. │   ├─base::withCallingHandlers(...)
+  8. │   └─dplyr:::mutate_col(dots[[i]], data, mask, new_columns)
+  9. │     └─dplyr:::expand_across(dot)
+ 10. │       └─dplyr:::across_setup(...)
+ 11. │         └─tidyselect::eval_select(cols, data = data, error_call = error_call)
+ 12. │           └─tidyselect:::eval_select_impl(...)
+ 13. │             ├─tidyselect:::with_subscript_errors(...)
+ 14. │             │ └─base::withCallingHandlers(...)
+ 15. │             └─tidyselect:::vars_select_eval(...)
+ 16. │               └─tidyselect:::walk_data_tree(expr, data_mask, context_mask)
+ 17. │                 └─tidyselect:::eval_context(expr, context_mask, call = error_call)
+ 18. │                   ├─tidyselect:::with_chained_errors(...)
+ 19. │                   │ └─base::withCallingHandlers(...)
+ 20. │                   └─rlang::eval_tidy(as_quosure(expr, env), context_mask)
+ 21. ├─tidyselect::where(haven::is_labelled)
+ 22. │ └─rlang::as_function(fn)
+ 23. │   └─rlang::is_function(x)
+ 24. └─base::.handleSimpleError(...)
+ 25.   └─tidyselect (local) h(simpleError(msg, call))
+ 26.     └─cli::cli_abort(c(i = msg), call = call, parent = cnd)
+ 27.       └─rlang::abort(...)
+Execution halted

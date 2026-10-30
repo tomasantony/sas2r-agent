@@ -1,0 +1,107 @@
+The SAS System
+
+PROC CONTENTS DATA=ADLB VARNUM;
+----------------------------------------------------------------
+Num  Variable     Type   Len  Format     Label
+-------------------------------------------------------------------------------- 
+1    STUDYID      Char   7               Study Identifier
+2    USUBJID      Char   12              Unique Subject Identifier
+3    ASEQ         Num    8               Analysis Sequence Number
+4    LBSEQ        Num    8               
+5    PARAMCD      Char   5               Parameter Code
+6    PARAM        Char   26              Parameter
+7    PARAMN       Num    8               Parameter (N)
+8    PARCAT1      Char   9               Parameter Category 1
+9    AVAL         Num    8               Analysis Value
+10   AVALU        Char   5               Analysis Value Unit
+11   BASE         Num    8               Baseline Value
+12   CHG          Num    8               Change from Baseline
+13   PCHG         Num    8               Percent Change from Baseline
+14   ADT          Num    8    DATE9.     Analysis Date
+15   ADY          Num    8               Analysis Relative Day
+16   AVISIT       Char   8               Analysis Visit
+17   AVISITN      Num    8               Analysis Visit (N)
+18   ABLFL        Char   1               Baseline Record Flag
+19   ANL01FL      Char   1               Analysis Record Flag 01
+20   ANRLO        Num    8               Analysis Normal Range Lower Limit
+21   ANRHI        Num    8               Analysis Normal Range Upper Limit
+22   ANRIND       Char   6               Analysis Normal Range Indicator
+23   BNRIND       Char   6               Baseline Normal Range Indicator
+24   SHIFT1       Char   16              Shift 1
+25   R2A1HI       Num    8               Ratio to Analysis Range 1 Upper Limit
+26   BR2A1HI      Num    8               Baseline Ratio to Analysis Range 1 Upper Limit
+27   A1LO         Num    8               
+28   A1HI         Num    8               
+29   ANRIND2      Char   6               
+30   TRTP         Char   11              Planned Treatment
+31   TRTPN        Num    8               Planned Treatment (N)
+32   AGE          Num    8               
+33   SEX          Char   1               
+34   SAFFL        Char   1               Safety Population Flag
+35   TRTSDT       Num    8    DATE9.     
+36   TRTEDT       Num    8    DATE9.     
+
+PROC PRINT DATA=ADLB (OBS=20) NOOBS;
+----------------------------------------------------------------
+STUDYID | USUBJID | ASEQ | LBSEQ | PARAMCD | PARAM | PARAMN | PARCAT1 | AVAL | AVALU | BASE | CHG | PCHG | ADT | ADY | AVISIT | AVISITN | ABLFL | ANL01FL | ANRLO | ANRHI | ANRIND | BNRIND | SHIFT1 | R2A1HI | BR2A1HI | A1LO | A1HI | ANRIND2 | TRTP | TRTPN | AGE | SEX | SAFFL | TRTSDT | TRTEDT 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+STUDY01 | STUDY01-1001 | 1 | 1 | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 24 | U/L |  |  |  | 2024-01-15 | 1 | Baseline | 1 |  |  | 7 | 56 | NORMAL |  |  | 0.428571428571429 |  | 7 | 56 | NORMAL | Treatment A | 1 | 59 | M | Y | 2024-01-15 | 2024-06-15 
+STUDY01 | STUDY01-1001 | 2 | 4 | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 28 | U/L |  |  |  | 2024-02-12 | 29 | Week 4 | 2 |  | Y | 7 | 56 | NORMAL |  |  | 0.5 |  | 7 | 56 | NORMAL | Treatment A | 1 | 59 | M | Y | 2024-01-15 | 2024-06-15 
+STUDY01 | STUDY01-1001 | 3 | 6 | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 32 | U/L |  |  |  | 2024-03-11 | 57 | Week 8 | 3 |  | Y | 7 | 56 | NORMAL |  |  | 0.571428571428571 |  | 7 | 56 | NORMAL | Treatment A | 1 | 59 | M | Y | 2024-01-15 | 2024-06-15 
+STUDY01 | STUDY01-1001 | 4 | 2 | AST | Aspartate Aminotransferase | 2 | CHEMISTRY | 26 | U/L |  |  |  | 2024-01-15 | 1 | Baseline | 1 |  |  | 10 | 40 | NORMAL |  |  | 0.65 |  | 10 | 40 | NORMAL | Treatment A | 1 | 59 | M | Y | 2024-01-15 | 2024-06-15 
+STUDY01 | STUDY01-1001 | 5 | 5 | AST | Aspartate Aminotransferase | 2 | CHEMISTRY | 30 | U/L |  |  |  | 2024-02-12 | 29 | Week 4 | 2 |  | Y | 10 | 40 | NORMAL |  |  | 0.75 |  | 10 | 40 | NORMAL | Treatment A | 1 | 59 | M | Y | 2024-01-15 | 2024-06-15 
+STUDY01 | STUDY01-1001 | 6 | 3 | CREAT | Creatinine | 5 | CHEMISTRY | 0.9 | mg/dL | 0.9 | 0 | 0 | 2024-01-15 | 1 | Baseline | 1 | Y |  | 0.7 | 1.3 | NORMAL | NORMAL | NORMAL to NORMAL | 0.692307692307692 | 0.692307692307692 | 0.7 | 1.3 | NORMAL | Treatment A | 1 | 59 | M | Y | 2024-01-15 | 2024-06-15 
+STUDY01 | STUDY01-1002 | 1 | 1 | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 18 | U/L |  |  |  | 2024-01-18 | 1 | Baseline | 1 |  |  | 7 | 56 | NORMAL |  |  | 0.321428571428571 |  | 7 | 56 | NORMAL | Placebo | 2 | 45 | F | Y | 2024-01-18 | 2024-06-18 
+STUDY01 | STUDY01-1002 | 2 | 2 | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 20 | U/L |  |  |  | 2024-02-15 | 29 | Week 4 | 2 |  | Y | 7 | 56 | NORMAL |  |  | 0.357142857142857 |  | 7 | 56 | NORMAL | Placebo | 2 | 45 | F | Y | 2024-01-18 | 2024-06-18 
+STUDY01 | STUDY01-1003 | 1 | 1 | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 35 | U/L |  |  |  | 2024-01-20 | 1 | Baseline | 1 |  |  | 7 | 56 | NORMAL |  |  | 0.625 |  | 7 | 56 | NORMAL | Treatment A | 1 | 43 | M | Y | 2024-01-20 | 2024-04-01 
+STUDY01 | STUDY01-1003 | 2 | 2 | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 95 | U/L |  |  |  | 2024-02-17 | 29 | Week 4 | 2 |  | Y | 7 | 56 | HIGH |  |  | 1.69642857142857 |  | 7 | 56 | HIGH | Treatment A | 1 | 43 | M | Y | 2024-01-20 | 2024-04-01 
+STUDY01 | STUDY01-1003 | 3 | 3 | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 180 | U/L |  |  |  | 2024-03-15 | 56 | Week 8 | 3 |  | Y | 7 | 56 | HIGH |  |  | 3.21428571428571 |  | 7 | 56 | >3xULN | Treatment A | 1 | 43 | M | Y | 2024-01-20 | 2024-04-01 
+STUDY01 | STUDY01-1004 | 1 | 1 | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 20 | U/L | 20 | 0 | 0 | 2024-01-25 | 1 | Baseline | 1 | Y |  | 7 | 56 | NORMAL | NORMAL | NORMAL to NORMAL | 0.357142857142857 | 0.357142857142857 | 7 | 56 | NORMAL | Treatment A | 1 | 51 | F | Y | 2024-01-25 | 2024-06-25 
+STUDY01 | STUDY01-1005 | 1 | 1 | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 19 | U/L | 19 | 0 | 0 | 2024-01-28 | 1 | Baseline | 1 | Y |  | 7 | 56 | NORMAL | NORMAL | NORMAL to NORMAL | 0.339285714285714 | 0.339285714285714 | 7 | 56 | NORMAL | Placebo | 2 | 36 | M | Y | 2024-01-28 |  
+STUDY01 | STUDY01-1006 | 1 | 1 | ALT | Alanine Aminotransferase | 1 | CHEMISTRY | 30 | U/L | 30 | 0 | 0 | 2024-01-30 | 1 | Baseline | 1 | Y |  | 7 | 56 | NORMAL | NORMAL | NORMAL to NORMAL | 0.535714285714286 | 0.535714285714286 | 7 | 56 | NORMAL | Treatment A | 1 | 68 | F | Y | 2024-01-30 | 2024-07-01 
+
+Detailed Listing with DATE9. formatting
+----------------------------------------------------------------
+STUDYID=STUDY01 USUBJID=STUDY01-1001 ASEQ=1 LBSEQ=1 PARAMCD=ALT PARAMN=1 AVAL=24 BASE= CHG= PCHG= ADT=15JAN2024 ADY=1 AVISITN=1 ANRLO=7 ANRHI=56 R2A1HI=0.4286 BR2A1HI= TRTPN=1 AGE=59 TRTSDT=15JAN2024 TRTEDT=15JUN2024 ABLFL= ANL01FL=
+STUDYID=STUDY01 USUBJID=STUDY01-1001 ASEQ=2 LBSEQ=4 PARAMCD=ALT PARAMN=1 AVAL=28 BASE= CHG= PCHG= ADT=12FEB2024 ADY=29 AVISITN=2 ANRLO=7 ANRHI=56 R2A1HI=0.5000 BR2A1HI= TRTPN=1 AGE=59 TRTSDT=15JAN2024 TRTEDT=15JUN2024 ABLFL= ANL01FL=Y
+STUDYID=STUDY01 USUBJID=STUDY01-1001 ASEQ=3 LBSEQ=6 PARAMCD=ALT PARAMN=1 AVAL=32 BASE= CHG= PCHG= ADT=11MAR2024 ADY=57 AVISITN=3 ANRLO=7 ANRHI=56 R2A1HI=0.5714 BR2A1HI= TRTPN=1 AGE=59 TRTSDT=15JAN2024 TRTEDT=15JUN2024 ABLFL= ANL01FL=Y
+STUDYID=STUDY01 USUBJID=STUDY01-1001 ASEQ=4 LBSEQ=2 PARAMCD=AST PARAMN=2 AVAL=26 BASE= CHG= PCHG= ADT=15JAN2024 ADY=1 AVISITN=1 ANRLO=10 ANRHI=40 R2A1HI=0.6500 BR2A1HI= TRTPN=1 AGE=59 TRTSDT=15JAN2024 TRTEDT=15JUN2024 ABLFL= ANL01FL=
+STUDYID=STUDY01 USUBJID=STUDY01-1001 ASEQ=5 LBSEQ=5 PARAMCD=AST PARAMN=2 AVAL=30 BASE= CHG= PCHG= ADT=12FEB2024 ADY=29 AVISITN=2 ANRLO=10 ANRHI=40 R2A1HI=0.7500 BR2A1HI= TRTPN=1 AGE=59 TRTSDT=15JAN2024 TRTEDT=15JUN2024 ABLFL= ANL01FL=Y
+STUDYID=STUDY01 USUBJID=STUDY01-1001 ASEQ=6 LBSEQ=3 PARAMCD=CREAT PARAMN=5 AVAL=0.9 BASE=0.9 CHG=0 PCHG=0.00 ADT=15JAN2024 ADY=1 AVISITN=1 ANRLO=0.7 ANRHI=1.3 R2A1HI=0.6923 BR2A1HI=0.6923 TRTPN=1 AGE=59 TRTSDT=15JAN2024 TRTEDT=15JUN2024 ABLFL=Y ANL01FL=
+STUDYID=STUDY01 USUBJID=STUDY01-1002 ASEQ=1 LBSEQ=1 PARAMCD=ALT PARAMN=1 AVAL=18 BASE= CHG= PCHG= ADT=18JAN2024 ADY=1 AVISITN=1 ANRLO=7 ANRHI=56 R2A1HI=0.3214 BR2A1HI= TRTPN=2 AGE=45 TRTSDT=18JAN2024 TRTEDT=18JUN2024 ABLFL= ANL01FL=
+STUDYID=STUDY01 USUBJID=STUDY01-1002 ASEQ=2 LBSEQ=2 PARAMCD=ALT PARAMN=1 AVAL=20 BASE= CHG= PCHG= ADT=15FEB2024 ADY=29 AVISITN=2 ANRLO=7 ANRHI=56 R2A1HI=0.3571 BR2A1HI= TRTPN=2 AGE=45 TRTSDT=18JAN2024 TRTEDT=18JUN2024 ABLFL= ANL01FL=Y
+STUDYID=STUDY01 USUBJID=STUDY01-1003 ASEQ=1 LBSEQ=1 PARAMCD=ALT PARAMN=1 AVAL=35 BASE= CHG= PCHG= ADT=20JAN2024 ADY=1 AVISITN=1 ANRLO=7 ANRHI=56 R2A1HI=0.6250 BR2A1HI= TRTPN=1 AGE=43 TRTSDT=20JAN2024 TRTEDT=01APR2024 ABLFL= ANL01FL=
+STUDYID=STUDY01 USUBJID=STUDY01-1003 ASEQ=2 LBSEQ=2 PARAMCD=ALT PARAMN=1 AVAL=95 BASE= CHG= PCHG= ADT=17FEB2024 ADY=29 AVISITN=2 ANRLO=7 ANRHI=56 R2A1HI=1.6964 BR2A1HI= TRTPN=1 AGE=43 TRTSDT=20JAN2024 TRTEDT=01APR2024 ABLFL= ANL01FL=Y
+STUDYID=STUDY01 USUBJID=STUDY01-1003 ASEQ=3 LBSEQ=3 PARAMCD=ALT PARAMN=1 AVAL=180 BASE= CHG= PCHG= ADT=15MAR2024 ADY=56 AVISITN=3 ANRLO=7 ANRHI=56 R2A1HI=3.2143 BR2A1HI= TRTPN=1 AGE=43 TRTSDT=20JAN2024 TRTEDT=01APR2024 ABLFL= ANL01FL=Y
+STUDYID=STUDY01 USUBJID=STUDY01-1004 ASEQ=1 LBSEQ=1 PARAMCD=ALT PARAMN=1 AVAL=20 BASE=20 CHG=0 PCHG=0.00 ADT=25JAN2024 ADY=1 AVISITN=1 ANRLO=7 ANRHI=56 R2A1HI=0.3571 BR2A1HI=0.3571 TRTPN=1 AGE=51 TRTSDT=25JAN2024 TRTEDT=25JUN2024 ABLFL=Y ANL01FL=
+STUDYID=STUDY01 USUBJID=STUDY01-1005 ASEQ=1 LBSEQ=1 PARAMCD=ALT PARAMN=1 AVAL=19 BASE=19 CHG=0 PCHG=0.00 ADT=28JAN2024 ADY=1 AVISITN=1 ANRLO=7 ANRHI=56 R2A1HI=0.3393 BR2A1HI=0.3393 TRTPN=2 AGE=36 TRTSDT=28JAN2024 TRTEDT= ABLFL=Y ANL01FL=
+STUDYID=STUDY01 USUBJID=STUDY01-1006 ASEQ=1 LBSEQ=1 PARAMCD=ALT PARAMN=1 AVAL=30 BASE=30 CHG=0 PCHG=0.00 ADT=30JAN2024 ADY=1 AVISITN=1 ANRLO=7 ANRHI=56 R2A1HI=0.5357 BR2A1HI=0.5357 TRTPN=1 AGE=68 TRTSDT=30JAN2024 TRTEDT=01JUL2024 ABLFL=Y ANL01FL=
+
+Summary Statistics
+----------------------------------------------------------------
+PARAMCD=ALT ANRIND=HIGH N=2
+PARAMCD=ALT ANRIND=NORMAL N=9
+PARAMCD=AST ANRIND=NORMAL N=2
+PARAMCD=CREAT ANRIND=NORMAL N=1
+PARAMCD=ALT N=11 Mean=45.5455 SD=49.5991 Min=18.0000 Max=180.0000
+PARAMCD=AST N=2 Mean=28.0000 SD=2.8284 Min=26.0000 Max=30.0000
+PARAMCD=CREAT N=1 Mean=0.9000 SD=NA Min=0.9000 Max=0.9000
+CHG PARAMCD=ALT N=3 Mean=0.0000
+CHG PARAMCD=CREAT N=1 Mean=0.0000
+
+All AVAL values:
+24 28 32 26 30 0.9 18 20 35 95 180 20 19 30 
+All ADY values:
+1 29 57 1 29 1 1 29 1 29 56 1 1 1 
+All LBSEQ values:
+1 4 6 2 5 3 1 2 1 2 3 1 1 1 
+All PARAMN values:
+1 1 1 2 2 5 1 1 1 1 1 1 1 1 
+All AVISITN values:
+1 2 3 1 2 1 1 2 1 2 3 1 1 1 
+All ANRLO ANRHI values:
+7 10 0.7  |  56 40 1.3 
+All AGE values:
+36 43 45 51 59 68 
+Year 2024 2026 check: 2024 2026
+Counts: 14 37 9 0 10 27 15 59 1 848 64

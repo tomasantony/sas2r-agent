@@ -1,0 +1,67 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P025",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 3,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-baseten@v3",
+ "recorded_at": "2026-10-30T01:30:50",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 14992,
+  "output_tokens": 7211,
+  "reasoning_tokens": 1623,
+  "finish_reason": "stop",
+  "seconds": 20.9
+ },
+ "inputs": {
+  "prompt_translate.md": "9a6405252acdf2e25378ec0bc80ea8be86a6a2cc43fe351a2f0a35f44384179b"
+ },
+ "model_output": {
+  "response.md": "9a2a9c938fae14c9c13836ed4c442d0cd494f9d617f58acb6530ed647cc825d7",
+  "reasoning.md": "3232ba6f17ed509180b35cb1b65105b579d6ac43be3f4950771c9befe2a6fab8",
+  "script.R": "d06b42bdac5a3d632535d487c83522d02ddb2d275dcb865f4a5e56b8eb044564"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.8,
+  "timed_out": false,
+  "log_sha256": "794d832099bdca15a9587176fd894dd74ab30eeaf5a2825b98252c3e630fa431"
+ },
+ "r_outputs": {
+  "P025.csv": "d08c45dcb056c4ff634f3d212add2d1d2e554b04d056affc5c66dbbed9334804",
+  "P025.lst": "bc4d4c2b75b73c728c88935895c2d4d1ffd3e475683ca814f875ab35e3c65bac",
+  "P025.txt": "bc4d4c2b75b73c728c88935895c2d4d1ffd3e475683ca814f875ab35e3c65bac",
+  "P025_table.csv": "e31c2aaae8961271820f431deb433597a2907c5a95036abd4ec0e4bea6c457a3",
+  "sdtm_ex.csv": "d08c45dcb056c4ff634f3d212add2d1d2e554b04d056affc5c66dbbed9334804"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P025.lst",
+   "sha256": "e9cb01f389e83c4c6525d2a1fb21ab1d3f71dc052aee721975a511471b4d795b",
+   "frozen_sha256": "e9cb01f389e83c4c6525d2a1fb21ab1d3f71dc052aee721975a511471b4d795b",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.9019607843137255,
+  "produced_all": true
+ }
+}

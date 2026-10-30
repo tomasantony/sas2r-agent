@@ -1,0 +1,13 @@
+Treatment Emergent High Table
+Scatter Plot: Includes subjects with both a baseline and a post-baseline measure.  Reference limits apply to most of the participants are used in the plot
+Reference limits: ANRLO=60 ANRHI=90
+
+TRTPN      Nx         n          %          FishersP    
+------------------------------------------------------- 
+0          84         5          500.0      1.0000      
+54         84         5          500.0      1.0000      
+81         82         5          500.0      1.0000      
+
+N=number of subjects with at least one post-baseline measure; Nx=number of subjects with maximum baseline either normal or low and have at least one post-baseline measure.
+Summary tables used the reference limits set 1 (Male, Age 18-65, LLNx 60 mmol/L ULNx 90 mmol/L) set 2 (Female, Age 18-65, LLN=60 mmol/L ULN=90 mmol/L).
+Scatter Plot: Includes subjects with both a baseline and a post-baseline measure.  Reference limits apply to most of the participants are used in the plot

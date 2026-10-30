@@ -1,0 +1,68 @@
+[Sponsor Name]    Page 1 of N
+Protocol: [Protocol Number]
+
+Listing 16.2.7.2
+Listing of Serious Adverse Events
+Safety Analysis Set
+
+Study: [STUDYID]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Treatment    Subject      Age/Sex/   SOC                Preferred          Start        End          Study    Grade  Relation-    Action       Outcome      SAE                 
+             ID           Race                          Term               Date         Date         Day             ship         Taken                     Criteria            
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Drug X High  SYN001-00400 73/65/63/6 GASTROINTESTINAL D Nausea             2025-09-09   2025-09-23   166      2      Y            DRUG INTERRU RECOVERED/RE Medically important 
+Drug X High  SYN001-00401 73/65/63/6 NERVOUS SYSTEM DIS Headache           2025-07-03   2025-07-12   18       1      N            DOSE NOT CHA RECOVERED/RE Hospitalization     
+Drug X High  SYN001-00402 73/65/63/6 INVESTIGATIONS     Alanine aminotrans 2025-06-09   2025-06-28   103      4      N            DOSE NOT CHA RECOVERED/RE Medically important 
+Drug X High  SYN001-00413 73/65/63/6 INFECTIONS AND INF Upper respiratory  2025-04-05   2025-04-05   79       2      N            DOSE NOT CHA RECOVERED/RE Life-threatening    
+Drug X High  SYN001-00416 73/65/63/6 GASTROINTESTINAL D Nausea             2025-06-04   2025-06-12   20       1      Y            DRUG INTERRU RECOVERED/RE Hospitalization     
+Drug X High  SYN001-00518 73/65/63/6 INVESTIGATIONS     Alanine aminotrans 2025-06-07   2025-06-22   141      2      Y            DOSE NOT CHA RECOVERED/RE Medically important 
+
+--- Page break after Treatment: Drug X High Dose ---
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Treatment    Subject      Age/Sex/   SOC                Preferred          Start        End          Study    Grade  Relation-    Action       Outcome      SAE                 
+             ID           Race                          Term               Date         Date         Day             ship         Taken                     Criteria            
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Drug X Low D SYN001-00118 73/65/63/6 GASTROINTESTINAL D Nausea             2025-05-14   2025-06-02   2        1      N            DOSE NOT CHA RECOVERED/RE Hospitalization     
+Drug X Low D SYN001-00215 73/65/63/6 NERVOUS SYSTEM DIS Headache           2025-03-20   2025-03-28   32       1      N            DOSE NOT CHA NOT RECOVERE Hospitalization     
+Drug X Low D SYN001-00406 73/65/63/6 GASTROINTESTINAL D Nausea             2025-06-16   2025-06-28   62       1      Y            DRUG WITHDRA RECOVERED/RE Medically important 
+Drug X Low D SYN001-00406 73/65/63/6 NERVOUS SYSTEM DIS Headache           2025-07-28   2025-08-03   104      3      N            DOSE NOT CHA RECOVERED/RE Hospitalization     
+Drug X Low D SYN001-00415 73/65/63/6 MUSCULOSKELETAL AN Arthralgia         2025-06-17   2025-06-22   122      1      N            DOSE NOT CHA RECOVERED/RE Hospitalization     
+Drug X Low D SYN001-00417 73/65/63/6 INVESTIGATIONS     Alanine aminotrans 2025-06-29   2025-07-11   131      1      Y            DOSE NOT CHA RECOVERED/RE Death               
+Drug X Low D SYN001-00423 73/65/63/6 NERVOUS SYSTEM DIS Headache           2025-08-27   2025-09-06   82       3      Y            DOSE NOT CHA RECOVERED/RE Hospitalization     
+Drug X Low D SYN001-00505 73/65/63/6 INFECTIONS AND INF Upper respiratory  2025-11-12   2025-11-22   165      1      Y            DOSE NOT CHA RECOVERED/RE Hospitalization     
+Drug X Low D SYN001-00514 73/65/63/6 RESPIRATORY, THORA Cough              2025-08-23   2025-08-30   107      1      Y            DOSE NOT CHA RECOVERED/RE Hospitalization     
+Drug X Low D SYN001-00514 73/65/63/6 MUSCULOSKELETAL AN Arthralgia         2025-06-29   2025-07-06   24       2      Y            DOSE NOT CHA RECOVERED/RE Life-threatening    
+Drug X Low D SYN001-00520 73/65/63/6 GASTROINTESTINAL D Nausea             2025-04-24   2025-04-27   58       1      N            DOSE NOT CHA RECOVERED/RE Medically important 
+Drug X Low D SYN001-00521 73/65/63/6 SKIN AND SUBCUTANE Rash               2025-07-03   2025-07-04   79       1      Y            DOSE NOT CHA RECOVERED/RE Medically important 
+Drug X Low D SYN001-00522 73/65/63/6 RESPIRATORY, THORA Cough              2025-07-01   2025-07-13   90       2      N            DOSE REDUCED NOT RECOVERE Medically important 
+
+--- Page break after Treatment: Drug X Low Dose ---
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Treatment    Subject      Age/Sex/   SOC                Preferred          Start        End          Study    Grade  Relation-    Action       Outcome      SAE                 
+             ID           Race                          Term               Date         Date         Day             ship         Taken                     Criteria            
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Placebo      SYN001-00110 73/65/63/6 INVESTIGATIONS     Alanine aminotrans 2025-03-13   2025-03-18   40       3      Y            DOSE NOT CHA RECOVERED/RE Hospitalization     
+Placebo      SYN001-00110 73/65/63/6 INVESTIGATIONS     Alanine aminotrans 2025-08-10   2025-08-10   45       1      Y            DOSE NOT CHA RECOVERED/RE Hospitalization     
+Placebo      SYN001-00216 73/65/63/6 SKIN AND SUBCUTANE Rash               2025-08-20   2025-09-05   149      2      N            DOSE NOT CHA RECOVERED/RE Life-threatening, Ho
+Placebo      SYN001-00222 73/65/63/6 GASTROINTESTINAL D Nausea             2025-11-05   2025-11-13   131      2      N            DOSE NOT CHA RECOVERED/RE Hospitalization     
+Placebo      SYN001-00310 73/65/63/6 NERVOUS SYSTEM DIS Headache           2025-11-03   2025-11-17   127      2      Y            DOSE NOT CHA RECOVERED/RE Life-threatening, Ho
+Placebo      SYN001-00410 73/65/63/6 INFECTIONS AND INF Upper respiratory  2025-11-24   2025-11-27   160      1      Y            DOSE NOT CHA RECOVERED/RE Life-threatening, Ho
+Placebo      SYN001-00422 73/65/63/6 NERVOUS SYSTEM DIS Headache           2025-05-13   2025-05-27   24       1      Y            DOSE NOT CHA RECOVERED/RE Life-threatening, Ho
+Placebo      SYN001-00513 73/65/63/6 NERVOUS SYSTEM DIS Headache           2025-06-03   2025-06-14   43       1      N            DOSE REDUCED RECOVERED/RE Hospitalization     
+Placebo      SYN001-00513 73/65/63/6 SKIN AND SUBCUTANE Rash               2025-08-24   2025-08-25   115      2      N            DRUG INTERRU RECOVERED/RE Hospitalization     
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Data cutoff: [DDMONYYYY].
+Source: ADaM datasets
+Program: P079_l_sae.sas | Run: 30Oct2026 06:30
+
+Total Serious Adverse Events: 28
+Total Subjects with SAE: 27
+
+Summary by Treatment:
+  Drug X High Dose: 6 events in 6 subjects
+  Drug X Low Dose: 13 events in 12 subjects
+  Placebo: 9 events in 9 subjects

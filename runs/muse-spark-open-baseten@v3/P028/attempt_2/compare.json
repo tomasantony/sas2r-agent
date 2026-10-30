@@ -1,0 +1,64 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.8737980769230769,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P028.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9038461538461539,
+   "detail": {
+    "recall": 0.9038461538461539,
+    "expected": 52,
+    "found": 47,
+    "r_files": [
+     "P028.csv",
+     "P028.txt",
+     "tr.csv",
+     "tr.txt"
+    ],
+    "missing_examples": [
+     "-3",
+     "-103",
+     "-105"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "tr",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten@v3\\P028\\attempt_2\\out\\tr.csv",
+   "status": "mismatch",
+   "score": 0.84375,
+   "detail": {
+    "rows_sas": 4,
+    "rows_r": 4,
+    "cols_sas": 16,
+    "cols_r": 16,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.84375,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(USUBJID, 2, 'ONCO-2026-103', 'ONCO-2026-101')",
+     "(USUBJID, 3, 'ONCO-2026-103', 'ONCO-2026-101')",
+     "(USUBJID, 4, 'ONCO-2026-105', 'ONCO-2026-101')",
+     "(TRSEQ, 2, 1, '2')",
+     "(TRSEQ, 3, 2, '3')",
+     "(TRSEQ, 4, 1, '4')",
+     "(TRSTDY, 1, -3, nan)",
+     "(TRSTDY, 2, -5, nan)",
+     "(TRSTDY, 3, -5, nan)",
+     "(TRSTDY, 4, -3, nan)"
+    ],
+    "worst_columns": {
+     "TRSTDY": 4,
+     "USUBJID": 3,
+     "TRSEQ": 3
+    }
+   }
+  }
+ ]
+}

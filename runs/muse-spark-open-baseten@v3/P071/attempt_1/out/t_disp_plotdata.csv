@@ -1,0 +1,33 @@
+"TRTA","category","ord","cnt","bign","pct"
+"Drug X High Dose","Randomized",1,63,63,100
+"Drug X Low Dose","Randomized",1,82,82,100
+"Placebo","Randomized",1,95,95,100
+"Drug X High Dose","  Intent-to-Treat Set",2,63,63,100
+"Drug X Low Dose","  Intent-to-Treat Set",2,82,82,100
+"Placebo","  Intent-to-Treat Set",2,95,95,100
+"Drug X High Dose","  Safety Analysis Set",3,63,63,100
+"Drug X Low Dose","  Safety Analysis Set",3,82,82,100
+"Placebo","  Safety Analysis Set",3,95,95,100
+"Drug X High Dose","  Efficacy Analysis Set",4,60,63,95.2380952380952
+"Drug X Low Dose","  Efficacy Analysis Set",4,75,82,91.4634146341463
+"Placebo","  Efficacy Analysis Set",4,87,95,91.5789473684211
+"Drug X High Dose","  Per-Protocol Set",5,56,63,88.8888888888889
+"Drug X Low Dose","  Per-Protocol Set",5,72,82,87.8048780487805
+"Placebo","  Per-Protocol Set",5,76,95,80
+"Drug X High Dose","Completed Study",10,56,63,88.8888888888889
+"Drug X Low Dose","Completed Study",10,71,82,86.5853658536585
+"Placebo","Completed Study",10,79,95,83.1578947368421
+"Drug X High Dose","Discontinued Study",11,7,63,11.1111111111111
+"Drug X Low Dose","Discontinued Study",11,11,82,13.4146341463415
+"Placebo","Discontinued Study",11,16,95,16.8421052631579
+"Drug X High Dose","  ADVERSE EVENT",12,4,63,6.34920634920635
+"Drug X Low Dose","  ADVERSE EVENT",12,3,82,3.65853658536585
+"Placebo","  ADVERSE EVENT",12,5,95,5.26315789473684
+"Drug X High Dose","  LACK OF EFFICACY",14,2,63,3.17460317460317
+"Drug X Low Dose","  LACK OF EFFICACY",14,1,82,1.21951219512195
+"Placebo","  LACK OF EFFICACY",14,4,95,4.21052631578947
+"Drug X Low Dose","  LOST TO FOLLOW-UP",15,3,82,3.65853658536585
+"Placebo","  LOST TO FOLLOW-UP",15,2,95,2.10526315789474
+"Drug X High Dose","  WITHDRAWAL BY SUBJECT",18,1,63,1.58730158730159
+"Drug X Low Dose","  WITHDRAWAL BY SUBJECT",18,4,82,4.8780487804878
+"Placebo","  WITHDRAWAL BY SUBJECT",18,5,95,5.26315789473684

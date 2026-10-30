@@ -1,0 +1,27 @@
+sandbox: docker run --rm --name sas2r-e7a7e2444876 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten@v3\P003\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Using adam_dir: /bench/data/derived/cdisc-pilot/adam ADSL n=254 ADAE n=1191
+ADSL SAFFL unique: Y
+ADAE TRTEMFL unique: Y,N
+ADAE AESER unique: N,Y
+adae_ser n=3 distinct SOC=1 PT=2
+denom: 0 86; 54 84; 81 84
+final_display rows=4
+P003 complete. Rows: 4 out=/work/out

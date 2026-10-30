@@ -1,0 +1,85 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P097",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 3,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-baseten@v3",
+ "recorded_at": "2026-10-30T02:41:43",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 16494,
+  "output_tokens": 7416,
+  "reasoning_tokens": 665,
+  "finish_reason": "stop",
+  "seconds": 21.0
+ },
+ "inputs": {
+  "prompt_translate.md": "1d0eba3e8ffb527f1be56a083473d9617b4f1bede9519f3a39eb261890bb8ecb"
+ },
+ "model_output": {
+  "response.md": "95992b73eb3eb8b46a7cb8e3c511a4433f3c067cf50bc39062c4e9dca5305dfa",
+  "reasoning.md": "21ec0bd8bc63174f5b6675be5f81d0a3d075f5bd8bf056248dba669dfd5dc4af",
+  "script.R": "6ae4021b5625039fadb407307b5ae2cb9c11c7d6943678db318e07bd6a31eedb"
+ },
+ "r_run": {
+  "rc": 1,
+  "seconds": 3.7,
+  "timed_out": false,
+  "log_sha256": "ce3d5cec1472748a6433d86b1ce32e5e23e81ec9e7dc7e67997000088951d2cc"
+ },
+ "r_outputs": {
+  "histogram.csv": "5493102ef36cc596f9af29fd34c5f336aa2839bb65495909d4ba0431b99edea1",
+  "histogram.png": "ef65a14f1290a769e163f4574993e095dbefe51d69656027798301fdfe3d461b",
+  "P097.csv": "3b4c0faf2070256d58b51d4243ecc3a278b0919c32a3dafde4a85079bbefd3c5",
+  "P097.txt": "d017c13e864411f5afa598b6abbd017b76128342ee893daf955072702134e097",
+  "P097_ParameterEstimates.csv": "29ac6bf56489aa1dddb273f1a94238a8ea9d3a16b139484cef140f3422a5b881",
+  "P097_Prob.csv": "c2360489376848c29fee2f297cdbe18a7ec735052e11baea6a91401341e83967",
+  "P097_ROCAssociation.csv": "c91c5374c5a4f4584184711914157d0474c8a87989b84ee6c6f3f1bb169fe26e",
+  "P097_ROCEst.csv": "cfe6ae045e60143646772c0405eae2acd60ef64b3558943725bde977f76dbb09",
+  "P097_WidePctls.csv": "ac46b42ed71d62aaf31677753ec37365a194b9cb2d364e60c54d8f74c71b39fc",
+  "sgpanel.csv": "5493102ef36cc596f9af29fd34c5f336aa2839bb65495909d4ba0431b99edea1",
+  "sgpanel.png": "ef65a14f1290a769e163f4574993e095dbefe51d69656027798301fdfe3d461b"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P097.lst",
+   "sha256": "fb0883d7315c52915e5714b1cb5f4cc7e6bfbb9fd4fb1686ddeba4878b602b4e",
+   "frozen_sha256": "fb0883d7315c52915e5714b1cb5f4cc7e6bfbb9fd4fb1686ddeba4878b602b4e",
+   "ok": true
+  },
+  {
+   "file": "datasets/P097/Histogram.png",
+   "sha256": "137ac78fc8c4ef46e33c4b36c1c77a00ff5a3172ad625a79932e2f2709129145",
+   "frozen_sha256": "137ac78fc8c4ef46e33c4b36c1c77a00ff5a3172ad625a79932e2f2709129145",
+   "ok": true
+  },
+  {
+   "file": "datasets/P097/SGPanel.png",
+   "sha256": "0b6abc0357524371e0d3e8592dedab1df151703c8648b9c8d7c8ad58c0839762",
+   "frozen_sha256": "0b6abc0357524371e0d3e8592dedab1df151703c8648b9c8d7c8ad58c0839762",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.9090909090909092,
+  "produced_all": true
+ }
+}

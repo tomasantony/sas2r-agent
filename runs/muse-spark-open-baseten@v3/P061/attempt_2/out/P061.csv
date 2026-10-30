@@ -1,0 +1,27 @@
+"Section","Value"
+"Age N",2498
+"Age Mean",60.4203002401922
+"Age StdDev",13.0329971675026
+"Age Min",21.93
+"Age Max",96.29
+"Sex:Female",2509
+"TumorStage:0",24
+"TumorStage:1",630
+"TumorStage:2",979
+"TumorStage:3",144
+"TumorStage:4",11
+"TumorStage:NA",721
+"TumorSize N",2360
+"TumorSize Mean",26.220093220339
+"TumorSize StdDev",15.370883048434
+"TumorSize Min",1
+"TumorSize Max",182
+"Chemo:No",1568
+"Chemo:Yes",412
+"Chemo:NA",529
+"ER:Negative",644
+"ER:Positive",1825
+"ER:NA",40
+"HER2:Negative",1733
+"HER2:Positive",247
+"HER2:NA",529

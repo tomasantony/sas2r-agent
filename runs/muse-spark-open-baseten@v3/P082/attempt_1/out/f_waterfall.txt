@@ -1,0 +1,32 @@
+Figure 14.2.3
+Waterfall Plot of Best Percentage Change from Baseline in Sum of Target Lesions
+Efficacy Analysis Set
+
+Number of subjects plotted: 222
+
+Reference lines: -30% (PR threshold, blue dashed), +20% (PD threshold, red dashed), 0% (solid)
+
+Data cutoff: [DDMONYYYY].
+Each bar represents one subject.
+CR=Complete Response, PR=Partial Response, SD=Stable Disease, PD=Progressive Disease
+Dashed lines: RECIST 1.1 thresholds for PR (-30%) and PD (+20%)
+Program: f_waterfall.sas | Run: 30Oct2026
+
+Summary by Best Overall Response:
+
+Response                 N       Mean     Median        Min        Max
+PR                     121     -49.90     -49.00     -83.00     -30.00
+SD                     101     -15.27     -19.00     -30.00       9.00
+
+First 10 bars (sorted by PCHG):
+Order    USUBJID         TRTA                       PCHG  PCHG_disp AVALC     
+1        SYN001-006089   Drug X High Dose         -83.00     -83.00 PR        
+2        SYN001-005028   Drug X High Dose         -81.00     -81.00 PR        
+3        SYN001-002181   Drug X High Dose         -81.00     -81.00 PR        
+4        SYN001-006053   Drug X High Dose         -80.00     -80.00 PR        
+5        SYN001-002091   Drug X High Dose         -80.00     -80.00 PR        
+6        SYN001-004075   Drug X High Dose         -77.00     -77.00 PR        
+7        SYN001-001012   Drug X High Dose         -76.00     -76.00 PR        
+8        SYN001-002151   Drug X Low Dose          -72.00     -72.00 PR        
+9        SYN001-005100   Drug X Low Dose          -71.00     -71.00 PR        
+10       SYN001-006113   Drug X Low Dose          -71.00     -71.00 PR        

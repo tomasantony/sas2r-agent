@@ -1,0 +1,4 @@
+sandbox: docker run --rm --name sas2r-3d23fad4c557 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten@v3\P075\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+NOTE: t_vs.sas completed successfully.
+NOTE: Output written to /work/out
+NOTE: Rows in report: 60

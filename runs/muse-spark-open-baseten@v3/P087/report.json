@@ -1,0 +1,44 @@
+{
+ "id": "P087",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "family": "own-adam",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 0.9974662162162162,
+ "iterations": 2,
+ "input_tokens": 28445,
+ "output_tokens": 15770,
+ "seconds": 46.315495014190674,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 1.6966171264648438,
+   "input_tokens": 11159,
+   "output_tokens": 8985,
+   "seconds_llm": 24.587570667266846,
+   "produced_all": true,
+   "equivalent": false,
+   "score": 0.9394369369369369,
+   "note": ""
+  },
+  {
+   "n": 2,
+   "rc": 0,
+   "seconds_r": 1.982403039932251,
+   "input_tokens": 17286,
+   "output_tokens": 6785,
+   "seconds_llm": 17.62993860244751,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 0.9974662162162162,
+   "note": ""
+  }
+ ],
+ "best_attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-baseten@v3"
+}

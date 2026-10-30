@@ -1,0 +1,68 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P062",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-baseten@v3",
+ "recorded_at": "2026-10-30T02:22:05",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 7018,
+  "output_tokens": 5108,
+  "reasoning_tokens": 2037,
+  "finish_reason": "stop",
+  "seconds": 15.0
+ },
+ "inputs": {
+  "prompt_translate.md": "839392a022d66b110d69dd95deffc4fadfbd046aeac4b2a7bc8ac1465ad7a809"
+ },
+ "model_output": {
+  "response.md": "e2df3cf7ff3e1ed00a316c1955a8131a081fb197c806785a97a09d662eb6040e",
+  "reasoning.md": "428a19333b0bed77d0bd2454710d0d105ae026d291e19c345c23e2a5193b3f0c",
+  "script.R": "b00ee0e938da512329db586bc33e1718aecbcb42ab9c777bdfd700690ae0c89c"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.8,
+  "timed_out": false,
+  "log_sha256": "5e80617d8d32745ec13a222032ecaf91b636ed7ab35d3759312139c9bef51355"
+ },
+ "r_outputs": {
+  "sgplot.csv": "52916c2b4849633dc48b92e91931554fdc5032cd1d1873356cce44c9ed0929a8",
+  "sgplot.png": "9167f7bf555f3b5e4c10b6c047e35a7fb758d19a18681e493ba7b81898ba062d",
+  "sgplot.txt": "8219e6f7cf16ffcf8587b7e7400ec3cf42d6be4f014d48bf87c493f59bd1fcd4",
+  "sgplot_boxes.csv": "5d5467a5fe4fa8402685884622fdd3e211b8942ef27800379a11ec440265b4fa",
+  "sgplot_lines.csv": "52083aae74507cb3d41b7971934919a68813a8553e0f3b4d124396f662176f2c",
+  "sgplot_text.csv": "6d510f7b6da594061e997beed11b1001fec35bf6ebb6c514846ec265c9bc569f"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P062/SGPlot.png",
+   "sha256": "8c5dcd668d358e58b3c6901d90c2f72907b7ad4947f6ac6f8196b5b03bfd8d9c",
+   "frozen_sha256": "8c5dcd668d358e58b3c6901d90c2f72907b7ad4947f6ac6f8196b5b03bfd8d9c",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

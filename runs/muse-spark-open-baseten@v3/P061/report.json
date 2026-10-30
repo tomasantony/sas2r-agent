@@ -1,0 +1,56 @@
+{
+ "id": "P061",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "family": "sumit",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": false,
+ "best_score": 0.9719382155117746,
+ "iterations": 3,
+ "input_tokens": 32971,
+ "output_tokens": 20455,
+ "seconds": 65.65061235427856,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 1,
+   "seconds_r": 1.9099044799804688,
+   "input_tokens": 3841,
+   "output_tokens": 6352,
+   "seconds_llm": 17.067965030670166,
+   "produced_all": false,
+   "equivalent": false,
+   "score": 0.0,
+   "note": ""
+  },
+  {
+   "n": 2,
+   "rc": 0,
+   "seconds_r": 3.577598810195923,
+   "input_tokens": 11060,
+   "output_tokens": 6261,
+   "seconds_llm": 15.955057144165039,
+   "produced_all": true,
+   "equivalent": false,
+   "score": 0.9628808528156896,
+   "note": ""
+  },
+  {
+   "n": 3,
+   "rc": 0,
+   "seconds_r": 4.466450929641724,
+   "input_tokens": 18070,
+   "output_tokens": 7842,
+   "seconds_llm": 21.41756844520569,
+   "produced_all": true,
+   "equivalent": false,
+   "score": 0.9719382155117746,
+   "note": ""
+  }
+ ],
+ "best_attempt": 3,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-baseten@v3"
+}

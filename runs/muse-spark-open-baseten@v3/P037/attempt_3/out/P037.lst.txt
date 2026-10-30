@@ -1,0 +1,122 @@
+Vital Signs
+Treatment-Emergent Abnormal High or Low at Any Time
+
+The FREQ Procedure - Low (CRIT1FL)
+Table of TRTPN by CRIT1FL
+
+TRTPN        CRIT1FL  Frequency Percent      Row Pct      Col Pct     
+----------------------------------------------------------------------
+0            N        77       30.92        92.77        34.07       
+0            Y        6        2.41         7.23         26.09       
+54           N        77       30.92        91.67        34.07       
+54           Y        7        2.81         8.33         30.43       
+81           N        72       28.92        87.80        31.86       
+81           Y        10       4.02         12.20        43.48       
+
+Total N              249
+Sample Size = N      249
+Row total TRTPN=0 83 33.33
+Row total TRTPN=54 84 33.73
+Row total TRTPN=81 82 32.93
+Col total CRIT1FL=N 226 90.76
+Col total CRIT1FL=Y 23 9.24
+Expected 0*N 75.33
+Expected 0*Y 7.67
+Expected 54*N 76.24
+Expected 54*Y 7.76
+Expected 81*N 74.43
+Expected 81*Y 7.57
+
+Statistics for Table of TRTPN by CRIT1FL
+Statistic                      DF   Value      Prob      
+------------------------------------------------------------
+Chi-Square                     2    1.3369     0.5125    
+Likelihood Ratio Chi-Square    2    1.2978     0.5226    
+Mantel-Haenszel Chi-Square     1    1.0217     0.3121    
+Phi Coefficient                     0.0733               
+Contingency Coefficient             0.0731               
+Cramer's V                          0.0733               
+Total Percent                  100.00
+Total Row Percent              100.00
+
+Fisher's Exact Test
+------------------------------
+Cell (1,1) Frequency (F)       77
+Left-sided Pr <= F             0.5000
+Right-sided Pr >= F            0.5000
+Table Probability (P)          0.5376
+Two-sided Pr <= P              0.5376
+Two-sided p-value (3 dec)      0.538
+Sample Size = N                249
+
+The FREQ Procedure - High (CRIT2FL)
+Table of TRTPN by CRIT2FL
+
+TRTPN        CRIT2FL  Frequency Percent      Row Pct      Col Pct     
+----------------------------------------------------------------------
+0            N        70       28.11        84.34        32.56       
+0            Y        13       5.22         15.66        38.24       
+54           N        71       28.51        84.52        33.02       
+54           Y        13       5.22         15.48        38.24       
+81           N        74       29.72        90.24        34.42       
+81           Y        8        3.21         9.76         23.53       
+
+Total N              249
+Sample Size = N      249
+Row total TRTPN=0 83 33.33
+Row total TRTPN=54 84 33.73
+Row total TRTPN=81 82 32.93
+Col total CRIT2FL=N 215 86.35
+Col total CRIT2FL=Y 34 13.65
+Expected 0*N 71.67
+Expected 0*Y 11.33
+Expected 54*N 72.53
+Expected 54*Y 11.47
+Expected 81*N 70.80
+Expected 81*Y 11.20
+
+Statistics for Table of TRTPN by CRIT2FL
+Statistic                      DF   Value      Prob      
+------------------------------------------------------------
+Chi-Square                     2    1.5773     0.4545    
+Likelihood Ratio Chi-Square    2    1.6579     0.4365    
+Mantel-Haenszel Chi-Square     1    0.9340     0.3338    
+Phi Coefficient                     0.0796               
+Contingency Coefficient             0.0793               
+Cramer's V                          0.0796               
+Total Percent                  100.00
+Total Row Percent              100.00
+
+Fisher's Exact Test
+------------------------------
+Cell (1,1) Frequency (F)       70
+Left-sided Pr <= F             0.5000
+Right-sided Pr >= F            0.5000
+Table Probability (P)          0.4701
+Two-sided Pr <= P              0.4701
+Two-sided p-value (3 dec)      0.470
+Sample Size = N                249
+
+
+Vital Sign                    Abnormality   Treatment     N       n       (%)       P value*  
+(unit)                        Direction                                                       
+----------------------------------------------------------------------------------------------
+Diastolic Blood Pressure (mmHgLow           0             83      6       (7.2)     0.538     
+Diastolic Blood Pressure (mmHgLow           54            84      7       (8.3)               
+Diastolic Blood Pressure (mmHgLow           81            82      10      (12.2)              
+Diastolic Blood Pressure (mmHgHigh          0             83      13      (15.7)    0.470     
+Diastolic Blood Pressure (mmHgHigh          54            84      13      (15.5)              
+Diastolic Blood Pressure (mmHgHigh          81            82      8       (9.8)               
+
+Detailed percentages (2 decimals) for verification:
+PARAM=Diastolic Blood Pressure (mmHg) TEFL=Low TRTPN=0 N=6 TOTN=83 PCT=7.23 PCT1=(7.2) p=0.5376 p3=0.538
+PARAM=Diastolic Blood Pressure (mmHg) TEFL=Low TRTPN=54 N=7 TOTN=84 PCT=8.33 PCT1=(8.3) p=0.5376 p3=
+PARAM=Diastolic Blood Pressure (mmHg) TEFL=Low TRTPN=81 N=10 TOTN=82 PCT=12.20 PCT1=(12.2) p=0.5376 p3=
+PARAM=Diastolic Blood Pressure (mmHg) TEFL=High TRTPN=0 N=13 TOTN=83 PCT=15.66 PCT1=(15.7) p=0.4701 p3=0.470
+PARAM=Diastolic Blood Pressure (mmHg) TEFL=High TRTPN=54 N=13 TOTN=84 PCT=15.48 PCT1=(15.5) p=0.4701 p3=
+PARAM=Diastolic Blood Pressure (mmHg) TEFL=High TRTPN=81 N=8 TOTN=82 PCT=9.76 PCT1=(9.8) p=0.4701 p3=
+
+  Abbreviations:  N = number of patients with a normal (i.e., not low if calculating `low` and not high if calculating `high`)
+  baseline and at least one post-baseline measure, n = number of patients wtih an abnormal post-baseline result in the
+  specified category.
+  *P values are from Fisher's Exact test.

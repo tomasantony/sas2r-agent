@@ -1,0 +1,38 @@
+Box Plot of X over Time by Treatment
+==================================================
+
+Figure: Box Plot of X over Time by Treatment
+X-axis: Visit (3 to 6)  Y-axis: X
+Groups: Study Drug (PLUS black), Placebo (TRIANGLE blue), AC (SQUARE red)
+BoxStyle: SCHEMATICID  CBOX=BLUE  IDSYMBOL=STAR RED
+
+Data: Synthetic data generated with SAS NORMAL(777) seed
+Total observations: 120
+Groups: 12 boxes (3 treatments x 4 visits, n=10 per box)
+
+Boxplot Statistics (PCTLDEF=5, 1.5*IQR whiskers):
+--------------------------------------------------------------------------------------------
+TRT          VISIT    VIS      N     Q1 Median     Q3   Mean     SD LowWhis UppWhis
+--------------------------------------------------------------------------------------------
+AC               3   3.30     10   2.20   4.40   8.60   5.20   3.94   1.00  11.40
+AC               4   4.15     10   3.40   6.30   8.40   5.96   2.80   1.50  10.10
+AC               5   5.15     10   1.00   4.75   9.40   5.33   3.93   0.50  10.30
+AC               6   6.00     10   3.50   5.70   7.10   5.76   2.30   3.10   9.60
+Placebo          3   3.15     10   2.80   4.90   8.90   5.75   3.79   0.50  12.30
+Placebo          4   4.00     10   1.40   4.15   8.00   4.52   3.86  -1.20  10.10
+Placebo          5   5.00     10   2.90   7.15   8.30   6.10   3.59   0.60  11.60
+Placebo          6   5.85     10   4.70   5.60   6.90   5.54   1.89   1.80   8.40
+Study Drug       3   3.00     10   5.10   5.55   9.70   6.30   3.31   1.10  11.00
+Study Drug       4   3.85     10   4.50   6.00   8.00   5.65   3.32  -0.60  10.60
+Study Drug       5   4.85     10   4.90   5.75   7.50   6.00   3.59   2.70   9.80
+Study Drug       6   5.70     10   2.70   4.30   7.50   4.75   2.99   0.40   9.80
+--------------------------------------------------------------------------------------------
+
+Outliers (beyond 1.5*IQR):
+TRT          VISIT    VIS      X
+Study Drug       5   4.85   -0.7
+Study Drug       5   4.85   12.5
+
+Note: VIS offsets: Study Drug=VISIT, Placebo=VISIT+0.15, AC=VISIT+0.30
+      Adjusted: VISIT 4,5 minus 0.15; VISIT 6 minus 0.30
+      Resulting VIS values: 3,3.15,3.30,3.85,4.00,4.15,4.85,5.00,5.15,5.70,5.85,6.00

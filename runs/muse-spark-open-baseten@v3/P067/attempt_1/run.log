@@ -1,0 +1,21 @@
+sandbox: docker run --rm --name sas2r-0797df12a16d --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten@v3\P067\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading /bench/data/derived/wxzhai/raw/raw_ae.sas7bdat 
+Reading /bench/data/derived/wxzhai/sdtm/dm.sas7bdat 
+raw_ae rows: 4 cols: 6 
+sdtm.dm rows: 4 cols: 8 
+AESTDT sample: 2022-02-01, 2022-03-15, 2022-04-10, 2022-02-20 
+RFSTDTC sample: 2022-01-10, 2022-01-10, 2022-01-12, 2022-01-15 
+sdtm.ae rows: 4 
+  STUDYID     USUBJID SUBJID   AETERM AESER    AESEV    AESTDTC    AEENDTC
+1 ABC-301 ABC-301-101    101 Headache     N     MILD 2022-02-01 2022-02-03
+2 ABC-301 ABC-301-101    101   Nausea     N MODERATE 2022-03-15 2022-03-18
+3 ABC-301 ABC-301-102    102 Dizzines     Y   SEVERE 2022-04-10 2022-04-15
+4 ABC-301 ABC-301-103    103  Fatigue     N     MILD 2022-02-20 2022-02-22
+  ASTDY AENDY
+1    23    25
+2    65    68
+3    89    94
+4    37    39
+Outputs written to /work/out 
+ - ae.csv
+ - raw_ae.csv
