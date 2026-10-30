@@ -1,0 +1,30 @@
+{
+ "id": "P062",
+ "provider": "claude-opus-5-5",
+ "model": "claude-opus-5-5",
+ "family": "morioka",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 1.0,
+ "iterations": 1,
+ "input_tokens": 8444,
+ "output_tokens": 3491,
+ "seconds": 28.16380214691162,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 1.5210943222045898,
+   "input_tokens": 8444,
+   "output_tokens": 3491,
+   "seconds_llm": 26.517613410949707,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 1.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 1
+}

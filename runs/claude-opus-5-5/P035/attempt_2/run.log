@@ -1,0 +1,3 @@
+sandbox: docker run --rm --name sas2r-b21c62002cd3 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\claude-opus-5-5\P035\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+adpp rows: 330 
+Done. Rows in table: 14 

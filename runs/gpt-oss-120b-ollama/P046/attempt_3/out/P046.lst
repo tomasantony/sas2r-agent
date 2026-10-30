@@ -1,0 +1,17 @@
+Number of Observations Used = 454
+Dependent Variable: AVAL
+
+Analysis of Variance
+Source          DF   Sum of Squares   Mean Square   F Value   Pr > F
+Model            1   NA   NA   NA   NA
+Error          452   46081.808   101.9509
+Corrected Total453   NA
+
+Root MSE                10.0971
+R-Square                NA
+Adj R-Sq                NA
+
+Parameter Estimates
+Variable    Estimate    Std Error    t Value    Pr > |t|
+Intercept 73.71   0.6709   109.8713   0.00000
+PARAMCD_NUM-5.39   0.9499   -5.6752   0.00000

@@ -1,0 +1,35 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P093.lst",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 48,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "120185",
+     "25",
+     "80",
+     "30",
+     "0",
+     "121061",
+     "29",
+     "815",
+     "121062",
+     "305",
+     "35",
+     "120754"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  }
+ ]
+}

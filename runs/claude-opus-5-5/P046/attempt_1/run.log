@@ -1,0 +1,14 @@
+sandbox: docker run --rm --name sas2r-90c0a1aae70b --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\claude-opus-5-5\P046\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Warning message:
+Removed 1 row containing missing values or values outside the scale range
+(`geom_point()`). 
+Warning messages:
+1: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  pseudoinverse used at 68.296
+2: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  neighborhood radius 5.4176
+3: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  reciprocal condition number  0
+4: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  There are other near singularities as well. 29.35
+P046 done

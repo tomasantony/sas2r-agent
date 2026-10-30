@@ -1,0 +1,121 @@
+The CONTENTS Procedure - WORK.ADEX
+Observations: 37   Variables: 31
+
+ Num Variable Type
+   1  STUDYID Char
+   2  USUBJID Char
+   3    EXSEQ  Num
+   4    EXTRT Char
+   5   EXDOSE  Num
+   6   EXDOSU Char
+   7 EXDOSFRM Char
+   8  EXROUTE Char
+   9     TRTP Char
+  10    TRTPN  Num
+  11      AGE  Num
+  12      SEX Char
+  13   TRTSDT  Num
+  14   TRTEDT  Num
+  15    SAFFL Char
+  16  PARAMCD Char
+  17    PARAM Char
+  18   PARAMN  Num
+  19     AVAL  Num
+  20    AVALU Char
+  21    ASTDT  Num
+  22    AENDT  Num
+  23    ASTDY  Num
+  24    AENDY  Num
+  25   AVISIT Char
+  26  AVISITN  Num
+  27 DOSINTFL Char
+  28 DOSEADFL Char
+  29   EXDURN  Num
+  30     ASEQ  Num
+  31  DOSECAT Char
+
+
+ STUDYID      USUBJID EXSEQ       EXTRT EXDOSE EXDOSU EXDOSFRM EXROUTE
+ STUDY01 STUDY01-1001     1 Treatment A    100     mg   TABLET    ORAL
+ STUDY01 STUDY01-1001     2 Treatment A    100     mg   TABLET    ORAL
+ STUDY01 STUDY01-1001     3 Treatment A    150     mg   TABLET    ORAL
+ STUDY01 STUDY01-1001     4 Treatment A    150     mg   TABLET    ORAL
+ STUDY01 STUDY01-1001     .                  .                        
+ STUDY01 STUDY01-1001     .                  .                        
+ STUDY01 STUDY01-1001     .                  .                        
+ STUDY01 STUDY01-1001     .                  .                        
+ STUDY01 STUDY01-1001     .                  .                        
+ STUDY01 STUDY01-1002     1     Placebo      0     mg   TABLET    ORAL
+ STUDY01 STUDY01-1002     2     Placebo      0     mg   TABLET    ORAL
+ STUDY01 STUDY01-1002     .                  .                        
+ STUDY01 STUDY01-1002     .                  .                        
+ STUDY01 STUDY01-1003     1 Treatment A    100     mg   TABLET    ORAL
+ STUDY01 STUDY01-1003     2 Treatment A    100     mg   TABLET    ORAL
+ STUDY01 STUDY01-1003     3 Treatment A     50     mg   TABLET    ORAL
+ STUDY01 STUDY01-1003     .                  .                        
+ STUDY01 STUDY01-1003     .                  .                        
+ STUDY01 STUDY01-1003     .                  .                        
+ STUDY01 STUDY01-1003     .                  .                        
+        TRTP TRTPN AGE SEX    TRTSDT    TRTEDT SAFFL PARAMCD
+ Treatment A     1  59   M 15JAN2024 15JUN2024     Y    DOSE
+ Treatment A     1  59   M 15JAN2024 15JUN2024     Y    DOSE
+ Treatment A     1  59   M 15JAN2024 15JUN2024     Y    DOSE
+ Treatment A     1  59   M 15JAN2024 15JUN2024     Y    DOSE
+ Treatment A     1  59   M 15JAN2024 15JUN2024     Y  TOTDUR
+ Treatment A     1  59   M 15JAN2024 15JUN2024     Y AVGDOSE
+ Treatment A     1  59   M 15JAN2024 15JUN2024     Y MAXDOSE
+ Treatment A     1  59   M 15JAN2024 15JUN2024     Y CUMDOSE
+ Treatment A     1  59   M 15JAN2024 15JUN2024     Y NDOSADJ
+     Placebo     2  45   F 18JAN2024 18JUN2024     Y    DOSE
+     Placebo     2  45   F 18JAN2024 18JUN2024     Y    DOSE
+     Placebo     2  45   F 18JAN2024 18JUN2024     Y  TOTDUR
+     Placebo     2  45   F 18JAN2024 18JUN2024     Y NDOSADJ
+ Treatment A     1  43   M 20JAN2024 01APR2024     Y    DOSE
+ Treatment A     1  43   M 20JAN2024 01APR2024     Y    DOSE
+ Treatment A     1  43   M 20JAN2024 01APR2024     Y    DOSE
+ Treatment A     1  43   M 20JAN2024 01APR2024     Y  TOTDUR
+ Treatment A     1  43   M 20JAN2024 01APR2024     Y AVGDOSE
+ Treatment A     1  43   M 20JAN2024 01APR2024     Y MAXDOSE
+ Treatment A     1  43   M 20JAN2024 01APR2024     Y CUMDOSE
+                          PARAM PARAMN         AVAL AVALU     ASTDT     AENDT
+                           Dose      1   100.000000    mg 15JAN2024 28JAN2024
+                           Dose      1   100.000000    mg 29JAN2024 11FEB2024
+                           Dose      1   150.000000    mg 12FEB2024 10MAR2024
+                           Dose      1   150.000000    mg 11MAR2024 15JUN2024
+ Total Exposure Duration (Days)      2   153.000000  days         .         .
+             Average Daily Dose      3   140.849673    mg         .         .
+                   Maximum Dose      4   150.000000    mg         .         .
+                Cumulative Dose      5 21550.000000    mg         .         .
+     Number of Dose Adjustments      6     1.000000               .         .
+                           Dose      1     0.000000    mg 18JAN2024 14FEB2024
+                           Dose      1     0.000000    mg 15FEB2024 18JUN2024
+ Total Exposure Duration (Days)      2   153.000000  days         .         .
+     Number of Dose Adjustments      6     0.000000               .         .
+                           Dose      1   100.000000    mg 20JAN2024 16FEB2024
+                           Dose      1   100.000000    mg 17FEB2024 15MAR2024
+                           Dose      1    50.000000    mg 16MAR2024 01APR2024
+ Total Exposure Duration (Days)      2    73.000000  days         .         .
+             Average Daily Dose      3    88.356164    mg         .         .
+                   Maximum Dose      4   100.000000    mg         .         .
+                Cumulative Dose      5  6450.000000    mg         .         .
+ ASTDY AENDY   AVISIT AVISITN DOSINTFL DOSEADFL EXDURN ASEQ DOSECAT
+     1    14 Week 1-2       1        N        N     14    1  Medium
+    15    28 Week 3-4       2        N        N     14    2  Medium
+    29    56 Week 5-8       3        N        Y     28    3    High
+    57   153  Week 9+       4        N        N     97    4    High
+     .     .                .                        .    5        
+     .     .                .                        .    6        
+     .     .                .                        .    7        
+     .     .                .                        .    8        
+     .     .                .                        .    9        
+     1    28 Week 1-4       1        N        N     28    1 Placebo
+    29   153  Week 5+       2        N        N    125    2 Placebo
+     .     .                .                        .    3        
+     .     .                .                        .    4        
+     1    28 Week 1-4       1        N        N     28    1  Medium
+    29    56 Week 5-8       2        N        N     28    2  Medium
+    57    73  Week 9+       3        N        Y     17    3     Low
+     .     .                .                        .    4        
+     .     .                .                        .    5        
+     .     .                .                        .    6        
+     .     .                .                        .    7        

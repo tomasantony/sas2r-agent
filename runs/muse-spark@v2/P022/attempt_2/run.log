@@ -1,0 +1,21 @@
+sandbox: docker run --rm --name sas2r-61413458c62a --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P022\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Reading raw EDC data...
+edc_ae cols: SUBJID,TERM,DECOD,BODSYS,SEV,TXGR,STDT,ENDT,REL,OUT,SER 
+edc_dm cols: SUBJID,BRTHDT,GENDER,RACE,ETHNIC,RFICDT,SITE 
+edc_ex cols: SUBJID,VISIT,TRT,DOSE,UNIT,STDT,ENDT,LOT,ROUTE,FREQ,FORM,ADJ,ADJRS 
+ivrs_rand cols: SUBJID,RAND_DT,TRT_CODE 
+No SAS DM xlsx found; deriving RFSTDTC from EX + RAND
+EX subjects with date: 4 
+RAND date col used: RAND_DT  n: 5 
+dm_for_ae n: 5 
+        USUBJID    RFSTDTC
+1 ONCO-2026-101 2026-01-15
+2 ONCO-2026-102 2026-01-20
+3 ONCO-2026-103 2026-01-15
+4 ONCO-2026-104 2026-01-12
+5 ONCO-2026-105 2026-01-25
+AESTDY: 4,27,2,4 
+AEENDY: 6,32,4,NA 
+sdtm_ae n: 4  cols: STUDYID,DOMAIN,USUBJID,AESEQ,AETERM,AEDECOD,AEBODSYS,AESEV,AETXGR,AEREL,AEOUT,AESER,AESTDTC,AEENDTC,AESTDY,AEENDY 
+[1] TRUE
+Wrote /work/out/ae.csv and listing

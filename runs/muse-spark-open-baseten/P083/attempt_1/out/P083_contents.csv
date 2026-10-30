@@ -1,0 +1,36 @@
+"VarNum","Variable","Label","Type","Format","Length"
+1,"STUDYID","Study Identifier","Char","",7
+2,"USUBJID","Unique Subject Identifier","Char","",12
+3,"SUBJID","Subject Identifier for the Study","Char","",4
+4,"SITEID","Study Site Identifier","Char","",3
+5,"SEX","Sex","Char","",1
+6,"RACE","Race","Char","",25
+7,"ETHNIC","Ethnicity","Char","",18
+8,"ARMCD","Planned Arm Code","Char","",3
+9,"ARM","Description of Planned Arm","Char","",11
+10,"COUNTRY","Country","Char","",3
+11,"BRTHDTC","","Char","",10
+12,"RFICDTC","","Char","",10
+13,"RFSTDTC","","Char","",10
+14,"RFENDTC","","Char","",10
+15,"RFXSTDTC","","Char","",10
+16,"RFXENDTC","","Char","",10
+17,"AGE","Age","Num","",8
+18,"TRTSDT","Date of First Exposure to Treatment","Num","DATE9.",8
+19,"TRTEDT","Date of Last Exposure to Treatment","Num","DATE9.",8
+20,"RANDDT","Date of Randomization","Num","DATE9.",8
+21,"TRTP","Planned Treatment","Char","",11
+22,"TRTPN","Planned Treatment (N)","Num","",8
+23,"TRTA","Actual Treatment","Char","",11
+24,"TRTAN","Actual Treatment (N)","Num","",8
+25,"AGEGR1","Age Group 1","Char","",4
+26,"AGEGR1N","Age Group 1 (N)","Num","",8
+27,"RACEN","Race (N)","Num","",8
+28,"SEXN","Sex (N)","Num","",8
+29,"SAFFL","Safety Population Flag","Char","",1
+30,"ITTFL","Intent-to-Treat Population Flag","Char","",1
+31,"EFFFL","Efficacy Population Flag","Char","",1
+32,"COMPLFL","Completers Population Flag","Char","",1
+33,"DCSREAS","Reason for Discontinuation","Char","",13
+34,"EOSSTT","End of Study Status","Char","",12
+35,"TRTDURD","Total Treatment Duration (Days)","Num","",8

@@ -1,0 +1,99 @@
+Program: P084_adae.sas
+Purpose: Create ADAE (Adverse Events Analysis Dataset) - CDISC ADaM IG 1.3
+Output: ADAE listing
+Generated: 2026-10-30T00:18:39
+
+==========================================================================
+PROC CONTENTS - ADAE
+==========================================================================
+Variable     Label                                    Type      
+----------------------------------------------------------------------
+STUDYID      Study Identifier                         Char      
+USUBJID      Unique Subject Identifier                Char      
+SITEID       Site Identifier                          Char      
+TRTP         Planned Treatment                        Char      
+TRTPN        Planned Treatment (N)                    Num       
+AGE          Age                                      Num       
+AGEGR1       Age Group                                Char      
+SEX          Sex                                      Char      
+RACE         Race                                     Char      
+SAFFL        Safety Population Flag                   Char      
+TRTSDT       Date of First Exposure to Treatment      Date      
+TRTEDT       Date of Last Exposure to Treatment       Date      
+AESEQ        Sequence Number                          Num       
+ASEQ         Analysis Sequence Number                 Num       
+AETERM       Reported Term for the Adverse Event      Char      
+AEDECOD      Dictionary-Derived Term                  Char      
+AEBODSYS     Body System or Organ Class               Char      
+AESOC        Primary System Organ Class               Char      
+ASTDT        Analysis Start Date                      Date      
+AENDT        Analysis End Date                        Date      
+ASTDY        Analysis Start Relative Day              Num       
+AENDY        Analysis End Relative Day                Num       
+AEDUR        AE Duration (Days)                       Num       
+ASEV         Analysis Severity/Intensity              Char      
+ASEVN        Analysis Severity/Intensity (N)          Num       
+AREL         Analysis Causality                       Char      
+ARELN        Analysis Causality (N)                   Num       
+TRTEMFL      Treatment Emergent Analysis Flag         Char      
+AESER_FL     Serious Event Flag                       Char      
+AOCCFL       First Occurrence of Any AE Flag          Char      
+AOCCSFL      First Occurrence Within SOC Flag         Char      
+AOCCPFL      First Occurrence of Preferred Term Flag  Char      
+
+Number of observations: 9
+Number of variables: 41
+
+==========================================================================
+PROC PRINT - ADAE (obs=10)
+==========================================================================
+
+USUBJID        AESEQ  ASEQ AETERM               AEDECOD                      AEBODSYS                     ASTDT        AENDT         ASTDY  AENDY  AEDUR ASEV       ASEVN AREL               ARELN TRT SER OCC SOC
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+STUDY01-1001       1     1 Headache             Headache                     Nervous system disorders     2024-02-01   2024-02-03       18     20      3 MILD           1 NOT RELATED            1 Y N   Y
+STUDY01-1001       2     2 Nausea               Nausea                       Gastrointestinal disorders   2024-02-15   2024-02-18       32     35      4 MODERATE       2 POSSIBLY RELATED       3 Y N Y Y
+STUDY01-1002       1     1 Fatigue              Fatigue                      General disorders            2024-02-10   2024-03-01       24     44     21 MILD           1 POSSIBLY RELATED       3 Y N Y Y
+STUDY01-1003       1     1 Dizziness            Dizziness                    Nervous system disorders     2024-02-20   2024-02-22       32     34      3 MILD           1 NOT RELATED            1 Y N   Y
+STUDY01-1003       2     2 Rash                 Rash                         Skin disorders               2024-03-05   2024-03-15       46     56     11 MODERATE       2 PROBABLY RELATED       4 Y N   Y
+STUDY01-1003       3     3 Hepatotoxicity       Hepatotoxicity               Hepatobiliary disorders      2024-03-25                    66               SEVERE         3 RELATED                5 Y Y Y Y
+STUDY01-1004       1     1 Insomnia             Insomnia                     Psychiatric disorders        2024-02-25   2024-03-10       32     46     15 MILD           1 UNLIKELY               2 Y N Y Y
+STUDY01-1005       1     1 Vomiting             Vomiting                     Gastrointestinal disorders   2024-03-01   2024-03-02       34     35      2 MODERATE       2 POSSIBLY RELATED       3 Y N Y Y
+STUDY01-1006       1     1 Back pain            Back pain                    Musculoskeletal disorders    2024-02-28   2024-03-05       30     36      7 MILD           1 NOT RELATED            1 Y N Y Y
+
+--------------------------------------------------------------------------
+Summary statistics
+--------------------------------------------------------------------------
+Total AEs: 9
+Total subjects with AE: 6
+Total subjects in ADSL: 6
+Treatment-emergent AEs (TRTEMFL=Y): 9
+Serious AEs (AESER=Y): 1
+Mild (ASEVN=1): 5
+Moderate (ASEVN=2): 3
+Severe (ASEVN=3): 1
+Mean AEDUR: 8.25
+Mean ASTDY: 34.89
+Mean AENDY: 38.25
+Mean AGE: 50.33
+Min AGE: 36
+Max AGE: 68
+Treatment A (TRTPN=1): 4 subjects
+Placebo (TRTPN=2): 2 subjects
+
+AE by SOC:
+[1] "  Gastrointestinal disorders: 2" "  General disorders: 1"         
+[3] "  Hepatobiliary disorders: 1"    "  Musculoskeletal disorders: 1" 
+[5] "  Nervous system disorders: 2"   "  Psychiatric disorders: 1"     
+[7] "  Skin disorders: 1"            
+
+AE by Severity:
+[1] "  MILD (1): 5"     "  MODERATE (2): 3" "  SEVERE (3): 1"  
+
+AE by Relationship:
+[1] "  NOT RELATED (1): 3"      "  UNLIKELY (2): 1"        
+[3] "  POSSIBLY RELATED (3): 3" "  PROBABLY RELATED (4): 1"
+[5] "  RELATED (5): 1"         
+
+--------------------------------------------------------------------------
+End of listing
+--------------------------------------------------------------------------

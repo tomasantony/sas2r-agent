@@ -1,0 +1,65 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.8236914600550964,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P097.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.47107438016528924,
+   "detail": {
+    "recall": 0.47107438016528924,
+    "expected": 121,
+    "found": 57,
+    "r_files": [
+     "Histogram.csv",
+     "LogiOut.csv",
+     "MeansSumm.csv",
+     "P097.csv",
+     "P097.txt",
+     "Prob.csv",
+     "ROCEst.csv",
+     "SGPanel.csv",
+     "Survival.csv",
+     "WidePctls.csv"
+    ],
+    "missing_examples": [
+     "-8",
+     "52.918",
+     "47.548",
+     "54.679",
+     "54.593",
+     "-2",
+     "50.918",
+     "39.548",
+     "11.3701",
+     "0.0099",
+     "10.7939",
+     "0.0129"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "Histogram.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\gpt-oss-120b-ollama\\P097\\attempt_2\\out\\Histogram.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPanel.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\gpt-oss-120b-ollama\\P097\\attempt_2\\out\\SGPanel.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  }
+ ]
+}

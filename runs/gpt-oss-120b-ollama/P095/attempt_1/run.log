@@ -1,0 +1,18 @@
+sandbox: docker run --rm --name sas2r-4a0889376e12 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\gpt-oss-120b-ollama\P095\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+In annotate("text", x = -Inf, y = -Inf, hjust = -0.02, vjust = -0.02,  :
+  Ignoring unknown parameters: `label2`
+Warning message:
+In plot_theme(plot) :
+  The `legend.justify` theme element is not defined in the element hierarchy.

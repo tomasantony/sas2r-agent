@@ -1,0 +1,6 @@
+=== Prob Table ===
+x          xbar        s        z        p             
+0.7300   0.8162   0.0801   1.0762       0.2819
+
+=== PROC MEANS Summary (Area) ===
+ROCModel       Mean      Std       P5      P95      P10      P90      P25      P75 

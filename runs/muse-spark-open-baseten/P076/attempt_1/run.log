@@ -1,0 +1,24 @@
+sandbox: docker run --rm --name sas2r-a4ee64620136 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P076\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADaM datasets...
+Error in `filter()`:
+ℹ In argument: `SAFFL <- adsl$SAFFL[match(USUBJID, adsl$USUBJID)]`.
+Caused by error:
+! `..1` must be a logical vector, not a character vector.
+Backtrace:
+     ▆
+  1. ├─... %>% ...
+  2. ├─dplyr::filter(...)
+  3. ├─dplyr:::filter.data.frame(., SAFFL <- adsl$SAFFL[match(USUBJID, adsl$USUBJID)], TRUE)
+  4. │ └─dplyr:::filter_impl(...)
+  5. │   └─dplyr:::filter_rows(...)
+  6. │     └─dplyr:::filter_eval(...)
+  7. │       ├─base::withCallingHandlers(...)
+  8. │       └─mask$eval_all_filter(dots_expanded, invert, env_filter)
+  9. │         └─dplyr (local) eval()
+ 10. ├─dplyr:::dplyr_internal_error(...)
+ 11. │ └─rlang::abort(class = c(class, "dplyr:::internal_error"), dplyr_error_data = data)
+ 12. │   └─rlang:::signal_abort(cnd, .file)
+ 13. │     └─base::signalCondition(cnd)
+ 14. └─dplyr (local) `<fn>`(`<dpl:::__>`)
+ 15.   └─rlang::abort(message, class = error_class, parent = parent, call = error_call)
+Execution halted

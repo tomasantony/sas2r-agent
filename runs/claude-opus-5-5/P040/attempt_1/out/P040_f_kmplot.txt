@@ -1,0 +1,115 @@
+Example K-M Plot
+
+The LIFETEST Procedure
+
+Stratum 1: arm = Arm 1
+
+Product-Limit Survival Estimates
+
+       day   Survival    Failure     SurvSE  NFailed    NLeft
+        0      1.0000     0.0000     0.0000        0       17
+      143      0.9412     0.0588     0.0571        1       16
+      164      0.8824     0.1176     0.0781        2       15
+      188           .          .          .        3       14
+      188      0.7647     0.2353     0.1029        4       13
+      190      0.7059     0.2941     0.1105        5       12
+      192      0.6471     0.3529     0.1159        6       11
+      206      0.5882     0.4118     0.1194        7       10
+      213      0.5294     0.4706     0.1211        8        9
+      216      0.4706     0.5294     0.1211        9        8
+      216*          .          .          .        9        7
+      220      0.4034     0.5966     0.1210       10        6
+   227.23      0.3361     0.6639     0.1180       11        5
+      234      0.2689     0.7311     0.1120       12        4
+      244*          .          .          .       12        3
+      246      0.1793     0.8207     0.1045       13        2
+      265      0.0896     0.9104     0.0822       14        1
+      304      0.0000     1.0000     0.0000       15        0
+
+NOTE: The marked survival times are censored observations.
+
+Summary Statistics for Time Variable day
+
+Quartile Estimates
+ Percent    Point Est    Lower95    Upper95
+      75      246.000    216.000    304.000
+      50      216.000    188.000    234.000
+      25      190.000    143.000    213.000
+
+        Mean    Std Error
+    218.8502      10.5734
+
+Stratum 2: arm = Arm 2
+
+Product-Limit Survival Estimates
+
+       day   Survival    Failure     SurvSE  NFailed    NLeft
+        0      1.0000     0.0000     0.0000        0       21
+      142      0.9524     0.0476     0.0465        1       20
+      156      0.9048     0.0952     0.0641        2       19
+      163      0.8571     0.1429     0.0764        3       18
+      198      0.8095     0.1905     0.0857        4       17
+      204*          .          .          .        4       16
+      205      0.7589     0.2411     0.0941        5       15
+      232           .          .          .        6       14
+      232      0.6577     0.3423     0.1053        7       13
+      233           .          .          .        8       12
+      233           .          .          .        9       11
+      233           .          .          .       10       10
+      233      0.4554     0.5446     0.1114       11        9
+      239      0.4048     0.5952     0.1099       12        8
+      240      0.3542     0.6458     0.1072       13        7
+      261      0.3036     0.6964     0.1031       14        6
+      280           .          .          .       15        5
+      280      0.2024     0.7976     0.0902       16        4
+      296           .          .          .       17        3
+      296      0.1012     0.8988     0.0678       18        2
+      323      0.0506     0.9494     0.0493       19        1
+      344*          .          .          .       19        0
+
+NOTE: The marked survival times are censored observations.
+
+Summary Statistics for Time Variable day
+
+Quartile Estimates
+ Percent    Point Est    Lower95    Upper95
+      75      280.000    233.000    323.000
+      50      233.000    232.000    280.000
+      25      232.000    142.000    233.000
+
+        Mean    Std Error
+    240.7946      11.2060
+NOTE: The mean survival time and its standard error were underestimated because the largest observation was censored and the estimation was restricted to the largest event time (323).
+
+Summary of the Number of Censored and Uncensored Values
+
+ Stratum      arm  Total  Failed  Censored   PctCens
+       1    Arm 1     17      15         2    11.765
+       2    Arm 2     21      19         2     9.524
+            Total     38      34         4    10.526
+
+Testing Homogeneity of Survival Curves for day over Strata
+
+Rank Statistics
+     arm     Log-Rank     Wilcoxon
+   Arm 1       4.0033      94.0000
+   Arm 2      -4.0033     -94.0000
+
+Covariance Matrix for the Log-Rank Statistics
+   Arm 1       6.7376      -6.7376
+   Arm 2      -6.7376       6.7376
+
+Covariance Matrix for the Wilcoxon Statistics
+   Arm 1    4135.3479   -4135.3479
+   Arm 2   -4135.3479    4135.3479
+
+Test of Equality over Strata
+      Test   Chi-Square   DF     Pr>ChiSq
+  Log-Rank       2.3787    1       0.1230
+  Wilcoxon       2.1367    1       0.1438
+ -2Log(LR)       0.0551    1       0.8144
+
+Product-Limit Survival Estimates - Number at Risk
+     arm       0      30      60      90     120     150     180     210     240     270     300     330
+   Arm 1      17      17      17      17      17      16      15      10       4       1       1       0
+   Arm 2      21      21      21      21      21      20      18      15       8       6       2       1

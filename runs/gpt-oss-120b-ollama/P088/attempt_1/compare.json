@@ -1,0 +1,85 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.21005917159763313,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P088.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.05029585798816568,
+   "detail": {
+    "recall": 0.05029585798816568,
+    "expected": 676,
+    "found": 34,
+    "r_files": [
+     "adsl.csv"
+    ],
+    "missing_examples": [
+     "50",
+     "28",
+     "9",
+     "0",
+     "10",
+     "27",
+     "2026",
+     "15",
+     "59",
+     "2",
+     "520",
+     "64"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adeff",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "adeff.csv"
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adeff_resp",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "adeff_resp.csv"
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adeff_tumor",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "adeff_tumor.csv"
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adsl",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\gpt-oss-120b-ollama\\P088\\attempt_1\\out\\adsl.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 6,
+    "rows_r": 6,
+    "cols_sas": 10,
+    "cols_r": 10,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  }
+ ]
+}

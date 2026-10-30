@@ -97,7 +97,7 @@ a { color: var(--meta); }
 
   <h2>Scorecard</h2>
   <div class="card scroll"><table id="board"><thead><tr>
-    <th class="l">model</th><th>programs</th><th>ran</th><th>all outputs</th><th>equivalent</th><th>mean attempts</th><th>mean sec</th><th>list $/M in / out</th><th>cost</th><th>$ / program</th><th>$ / equivalent</th>
+    <th class="l">model</th><th class="l">prompt</th><th>programs</th><th>ran</th><th>all outputs</th><th>equivalent</th><th>mean attempts</th><th>mean sec</th><th>list $/M in / out</th><th>cost</th><th>$ / program</th><th>$ / equivalent</th>
   </tr></thead><tbody></tbody></table>
   <p class="foot" style="margin-top:10px">Costs apply each vendor's list price per million tokens (reasoning tokens billed as output) to the tokens the runs actually used. Hackathon credits that paid for the runs are not reflected. "$ / equivalent" is the price of one translation that fully matched SAS, so it penalises models that fail cheaply.</p></div>
 
@@ -126,7 +126,7 @@ a { color: var(--meta); }
   let roleFilter = "all", groupFilter = "all", selected = null;
 
   const roleOf = p => (board[p].role || (p.startsWith("muse") ? "meta" : "baseline"));
-  const label = p => board[p].overall.model || p;
+  const label = p => (board[p].overall.model || p) + (p.includes("@") ? " · " + p.split("@")[1] : "");
 
   function summary(p) {
     const o = board[p];
@@ -172,7 +172,7 @@ a { color: var(--meta); }
     $("#board tbody").innerHTML = rows.map(([p, o]) => {
       const [pin, pout] = o.list_price_per_m || [0, 0];
       return `<tr><td class="l"><span class="tag ${roleOf(p)}">${roleOf(p)}</span>${label(p)}<div style="font-size:11px;color:var(--muted)">${p}${board[p].note ? " · " + board[p].note : ""}</div></td>
-        <td>${o.programs}</td><td>${pct(o.runs_pct)}</td><td>${pct(o.produced_all_pct)}</td><td><b>${pct(o.equivalent_pct)}</b></td>
+        <td class="l">v${(o.prompt_versions || [1]).join("+")}</td><td>${o.programs}</td><td>${pct(o.runs_pct)}</td><td>${pct(o.produced_all_pct)}</td><td><b>${pct(o.equivalent_pct)}</b></td>
         <td>${fmt(o.mean_iterations, 2)}</td><td>${fmt(o.mean_seconds, 0)}</td><td>${fmt(pin, 2)} / ${fmt(pout, 2)}</td>
         <td>$${fmt(o.cost_usd, 2)}</td><td>$${fmt(o.cost_per_program_usd, 3)}</td><td>${o.cost_per_equivalent_usd == null ? "n/a" : "$" + fmt(o.cost_per_equivalent_usd, 3)}</td></tr>`;
     }).join("");

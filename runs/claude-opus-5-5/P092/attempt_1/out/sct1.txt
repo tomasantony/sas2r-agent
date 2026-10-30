@@ -1,0 +1,6 @@
+SGplot Series Plot Lines With Markers
+
+Series Plot Lines
+With Markers
+
+[Graph: sct1.png]

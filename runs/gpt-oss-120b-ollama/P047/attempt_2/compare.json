@@ -1,0 +1,61 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.36356404136833725,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P047.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.09069212410501193,
+   "detail": {
+    "recall": 0.09069212410501193,
+    "expected": 419,
+    "found": 38,
+    "r_files": [
+     "all.csv"
+    ],
+    "missing_examples": [
+     "1800",
+     "10",
+     "9",
+     "0",
+     "27",
+     "2026",
+     "53",
+     "34",
+     "176",
+     "64",
+     "1",
+     "65536"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "ClinicalHandout_DbpProfile.gif",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "clinicalhandout_dbpprofile.png"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "DBP_Profile.html",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 0,
+    "found": 0,
+    "r_files": [
+     "all.csv"
+    ]
+   }
+  }
+ ]
+}

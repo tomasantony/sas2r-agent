@@ -1,0 +1,9 @@
+sandbox: docker run --rm --name sas2r-d06e12cea22e --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\claude-opus-5-5\P030\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+sdtm_dm not found - deriving RFSTDTC from raw data candidates
+edc_ex columns: SUBJID,VISIT,TRT,DOSE,UNIT,STDT,ENDT,LOT,ROUTE,FREQ,FORM,ADJ,ADJRS
+ivrs_rand columns: SUBJID,RAND_DT,TRT_CODE
+edc_dm columns: SUBJID,BRTHDT,GENDER,RACE,ETHNIC,RFICDT,SITE
+edc_ds columns: SUBJID,DS_TERM,DS_CAT,DS_DT
+candidate scores: edc_ex.STDT=9.09; edc_ex.ENDT=9.09; ivrs_rand.RAND_DT=9.09; edc_dm.BRTHDT=3.09; edc_dm.RFICDT=3.09; edc_ds.DS_DT=6.09
+chosen reference: edc_ex.STDT
+P030 done: 9 rows; VSTDY: -13,-13,1,-15,-10,-10,1,1,-13

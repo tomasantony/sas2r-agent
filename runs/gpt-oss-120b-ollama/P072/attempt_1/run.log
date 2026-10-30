@@ -1,0 +1,37 @@
+sandbox: docker run --rm --name sas2r-f7569277a1e3 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\gpt-oss-120b-ollama\P072\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error in `summarise()`:
+ℹ In argument: `value = if (...) NULL`.
+ℹ In group 3: `TRTA = "Drug X High Dose"`, `block = 1`, `category = "Age
+  (years)"`, `stat = "Min, Max"`, `ord = 6`.
+Caused by error in `if (stat == "n") ...`:
+! the condition has length > 1
+Backtrace:
+     ▆
+  1. ├─global cont_stats("AGE", "Age (years)", ord = 1, decimals = 1)
+  2. │ └─... %>% select(TRTA, block, category, stat, value, ord)
+  3. ├─dplyr::select(., TRTA, block, category, stat, value, ord)
+  4. ├─dplyr::summarise(...)
+  5. ├─dplyr:::summarise.grouped_df(...)
+  6. │ └─dplyr:::summarise_cols(.data, dplyr_quosures(...), by, "summarise")
+  7. │   ├─base::withCallingHandlers(...)
+  8. │   └─dplyr:::map(quosures, summarise_eval_one, mask = mask)
+  9. │     └─base::lapply(.x, .f, ...)
+ 10. │       └─dplyr (local) FUN(X[[i]], ...)
+ 11. │         └─mask$eval_all_summarise(quo)
+ 12. │           └─dplyr (local) eval()
+ 13. └─base::.handleSimpleError(...)
+ 14.   └─dplyr (local) h(simpleError(msg, call))
+ 15.     └─dplyr (local) handler(cnd)
+ 16.       └─rlang::abort(message, class = error_class, parent = parent, call = error_call)
+Execution halted

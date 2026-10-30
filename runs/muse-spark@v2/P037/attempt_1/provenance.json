@@ -1,0 +1,63 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P037",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 1,
+ "prompt_version": 2,
+ "run_name": "muse-spark@v2",
+ "recorded_at": "2026-10-29T20:42:51",
+ "agent_commit": "54b8b9726c4dcbbd11954be09ec9c716e7539c90",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 3231,
+  "output_tokens": 12279,
+  "reasoning_tokens": 8667,
+  "finish_reason": "stop",
+  "seconds": 93.2
+ },
+ "inputs": {
+  "prompt_translate.md": "300a06e7dfa3606b3e3f8b9177a5d2146d4d90eb9a50d900815e117f067ac833"
+ },
+ "model_output": {
+  "response.md": "c5fc0d8416662a5645249405d9c2e750cdc37a5933c40fe34f51ad043a5bfd9b",
+  "script.R": "fbd7dd4e96680009a9b6fb92ffb360bf6941b14e510063d550baa91a1e30d15f"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.8,
+  "timed_out": false,
+  "log_sha256": "cbb61749c4ce4e6f66c7c791bf63b5f142d4eca0dd5100405893764f63db7a4b"
+ },
+ "r_outputs": {
+  "P037.csv": "22882fff0c393f57067a3210eee4012cbae88b9fe0dc490a1434598a92aa8a8a",
+  "P037.txt": "379ac24b3ae01fa5d78b90f963849bd03493bb9ced45e9babc9a27141893d8f9"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P037.lst",
+   "sha256": "c69de2c5517aab0abcedeb40d5af2e977e57aa58db4dc54e23bc3fdf8b2d6be9",
+   "frozen_sha256": "c69de2c5517aab0abcedeb40d5af2e977e57aa58db4dc54e23bc3fdf8b2d6be9",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.3150684931506849,
+  "produced_all": true
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P095",
+ "provider": "gpt-oss-120b-ollama",
+ "model": "gpt-oss:120b",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T20:28:59",
+ "agent_commit": "54b8b9726c4dcbbd11954be09ec9c716e7539c90",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 1557,
+  "output_tokens": 4499,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 10.4
+ },
+ "inputs": {
+  "prompt_translate.md": "26a17b635c45da8a7090801fd540287d9881d149e4b98d72c5091311597cf298"
+ },
+ "model_output": {
+  "response.md": "a82a4a06eebfbbcb589f35c5022fae6d126635fc775c30124175123570b17e1e",
+  "reasoning.md": "66a97b3f76e900103ed9bb161697ece8849ae8e70f23f3c1c0194e2b437d211a",
+  "script.R": "44344c7073f5060e4db9451f4d8fd8f2e84cb54c5d4b40753ce96d1072df6874"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.8,
+  "timed_out": false,
+  "log_sha256": "d97412901b5ab382cac84b66aa7cc42f915b460f159041330977976a55e6c720"
+ },
+ "r_outputs": {
+  "tumorsize_band_sg_v94.csv": "4cdfff959d4f2acb359a73180bcb1cbf3d442a04f2ec94ed857016f85d7de42c",
+  "tumorsize_band_sg_v94.png": "781eb54cb5abe1ccc9b0c8dfc4a2a60817158e51dafb14bea6bb48a355345854",
+  "TumorSizeDesc.csv": "4cdfff959d4f2acb359a73180bcb1cbf3d442a04f2ec94ed857016f85d7de42c"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P095/TumorSize_Band_SG_V94.png",
+   "sha256": "4b8acabca114ec403a0e42a901b17f4b7e3503da3f84855597b319492aed0b8c",
+   "frozen_sha256": "4b8acabca114ec403a0e42a901b17f4b7e3503da3f84855597b319492aed0b8c",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

@@ -1,0 +1,7 @@
+"STUDYID","USUBJID","TRTP","TRTPN","AGE","AGEGR1","SEX","RACE","SAFFL","ITTFL","PARAMCD","PARAM","PARAMN","STARTDT","ADT","AVAL","CNSR","EVNTDESC","CNSDTDSC","SRCDOM","AVAL_M"
+"STUDY01","STUDY01-1001","Treatment A",1,59,"<65","M","WHITE","Y","Y","PFS","Progression-Free Survival (Days)",1,"2024-01-15","2024-06-15",153,1,"","Censored - No progression or death","ADSL",5.02669404517454
+"STUDY01","STUDY01-1002","Placebo",2,45,"<65","F","BLACK","Y","Y","PFS","Progression-Free Survival (Days)",1,"2024-01-18","2024-05-20",124,0,"Disease Progression","","RS",4.07392197125257
+"STUDY01","STUDY01-1003","Treatment A",1,43,"<65","M","ASIAN","Y","Y","PFS","Progression-Free Survival (Days)",1,"2024-01-20","2024-03-25",66,0,"Disease Progression","","RS",2.16837782340862
+"STUDY01","STUDY01-1004","Treatment A",1,51,"<65","F","WHITE","Y","Y","PFS","Progression-Free Survival (Days)",1,"2024-01-25","2024-06-25",153,1,"","Censored - No progression or death","ADSL",5.02669404517454
+"STUDY01","STUDY01-1005","Placebo",2,36,"<65","M","ASIAN","Y","Y","PFS","Progression-Free Survival (Days)",1,"2024-01-28","2024-07-15",170,1,"","Censored - No progression or death","ADSL",5.58521560574949
+"STUDY01","STUDY01-1006","Treatment A",1,68,">=65","F","WHITE","Y","Y","PFS","Progression-Free Survival (Days)",1,"2024-01-30","2024-07-01",154,1,"","Censored - No progression or death","ADSL",5.05954825462012

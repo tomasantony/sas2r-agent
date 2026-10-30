@@ -1,0 +1,13 @@
+"Table","Category","Frequency","Percent"
+"sex","Female",2509,100
+"TumorStage","0",24,1.34
+"TumorStage","1",630,35.23
+"TumorStage","2",979,54.75
+"TumorStage","3",144,8.05
+"TumorStage","4",11,0.62
+"Chemotherapy","No",1568,79.19
+"Chemotherapy","Yes",412,20.81
+"ERStatus","Negative",644,26.08
+"ERStatus","Positive",1825,73.92
+"HER2Status","Negative",1733,87.53
+"HER2Status","Positive",247,12.47

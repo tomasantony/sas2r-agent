@@ -1,0 +1,63 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P074",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 3,
+ "recorded_at": "2026-10-29T20:12:51",
+ "agent_commit": "54b8b9726c4dcbbd11954be09ec9c716e7539c90",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 16886,
+  "output_tokens": 4292,
+  "reasoning_tokens": 668,
+  "finish_reason": "stop",
+  "seconds": 11.7
+ },
+ "inputs": {
+  "prompt_translate.md": "de3d8359902e15262cfdc2523d459f11bee71dbcbf8232f6cadec95abfb9bd3e"
+ },
+ "model_output": {
+  "response.md": "4ea997ce49e279667c71438dfd0dfdb9a64249d0427f4657bd8049901ae88cbf",
+  "reasoning.md": "2f67c679bc3956143bcd038374302816ed11dc34520e08aec79abf1d133359dc",
+  "script.R": "f66088f5ac8762d2dec2c079018c07055a3c07becd813da7eb44a87e608c682b"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.6,
+  "timed_out": false,
+  "log_sha256": "88d910dcb8bfbdb0b1e27c955eed360ba5bf9769e045a74f9ae0a68efcad81c0"
+ },
+ "r_outputs": {
+  "t_lb_shift.csv": "e05e5adcee9073e06c7fdabba8cefd8c0a632ae4e4cf55247b2f5289729e614d",
+  "t_lb_shift.rtf": "e4cddcb56d6fb31dc9ad4620cb61e85a4594f269294ec5b7e465eb17aee2a64f",
+  "t_lb_shift.txt": "284228d7d9efcee1a29741d002474fdc565e5eb615cbac92a111e04e388af0dd"
+ },
+ "sas_reference": [
+  {
+   "file": "tlf/t_lb_shift.rtf",
+   "sha256": "112b9ad376ac317495c116bb6543b0be057e495acfb8d66d0bdf70c0bd484876",
+   "frozen_sha256": "112b9ad376ac317495c116bb6543b0be057e495acfb8d66d0bdf70c0bd484876",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 0.977296181630547,
+  "produced_all": true
+ }
+}

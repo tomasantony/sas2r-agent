@@ -1,0 +1,18 @@
+VS Domain Audit (Unpivoted Format with VSSEQ)
+
+Obs  USUBJID              VSSEQ VISITNUMVISIT           VSDTC       VSTESTCD  VSSTRESNVSSTRESU   
+----- -------------------- ------ --------- ---------------- ------------ --------- --------- -----------
+1    CDISC-01-701-001         1        1Visit 1         2023-01-15  DIABP           97mmHg       
+2    CDISC-01-701-001         2        1Visit 1         2023-01-15  PULSE           68beats/min  
+3    CDISC-01-701-001         3        1Visit 1         2023-01-15  SYSBP          110mmHg       
+4    CDISC-01-701-001         4        1Visit 1         2023-01-15  WEIGHT        87.1kg         
+5    CDISC-01-701-001         5        2Visit 2         2023-02-14  DIABP           89mmHg       
+6    CDISC-01-701-001         6        2Visit 2         2023-02-14  PULSE           95beats/min  
+7    CDISC-01-701-001         7        2Visit 2         2023-02-14  SYSBP          146mmHg       
+8    CDISC-01-701-001         8        2Visit 2         2023-02-14  WEIGHT        78.7kg         
+9    CDISC-01-701-001         9        3Visit 3         2023-03-17  DIABP           87mmHg       
+10   CDISC-01-701-001        10        3Visit 3         2023-03-17  PULSE           67beats/min  
+11   CDISC-01-701-001        11        3Visit 3         2023-03-17  SYSBP          111mmHg       
+12   CDISC-01-701-001        12        3Visit 3         2023-03-17  WEIGHT        79.8kg         
+
+N = 12 shown of 528 total VS records

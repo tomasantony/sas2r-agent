@@ -1,0 +1,22 @@
+=== PROC REG OUTPUT (R equivalent) ===
+
+
+Call:
+lm(formula = AVAL ~ PARAMCD_NUM, data = advs1)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-27.714  -6.323  -0.323   6.286  35.677 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  73.7137     0.6709 109.871  < 2e-16 ***
+PARAMCD_NUM  -5.3906     0.9499  -5.675 2.48e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 10.11 on 451 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.06665,	Adjusted R-squared:  0.06459 
+F-statistic: 32.21 on 1 and 451 DF,  p-value: 2.482e-08
+

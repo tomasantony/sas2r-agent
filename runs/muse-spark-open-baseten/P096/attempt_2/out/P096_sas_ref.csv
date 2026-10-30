@@ -1,0 +1,6 @@
+"Variable","N","Sum","Mean"
+"Length",425,430.8,1.014
+"Round",425,430.8,1.014
+"RoundEven",425,430.7,1.014
+"RoundUp",425,,0.501
+"RoundEvenUp",425,,0.485

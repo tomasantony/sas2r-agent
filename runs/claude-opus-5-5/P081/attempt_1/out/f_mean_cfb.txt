@@ -1,0 +1,17 @@
+n per visit
+
+TRTA: Drug X High Dose
+Week12                    59.00
+Week4                     59.00
+Week8                     59.00
+
+TRTA: Drug X Low Dose
+Week12                    74.00
+Week4                     75.00
+Week8                     75.00
+
+TRTA: Placebo
+Week12                    81.00
+Week4                     85.00
+Week8                     83.00
+

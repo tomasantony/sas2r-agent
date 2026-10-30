@@ -1,0 +1,60 @@
+Figure 14.2.2
+Forest Plot of Subgroup Analyses - Overall Survival
+Efficacy Analysis Set
+
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets (adtte, adsl)
+
+  subgroup            subgroup_level             comp           HR     HR_LCL
+   Overall              All Subjects Drug X High Dose 6.282437e-01 0.35449347
+   Overall              All Subjects  Drug X Low Dose 8.680633e-01 0.53272391
+       Sex                         F Drug X High Dose 5.907724e-01 0.26534744
+       Sex                         F  Drug X Low Dose 8.475094e-01 0.42705719
+       Sex                         M Drug X High Dose 6.833982e-01 0.30065831
+       Sex                         M  Drug X Low Dose 8.984422e-01 0.44670167
+ Age Group                       <65 Drug X High Dose 6.162011e-01 0.33352267
+ Age Group                       <65  Drug X Low Dose 6.796479e-01 0.38139147
+ Age Group                      >=65 Drug X High Dose 6.052490e-01 0.12206574
+ Age Group                      >=65  Drug X Low Dose 1.779763e+00 0.64655332
+      Race                     ASIAN Drug X High Dose 1.369527e+00 0.36425541
+      Race                     ASIAN  Drug X Low Dose 1.723235e+00 0.33230356
+      Race BLACK OR AFRICAN AMERICAN Drug X High Dose 4.756550e-01 0.11283818
+      Race BLACK OR AFRICAN AMERICAN  Drug X Low Dose 5.316071e-01 0.14102584
+      Race                     OTHER Drug X High Dose 9.737715e-10 0.00000000
+      Race                     OTHER  Drug X Low Dose 6.088332e-01 0.06765476
+      Race                     WHITE Drug X High Dose 6.497033e-01 0.31061639
+      Race                     WHITE  Drug X Low Dose 1.021115e+00 0.56844387
+    Region                      Asia Drug X High Dose 7.058058e-01 0.17635700
+    Region                      Asia  Drug X Low Dose 1.040791e+00 0.33540723
+    Region                    Europe Drug X High Dose 6.987236e-01 0.25831756
+    Region                    Europe  Drug X Low Dose 1.224574e+00 0.54834103
+    Region             North America Drug X High Dose 5.704092e-01 0.25240865
+    Region             North America  Drug X Low Dose 5.678356e-01 0.25972618
+   HR_UCL hr_display   ci_display ProbChiSq row yval
+ 1.113392       0.63 (0.35, 1.11) 0.1113619   1   -1
+ 1.414492       0.87 (0.53, 1.41) 0.5700499   2   -2
+ 1.315302       0.59 (0.27, 1.32) 0.1974449   3   -3
+ 1.681911       0.85 (0.43, 1.68) 0.6361070   4   -4
+ 1.553368       0.68 (0.30, 1.55) 0.3635140   5   -5
+ 1.807019       0.90 (0.45, 1.81) 0.7638818   6   -6
+ 1.138465       0.62 (0.33, 1.14) 0.1221182   7   -7
+ 1.211147       0.68 (0.38, 1.21) 0.1901589   8   -8
+ 3.001058       0.61 (0.12, 3.00) 0.5387685   9   -9
+ 4.899143       1.78 (0.65, 4.90) 0.2644804  10  -10
+ 5.149148       1.37 (0.36, 5.15) 0.6416489  11  -11
+ 8.936223       1.72 (0.33, 8.94) 0.5169500  12  -12
+ 2.005063       0.48 (0.11, 2.01) 0.3114053  13  -13
+ 2.003932       0.53 (0.14, 2.00) 0.3506753  14  -14
+      Inf       0.00  (0.00, Inf) 0.9992160  15  -15
+ 5.478961       0.61 (0.07, 5.48) 0.6580138  16  -16
+ 1.358957       0.65 (0.31, 1.36) 0.2520585  17  -17
+ 1.834265       1.02 (0.57, 1.83) 0.9442575  18  -18
+ 2.824735       0.71 (0.18, 2.82) 0.6224271  19  -19
+ 3.229642       1.04 (0.34, 3.23) 0.9448298  20  -20
+ 1.889979       0.70 (0.26, 1.89) 0.4800983  21  -21
+ 2.734762       1.22 (0.55, 2.73) 0.6211497  22  -22
+ 1.289047       0.57 (0.25, 1.29) 0.1771399  23  -23
+ 1.241451       0.57 (0.26, 1.24) 0.1561742  24  -24
+
+Hazard Ratios from Cox proportional hazards model.
+Reference:  Placebo 

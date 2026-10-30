@@ -1,0 +1,30 @@
+{
+ "id": "P057",
+ "provider": "gpt-oss-120b-ollama",
+ "model": "gpt-oss:120b",
+ "family": "phuse",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 1.0,
+ "iterations": 1,
+ "input_tokens": 3154,
+ "output_tokens": 2804,
+ "seconds": 13.04955244064331,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 3.2670164108276367,
+   "input_tokens": 3154,
+   "output_tokens": 2804,
+   "seconds_llm": 9.576679706573486,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 1.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 1
+}

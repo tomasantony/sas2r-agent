@@ -1,0 +1,80 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P096",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T20:25:46",
+ "agent_commit": "54b8b9726c4dcbbd11954be09ec9c716e7539c90",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 3706,
+  "output_tokens": 7523,
+  "reasoning_tokens": 2690,
+  "finish_reason": "stop",
+  "seconds": 21.7
+ },
+ "inputs": {
+  "prompt_translate.md": "d99555f71877abe9fe20ee4edca54b4e83d992bdfe16b7508097d36820e8b2ec"
+ },
+ "model_output": {
+  "response.md": "6f6f06f1c252df92c214060e5e747668367fe9ed787f6ec25381eaed71a45b68",
+  "reasoning.md": "844f60eb7e0b42454def9f431ece893f6b56527dc2722b76df5f2d3b2e033f85",
+  "script.R": "34c9d53cc1c8f0b5d91ed6c558dedfdd08810848dd1ff16f8c8c38eb1d94c6f1"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.8,
+  "timed_out": false,
+  "log_sha256": "c4adfa1e51def8657976f922b684373b9a1e72dbfcbd24078e017b4edfbc4549"
+ },
+ "r_outputs": {
+  "Channel1.csv": "57ece205a57ef46d219d0f20b211bf2723351bf2c70f079c9958f1e65d9b7dee",
+  "means1.csv": "2f15aa858266bc99295875c9c5cc83fe7a59b38980958a95261de23dfa7e327d",
+  "means2.csv": "c992fa1276a608352509974006a9eb670ae55dc47c3df0327e8d61f318f88ca7",
+  "P096.csv": "eaad6820bb1f87aa98c1b1eb7bfcc5cb48ab3626d67f918398ba6fef8631a95c",
+  "P096.lst": "11224e601f9ac7d67fd1757bbde08721a44e8009816326abeca54019c70d1776",
+  "P096.lst.csv": "eaad6820bb1f87aa98c1b1eb7bfcc5cb48ab3626d67f918398ba6fef8631a95c",
+  "P096.lst.txt": "11224e601f9ac7d67fd1757bbde08721a44e8009816326abeca54019c70d1776",
+  "P096.txt": "11224e601f9ac7d67fd1757bbde08721a44e8009816326abeca54019c70d1776",
+  "P096_all_numbers.csv": "61d03ce39ef88215467c7588018d31f8c6c5d2eaaf1175c47f6a64e6709431e5",
+  "Round.csv": "3d5b508691ab8d44233d719d46264e33a796b801a70509748d2f2edc6ef08e86",
+  "RoundToEven.csv": "d17443fdc47ced2b4f80eb2ed45c0d0ce8c8372a9fa8f028b01e6e7afb405d84",
+  "Seq.csv": "eaad6820bb1f87aa98c1b1eb7bfcc5cb48ab3626d67f918398ba6fef8631a95c",
+  "sgplot.csv": "d17443fdc47ced2b4f80eb2ed45c0d0ce8c8372a9fa8f028b01e6e7afb405d84",
+  "sgplot.png": "c42dab585596ac03c463072dcc3953ba0d6bb2754e8428d918022aa38b80402c"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P096.lst",
+   "sha256": "cd36d3c69d287f7be32f02f1d9ff1b8055b9d0d9db2ce30aba131d55dccc9607",
+   "frozen_sha256": "cd36d3c69d287f7be32f02f1d9ff1b8055b9d0d9db2ce30aba131d55dccc9607",
+   "ok": true
+  },
+  {
+   "file": "datasets/P096/SGPlot.png",
+   "sha256": "828d50dbcb4acc88d44525f896cc11132da9530ecf9f73c3989ab85cea27bfe4",
+   "frozen_sha256": "828d50dbcb4acc88d44525f896cc11132da9530ecf9f73c3989ab85cea27bfe4",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.9716981132075472,
+  "produced_all": true
+ }
+}

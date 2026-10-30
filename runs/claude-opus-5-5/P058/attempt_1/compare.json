@@ -1,0 +1,67 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "figure",
+   "name": "SGRender.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\claude-opus-5-5\\P058\\attempt_1\\out\\sgrender.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGRender1.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\claude-opus-5-5\\P058\\attempt_1\\out\\sgrender1.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGRender2.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\claude-opus-5-5\\P058\\attempt_1\\out\\sgrender2.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGRender3.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\claude-opus-5-5\\P058\\attempt_1\\out\\sgrender3.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGRender4.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\claude-opus-5-5\\P058\\attempt_1\\out\\sgrender4.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGRender5.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\claude-opus-5-5\\P058\\attempt_1\\out\\sgrender5.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  }
+ ]
+}

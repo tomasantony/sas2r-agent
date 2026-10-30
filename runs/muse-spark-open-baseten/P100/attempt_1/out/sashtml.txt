@@ -1,0 +1,7 @@
+Obs  Cid  Id   Change       Group         Label
+------------------------------------------------------------
+1     1   1    -14.3910     Treatment 1   C    
+2     2   2    -65.9578     Treatment 1   R    
+3     3   3    -71.1846     Treatment 1   S    
+4     4   4    19.6850      Treatment 2   P    
+5     5   5    18.0494      Treatment 2   E    

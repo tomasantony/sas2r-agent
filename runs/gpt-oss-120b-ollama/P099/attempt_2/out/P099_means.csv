@@ -1,0 +1,6 @@
+"Type","N","Mean","StdDev","Min","Max","Sum"
+"Constant",100,10,3.03,3,16,1000
+"Early Peak",100,10,12.06,0,37,1000
+"Flattened",100,10,8.41,0,27,1000
+"Second Outbreak",100,10,10.45,0,34,1000
+"Exponential",100,10,15.8,0,66,1000

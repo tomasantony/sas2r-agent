@@ -1,0 +1,24 @@
+sandbox: docker run --rm --name sas2r-2e8a88dec4a9 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P037\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading /bench/data/raw/cdisc-pilot/adam/advs.xpt
+advs_raw rows=32139
+advs filtered rows=2194
+Fisher Low table:
+    
+      N  Y
+  0  77  6
+  54 77  7
+  81 72 10
+    
+      N  Y
+  0  70 13
+  54 71 13
+  81 74  8
+Fisher High table:
+Wrote P037.csv and P037.txt
+                            param tefl trtpn totn nc   pctc nvalue1c
+1 Diastolic Blood Pressure (mmHg)  Low     0   83  6  (7.2)    0.538
+2 Diastolic Blood Pressure (mmHg)  Low    54   84  7  (8.3)         
+3 Diastolic Blood Pressure (mmHg)  Low    81   82 10 (12.2)         
+4 Diastolic Blood Pressure (mmHg) High     0   83 13 (15.7)    0.470
+5 Diastolic Blood Pressure (mmHg) High    54   84 13 (15.5)         
+6 Diastolic Blood Pressure (mmHg) High    81   82  8  (9.8)         

@@ -1,0 +1,201 @@
+The FREQ Procedure
+Data: advsmax2 (DIABP, ATPTN=815, ANL01FL=Y, ADY>1, SAFFL=Y)
+
+TRTPN=0  (N = 84)
+
+Table of BNRIND by ANRIND
+TRTPN=0
+
+BNRIND                      Low             Normal              Total
+High                          0                  2                  2
+ Frequency                    0                  2                  2
+ Percent                   0.00               2.38               2.38
+ Row Pct                   0.00             100.00             100.00
+ Col Pct                   0.00               2.99
+Low                           6                  1                  7
+ Frequency                    6                  1                  7
+ Percent                   7.14               1.19               8.33
+ Row Pct                  85.71              14.29             100.00
+ Col Pct                  35.29               1.49
+Normal                       11                 64                 75
+ Frequency                   11                 64                 75
+ Percent                  13.10              76.19              89.29
+ Row Pct                  14.67              85.33             100.00
+ Col Pct                  64.71              95.52
+Total                        17                 67                 84
+ Percent                  20.24              79.76             100.00
+ Col Pct                 100.00             100.00
+
+Frequency of BNRIND  (TRTPN=0)
+BNRIND          Frequency    Percent   Cum Freq    Cum Pct
+High                    2       2.38          2       2.38
+Low                     7       8.33          9      10.71
+Normal                 75      89.29         84     100.00
+
+Frequency of ANRIND  (TRTPN=0)
+ANRIND          Frequency    Percent   Cum Freq    Cum Pct
+Low                    17      20.24         17      20.24
+Normal                 67      79.76         84     100.00
+
+Cell N (%) with 10.1 percent (ValueFmt):
+BNRIND=High ANRIND=Low : 0 (0.0)
+BNRIND=High ANRIND=Normal : 2 (2.4)
+BNRIND=Low ANRIND=Low : 6 (7.1)
+BNRIND=Low ANRIND=Normal : 1 (1.2)
+BNRIND=Normal ANRIND=Low : 11 (13.1)
+BNRIND=Normal ANRIND=Normal : 64 (76.2)
+
+--------------------------------------------------
+
+TRTPN=54  (N = 84)
+
+Table of BNRIND by ANRIND
+TRTPN=54
+
+BNRIND                      Low             Normal              Total
+High                          0                  1                  1
+ Frequency                    0                  1                  1
+ Percent                   0.00               1.19               1.19
+ Row Pct                   0.00             100.00             100.00
+ Col Pct                   0.00               1.45
+Low                           3                  1                  4
+ Frequency                    3                  1                  4
+ Percent                   3.57               1.19               4.76
+ Row Pct                  75.00              25.00             100.00
+ Col Pct                  20.00               1.45
+Normal                       12                 67                 79
+ Frequency                   12                 67                 79
+ Percent                  14.29              79.76              94.05
+ Row Pct                  15.19              84.81             100.00
+ Col Pct                  80.00              97.10
+Total                        15                 69                 84
+ Percent                  17.86              82.14             100.00
+ Col Pct                 100.00             100.00
+
+Frequency of BNRIND  (TRTPN=54)
+BNRIND          Frequency    Percent   Cum Freq    Cum Pct
+High                    1       1.19          1       1.19
+Low                     4       4.76          5       5.95
+Normal                 79      94.05         84     100.00
+
+Frequency of ANRIND  (TRTPN=54)
+ANRIND          Frequency    Percent   Cum Freq    Cum Pct
+Low                    15      17.86         15      17.86
+Normal                 69      82.14         84     100.00
+
+Cell N (%) with 10.1 percent (ValueFmt):
+BNRIND=High ANRIND=Low : 0 (0.0)
+BNRIND=High ANRIND=Normal : 1 (1.2)
+BNRIND=Low ANRIND=Low : 3 (3.6)
+BNRIND=Low ANRIND=Normal : 1 (1.2)
+BNRIND=Normal ANRIND=Low : 12 (14.3)
+BNRIND=Normal ANRIND=Normal : 67 (79.8)
+
+--------------------------------------------------
+
+TRTPN=81  (N = 82)
+
+Table of BNRIND by ANRIND
+TRTPN=81
+
+BNRIND                      Low             Normal              Total
+High                          0                  1                  1
+ Frequency                    0                  1                  1
+ Percent                   0.00               1.22               1.22
+ Row Pct                   0.00             100.00             100.00
+ Col Pct                   0.00               1.41
+Low                           6                  0                  6
+ Frequency                    6                  0                  6
+ Percent                   7.32               0.00               7.32
+ Row Pct                 100.00               0.00             100.00
+ Col Pct                  54.55               0.00
+Normal                        5                 70                 75
+ Frequency                    5                 70                 75
+ Percent                   6.10              85.37              91.46
+ Row Pct                   6.67              93.33             100.00
+ Col Pct                  45.45              98.59
+Total                        11                 71                 82
+ Percent                  13.41              86.59             100.00
+ Col Pct                 100.00             100.00
+
+Frequency of BNRIND  (TRTPN=81)
+BNRIND          Frequency    Percent   Cum Freq    Cum Pct
+High                    1       1.22          1       1.22
+Low                     6       7.32          7       8.54
+Normal                 75      91.46         82     100.00
+
+Frequency of ANRIND  (TRTPN=81)
+ANRIND          Frequency    Percent   Cum Freq    Cum Pct
+Low                    11      13.41         11      13.41
+Normal                 71      86.59         82     100.00
+
+Cell N (%) with 10.1 percent (ValueFmt):
+BNRIND=High ANRIND=Low : 0 (0.0)
+BNRIND=High ANRIND=Normal : 1 (1.2)
+BNRIND=Low ANRIND=Low : 6 (7.3)
+BNRIND=Low ANRIND=Normal : 0 (0.0)
+BNRIND=Normal ANRIND=Low : 5 (6.1)
+BNRIND=Normal ANRIND=Normal : 70 (85.4)
+
+--------------------------------------------------
+
+Frequency of TRTPN (overall)
+TRTPN           Frequency    Percent   Cum Freq    Cum Pct
+0                      84      33.60         84      33.60
+54                     84      33.60        168      67.20
+81                     82      32.80        250     100.00
+
+Table of TRTPN by n
+Data: advsmax3 (DIABP, ATPTN=815, ANL01FL=Y, ADY>1, SAFFL=Y, CRIT1FL ne '')
+N = 250   Rows(TRTPN)=3  Cols(n)=2
+
+Frequency | Percent | Row Pct | Col Pct  (per cell, 4 lines)
+
+TRTPN               n=0          n=1        Total
+0                    79            5           84
+ Frequency           79            5           84
+ Percent          31.60         2.00        33.60
+ Row Pct          94.05         5.95
+ Col Pct          33.62        33.33
+ Expected       78.9600       5.0400
+
+54                   79            5           84
+ Frequency           79            5           84
+ Percent          31.60         2.00        33.60
+ Row Pct          94.05         5.95
+ Col Pct          33.62        33.33
+ Expected       78.9600       5.0400
+
+81                   77            5           82
+ Frequency           77            5           82
+ Percent          30.80         2.00        32.80
+ Row Pct          93.90         6.10
+ Col Pct          32.77        33.33
+ Expected       77.0800       4.9200
+
+Total               235           15          250
+ Percent          94.00         6.00       100.00
+
+Statistics for Table of TRTPN by n
+
+Statistic                        DF        Value         Prob
+Chi-Square                        2       0.0021       0.9990
+Likelihood Ratio Chi-Square       2       0.0021       0.9990
+Mantel-Haenszel Chi-Square        1       0.0012       0.9728
+Phi Coefficient                           0.0029             
+Contingency Coefficient                   0.0029             
+Cramer's V                                0.0029             
+
+Fisher's Exact Test
+Table Probability (P)                0.0560
+Pr <= P (XP2_FISH)                   1.0000
+Cell (1,1) Frequency (F)                 79
+Sample Size                             250
+
+Frequency Missing = 0
+
+Treatment Emergent High (PROC SUMMARY + Fisher)
+TRTPN              Nx          n          %     FishersP
+0                  84          5      500.0       1.0000
+54                 84          5      500.0             
+81                 82          5      500.0             

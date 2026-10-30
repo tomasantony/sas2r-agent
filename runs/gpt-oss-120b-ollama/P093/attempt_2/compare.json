@@ -1,0 +1,37 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.7083333333333334,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P093.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.7083333333333334,
+   "detail": {
+    "recall": 0.7083333333333334,
+    "expected": 48,
+    "found": 34,
+    "r_files": [
+     "highlowsal.csv",
+     "P093.csv"
+    ],
+    "missing_examples": [
+     "25",
+     "80",
+     "29",
+     "815",
+     "305",
+     "34",
+     "760",
+     "36",
+     "315",
+     "47",
+     "785",
+     "865"
+    ]
+   }
+  }
+ ]
+}

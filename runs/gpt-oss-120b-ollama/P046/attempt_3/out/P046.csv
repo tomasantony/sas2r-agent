@@ -1,0 +1,7 @@
+"Section","Source","DF","SumSq","MeanSq","FValue","PrF","RootMSE","RSquare","AdjRSquare","Variable","Estimate","StdError","tValue","PrgtT"
+"ANOVA","Model",1,,,,,,,,,,,,
+"ANOVA","Error",452,46081.8080191805,101.950902697302,,,,,,,,,,
+"ANOVA","Corrected Total",453,,,,,,,,,,,,
+"FIT",,,,,,,10.0970739671106,,,,,,,
+"COEF",,,,,,,,,,"Intercept",73.7136563876652,0.670908903898338,109.871334184641,0
+"COEF",,,,,,,,,,"PARAMCD_NUM",-5.39064753810768,0.949857458031219,-5.67521736290931,2.4815467260885e-08

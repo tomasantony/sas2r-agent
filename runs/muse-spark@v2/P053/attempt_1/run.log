@@ -1,0 +1,25 @@
+sandbox: docker run --rm --name sas2r-f0735ddce06b --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P053\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+P053 start
+Reading: /bench/data/raw/cdisc-pilot/adam/advsmax.xpt 
+Error in `mutate()`:
+ℹ In argument: `GroupFmt = paste0(...)`.
+Caused by error:
+! object 'GroupN' not found
+Backtrace:
+     ▆
+  1. ├─... %>% ...
+  2. ├─dplyr::mutate(...)
+  3. ├─dplyr:::mutate.data.frame(...)
+  4. │ └─dplyr:::mutate_cols(.data, dplyr_quosures(...), by)
+  5. │   ├─base::withCallingHandlers(...)
+  6. │   └─dplyr:::mutate_col(dots[[i]], data, mask, new_columns)
+  7. │     └─mask$eval_all_mutate(quo)
+  8. │       └─dplyr (local) eval()
+  9. ├─base::paste0(...)
+ 10. ├─global fmt_comma(GroupN)
+ 11. │ └─base::sapply(...)
+ 12. │   └─base::lapply(X = X, FUN = FUN, ...)
+ 13. └─base::.handleSimpleError(...)
+ 14.   └─dplyr (local) h(simpleError(msg, call))
+ 15.     └─rlang::abort(message, class = error_class, parent = parent, call = error_call)
+Execution halted

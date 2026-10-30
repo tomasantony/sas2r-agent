@@ -1,0 +1,60 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.8735632183908045,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P046.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.6206896551724138,
+   "detail": {
+    "recall": 0.6206896551724138,
+    "expected": 29,
+    "found": 18,
+    "r_files": [
+     "P046.csv",
+     "P046_anova.csv",
+     "P046_coefficients.csv",
+     "P046_fitstats.csv",
+     "regout.csv",
+     "sgplot_data.csv"
+    ],
+    "missing_examples": [
+     "32.21",
+     "46082",
+     "49373",
+     "0.0667",
+     "71.0243",
+     "0.0646",
+     "14.2321",
+     "0.67091",
+     "109.87",
+     "0.94986",
+     "-5.68"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\gpt-oss-120b-ollama\\P046\\attempt_1\\out\\sgplot.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot1.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\gpt-oss-120b-ollama\\P046\\attempt_1\\out\\sgplot1.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  }
+ ]
+}

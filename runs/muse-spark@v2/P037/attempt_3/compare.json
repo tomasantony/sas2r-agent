@@ -1,0 +1,27 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.9657534246575342,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P037.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9657534246575342,
+   "detail": {
+    "recall": 0.9657534246575342,
+    "expected": 146,
+    "found": 141,
+    "r_files": [
+     "P037.csv",
+     "P037.txt"
+    ],
+    "missing_examples": [
+     "1",
+     "2"
+    ]
+   }
+  }
+ ]
+}

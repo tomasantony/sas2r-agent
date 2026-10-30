@@ -1,0 +1,151 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P099",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 2,
+ "recorded_at": "2026-10-29T20:29:15",
+ "agent_commit": "54b8b9726c4dcbbd11954be09ec9c716e7539c90",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 12769,
+  "output_tokens": 6195,
+  "reasoning_tokens": 214,
+  "finish_reason": "stop",
+  "seconds": 15.7
+ },
+ "inputs": {
+  "prompt_translate.md": "abc93c30c9ad92eb292b6c39c116118a6dbf7b503f83c621e6563847e90bcae9"
+ },
+ "model_output": {
+  "response.md": "68e88666d3bf662e1419dc4a1bbd83d64514db0d09316e72569bcad7fe9a20fb",
+  "reasoning.md": "6cd43c176ed19e91198cc9e30ad863cd8e4dbee69b59fd2137229d783aa5f9ba",
+  "script.R": "982f6e08ec91e4df5035b848b8e729ace5e858f8ea14e9e512e69d56827ef18e"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 3.8,
+  "timed_out": false,
+  "log_sha256": "6adb08a9c5df6a1504a9a81e499f207fd195a25d1048501faee9c476c67ff3ee"
+ },
+ "r_outputs": {
+  "P099.csv": "2d2bb2ad65707a4903b399c6286b5e1769aaca9dc4c8ea99d09d89bde91424bc",
+  "P099.lst": "613fd2e3051e04d21bdd840a2a2c1d05975c349dbf7fa23f530a04f120b3e48a",
+  "P099.txt": "613fd2e3051e04d21bdd840a2a2c1d05975c349dbf7fa23f530a04f120b3e48a",
+  "sgpanel.csv": "f34d5a3a78751e3e36c3939b8ad1df5da012a3d147be0c1bceba9835192b067b",
+  "sgpanel.png": "0b8f2f004c81f969674af8aad0b394e33c57343ae466908cc2624732c0bb8fa7",
+  "sgpanel1.csv": "f34d5a3a78751e3e36c3939b8ad1df5da012a3d147be0c1bceba9835192b067b",
+  "sgpanel1.png": "257b1b14344dd9e44031ebb2f4a8acc633ac0bf8285801f70954194c822c534d",
+  "sgpanel2.csv": "3d802d53cc199958f38fb02994983c8489c56209d69bfb0361efac854c085236",
+  "sgpanel2.png": "2f602983e7f8ef7c6734d9fa75b1ca5cda2daa494ac6f3f081d5d00992c26f99",
+  "sgplot.csv": "b290f5bdec4e1c2c02b55440fd927e598ec07ce178e44d1d3ceefa57008b9781",
+  "sgplot.png": "30120398019c8ae229349bcced8c84a735592bb0e9c7def41f7954103b267e9e",
+  "sgplot1.csv": "49e30cf7a9fb5f5ed60a6ae361556e2f1239e1d33ba298d98bcd9e660e6d7a28",
+  "sgplot1.png": "53355771411aa65b436ee2e6c2f5b04027ac593204fa7fbdab1d5caf31de1081",
+  "sgplot2.csv": "d19f78d8c09e15aa85f6d67837126ee5e15001025cc7bfab38b1d4a946aa47ab",
+  "sgplot2.png": "e94133f37e14f482cbfd5531e26a554c0cf3e93d9d5dac3142b8191175602b6a",
+  "sgrender.csv": "0f8eafbfb2b328ff3fcd04e479d03fe8f6dc869af7669b26952f2cb5f6d6ff23",
+  "sgrender.png": "48fe97a7a279667e1ca6f601d24b7848236abc959ebdc60e1b21676f4318e3ff",
+  "sgrender1.csv": "35663871904e9d9747e3901ba087adba035a3209a01d8f1645f69d79ef84de53",
+  "sgrender1.png": "bb4426e3b803dd4c5c0b9192d02518ff68813975a9387edfad4cb4952dab3684",
+  "sgrender2.csv": "49372df7fdb79021c97b09101c29afab97d38aeafe60d6806fca84cf4630507d",
+  "sgrender2.png": "498345347ec004ef7a81d4bd006be6aa9b6ba6a52408f894b7ec8c834bc4b18e",
+  "sgrender3.csv": "3f9a6916f7a81382ec486e461a558b60bbdc5f06bffea5a009d50634842c8aec",
+  "sgrender3.png": "713eddcac65b413173b5ff7fb2706f1a5f181c7fa949f31889cea08d1cb94510",
+  "sgrender4.csv": "64e5869a96acd06affe5d7b0cf9ccb13df4a3ccd0ec39152ad5bbd6d2adf268a",
+  "sgrender4.png": "799b57edd6ccde284cdc423ad298fa4e9148ed3194282247eb5af0a9f74ce690"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P099.lst",
+   "sha256": "95d35d368bd3a973cd55141a275e591caaa84e0d098d942716dbd01b72e1b8dd",
+   "frozen_sha256": "95d35d368bd3a973cd55141a275e591caaa84e0d098d942716dbd01b72e1b8dd",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGPanel.png",
+   "sha256": "03f23726c669eaae78671f46b697916f366d0afee25757214b17bfc02ed293ee",
+   "frozen_sha256": "03f23726c669eaae78671f46b697916f366d0afee25757214b17bfc02ed293ee",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGPanel1.png",
+   "sha256": "6c03d38227624e5a4c734e89dd60518226056f74fe33d422c861fb7284e1de38",
+   "frozen_sha256": "6c03d38227624e5a4c734e89dd60518226056f74fe33d422c861fb7284e1de38",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGPanel2.png",
+   "sha256": "eae52da8f165c9749547389ff209eb84371a25e4537c0fa5591883fc0b531774",
+   "frozen_sha256": "eae52da8f165c9749547389ff209eb84371a25e4537c0fa5591883fc0b531774",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGPlot.png",
+   "sha256": "5a72c39bf799585c9a31100eb3beec0f3e20511381e79ebbd6744c7f14332e1c",
+   "frozen_sha256": "5a72c39bf799585c9a31100eb3beec0f3e20511381e79ebbd6744c7f14332e1c",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGPlot1.png",
+   "sha256": "d5a02d73bc152c2ff1cff6cb43c78695b1b6c4884eda38d3c9e9263561870856",
+   "frozen_sha256": "d5a02d73bc152c2ff1cff6cb43c78695b1b6c4884eda38d3c9e9263561870856",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGPlot2.png",
+   "sha256": "7258199636bd16f5676b9bebc47ae2cfea737f859b32a49f515b284492b8c645",
+   "frozen_sha256": "7258199636bd16f5676b9bebc47ae2cfea737f859b32a49f515b284492b8c645",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGRender.png",
+   "sha256": "e4347da332eaa5a8ec86a38ff5fc1bacc07a3258322778499f94e87a2212aac0",
+   "frozen_sha256": "e4347da332eaa5a8ec86a38ff5fc1bacc07a3258322778499f94e87a2212aac0",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGRender1.png",
+   "sha256": "fa656ba4418d9e9792e2e8c9915543fe1e377893a9e396ecd20b4880377c8d89",
+   "frozen_sha256": "fa656ba4418d9e9792e2e8c9915543fe1e377893a9e396ecd20b4880377c8d89",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGRender2.png",
+   "sha256": "fbf467c6d0fed1048dde6b1315b9d87f77fbe18c7c00a75e7b34ac214148dfba",
+   "frozen_sha256": "fbf467c6d0fed1048dde6b1315b9d87f77fbe18c7c00a75e7b34ac214148dfba",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGRender3.png",
+   "sha256": "3ca9ac48180db0f4db93f1c45fc761155d39fb272c0706ca38a9a03255c0f933",
+   "frozen_sha256": "3ca9ac48180db0f4db93f1c45fc761155d39fb272c0706ca38a9a03255c0f933",
+   "ok": true
+  },
+  {
+   "file": "datasets/P099/SGRender4.png",
+   "sha256": "dfd45d668dc8f730cd38570b073e30e3767c0052b417a5cdeeaaf7fd63f9556a",
+   "frozen_sha256": "dfd45d668dc8f730cd38570b073e30e3767c0052b417a5cdeeaaf7fd63f9556a",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

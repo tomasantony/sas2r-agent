@@ -1,0 +1,103 @@
+Figure 1: Kaplan-Meier Event-Free Survival by Treatment
+Population: Safety Population
+
+PROC LIFETEST  TIME AVAL*CNSR(1)  STRATA TRT01A  PLOTS=SURVIVAL(ATRISK)
+Number of Observations Read: 47
+Number of Observations Used: 47
+Restricted mean common tau (largest event time): 83.0
+
+Summary of the Number of Censored and Uncensored Values
+Stratum (TRT01A) | Failed | Censored | Total | Percent Censored
+----------------------------------------------------------------
+Active Drug 50mg | 12 | 9 | 21 | 42.86
+Placebo | 15 | 11 | 26 | 42.31
+Total | 27 | 20 | 47 | 42.55
+
+Quartile Estimates (Point Estimate and 95% Confidence Interval, LOGLOG transform)
+TRT01A | Percent | Estimate | Lower | Upper
+--------------------------------------------
+Active Drug 50mg | 75 | . | 69.0 | .
+Active Drug 50mg | 50 | 69.0 | 32.0 | .
+Active Drug 50mg | 25 | 32.0 | 3.0 | 66.0
+Placebo | 75 | . | 62.0 | .
+Placebo | 50 | 40.0 | 21.0 | .
+Placebo | 25 | 17.0 | 9.0 | 24.0
+
+Mean Survival Time (Restricted to 83.0) and Standard Error
+TRT01A | N | Events | Mean | SE(Mean) | Median | Median Lower | Median Upper
+----------------------------------------------------------------------------
+Active Drug 50mg | 21 | 12 | 58.2874 | 6.1178 | . | . | .
+Placebo | 26 | 15 | 47.6552 | 6.1856 | . | . | .
+
+Rank Statistics (Log-Rank weights)
+TRT01A | N | Observed | Expected | O-E
+--------------------------------------
+Active Drug 50mg | 21 | 12.0000 | 14.0072 | -2.0072
+Placebo | 26 | 15.0000 | 12.9928 | 2.0072
+
+Covariance Matrix for the Log-Rank Statistics
+. | Active Drug 50mg | Placebo
+Active Drug 50mg | 6.5688 | -6.5688
+Placebo | -6.5688 | 6.5688
+
+Rank Statistics (Wilcoxon / Breslow weights, rho=1)
+TRT01A | N | Observed | Expected | O-E
+--------------------------------------
+Active Drug 50mg | 21 | 7.7044 | 9.8201 | -2.1156
+Placebo | 26 | 11.7578 | 9.6421 | 2.1156
+
+Covariance Matrix for the Wilcoxon Statistics
+. | Active Drug 50mg | Placebo
+Active Drug 50mg | 3.6381 | -3.6381
+Placebo | -3.6381 | 3.6381
+
+Test of Equality over Strata
+Test | Chi-Square | DF | Pr > Chi-Square
+-----------------------------------------
+Log-Rank | 0.6133 | 1 | 0.4335
+Wilcoxon | 1.2303 | 1 | 0.2674
+
+Product-Limit Survival Estimates (one row per AVAL time, Greenwood SE, LOGLOG 95% CI)
+TRT01A | AVAL | Survival | Failure | StdErr | Lower | Upper | N_Risk | N_Event | N_Censor | N_Failed_Cum | N_Left
+--------------------------------------------------------------------------------------------------------------------------------
+Active Drug 50mg | 3.0 | 0.9524 | 0.0476 | 0.0465 | 0.7072 | 0.9932 | 21 | 1 | 0 | 1 | 20
+Active Drug 50mg | 15.0 | 0.9048 | 0.0952 | 0.0641 | 0.6700 | 0.9753 | 20 | 1 | 0 | 2 | 19
+Active Drug 50mg | 17.0 | 0.8571 | 0.1429 | 0.0764 | 0.6197 | 0.9516 | 19 | 1 | 0 | 3 | 18
+Active Drug 50mg | 23.0 | 0.8095 | 0.1905 | 0.0857 | 0.5689 | 0.9239 | 18 | 1 | 1 | 4 | 16
+Active Drug 50mg | 30.0 | 0.7589 | 0.2411 | 0.0941 | 0.5139 | 0.8920 | 16 | 1 | 0 | 5 | 15
+Active Drug 50mg | 32.0 | 0.7083 | 0.2917 | 0.1005 | 0.4619 | 0.8573 | 15 | 1 | 0 | 6 | 14
+Active Drug 50mg | 36.0 | 0.6577 | 0.3423 | 0.1053 | 0.4123 | 0.8203 | 14 | 1 | 0 | 7 | 13
+Active Drug 50mg | 52.0 | 0.6071 | 0.3929 | 0.1087 | 0.3650 | 0.7811 | 13 | 1 | 0 | 8 | 12
+Active Drug 50mg | 66.0 | 0.5565 | 0.4435 | 0.1108 | 0.3197 | 0.7400 | 12 | 1 | 0 | 9 | 11
+Active Drug 50mg | 67.0 | 0.5060 | 0.4940 | 0.1117 | 0.2765 | 0.6969 | 11 | 1 | 0 | 10 | 10
+Active Drug 50mg | 68.0 | 0.5060 | 0.4940 | 0.1117 | 0.2765 | 0.6969 | 10 | 0 | 1 | 10 | 9
+Active Drug 50mg | 69.0 | 0.4497 | 0.5503 | 0.1125 | 0.2285 | 0.6488 | 9 | 1 | 0 | 11 | 8
+Active Drug 50mg | 80.0 | 0.4497 | 0.5503 | 0.1125 | 0.2285 | 0.6488 | 8 | 0 | 1 | 11 | 7
+Active Drug 50mg | 81.0 | 0.4497 | 0.5503 | 0.1125 | 0.2285 | 0.6488 | 7 | 0 | 1 | 11 | 6
+Active Drug 50mg | 82.0 | 0.4497 | 0.5503 | 0.1125 | 0.2285 | 0.6488 | 6 | 0 | 1 | 11 | 5
+Active Drug 50mg | 83.0 | 0.3598 | 0.6402 | 0.1207 | 0.1430 | 0.5844 | 5 | 1 | 2 | 12 | 2
+Active Drug 50mg | 84.0 | 0.3598 | 0.6402 | 0.1207 | 0.1430 | 0.5844 | 2 | 0 | 2 | 12 | 0
+Placebo | 4.0 | 0.9615 | 0.0385 | 0.0377 | 0.7569 | 0.9945 | 26 | 1 | 0 | 1 | 25
+Placebo | 9.0 | 0.9231 | 0.0769 | 0.0523 | 0.7260 | 0.9802 | 25 | 1 | 0 | 2 | 24
+Placebo | 12.0 | 0.8846 | 0.1154 | 0.0627 | 0.6836 | 0.9613 | 24 | 1 | 0 | 3 | 23
+Placebo | 13.0 | 0.8077 | 0.1923 | 0.0773 | 0.5981 | 0.9151 | 23 | 2 | 0 | 5 | 21
+Placebo | 16.0 | 0.7692 | 0.2308 | 0.0826 | 0.5569 | 0.8891 | 21 | 1 | 0 | 6 | 20
+Placebo | 17.0 | 0.7308 | 0.2692 | 0.0870 | 0.5169 | 0.8615 | 20 | 1 | 0 | 7 | 19
+Placebo | 21.0 | 0.6538 | 0.3462 | 0.0933 | 0.4402 | 0.8025 | 19 | 2 | 0 | 9 | 17
+Placebo | 24.0 | 0.5769 | 0.4231 | 0.0969 | 0.3676 | 0.7391 | 17 | 2 | 0 | 11 | 15
+Placebo | 26.0 | 0.5385 | 0.4615 | 0.0978 | 0.3329 | 0.7058 | 15 | 1 | 0 | 12 | 14
+Placebo | 28.0 | 0.5385 | 0.4615 | 0.0978 | 0.3329 | 0.7058 | 14 | 0 | 1 | 12 | 13
+Placebo | 40.0 | 0.4970 | 0.5030 | 0.0986 | 0.2954 | 0.6698 | 13 | 1 | 0 | 13 | 12
+Placebo | 41.0 | 0.4970 | 0.5030 | 0.0986 | 0.2954 | 0.6698 | 12 | 0 | 1 | 13 | 11
+Placebo | 44.0 | 0.4519 | 0.5481 | 0.0995 | 0.2547 | 0.6304 | 11 | 1 | 0 | 14 | 10
+Placebo | 46.0 | 0.4519 | 0.5481 | 0.0995 | 0.2547 | 0.6304 | 10 | 0 | 1 | 14 | 9
+Placebo | 51.0 | 0.4519 | 0.5481 | 0.0995 | 0.2547 | 0.6304 | 9 | 0 | 1 | 14 | 8
+Placebo | 62.0 | 0.3954 | 0.6046 | 0.1018 | 0.2022 | 0.5836 | 8 | 1 | 0 | 15 | 7
+Placebo | 80.0 | 0.3954 | 0.6046 | 0.1018 | 0.2022 | 0.5836 | 7 | 0 | 2 | 15 | 5
+Placebo | 81.0 | 0.3954 | 0.6046 | 0.1018 | 0.2022 | 0.5836 | 5 | 0 | 1 | 15 | 4
+Placebo | 82.0 | 0.3954 | 0.6046 | 0.1018 | 0.2022 | 0.5836 | 4 | 0 | 2 | 15 | 2
+Placebo | 83.0 | 0.3954 | 0.6046 | 0.1018 | 0.2022 | 0.5836 | 2 | 0 | 1 | 15 | 1
+Placebo | 84.0 | 0.3954 | 0.6046 | 0.1018 | 0.2022 | 0.5836 | 1 | 0 | 1 | 15 | 0
+
+Footnote: Survival = event-free survival; Failure = 1 - Survival; AVAL*CNSR(1) censors CNSR=1.
+Style=Journal; Width=7in Height=5.5in Imagename=KM_Curve.

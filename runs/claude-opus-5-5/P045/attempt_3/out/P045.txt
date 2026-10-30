@@ -1,0 +1,152 @@
+
+The FREQ Procedure
+
+aedecod=PARTIAL SEIZURES WITH SECONDARY GENERALISATION
+
+Table of trtan by resp
+
+trtan                0         1     Total
+Frequency
+Percent
+Row Pct
+Col Pct
+0                   86         0        86
+                 33.86      0.00     33.86
+                100.00          
+                 33.99      0.00          
+54                  84         0        84
+                 33.07      0.00     33.07
+                100.00          
+                 33.20      0.00          
+81                  83         1        84
+                 32.68      0.39     33.07
+                 98.81          
+                 32.81    100.00          
+Total              253         1       254
+                 99.61      0.39    100.00
+
+Statistics for Table of trtan by resp
+
+Statistic                         DF       Value      Prob
+Chi-Square                         2      2.0318    0.3621
+Likelihood Ratio Chi-Square        2      2.2210    0.3294
+Mantel-Haenszel Chi-Square         1      1.1584    0.2818
+Phi Coefficient                           0.0894          
+Contingency Coefficient                   0.0891          
+Cramer's V                                0.0894          
+
+WARNING: 50% of the cells have expected counts less
+than 5. (Asymptotic) Chi-Square may not be a valid test.
+
+Fisher's Exact Test
+Table Probability (P)   0.3307
+Pr <= P                 0.6614
+
+Sample Size = 254
+
+
+The FREQ Procedure
+
+aedecod=SYNCOPE
+
+Table of trtan by resp
+
+trtan                0         1     Total
+Frequency
+Percent
+Row Pct
+Col Pct
+0                   86         0        86
+                 33.86      0.00     33.86
+                100.00          
+                 34.13      0.00          
+54                  83         1        84
+                 32.68      0.39     33.07
+                 98.81          
+                 32.94     50.00          
+81                  83         1        84
+                 32.68      0.39     33.07
+                 98.81          
+                 32.94     50.00          
+Total              252         2       254
+                 99.21      0.79    100.00
+
+Statistics for Table of trtan by resp
+
+Statistic                         DF       Value      Prob
+Chi-Square                         2      1.0319    0.5969
+Likelihood Ratio Chi-Square        2      1.6616    0.4357
+Mantel-Haenszel Chi-Square         1      0.9193    0.3377
+Phi Coefficient                           0.0637          
+Contingency Coefficient                   0.0636          
+Cramer's V                                0.0637          
+
+WARNING: 50% of the cells have expected counts less
+than 5. (Asymptotic) Chi-Square may not be a valid test.
+
+Fisher's Exact Test
+Table Probability (P)   0.2196
+Pr <= P                 0.5503
+
+Sample Size = 254
+
+
+The FREQ Procedure
+
+Table of trtan by flg
+
+trtan                0         1     Total
+Frequency
+Percent
+Row Pct
+Col Pct
+0                   86         0        86
+                 33.86      0.00     33.86
+                100.00          
+                 34.26      0.00          
+54                  83         1        84
+                 32.68      0.39     33.07
+                 98.81          
+                 33.07     33.33          
+81                  82         2        84
+                 32.28      0.79     33.07
+                 97.62          
+                 32.67     66.67          
+Total              251         3       254
+                 98.82      1.18    100.00
+
+Statistics for Table of trtan by flg
+
+Statistic                         DF       Value      Prob
+Chi-Square                         2      2.0641    0.3563
+Likelihood Ratio Chi-Square        2      2.8444    0.2412
+Mantel-Haenszel Chi-Square         1      1.9832    0.1590
+Phi Coefficient                           0.0901          
+Contingency Coefficient                   0.0898          
+Cramer's V                                0.0901          
+
+WARNING: 50% of the cells have expected counts less
+than 5. (Asymptotic) Chi-Square may not be a valid test.
+
+Fisher's Exact Test
+Table Probability (P)   0.1085
+Pr <= P                 0.3255
+
+Sample Size = 254
+
+
+Table 7.5 Summary of Serious Adverse Events
+Safety Population
+-
+Preferred Term                           Placebo                        Treatment 1                    Treatment 2                    p-value*b                     
+                                         N=86                           N=84                           N=84                                                         
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of subjects reporting serious     0(0.0)                         1(1.0)                         2(2.0)                         0.3255                        
+adverse events                                                                                                                                                      
+PARTIAL SEIZURES WITH SECONDARY          0(0.0)                         0(0.0)                         1(1.0)                         0.6614                        
+GENERALISATION                                                                                                                                                      
+SYNCOPE                                  0(0.0)                         1(1.0)                         1(1.0)                         0.5503                        
+-
+Denominator for each % is treatment column N
+*b = p-values are from Fisher's Exact Test

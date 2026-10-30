@@ -1,0 +1,101 @@
+"Day","Block","NewCases","Cumul"
+1,"Concave Up:/New Cases/Increasing  ",0,0
+2,"Concave Up:/New Cases/Increasing  ",0,0
+3,"Concave Up:/New Cases/Increasing  ",2,2
+4,"Concave Up:/New Cases/Increasing  ",1,3
+5,"Concave Up:/New Cases/Increasing  ",2,5
+6,"Concave Up:/New Cases/Increasing  ",3,8
+7,"Concave Up:/New Cases/Increasing  ",3,11
+8,"Concave Up:/New Cases/Increasing  ",3,14
+9,"Concave Up:/New Cases/Increasing  ",4,18
+10,"Concave Up:/New Cases/Increasing  ",4,22
+11,"Concave Up:/New Cases/Increasing  ",5,27
+12,"Concave Up:/New Cases/Increasing  ",6,33
+13,"Concave Up:/New Cases/Increasing  ",6,39
+14,"Concave Up:/New Cases/Increasing  ",6,45
+15,"Concave Up:/New Cases/Increasing  ",7,52
+16,"Concave Up:/New Cases/Increasing  ",8,60
+17,"Concave Up:/New Cases/Increasing  ",8,68
+18,"Concave Up:/New Cases/Increasing  ",7,75
+19,"Concave Up:/New Cases/Increasing  ",9,84
+20,"Concave Up:/New Cases/Increasing  ",9,93
+21,"Concave Up:/New Cases/Increasing  ",9,102
+22,"Concave Up:/New Cases/Increasing  ",10,112
+23,"Concave Up:/New Cases/Increasing  ",10,122
+24,"Concave Up:/New Cases/Increasing  ",11,133
+25,"Concave Up:/New Cases/Increasing  ",11,144
+26,"Concave Up:/New Cases/Increasing  ",11,155
+27,"Concave Up:/New Cases/Increasing  ",13,168
+28,"Concave Up:/New Cases/Increasing  ",13,181
+29,"Concave Up:/New Cases/Increasing  ",13,194
+30,"Concave Up:/New Cases/Increasing  ",15,209
+31,"Concave Up:/New Cases/Increasing  ",15,224
+32,"Concave Up:/New Cases/Increasing  ",15,239
+33,"Concave Up:/New Cases/Increasing  ",16,255
+34,"Concave Up:/New Cases/Increasing  ",17,272
+35,"Linear:/New Cases/Constant        ",15,287
+36,"Linear:/New Cases/Constant        ",14,301
+37,"Linear:/New Cases/Constant        ",15,316
+38,"Linear:/New Cases/Constant        ",14,330
+39,"Linear:/New Cases/Constant        ",15,345
+40,"Linear:/New Cases/Constant        ",14,359
+41,"Linear:/New Cases/Constant        ",15,374
+42,"Linear:/New Cases/Constant        ",14,388
+43,"Linear:/New Cases/Constant        ",15,403
+44,"Linear:/New Cases/Constant        ",14,417
+45,"Linear:/New Cases/Constant        ",15,432
+46,"Linear:/New Cases/Constant        ",14,446
+47,"Linear:/New Cases/Constant        ",15,461
+48,"Linear:/New Cases/Constant        ",14,475
+49,"Linear:/New Cases/Constant        ",15,490
+50,"Linear:/New Cases/Constant        ",14,504
+51,"Linear:/New Cases/Constant        ",15,519
+52,"Linear:/New Cases/Constant        ",14,533
+53,"Linear:/New Cases/Constant        ",15,548
+54,"Linear:/New Cases/Constant        ",14,562
+55,"Linear:/New Cases/Constant        ",15,577
+56,"Linear:/New Cases/Constant        ",14,591
+57,"Linear:/New Cases/Constant        ",15,606
+58,"Linear:/New Cases/Constant        ",14,620
+59,"Linear:/New Cases/Constant        ",15,635
+60,"Linear:/New Cases/Constant        ",14,649
+61,"Linear:/New Cases/Constant        ",15,664
+62,"Linear:/New Cases/Constant        ",14,678
+63,"Linear:/New Cases/Constant        ",15,693
+64,"Linear:/New Cases/Constant        ",14,707
+65,"Linear:/New Cases/Constant        ",15,722
+66,"Linear:/New Cases/Constant        ",14,736
+67,"Linear:/New Cases/Constant        ",15,751
+68,"Concave Down:/New Cases/Decreasing",15,766
+69,"Concave Down:/New Cases/Decreasing",15,781
+70,"Concave Down:/New Cases/Decreasing",14,795
+71,"Concave Down:/New Cases/Decreasing",14,809
+72,"Concave Down:/New Cases/Decreasing",13,822
+73,"Concave Down:/New Cases/Decreasing",13,835
+74,"Concave Down:/New Cases/Decreasing",13,848
+75,"Concave Down:/New Cases/Decreasing",11,859
+76,"Concave Down:/New Cases/Decreasing",11,870
+77,"Concave Down:/New Cases/Decreasing",11,881
+78,"Concave Down:/New Cases/Decreasing",10,891
+79,"Concave Down:/New Cases/Decreasing",10,901
+80,"Concave Down:/New Cases/Decreasing",9,910
+81,"Concave Down:/New Cases/Decreasing",8,918
+82,"Concave Down:/New Cases/Decreasing",9,927
+83,"Concave Down:/New Cases/Decreasing",8,935
+84,"Concave Down:/New Cases/Decreasing",7,942
+85,"Concave Down:/New Cases/Decreasing",7,949
+86,"Concave Down:/New Cases/Decreasing",6,955
+87,"Concave Down:/New Cases/Decreasing",6,961
+88,"Concave Down:/New Cases/Decreasing",5,966
+89,"Concave Down:/New Cases/Decreasing",5,971
+90,"Concave Down:/New Cases/Decreasing",4,975
+91,"Concave Down:/New Cases/Decreasing",4,979
+92,"Concave Down:/New Cases/Decreasing",3,982
+93,"Concave Down:/New Cases/Decreasing",3,985
+94,"Concave Down:/New Cases/Decreasing",2,987
+95,"Concave Down:/New Cases/Decreasing",1,988
+96,"Concave Down:/New Cases/Decreasing",2,990
+97,"Concave Down:/New Cases/Decreasing",1,991
+98,"Concave Down:/New Cases/Decreasing",0,991
+99,"Concave Down:/New Cases/Decreasing",0,991
+100,"Concave Down:/New Cases/Decreasing",0,991

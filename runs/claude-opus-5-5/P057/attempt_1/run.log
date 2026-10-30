@@ -1,0 +1,4 @@
+sandbox: docker run --rm --name sas2r-1586d00bf9dc --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\claude-opus-5-5\P057\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Read ADPC: 2463 rows
+ADPC after WHERE: 821 rows
+Done. MeanData rows: 31 

@@ -1,0 +1,75 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.990453460620525,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P047.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9713603818615751,
+   "detail": {
+    "recall": 0.9713603818615751,
+    "expected": 419,
+    "found": 407,
+    "r_files": [
+     "all.csv",
+     "clinicalhandout_dbpprofile.csv",
+     "dbp_profile.csv",
+     "dbp_profile.txt",
+     "P047.csv",
+     "P047.txt",
+     "P047_contents.csv",
+     "temp.csv",
+     "temp1.csv"
+    ],
+    "missing_examples": [
+     "2026",
+     "53",
+     "34",
+     "176",
+     "64",
+     "65536",
+     "371",
+     "359",
+     "33140",
+     "9.0401"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "ClinicalHandout_DbpProfile.gif",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\claude-opus-5-5\\P047\\attempt_1\\out\\clinicalhandout_dbpprofile.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "DBP_Profile.html",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 0,
+    "found": 0,
+    "r_files": [
+     "all.csv",
+     "clinicalhandout_dbpprofile.csv",
+     "dbp_profile.csv",
+     "dbp_profile.txt",
+     "P047.csv",
+     "P047.txt",
+     "P047_contents.csv",
+     "temp.csv",
+     "temp1.csv"
+    ]
+   }
+  }
+ ]
+}

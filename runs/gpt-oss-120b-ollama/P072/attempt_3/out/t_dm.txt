@@ -1,0 +1,36 @@
+Parameter                 Statistic       Placebo (N=95) Drug X Low Dose (N=82) Drug X High Dose (N=63) 
+-------------------------------------------------------------------------------- 
+Age (years)                 n             95           82           63           
+Weight (kg)                 n             95           82           63           
+Height (cm)                 n             95           82           63           
+BMI (kg/m^{super 2})        n             95           82           63           
+Age (years)                 Mean          55.62        55.95        53.87        
+Weight (kg)                 Mean          75.92        73.45        74.64        
+Height (cm)                 Mean          167.94       168.45       167.00       
+BMI (kg/m^{super 2})        Mean          27.11        25.86        26.92        
+Sex                         F             47 (49.5%)   45 (54.9%)   36 (57.1%)   
+                            M             48 (50.5%)   37 (45.1%)   27 (42.9%)   
+Age (years)                 SD            12.31        12.12        11.07        
+Weight (kg)                 SD            13.78        14.84        15.58        
+Height (cm)                 SD            9.46         9.43         9.66         
+BMI (kg/m^{super 2})        SD            5.49         4.64         5.99         
+Race                        ASIAN         9 (9.5%)     4 (4.9%)     6 (9.5%)     
+                            BLACK OR AFRICAN AMERICAN 14 (14.7%)   16 (19.5%)   14 (22.2%)   
+                            OTHER         6 (6.3%)     2 (2.4%)     2 (3.2%)     
+                            WHITE         66 (69.5%)   60 (73.2%)   41 (65.1%)   
+Age (years)                 Median        55.0         56.0         54.0         
+Weight (kg)                 Median        75.1         73.6         74.3         
+Height (cm)                 Median        167.9        167.5        167.2        
+BMI (kg/m^{super 2})        Median        27.9         25.7         27.0         
+Ethnicity                   HISPANIC OR LATINO 16 (16.8%)   9 (11.0%)    6 (9.5%)     
+                            NOT HISPANIC OR LATINO 79 (83.2%)   73 (89.0%)   57 (90.5%)   
+Age (years)                 Q1, Q3        47.0, 64.0   47.0, 65.0   45.0, 62.0   
+Weight (kg)                 Q1, Q3        66.5, 87.5   63.4, 84.0   64.8, 85.4   
+Height (cm)                 Q1, Q3        160.9, 174.6 160.6, 174.6 161.0, 172.7 
+BMI (kg/m^{super 2})        Q1, Q3        22.6, 30.8   22.9, 28.9   22.3, 30.5   
+Age (years)                 Min, Max      24.0, 90.0   30.0, 82.0   30.0, 83.0   
+Weight (kg)                 Min, Max      45.1, 103.8  41.1, 116.3  31.0, 113.0  
+Height (cm)                 Min, Max      145.2, 193.6 152.0, 192.5 144.3, 185.6 
+BMI (kg/m^{super 2})        Min, Max      14.1, 44.0   12.7, 41.2   11.9, 42.1   
+Age Group                   18 to <65     74 (77.9%)   59 (72.0%)   53 (84.1%)   
+                            >=65          21 (22.1%)   23 (28.0%)   10 (15.9%)   

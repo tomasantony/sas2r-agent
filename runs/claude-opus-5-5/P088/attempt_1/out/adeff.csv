@@ -1,0 +1,51 @@
+"STUDYID","USUBJID","TRTP","TRTPN","AGE","SEX","TRTSDT","TRTEDT","SAFFL","EFFFL","PARAMCD","PARAM","PARAMN","AVAL","AVALC","ADT","ADY","AVISIT","AVISITN","ABLFL","ANL01FL","AVALU","BASE","CHG","PCHG","RESPFL","ASEQ","RSCAT"
+"STUDY01","STUDY01-1001","Treatment A",1,59,"M","2024-01-15","2024-06-15","Y","Y","OVRLRESP","Overall Response",1,3,"STABLE DISEASE","2024-01-15",1,"Baseline",1,"Y","",,,,,,1,"STABLE"
+"STUDY01","STUDY01-1001","Treatment A",1,59,"M","2024-01-15","2024-06-15","Y","Y","OVRLRESP","Overall Response",1,3,"STABLE DISEASE","2024-03-11",57,"Week 8",3,"","Y",,,,,,2,"STABLE"
+"STUDY01","STUDY01-1001","Treatment A",1,59,"M","2024-01-15","2024-06-15","Y","Y","OVRLRESP","Overall Response",1,2,"PARTIAL RESPONSE","2024-05-06",113,"Week 16",4,"","Y",,,,,,3,"RESPONDER"
+"STUDY01","STUDY01-1001","Treatment A",1,59,"M","2024-01-15","2024-06-15","Y","Y","OVRLRESP","Overall Response",1,2,"PARTIAL RESPONSE","2024-07-01",169,"Week 24",5,"","Y",,,,,,4,"RESPONDER"
+"STUDY01","STUDY01-1001","Treatment A",1,59,"M","2024-01-15","2024-06-15","Y","Y","SUMDIAM","Sum of Longest Diameters",2,45,,"2024-01-15",1,"Baseline",1,"Y","","mm",45,0,0,,5,
+"STUDY01","STUDY01-1001","Treatment A",1,59,"M","2024-01-15","2024-06-15","Y","Y","SUMDIAM","Sum of Longest Diameters",2,42,,"2024-03-11",57,"Week 8",3,"","Y","mm",45,-3,-6.66666666666667,,6,
+"STUDY01","STUDY01-1001","Treatment A",1,59,"M","2024-01-15","2024-06-15","Y","Y","SUMDIAM","Sum of Longest Diameters",2,35,,"2024-05-06",113,"Week 16",4,"","Y","mm",45,-10,-22.2222222222222,,7,
+"STUDY01","STUDY01-1001","Treatment A",1,59,"M","2024-01-15","2024-06-15","Y","Y","SUMDIAM","Sum of Longest Diameters",2,30,,"2024-07-01",169,"Week 24",5,"","Y","mm",45,-15,-33.3333333333333,,8,
+"STUDY01","STUDY01-1001","Treatment A",1,59,"M","2024-01-15","2024-06-15","Y","Y","BOR","Best Overall Response",3,2,"PARTIAL RESPONSE","2024-05-06",113,"Best Response",99,"","Y",,,,,,9,"RESPONDER"
+"STUDY01","STUDY01-1001","Treatment A",1,59,"M","2024-01-15","2024-06-15","Y","Y","RESPFL","Objective Response Flag",4,1,"Y","2024-05-06",113,"Best Response",99,"","Y",,,,,"Y",10,
+"STUDY01","STUDY01-1001","Treatment A",1,59,"M","2024-01-15","2024-06-15","Y","Y","NADIRTUM","Nadir Tumor Size",5,30,,,,"Nadir",98,"","Y","mm",45,-15,-33.3333333333333,,11,
+"STUDY01","STUDY01-1002","Placebo",2,45,"F","2024-01-18","2024-06-18","Y","Y","OVRLRESP","Overall Response",1,3,"STABLE DISEASE","2024-01-18",1,"Baseline",1,"Y","",,,,,,1,"STABLE"
+"STUDY01","STUDY01-1002","Placebo",2,45,"F","2024-01-18","2024-06-18","Y","Y","OVRLRESP","Overall Response",1,3,"STABLE DISEASE","2024-03-14",57,"Week 8",3,"","Y",,,,,,2,"STABLE"
+"STUDY01","STUDY01-1002","Placebo",2,45,"F","2024-01-18","2024-06-18","Y","Y","OVRLRESP","Overall Response",1,4,"PROGRESSIVE DISEASE","2024-05-09",113,"Week 16",4,"","Y",,,,,,3,"PROGRESSOR"
+"STUDY01","STUDY01-1002","Placebo",2,45,"F","2024-01-18","2024-06-18","Y","Y","SUMDIAM","Sum of Longest Diameters",2,38,,"2024-01-18",1,"Baseline",1,"Y","","mm",38,0,0,,4,
+"STUDY01","STUDY01-1002","Placebo",2,45,"F","2024-01-18","2024-06-18","Y","Y","SUMDIAM","Sum of Longest Diameters",2,40,,"2024-03-14",57,"Week 8",3,"","Y","mm",38,2,5.26315789473684,,5,
+"STUDY01","STUDY01-1002","Placebo",2,45,"F","2024-01-18","2024-06-18","Y","Y","SUMDIAM","Sum of Longest Diameters",2,52,,"2024-05-09",113,"Week 16",4,"","Y","mm",38,14,36.8421052631579,,6,
+"STUDY01","STUDY01-1002","Placebo",2,45,"F","2024-01-18","2024-06-18","Y","Y","BOR","Best Overall Response",3,3,"STABLE DISEASE","2024-03-14",57,"Best Response",99,"","Y",,,,,,7,"STABLE"
+"STUDY01","STUDY01-1002","Placebo",2,45,"F","2024-01-18","2024-06-18","Y","Y","RESPFL","Objective Response Flag",4,0,"N","2024-03-14",57,"Best Response",99,"","Y",,,,,"N",8,
+"STUDY01","STUDY01-1002","Placebo",2,45,"F","2024-01-18","2024-06-18","Y","Y","NADIRTUM","Nadir Tumor Size",5,40,,,,"Nadir",98,"","Y","mm",38,2,5.26315789473684,,9,
+"STUDY01","STUDY01-1003","Treatment A",1,43,"M","2024-01-20","2024-04-01","Y","Y","OVRLRESP","Overall Response",1,3,"STABLE DISEASE","2024-01-20",1,"Baseline",1,"Y","",,,,,,1,"STABLE"
+"STUDY01","STUDY01-1003","Treatment A",1,43,"M","2024-01-20","2024-04-01","Y","Y","OVRLRESP","Overall Response",1,2,"PARTIAL RESPONSE","2024-03-16",57,"Week 8",3,"","Y",,,,,,2,"RESPONDER"
+"STUDY01","STUDY01-1003","Treatment A",1,43,"M","2024-01-20","2024-04-01","Y","Y","OVRLRESP","Overall Response",1,1,"COMPLETE RESPONSE","2024-05-11",113,"Week 16",4,"","Y",,,,,,3,"RESPONDER"
+"STUDY01","STUDY01-1003","Treatment A",1,43,"M","2024-01-20","2024-04-01","Y","Y","SUMDIAM","Sum of Longest Diameters",2,55,,"2024-01-20",1,"Baseline",1,"Y","","mm",55,0,0,,4,
+"STUDY01","STUDY01-1003","Treatment A",1,43,"M","2024-01-20","2024-04-01","Y","Y","SUMDIAM","Sum of Longest Diameters",2,40,,"2024-03-16",57,"Week 8",3,"","Y","mm",55,-15,-27.2727272727273,,5,
+"STUDY01","STUDY01-1003","Treatment A",1,43,"M","2024-01-20","2024-04-01","Y","Y","SUMDIAM","Sum of Longest Diameters",2,0,,"2024-05-11",113,"Week 16",4,"","Y","mm",55,-55,-100,,6,
+"STUDY01","STUDY01-1003","Treatment A",1,43,"M","2024-01-20","2024-04-01","Y","Y","BOR","Best Overall Response",3,1,"COMPLETE RESPONSE","2024-05-11",113,"Best Response",99,"","Y",,,,,,7,"RESPONDER"
+"STUDY01","STUDY01-1003","Treatment A",1,43,"M","2024-01-20","2024-04-01","Y","Y","RESPFL","Objective Response Flag",4,1,"Y","2024-05-11",113,"Best Response",99,"","Y",,,,,"Y",8,
+"STUDY01","STUDY01-1003","Treatment A",1,43,"M","2024-01-20","2024-04-01","Y","Y","NADIRTUM","Nadir Tumor Size",5,0,,,,"Nadir",98,"","Y","mm",55,-55,-100,,9,
+"STUDY01","STUDY01-1004","Treatment A",1,51,"F","2024-01-25","2024-06-25","Y","Y","OVRLRESP","Overall Response",1,3,"STABLE DISEASE","2024-01-25",1,"Baseline",1,"Y","",,,,,,1,"STABLE"
+"STUDY01","STUDY01-1004","Treatment A",1,51,"F","2024-01-25","2024-06-25","Y","Y","OVRLRESP","Overall Response",1,3,"STABLE DISEASE","2024-03-21",57,"Week 8",3,"","Y",,,,,,2,"STABLE"
+"STUDY01","STUDY01-1004","Treatment A",1,51,"F","2024-01-25","2024-06-25","Y","Y","SUMDIAM","Sum of Longest Diameters",2,32,,"2024-01-25",1,"Baseline",1,"Y","","mm",32,0,0,,3,
+"STUDY01","STUDY01-1004","Treatment A",1,51,"F","2024-01-25","2024-06-25","Y","Y","SUMDIAM","Sum of Longest Diameters",2,30,,"2024-03-21",57,"Week 8",3,"","Y","mm",32,-2,-6.25,,4,
+"STUDY01","STUDY01-1004","Treatment A",1,51,"F","2024-01-25","2024-06-25","Y","Y","BOR","Best Overall Response",3,3,"STABLE DISEASE","2024-03-21",57,"Best Response",99,"","Y",,,,,,5,"STABLE"
+"STUDY01","STUDY01-1004","Treatment A",1,51,"F","2024-01-25","2024-06-25","Y","Y","RESPFL","Objective Response Flag",4,0,"N","2024-03-21",57,"Best Response",99,"","Y",,,,,"N",6,
+"STUDY01","STUDY01-1004","Treatment A",1,51,"F","2024-01-25","2024-06-25","Y","Y","NADIRTUM","Nadir Tumor Size",5,30,,,,"Nadir",98,"","Y","mm",32,-2,-6.25,,7,
+"STUDY01","STUDY01-1005","Placebo",2,36,"M","2024-01-28",,"Y","Y","OVRLRESP","Overall Response",1,3,"STABLE DISEASE","2024-01-28",1,"Baseline",1,"Y","",,,,,,1,"STABLE"
+"STUDY01","STUDY01-1005","Placebo",2,36,"M","2024-01-28",,"Y","Y","OVRLRESP","Overall Response",1,4,"PROGRESSIVE DISEASE","2024-03-24",57,"Week 8",3,"","Y",,,,,,2,"PROGRESSOR"
+"STUDY01","STUDY01-1005","Placebo",2,36,"M","2024-01-28",,"Y","Y","SUMDIAM","Sum of Longest Diameters",2,28,,"2024-01-28",1,"Baseline",1,"Y","","mm",28,0,0,,3,
+"STUDY01","STUDY01-1005","Placebo",2,36,"M","2024-01-28",,"Y","Y","SUMDIAM","Sum of Longest Diameters",2,42,,"2024-03-24",57,"Week 8",3,"","Y","mm",28,14,50,,4,
+"STUDY01","STUDY01-1005","Placebo",2,36,"M","2024-01-28",,"Y","Y","BOR","Best Overall Response",3,4,"PROGRESSIVE DISEASE","2024-03-24",57,"Best Response",99,"","Y",,,,,,5,"PROGRESSOR"
+"STUDY01","STUDY01-1005","Placebo",2,36,"M","2024-01-28",,"Y","Y","RESPFL","Objective Response Flag",4,0,"N","2024-03-24",57,"Best Response",99,"","Y",,,,,"N",6,
+"STUDY01","STUDY01-1005","Placebo",2,36,"M","2024-01-28",,"Y","Y","NADIRTUM","Nadir Tumor Size",5,42,,,,"Nadir",98,"","Y","mm",28,14,50,,7,
+"STUDY01","STUDY01-1006","Treatment A",1,68,"F","2024-01-30","2024-07-01","Y","Y","OVRLRESP","Overall Response",1,3,"STABLE DISEASE","2024-01-30",1,"Baseline",1,"Y","",,,,,,1,"STABLE"
+"STUDY01","STUDY01-1006","Treatment A",1,68,"F","2024-01-30","2024-07-01","Y","Y","OVRLRESP","Overall Response",1,2,"PARTIAL RESPONSE","2024-03-26",57,"Week 8",3,"","Y",,,,,,2,"RESPONDER"
+"STUDY01","STUDY01-1006","Treatment A",1,68,"F","2024-01-30","2024-07-01","Y","Y","SUMDIAM","Sum of Longest Diameters",2,48,,"2024-01-30",1,"Baseline",1,"Y","","mm",48,0,0,,3,
+"STUDY01","STUDY01-1006","Treatment A",1,68,"F","2024-01-30","2024-07-01","Y","Y","SUMDIAM","Sum of Longest Diameters",2,36,,"2024-03-26",57,"Week 8",3,"","Y","mm",48,-12,-25,,4,
+"STUDY01","STUDY01-1006","Treatment A",1,68,"F","2024-01-30","2024-07-01","Y","Y","BOR","Best Overall Response",3,2,"PARTIAL RESPONSE","2024-03-26",57,"Best Response",99,"","Y",,,,,,5,"RESPONDER"
+"STUDY01","STUDY01-1006","Treatment A",1,68,"F","2024-01-30","2024-07-01","Y","Y","RESPFL","Objective Response Flag",4,1,"Y","2024-03-26",57,"Best Response",99,"","Y",,,,,"Y",6,
+"STUDY01","STUDY01-1006","Treatment A",1,68,"F","2024-01-30","2024-07-01","Y","Y","NADIRTUM","Nadir Tumor Size",5,36,,,,"Nadir",98,"","Y","mm",48,-12,-25,,7,

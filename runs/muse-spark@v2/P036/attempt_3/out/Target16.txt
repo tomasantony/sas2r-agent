@@ -1,0 +1,38 @@
+Scatter Plot-Max. Post-baseline vs Max. Baseline for Lab Test 1 (mmol/L)
+Reference limits: ANRLO mean=60.0000  ANRHI mean=90.0000  BASE mean=71.7320  AVAL mean=66.4120
+MinValue=41.0000  MaxValue=90.0000  Margin=0.4900  YAxisMin=40  YAxisMax=100  Major=10
+
+Baseline Shift Table: Max Post Baseline Result (shift from baseline)
+Treatment | Max. Baseline Result | ANRIND levels: N (%) per cell [count (percent with 1 decimal)]
+0 (N = 84) | High | Normal | 2 | 2.4 | 2 (2.4)
+0 (N = 84) | Low | Low | 6 | 7.1 | 6 (7.1)
+0 (N = 84) | Low | Normal | 1 | 1.2 | 1 (1.2)
+0 (N = 84) | Normal | Low | 11 | 13.1 | 11 (13.1)
+0 (N = 84) | Normal | Normal | 64 | 76.2 | 64 (76.2)
+54 (N = 84) | High | Normal | 1 | 1.2 | 1 (1.2)
+54 (N = 84) | Low | Low | 3 | 3.6 | 3 (3.6)
+54 (N = 84) | Low | Normal | 1 | 1.2 | 1 (1.2)
+54 (N = 84) | Normal | Low | 12 | 14.3 | 12 (14.3)
+54 (N = 84) | Normal | Normal | 67 | 79.8 | 67 (79.8)
+81 (N = 82) | High | Normal | 1 | 1.2 | 1 (1.2)
+81 (N = 82) | Low | Low | 6 | 7.3 | 6 (7.3)
+81 (N = 82) | Normal | Low | 5 | 6.1 | 5 (6.1)
+81 (N = 82) | Normal | Normal | 70 | 85.4 | 70 (85.4)
+
+Marginals: Group N
+TRTPN=0 (N = 84)  GroupPercent=33.6
+TRTPN=54 (N = 84)  GroupPercent=33.6
+TRTPN=81 (N = 82)  GroupPercent=32.8
+
+Treatment Emergent High
+TRTPN              Nx          n          %     FishersP
+0                  84          5      500.0       1.0000
+54                 84          5      500.0             
+81                 82          5      500.0             
+
+Fisher Exact p-value (XP2_FISH) = 1.0000  (NValue1 with pvalue. format)
+
+Notes:
+Scatter Plot: Includes subjects with both a baseline and a post-baseline measure.  Reference limits apply to most of the participants are used in the plot
+N=number of subjects with at least one post-baseline measure; Nx=number of subjects with maximum baseline either normal or low and have at least one post-baseline measure.
+Summary tables used the reference limits set 1 (Male, Age 18-65, LLNx 60 mmol/L ULNx 90 mmol/L) set 2 (Female, Age 18-65, LLN=60 mmol/L ULN=90 mmol/L).

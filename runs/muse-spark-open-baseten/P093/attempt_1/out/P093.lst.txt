@@ -1,0 +1,23 @@
+Lowest and Highest Salary by Salary Group
+
+EmployeeID       Salary Salary Group         HireDate
+---------- ------------ ------------------- ---------
+120185          $25,080 Under $30,000       01DEC2010
+121061          $29,815 Under $30,000       01JUL1988
+121062          $30,305 $30,000 to $35,000  01AUG2010
+120754          $34,760 $30,000 to $35,000  01MAY2010
+120683          $36,315 $35,000 to $50,000  01JAN1978
+120668          $47,785 $35,000 to $50,000  01DEC1982
+120813          $50,865 Over $50,000        01JAN1997
+120259         $433,800 Over $50,000        01SEP1993
+
+N = 8 rows (2 per salary group, 4 groups)
+
+Salary Group definitions:
+  Under $30,000        : Salary < 30000
+  $30,000 to $35,000   : 30000 <= Salary < 35000
+  $35,000 to $50,000   : 35000 <= Salary < 50000
+  Over $50,000         : Salary >= 50000
+
+Note: BY GROUPFORMAT groups observations by formatted Salary value.
+First and last observations within each formatted group are output.

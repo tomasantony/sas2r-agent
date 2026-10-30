@@ -1,0 +1,42 @@
+{
+ "id": "P035",
+ "provider": "claude-opus-5-5",
+ "model": "claude-opus-5-5",
+ "family": "phuse",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 0.9516129032258065,
+ "iterations": 2,
+ "input_tokens": 14892,
+ "output_tokens": 12037,
+ "seconds": 95.99794697761536,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 1,
+   "seconds_r": 2.1162829399108887,
+   "input_tokens": 4850,
+   "output_tokens": 6438,
+   "seconds_llm": 51.299320459365845,
+   "produced_all": false,
+   "equivalent": false,
+   "score": 0.0,
+   "note": ""
+  },
+  {
+   "n": 2,
+   "rc": 0,
+   "seconds_r": 2.31512713432312,
+   "input_tokens": 10042,
+   "output_tokens": 5599,
+   "seconds_llm": 40.02386951446533,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 0.9516129032258065,
+   "note": ""
+  }
+ ],
+ "best_attempt": 2
+}

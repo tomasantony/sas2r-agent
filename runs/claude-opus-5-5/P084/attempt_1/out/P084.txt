@@ -1,0 +1,150 @@
+The CONTENTS Procedure
+
+Data Set Name  WORK.ADAE
+Observations    9 
+Variables       41 
+
+Variables in Creation Order
+
+ Num Variable   Type Len Format Label                                  
+  1  STUDYID    Char 12         Study Identifier                       
+  2  USUBJID    Char 20         Unique Subject Identifier              
+  3  AESEQ      Num   8         Sequence Number                        
+  4  AETERM     Char 60         Reported Term for the Adverse Event    
+  5  AEDECOD    Char 60         Dictionary-Derived Term                
+  6  AEBODSYS   Char 60         Body System or Organ Class             
+  7  AESTDTC    Char 10                                                
+  8  AEENDTC    Char 10                                                
+  9  AESEV      Char 10                                                
+ 10  AESER      Char  1                                                
+ 11  AEREL      Char 20                                                
+ 12  AEACN      Char 25                                                
+ 13  AEOUT      Char 40                                                
+ 14  AETOXGR    Char  2                                                
+ 15  SITEID     Char  4                                                
+ 16  TRTP       Char 40         Planned Treatment                      
+ 17  TRTPN      Num   8         Planned Treatment (N)                  
+ 18  AGE        Num   8                                                
+ 19  AGEGR1     Char 10                                                
+ 20  SEX        Char  1                                                
+ 21  RACE       Char 50                                                
+ 22  SAFFL      Char  1         Safety Population Flag                 
+ 23  TRTSDT     Num   8  DATE9. Date of First Exposure to Treatment    
+ 24  TRTEDT     Num   8  DATE9. Date of Last Exposure to Treatment     
+ 25  ASTDT      Num   8  DATE9. Analysis Start Date                    
+ 26  AENDT      Num   8  DATE9. Analysis End Date                      
+ 27  ASTDY      Num   8         Analysis Start Relative Day            
+ 28  AENDY      Num   8         Analysis End Relative Day              
+ 29  TRTEMFL    Char  1         Treatment Emergent Analysis Flag       
+ 30  AESER_FL   Char  1         Serious Event Flag                     
+ 31  AOCCFL     Char  1         First Occurrence of Any AE Flag        
+ 32  AOCCSFL    Char  1         First Occurrence Within SOC Flag       
+ 33  AOCCPFL    Char  1         First Occurrence of Preferred Term Flag
+ 34  ASEV       Char 10         Analysis Severity/Intensity            
+ 35  ASEVN      Num   8         Analysis Severity/Intensity (N)        
+ 36  AREL       Char 20         Analysis Causality                     
+ 37  ARELN      Num   8         Analysis Causality (N)                 
+ 38  AESOC      Char 60         Primary System Organ Class             
+ 39  AEDECOD_UP Char 60                                                
+ 40  AEDUR      Num   8         AE Duration (Days)                     
+ 41  ASEQ       Num   8         Analysis Sequence Number               
+
+
+PROC PRINT (obs=10)
+
+ STUDYID USUBJID      AESEQ AETERM         AEDECOD       
+ STUDY01 STUDY01-1001 1     Headache       Headache      
+ STUDY01 STUDY01-1001 2     Nausea         Nausea        
+ STUDY01 STUDY01-1002 1     Fatigue        Fatigue       
+ STUDY01 STUDY01-1003 1     Dizziness      Dizziness     
+ STUDY01 STUDY01-1003 2     Rash           Rash          
+ STUDY01 STUDY01-1003 3     Hepatotoxicity Hepatotoxicity
+ STUDY01 STUDY01-1004 1     Insomnia       Insomnia      
+ STUDY01 STUDY01-1005 1     Vomiting       Vomiting      
+ STUDY01 STUDY01-1006 1     Back pain      Back pain     
+ AEBODSYS                   AESTDTC    AEENDTC   
+ Nervous system disorders   2024-02-01 2024-02-03
+ Gastrointestinal disorders 2024-02-15 2024-02-18
+ General disorders          2024-02-10 2024-03-01
+ Nervous system disorders   2024-02-20 2024-02-22
+ Skin disorders             2024-03-05 2024-03-15
+ Hepatobiliary disorders    2024-03-25           
+ Psychiatric disorders      2024-02-25 2024-03-10
+ Gastrointestinal disorders 2024-03-01 2024-03-02
+ Musculoskeletal disorders  2024-02-28 2024-03-05
+
+ AESEV    AESER AEREL            AEACN            AEOUT         AETOXGR SITEID
+ MILD     N     NOT RELATED      DOSE NOT CHANGED RECOVERED     1       101   
+ MODERATE N     POSSIBLY RELATED DOSE NOT CHANGED RECOVERED     2       101   
+ MILD     N     POSSIBLY RELATED DOSE NOT CHANGED RECOVERED     1       101   
+ MILD     N     NOT RELATED      DOSE NOT CHANGED RECOVERED     1       102   
+ MODERATE N     PROBABLY RELATED DOSE REDUCED     RECOVERED     2       102   
+ SEVERE   Y     RELATED          DRUG WITHDRAWN   NOT RECOVERED 3       102   
+ MILD     N     UNLIKELY         DOSE NOT CHANGED RECOVERED     1       102   
+ MODERATE N     POSSIBLY RELATED DOSE NOT CHANGED RECOVERED     2       103   
+ MILD     N     NOT RELATED      DOSE NOT CHANGED RECOVERED     1       103   
+ TRTP       
+ Treatment A
+ Treatment A
+ Placebo    
+ Treatment A
+ Treatment A
+ Treatment A
+ Treatment A
+ Placebo    
+ Treatment A
+
+ TRTPN AGE AGEGR1 SEX RACE                      SAFFL TRTSDT    TRTEDT   
+ 1     59  <65    M   WHITE                     Y     15JAN2024 15JUN2024
+ 1     59  <65    M   WHITE                     Y     15JAN2024 15JUN2024
+ 2     45  <65    F   BLACK OR AFRICAN AMERICAN Y     18JAN2024 18JUN2024
+ 1     43  <65    M   ASIAN                     Y     20JAN2024 01APR2024
+ 1     43  <65    M   ASIAN                     Y     20JAN2024 01APR2024
+ 1     43  <65    M   ASIAN                     Y     20JAN2024 01APR2024
+ 1     51  <65    F   WHITE                     Y     25JAN2024 25JUN2024
+ 2     36  <65    M   ASIAN                     Y     28JAN2024 .        
+ 1     68  >=65   F   WHITE                     Y     30JAN2024 01JUL2024
+
+ ASTDT     AENDT     ASTDY AENDY TRTEMFL AESER_FL AOCCFL AOCCSFL
+ 01FEB2024 03FEB2024 18    20    Y       N               Y      
+ 15FEB2024 18FEB2024 32    35    Y       N        Y      Y      
+ 10FEB2024 01MAR2024 24    44    Y       N        Y      Y      
+ 20FEB2024 22FEB2024 32    34    Y       N               Y      
+ 05MAR2024 15MAR2024 46    56    Y       N               Y      
+ 25MAR2024 .         66    .     Y       Y        Y      Y      
+ 25FEB2024 10MAR2024 32    46    Y       N        Y      Y      
+ 01MAR2024 02MAR2024 34    35    Y       N        Y      Y      
+ 28FEB2024 05MAR2024 30    36    Y       N        Y      Y      
+
+ AOCCPFL ASEV     ASEVN AREL             ARELN AESOC                     
+ Y       MILD     1     NOT RELATED      1     Nervous system disorders  
+ Y       MODERATE 2     POSSIBLY RELATED 3     Gastrointestinal disorders
+ Y       MILD     1     POSSIBLY RELATED 3     General disorders         
+ Y       MILD     1     NOT RELATED      1     Nervous system disorders  
+ Y       MODERATE 2     PROBABLY RELATED 4     Skin disorders            
+ Y       SEVERE   3     RELATED          5     Hepatobiliary disorders   
+ Y       MILD     1     UNLIKELY         2     Psychiatric disorders     
+ Y       MODERATE 2     POSSIBLY RELATED 3     Gastrointestinal disorders
+ Y       MILD     1     NOT RELATED      1     Musculoskeletal disorders 
+ AEDECOD_UP     AEDUR
+ HEADACHE       3    
+ NAUSEA         4    
+ FATIGUE        21   
+ DIZZINESS      3    
+ RASH           11   
+ HEPATOTOXICITY .    
+ INSOMNIA       15   
+ VOMITING       2    
+ BACK PAIN      7    
+
+ ASEQ
+ 1   
+ 2   
+ 1   
+ 1   
+ 2   
+ 3   
+ 1   
+ 1   
+ 1   
+

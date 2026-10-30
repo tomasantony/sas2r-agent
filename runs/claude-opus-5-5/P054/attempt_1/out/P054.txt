@@ -1,0 +1,63 @@
+
+Parameter Number=815 Parameter=Diastolic Blood Pressure (mmHg) After Lying Down For 5 Minutes
+
+                                         Post-Baseline Result
+                               Baseline  Low              Normal           High             Total            
+Treatment                      Result           n  %             n  %             n  %             n  %      
+Placebo (N = 81)               Low              2  (  2.5)       2  (  2.5)       0  (  0.0)       4  (  4.9)
+                               Normal           4  (  4.9)      66  ( 81.5)       1  (  1.2)      71  ( 87.7)
+                               High             0  (  0.0)       4  (  4.9)       2  (  2.5)       6  (  7.4)
+                               Total            6  (  7.4)      72  ( 88.9)       3  (  3.7)       0  (  0.0)
+
+Xanomeline Low Dose (N = 72)   Low              0  (  0.0)       1  (  1.4)       0  (  0.0)       1  (  1.4)
+                               Normal           2  (  2.8)      66  ( 91.7)       0  (  0.0)      68  ( 94.4)
+                               High             0  (  0.0)       3  (  4.2)       0  (  0.0)       3  (  4.2)
+                               Total            2  (  2.8)      70  ( 97.2)       0  (  0.0)       0  (  0.0)
+
+Xanomeline High Dose (N = 73)  Low              1  (  1.4)       2  (  2.7)       0  (  0.0)       3  (  4.1)
+                               Normal           2  (  2.7)      64  ( 87.7)       0  (  0.0)      66  ( 90.4)
+                               High             0  (  0.0)       3  (  4.1)       1  (  1.4)       4  (  5.5)
+                               Total            3  (  4.1)      69  ( 94.5)       1  (  1.4)       0  (  0.0)
+
+
+Parameter Number=816 Parameter=Diastolic Blood Pressure (mmHg) After Standing For 1 Minute
+
+                                         Post-Baseline Result
+                               Baseline  Low              Normal           High             Total            
+Treatment                      Result           n  %             n  %             n  %             n  %      
+Placebo (N = 81)               Low              4  (  4.9)       0  (  0.0)       0  (  0.0)       4  (  4.9)
+                               Normal           4  (  4.9)      57  ( 70.4)       5  (  6.2)      66  ( 81.5)
+                               High             0  (  0.0)       7  (  8.6)       4  (  4.9)      11  ( 13.6)
+                               Total            8  (  9.9)      64  ( 79.0)       9  ( 11.1)       0  (  0.0)
+
+Xanomeline Low Dose (N = 72)   Low              0  (  0.0)       4  (  5.6)       0  (  0.0)       4  (  5.6)
+                               Normal           3  (  4.2)      59  ( 81.9)       1  (  1.4)      63  ( 87.5)
+                               High             0  (  0.0)       5  (  6.9)       0  (  0.0)       5  (  6.9)
+                               Total            3  (  4.2)      68  ( 94.4)       1  (  1.4)       0  (  0.0)
+
+Xanomeline High Dose (N = 73)  Low              0  (  0.0)       3  (  4.1)       0  (  0.0)       3  (  4.1)
+                               Normal           4  (  5.5)      57  ( 78.1)       2  (  2.7)      63  ( 86.3)
+                               High             0  (  0.0)       5  (  6.8)       2  (  2.7)       7  (  9.6)
+                               Total            4  (  5.5)      65  ( 89.0)       4  (  5.5)       0  (  0.0)
+
+
+Parameter Number=817 Parameter=Diastolic Blood Pressure (mmHg) After Standing For 3 Minutes
+
+                                         Post-Baseline Result
+                               Baseline  Low              Normal           High             Total            
+Treatment                      Result           n  %             n  %             n  %             n  %      
+Placebo (N = 81)               Low              2  (  2.5)       1  (  1.2)       0  (  0.0)       3  (  3.7)
+                               Normal           4  (  4.9)      63  ( 77.8)       2  (  2.5)      69  ( 85.2)
+                               High             0  (  0.0)       5  (  6.2)       4  (  4.9)       9  ( 11.1)
+                               Total            6  (  7.4)      69  ( 85.2)       6  (  7.4)       0  (  0.0)
+
+Xanomeline Low Dose (N = 72)   Low              0  (  0.0)       4  (  5.6)       0  (  0.0)       4  (  5.6)
+                               Normal           4  (  5.6)      55  ( 76.4)       0  (  0.0)      59  ( 81.9)
+                               High             0  (  0.0)       8  ( 11.1)       1  (  1.4)       9  ( 12.5)
+                               Total            4  (  5.6)      67  ( 93.1)       1  (  1.4)       0  (  0.0)
+
+Xanomeline High Dose (N = 73)  Low              1  (  1.4)       1  (  1.4)       0  (  0.0)       2  (  2.7)
+                               Normal           7  (  9.6)      54  ( 74.0)       1  (  1.4)      62  ( 84.9)
+                               High             0  (  0.0)       7  (  9.6)       2  (  2.7)       9  ( 12.3)
+                               Total            8  ( 11.0)      62  ( 84.9)       3  (  4.1)       0  (  0.0)
+

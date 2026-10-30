@@ -1,0 +1,46 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9433962264150944,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P096.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.8867924528301887,
+   "detail": {
+    "recall": 0.8867924528301887,
+    "expected": 53,
+    "found": 47,
+    "r_files": [
+     "Means_full_table.csv",
+     "Means_up_table.csv",
+     "Round.csv",
+     "RoundToEven.csv",
+     "Seq.csv",
+     "Seq_table.csv",
+     "SGPlot_data.csv"
+    ],
+    "missing_examples": [
+     "432.8",
+     "1.018",
+     "430.8",
+     "1.014",
+     "0.548",
+     "0.501"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\gpt-oss-120b-ollama\\P096\\attempt_3\\out\\SGPlot.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  }
+ ]
+}

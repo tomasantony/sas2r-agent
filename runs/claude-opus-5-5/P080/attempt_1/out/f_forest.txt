@@ -1,0 +1,31 @@
+Figure 14.2.2
+Forest Plot of Subgroup Analyses - Overall Survival
+Efficacy Analysis Set
+
+Subgroup     Level                          HR       95% CI             p-value
+Overall      All Subjects                   0.63     (0.35, 1.11)       0.1111
+Overall      All Subjects                   0.87     (0.53, 1.41)       0.5704
+Sex          F                              0.59     (0.27, 1.32)       0.1973
+Sex          F                              0.85     (0.43, 1.68)       0.6373
+Sex          M                              0.68     (0.30, 1.55)       0.3622
+Sex          M                              0.90     (0.45, 1.81)       0.7620
+Age Group    <65                            0.62     (0.33, 1.14)       0.1220
+Age Group    <65                            0.68     (0.38, 1.21)       0.1907
+Age Group    >=65                           0.61     (0.12, 3.01)       0.5399
+Age Group    >=65                           1.77     (0.64, 4.88)       0.2670
+Race         ASIAN                          1.37     (0.36, 5.15)       0.6416
+Race         ASIAN                          1.72     (0.33, 8.94)       0.5169
+Race         BLACK OR AFRICAN AMERICAN      0.47     (0.11, 1.99)       0.3070
+Race         BLACK OR AFRICAN AMERICAN      0.53     (0.14, 2.00)       0.3503
+Race         OTHER                          0.00     (0.00, .)          0.9992
+Race         OTHER                          0.61     (0.07, 5.48)       0.6580
+Race         WHITE                          0.65     (0.31, 1.36)       0.2522
+Race         WHITE                          1.02     (0.57, 1.83)       0.9443
+Region       Asia                           0.71     (0.18, 2.82)       0.6224
+Region       Asia                           1.04     (0.34, 3.23)       0.9448
+Region       Europe                         0.70     (0.26, 1.89)       0.4779
+Region       Europe                         1.22     (0.55, 2.73)       0.6235
+Region       North America                  0.57     (0.25, 1.29)       0.1770
+Region       North America                  0.57     (0.26, 1.24)       0.1565
+
+Hazard Ratios from Cox proportional hazards model.

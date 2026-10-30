@@ -1,0 +1,42 @@
+
+CLASSTEST table before sorting
+Name Subject Score
+Judy Reading 91
+Judy Math 79
+Barbara Math 90
+Barbara Reading 86
+Barbara Math 90
+Louise Math 72
+Louise Reading 65
+William Math 61
+William Reading 71
+Henry Math 62
+Henry Reading 75
+Henry Reading 84
+Jane Math 94
+Jane Reading 96
+
+
+CLASSTEST_SORT table keeping the high Score for each Name and Subject
+Name Subject Score
+Barbara Math 90
+Barbara Math 90
+Barbara Reading 86
+Henry Math 62
+Henry Reading 84
+Henry Reading 75
+Jane Math 94
+Jane Reading 96
+Judy Math 79
+Judy Reading 91
+Louise Math 72
+Louise Reading 65
+William Math 61
+William Reading 71
+
+
+CLASSTEST_DUPS table with the removed lower test scores
+Name Subject Score
+Barbara Math 90
+Henry Reading 75
+

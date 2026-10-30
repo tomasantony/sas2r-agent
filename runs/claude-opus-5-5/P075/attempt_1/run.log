@@ -1,0 +1,4 @@
+sandbox: docker run --rm --name sas2r-a0b6bcf04019 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\claude-opus-5-5\P075\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Data read: adsl 240 rows, advs 4720 rows
+Big N computed for 3 groups
+t_vs completed: 60 rows

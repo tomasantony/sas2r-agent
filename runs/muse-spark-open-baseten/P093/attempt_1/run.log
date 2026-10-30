@@ -1,0 +1,14 @@
+sandbox: docker run --rm --name sas2r-34a63c464ea7 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P093\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+P093 processing complete. Output written to /work/out 
+Rows in highlowsal: 8 
+# A tibble: 8 × 6
+  EmployeeID Salary Salary_Formatted Salary_Group    HireDate HireDate_Formatted
+       <dbl>  <dbl> <chr>            <chr>           <chr>    <chr>             
+1     120185  25080 $25,080          Under $30,000   2010-12… 01DEC2010         
+2     121061  29815 $29,815          Under $30,000   1988-07… 01JUL1988         
+3     121062  30305 $30,305          $30,000 to $35… 2010-08… 01AUG2010         
+4     120754  34760 $34,760          $30,000 to $35… 2010-05… 01MAY2010         
+5     120683  36315 $36,315          $35,000 to $50… 1978-01… 01JAN1978         
+6     120668  47785 $47,785          $35,000 to $50… 1982-12… 01DEC1982         
+7     120813  50865 $50,865          Over $50,000    1997-01… 01JAN1997         
+8     120259 433800 $433,800         Over $50,000    1993-09… 01SEP1993         

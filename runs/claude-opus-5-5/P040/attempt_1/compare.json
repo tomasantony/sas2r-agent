@@ -1,0 +1,42 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.9544235924932976,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P040_f_kmplot.pdf",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9544235924932976,
+   "detail": {
+    "recall": 0.9544235924932976,
+    "expected": 373,
+    "found": 356,
+    "r_files": [
+     "P040_f_kmplot.csv",
+     "P040_f_kmplot.txt",
+     "P040_f_kmplot_atrisk.csv",
+     "P040_f_kmplot_censsum.csv",
+     "P040_f_kmplot_means.csv",
+     "P040_f_kmplot_plotdata.csv",
+     "P040_f_kmplot_quartiles.csv",
+     "P040_f_kmplot_tests.csv"
+    ],
+    "missing_examples": [
+     "10.573",
+     "0.0506",
+     "11.76",
+     "9.52",
+     "10.53",
+     "100",
+     "200",
+     "0.2",
+     "0.4",
+     "0.6",
+     "0.8"
+    ]
+   }
+  }
+ ]
+}

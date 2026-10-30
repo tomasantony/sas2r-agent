@@ -1,0 +1,29 @@
+sandbox: docker run --rm --name sas2r-1253406ab429 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\gpt-oss-120b-ollama\P049\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error in `row[, treat_map$TRT01PN]`:
+! Can't subset columns past the end.
+ℹ Locations 54 and 81 don't exist.
+ℹ There are only 5 columns.
+Backtrace:
+     ▆
+  1. ├─row[, treat_map$TRT01PN]
+  2. ├─tibble:::`[.tbl_df`(row, , treat_map$TRT01PN)
+  3. │ └─tibble:::vectbl_as_col_location(...)
+  4. │   ├─tibble:::subclass_col_index_errors(...)
+  5. │   │ └─base::withCallingHandlers(...)
+  6. │   └─vctrs::vec_as_location(j, n, names, missing = "error", call = call)
+  7. └─vctrs (local) `<fn>`() at vctrs/R/subscript-loc.R:84:3
+  8.   └─vctrs:::stop_subscript_oob(...)
+  9.     └─vctrs:::stop_subscript(...) at vctrs/R/subscript-loc.R:503:3
+ 10.       └─rlang::abort(...) at vctrs/R/subscript.R:150:3
+Execution halted

@@ -1,0 +1,105 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9685828531127508,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P089.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9085365853658537,
+   "detail": {
+    "recall": 0.9085365853658537,
+    "expected": 328,
+    "found": 298,
+    "r_files": [
+     "adex.csv",
+     "adex_base.csv",
+     "adsl.csv",
+     "P089.csv",
+     "P089.lst.csv",
+     "P089.lst.txt",
+     "P089.txt"
+    ],
+    "missing_examples": [
+     "10",
+     "27",
+     "2026",
+     "584",
+     "64",
+     "65536",
+     "112",
+     "35248",
+     "9.0401",
+     "8",
+     "20",
+     "40"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adex",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten\\P089\\attempt_1\\out\\adex.csv",
+   "status": "ok",
+   "score": 0.999128160418483,
+   "detail": {
+    "rows_sas": 37,
+    "rows_r": 37,
+    "cols_sas": 31,
+    "cols_r": 31,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.999128160418483,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(AVAL, 29, nan, '0')"
+    ],
+    "worst_columns": {
+     "AVAL": 1
+    }
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adex_base",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten\\P089\\attempt_1\\out\\adex_base.csv",
+   "status": "mismatch",
+   "score": 0.9666666666666667,
+   "detail": {
+    "rows_sas": 13,
+    "rows_r": 13,
+    "cols_sas": 30,
+    "cols_r": 29,
+    "missing_cols": [
+     "AVALC"
+    ],
+    "extra_cols": [],
+    "cell_match": 0.9666666666666667,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adsl",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-baseten\\P089\\attempt_1\\out\\adsl.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 6,
+    "rows_r": 6,
+    "cols_sas": 9,
+    "cols_r": 9,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  }
+ ]
+}

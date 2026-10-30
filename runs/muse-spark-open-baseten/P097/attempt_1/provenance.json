@@ -1,0 +1,87 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P097",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T20:26:56",
+ "agent_commit": "54b8b9726c4dcbbd11954be09ec9c716e7539c90",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 3021,
+  "output_tokens": 9652,
+  "reasoning_tokens": 3394,
+  "finish_reason": "stop",
+  "seconds": 25.3
+ },
+ "inputs": {
+  "prompt_translate.md": "1d0eba3e8ffb527f1be56a083473d9617b4f1bede9519f3a39eb261890bb8ecb"
+ },
+ "model_output": {
+  "response.md": "e611f5830d0e7dc9cf4e87fbfca9916223fa6406a33ca1c3def4f6d383bcc6ba",
+  "reasoning.md": "87ed43759345bb3ef46102bc0c3da32f9189409dcb97c558772446931d71de79",
+  "script.R": "c4d23f4570ce23e6c40d8c95719e71fe0dc19e6aba784f52204a2c6fe40ec8b9"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 4.5,
+  "timed_out": false,
+  "log_sha256": "8b4e9385b2403e55bd916b1556a439986a94d542ca13f1eba421f729882fbc87"
+ },
+ "r_outputs": {
+  "figure_data.csv": "85756807439177c565f55268b4144044d61f62ac3b772c4f4e4b09f2e18cb948",
+  "histogram.csv": "e4f4b7cd98d9646a42cdc7855e91d73e91e7a593c4169bcb28e3df019abd3b82",
+  "histogram.png": "16f5ab40333f93ccfd28477119a02033dc40abfd394dbfa1ec2e5915c38e6632",
+  "means_summary.csv": "96bb4be575cd83e3f4ee81ac6ba3b59a6ab317309119f14bdc526d60c09ff0d1",
+  "P097.csv": "b22f7c369e181e9908f8e7274528739df3f03e3f19b4e096108c23486acccbdb",
+  "P097.lst": "46bb5efc14c3b032cd015b8414f5b68b5e36755d5610d454773fa6a16875fe3e",
+  "P097.lst.csv": "b22f7c369e181e9908f8e7274528739df3f03e3f19b4e096108c23486acccbdb",
+  "P097.txt": "46bb5efc14c3b032cd015b8414f5b68b5e36755d5610d454773fa6a16875fe3e",
+  "Prob.csv": "c2360489376848c29fee2f297cdbe18a7ec735052e11baea6a91401341e83967",
+  "ROCAssociation.csv": "f5a63450e56e9291976054f586bdfc3cdccad9bc5e02ded6a526a4a85a7ed6ef",
+  "ROCEst.csv": "85756807439177c565f55268b4144044d61f62ac3b772c4f4e4b09f2e18cb948",
+  "sgpanel.csv": "8b1d0ad7f0a9a6cdcdc1c48c3ad40774e4d2d786b8882d8872053ffc90d8ab77",
+  "sgpanel.png": "eaf42d1b96fdd3f01f9072d9737c72aede0909cf84b13b2a2cf27e48c69420e8",
+  "Survival.csv": "71920c93b17901deb28d1f3df520240695feca0b6ed74b9b281061820eb7ee3d",
+  "WidePctls.csv": "ac46b42ed71d62aaf31677753ec37365a194b9cb2d364e60c54d8f74c71b39fc"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P097.lst",
+   "sha256": "fb0883d7315c52915e5714b1cb5f4cc7e6bfbb9fd4fb1686ddeba4878b602b4e",
+   "frozen_sha256": "fb0883d7315c52915e5714b1cb5f4cc7e6bfbb9fd4fb1686ddeba4878b602b4e",
+   "ok": true
+  },
+  {
+   "file": "datasets/P097/Histogram.png",
+   "sha256": "137ac78fc8c4ef46e33c4b36c1c77a00ff5a3172ad625a79932e2f2709129145",
+   "frozen_sha256": "137ac78fc8c4ef46e33c4b36c1c77a00ff5a3172ad625a79932e2f2709129145",
+   "ok": true
+  },
+  {
+   "file": "datasets/P097/SGPanel.png",
+   "sha256": "0b6abc0357524371e0d3e8592dedab1df151703c8648b9c8d7c8ad58c0839762",
+   "frozen_sha256": "0b6abc0357524371e0d3e8592dedab1df151703c8648b9c8d7c8ad58c0839762",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.8016528925619836,
+  "produced_all": true
+ }
+}

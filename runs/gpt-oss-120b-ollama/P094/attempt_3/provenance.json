@@ -1,0 +1,67 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P094",
+ "provider": "gpt-oss-120b-ollama",
+ "model": "gpt-oss:120b",
+ "attempt": 3,
+ "recorded_at": "2026-10-29T20:28:47",
+ "agent_commit": "54b8b9726c4dcbbd11954be09ec9c716e7539c90",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 4071,
+  "output_tokens": 1476,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 3.0
+ },
+ "inputs": {
+  "prompt_translate.md": "faccc4999f14952a156a5cac7e1cf811b4a84b9cfcabd9d36fabcd699950df10"
+ },
+ "model_output": {
+  "response.md": "588bb49cde21d4935e79e15f2a9d4d7b320e3839e1aa06c74c04b35e3ab90559",
+  "reasoning.md": "eb04b9af3e4d9c54b1740c01a7a9767319472da466c6872d6013eafecd866666",
+  "script.R": "afb80af1c70a8db06a4b8d80bc49ab8b3d1566e66817b6ec469a34a789ffe492"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.4,
+  "timed_out": false,
+  "log_sha256": "369ec7a4ecab72912e524148cc51687422936ff638ec3ca5ceef9ee224cbc711"
+ },
+ "r_outputs": {
+  "classtest.csv": "e56d3dfa89d1855c1fb7643fbc2f83d123f93dfb09bb38de9dde94c5fe7a9bea",
+  "classtest_body.csv": "e56d3dfa89d1855c1fb7643fbc2f83d123f93dfb09bb38de9dde94c5fe7a9bea",
+  "classtest_dups.csv": "e001a5b595994b816fd54e1f258b052f9a6af219251201afb3f47cc35b044525",
+  "classtest_dups_body.csv": "e001a5b595994b816fd54e1f258b052f9a6af219251201afb3f47cc35b044525",
+  "classtest_sort.csv": "2e72c949c76be274c92e80c075f1a2ae8453abf068ce86139e996d0f45aac571",
+  "classtest_sort_body.csv": "2e72c949c76be274c92e80c075f1a2ae8453abf068ce86139e996d0f45aac571",
+  "P094.lst": "e441f5e4d829c99fe8be00c4069905c43938b3829559926a8f40c9817ba611ab"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P094.lst",
+   "sha256": "5f7cd5ac3892e80a5fba1bfa26a725379f9727139f889b06280708090896b8e6",
+   "frozen_sha256": "5f7cd5ac3892e80a5fba1bfa26a725379f9727139f889b06280708090896b8e6",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.5,
+  "produced_all": true
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.9940944881889764,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "l_dv.rtf",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9940944881889764,
+   "detail": {
+    "recall": 0.9940944881889764,
+    "expected": 508,
+    "found": 505,
+    "r_files": [
+     "l_dv.csv",
+     "l_dv.txt"
+    ],
+    "missing_examples": [
+     "16.2"
+    ]
+   }
+  }
+ ]
+}

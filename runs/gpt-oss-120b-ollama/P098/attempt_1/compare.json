@@ -1,0 +1,37 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.0,
+ "artifacts": [
+  {
+   "kind": "figure",
+   "name": "Waterfall_Xf_100.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "waterfall_xf_100.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "Waterfall_Xf_125.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "waterfall_xf_125.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "Waterfall_Xf_150.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "waterfall_xf_150.png"
+   }
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "id": "P095",
+ "provider": "gpt-oss-120b-ollama",
+ "model": "gpt-oss:120b",
+ "family": "general",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 1.0,
+ "iterations": 1,
+ "input_tokens": 1557,
+ "output_tokens": 4499,
+ "seconds": 12.417935848236084,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 1.8411922454833984,
+   "input_tokens": 1557,
+   "output_tokens": 4499,
+   "seconds_llm": 10.41768741607666,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 1.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 1
+}

@@ -1,0 +1,7 @@
+sandbox: docker run --rm --name sas2r-c01693ceb86c --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P091\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+P091: creating my_data
+P091: building plot
+Saved PNG: /work/out/bar1.png 
+Saved CSV: /work/out/bar1.csv 
+Saved TXT: /work/out/bar1.txt 
+P091 complete

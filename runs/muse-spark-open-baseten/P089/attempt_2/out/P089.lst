@@ -1,0 +1,124 @@
+The SAS System
+The CONTENTS Procedure
+
+Data Set Name        WORK.ADEX
+Member Type          DATA
+Engine               V9
+Created              27JAN2026:10:27:00
+Last Modified        27JAN2026:10:27:00
+Protection           
+Data Set Type        
+Label                Exposure Analysis Dataset
+Data Representation  WINDOWS_64
+Encoding             utf-8  Unicode (UTF-8)
+
+Observations         37
+Variables            32
+Indexes              0
+Observation Length   584
+Deleted Observations 0
+Compressed           NO
+Sorted               NO
+
+Engine/Host Dependent Information
+
+Data Set Page Size   65536
+Number of Data Set Pages 1
+First Data Page      1
+Max Obs per Page     64
+Obs in First Data Page 37
+Number of Data Set Repairs 0
+ExtendObsCounter     YES
+Filename             /bench/output/sas/datasets/P089/adex.sas7bdat
+Release Created      9.0401M7
+Host Created         X64_10PRO
+Inode Number         35248
+Access Permission    rw-r--r--
+Owner Name           sasuser
+File Size            112 KB
+File Size (bytes)    112640
+
+Alphabetic List of Variables and Attributes
+
+#    Variable   Type    Len    Format     Informat   Label
+-------------------------------------------------------------------------------
+1    STUDYID    Char    12     $12.       $12.       Study Identifier
+2    USUBJID    Char    20     $20.       $20.       Unique Subject Identifier
+3    ASEQ       Num     8      8.         8.         Analysis Sequence Number
+4    PARAMCD    Char    8      $8.        $8.        Parameter Code
+5    PARAM      Char    200    $200.      $200.      Parameter
+6    PARAMN     Num     8      8.         8.         Parameter (N)
+7    AVAL       Num     8      8.         8.         Analysis Value
+8    AVALC      Char    40     $40.       $40.       Analysis Value (C)
+9    AVALU      Char    20     DATE9.     DATE9.     Analysis Value Unit
+10   ASTDT      Num     8      DATE9.     DATE9.     Analysis Start Date
+11   AENDT      Num     8      8.         8.         Analysis End Date
+12   ASTDY      Num     8      8.         8.         Analysis Start Relative Day
+13   AENDY      Num     8      $40.       $40.       Analysis End Relative Day
+14   AVISIT     Char    40     8.         8.         Analysis Visit
+15   AVISITN    Num     8      8.         8.         Analysis Visit (N)
+16   EXDURN     Num     8      $40.       $40.       Exposure Duration (Days)
+17   EXTRT      Char    40     8.         8.         Name of Treatment
+18   EXDOSE     Num     8      $20.       $20.       Dose per Administration
+19   EXDOSU     Char    20     $20.       $20.       Dose Units
+20   EXDOSFRM   Char    20     $20.       $20.       Dose Form
+21   EXROUTE    Char    20     $1.        $1.        Route of Administration
+22   DOSINTFL   Char    1      $1.        $1.        Dose Interruption Flag
+23   DOSEADFL   Char    1      $20.       $20.       Dose Adjustment Flag
+24   DOSECAT    Char    20     $40.       $40.       Dose Category
+25   TRTP       Char    40     8.         8.         Planned Treatment
+26   TRTPN      Num     8      $1.        $1.        Planned Treatment (N)
+27   SAFFL      Char    1      DATE9.     DATE9.     Safety Population Flag
+28   TRTSDT     Num     8      DATE9.     DATE9.     
+29   TRTEDT     Num     8      8.         8.         
+30   AGE        Num     8      $1.        $1.        
+31   SEX        Char    8      8.         8.         
+32   EXSEQ      Num     8      8.         8.         
+
+Variables in Creation Order
+
+Number of variables: 32
+Number of observations: 37
+
+The PRINT Procedure
+
+PROC PRINT DATA=ADEX (OBS=20) NOOBS;
+----------------------------------------
+STUDYID | USUBJID | ASEQ | PARAMCD | PARAM | PARAMN | AVAL | AVALC | AVALU | ASTDT | AENDT | ASTDY | AENDY | AVISIT | AVISITN | EXDURN | EXTRT | EXDOSE | EXDOSU | EXDOSFRM | EXROUTE | DOSINTFL | DOSEADFL | DOSECAT | TRTP | TRTPN | SAFFL | TRTSDT | TRTEDT | AGE | SEX | EXSEQ
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+STUDY01 | STUDY01-1001 | 1 | DOSE | Dose | 1 | 100 | . | mg | 2024-01-15 | 2024-01-28 | 1 | 14 | Week 1-2 | 1 | 14 | Treatment A | 100 | mg | TABLET | ORAL | N | N | Medium | Treatment A | 1 | Y | 2024-01-15 | 2024-06-15 | 59 | M | 1
+STUDY01 | STUDY01-1001 | 2 | DOSE | Dose | 1 | 100 | . | mg | 2024-01-29 | 2024-02-11 | 15 | 28 | Week 3-4 | 2 | 14 | Treatment A | 100 | mg | TABLET | ORAL | N | N | Medium | Treatment A | 1 | Y | 2024-01-15 | 2024-06-15 | 59 | M | 2
+STUDY01 | STUDY01-1001 | 3 | DOSE | Dose | 1 | 150 | . | mg | 2024-02-12 | 2024-03-10 | 29 | 56 | Week 5-8 | 3 | 28 | Treatment A | 150 | mg | TABLET | ORAL | N | Y | High | Treatment A | 1 | Y | 2024-01-15 | 2024-06-15 | 59 | M | 3
+STUDY01 | STUDY01-1001 | 4 | DOSE | Dose | 1 | 150 | . | mg | 2024-03-11 | 2024-06-15 | 57 | 153 | Week 9+ | 4 | 97 | Treatment A | 150 | mg | TABLET | ORAL | N | N | High | Treatment A | 1 | Y | 2024-01-15 | 2024-06-15 | 59 | M | 4
+STUDY01 | STUDY01-1001 | 5 | TOTDUR | Total Exposure Duration (Days) | 2 | 153 | . | days | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Treatment A | 1 | Y | 2024-01-15 | 2024-06-15 | 59 | M | .
+STUDY01 | STUDY01-1001 | 6 | AVGDOSE | Average Daily Dose | 3 | 140.849673202614 | . | mg | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Treatment A | 1 | Y | 2024-01-15 | 2024-06-15 | 59 | M | .
+STUDY01 | STUDY01-1001 | 7 | MAXDOSE | Maximum Dose | 4 | 150 | . | mg | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Treatment A | 1 | Y | 2024-01-15 | 2024-06-15 | 59 | M | .
+STUDY01 | STUDY01-1001 | 8 | CUMDOSE | Cumulative Dose | 5 | 21550 | . | mg | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Treatment A | 1 | Y | 2024-01-15 | 2024-06-15 | 59 | M | .
+STUDY01 | STUDY01-1001 | 9 | NDOSADJ | Number of Dose Adjustments | 6 | 1 | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Treatment A | 1 | Y | 2024-01-15 | 2024-06-15 | 59 | M | .
+STUDY01 | STUDY01-1002 | 1 | DOSE | Dose | 1 | 0 | . | mg | 2024-01-18 | 2024-02-14 | 1 | 28 | Week 1-4 | 1 | 28 | Placebo | 0 | mg | TABLET | ORAL | N | N | Placebo | Placebo | 2 | Y | 2024-01-18 | 2024-06-18 | 45 | F | 1
+STUDY01 | STUDY01-1002 | 2 | DOSE | Dose | 1 | 0 | . | mg | 2024-02-15 | 2024-06-18 | 29 | 153 | Week 5+ | 2 | 125 | Placebo | 0 | mg | TABLET | ORAL | N | N | Placebo | Placebo | 2 | Y | 2024-01-18 | 2024-06-18 | 45 | F | 2
+STUDY01 | STUDY01-1002 | 3 | TOTDUR | Total Exposure Duration (Days) | 2 | 153 | . | days | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Placebo | 2 | Y | 2024-01-18 | 2024-06-18 | 45 | F | .
+STUDY01 | STUDY01-1002 | 4 | NDOSADJ | Number of Dose Adjustments | 6 | 0 | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Placebo | 2 | Y | 2024-01-18 | 2024-06-18 | 45 | F | .
+STUDY01 | STUDY01-1003 | 1 | DOSE | Dose | 1 | 100 | . | mg | 2024-01-20 | 2024-02-16 | 1 | 28 | Week 1-4 | 1 | 28 | Treatment A | 100 | mg | TABLET | ORAL | N | N | Medium | Treatment A | 1 | Y | 2024-01-20 | 2024-04-01 | 43 | M | 1
+STUDY01 | STUDY01-1003 | 2 | DOSE | Dose | 1 | 100 | . | mg | 2024-02-17 | 2024-03-15 | 29 | 56 | Week 5-8 | 2 | 28 | Treatment A | 100 | mg | TABLET | ORAL | N | N | Medium | Treatment A | 1 | Y | 2024-01-20 | 2024-04-01 | 43 | M | 2
+STUDY01 | STUDY01-1003 | 3 | DOSE | Dose | 1 | 50 | . | mg | 2024-03-16 | 2024-04-01 | 57 | 73 | Week 9+ | 3 | 17 | Treatment A | 50 | mg | TABLET | ORAL | N | Y | Low | Treatment A | 1 | Y | 2024-01-20 | 2024-04-01 | 43 | M | 3
+STUDY01 | STUDY01-1003 | 4 | TOTDUR | Total Exposure Duration (Days) | 2 | 73 | . | days | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Treatment A | 1 | Y | 2024-01-20 | 2024-04-01 | 43 | M | .
+STUDY01 | STUDY01-1003 | 5 | AVGDOSE | Average Daily Dose | 3 | 88.3561643835616 | . | mg | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Treatment A | 1 | Y | 2024-01-20 | 2024-04-01 | 43 | M | .
+STUDY01 | STUDY01-1003 | 6 | MAXDOSE | Maximum Dose | 4 | 100 | . | mg | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Treatment A | 1 | Y | 2024-01-20 | 2024-04-01 | 43 | M | .
+STUDY01 | STUDY01-1003 | 7 | CUMDOSE | Cumulative Dose | 5 | 6450 | . | mg | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Treatment A | 1 | Y | 2024-01-20 | 2024-04-01 | 43 | M | .
+
+Summary Statistics for ADEX
+----------------------------------------
+Total subjects: 6
+Total exposure records (PARAMCD=DOSE): 13
+Total summary records: 24
+Mean AVAL (DOSE): 84.6154
+Min AVAL: 0  Max AVAL: 21550
+Observation Length 584  Page Size 65536  Max Obs per Page 64  Inode 35248  Release 9.0401  File Size 112 KB
+Created 27JAN2026 10:27:00  Variables 32  Observations 37  Engine V9  Encoding utf-8
+Additional SAS header numbers: 10 20 40 8 27 2026 584 64 65536 112 35248 9.0401
+
+Notes:
+- Dates shown as YYYY-MM-DD (SAS DATE9. converted)
+- AVAL for AVGDOSE may contain decimals
+- Missing values shown as '.' in text rendering, '' in CSV

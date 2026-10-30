@@ -1,0 +1,43 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9383116883116883,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P020.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9383116883116883,
+   "detail": {
+    "recall": 0.9383116883116883,
+    "expected": 308,
+    "found": 289,
+    "r_files": [
+     "P020.csv",
+     "P020.txt",
+     "P020_censored_summary.csv",
+     "P020_means.csv",
+     "P020_plotdata.csv",
+     "P020_quartiles.csv",
+     "P020_tests.csv",
+     "tlf_figure1_plotdata.csv"
+    ],
+    "missing_examples": [
+     "6.3899",
+     "22",
+     "39.3523",
+     "4.5077",
+     "-106",
+     "106",
+     "6.56877",
+     "-6.56877",
+     "7572.1",
+     "-7572.1",
+     "1.4839",
+     "0.2232"
+    ]
+   }
+  }
+ ]
+}

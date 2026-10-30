@@ -1,0 +1,64 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P077",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 2,
+ "recorded_at": "2026-10-29T20:14:34",
+ "agent_commit": "54b8b9726c4dcbbd11954be09ec9c716e7539c90",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 10283,
+  "output_tokens": 4551,
+  "reasoning_tokens": 1057,
+  "finish_reason": "stop",
+  "seconds": 12.9
+ },
+ "inputs": {
+  "prompt_translate.md": "a3ee9b34dae79c5d0f436d6c8359362c1da2e35d626f233ffca806f71d9abe1b"
+ },
+ "model_output": {
+  "response.md": "6d400b53aebeb278667efb1aa2b9e0c9789e5cebde7ae0e0d803f9e40388445b",
+  "reasoning.md": "124adc35e87193aaa7d94c6bb10ea7921341448e9e7c0540832df80c38d2ccf1",
+  "script.R": "e6a7400b0c18aed9d8900b4c92e8c894d314e2bb7f2dc001793a2d3cf1dd29c0"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.7,
+  "timed_out": false,
+  "log_sha256": "a58719d3c7ac9c96de93425e552deb0cf1c488b08ed92cc564ffca046fff5c13"
+ },
+ "r_outputs": {
+  "l_death.csv": "30b3fa5d7d66a287d9f893e07f9fdcca04bf106a3993e2120f53e92857d9a41c",
+  "l_death.rtf": "d6713ef08ace1f39db85ee7aaf6a11f57ffa4e745bef09628de7e05125a41a42",
+  "l_death.txt": "622796ccebe1faf6f8d7ecd87f5427b78c976431cff04350fb066d0ee0f8e15c",
+  "l_death_body.csv": "0386dd6855e4f6b2b742dbe52ce93c8cfb43ea4a9e01cf26b5c919976647bb18"
+ },
+ "sas_reference": [
+  {
+   "file": "tlf/l_death.rtf",
+   "sha256": "c0aba2fdef3298e19d1dcfff91c72c3292b09accc0d6c25bd4eae2d8254832cf",
+   "frozen_sha256": "c0aba2fdef3298e19d1dcfff91c72c3292b09accc0d6c25bd4eae2d8254832cf",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

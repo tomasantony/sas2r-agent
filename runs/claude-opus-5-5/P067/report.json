@@ -1,0 +1,30 @@
+{
+ "id": "P067",
+ "provider": "claude-opus-5-5",
+ "model": "claude-opus-5-5",
+ "family": "wxzhai",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 1.0,
+ "iterations": 1,
+ "input_tokens": 2485,
+ "output_tokens": 3632,
+ "seconds": 32.41547226905823,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 1.2373926639556885,
+   "input_tokens": 2485,
+   "output_tokens": 3632,
+   "seconds_llm": 31.02866792678833,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 1.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 1
+}

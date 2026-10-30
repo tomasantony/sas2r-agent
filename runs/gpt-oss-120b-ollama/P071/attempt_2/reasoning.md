@@ -1,0 +1,17 @@
+We need to fix error: bign is vector length >1, if_else expects length 1 or same length. In all_disp, each row has TRTA, but after left_join, bign column repeats per row, fine. But bign may be NA for total? Actually all_disp includes rows for each TRTA only, no total row. So bign is length same as rows. if_else works elementwise. Error arises because bign is a tibble column? Wait bign_df has columns TRTA, bign. left_join adds bign column. Should be fine. However bign may be integer, but if_else expects same length; condition bign > 0 returns vector length same as rows. The error "condition has length > 1" occurs when condition is length >1 but not same length as other arguments? Actually if_else expects condition length 1 or same length as true/false vectors. Here true vector is round_half_up(cnt/bign*100,1) which returns vector length same as rows? round_half_up defined to accept vector, returns vector. So should be fine. The error arises because round_half_up expects scalar? It uses if (is.na(x)) which expects length 1. Indeed round_half_up defined earlier expects scalar, not vector. Need vectorized version. Modify round_half_up to handle vector: use ifelse with sign etc. Implement vectorized: sign(x) * floor(abs(x) * 10^digits + 0.5) / 10^digits. That works elementwise. So replace function.
+
+Also need to ensure column headers mapping correct: TRTA values may be "Placebo", "Drug X Low Dose", "Drug X High Dose"? In SAS they used macro variables col1hdr etc derived from earlier macro m_counts which set trtlbl macro variable to value of TRTA. So we need to keep same strings. Our col_hdrs uses TRTA directly; fine.
+
+Need to output .txt rendering of table as plain text with numbers formatted like SAS: counts and percentages with one decimal. Our value column uses formatC(pct, format="f", digits=1) which yields e.g., "91.6". Good.
+
+But need to ensure ordering of rows matches SAS: order by ord, TRTA. In pivot, we used pivot_wider which may reorder columns automatically based on TRTA alphabetical order; but we rename to col1 etc based on expected order. However rows ordering after pivot may be by ord then category; fine.
+
+Potential issue: missing rows for treatments where count zero? SAS includes rows for each treatment group for each category, even if count zero? In our data, if a category has zero for a treatment, the value will be NA after pivot, resulting in NA column. Should be "0". In SAS they set value = '0' when cnt=0. Our value column sets "0" when cnt=0, but after pivot, missing values become NA. Need to replace NA with "0". So after pivot, replace NA with "0". Also ensure that for categories where cnt missing (i.e., treatment not present), we want "0". So after pivot, mutate across col1:col3 replace NA with "0". Use replace_na.
+
+Also need to ensure column order: col1, col2, col3 correspond to Placebo, Drug X Low Dose, Drug X High Dose. Our rename uses colPlacebo etc; but actual TRTA values may be "Placebo", "Drug X Low Dose", "Drug X High Dose". The names after pivot will be colPlacebo, colDrug_X_Low_Dose, colDrug_X_High_Dose (spaces replaced by underscores). rename accordingly. Good.
+
+Now adjust script.
+
+Also need to write .txt rendering as plain text with numbers; we already wrote tab-separated. Should be fine.
+
+Let's produce corrected script.

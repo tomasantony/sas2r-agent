@@ -1,0 +1,138 @@
+The CONTENTS Procedure
+
+Data Set Name        WORK.ADEX
+Observations         37
+Member Type          DATA
+Variables            31
+Engine               V9
+Indexes              0
+Observation Length   584
+Deleted Observations 0
+
+Engine/Host Dependent Information
+Data Set Page Size          65536
+Number of Data Set Pages    1
+First Data Page             1
+Max Obs per Page            112
+Obs in First Data Page      37
+Number of Data Set Repairs  0
+
+Variables in Creation Order
+  # Variable Type Len Format                       Label
+  1  STUDYID Char  12                   Study Identifier
+  2  USUBJID Char  20          Unique Subject Identifier
+  3    EXSEQ  Num   8                                   
+  4    EXTRT Char  40                  Name of Treatment
+  5   EXDOSE  Num   8            Dose per Administration
+  6   EXDOSU Char  20                         Dose Units
+  7 EXDOSFRM Char  20                          Dose Form
+  8  EXROUTE Char  20            Route of Administration
+  9     TRTP Char  40                  Planned Treatment
+ 10    TRTPN  Num   8              Planned Treatment (N)
+ 11      AGE  Num   8                                   
+ 12      SEX Char   1                                   
+ 13   TRTSDT  Num   8 DATE9.                            
+ 14   TRTEDT  Num   8 DATE9.                            
+ 15    SAFFL Char   1             Safety Population Flag
+ 16  PARAMCD Char   8                     Parameter Code
+ 17    PARAM Char 200                          Parameter
+ 18   PARAMN  Num   8                      Parameter (N)
+ 19     AVAL  Num   8                     Analysis Value
+ 20    AVALU Char  20                Analysis Value Unit
+ 21    ASTDT  Num   8 DATE9.         Analysis Start Date
+ 22    AENDT  Num   8 DATE9.           Analysis End Date
+ 23    ASTDY  Num   8        Analysis Start Relative Day
+ 24    AENDY  Num   8          Analysis End Relative Day
+ 25   AVISIT Char  40                     Analysis Visit
+ 26  AVISITN  Num   8                 Analysis Visit (N)
+ 27 DOSINTFL Char   1             Dose Interruption Flag
+ 28 DOSEADFL Char   1               Dose Adjustment Flag
+ 29   EXDURN  Num   8           Exposure Duration (Days)
+ 30     ASEQ  Num   8           Analysis Sequence Number
+ 31  DOSECAT Char  20                      Dose Category
+
+
+ STUDYID      USUBJID EXSEQ       EXTRT EXDOSE EXDOSU EXDOSFRM EXROUTE
+ STUDY01 STUDY01-1001     1 Treatment A    100     mg   TABLET    ORAL
+ STUDY01 STUDY01-1001     2 Treatment A    100     mg   TABLET    ORAL
+ STUDY01 STUDY01-1001     3 Treatment A    150     mg   TABLET    ORAL
+ STUDY01 STUDY01-1001     4 Treatment A    150     mg   TABLET    ORAL
+ STUDY01 STUDY01-1001     .                  .                        
+ STUDY01 STUDY01-1001     .                  .                        
+ STUDY01 STUDY01-1001     .                  .                        
+ STUDY01 STUDY01-1001     .                  .                        
+ STUDY01 STUDY01-1001     .                  .                        
+ STUDY01 STUDY01-1002     1     Placebo      0     mg   TABLET    ORAL
+ STUDY01 STUDY01-1002     2     Placebo      0     mg   TABLET    ORAL
+ STUDY01 STUDY01-1002     .                  .                        
+ STUDY01 STUDY01-1002     .                  .                        
+ STUDY01 STUDY01-1003     1 Treatment A    100     mg   TABLET    ORAL
+ STUDY01 STUDY01-1003     2 Treatment A    100     mg   TABLET    ORAL
+ STUDY01 STUDY01-1003     3 Treatment A     50     mg   TABLET    ORAL
+ STUDY01 STUDY01-1003     .                  .                        
+ STUDY01 STUDY01-1003     .                  .                        
+ STUDY01 STUDY01-1003     .                  .                        
+ STUDY01 STUDY01-1003     .                  .                        
+        TRTP TRTPN AGE SEX    TRTSDT    TRTEDT SAFFL PARAMCD
+ Treatment A     1  59   M 15JAN2024 15JUN2024     Y    DOSE
+ Treatment A     1  59   M 15JAN2024 15JUN2024     Y    DOSE
+ Treatment A     1  59   M 15JAN2024 15JUN2024     Y    DOSE
+ Treatment A     1  59   M 15JAN2024 15JUN2024     Y    DOSE
+ Treatment A     1  59   M 15JAN2024 15JUN2024     Y  TOTDUR
+ Treatment A     1  59   M 15JAN2024 15JUN2024     Y AVGDOSE
+ Treatment A     1  59   M 15JAN2024 15JUN2024     Y MAXDOSE
+ Treatment A     1  59   M 15JAN2024 15JUN2024     Y CUMDOSE
+ Treatment A     1  59   M 15JAN2024 15JUN2024     Y NDOSADJ
+     Placebo     2  45   F 18JAN2024 18JUN2024     Y    DOSE
+     Placebo     2  45   F 18JAN2024 18JUN2024     Y    DOSE
+     Placebo     2  45   F 18JAN2024 18JUN2024     Y  TOTDUR
+     Placebo     2  45   F 18JAN2024 18JUN2024     Y NDOSADJ
+ Treatment A     1  43   M 20JAN2024 01APR2024     Y    DOSE
+ Treatment A     1  43   M 20JAN2024 01APR2024     Y    DOSE
+ Treatment A     1  43   M 20JAN2024 01APR2024     Y    DOSE
+ Treatment A     1  43   M 20JAN2024 01APR2024     Y  TOTDUR
+ Treatment A     1  43   M 20JAN2024 01APR2024     Y AVGDOSE
+ Treatment A     1  43   M 20JAN2024 01APR2024     Y MAXDOSE
+ Treatment A     1  43   M 20JAN2024 01APR2024     Y CUMDOSE
+                          PARAM PARAMN        AVAL AVALU     ASTDT     AENDT
+                           Dose      1         100    mg 15JAN2024 28JAN2024
+                           Dose      1         100    mg 29JAN2024 11FEB2024
+                           Dose      1         150    mg 12FEB2024 10MAR2024
+                           Dose      1         150    mg 11MAR2024 15JUN2024
+ Total Exposure Duration (Days)      2         153  days         .         .
+             Average Daily Dose      3 140.8496732    mg         .         .
+                   Maximum Dose      4         150    mg         .         .
+                Cumulative Dose      5       21550    mg         .         .
+     Number of Dose Adjustments      6           1               .         .
+                           Dose      1           0    mg 18JAN2024 14FEB2024
+                           Dose      1           0    mg 15FEB2024 18JUN2024
+ Total Exposure Duration (Days)      2         153  days         .         .
+     Number of Dose Adjustments      6           0               .         .
+                           Dose      1         100    mg 20JAN2024 16FEB2024
+                           Dose      1         100    mg 17FEB2024 15MAR2024
+                           Dose      1          50    mg 16MAR2024 01APR2024
+ Total Exposure Duration (Days)      2          73  days         .         .
+             Average Daily Dose      3 88.35616438    mg         .         .
+                   Maximum Dose      4         100    mg         .         .
+                Cumulative Dose      5        6450    mg         .         .
+ ASTDY AENDY   AVISIT AVISITN DOSINTFL DOSEADFL EXDURN ASEQ DOSECAT
+     1    14 Week 1-2       1        N        N     14    1  Medium
+    15    28 Week 3-4       2        N        N     14    2  Medium
+    29    56 Week 5-8       3        N        Y     28    3    High
+    57   153  Week 9+       4        N        N     97    4    High
+     .     .                .                        .    5        
+     .     .                .                        .    6        
+     .     .                .                        .    7        
+     .     .                .                        .    8        
+     .     .                .                        .    9        
+     1    28 Week 1-4       1        N        N     28    1 Placebo
+    29   153  Week 5+       2        N        N    125    2 Placebo
+     .     .                .                        .    3        
+     .     .                .                        .    4        
+     1    28 Week 1-4       1        N        N     28    1  Medium
+    29    56 Week 5-8       2        N        N     28    2  Medium
+    57    73  Week 9+       3        N        Y     17    3     Low
+     .     .                .                        .    4        
+     .     .                .                        .    5        
+     .     .                .                        .    6        
+     .     .                .                        .    7        

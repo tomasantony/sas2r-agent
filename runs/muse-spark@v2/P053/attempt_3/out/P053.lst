@@ -1,0 +1,118 @@
+Frequency Tables for Baseline Shift (BNRIND * ANRIND) by TRTPN
+Data: advsmax2 (PARAMCD=DIABP, ATPTN=815, ANL01FL=Y, ADY>1, SAFFL=Y)
+
+TRTPN = 0 (N = 84)
+BNRIND             ANRIND              Frequency    Percent    Row Pct    Col Pct   ValueFmt
+High               Low                         0       0.00       0.00       0.00    0 (0.0)        0.0        0.0
+High               Normal                      2       2.38     100.00       2.99    2 (2.4)        2.4      100.0
+Low                Low                         6       7.14      85.71      35.29    6 (7.1)        7.1       85.7
+Low                Normal                      1       1.19      14.29       1.49    1 (1.2)        1.2       14.3
+Normal             Low                        11      13.10      14.67      64.71  11 (13.1)       13.1       14.7
+Normal             Normal                     64      76.19      85.33      95.52  64 (76.2)       76.2       85.3
+
+BNRIND one-way percents (TRTPN=0):
+  High Frequency=2 Percent=2.38 Percent1=2.4 Cumulative Frequency=2 Cumulative Percent=2.38 Cumulative Percent1=2.4
+  Low Frequency=7 Percent=8.33 Percent1=8.3 Cumulative Frequency=9 Cumulative Percent=10.71 Cumulative Percent1=10.7
+  Normal Frequency=75 Percent=89.29 Percent1=89.3 Cumulative Frequency=84 Cumulative Percent=100.00 Cumulative Percent1=100.0
+ANRIND one-way percents (TRTPN=0):
+  Low Frequency=17 Percent=20.24 Percent1=20.2 Cumulative Frequency=17 Cumulative Percent=20.24 Cumulative Percent1=20.2
+  Normal Frequency=67 Percent=79.76 Percent1=79.8 Cumulative Frequency=84 Cumulative Percent=100.00 Cumulative Percent1=100.0
+
+Chi-Square for TRTPN=0 BNRIND*ANRIND: Value=20.5405 DF=2 Prob=<.0001 Prob4=0.0000
+Fisher Exact for TRTPN=0 BNRIND*ANRIND: p=0.0003 p4=0.0003
+
+TRTPN = 54 (N = 84)
+BNRIND             ANRIND              Frequency    Percent    Row Pct    Col Pct   ValueFmt
+High               Low                         0       0.00       0.00       0.00    0 (0.0)        0.0        0.0
+High               Normal                      1       1.19     100.00       1.45    1 (1.2)        1.2      100.0
+Low                Low                         3       3.57      75.00      20.00    3 (3.6)        3.6       75.0
+Low                Normal                      1       1.19      25.00       1.45    1 (1.2)        1.2       25.0
+Normal             Low                        12      14.29      15.19      80.00  12 (14.3)       14.3       15.2
+Normal             Normal                     67      79.76      84.81      97.10  67 (79.8)       79.8       84.8
+
+BNRIND one-way percents (TRTPN=54):
+  High Frequency=1 Percent=1.19 Percent1=1.2 Cumulative Frequency=1 Cumulative Percent=1.19 Cumulative Percent1=1.2
+  Low Frequency=4 Percent=4.76 Percent1=4.8 Cumulative Frequency=5 Cumulative Percent=5.95 Cumulative Percent1=6.0
+  Normal Frequency=79 Percent=94.05 Percent1=94.0 Cumulative Frequency=84 Cumulative Percent=100.00 Cumulative Percent1=100.0
+ANRIND one-way percents (TRTPN=54):
+  Low Frequency=15 Percent=17.86 Percent1=17.9 Cumulative Frequency=15 Cumulative Percent=17.86 Cumulative Percent1=17.9
+  Normal Frequency=69 Percent=82.14 Percent1=82.1 Cumulative Frequency=84 Cumulative Percent=100.00 Cumulative Percent1=100.0
+
+Chi-Square for TRTPN=54 BNRIND*ANRIND: Value=9.5049 DF=2 Prob=0.0086 Prob4=0.0086
+Fisher Exact for TRTPN=54 BNRIND*ANRIND: p=0.0170 p4=0.0170
+
+TRTPN = 81 (N = 82)
+BNRIND             ANRIND              Frequency    Percent    Row Pct    Col Pct   ValueFmt
+High               Low                         0       0.00       0.00       0.00    0 (0.0)        0.0        0.0
+High               Normal                      1       1.22     100.00       1.41    1 (1.2)        1.2      100.0
+Low                Low                         6       7.32     100.00      54.55    6 (7.3)        7.3      100.0
+Low                Normal                      0       0.00       0.00       0.00    0 (0.0)        0.0        0.0
+Normal             Low                         5       6.10       6.67      45.45    5 (6.1)        6.1        6.7
+Normal             Normal                     70      85.37      93.33      98.59  70 (85.4)       85.4       93.3
+
+BNRIND one-way percents (TRTPN=81):
+  High Frequency=1 Percent=1.22 Percent1=1.2 Cumulative Frequency=1 Cumulative Percent=1.22 Cumulative Percent1=1.2
+  Low Frequency=6 Percent=7.32 Percent1=7.3 Cumulative Frequency=7 Cumulative Percent=8.54 Cumulative Percent1=8.5
+  Normal Frequency=75 Percent=91.46 Percent1=91.5 Cumulative Frequency=82 Cumulative Percent=100.00 Cumulative Percent1=100.0
+ANRIND one-way percents (TRTPN=81):
+  Low Frequency=11 Percent=13.41 Percent1=13.4 Cumulative Frequency=11 Cumulative Percent=13.41 Cumulative Percent1=13.4
+  Normal Frequency=71 Percent=86.59 Percent1=86.6 Cumulative Frequency=82 Cumulative Percent=100.00 Cumulative Percent1=100.0
+
+Chi-Square for TRTPN=81 BNRIND*ANRIND: Value=41.8224 DF=2 Prob=<.0001 Prob4=0.0000
+Fisher Exact for TRTPN=81 BNRIND*ANRIND: p=<.0001 p4=0.0000
+
+Summary Statistics for ANRLO ANRHI BASE AVAL by TRTPN (PROC SUMMARY NWAY)
+TRTPN      VAR             N         Mean        Mean1       StdDev      StdDev1          Min          Max       Median
+0          ANRLO          84        60.00         60.0         0.00          0.0        60.00        60.00        60.00
+54         ANRLO          84        60.00         60.0         0.00          0.0        60.00        60.00        60.00
+81         ANRLO          82        60.00         60.0         0.00          0.0        60.00        60.00        60.00
+OVERALL    ANRLO         250        60.00         60.0         0.00          0.0        60.00        60.00        60.00
+0          ANRHI          84        90.00         90.0         0.00          0.0        90.00        90.00        90.00
+54         ANRHI          84        90.00         90.0         0.00          0.0        90.00        90.00        90.00
+81         ANRHI          82        90.00         90.0         0.00          0.0        90.00        90.00        90.00
+OVERALL    ANRHI         250        90.00         90.0         0.00          0.0        90.00        90.00        90.00
+0          BASE           84        71.55         71.5        10.46         10.5        40.00        98.00        71.50
+54         BASE           84        71.11         71.1         8.32          8.3        56.00        94.00        70.00
+81         BASE           82        72.56         72.6         8.95          8.9        48.00        92.00        72.00
+OVERALL    BASE          250        71.73         71.7         9.27          9.3        40.00        98.00        71.00
+0          AVAL           84        65.24         65.2         8.88          8.9        41.00        90.00        67.50
+54         AVAL           84        66.89         66.9         9.18          9.2        42.00        88.00        68.00
+81         AVAL           82        67.12         67.1         9.25          9.3        45.00        90.00        67.50
+OVERALL    AVAL          250        66.41         66.4         9.11          9.1        41.00        90.00        68.00
+
+ADVSMAXSum overall: ANRLO=60.00 (60.0) ANRHI=90.00 (90.0) BASE mean=71.73 (71.7) AVAL mean=66.41 (66.4) MinValue=41.00 MaxValue=90.00 margin=0.4900 YAxisMin=40 YAxisMax=100
+
+Table of TRTPN by n (Treatment Emergent High subset)
+Data: advsmax3 (CRIT1FL non-missing; n=(mod(_n_,17)=1))
+TRTPN      n     Frequency    Percent    Row Pct    Col Pct
+0          0            79      31.60      94.05      33.62       31.6       94.0
+0          1             5       2.00       5.95      33.33        2.0        6.0
+54         0            79      31.60      94.05      33.62       31.6       94.0
+54         1             5       2.00       5.95      33.33        2.0        6.0
+81         0            77      30.80      93.90      32.77       30.8       93.9
+81         1             5       2.00       6.10      33.33        2.0        6.1
+
+Total N = 250 (100.00%) (100.0%)
+Row total TRTPN=0 : 84 (33.60%) (33.6%)
+Row total TRTPN=54 : 84 (33.60%) (33.6%)
+Row total TRTPN=81 : 82 (32.80%) (32.8%)
+Column total n=0 : 235 (94.00%) (94.0%)
+Column total n=1 : 15 (6.00%) (6.0%)
+
+Statistics for Table of TRTPN by n
+Chi-Square Value=0.0021 DF=2 Prob=0.9990 Prob4=0.9990
+Likelihood Ratio Value=0.0021 Prob=0.9990
+Fisher's Exact Test
+Cell (1,1) Frequency (F)          79
+Table Probability (P)         0.0560     0.0560
+Pr <= P (XP2_FISH)            1.0000     1.0000
+Two-sided p-value             1.0000     1.0000
+Left-sided Pr <= F = 1.0000 (1.0000)
+Right-sided Pr >= F = 1.0000 (1.0000)
+Sample Size = 250
+
+Treatment Emergent High summary
+TRTPN      Nx         n          percent    FishersP    
+0                  84          5      500.0     500.00       1.0000       1.0000
+54                 84          5      500.0     500.00                          
+81                 82          5      500.0     500.00                          

@@ -1,0 +1,81 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P046",
+ "provider": "gpt-oss-120b-ollama",
+ "model": "gpt-oss:120b",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T20:11:23",
+ "agent_commit": "54b8b9726c4dcbbd11954be09ec9c716e7539c90",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 1495,
+  "output_tokens": 2633,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 7.9
+ },
+ "inputs": {
+  "prompt_translate.md": "1bfbc0512a96eb82bfe535ac2c5e20c0fc9f8ecf5e66224a3c419642c02e222b"
+ },
+ "model_output": {
+  "response.md": "67003c701b187019380dbe3542cbb7530db516a8518e562f5c40a5e751bc2578",
+  "reasoning.md": "7f349bad59cf0464785ce570660ae259ca989876a724178bc89701eba9908cc5",
+  "script.R": "a3b52e61401c10678b783370ce6a31da747030b4ca670b135bc5e42a6891b00e"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 4.6,
+  "timed_out": false,
+  "log_sha256": "1bf0d63cbed21d7df874c598d7cecea187352a769d6c20ba5b50cb55ab7eb6cd"
+ },
+ "r_outputs": {
+  "P046.csv": "f86971542e19cac334a7823fb343fdadcc5d0f162037d70754f4eccff5c64f2d",
+  "P046.lst": "4270f93777368e7757d0f824540a0697e4ef5b0509ebe7a8866db45dbf0162e2",
+  "P046_anova.csv": "7e85d7498f2e032038589a3068cba3db69e6d8c1eea57fbb4add965d62831a0a",
+  "P046_coefficients.csv": "aead8f67221782049db1180f96caf5552e1be52fe566259689ee3dd745ce2ea9",
+  "P046_fitstats.csv": "3ecf04f6301efbd2333a10dd49bbc57a2994f0b9c0ae23235e5ab8aa93f69735",
+  "regout.csv": "ce62602e94fb594b5176f50169e30882b93e4f0bcb463171cfac53a7ed75ac5b",
+  "sgplot.png": "5a28132d75715a525778bf0d8afa6b287e26af76c1982ea8bf2b88df7cdeea27",
+  "sgplot1.png": "593e18ec314aff1f516c2a4108e9d94139e1b5033091aabf0ecdcf2da1441cfa",
+  "sgplot_data.csv": "e80cc8cb8e996bfb232b42933c01206c231fe9507abe94ace8ce9b650999cf44"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P046.lst",
+   "sha256": "7ebfc1a7322471cdc03bd231b1aa1de3905930aec02d3647f1c71c3478b4c52b",
+   "frozen_sha256": "7ebfc1a7322471cdc03bd231b1aa1de3905930aec02d3647f1c71c3478b4c52b",
+   "ok": true
+  },
+  {
+   "file": "datasets/P046/SGPlot.png",
+   "sha256": "8fb37c21f46e31f2ac07681e2428db61dc42b8ff986dc9df31e0f10be4e51f63",
+   "frozen_sha256": "8fb37c21f46e31f2ac07681e2428db61dc42b8ff986dc9df31e0f10be4e51f63",
+   "ok": true
+  },
+  {
+   "file": "datasets/P046/SGPlot1.png",
+   "sha256": "1ce964a39384da1cc7cdbdbc375365cee65a7e9129d080e0a816e0520f0faca2",
+   "frozen_sha256": "1ce964a39384da1cc7cdbdbc375365cee65a7e9129d080e0a816e0520f0faca2",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.8735632183908045,
+  "produced_all": true
+ }
+}

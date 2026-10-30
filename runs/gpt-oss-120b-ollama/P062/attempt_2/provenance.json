@@ -1,0 +1,72 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P062",
+ "provider": "gpt-oss-120b-ollama",
+ "model": "gpt-oss:120b",
+ "attempt": 2,
+ "recorded_at": "2026-10-29T20:17:50",
+ "agent_commit": "54b8b9726c4dcbbd11954be09ec9c716e7539c90",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 8077,
+  "output_tokens": 2711,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 4.7
+ },
+ "inputs": {
+  "prompt_translate.md": "839392a022d66b110d69dd95deffc4fadfbd046aeac4b2a7bc8ac1465ad7a809"
+ },
+ "model_output": {
+  "response.md": "8bd73cb185dc41820db6d5d064c194ec65ab8a6bf00bf5accae04e820c3af65e",
+  "reasoning.md": "5262d04bd067a85df54c24a04a12d0a97491b83117043c9dc0d2d855eff755c6",
+  "script.R": "432148dbb69245760c38347034d1e07c7bb105aec5dc2d277440151ffbc8ca9a"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.8,
+  "timed_out": false,
+  "log_sha256": "1da6ea374ac63a6bb6decdf9ab82462899675203e9f00487b1e007d7569eaad0"
+ },
+ "r_outputs": {
+  "diag_style_1.csv": "82007f1466b2dabadf4f0a9234c28f9e3b81ad3de2fd4dfe1e3e0967a218b4cc",
+  "diag_style_2.csv": "6408c5d7a248d66b23b78e1543df2ecc9727823f8b90a0f86b1aba8011711939",
+  "diagram_box_1.csv": "a55ebd8aaf7b05e4f1ec9aa7f2277868672ac31945ef3decf8f5876f42340de1",
+  "diagram_box_2.csv": "48964d73b26c1eec3a1a38d3c28556dd52903a4ac7b2ec9af1f4df66892afcd8",
+  "diagram_box_text_1.csv": "6d40020bd404ca7eaf52b071ca581a0683f3829b0902411e5722378a904ed5d5",
+  "diagram_box_text_2.csv": "2e8b566f659538618e713a8b266654c2f5bfe1554dde9a45567a11f447828202",
+  "diagram_line_1.csv": "52083aae74507cb3d41b7971934919a68813a8553e0f3b4d124396f662176f2c",
+  "line_style_1.csv": "1f0d4874d4168034b86e41240ec645044ca2855b2905dc8750d955c1280cc92d",
+  "plot_diag.csv": "0bd37694d06de62c3161d590b67b0d63a81b0150ac47f2714524e4a83d1d01cc",
+  "plot_diag_attr.csv": "221f845ccf46008cf074cc075632afee5323a7182011128c034faa6f4fc4a22a",
+  "SGPlot.png": "4eff99ab9d6905f03ac7c965ae33f54db2ea5879e2462c1ec99d4929b149cabd",
+  "sgplot_data.csv": "2b1e1b72a25b83eca7451cc5e5f492d92b9e9a561c1c2f205fad0906f0e3c22a"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P062/SGPlot.png",
+   "sha256": "8c5dcd668d358e58b3c6901d90c2f72907b7ad4947f6ac6f8196b5b03bfd8d9c",
+   "frozen_sha256": "8c5dcd668d358e58b3c6901d90c2f72907b7ad4947f6ac6f8196b5b03bfd8d9c",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

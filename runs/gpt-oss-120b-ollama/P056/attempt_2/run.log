@@ -1,0 +1,36 @@
+sandbox: docker run --rm --name sas2r-8eaebd615a08 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\gpt-oss-120b-ollama\P056\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error in `mutate()`:
+ℹ In argument: `nvalue1c = ifelse(row_number() == 1,
+  fmt_pvalue(nvalue1), "")`.
+ℹ In group 1: `PARAM = "Diastolic Blood Pressure (mmHg)"`, `tefl = "High"`,
+  `nvalue1 = 0.4661817`.
+Caused by error in `if (is.na(p)) ...`:
+! the condition has length > 1
+Backtrace:
+     ▆
+  1. ├─... %>% ungroup()
+  2. ├─dplyr::ungroup(.)
+  3. ├─dplyr::mutate(...)
+  4. ├─dplyr:::mutate.data.frame(...)
+  5. │ └─dplyr:::mutate_cols(.data, dplyr_quosures(...), by)
+  6. │   ├─base::withCallingHandlers(...)
+  7. │   └─dplyr:::mutate_col(dots[[i]], data, mask, new_columns)
+  8. │     └─mask$eval_all_mutate(quo)
+  9. │       └─dplyr (local) eval()
+ 10. ├─base::ifelse(row_number() == 1, fmt_pvalue(nvalue1), "")
+ 11. ├─global fmt_pvalue(nvalue1)
+ 12. └─base::.handleSimpleError(...)
+ 13.   └─dplyr (local) h(simpleError(msg, call))
+ 14.     └─rlang::abort(message, class = error_class, parent = parent, call = error_call)
+Execution halted

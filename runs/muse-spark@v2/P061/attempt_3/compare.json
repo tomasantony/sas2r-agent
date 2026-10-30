@@ -1,0 +1,198 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P061.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 36884,
+    "found": 36884,
+    "r_files": [
+     "adam_adsl.csv",
+     "adam_adtte.csv",
+     "P061.csv",
+     "P061.lst.csv",
+     "P061.lst.txt",
+     "P061.txt",
+     "P061_contents.csv",
+     "P061_f_oncology_graphs.csv",
+     "P061_f_oncology_graphs.pdf.txt",
+     "P061_f_oncology_graphs.txt",
+     "P061_km.csv",
+     "P061_t_oncology_report.csv",
+     "P061_t_oncology_report.pdf.txt",
+     "P061_t_oncology_report.txt",
+     "sasgraph.csv",
+     "sgplot.csv",
+     "sgplot1.csv",
+     "sgplot2.csv",
+     "sgplot3.csv",
+     "sgplot4.csv",
+     "sgplot5.csv",
+     "sgplot6.csv"
+    ],
+    "missing_examples": []
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "sasgraph.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@v2\\P061\\attempt_3\\out\\sasgraph.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@v2\\P061\\attempt_3\\out\\sgplot.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot1.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@v2\\P061\\attempt_3\\out\\sgplot1.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot2.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@v2\\P061\\attempt_3\\out\\sgplot2.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot3.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@v2\\P061\\attempt_3\\out\\sgplot3.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot4.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@v2\\P061\\attempt_3\\out\\sgplot4.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot5.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@v2\\P061\\attempt_3\\out\\sgplot5.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot6.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@v2\\P061\\attempt_3\\out\\sgplot6.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "P061_t_oncology_report.pdf",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 9146,
+    "found": 9146,
+    "r_files": [
+     "adam_adsl.csv",
+     "adam_adtte.csv",
+     "P061.csv",
+     "P061.lst.csv",
+     "P061.lst.txt",
+     "P061.txt",
+     "P061_contents.csv",
+     "P061_f_oncology_graphs.csv",
+     "P061_f_oncology_graphs.pdf.txt",
+     "P061_f_oncology_graphs.txt",
+     "P061_km.csv",
+     "P061_t_oncology_report.csv",
+     "P061_t_oncology_report.pdf.txt",
+     "P061_t_oncology_report.txt",
+     "sasgraph.csv",
+     "sgplot.csv",
+     "sgplot1.csv",
+     "sgplot2.csv",
+     "sgplot3.csv",
+     "sgplot4.csv",
+     "sgplot5.csv",
+     "sgplot6.csv"
+    ],
+    "missing_examples": []
+   }
+  },
+  {
+   "kind": "text",
+   "name": "P061_f_oncology_graphs.pdf",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 9134,
+    "found": 9134,
+    "r_files": [
+     "adam_adsl.csv",
+     "adam_adtte.csv",
+     "P061.csv",
+     "P061.lst.csv",
+     "P061.lst.txt",
+     "P061.txt",
+     "P061_contents.csv",
+     "P061_f_oncology_graphs.csv",
+     "P061_f_oncology_graphs.pdf.txt",
+     "P061_f_oncology_graphs.txt",
+     "P061_km.csv",
+     "P061_t_oncology_report.csv",
+     "P061_t_oncology_report.pdf.txt",
+     "P061_t_oncology_report.txt",
+     "sasgraph.csv",
+     "sgplot.csv",
+     "sgplot1.csv",
+     "sgplot2.csv",
+     "sgplot3.csv",
+     "sgplot4.csv",
+     "sgplot5.csv",
+     "sgplot6.csv"
+    ],
+    "missing_examples": []
+   }
+  }
+ ]
+}

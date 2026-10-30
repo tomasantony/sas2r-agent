@@ -1,0 +1,71 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P092",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T20:24:18",
+ "agent_commit": "54b8b9726c4dcbbd11954be09ec9c716e7539c90",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 1598,
+  "output_tokens": 5628,
+  "reasoning_tokens": 3254,
+  "finish_reason": "stop",
+  "seconds": 15.4
+ },
+ "inputs": {
+  "prompt_translate.md": "a557a7fa6fca8ad0620b3e8cdff0c7ee5e0432441f353f73c5cfff917e443bb5"
+ },
+ "model_output": {
+  "response.md": "339c1fa8cd5b1d9ec820abcb0b9d2fdc8a5d82dcaac6f9b6e88c5ec286bec533",
+  "reasoning.md": "86afeae310246e713fdb8e4ab48517277a49663eb40305e2384eb388572ad932",
+  "script.R": "a177331f97b195d2b509896264a7273fc17cf7f04925acabe0efcf0921395faa"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.7,
+  "timed_out": false,
+  "log_sha256": "ba32368d2959d74a3a8157ce151e072952dc8117014dd0473bb4df0a6dc49bdd"
+ },
+ "r_outputs": {
+  "sct1.csv": "319bb058ecd628f229701bf9323c3b6e691904b4322705fcdf5c233727a333d7",
+  "sct1.htm": "8b4579a85958a85d407ffc1a5b6e5f99074b57cff84006cec85414ff0fa3a7ad",
+  "sct1.png": "6d1dc1e538f70fef2bba36c5dcbe5571879945f63da2b84d4e17cbbf2b1e0cd8",
+  "sct1.txt": "88b08b14df33701d42be772fe1ea6f53bbe46e64d2c630f84067ccb8e9931a57",
+  "sct1_plotdata.csv": "9337b409a4b0e153d81a845a552e14736bc569f038bccd13d11f2379fd200354"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P092/sct1.htm",
+   "sha256": "866421b6084be29e14636b9ef34fbd7702c8fe52d1501533f17ae49483862742",
+   "frozen_sha256": "866421b6084be29e14636b9ef34fbd7702c8fe52d1501533f17ae49483862742",
+   "ok": true
+  },
+  {
+   "file": "datasets/P092/sct1.png",
+   "sha256": "b34b0b45f9c319489e944612b25e10091713d5058231f39b4de7c7332f9034bc",
+   "frozen_sha256": "b34b0b45f9c319489e944612b25e10091713d5058231f39b4de7c7332f9034bc",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

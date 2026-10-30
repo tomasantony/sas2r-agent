@@ -1,0 +1,3 @@
+sandbox: docker run --rm --name sas2r-dca36330d6c6 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\claude-opus-5-5\P068\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Big N: Drug X High Dose=63; Drug X Low Dose=82; Placebo=95 Total= 240 
+NOTE: t_ae_soc_pt completed successfully. Rows: 17 

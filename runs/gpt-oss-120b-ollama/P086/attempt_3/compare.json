@@ -1,0 +1,115 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.318484383000512,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P086.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.22939068100358423,
+   "detail": {
+    "recall": 0.22939068100358423,
+    "expected": 279,
+    "found": 64,
+    "r_files": [
+     "adrs.csv",
+     "adsl.csv"
+    ],
+    "missing_examples": [
+     "18",
+     "22",
+     "9",
+     "0",
+     "10",
+     "27",
+     "2026",
+     "15",
+     "59",
+     "1",
+     "824",
+     "64"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adrs",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\gpt-oss-120b-ollama\\P086\\attempt_3\\out\\adrs.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 9,
+    "rows_r": 9,
+    "cols_sas": 4,
+    "cols_r": 4,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adsl",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\gpt-oss-120b-ollama\\P086\\attempt_3\\out\\adsl.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 6,
+    "rows_r": 6,
+    "cols_sas": 15,
+    "cols_r": 15,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adtte",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "adtte.csv"
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adtte_os",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "adtte_os.csv"
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adtte_pfs",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "adtte_pfs.csv"
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adtte_ttr",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "adtte_ttr.csv"
+   }
+  }
+ ]
+}

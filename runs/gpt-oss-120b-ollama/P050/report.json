@@ -1,0 +1,54 @@
+{
+ "id": "P050",
+ "provider": "gpt-oss-120b-ollama",
+ "model": "gpt-oss:120b",
+ "family": "phuse",
+ "translated": true,
+ "runs": false,
+ "produced_all": false,
+ "equivalent": false,
+ "best_score": 0.0,
+ "iterations": 3,
+ "input_tokens": 11302,
+ "output_tokens": 6557,
+ "seconds": 21.424978494644165,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 1,
+   "seconds_r": 1.2700111865997314,
+   "input_tokens": 2100,
+   "output_tokens": 3285,
+   "seconds_llm": 8.945250988006592,
+   "produced_all": false,
+   "equivalent": false,
+   "score": 0.0,
+   "note": ""
+  },
+  {
+   "n": 2,
+   "rc": 1,
+   "seconds_r": 1.4447834491729736,
+   "input_tokens": 3919,
+   "output_tokens": 1634,
+   "seconds_llm": 4.03784441947937,
+   "produced_all": false,
+   "equivalent": false,
+   "score": 0.0,
+   "note": ""
+  },
+  {
+   "n": 3,
+   "rc": 1,
+   "seconds_r": 1.4085071086883545,
+   "input_tokens": 5283,
+   "output_tokens": 1638,
+   "seconds_llm": 3.9400124549865723,
+   "produced_all": false,
+   "equivalent": false,
+   "score": 0.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 1
+}

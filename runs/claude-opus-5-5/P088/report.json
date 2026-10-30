@@ -1,0 +1,30 @@
+{
+ "id": "P088",
+ "provider": "claude-opus-5-5",
+ "model": "claude-opus-5-5",
+ "family": "own-adam",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 0.9914201183431952,
+ "iterations": 1,
+ "input_tokens": 11936,
+ "output_tokens": 8865,
+ "seconds": 69.1647355556488,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 1.4048349857330322,
+   "input_tokens": 11936,
+   "output_tokens": 8865,
+   "seconds_llm": 67.60573482513428,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 0.9914201183431952,
+   "note": ""
+  }
+ ],
+ "best_attempt": 1
+}

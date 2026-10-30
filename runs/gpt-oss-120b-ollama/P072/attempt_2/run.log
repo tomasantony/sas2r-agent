@@ -1,0 +1,15 @@
+sandbox: docker run --rm --name sas2r-afbb66963d7a --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\gpt-oss-120b-ollama\P072\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error in if (is.na(x)) return("") : the condition has length > 1
+Calls: cont_stats ... list2 -> tibble -> tibble_quos -> eval_tidy -> fmt_num
+Execution halted

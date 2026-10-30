@@ -1,0 +1,143 @@
+Program: P083_adsl.sas
+Purpose: Create ADSL (Subject-Level Analysis Dataset) - CDISC ADaM IG 1.3
+Output generated: 2026-10-30
+
+========================================================================================================================
+PROC CONTENTS DATA=ADSL VARNUM
+========================================================================================================================
+
+#      Variable     Label                                    Type   Format     Len
+------------------------------------------------------------------------------------------------------------------------
+1      STUDYID      Study Identifier                         Char              7
+2      USUBJID      Unique Subject Identifier                Char              12
+3      SUBJID       Subject Identifier for the Study         Char              4
+4      SITEID       Study Site Identifier                    Char              3
+5      SEX          Sex                                      Char              1
+6      RACE         Race                                     Char              25
+7      ETHNIC       Ethnicity                                Char              18
+8      ARMCD        Planned Arm Code                         Char              3
+9      ARM          Description of Planned Arm               Char              11
+10     COUNTRY      Country                                  Char              3
+11     BRTHDTC                                               Char              10
+12     RFICDTC                                               Char              10
+13     RFSTDTC                                               Char              10
+14     RFENDTC                                               Char              10
+15     RFXSTDTC                                              Char              10
+16     RFXENDTC                                              Char              10
+17     AGE          Age                                      Num               8
+18     TRTSDT       Date of First Exposure to Treatment      Num    DATE9.     8
+19     TRTEDT       Date of Last Exposure to Treatment       Num    DATE9.     8
+20     RANDDT       Date of Randomization                    Num    DATE9.     8
+21     TRTP         Planned Treatment                        Char              11
+22     TRTPN        Planned Treatment (N)                    Num               8
+23     TRTA         Actual Treatment                         Char              11
+24     TRTAN        Actual Treatment (N)                     Num               8
+25     AGEGR1       Age Group 1                              Char              4
+26     AGEGR1N      Age Group 1 (N)                          Num               8
+27     RACEN        Race (N)                                 Num               8
+28     SEXN         Sex (N)                                  Num               8
+29     SAFFL        Safety Population Flag                   Char              1
+30     ITTFL        Intent-to-Treat Population Flag          Char              1
+31     EFFFL        Efficacy Population Flag                 Char              1
+32     COMPLFL      Completers Population Flag               Char              1
+33     DCSREAS      Reason for Discontinuation               Char              13
+34     EOSSTT       End of Study Status                      Char              12
+35     TRTDURD      Total Treatment Duration (Days)          Num               8
+
+Number of variables: 35
+Number of observations: 6
+
+========================================================================================================================
+PROC PRINT DATA=ADSL (OBS=10) NOOBS
+========================================================================================================================
+
+USUBJID        SUBJID SITE SEX RACE                         AGE      AGEGR1       TRTP         TRTA         TRTPN    SEXN   RACEN  TRTDURD EOSSTT   TRTSDT       TRTEDT      
+------------------------------------------------------------------------------------------------------------------------------------------------------
+STUDY01-1001   1001   101  M   WHITE                        59       <65          Treatment A  Treatment A  1        1      1      153    COMPLETED 15JAN2024    15JUN2024   
+STUDY01-1002   1002   101  F   BLACK OR AFRICAN AMERICAN    45       <65          Placebo      Placebo      2        2      2      153    COMPLETED 18JAN2024    18JUN2024   
+STUDY01-1003   1003   102  M   ASIAN                        43       <65          Treatment A  Treatment A  1        1      3      73     DISCONTINUED 20JAN2024    01APR2024   
+STUDY01-1004   1004   102  F   WHITE                        51       <65          Treatment A  Treatment A  1        2      1      153    COMPLETED 25JAN2024    25JUN2024   
+STUDY01-1005   1005   103  M   ASIAN                        36       <65          Placebo      Placebo      2        1      3             ONGOING  28JAN2024                
+STUDY01-1006   1006   103  F   WHITE                        68       >=65         Treatment A  Treatment A  1        2      1      154    COMPLETED 30JAN2024    01JUL2024   
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+Detailed Listing - All ADSL Variables
+========================================================================================================================
+
+Observation 1: STUDY01-1001
+  STUDYID=STUDY01  USUBJID=STUDY01-1001  SUBJID=1001  SITEID=101  COUNTRY=USA
+  SEX=M (N=1)  RACE=WHITE (N=1)  ETHNIC=NOT HISPANIC
+  AGE=59  AGEGR1=<65 (N=1)
+  ARM=Treatment A  ARMCD=TRT  TRTP=Treatment A (N=1)  TRTA=Treatment A (N=1)
+  BRTHDTC=1965-03-15  RFICDTC=2024-01-10  RFSTDTC=2024-01-15  RFENDTC=2024-06-15
+  RFXSTDTC=2024-01-15  RFXENDTC=2024-06-15  TRTSDT=15JAN2024  TRTEDT=15JUN2024  RANDDT=15JAN2024
+  TRTDURD=153  SAFFL=Y  ITTFL=Y  EFFFL=Y  COMPLFL=Y
+  EOSSTT=COMPLETED  DCSREAS=(none)
+
+Observation 2: STUDY01-1002
+  STUDYID=STUDY01  USUBJID=STUDY01-1002  SUBJID=1002  SITEID=101  COUNTRY=USA
+  SEX=F (N=2)  RACE=BLACK OR AFRICAN AMERICAN (N=2)  ETHNIC=NOT HISPANIC
+  AGE=45  AGEGR1=<65 (N=1)
+  ARM=Placebo  ARMCD=PBO  TRTP=Placebo (N=2)  TRTA=Placebo (N=2)
+  BRTHDTC=1978-08-22  RFICDTC=2024-01-12  RFSTDTC=2024-01-18  RFENDTC=2024-06-18
+  RFXSTDTC=2024-01-18  RFXENDTC=2024-06-18  TRTSDT=18JAN2024  TRTEDT=18JUN2024  RANDDT=18JAN2024
+  TRTDURD=153  SAFFL=Y  ITTFL=Y  EFFFL=Y  COMPLFL=Y
+  EOSSTT=COMPLETED  DCSREAS=(none)
+
+Observation 3: STUDY01-1003
+  STUDYID=STUDY01  USUBJID=STUDY01-1003  SUBJID=1003  SITEID=102  COUNTRY=USA
+  SEX=M (N=1)  RACE=ASIAN (N=3)  ETHNIC=HISPANIC OR LATINO
+  AGE=43  AGEGR1=<65 (N=1)
+  ARM=Treatment A  ARMCD=TRT  TRTP=Treatment A (N=1)  TRTA=Treatment A (N=1)
+  BRTHDTC=1980-11-01  RFICDTC=2024-01-15  RFSTDTC=2024-01-20  RFENDTC=2024-04-01
+  RFXSTDTC=2024-01-20  RFXENDTC=2024-04-01  TRTSDT=20JAN2024  TRTEDT=01APR2024  RANDDT=20JAN2024
+  TRTDURD=73  SAFFL=Y  ITTFL=Y  EFFFL=Y  COMPLFL=N
+  EOSSTT=DISCONTINUED  DCSREAS=ADVERSE EVENT
+
+Observation 4: STUDY01-1004
+  STUDYID=STUDY01  USUBJID=STUDY01-1004  SUBJID=1004  SITEID=102  COUNTRY=USA
+  SEX=F (N=2)  RACE=WHITE (N=1)  ETHNIC=NOT HISPANIC
+  AGE=51  AGEGR1=<65 (N=1)
+  ARM=Treatment A  ARMCD=TRT  TRTP=Treatment A (N=1)  TRTA=Treatment A (N=1)
+  BRTHDTC=1972-06-30  RFICDTC=2024-01-18  RFSTDTC=2024-01-25  RFENDTC=2024-06-25
+  RFXSTDTC=2024-01-25  RFXENDTC=2024-06-25  TRTSDT=25JAN2024  TRTEDT=25JUN2024  RANDDT=25JAN2024
+  TRTDURD=153  SAFFL=Y  ITTFL=Y  EFFFL=Y  COMPLFL=Y
+  EOSSTT=COMPLETED  DCSREAS=(none)
+
+Observation 5: STUDY01-1005
+  STUDYID=STUDY01  USUBJID=STUDY01-1005  SUBJID=1005  SITEID=103  COUNTRY=USA
+  SEX=M (N=1)  RACE=ASIAN (N=3)  ETHNIC=NOT HISPANIC
+  AGE=36  AGEGR1=<65 (N=1)
+  ARM=Placebo  ARMCD=PBO  TRTP=Placebo (N=2)  TRTA=Placebo (N=2)
+  BRTHDTC=1988-02-14  RFICDTC=2024-01-20  RFSTDTC=2024-01-28  RFENDTC=.
+  RFXSTDTC=2024-01-28  RFXENDTC=.  TRTSDT=28JAN2024  TRTEDT=  RANDDT=28JAN2024
+  TRTDURD=  SAFFL=Y  ITTFL=Y  EFFFL=Y  COMPLFL=N
+  EOSSTT=ONGOING  DCSREAS=(none)
+
+Observation 6: STUDY01-1006
+  STUDYID=STUDY01  USUBJID=STUDY01-1006  SUBJID=1006  SITEID=103  COUNTRY=USA
+  SEX=F (N=2)  RACE=WHITE (N=1)  ETHNIC=HISPANIC OR LATINO
+  AGE=68  AGEGR1=>=65 (N=2)
+  ARM=Treatment A  ARMCD=TRT  TRTP=Treatment A (N=1)  TRTA=Treatment A (N=1)
+  BRTHDTC=1955-12-05  RFICDTC=2024-01-22  RFSTDTC=2024-01-30  RFENDTC=2024-07-01
+  RFXSTDTC=2024-01-30  RFXENDTC=2024-07-01  TRTSDT=30JAN2024  TRTEDT=01JUL2024  RANDDT=30JAN2024
+  TRTDURD=154  SAFFL=Y  ITTFL=Y  EFFFL=Y  COMPLFL=Y
+  EOSSTT=COMPLETED  DCSREAS=(none)
+
+========================================================================================================================
+Summary Statistics
+========================================================================================================================
+
+Total subjects: 6
+Treatment A (TRT) planned: 4 (66.7%)
+Placebo (PBO) planned: 2 (33.3%)
+Male: 3 (50.0%)  Female: 3 (50.0%)
+Age <65: 5 (83.3%)  Age >=65: 1 (16.7%)
+Mean Age: 50.3  Min: 36  Max: 68  Median: 48.0
+White: 3  Black or African American: 1  Asian: 2
+Completed: 4  Discontinued: 1  Ongoing: 1
+Completers (COMPLFL=Y): 4  Non-completers: 2
+Mean TRTDURD (days): 137.2  Min: 73  Max: 154
+
+End of Report

@@ -1,0 +1,43 @@
+The Round-To-Even Function
+
+Comparison of ROUND and ROUNDE (Round-To-Even) Functions
+-------------------------------------------------------
+
+x          Round(x)     RoundE(x)   
+---------- ----------   ----------  
+0          0            0           
+0.25       0            0           
+0.5        1            0           
+0.75       1            1           
+1          1            1           
+1.25       1            1           
+1.5        2            2           
+1.75       2            2           
+2          2            2           
+2.25       2            2           
+2.5        3            2           
+2.75       3            3           
+3          3            3           
+3.25       3            3           
+3.5        4            4           
+
+
+Comparison of estimates that use full data and rounded data
+PROC MEANS data=Round sum mean ndec=3;
+Label Length="True values" Round="Rounded values" RoundEven="Round-to-even values";
+
+Variable                  N          Sum         Mean
+-------------------- ------ ------------ ------------
+Length (True values)    425      429.530        1.011
+Round (Rounded values)    425      432.800        1.018
+RoundEven (Round-to-even values)    425      427.900        1.007
+
+
+Proportion rounded up
+PROC MEANS data=Round mean ndec=3;
+
+Variable                                      N         Mean
+---------------------------------------- ------ ------------
+Proportion rounded up for ROUND             425        0.548
+Proportion rounded up for ROUNDE            425        0.433
+

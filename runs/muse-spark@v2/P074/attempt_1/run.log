@@ -1,0 +1,69 @@
+sandbox: docker run --rm --name sas2r-74c69139e92e --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P074\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+NOTE: adsl_file= /bench/data/raw/own-synthetic/adam/adsl.sas7bdat 
+NOTE: adlb_file= /bench/data/raw/own-synthetic/adam/adlb.sas7bdat 
+NOTE: ADSL rows= 240  cols= STUDYID,USUBJID,SUBJID,SITEID,COUNTRY,REGION1,SEX,RACE,ETHNIC,AGEGR1,AGEU,ARM,ARMCD,TRT01P,TRT01A,TRTP,TRTA,SAFFL,ITTFL,EFFFL,RANDFL,PPROTFL,COMPLFL,DTHFL,EOSSTT,DCSREAS,DTHCAUS,AGE,AGEGR1N,RACEN,ETHNICN,HEIGHTBL,WEIGHTBL,BMIBL,ECOGBL,TRT01PN,TRTPN,TRT01AN,TRTAN,RANDDT,TRTSDT,TRTEDT,TRTDUR,DTHDT 
+NOTE: ADLB rows= 7552  cols= STUDYID,USUBJID,TRTP,TRTA,SAFFL,EFFFL,TRTPN,TRTAN,TRTSDT,TRTEDT,PARAMCD,PARAM,AVISIT,ABLFL,ANL01FL,ANRIND,BNRIND,SHIFT1,AVALU,ATOXGR,BTOXGR,PARAMN,AVISITN,ADT,ADY,AVAL,BASE,CHG,PCHG,ANRLO,ANRHI,ATOXGRN,BTOXGRN 
+NOTE: Big N
+# A tibble: 3 × 2
+  TRTA              bign
+  <chr>            <int>
+1 Drug X High Dose    63
+2 Drug X Low Dose     82
+3 Placebo             95
+NOTE: Total N= 240 
+NOTE: trt_map
+# A tibble: 3 × 2
+  TRTA             TRTAN
+  <chr>            <dbl>
+1 Placebo              1
+2 Drug X Low Dose      2
+3 Drug X High Dose     3
+NOTE: lb rows= 7552 
+NOTE: bl_grade rows= 1920 
+NOTE: worst_grade2 rows= 1896 
+NOTE: shift rows= 1896 
+NOTE: shift_cnt rows= 97 
+NOTE: report rows= 120 
+   TRTAN    TRTA PARAMCD                            PARAM bl_grade bl_label wg0
+1      1 Placebo     ALT   Alanine Aminotransferase (U/L)        0   Normal  79
+2      1 Placebo     ALT   Alanine Aminotransferase (U/L)        1  Grade 1   0
+3      1 Placebo     ALT   Alanine Aminotransferase (U/L)        2  Grade 2   0
+4      1 Placebo     ALT   Alanine Aminotransferase (U/L)        3  Grade 3   0
+5      1 Placebo     ALT   Alanine Aminotransferase (U/L)        4  Grade 4   0
+6      1 Placebo     AST Aspartate Aminotransferase (U/L)        0   Normal  79
+7      1 Placebo     AST Aspartate Aminotransferase (U/L)        1  Grade 1   5
+8      1 Placebo     AST Aspartate Aminotransferase (U/L)        2  Grade 2   0
+9      1 Placebo     AST Aspartate Aminotransferase (U/L)        3  Grade 3   0
+10     1 Placebo     AST Aspartate Aminotransferase (U/L)        4  Grade 4   0
+11     1 Placebo    BILI               Bilirubin (umol/L)        0   Normal  88
+12     1 Placebo    BILI               Bilirubin (umol/L)        1  Grade 1   0
+13     1 Placebo    BILI               Bilirubin (umol/L)        2  Grade 2   0
+14     1 Placebo    BILI               Bilirubin (umol/L)        3  Grade 3   0
+15     1 Placebo    BILI               Bilirubin (umol/L)        4  Grade 4   0
+16     1 Placebo   CREAT              Creatinine (umol/L)        0   Normal  84
+17     1 Placebo   CREAT              Creatinine (umol/L)        1  Grade 1   1
+18     1 Placebo   CREAT              Creatinine (umol/L)        2  Grade 2   0
+19     1 Placebo   CREAT              Creatinine (umol/L)        3  Grade 3   0
+20     1 Placebo   CREAT              Creatinine (umol/L)        4  Grade 4   0
+   wg1 wg2 wg3 wg4 total
+1   12   1   0   0    92
+2    1   0   0   0     1
+3    0   0   0   0     0
+4    0   0   0   0     0
+5    0   0   0   0     0
+6    6   1   0   0    86
+7    1   0   0   0     6
+8    1   0   0   0     1
+9    0   0   0   0     0
+10   0   0   0   0     0
+11   2   0   0   0    90
+12   3   0   0   0     3
+13   0   0   0   0     0
+14   0   0   0   0     0
+15   0   0   0   0     0
+16   8   0   0   0    92
+17   0   0   0   0     1
+18   0   0   0   0     0
+19   0   0   0   0     0
+20   0   0   0   0     0
+NOTE: t_lb_shift completed successfully.

@@ -1,0 +1,26 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.9762641898864809,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "t_lb_shift.rtf",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9762641898864809,
+   "detail": {
+    "recall": 0.9762641898864809,
+    "expected": 969,
+    "found": 946,
+    "r_files": [
+     "t_lb_shift.csv",
+     "t_lb_shift.txt"
+    ],
+    "missing_examples": [
+     "14.3"
+    ]
+   }
+  }
+ ]
+}

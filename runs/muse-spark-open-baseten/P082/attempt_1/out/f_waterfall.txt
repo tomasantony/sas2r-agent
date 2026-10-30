@@ -1,0 +1,15 @@
+Figure 14.2.3
+Waterfall Plot of Best Percentage Change from Baseline in Sum of Target Lesions
+Efficacy Analysis Set
+
+N subjects plotted: 222
+
+Reference lines: -30% (PR threshold) dashed blue, +20% (PD threshold) dashed red, 0 solid black
+Y-axis: -100 to 100 by 20, X-axis: subjects sorted by PCHG (bar_order)
+
+Legend: Best Overall Response (AVALC) with colors: CR=darkgreen, PR=green, SD=gold, PD=red, other=gray
+
+Data cutoff: [DDMONYYYY]
+Each bar represents one subject.
+CR=Complete Response, PR=Partial Response, SD=Stable Disease, PD=Progressive Disease
+Dashed lines: RECIST 1.1 thresholds for PR (-30%) and PD (+20%)

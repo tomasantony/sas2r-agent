@@ -1,0 +1,53 @@
+The CONTENTS Procedure
+
+Data Set Name  WORK.ADTTE
+Observations   18
+Variables      22
+
+Variables in Creation Order
+
+   #  Variable   Type 
+   1  STUDYID    Char 
+   2  USUBJID    Char 
+   3  TRTP       Char 
+   4  TRTPN      Num  
+   5  AGE        Num  
+   6  AGEGR1     Char 
+   7  SEX        Char 
+   8  RACE       Char 
+   9  SAFFL      Char 
+  10  ITTFL      Char 
+  11  PARAMCD    Char 
+  12  PARAM      Char 
+  13  PARAMN     Num  
+  14  ADT        Num  
+  15  STARTDT    Num  
+  16  AVAL       Num  
+  17  CNSR       Num  
+  18  EVNTDESC   Char 
+  19  CNSDTDSC   Char 
+  20  SRCDOM     Char 
+  21  AVAL_M     Num  
+  22  ASEQ       Num  
+
+
+STUDYID       USUBJID         TRTP  TRTPN  AGE  AGEGR1  SEX   RACE  SAFFL  ITTFL  PARAMCD                             PARAM  PARAMN        ADT    STARTDT  AVAL  CNSR             EVNTDESC                            CNSDTDSC  SRCDOM        AVAL_M  ASEQ
+
+STUDY01  STUDY01-1001  Treatment A      1   59     <65    M  WHITE      Y      Y      PFS  Progression-Free Survival (Days)       1  15JUN2024  15JAN2024   153     1                       Censored - No progression or death    ADSL  5.0266940452     1
+STUDY01  STUDY01-1001  Treatment A      1   59     <65    M  WHITE      Y      Y       OS           Overall Survival (Days)       2  15JUN2024  15JAN2024   153     1                                         Censored - Alive    ADSL  5.0266940452     2
+STUDY01  STUDY01-1001  Treatment A      1   59     <65    M  WHITE      Y      Y      TTR           Time to Response (Days)       3  15JUN2024  15JAN2024   153     1                                   Censored - No response          5.0266940452     3
+STUDY01  STUDY01-1002      Placebo      2   45     <65    F  BLACK      Y      Y      PFS  Progression-Free Survival (Days)       1  20MAY2024  18JAN2024   124     0  Disease Progression                                          RS  4.0739219713     1
+STUDY01  STUDY01-1002      Placebo      2   45     <65    F  BLACK      Y      Y       OS           Overall Survival (Days)       2  18JUN2024  18JAN2024   153     1                                         Censored - Alive    ADSL  5.0266940452     2
+STUDY01  STUDY01-1002      Placebo      2   45     <65    F  BLACK      Y      Y      TTR           Time to Response (Days)       3  18JUN2024  18JAN2024   153     1                                   Censored - No response          5.0266940452     3
+STUDY01  STUDY01-1003  Treatment A      1   43     <65    M  ASIAN      Y      Y      PFS  Progression-Free Survival (Days)       1  25MAR2024  20JAN2024    66     0  Disease Progression                                          RS  2.1683778234     1
+STUDY01  STUDY01-1003  Treatment A      1   43     <65    M  ASIAN      Y      Y       OS           Overall Survival (Days)       2  15APR2024  20JAN2024    87     0                Death                                        ADSL  2.8583162218     2
+STUDY01  STUDY01-1003  Treatment A      1   43     <65    M  ASIAN      Y      Y      TTR           Time to Response (Days)       3  20FEB2024  20JAN2024    32     0             Response                                              1.0513347023     3
+STUDY01  STUDY01-1004  Treatment A      1   51     <65    F  WHITE      Y      Y      PFS  Progression-Free Survival (Days)       1  25JUN2024  25JAN2024   153     1                       Censored - No progression or death    ADSL  5.0266940452     1
+STUDY01  STUDY01-1004  Treatment A      1   51     <65    F  WHITE      Y      Y       OS           Overall Survival (Days)       2  25JUN2024  25JAN2024   153     1                                         Censored - Alive    ADSL  5.0266940452     2
+STUDY01  STUDY01-1004  Treatment A      1   51     <65    F  WHITE      Y      Y      TTR           Time to Response (Days)       3  25MAR2024  25JAN2024    61     0             Response                                              2.0041067762     3
+STUDY01  STUDY01-1005      Placebo      2   36     <65    M  ASIAN      Y      Y      PFS  Progression-Free Survival (Days)       1  15JUL2024  28JAN2024   170     1                       Censored - No progression or death    ADSL  5.5852156057     1
+STUDY01  STUDY01-1005      Placebo      2   36     <65    M  ASIAN      Y      Y       OS           Overall Survival (Days)       2  15JUL2024  28JAN2024   170     1                                         Censored - Alive    ADSL  5.5852156057     2
+STUDY01  STUDY01-1005      Placebo      2   36     <65    M  ASIAN      Y      Y      TTR           Time to Response (Days)       3  15JUL2024  28JAN2024   170     1                                   Censored - No response          5.5852156057     3
+STUDY01  STUDY01-1006  Treatment A      1   68    >=65    F  WHITE      Y      Y      PFS  Progression-Free Survival (Days)       1  01JUL2024  30JAN2024   154     1                       Censored - No progression or death    ADSL  5.0595482546     1
+STUDY01  STUDY01-1006  Treatment A      1   68    >=65    F  WHITE      Y      Y       OS           Overall Survival (Days)       2  01JUL2024  30JAN2024   154     1                                         Censored - Alive    ADSL  5.0595482546     2
+STUDY01  STUDY01-1006  Treatment A      1   68    >=65    F  WHITE      Y      Y      TTR           Time to Response (Days)       3  30APR2024  30JAN2024    92     0             Response                                               3.022587269     3

@@ -1,0 +1,23 @@
+sandbox: docker run --rm --name sas2r-9f85829f18c9 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P076\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADaM datasets...
+Error in `filter()`:
+ℹ In argument: `SAFFL == "Y"`.
+Caused by error:
+! object 'SAFFL' not found
+Backtrace:
+     ▆
+  1. ├─... %>% arrange(TRTA, USUBJID, START_DATE, SOC, PT)
+  2. ├─dplyr::arrange(., TRTA, USUBJID, START_DATE, SOC, PT)
+  3. ├─dplyr::transmute(...)
+  4. ├─dplyr::filter(., SAFFL == "Y", TRTEMFL == "Y")
+  5. ├─dplyr:::filter.data.frame(., SAFFL == "Y", TRTEMFL == "Y")
+  6. │ └─dplyr:::filter_impl(...)
+  7. │   └─dplyr:::filter_rows(...)
+  8. │     └─dplyr:::filter_eval(...)
+  9. │       ├─base::withCallingHandlers(...)
+ 10. │       └─mask$eval_all_filter(dots_expanded, invert, env_filter)
+ 11. │         └─dplyr (local) eval()
+ 12. └─base::.handleSimpleError(...)
+ 13.   └─dplyr (local) h(simpleError(msg, call))
+ 14.     └─rlang::abort(message, class = error_class, parent = parent, call = error_call)
+Execution halted

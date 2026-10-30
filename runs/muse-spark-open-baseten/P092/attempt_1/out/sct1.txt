@@ -1,0 +1,24 @@
+Series Plot Lines
+With Markers
+
+SGplot Series Plot Lines With Markers
+Aspect = 1, NoAutoLegend, Style = htmlblue
+Datacolors = (cx9999ff cx993366) overridden by series lineattrs
+
+Series 1: x = y1  lineattrs=(color=navy thickness=3px) markers=(color=navy symbol=diamondfilled size=12pt)
+Series 2: x = y2  lineattrs=(color=magenta thickness=3px) markers=(color=magenta symbol=squarefilled size=12pt)
+
+X Axis: values=(0 to 4 by 1) offsetmin=0 offsetmax=0 grid minor minorcount=3
+Y Axis: values=(0 to 4 by 1) offsetmin=0 offsetmax=0 grid minor minorcount=3
+X Axis labelattrs=(size=16pt weight=bold color=gray33) valueattrs=(size=16pt weight=bold color=gray33)
+Y Axis labelattrs=(size=16pt weight=bold color=gray33) valueattrs=(size=16pt weight=bold color=gray33)
+
+Data (my_data):
+  x   y1   y2
+  0.5  1.0  3.1
+  1.5  2.8  1.3
+  2.5  0.5  1.1
+  3.5  2.0  3.1
+
+Figure: sct1.png  width=650px height=650px noborder imagemap aspect=1
+

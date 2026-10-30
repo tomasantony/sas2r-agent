@@ -1,0 +1,35 @@
+Listing: ADVS Vital Signs Analysis Dataset (First 20 Records)
+--------------------------------------------------------------------------------
+Generated: 2026-10-30 00:21:13
+
+STUDYID | USUBJID | ASEQ | PARAMCD | PARAM | AVAL | AVALU | BASE | CHG | PCHG | ADT | ADY | AVISIT | AVISITN | ABLFL | ANL01FL | DTYPE
+--------------------------------------------------------------------------------------------------------------------------------------
+ | STUDY01-1001 | 1 | DIABP |  | 78 |  |  |  |  |  |  | Maximum Post-Baseline | 99 |  |  | MAXIMUM
+ | STUDY01-1001 | 2 | PULSE |  | 70 |  |  |  |  |  |  | Maximum Post-Baseline | 99 |  |  | MAXIMUM
+ | STUDY01-1001 | 3 | SYSBP |  | 122 |  |  |  |  |  |  | Maximum Post-Baseline | 99 |  |  | MAXIMUM
+ | STUDY01-1002 | 1 | DIABP |  | 88 |  |  |  |  |  |  | Maximum Post-Baseline | 99 |  |  | MAXIMUM
+ | STUDY01-1002 | 2 | SYSBP |  | 138 |  |  |  |  |  |  | Maximum Post-Baseline | 99 |  |  | MAXIMUM
+ | STUDY01-1003 | 1 | SYSBP |  | 115 |  |  |  |  |  |  | Maximum Post-Baseline | 99 |  |  | MAXIMUM
+STUDY01 | STUDY01-1001 | 1 | DIABP | Diastolic Blood Pressure | 82 | mmHg |  |  |  | 2024-01-15 | 1 | Baseline | 1 |  |  | 
+STUDY01 | STUDY01-1001 | 2 | DIABP | Diastolic Blood Pressure | 78 | mmHg |  |  |  | 2024-02-12 | 29 | Week 4 | 2 |  | Y | 
+STUDY01 | STUDY01-1001 | 3 | DIABP | Diastolic Blood Pressure | 76 | mmHg |  |  |  | 2024-03-11 | 57 | Week 8 | 3 |  | Y | 
+STUDY01 | STUDY01-1001 | 4 | PULSE | Pulse Rate | 72 | beats/min |  |  |  | 2024-01-15 | 1 | Baseline | 1 |  |  | 
+STUDY01 | STUDY01-1001 | 5 | PULSE | Pulse Rate | 70 | beats/min |  |  |  | 2024-02-12 | 29 | Week 4 | 2 |  | Y | 
+STUDY01 | STUDY01-1001 | 6 | SYSBP | Systolic Blood Pressure | 128 | mmHg |  |  |  | 2024-01-15 | 1 | Baseline | 1 |  |  | 
+STUDY01 | STUDY01-1001 | 7 | SYSBP | Systolic Blood Pressure | 122 | mmHg |  |  |  | 2024-02-12 | 29 | Week 4 | 2 |  | Y | 
+STUDY01 | STUDY01-1001 | 8 | SYSBP | Systolic Blood Pressure | 118 | mmHg |  |  |  | 2024-03-11 | 57 | Week 8 | 3 |  | Y | 
+STUDY01 | STUDY01-1002 | 1 | DIABP | Diastolic Blood Pressure | 90 | mmHg |  |  |  | 2024-01-18 | 1 | Baseline | 1 |  |  | 
+STUDY01 | STUDY01-1002 | 2 | DIABP | Diastolic Blood Pressure | 88 | mmHg |  |  |  | 2024-02-15 | 29 | Week 4 | 2 |  | Y | 
+STUDY01 | STUDY01-1002 | 3 | SYSBP | Systolic Blood Pressure | 140 | mmHg |  |  |  | 2024-01-18 | 1 | Baseline | 1 |  |  | 
+STUDY01 | STUDY01-1002 | 4 | SYSBP | Systolic Blood Pressure | 138 | mmHg |  |  |  | 2024-02-15 | 29 | Week 4 | 2 |  | Y | 
+STUDY01 | STUDY01-1003 | 1 | DIABP | Diastolic Blood Pressure | 75 | mmHg | 75 | 0 | 0.00 | 2024-01-20 | 1 | Baseline | 1 | Y |  | 
+STUDY01 | STUDY01-1003 | 2 | SYSBP | Systolic Blood Pressure | 120 | mmHg |  |  |  | 2024-01-20 | 1 | Baseline | 1 |  |  | 
+
+Total records in ADVS: 24
+Total records in ADVS_BASE: 18
+Total subjects in ADSL: 6
+
+Summary Statistics by Parameter:
+ DIABP: N=6 Mean=81.50 SD=6.32 Min=75 Max=90
+ PULSE: N=2 Mean=71.00 SD=1.41 Min=70 Max=72
+ SYSBP: N=10 Mean=127.60 SD=10.63 Min=115 Max=145

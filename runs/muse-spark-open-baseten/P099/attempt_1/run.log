@@ -1,0 +1,60 @@
+sandbox: docker run --rm --name sas2r-11362bbc6a18 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P099\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error in `geom_rect()`:
+! Problem while converting geom to grob.
+ℹ Error occurred in the 1st layer.
+Caused by error:
+! Unknown colour name: LightRed
+Backtrace:
+     ▆
+  1. ├─ggplot2::ggsave(...)
+  2. │ └─base::lapply(plot, grid.draw)
+  3. │   ├─grid (local) FUN(X[[i]], ...)
+  4. │   └─ggplot2 (local) `grid.draw.ggplot2::ggplot`(X[[i]], ...)
+  5. │     ├─base::print(x)
+  6. │     └─ggplot2 (local) `print.ggplot2::ggplot`(x)
+  7. │       ├─ggplot2::ggplot_gtable(data)
+  8. │       └─ggplot2 (local) `ggplot_gtable.ggplot2::ggplot_built`(data)
+  9. │         └─ggplot2:::by_layer(...)
+ 10. │           ├─rlang::try_fetch(...)
+ 11. │           │ ├─base::tryCatch(...)
+ 12. │           │ │ └─base (local) tryCatchList(expr, classes, parentenv, handlers)
+ 13. │           │ │   └─base (local) tryCatchOne(expr, names, parentenv, handlers[[1L]])
+ 14. │           │ │     └─base (local) doTryCatch(return(expr), name, parentenv, handler)
+ 15. │           │ └─base::withCallingHandlers(...)
+ 16. │           └─ggplot2 (local) f(l = layers[[i]], d = data[[i]])
+ 17. │             └─l$draw_geom(d, layout)
+ 18. │               └─ggplot2 (local) draw_geom(..., self = self)
+ 19. │                 └─self$geom$draw_layer(...)
+ 20. │                   └─ggplot2 (local) draw_layer(..., self = self)
+ 21. │                     └─base::lapply(...)
+ 22. │                       └─ggplot2 (local) FUN(X[[i]], ...)
+ 23. │                         ├─rlang::inject(self$draw_panel(data, panel_params, coord, !!!params))
+ 24. │                         └─self$draw_panel(...)
+ 25. │                           └─ggplot2 (local) draw_panel(..., self = self)
+ 26. │                             ├─ggplot2:::ggname(...)
+ 27. │                             │ └─grid::grobName(grob, prefix)
+ 28. │                             ├─grid::rectGrob(...)
+ 29. │                             │ └─grid::grob(...)
+ 30. │                             ├─ggplot2::gg_par(...)
+ 31. │                             │ └─rlang::list2(...)
+ 32. │                             └─ggplot2::fill_alpha(coords$fill, coords$alpha)
+ 33. │                               └─scales::alpha(fill, alpha)
+ 34. │                                 └─farver::decode_colour(colour, alpha = TRUE)
+ 35. │                                   └─farver:::decode_c(...)
+ 36. └─base::.handleSimpleError(...)
+ 37.   └─rlang (local) h(simpleError(msg, call))
+ 38.     └─handlers[[1L]](cnd)
+ 39.       └─cli::cli_abort(...)
+ 40.         └─rlang::abort(...)
+Execution halted

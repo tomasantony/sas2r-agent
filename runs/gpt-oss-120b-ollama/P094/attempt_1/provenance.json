@@ -1,0 +1,64 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P094",
+ "provider": "gpt-oss-120b-ollama",
+ "model": "gpt-oss:120b",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T20:28:38",
+ "agent_commit": "54b8b9726c4dcbbd11954be09ec9c716e7539c90",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 1536,
+  "output_tokens": 1761,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 4.5
+ },
+ "inputs": {
+  "prompt_translate.md": "faccc4999f14952a156a5cac7e1cf811b4a84b9cfcabd9d36fabcd699950df10"
+ },
+ "model_output": {
+  "response.md": "caf983cb021db456226bec71fdc3f2ab28ed93c89ba561ba71c87b6a79a424c1",
+  "reasoning.md": "527790dadc4072aa035784485c234eb5841caff73f9c011ba1737734d79de8a2",
+  "script.R": "20af9e01fa4feb1e17b82af66acdcd79af42cc6d1d8a9f5d68f330479f2d65c4"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.3,
+  "timed_out": false,
+  "log_sha256": "1f35ccd36e0e0e9b6d3c5d0d499c29a2a7bbf827b5fca16941ed7481b586d120"
+ },
+ "r_outputs": {
+  "classtest.csv": "e56d3dfa89d1855c1fb7643fbc2f83d123f93dfb09bb38de9dde94c5fe7a9bea",
+  "classtest_dups.csv": "e001a5b595994b816fd54e1f258b052f9a6af219251201afb3f47cc35b044525",
+  "classtest_sort.csv": "2e72c949c76be274c92e80c075f1a2ae8453abf068ce86139e996d0f45aac571",
+  "P094.txt": "6e52e3afbf42ee2feb1e531431a0342df3f2b1a34de860a4860c2a30a606e610"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P094.lst",
+   "sha256": "5f7cd5ac3892e80a5fba1bfa26a725379f9727139f889b06280708090896b8e6",
+   "frozen_sha256": "5f7cd5ac3892e80a5fba1bfa26a725379f9727139f889b06280708090896b8e6",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.5,
+  "produced_all": true
+ }
+}

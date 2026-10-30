@@ -1,0 +1,380 @@
+CI (Adjusted ADY) – PROC PRINT output
+------------------------------------------------------------
+TRTA                      ADY         LCLM         UCLM
+Placebo                     2       73.302       78.086
+Placebo                    13            .            .
+Placebo                    14      -66.768      212.768
+Placebo                    15       66.875       80.236
+Placebo                    16       73.563       79.228
+Placebo                    17       66.218       75.782
+Placebo                    18       59.572       85.095
+Placebo                    20       66.294       91.706
+Placebo                    21            .            .
+Placebo                    22            .            .
+Placebo                    23     -104.181      226.181
+Placebo                    24       53.734      117.266
+Placebo                    25            .            .
+Placebo                    26            .            .
+Placebo                    27       80.000       80.000
+Placebo                    28       67.775       79.692
+Placebo                    29       70.330       81.545
+Placebo                    30       68.214       79.595
+Placebo                    31       66.563       78.548
+Placebo                    32       63.816       87.684
+Placebo                    33       53.811       92.522
+Placebo                    34      -53.062      201.062
+Placebo                    35            .            .
+Placebo                    37            .            .
+Placebo                    40            .            .
+Placebo                    41       62.242       80.958
+Placebo                    42       71.972       84.828
+Placebo                    43       54.309       74.691
+Placebo                    44       70.882       79.004
+Placebo                    45       66.901       76.599
+Placebo                    46       -1.943      175.943
+Placebo                    47       36.793      110.540
+Placebo                    48       54.588      105.412
+Placebo                    49       70.991       91.676
+Placebo                    50       53.213       77.187
+Placebo                    51       21.469      148.531
+Placebo                    52            .            .
+Placebo                    53            .            .
+Placebo                    54            .            .
+Placebo                    55       28.881      105.119
+Placebo                    56       73.499       82.501
+Placebo                    57       62.801       87.771
+Placebo                    58       71.826       79.508
+Placebo                    59       66.882       81.118
+Placebo                    60       45.304      100.030
+Placebo                    61       64.068       79.132
+Placebo                    63       62.324       91.009
+Placebo                    64       63.492       97.008
+Placebo                    65       61.235       84.765
+Placebo                    66            .            .
+Placebo                    70            .            .
+Placebo                    71            .            .
+Placebo                    79            .            .
+Placebo                    80            .            .
+Placebo                    81            .            .
+Placebo                    83            .            .
+Placebo                    84       63.913       84.087
+Placebo                    85       63.098       85.902
+Placebo                    86       67.262       74.978
+Placebo                    87       30.412      114.921
+Placebo                    88       45.304      100.030
+Placebo                    89       21.175      122.825
+Placebo                    90       56.652       84.015
+Placebo                    91       61.286       82.714
+Placebo                    92       55.466       91.034
+Placebo                    93       45.710       98.290
+Placebo                    96            .            .
+Placebo                    97            .            .
+Placebo                    98            .            .
+Placebo                   101            .            .
+Placebo                   107            .            .
+Placebo                   108            .            .
+Placebo                   109       15.175      116.825
+Placebo                   111      -88.181      242.181
+Placebo                   112       69.105       88.895
+Placebo                   113       63.177       79.746
+Placebo                   114       71.679       78.154
+Placebo                   115      -27.943      149.943
+Placebo                   116       35.175      136.825
+Placebo                   117       70.855       97.145
+Placebo                   118            .            .
+Placebo                   119       49.526       99.474
+Placebo                   120            .            .
+Placebo                   121            .            .
+Placebo                   122      -57.062      197.062
+Placebo                   123       11.469      138.531
+Placebo                   124            .            .
+Placebo                   127            .            .
+Placebo                   128            .            .
+Placebo                   133            .            .
+Placebo                   135       36.881      113.119
+Placebo                   136            .            .
+Placebo                   137            .            .
+Placebo                   139       55.180       64.320
+Placebo                   140       62.062       84.938
+Placebo                   141       67.630       81.825
+Placebo                   142       66.237       74.906
+Placebo                   143      -63.062      191.062
+Placebo                   144       52.588       92.746
+Placebo                   145       56.588      107.412
+Placebo                   146       61.254      101.412
+Placebo                   147       69.833       84.567
+Placebo                   148            .            .
+Placebo                   149            .            .
+Placebo                   150       49.970      104.696
+Placebo                   162       40.881      117.119
+Placebo                   163       22.465      113.535
+Placebo                   166            .            .
+Placebo                   167            .            .
+Placebo                   168       40.310      101.023
+Placebo                   169       66.130       77.870
+Placebo                   170       70.546       81.565
+Placebo                   171       47.120       85.880
+Placebo                   172       18.465      109.535
+Placebo                   173       29.170      121.496
+Placebo                   174       69.395       86.605
+Placebo                   175            .            .
+Placebo                   176       57.395       74.605
+Placebo                   177            .            .
+Placebo                   178        3.910      169.090
+Placebo                   180     -148.712      308.712
+Placebo                   181       58.991       87.676
+Placebo                   182       60.290       82.110
+Placebo                   183       58.471       82.029
+Placebo                   184       67.533       76.467
+Placebo                   185       64.465       86.868
+Placebo                   186            .            .
+Placebo                   187      -47.062      207.062
+Placebo                   189        1.469      128.531
+Placebo                   190       32.881      109.119
+Placebo                   191            .            .
+Placebo                   192       44.825       93.841
+Placebo                   195       44.588       95.412
+Placebo                   196            .            .
+Placebo                   197      -72.768      206.768
+Placebo                   198       62.294       87.706
+Placebo                   199     -115.593      265.593
+Placebo                   212            .            .
+Xanomeline High Dose        1       75.027       79.283
+Xanomeline High Dose        6            .            .
+Xanomeline High Dose        8       52.087       87.913
+Xanomeline High Dose       11            .            .
+Xanomeline High Dose       12            .            .
+Xanomeline High Dose       13       74.567       87.033
+Xanomeline High Dose       14       69.587       80.958
+Xanomeline High Dose       15       75.699       81.190
+Xanomeline High Dose       16       62.787       73.046
+Xanomeline High Dose       17            .            .
+Xanomeline High Dose       18       63.967       91.033
+Xanomeline High Dose       19       38.721      114.612
+Xanomeline High Dose       20            .            .
+Xanomeline High Dose       21      -19.650      183.650
+Xanomeline High Dose       22       28.881      105.119
+Xanomeline High Dose       26       53.757      110.910
+Xanomeline High Dose       27       69.356       80.501
+Xanomeline High Dose       28       72.489       82.622
+Xanomeline High Dose       29       75.530       83.537
+Xanomeline High Dose       30       62.975       77.359
+Xanomeline High Dose       31       55.734      119.266
+Xanomeline High Dose       32       65.411       91.589
+Xanomeline High Dose       33            .            .
+Xanomeline High Dose       34       53.941       99.059
+Xanomeline High Dose       35       60.428       73.572
+Xanomeline High Dose       36       68.294       93.706
+Xanomeline High Dose       37            .            .
+Xanomeline High Dose       40       68.876       87.124
+Xanomeline High Dose       41       70.835       85.737
+Xanomeline High Dose       42       68.974       83.359
+Xanomeline High Dose       43       69.188       83.358
+Xanomeline High Dose       44       63.292       71.908
+Xanomeline High Dose       45     -120.593      260.593
+Xanomeline High Dose       46       56.930      101.737
+Xanomeline High Dose       47       77.507       83.827
+Xanomeline High Dose       48       46.588       97.412
+Xanomeline High Dose       49       47.419      117.915
+Xanomeline High Dose       50       54.961       89.039
+Xanomeline High Dose       54       58.159      107.175
+Xanomeline High Dose       55       75.911       86.589
+Xanomeline High Dose       56       53.074       82.926
+Xanomeline High Dose       57       73.157       80.843
+Xanomeline High Dose       58       62.808       78.192
+Xanomeline High Dose       59            .            .
+Xanomeline High Dose       60       56.588      107.412
+Xanomeline High Dose       61       65.106       82.094
+Xanomeline High Dose       62       76.294      101.706
+Xanomeline High Dose       63      -41.356      187.356
+Xanomeline High Dose       64      -49.062      205.062
+Xanomeline High Dose       68       29.175      130.825
+Xanomeline High Dose       69       55.233      100.767
+Xanomeline High Dose       70       50.245       87.755
+Xanomeline High Dose       71      -72.768      206.768
+Xanomeline High Dose       77            .            .
+Xanomeline High Dose       78            .            .
+Xanomeline High Dose       82       76.697       85.303
+Xanomeline High Dose       83       64.526       81.474
+Xanomeline High Dose       84       56.569       91.431
+Xanomeline High Dose       85       62.755       80.245
+Xanomeline High Dose       86       52.828       84.172
+Xanomeline High Dose       87       45.283       84.717
+Xanomeline High Dose       88            .            .
+Xanomeline High Dose       89       65.744       80.922
+Xanomeline High Dose       90       58.588       98.746
+Xanomeline High Dose       91            .            .
+Xanomeline High Dose       92            .            .
+Xanomeline High Dose       95            .            .
+Xanomeline High Dose       98            .            .
+Xanomeline High Dose       99            .            .
+Xanomeline High Dose      103            .            .
+Xanomeline High Dose      105            .            .
+Xanomeline High Dose      109            .            .
+Xanomeline High Dose      110            .            .
+Xanomeline High Dose      111       71.807       89.693
+Xanomeline High Dose      112       75.922       89.744
+Xanomeline High Dose      113       69.453       80.747
+Xanomeline High Dose      114            .            .
+Xanomeline High Dose      116            .            .
+Xanomeline High Dose      117            .            .
+Xanomeline High Dose      118       68.232       71.101
+Xanomeline High Dose      119       52.588      103.412
+Xanomeline High Dose      120       20.009      125.324
+Xanomeline High Dose      124            .            .
+Xanomeline High Dose      127            .            .
+Xanomeline High Dose      128            .            .
+Xanomeline High Dose      137            .            .
+Xanomeline High Dose      138       70.294       95.706
+Xanomeline High Dose      139       31.028      119.972
+Xanomeline High Dose      140       60.445      100.055
+Xanomeline High Dose      141       65.876       75.374
+Xanomeline High Dose      142       61.263       76.165
+Xanomeline High Dose      145            .            .
+Xanomeline High Dose      146            .            .
+Xanomeline High Dose      147      -19.650      183.650
+Xanomeline High Dose      148            .            .
+Xanomeline High Dose      154            .            .
+Xanomeline High Dose      155            .            .
+Xanomeline High Dose      162            .            .
+Xanomeline High Dose      165            .            .
+Xanomeline High Dose      167       41.710       94.290
+Xanomeline High Dose      168       33.175      134.825
+Xanomeline High Dose      169       45.811       97.522
+Xanomeline High Dose      170       61.105       79.229
+Xanomeline High Dose      172       61.586       87.081
+Xanomeline High Dose      173       66.944       92.656
+Xanomeline High Dose      174       48.294       73.706
+Xanomeline High Dose      175       66.294       91.706
+Xanomeline High Dose      176            .            .
+Xanomeline High Dose      177            .            .
+Xanomeline High Dose      180       46.930       91.737
+Xanomeline High Dose      181            .            .
+Xanomeline High Dose      182       52.416      108.917
+Xanomeline High Dose      183       61.639       77.961
+Xanomeline High Dose      184       61.887       75.113
+Xanomeline High Dose      186      -19.650      183.650
+Xanomeline High Dose      188            .            .
+Xanomeline High Dose      189       66.294       91.706
+Xanomeline High Dose      190       21.469      148.531
+Xanomeline High Dose      196            .            .
+Xanomeline High Dose      200            .            .
+Xanomeline Low Dose         1       74.154       78.394
+Xanomeline Low Dose         5            .            .
+Xanomeline Low Dose         8            .            .
+Xanomeline Low Dose        11            .            .
+Xanomeline Low Dose        12            .            .
+Xanomeline Low Dose        13            .            .
+Xanomeline Low Dose        14       70.101       88.499
+Xanomeline Low Dose        15       73.318       79.246
+Xanomeline Low Dose        16       68.889       81.944
+Xanomeline Low Dose        17       62.681       73.819
+Xanomeline Low Dose        18       78.147       90.853
+Xanomeline Low Dose        19       52.498       79.502
+Xanomeline Low Dose        20            .            .
+Xanomeline Low Dose        21            .            .
+Xanomeline Low Dose        22       38.881      115.119
+Xanomeline Low Dose        24     -124.740      243.740
+Xanomeline Low Dose        26            .            .
+Xanomeline Low Dose        27       66.848       78.731
+Xanomeline Low Dose        28       72.745       86.255
+Xanomeline Low Dose        29       72.103       79.563
+Xanomeline Low Dose        30       72.189       84.953
+Xanomeline Low Dose        31            .            .
+Xanomeline Low Dose        32       66.452       83.148
+Xanomeline Low Dose        33            .            .
+Xanomeline Low Dose        34       73.011       81.989
+Xanomeline Low Dose        35            .            .
+Xanomeline Low Dose        36            .            .
+Xanomeline Low Dose        37            .            .
+Xanomeline Low Dose        39       46.588       97.412
+Xanomeline Low Dose        40            .            .
+Xanomeline Low Dose        41       64.852       84.481
+Xanomeline Low Dose        42       66.194       80.406
+Xanomeline Low Dose        43       70.711       79.116
+Xanomeline Low Dose        44       68.627       88.516
+Xanomeline Low Dose        45       34.881      111.119
+Xanomeline Low Dose        46       62.743       82.685
+Xanomeline Low Dose        47            .            .
+Xanomeline Low Dose        48       28.721      104.612
+Xanomeline Low Dose        49       37.881      114.119
+Xanomeline Low Dose        50       40.848      108.485
+Xanomeline Low Dose        52            .            .
+Xanomeline Low Dose        54            .            .
+Xanomeline Low Dose        55       36.873       90.460
+Xanomeline Low Dose        56       67.754       78.913
+Xanomeline Low Dose        57       73.392       81.244
+Xanomeline Low Dose        58       65.198       85.052
+Xanomeline Low Dose        59       68.771       92.229
+Xanomeline Low Dose        60       57.736       83.864
+Xanomeline Low Dose        61       68.294       93.706
+Xanomeline Low Dose        62       34.881      111.119
+Xanomeline Low Dose        63      -51.062      203.062
+Xanomeline Low Dose        64       58.324       79.009
+Xanomeline Low Dose        65            .            .
+Xanomeline Low Dose        67            .            .
+Xanomeline Low Dose        69       13.175      114.825
+Xanomeline Low Dose        70            .            .
+Xanomeline Low Dose        76       -2.237      150.237
+Xanomeline Low Dose        77            .            .
+Xanomeline Low Dose        81            .            .
+Xanomeline Low Dose        82            .            .
+Xanomeline Low Dose        83       58.501       95.099
+Xanomeline Low Dose        84       57.073       86.927
+Xanomeline Low Dose        85       70.408       82.533
+Xanomeline Low Dose        86       63.320       88.680
+Xanomeline Low Dose        87       66.063       85.937
+Xanomeline Low Dose        88            .            .
+Xanomeline Low Dose        90      -37.062      217.062
+Xanomeline Low Dose        92       82.000       82.000
+Xanomeline Low Dose        94       56.294       81.706
+Xanomeline Low Dose       104            .            .
+Xanomeline Low Dose       106      -25.650      177.650
+Xanomeline Low Dose       111      -57.062      197.062
+Xanomeline Low Dose       112       65.953       82.047
+Xanomeline Low Dose       113       64.415       80.131
+Xanomeline Low Dose       114       62.677       83.894
+Xanomeline Low Dose       115       38.881      115.119
+Xanomeline Low Dose       116            .            .
+Xanomeline Low Dose       117       57.742       97.591
+Xanomeline Low Dose       118            .            .
+Xanomeline Low Dose       119       58.294       83.706
+Xanomeline Low Dose       120       61.095       90.905
+Xanomeline Low Dose       121            .            .
+Xanomeline Low Dose       126            .            .
+Xanomeline Low Dose       127            .            .
+Xanomeline Low Dose       134            .            .
+Xanomeline Low Dose       138            .            .
+Xanomeline Low Dose       139            .            .
+Xanomeline Low Dose       140       66.202       82.298
+Xanomeline Low Dose       141       65.963       77.491
+Xanomeline Low Dose       142            .            .
+Xanomeline Low Dose       143            .            .
+Xanomeline Low Dose       144            .            .
+Xanomeline Low Dose       145      -80.474      224.474
+Xanomeline Low Dose       146       56.696       88.637
+Xanomeline Low Dose       147      -17.943      159.943
+Xanomeline Low Dose       153            .            .
+Xanomeline Low Dose       164            .            .
+Xanomeline Low Dose       166      -80.474      224.474
+Xanomeline Low Dose       167       51.710      104.290
+Xanomeline Low Dose       168       73.032       82.968
+Xanomeline Low Dose       169       72.304       87.029
+Xanomeline Low Dose       170       24.175      125.825
+Xanomeline Low Dose       173            .            .
+Xanomeline Low Dose       174      -58.915      207.915
+Xanomeline Low Dose       176       42.085      112.581
+Xanomeline Low Dose       180            .            .
+Xanomeline Low Dose       181       66.063       85.937
+Xanomeline Low Dose       183       67.994       84.006
+Xanomeline Low Dose       184       58.063       77.937
+Xanomeline Low Dose       185      -21.943      155.943
+Xanomeline Low Dose       186            .            .
+Xanomeline Low Dose       187            .            .
+Xanomeline Low Dose       188            .            .
+Xanomeline Low Dose       190       58.184      109.816
+Xanomeline Low Dose       191            .            .
+Xanomeline Low Dose       193            .            .
+Xanomeline Low Dose       197            .            .
+Xanomeline Low Dose       198            .            .
+Xanomeline Low Dose       213            .            .

@@ -1,0 +1,98 @@
+[Sponsor Name]    Page 1 of 1
+Protocol: [Protocol Number]
+
+Listing 16.2.2
+Listing of Protocol Deviations
+All Subjects
+
+ Treatment    Site    Subject ID  Deviation Categor  Sub- category          Description          Start Date  End Date     Epoch     Severity 
+------------ ------- ------------ ----------------- --------------- ---------------------------- ---------- ---------- ------------ ---------
+Drug X High  001     SYN001-00103 MINOR             PROHIBITED MEDI Prohibited concomitant medic 2025-04-24 2025-04-28 TREATMENT    MINOR    
+Drug X High  001     SYN001-00107 MINOR             VISIT SCHEDULE  Visit outside protocol windo 2025-07-17 2025-07-19 TREATMENT    MINOR    
+Drug X High  001     SYN001-00121 MINOR             VISIT SCHEDULE  Visit outside protocol windo 2025-06-11 2025-06-15 TREATMENT    MINOR    
+Drug X High  003     SYN001-00305 MINOR             PROHIBITED MEDI Prohibited concomitant medic 2025-07-13 2025-07-21 TREATMENT    MINOR    
+Drug X High  004     SYN001-00400 MAJOR             STUDY TREATMENT Study drug dose missed > 3 c 2025-06-20 2025-06-23 TREATMENT    MAJOR    
+Drug X High  004     SYN001-00407 MINOR             PROHIBITED MEDI Prohibited concomitant medic 2025-06-12 2025-06-18 TREATMENT    MINOR    
+Drug X High  004     SYN001-00417 MINOR             PROHIBITED MEDI Prohibited concomitant medic 2025-05-07 2025-05-12 TREATMENT    MINOR    
+Drug X High  005     SYN001-00502 MAJOR             STUDY TREATMENT Study drug dose missed > 3 c 2025-06-10 2025-06-10 TREATMENT    MAJOR    
+Drug X High  005     SYN001-00523 MINOR             VISIT SCHEDULE  Visit outside protocol windo 2025-09-18 2025-09-26 TREATMENT    MINOR    
+Drug X High  006     SYN001-00601 MAJOR             STUDY TREATMENT Study drug dose missed > 3 c 2025-03-17 2025-03-24 TREATMENT    MAJOR    
+Drug X High  006     SYN001-00605 MAJOR             STUDY TREATMENT Study drug dose missed > 3 c 2025-03-11 2025-03-14 TREATMENT    MAJOR    
+Drug X High  006     SYN001-00608 MINOR             PROHIBITED MEDI Prohibited concomitant medic 2025-06-02 2025-06-09 TREATMENT    MINOR    
+Drug X High  006     SYN001-00620 MAJOR             STUDY TREATMENT Study drug dose missed > 3 c 2025-05-23 2025-06-01 TREATMENT    MAJOR    
+
+--- Page break after Treatment: Drug X High Dose ---
+
+[Sponsor Name]    Page 2 of 1
+Protocol: [Protocol Number]
+
+Listing 16.2.2
+Listing of Protocol Deviations
+All Subjects
+
+ Treatment    Site    Subject ID  Deviation Categor  Sub- category          Description          Start Date  End Date     Epoch     Severity 
+------------ ------- ------------ ----------------- --------------- ---------------------------- ---------- ---------- ------------ ---------
+Drug X Low D 001     SYN001-00104 MAJOR             STUDY TREATMENT Study drug dose missed > 3 c 2025-03-15 2025-03-20 TREATMENT    MAJOR    
+Drug X Low D 001     SYN001-00118 MINOR             PROHIBITED MEDI Prohibited concomitant medic 2025-06-06 2025-06-07 TREATMENT    MINOR    
+Drug X Low D 001     SYN001-00122 MAJOR             STUDY TREATMENT Study drug dose missed > 3 c 2025-08-17 2025-08-20 TREATMENT    MAJOR    
+Drug X Low D 002     SYN001-00200 MAJOR             STUDY TREATMENT Study drug dose missed > 3 c 2025-08-17 2025-08-20 TREATMENT    MAJOR    
+Drug X Low D 002     SYN001-00202 MINOR             PROHIBITED MEDI Prohibited concomitant medic 2025-05-18 2025-05-23 TREATMENT    MINOR    
+Drug X Low D 002     SYN001-00209 MAJOR             STUDY TREATMENT Study drug dose missed > 3 c 2025-05-14 2025-05-15 TREATMENT    MAJOR    
+Drug X Low D 002     SYN001-00216 MAJOR             STUDY TREATMENT Study drug dose missed > 3 c 2025-04-21 2025-04-28 TREATMENT    MAJOR    
+Drug X Low D 003     SYN001-00311 MINOR             VISIT SCHEDULE  Visit outside protocol windo 2025-07-23 2025-08-01 TREATMENT    MINOR    
+Drug X Low D 003     SYN001-00323 MINOR             VISIT SCHEDULE  Visit outside protocol windo 2025-06-27 2025-06-27 TREATMENT    MINOR    
+Drug X Low D 004     SYN001-00405 MINOR             VISIT SCHEDULE  Visit outside protocol windo 2025-06-23 2025-06-29 TREATMENT    MINOR    
+Drug X Low D 004     SYN001-00408 MINOR             PROHIBITED MEDI Prohibited concomitant medic 2025-07-18 2025-07-26 TREATMENT    MINOR    
+Drug X Low D 004     SYN001-00414 MINOR             VISIT SCHEDULE  Visit outside protocol windo 2025-05-21 2025-05-21 TREATMENT    MINOR    
+Drug X Low D 004     SYN001-00418 MAJOR             STUDY TREATMENT Study drug dose missed > 3 c 2025-06-02 2025-06-10 TREATMENT    MAJOR    
+Drug X Low D 004     SYN001-00420 MINOR             VISIT SCHEDULE  Visit outside protocol windo 2025-08-06 2025-08-13 TREATMENT    MINOR    
+Drug X Low D 005     SYN001-00510 MAJOR             STUDY TREATMENT Study drug dose missed > 3 c 2025-08-13 2025-08-21 TREATMENT    MAJOR    
+Drug X Low D 005     SYN001-00514 MAJOR             STUDY TREATMENT Study drug dose missed > 3 c 2025-06-18 2025-06-19 TREATMENT    MAJOR    
+Drug X Low D 005     SYN001-00514 MINOR             PROHIBITED MEDI Prohibited concomitant medic 2025-07-02 2025-07-09 TREATMENT    MINOR    
+Drug X Low D 005     SYN001-00519 MAJOR             STUDY TREATMENT Study drug dose missed > 3 c 2025-06-17 2025-06-22 TREATMENT    MAJOR    
+Drug X Low D 005     SYN001-00521 MINOR             VISIT SCHEDULE  Visit outside protocol windo 2025-06-21 2025-06-26 TREATMENT    MINOR    
+Drug X Low D 006     SYN001-00605 MINOR             PROHIBITED MEDI Prohibited concomitant medic 2025-04-21 2025-04-28 TREATMENT    MINOR    
+Drug X Low D 006     SYN001-00610 MAJOR             STUDY TREATMENT Study drug dose missed > 3 c 2025-04-17 2025-04-24 TREATMENT    MAJOR    
+Drug X Low D 006     SYN001-00611 MINOR             VISIT SCHEDULE  Visit outside protocol windo 2025-08-06 2025-08-12 TREATMENT    MINOR    
+Drug X Low D 006     SYN001-00613 MINOR             PROHIBITED MEDI Prohibited concomitant medic 2025-04-16 2025-04-18 TREATMENT    MINOR    
+Drug X Low D 006     SYN001-00614 MINOR             VISIT SCHEDULE  Visit outside protocol windo 2025-04-25 2025-04-27 TREATMENT    MINOR    
+
+--- Page break after Treatment: Drug X Low Dose ---
+
+[Sponsor Name]    Page 3 of 1
+Protocol: [Protocol Number]
+
+Listing 16.2.2
+Listing of Protocol Deviations
+All Subjects
+
+ Treatment    Site    Subject ID  Deviation Categor  Sub- category          Description          Start Date  End Date     Epoch     Severity 
+------------ ------- ------------ ----------------- --------------- ---------------------------- ---------- ---------- ------------ ---------
+Placebo      001     SYN001-00100 MINOR             PROHIBITED MEDI Prohibited concomitant medic 2025-07-01 2025-07-01 TREATMENT    MINOR    
+Placebo      001     SYN001-00106 MAJOR             STUDY TREATMENT Study drug dose missed > 3 c 2025-03-27 2025-04-02 TREATMENT    MAJOR    
+Placebo      001     SYN001-00107 MINOR             VISIT SCHEDULE  Visit outside protocol windo 2025-02-18 2025-02-18 TREATMENT    MINOR    
+Placebo      001     SYN001-00116 MAJOR             STUDY TREATMENT Study drug dose missed > 3 c 2025-04-22 2025-04-26 TREATMENT    MAJOR    
+Placebo      001     SYN001-00119 MINOR             VISIT SCHEDULE  Visit outside protocol windo 2025-07-22 2025-07-30 TREATMENT    MINOR    
+Placebo      001     SYN001-00122 MINOR             VISIT SCHEDULE  Visit outside protocol windo 2025-05-13 2025-05-14 TREATMENT    MINOR    
+Placebo      002     SYN001-00201 MINOR             PROHIBITED MEDI Prohibited concomitant medic 2025-02-17 2025-02-22 TREATMENT    MINOR    
+Placebo      002     SYN001-00216 MINOR             PROHIBITED MEDI Prohibited concomitant medic 2025-07-01 2025-07-05 TREATMENT    MINOR    
+Placebo      002     SYN001-00219 MAJOR             STUDY TREATMENT Study drug dose missed > 3 c 2025-07-01 2025-07-05 TREATMENT    MAJOR    
+Placebo      002     SYN001-00220 MAJOR             STUDY TREATMENT Study drug dose missed > 3 c 2025-07-23 2025-07-26 TREATMENT    MAJOR    
+Placebo      003     SYN001-00307 MINOR             PROHIBITED MEDI Prohibited concomitant medic 2025-07-14 2025-07-20 TREATMENT    MINOR    
+Placebo      003     SYN001-00309 MINOR             PROHIBITED MEDI Prohibited concomitant medic 2025-07-05 2025-07-05 TREATMENT    MINOR    
+Placebo      003     SYN001-00312 MAJOR             STUDY TREATMENT Study drug dose missed > 3 c 2025-09-27 2025-09-28 TREATMENT    MAJOR    
+Placebo      004     SYN001-00400 MAJOR             STUDY TREATMENT Study drug dose missed > 3 c 2025-07-14 2025-07-18 TREATMENT    MAJOR    
+Placebo      004     SYN001-00402 MINOR             PROHIBITED MEDI Prohibited concomitant medic 2025-05-03 2025-05-04 TREATMENT    MINOR    
+Placebo      004     SYN001-00403 MINOR             VISIT SCHEDULE  Visit outside protocol windo 2025-06-23 2025-06-26 TREATMENT    MINOR    
+Placebo      004     SYN001-00410 MINOR             VISIT SCHEDULE  Visit outside protocol windo 2025-09-22 2025-09-24 TREATMENT    MINOR    
+Placebo      005     SYN001-00507 MINOR             VISIT SCHEDULE  Visit outside protocol windo 2025-04-08 2025-04-10 TREATMENT    MINOR    
+Placebo      005     SYN001-00516 MINOR             PROHIBITED MEDI Prohibited concomitant medic 2025-06-24 2025-06-25 TREATMENT    MINOR    
+Placebo      006     SYN001-00602 MINOR             VISIT SCHEDULE  Visit outside protocol windo 2025-09-15 2025-09-21 TREATMENT    MINOR    
+Placebo      006     SYN001-00609 MINOR             VISIT SCHEDULE  Visit outside protocol windo 2025-08-08 2025-08-13 TREATMENT    MINOR    
+
+------------ ------- ------------ ----------------- --------------- ---------------------------- ---------- ---------- ------------ ---------
+Total number of protocol deviations: 58
+
+Data cutoff: [DDMONYYYY].
+Source: ADaM datasets
+Program: P078_l_dv.sas | Run: 30Oct2026 00:15

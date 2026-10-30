@@ -1,0 +1,7 @@
+"STUDYID","USUBJID","TRTP","TRTPN","AGE","AGEGR1","SEX","RACE","SAFFL","ITTFL","PARAMCD","PARAM","PARAMN","STARTDT","ADT","AVAL","CNSR","EVNTDESC","CNSDTDSC","AVAL_M"
+"STUDY01","STUDY01-1001","Treatment A",1,59,"<65","M","WHITE","Y","Y","TTR","Time to Response (Days)",3,"2024-01-15","2024-06-15",153,1,"","Censored - No response",5.02669404517454
+"STUDY01","STUDY01-1002","Placebo",2,45,"<65","F","BLACK","Y","Y","TTR","Time to Response (Days)",3,"2024-01-18","2024-06-18",153,1,"","Censored - No response",5.02669404517454
+"STUDY01","STUDY01-1003","Treatment A",1,43,"<65","M","ASIAN","Y","Y","TTR","Time to Response (Days)",3,"2024-01-20","2024-02-20",32,0,"Response","",1.05133470225873
+"STUDY01","STUDY01-1004","Treatment A",1,51,"<65","F","WHITE","Y","Y","TTR","Time to Response (Days)",3,"2024-01-25","2024-03-25",61,0,"Response","",2.0041067761807
+"STUDY01","STUDY01-1005","Placebo",2,36,"<65","M","ASIAN","Y","Y","TTR","Time to Response (Days)",3,"2024-01-28","2024-07-15",170,1,"","Censored - No response",5.58521560574949
+"STUDY01","STUDY01-1006","Treatment A",1,68,">=65","F","WHITE","Y","Y","TTR","Time to Response (Days)",3,"2024-01-30","2024-04-30",92,0,"Response","",3.02258726899384

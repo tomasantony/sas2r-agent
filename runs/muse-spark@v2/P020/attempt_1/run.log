@@ -1,0 +1,9 @@
+sandbox: docker run --rm --name sas2r-afdffa3a4b3c --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v2\P020\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+ADTTE path: /bench/data/derived/c2c/data/adam/adtte.sas7bdat
+STUDYID, USUBJID, PARAMCD, PARAM, TRT01P, TRT01A, TRTSDT, TRTEDT, EOSDT, EVENTDT, CNSR, AVAL
+NROW adtte: 47
+STRATA: Active Drug 50mg | Placebo
+Error in survfitKM(X, Y, casewt, stype = stype, ctype = ctype, id = id,  : 
+  unused argument (rmean = "common")
+Calls: survfit -> survfit.formula
+Execution halted

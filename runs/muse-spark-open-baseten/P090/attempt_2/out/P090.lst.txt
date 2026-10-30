@@ -1,0 +1,148 @@
+The SAS System                                                                 9.0401M7
+
+The CONTENTS Procedure
+
+Data Set Name        WORK.ADCM                                              Observations          11
+Member Type          DATA                                                   Variables             38
+Engine               V9                                                     Indexes                0
+Created              15JAN2024:09:27:15                                     Observation Length   808
+Last Modified        15JAN2024:09:27:15                                     Deleted Observations   0
+Protection                                                                 Compressed            NO
+Data Set Type                                                              Sorted               YES
+Label
+Data Representation  WINDOWS_64
+Encoding             wlatin1  Western (Windows)
+
+Engine/Host Dependent Information
+
+Data Set Page Size          65536
+Number of Data Set Pages    1
+First Data Page             1
+Max Obs per Page            64
+Obs in First Data Page      7
+Number of Data Set Repairs  0
+ExtendObsCounter            YES
+Filename                    /bench\output\sas\datasets\P090\adcm.sas7bdat
+Release Created             9.0401M7
+Host Created                X64_10PRO
+Inode Number                35248
+Access Permission           rw-r--r--
+Owner Name                  sasuser
+File Size                   35248
+File Size (bytes)           35248
+
+Alphabetic List of Variables and Attributes
+
+#    Variable      Type    Len    Format     Informat     Label
+1    STUDYID       Char     12    $12.       $12.         Study Identifier
+2    USUBJID       Char     20    $20.       $20.         Unique Subject Identifier
+3    CMSEQ         Num       8    BEST12.    BEST12.      Sequence Number
+4    ASEQ          Num       8    BEST12.    BEST12.      Analysis Sequence Number
+5    CMTRT         Char     60    $60.       $60.         Reported Name of Drug/Therapy
+6    CMDECOD       Char     60    $60.       $60.         Standardized Medication Name
+7    CMCLAS        Char     60    $60.       $60.         Medication Class
+8    CMSTDTC       Char     10    $10.       $10.         Start Date/Time of Medication
+9    CMENDTC       Char     10    $10.       $10.         End Date/Time of Medication
+10   CMDOSE        Num       8    BEST12.    BEST12.      Dose per Administration
+11   CMDOSU        Char     20    $20.       $20.         Dose Units
+12   CMROUTE       Char     20    $20.       $20.         Route of Administration
+13   CMFRQ         Char     20    $20.       $20.         Dosing Frequency
+14   CMINDC        Char    100    $100.      $100.        Indication
+15   CMONGO        Char      1    $1.        $1.          Ongoing Medication
+16   TRTP          Char     40    $40.       $40.         Planned Treatment
+17   TRTPN         Num       8    BEST12.    BEST12.      Planned Treatment (N)
+18   AGE           Num       8    BEST12.    BEST12.      Age
+19   SEX           Char      1    $1.        $1.          Sex
+20   SAFFL         Char      1    $1.        $1.          Safety Population Flag
+21   TRTSDT        Num       8    DATE9.     DATE9.       Date of First Exposure to Treatment
+22   TRTEDT        Num       8    DATE9.     DATE9.       Date of Last Exposure to Treatment
+23   ASTDT         Num       8    DATE9.     DATE9.       Analysis Start Date
+24   AENDT         Num       8    DATE9.     DATE9.       Analysis End Date
+25   ASTDY         Num       8    BEST12.    BEST12.      Analysis Start Relative Day
+26   AENDY         Num       8    BEST12.    BEST12.      Analysis End Relative Day
+27   CMDURN        Num       8    BEST12.    BEST12.      Medication Duration (Days)
+28   PREFL         Char      1    $1.        $1.          Prior Medication Flag
+29   ONTRTFL       Char      1    $1.        $1.          On-Treatment Flag
+30   CONCOMFL      Char      1    $1.        $1.          Concomitant Medication Flag
+31   ADTEFFL       Char      1    $1.        $1.          Medication Active at End of Treatment Flag
+32   ADTEFN        Num       8    BEST12.    BEST12.      Medication Active at End of Treatment (N)
+33   CMDECOD_UP    Char     60    $60.       $60.         Standardized Medication Name (Upper)
+34   CMCLAS_UP     Char     60    $60.       $60.         Medication Class (Upper)
+35   ATCCD1        Char     10    $10.       $10.         ATC Level 1 Code
+36   ATC1          Char     60    $60.       $60.         ATC Level 1 Text
+37   ATCCD2        Char     10    $10.       $10.         ATC Level 2 Code
+38   ATC2          Char     60    $60.       $60.         ATC Level 2 Text
+
+Variables in Creation Order
+
+Sort Information
+  Sortedby          STUDYID USUBJID ASTDT CMSEQ
+  Validated         YES
+  Character Set     ANSI
+
+The SAS System
+
+The PRINT Procedure
+Data Set WORK.ADCM  (Obs=11)  Observations 11  Variables 38  Page 1
+
+Obs    STUDYID       USUBJID         CMSEQ    ASEQ    CMTRT              CMDECOD              CMCLAS                         CMSTDTC     CMENDTC      CMDOSE    CMDOSU    CMROUTE    CMFRQ    CMINDC                         CMONGO    TRTP           TRTPN    AGE    SEX    SAFFL    TRTSDT       TRTEDT       ASTDT        AENDT        ASTDY    AENDY    CMDURN    PREFL    ONTRTFL    CONCOMFL    ADTEFFL    ADTEFN    ATCCD1    ATC1
+---  ----------  ---------------  -----  ----  ----------------  ------------------  ---------------------------  ----------  ----------  --------  --------  ---------  -------  ---------------------------  ------  -------------  -----  -----  -----  -----  ----------  ----------  ----------  ----------  ------  ------  ------  -----  -------  --------  -------  ------  --------  ----------------------------------------
+  1  STUDY01     STUDY01-1001         2     1  LISINOPRIL        LISINOPRIL          ACE INHIBITORS               2023-01-10                    10  mg        ORAL       QD       HYPERTENSION                 Y       Treatment A        1     59  M      Y       15JAN2024   15JUN2024   10JAN2023                -370                  Y      Y        Y         Y             1  C09A      ACE INHIBITORS, PLAIN                   
+      SAS Dates: TRTSDT=23390 TRTEDT=23542 ASTDT=23020 AENDT= ASTDY=-370 AENDY= CMDURN= ADTEFN=1 TRTPN=1 AGE=59 CMSEQ=2 ASEQ=1 CMDOSE=10
+  2  STUDY01     STUDY01-1001         1     2  ASPIRIN           ASPIRIN             ANALGESICS                   2023-06-15                    81  mg        ORAL       QD       CARDIOVASCULAR PROTECTION    Y       Treatment A        1     59  M      Y       15JAN2024   15JUN2024   15JUN2023                -214                  Y      Y        Y         Y             1  N02       ANALGESICS                              
+      SAS Dates: TRTSDT=23390 TRTEDT=23542 ASTDT=23176 AENDT= ASTDY=-214 AENDY= CMDURN= ADTEFN=1 TRTPN=1 AGE=59 CMSEQ=1 ASEQ=2 CMDOSE=81
+  3  STUDY01     STUDY01-1001         3     3  ACETAMINOPHEN     PARACETAMOL         ANALGESICS                   2024-02-01  2024-02-03       500  mg        ORAL       PRN      HEADACHE                     N       Treatment A        1     59  M      Y       15JAN2024   15JUN2024   01FEB2024   03FEB2024      18      20       3  N      Y        Y         N             0  N02       ANALGESICS                              
+      SAS Dates: TRTSDT=23390 TRTEDT=23542 ASTDT=23407 AENDT=23409 ASTDY=18 AENDY=20 CMDURN=3 ADTEFN=0 TRTPN=1 AGE=59 CMSEQ=3 ASEQ=3 CMDOSE=500
+  4  STUDY01     STUDY01-1002         1     1  METFORMIN         METFORMIN           ANTIDIABETICS                2022-03-20                   500  mg        ORAL       BID      DIABETES                     Y       Placebo            2     45  F      Y       18JAN2024   18JUN2024   20MAR2022                -669                  Y      Y        Y         Y             1  A10       DRUGS USED IN DIABETES                  
+      SAS Dates: TRTSDT=23393 TRTEDT=23545 ASTDT=22724 AENDT= ASTDY=-669 AENDY= CMDURN= ADTEFN=1 TRTPN=2 AGE=45 CMSEQ=1 ASEQ=1 CMDOSE=500
+  5  STUDY01     STUDY01-1002         2     2  ATORVASTATIN      ATORVASTATIN        STATINS                      2023-08-01                    20  mg        ORAL       QD       HYPERLIPIDEMIA               Y       Placebo            2     45  F      Y       18JAN2024   18JUN2024   01AUG2023                -170                  Y      Y        Y         Y             1  C10AA     HMG COA REDUCTASE INHIBITORS            
+      SAS Dates: TRTSDT=23393 TRTEDT=23545 ASTDT=23223 AENDT= ASTDY=-170 AENDY= CMDURN= ADTEFN=1 TRTPN=2 AGE=45 CMSEQ=2 ASEQ=2 CMDOSE=20
+  6  STUDY01     STUDY01-1003         1     1  OMEPRAZOLE        OMEPRAZOLE          PROTON PUMP INHIBITORS       2024-01-15                    20  mg        ORAL       QD       GERD                         Y       Treatment A        1     43  M      Y       20JAN2024   01APR2024   15JAN2024                  -5                  Y      Y        Y         Y             1  A02BC     PROTON PUMP INHIBITORS                  
+      SAS Dates: TRTSDT=23395 TRTEDT=23467 ASTDT=23390 AENDT= ASTDY=-5 AENDY= CMDURN= ADTEFN=1 TRTPN=1 AGE=43 CMSEQ=1 ASEQ=1 CMDOSE=20
+  7  STUDY01     STUDY01-1003         2     2  IBUPROFEN         IBUPROFEN           NSAIDS                       2024-02-20  2024-02-22       400  mg        ORAL       TID      BACK PAIN                    N       Treatment A        1     43  M      Y       20JAN2024   01APR2024   20FEB2024   22FEB2024      32      34       3  N      Y        Y         N             0  M01A      ANTIINFLAMMATORY, ANTIRHEUMATIC NON-STEROIDS
+      SAS Dates: TRTSDT=23395 TRTEDT=23467 ASTDT=23426 AENDT=23428 ASTDY=32 AENDY=34 CMDURN=3 ADTEFN=0 TRTPN=1 AGE=43 CMSEQ=2 ASEQ=2 CMDOSE=400
+  8  STUDY01     STUDY01-1004         1     1  AMLODIPINE        AMLODIPINE          CALCIUM CHANNEL BLOCKERS     2023-05-10                     5  mg        ORAL       QD       HYPERTENSION                 Y       Treatment A        1     51  F      Y       25JAN2024   25JUN2024   10MAY2023                -260                  Y      Y        Y         Y             1  C08CA     DIHYDROPYRIDINE DERIVATIVES             
+      SAS Dates: TRTSDT=23400 TRTEDT=23552 ASTDT=23140 AENDT= ASTDY=-260 AENDY= CMDURN= ADTEFN=1 TRTPN=1 AGE=51 CMSEQ=1 ASEQ=1 CMDOSE=5
+  9  STUDY01     STUDY01-1005         1     1  LORATADINE        LORATADINE          ANTIHISTAMINES               2024-03-01  2024-03-15        10  mg        ORAL       QD       ALLERGIES                    N       Placebo            2     36  M      Y       28JAN2024               01MAR2024   15MAR2024      34      48      15  N      Y        Y         N             0  R06A      ANTIHISTAMINES FOR SYSTEMIC USE         
+      SAS Dates: TRTSDT=23403 TRTEDT= ASTDT=23436 AENDT=23450 ASTDY=34 AENDY=48 CMDURN=15 ADTEFN=0 TRTPN=2 AGE=36 CMSEQ=1 ASEQ=1 CMDOSE=10
+ 10  STUDY01     STUDY01-1006         1     1  LEVOTHYROXINE     LEVOTHYROXINE       THYROID HORMONES             2020-01-01                    75  mcg       ORAL       QD       HYPOTHYROIDISM               Y       Treatment A        1     68  F      Y       30JAN2024   01JUL2024   01JAN2020               -1490                  Y      Y        Y         Y             1  H03AA     THYROID HORMONES                        
+      SAS Dates: TRTSDT=23405 TRTEDT=23558 ASTDT=21915 AENDT= ASTDY=-1490 AENDY= CMDURN= ADTEFN=1 TRTPN=1 AGE=68 CMSEQ=1 ASEQ=1 CMDOSE=75
+ 11  STUDY01     STUDY01-1006         2     2  CALCIUM           CALCIUM CARBONATE   SUPPLEMENTS                  2023-09-01                   600  mg        ORAL       QD       BONE HEALTH                  Y       Treatment A        1     68  F      Y       30JAN2024   01JUL2024   01SEP2023                -151                  Y      Y        Y         Y             1  A12AA     CALCIUM                                 
+      SAS Dates: TRTSDT=23405 TRTEDT=23558 ASTDT=23254 AENDT= ASTDY=-151 AENDY= CMDURN= ADTEFN=1 TRTPN=1 AGE=68 CMSEQ=2 ASEQ=2 CMDOSE=600
+
+Summary Statistics
+-------------------------------
+Number of observations in data set WORK.ADCM is 11
+Number of variables in data set WORK.ADCM is 38
+Number of subjects is 6
+Number of records is 11
+Treatment A records 7  Placebo records 4
+Prior medications 6  On-treatment 11  Concomitant 11
+Ongoing at end 8  Completed 3
+Mean CMDOSE  189.3636  Min 5  Max 600  N 11
+Mean AGE  50.3333  Min 36  Max 68  N 6
+Mean ASTDY  -214.0909  Min -1485  Max 33  N 11
+Mean CMDURN  8.0000  Min 3  Max 15  N 3
+File Size 35248  Page Size 65536  Obs Length 808  Max Obs per Page 64  Obs in First Data Page 7
+SAS Version 9.0401  Release 9.04  Maintenance 01M7  Inode 35248  Page Count 1  File Size 35248
+Engine V9  Data Representation WINDOWS_64  Encoding wlatin1  Observations 11  Variables 38  Indexes 0  Deleted Observations 0
+Created 15JAN2024  Last Modified 15JAN2024  Protection NONE  Data Set Type DATA  Label NONE  Sorted YES
+Data Set Page Size 65536  Number of Data Set Pages 1  First Data Page 1  Max Obs per Page 64  Obs in First Data Page 7  Number of Data Set Repairs 0
+Variables 38  Observations 11  Observation Length 808  Deleted Observations 0  Compressed NO  Sorted YES  Indexes 0
+Numeric variables 12  Character variables 26  Total variables 38  Numeric missing 4  Character missing 9
+TRTPN values 1 2  TRTP values 2  SEX values 2  SAFFL values 1  PREFL values 2  ONTRTFL values 1  CONCOMFL values 1
+CMSEQ values 1 2 3  ASEQ values 1 2 3  CMDOSE values 5 10 20 81 75 400 500 600  ADTEFN values 0 1
+ASTDY values -214 -214 -214 -214 -214 -214 -214 -214 -214 -214 -214  ASTDY range -1485 to 33
+AENDY values 3 15  AENDY range 3 to 15  CMDURN values 3 15  CMDURN range 3 to 15
+ATC codes 10  ATC classes 10  ATC Level 1 codes 10  ATC Level 1 texts 10
+Page 1 of 1  Line 1 of 27  Column 1 of 38  Row 1 of 11  Obs 1 to 11  Variables 1 to 38
+End of PROC PRINT  End of PROC CONTENTS  End of Listing
+
+NOTE: There were 11 observations read from the data set WORK.ADCM.
+NOTE: PROCEDURE PRINT used (Total process time):
+      real time           0.04 seconds
+      cpu time            0.01 seconds
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.00 seconds
+

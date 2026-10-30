@@ -1,0 +1,32 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9354838709677419,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P059.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9354838709677419,
+   "detail": {
+    "recall": 0.9354838709677419,
+    "expected": 124,
+    "found": 116,
+    "r_files": [
+     "P059.csv",
+     "P059.txt",
+     "P059_detail.csv"
+    ],
+    "missing_examples": [
+     "14.2",
+     "12",
+     "100",
+     "-1",
+     "10.7",
+     "10.5"
+    ]
+   }
+  }
+ ]
+}

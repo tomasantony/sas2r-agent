@@ -1,0 +1,94 @@
+Program: P088_adeff.sas  Dataset: ADEFF (Efficacy Analysis Dataset - BDS Structure)
+====================================================================================================
+
+CONTENTS OF ADEFF
+----------------------------------------------------------------------------------------------------
+VarNum Variable     Label                          Type   Len    Format    
+----------------------------------------------------------------------------------------------------
+1      STUDYID      Study Identifier               Char   7                
+2      USUBJID      Unique Subject Identifier      Char   12               
+3      ASEQ         Analysis Sequence Number       Num    8                
+4      PARAMCD      Parameter Code                 Char   8                
+5      PARAM        Parameter                      Char   24               
+6      PARAMN       Parameter (N)                  Num    8                
+7      AVAL         Analysis Value                 Num    8                
+8      AVALC        Analysis Value (C)             Char   19               
+9      AVALU        Analysis Value Unit            Char   2                
+10     BASE         Baseline Value                 Num    8                
+11     CHG          Change from Baseline           Num    8                
+12     PCHG         Percent Change from Baseline   Num    8                
+13     ADT          Analysis Date                  Num    8      DATE9.    
+14     ADY          Analysis Relative Day          Num    8                
+15     AVISIT       Analysis Visit                 Char   13               
+16     AVISITN      Analysis Visit (N)             Num    8                
+17     ABLFL        Baseline Record Flag           Char   1                
+18     ANL01FL      Analysis Record Flag 01        Char   1                
+19     RSCAT        Response Category              Char   10               
+20     TRTP         Planned Treatment              Char   11               
+21     TRTPN        Planned Treatment (N)          Num    8                
+22     EFFFL        Efficacy Population Flag       Char   1                
+23     SAFFL        Safety Population Flag         Char   1                
+24     TRTSDT                                      Num    8      DATE9.    
+25     TRTEDT                                      Num    8      DATE9.    
+26     AGE                                         Num    8                
+27     SEX                                         Char   1                
+28     RESPFL                                      Char   1                
+
+====================================================================================================
+PRINT OF ADEFF
+----------------------------------------------------------------------------------------------------
+STUDYID      USUBJID         ASEQ PARAMCD    PARAMN PARAM                AVAL   AVALC        AVALU  BASE   CHG        PCHG       ADT          ADY    AVISIT     AVISITN ABLFL  ANL01FL RSCAT        TRTP            TRTPN  EFFFL 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+STUDY01 | STUDY01-1001 | 1 | OVRLRESP | 1 | Overall Response | 3 | STABLE DISEASE |  |  |  |  | 15JAN2024 | 1 | Baseline | 1 | Y |  | STABLE | Treatment A | 1 | Y | Y | 15JAN2024 | 15JUN2024
+STUDY01 | STUDY01-1001 | 2 | OVRLRESP | 1 | Overall Response | 3 | STABLE DISEASE |  |  |  |  | 11MAR2024 | 57 | Week 8 | 3 |  | Y | STABLE | Treatment A | 1 | Y | Y | 15JAN2024 | 15JUN2024
+STUDY01 | STUDY01-1001 | 3 | OVRLRESP | 1 | Overall Response | 2 | PARTIAL RESPONSE |  |  |  |  | 06MAY2024 | 113 | Week 16 | 4 |  | Y | RESPONDER | Treatment A | 1 | Y | Y | 15JAN2024 | 15JUN2024
+STUDY01 | STUDY01-1001 | 4 | OVRLRESP | 1 | Overall Response | 2 | PARTIAL RESPONSE |  |  |  |  | 01JUL2024 | 169 | Week 24 | 5 |  | Y | RESPONDER | Treatment A | 1 | Y | Y | 15JAN2024 | 15JUN2024
+STUDY01 | STUDY01-1001 | 5 | SUMDIAM | 2 | Sum of Longest Diameters | 45 |  | mm | 45 | 0 | 0 | 15JAN2024 | 1 | Baseline | 1 | Y |  |  | Treatment A | 1 | Y | Y | 15JAN2024 | 15JUN2024
+STUDY01 | STUDY01-1001 | 6 | SUMDIAM | 2 | Sum of Longest Diameters | 42 |  | mm | 45 | -3 | -6.66666666666667 | 11MAR2024 | 57 | Week 8 | 3 |  | Y |  | Treatment A | 1 | Y | Y | 15JAN2024 | 15JUN2024
+STUDY01 | STUDY01-1001 | 7 | SUMDIAM | 2 | Sum of Longest Diameters | 35 |  | mm | 45 | -10 | -22.2222222222222 | 06MAY2024 | 113 | Week 16 | 4 |  | Y |  | Treatment A | 1 | Y | Y | 15JAN2024 | 15JUN2024
+STUDY01 | STUDY01-1001 | 8 | SUMDIAM | 2 | Sum of Longest Diameters | 30 |  | mm | 45 | -15 | -33.3333333333333 | 01JUL2024 | 169 | Week 24 | 5 |  | Y |  | Treatment A | 1 | Y | Y | 15JAN2024 | 15JUN2024
+STUDY01 | STUDY01-1001 | 9 | BOR | 3 | Best Overall Response | 2 | PARTIAL RESPONSE |  |  |  |  | 06MAY2024 | 113 | Best Response | 99 |  | Y | RESPONDER | Treatment A | 1 | Y | Y | 15JAN2024 | 15JUN2024
+STUDY01 | STUDY01-1001 | 10 | RESPFL | 4 | Objective Response Flag | 1 | Y |  |  |  |  | 06MAY2024 | 113 | Best Response | 99 |  | Y |  | Treatment A | 1 | Y | Y | 15JAN2024 | 15JUN2024
+STUDY01 | STUDY01-1001 | 11 | NADIRTUM | 5 | Nadir Tumor Size | 30 |  | mm | 45 | -15 | -33.3333333333333 |  |  | Nadir | 98 |  | Y |  | Treatment A | 1 | Y | Y | 15JAN2024 | 15JUN2024
+STUDY01 | STUDY01-1002 | 1 | OVRLRESP | 1 | Overall Response | 3 | STABLE DISEASE |  |  |  |  | 18JAN2024 | 1 | Baseline | 1 | Y |  | STABLE | Placebo | 2 | Y | Y | 18JAN2024 | 18JUN2024
+STUDY01 | STUDY01-1002 | 2 | OVRLRESP | 1 | Overall Response | 3 | STABLE DISEASE |  |  |  |  | 14MAR2024 | 57 | Week 8 | 3 |  | Y | STABLE | Placebo | 2 | Y | Y | 18JAN2024 | 18JUN2024
+STUDY01 | STUDY01-1002 | 3 | OVRLRESP | 1 | Overall Response | 4 | PROGRESSIVE DISEASE |  |  |  |  | 09MAY2024 | 113 | Week 16 | 4 |  | Y | PROGRESSOR | Placebo | 2 | Y | Y | 18JAN2024 | 18JUN2024
+STUDY01 | STUDY01-1002 | 4 | SUMDIAM | 2 | Sum of Longest Diameters | 38 |  | mm | 38 | 0 | 0 | 18JAN2024 | 1 | Baseline | 1 | Y |  |  | Placebo | 2 | Y | Y | 18JAN2024 | 18JUN2024
+STUDY01 | STUDY01-1002 | 5 | SUMDIAM | 2 | Sum of Longest Diameters | 40 |  | mm | 38 | 2 | 5.26315789473684 | 14MAR2024 | 57 | Week 8 | 3 |  | Y |  | Placebo | 2 | Y | Y | 18JAN2024 | 18JUN2024
+STUDY01 | STUDY01-1002 | 6 | SUMDIAM | 2 | Sum of Longest Diameters | 52 |  | mm | 38 | 14 | 36.8421052631579 | 09MAY2024 | 113 | Week 16 | 4 |  | Y |  | Placebo | 2 | Y | Y | 18JAN2024 | 18JUN2024
+STUDY01 | STUDY01-1002 | 7 | BOR | 3 | Best Overall Response | 3 | STABLE DISEASE |  |  |  |  | 14MAR2024 | 57 | Best Response | 99 |  | Y | STABLE | Placebo | 2 | Y | Y | 18JAN2024 | 18JUN2024
+STUDY01 | STUDY01-1002 | 8 | RESPFL | 4 | Objective Response Flag | 0 | N |  |  |  |  | 14MAR2024 | 57 | Best Response | 99 |  | Y |  | Placebo | 2 | Y | Y | 18JAN2024 | 18JUN2024
+STUDY01 | STUDY01-1002 | 9 | NADIRTUM | 5 | Nadir Tumor Size | 40 |  | mm | 38 | 2 | 5.26315789473684 |  |  | Nadir | 98 |  | Y |  | Placebo | 2 | Y | Y | 18JAN2024 | 18JUN2024
+STUDY01 | STUDY01-1003 | 1 | OVRLRESP | 1 | Overall Response | 3 | STABLE DISEASE |  |  |  |  | 20JAN2024 | 1 | Baseline | 1 | Y |  | STABLE | Treatment A | 1 | Y | Y | 20JAN2024 | 01APR2024
+STUDY01 | STUDY01-1003 | 2 | OVRLRESP | 1 | Overall Response | 2 | PARTIAL RESPONSE |  |  |  |  | 16MAR2024 | 57 | Week 8 | 3 |  | Y | RESPONDER | Treatment A | 1 | Y | Y | 20JAN2024 | 01APR2024
+STUDY01 | STUDY01-1003 | 3 | OVRLRESP | 1 | Overall Response | 1 | COMPLETE RESPONSE |  |  |  |  | 11MAY2024 | 113 | Week 16 | 4 |  | Y | RESPONDER | Treatment A | 1 | Y | Y | 20JAN2024 | 01APR2024
+STUDY01 | STUDY01-1003 | 4 | SUMDIAM | 2 | Sum of Longest Diameters | 55 |  | mm | 55 | 0 | 0 | 20JAN2024 | 1 | Baseline | 1 | Y |  |  | Treatment A | 1 | Y | Y | 20JAN2024 | 01APR2024
+STUDY01 | STUDY01-1003 | 5 | SUMDIAM | 2 | Sum of Longest Diameters | 40 |  | mm | 55 | -15 | -27.2727272727273 | 16MAR2024 | 57 | Week 8 | 3 |  | Y |  | Treatment A | 1 | Y | Y | 20JAN2024 | 01APR2024
+STUDY01 | STUDY01-1003 | 6 | SUMDIAM | 2 | Sum of Longest Diameters | 0 |  | mm | 55 | -55 | -100 | 11MAY2024 | 113 | Week 16 | 4 |  | Y |  | Treatment A | 1 | Y | Y | 20JAN2024 | 01APR2024
+STUDY01 | STUDY01-1003 | 7 | BOR | 3 | Best Overall Response | 1 | COMPLETE RESPONSE |  |  |  |  | 11MAY2024 | 113 | Best Response | 99 |  | Y | RESPONDER | Treatment A | 1 | Y | Y | 20JAN2024 | 01APR2024
+STUDY01 | STUDY01-1003 | 8 | RESPFL | 4 | Objective Response Flag | 1 | Y |  |  |  |  | 11MAY2024 | 113 | Best Response | 99 |  | Y |  | Treatment A | 1 | Y | Y | 20JAN2024 | 01APR2024
+STUDY01 | STUDY01-1003 | 9 | NADIRTUM | 5 | Nadir Tumor Size | 0 |  | mm | 55 | -55 | -100 |  |  | Nadir | 98 |  | Y |  | Treatment A | 1 | Y | Y | 20JAN2024 | 01APR2024
+STUDY01 | STUDY01-1004 | 1 | OVRLRESP | 1 | Overall Response | 3 | STABLE DISEASE |  |  |  |  | 25JAN2024 | 1 | Baseline | 1 | Y |  | STABLE | Treatment A | 1 | Y | Y | 25JAN2024 | 25JUN2024
+STUDY01 | STUDY01-1004 | 2 | OVRLRESP | 1 | Overall Response | 3 | STABLE DISEASE |  |  |  |  | 21MAR2024 | 57 | Week 8 | 3 |  | Y | STABLE | Treatment A | 1 | Y | Y | 25JAN2024 | 25JUN2024
+STUDY01 | STUDY01-1004 | 3 | SUMDIAM | 2 | Sum of Longest Diameters | 32 |  | mm | 32 | 0 | 0 | 25JAN2024 | 1 | Baseline | 1 | Y |  |  | Treatment A | 1 | Y | Y | 25JAN2024 | 25JUN2024
+STUDY01 | STUDY01-1004 | 4 | SUMDIAM | 2 | Sum of Longest Diameters | 30 |  | mm | 32 | -2 | -6.25 | 21MAR2024 | 57 | Week 8 | 3 |  | Y |  | Treatment A | 1 | Y | Y | 25JAN2024 | 25JUN2024
+STUDY01 | STUDY01-1004 | 5 | BOR | 3 | Best Overall Response | 3 | STABLE DISEASE |  |  |  |  | 21MAR2024 | 57 | Best Response | 99 |  | Y | STABLE | Treatment A | 1 | Y | Y | 25JAN2024 | 25JUN2024
+STUDY01 | STUDY01-1004 | 6 | RESPFL | 4 | Objective Response Flag | 0 | N |  |  |  |  | 21MAR2024 | 57 | Best Response | 99 |  | Y |  | Treatment A | 1 | Y | Y | 25JAN2024 | 25JUN2024
+STUDY01 | STUDY01-1004 | 7 | NADIRTUM | 5 | Nadir Tumor Size | 30 |  | mm | 32 | -2 | -6.25 |  |  | Nadir | 98 |  | Y |  | Treatment A | 1 | Y | Y | 25JAN2024 | 25JUN2024
+STUDY01 | STUDY01-1005 | 1 | OVRLRESP | 1 | Overall Response | 3 | STABLE DISEASE |  |  |  |  | 28JAN2024 | 1 | Baseline | 1 | Y |  | STABLE | Placebo | 2 | Y | Y | 28JAN2024 | 
+STUDY01 | STUDY01-1005 | 2 | OVRLRESP | 1 | Overall Response | 4 | PROGRESSIVE DISEASE |  |  |  |  | 24MAR2024 | 57 | Week 8 | 3 |  | Y | PROGRESSOR | Placebo | 2 | Y | Y | 28JAN2024 | 
+STUDY01 | STUDY01-1005 | 3 | SUMDIAM | 2 | Sum of Longest Diameters | 28 |  | mm | 28 | 0 | 0 | 28JAN2024 | 1 | Baseline | 1 | Y |  |  | Placebo | 2 | Y | Y | 28JAN2024 | 
+STUDY01 | STUDY01-1005 | 4 | SUMDIAM | 2 | Sum of Longest Diameters | 42 |  | mm | 28 | 14 | 50 | 24MAR2024 | 57 | Week 8 | 3 |  | Y |  | Placebo | 2 | Y | Y | 28JAN2024 | 
+STUDY01 | STUDY01-1005 | 5 | BOR | 3 | Best Overall Response | 4 | PROGRESSIVE DISEASE |  |  |  |  | 24MAR2024 | 57 | Best Response | 99 |  | Y | PROGRESSOR | Placebo | 2 | Y | Y | 28JAN2024 | 
+STUDY01 | STUDY01-1005 | 6 | RESPFL | 4 | Objective Response Flag | 0 | N |  |  |  |  | 24MAR2024 | 57 | Best Response | 99 |  | Y |  | Placebo | 2 | Y | Y | 28JAN2024 | 
+STUDY01 | STUDY01-1005 | 7 | NADIRTUM | 5 | Nadir Tumor Size | 42 |  | mm | 28 | 14 | 50 |  |  | Nadir | 98 |  | Y |  | Placebo | 2 | Y | Y | 28JAN2024 | 
+STUDY01 | STUDY01-1006 | 1 | OVRLRESP | 1 | Overall Response | 3 | STABLE DISEASE |  |  |  |  | 30JAN2024 | 1 | Baseline | 1 | Y |  | STABLE | Treatment A | 1 | Y | Y | 30JAN2024 | 01JUL2024
+STUDY01 | STUDY01-1006 | 2 | OVRLRESP | 1 | Overall Response | 2 | PARTIAL RESPONSE |  |  |  |  | 26MAR2024 | 57 | Week 8 | 3 |  | Y | RESPONDER | Treatment A | 1 | Y | Y | 30JAN2024 | 01JUL2024
+STUDY01 | STUDY01-1006 | 3 | SUMDIAM | 2 | Sum of Longest Diameters | 48 |  | mm | 48 | 0 | 0 | 30JAN2024 | 1 | Baseline | 1 | Y |  |  | Treatment A | 1 | Y | Y | 30JAN2024 | 01JUL2024
+STUDY01 | STUDY01-1006 | 4 | SUMDIAM | 2 | Sum of Longest Diameters | 36 |  | mm | 48 | -12 | -25 | 26MAR2024 | 57 | Week 8 | 3 |  | Y |  | Treatment A | 1 | Y | Y | 30JAN2024 | 01JUL2024
+STUDY01 | STUDY01-1006 | 5 | BOR | 3 | Best Overall Response | 2 | PARTIAL RESPONSE |  |  |  |  | 26MAR2024 | 57 | Best Response | 99 |  | Y | RESPONDER | Treatment A | 1 | Y | Y | 30JAN2024 | 01JUL2024
+STUDY01 | STUDY01-1006 | 6 | RESPFL | 4 | Objective Response Flag | 1 | Y |  |  |  |  | 26MAR2024 | 57 | Best Response | 99 |  | Y |  | Treatment A | 1 | Y | Y | 30JAN2024 | 01JUL2024
+STUDY01 | STUDY01-1006 | 7 | NADIRTUM | 5 | Nadir Tumor Size | 36 |  | mm | 48 | -12 | -25 |  |  | Nadir | 98 |  | Y |  | Treatment A | 1 | Y | Y | 30JAN2024 | 01JUL2024
+
+Total observations: 50
+Total variables: 28

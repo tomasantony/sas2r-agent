@@ -1,0 +1,45 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P083.lst",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 291,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "6",
+     "35",
+     "9",
+     "0",
+     "10",
+     "27",
+     "2026",
+     "15",
+     "59",
+     "496",
+     "64",
+     "1"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adsl",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "adsl.csv"
+   }
+  }
+ ]
+}

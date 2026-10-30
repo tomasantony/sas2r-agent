@@ -1,0 +1,50 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9243156199677939,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P055.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.8486312399355878,
+   "detail": {
+    "recall": 0.8486312399355878,
+    "expected": 1242,
+    "found": 1054,
+    "r_files": [
+     "anno2.csv",
+     "ci.csv",
+     "final.csv",
+     "P055.lst.csv",
+     "P055.lst.txt"
+    ],
+    "missing_examples": [
+     "38",
+     "102",
+     "125",
+     "129",
+     "130",
+     "131",
+     "151",
+     "152",
+     "156",
+     "157",
+     "158",
+     "159"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "sasgraph.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\gpt-oss-120b-ollama\\P055\\attempt_2\\out\\sasgraph.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  }
+ ]
+}

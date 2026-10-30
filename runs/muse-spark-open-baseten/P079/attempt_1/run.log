@@ -1,0 +1,20 @@
+sandbox: docker run --rm --name sas2r-fa7ce667751c --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-baseten\P079\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Error in `transmute()`:
+ℹ In argument: `TRTA = TRTA`.
+Caused by error:
+! object 'TRTA' not found
+Backtrace:
+     ▆
+  1. ├─... %>% arrange(TRTA, USUBJID, START_DATE)
+  2. ├─dplyr::arrange(., TRTA, USUBJID, START_DATE)
+  3. ├─dplyr::transmute(...)
+  4. ├─dplyr:::transmute.data.frame(...)
+  5. │ └─dplyr:::mutate_cols(.data, dots, by)
+  6. │   ├─base::withCallingHandlers(...)
+  7. │   └─dplyr:::mutate_col(dots[[i]], data, mask, new_columns)
+  8. │     └─mask$eval_all_mutate(quo)
+  9. │       └─dplyr (local) eval()
+ 10. └─base::.handleSimpleError(`<fn>`, "object 'TRTA' not found", base::quote(NULL))
+ 11.   └─dplyr (local) h(simpleError(msg, call))
+ 12.     └─rlang::abort(message, class = error_class, parent = parent, call = error_call)
+Execution halted

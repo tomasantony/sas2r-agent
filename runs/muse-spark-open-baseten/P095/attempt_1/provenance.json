@@ -1,0 +1,63 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P095",
+ "provider": "muse-spark-open-baseten",
+ "model": "meta-models/muse-spark-open-1026",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T20:25:23",
+ "agent_commit": "54b8b9726c4dcbbd11954be09ec9c716e7539c90",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 1615,
+  "output_tokens": 6137,
+  "reasoning_tokens": 4159,
+  "finish_reason": "stop",
+  "seconds": 22.3
+ },
+ "inputs": {
+  "prompt_translate.md": "26a17b635c45da8a7090801fd540287d9881d149e4b98d72c5091311597cf298"
+ },
+ "model_output": {
+  "response.md": "74ad8576dbf92583e3054e876e47c73afb14626895e3cb79b204c55af9f1a58f",
+  "reasoning.md": "2cb69836c1c7c5abad3c3edcf37dcf7b6fbf3035f911a87b872dc9e102947580",
+  "script.R": "806bcd7f107208ae742c62e68cab9c3113e092482e4d89f91b4d52ac97e22958"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.3,
+  "timed_out": false,
+  "log_sha256": "a0a17551e2d45cadf27747548587e877c7e4df9bdb393b4fc1f7570eacf8d033"
+ },
+ "r_outputs": {
+  "tumorsize_band_sg_v94.csv": "5237c3ef2a534d6118cff30c85c70ebf0e536c354e9af4786e2554592437df5c",
+  "tumorsize_band_sg_v94.png": "fb39d6200aba52c159427de2f72e0a8210f3648b10a456c1b3af4f042c6b56ff",
+  "tumorsize_band_sg_v94.txt": "6918af3922e023b72b1156d3a70641e5f3a2151c6c602d49fd2fbff7418eef8d"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P095/TumorSize_Band_SG_V94.png",
+   "sha256": "4b8acabca114ec403a0e42a901b17f4b7e3503da3f84855597b319492aed0b8c",
+   "frozen_sha256": "4b8acabca114ec403a0e42a901b17f4b7e3503da3f84855597b319492aed0b8c",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P056.lst",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 146,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "1",
+     "0",
+     "77",
+     "6",
+     "83",
+     "30.92",
+     "2.41",
+     "33.33",
+     "92.77",
+     "7.23",
+     "34.07",
+     "26.09"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  }
+ ]
+}

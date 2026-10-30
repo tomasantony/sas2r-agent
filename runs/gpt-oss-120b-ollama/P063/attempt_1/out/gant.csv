@@ -1,0 +1,7 @@
+st,en,SUBJID,AETERM,AESTDY,AEENDY,ar1,ar2,ar3,ar4,ar5,ar6,ar7,ar8,ar9,ar10,ar11,ar12,ar13,ar14,ar15,ar16,ar17,ar18,ar19,ar20,ar21,ar22,ar23,ar24,ar25,ar26,ar27,ar28,ar29,ar30,ar31,ar32
+3,7,AAA,Adverse Event1,1,5,,,Y,Y,Y,Y,Y,,,,,,,,,,,,,,,,,,,,,,,,,
+5,10,AAA,Adverse Event2,3,8,,,,,Y,Y,Y,Y,Y,Y,,,,,,,,,,,,,,,,,,,,,,
+4,32,BBB,Adverse Event1,2,30,,,,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+1,5,BBB,Adverse Event2,-2,3,Y,Y,Y,Y,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,
+6,,BBB,Adverse Event3,4,,,,,,,Y,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+17,22,CCC,Adverse Event1,15,20,,,,,,,,,,,,,,,,,Y,Y,Y,Y,Y,Y,,,,,,,,,,

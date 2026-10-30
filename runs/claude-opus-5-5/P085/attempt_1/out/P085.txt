@@ -1,0 +1,101 @@
+The CONTENTS Procedure - WORK.ADLB
+Observations: 14   Variables: 37
+  1  STUDYID
+  2  USUBJID
+  3  LBSEQ
+  4  TRTP
+  5  TRTPN
+  6  AGE
+  7  SEX
+  8  TRTSDT
+  9  TRTEDT
+ 10  SAFFL
+ 11  PARAMCD
+ 12  PARAM
+ 13  PARAMN
+ 14  PARCAT1
+ 15  AVAL
+ 16  AVALC
+ 17  AVALU
+ 18  ADT
+ 19  ADY
+ 20  AVISIT
+ 21  AVISITN
+ 22  ANRLO
+ 23  ANRHI
+ 24  ANRIND
+ 25  ABLFL
+ 26  ANL01FL
+ 27  A1LO
+ 28  A1HI
+ 29  SHIFT1
+ 30  BNRIND
+ 31  BASE
+ 32  CHG
+ 33  PCHG
+ 34  R2A1HI
+ 35  BR2A1HI
+ 36  ANRIND2
+ 37  ASEQ
+
+PROC PRINT data=adlb(obs=20) noobs
+ STUDYID      USUBJID LBSEQ        TRTP TRTPN AGE SEX    TRTSDT    TRTEDT SAFFL
+ STUDY01 STUDY01-1001     1 Treatment A     1  59   M 15JAN2024 15JUN2024     Y
+ STUDY01 STUDY01-1001     4 Treatment A     1  59   M 15JAN2024 15JUN2024     Y
+ STUDY01 STUDY01-1001     6 Treatment A     1  59   M 15JAN2024 15JUN2024     Y
+ STUDY01 STUDY01-1001     2 Treatment A     1  59   M 15JAN2024 15JUN2024     Y
+ STUDY01 STUDY01-1001     5 Treatment A     1  59   M 15JAN2024 15JUN2024     Y
+ STUDY01 STUDY01-1001     3 Treatment A     1  59   M 15JAN2024 15JUN2024     Y
+ STUDY01 STUDY01-1002     1     Placebo     2  45   F 18JAN2024 18JUN2024     Y
+ STUDY01 STUDY01-1002     2     Placebo     2  45   F 18JAN2024 18JUN2024     Y
+ STUDY01 STUDY01-1003     1 Treatment A     1  43   M 20JAN2024 01APR2024     Y
+ STUDY01 STUDY01-1003     2 Treatment A     1  43   M 20JAN2024 01APR2024     Y
+ STUDY01 STUDY01-1003     3 Treatment A     1  43   M 20JAN2024 01APR2024     Y
+ STUDY01 STUDY01-1004     1 Treatment A     1  51   F 25JAN2024 25JUN2024     Y
+ STUDY01 STUDY01-1005     1     Placebo     2  36   M 28JAN2024         .     Y
+ STUDY01 STUDY01-1006     1 Treatment A     1  68   F 30JAN2024 01JUL2024     Y
+ PARAMCD                      PARAM PARAMN   PARCAT1 AVAL AVALC AVALU       ADT
+     ALT   Alanine Aminotransferase      1 CHEMISTRY   24         U/L 15JAN2024
+     ALT   Alanine Aminotransferase      1 CHEMISTRY   28         U/L 12FEB2024
+     ALT   Alanine Aminotransferase      1 CHEMISTRY   32         U/L 11MAR2024
+     AST Aspartate Aminotransferase      2 CHEMISTRY   26         U/L 15JAN2024
+     AST Aspartate Aminotransferase      2 CHEMISTRY   30         U/L 12FEB2024
+   CREAT                 Creatinine      5 CHEMISTRY  0.9       mg/dL 15JAN2024
+     ALT   Alanine Aminotransferase      1 CHEMISTRY   18         U/L 18JAN2024
+     ALT   Alanine Aminotransferase      1 CHEMISTRY   20         U/L 15FEB2024
+     ALT   Alanine Aminotransferase      1 CHEMISTRY   35         U/L 20JAN2024
+     ALT   Alanine Aminotransferase      1 CHEMISTRY   95         U/L 17FEB2024
+     ALT   Alanine Aminotransferase      1 CHEMISTRY  180         U/L 15MAR2024
+     ALT   Alanine Aminotransferase      1 CHEMISTRY   20         U/L 25JAN2024
+     ALT   Alanine Aminotransferase      1 CHEMISTRY   19         U/L 28JAN2024
+     ALT   Alanine Aminotransferase      1 CHEMISTRY   30         U/L 30JAN2024
+ ADY   AVISIT AVISITN ANRLO ANRHI ANRIND ABLFL ANL01FL A1LO A1HI
+   1 Baseline       1     7    56 NORMAL                  7   56
+  29   Week 4       2     7    56 NORMAL             Y    7   56
+  57   Week 8       3     7    56 NORMAL             Y    7   56
+   1 Baseline       1    10    40 NORMAL                 10   40
+  29   Week 4       2    10    40 NORMAL             Y   10   40
+   1 Baseline       1   0.7   1.3 NORMAL     Y          0.7  1.3
+   1 Baseline       1     7    56 NORMAL                  7   56
+  29   Week 4       2     7    56 NORMAL             Y    7   56
+   1 Baseline       1     7    56 NORMAL                  7   56
+  29   Week 4       2     7    56   HIGH             Y    7   56
+  56   Week 8       3     7    56   HIGH             Y    7   56
+   1 Baseline       1     7    56 NORMAL     Y            7   56
+   1 Baseline       1     7    56 NORMAL     Y            7   56
+   1 Baseline       1     7    56 NORMAL     Y            7   56
+           SHIFT1 BNRIND BASE CHG PCHG       R2A1HI      BR2A1HI ANRIND2 ASEQ
+                            .   .    . 0.4285714286            .  NORMAL    1
+                            .   .    .          0.5            .  NORMAL    2
+                            .   .    . 0.5714285714            .  NORMAL    3
+                            .   .    .         0.65            .  NORMAL    4
+                            .   .    .         0.75            .  NORMAL    5
+ NORMAL to NORMAL NORMAL  0.9   0    0 0.6923076923 0.6923076923  NORMAL    6
+                            .   .    . 0.3214285714            .  NORMAL    1
+                            .   .    . 0.3571428571            .  NORMAL    2
+                            .   .    .        0.625            .  NORMAL    1
+                            .   .    .  1.696428571            .    HIGH    2
+                            .   .    .  3.214285714            .  >3xULN    3
+ NORMAL to NORMAL NORMAL   20   0    0 0.3571428571 0.3571428571  NORMAL    1
+ NORMAL to NORMAL NORMAL   19   0    0 0.3392857143 0.3392857143  NORMAL    1
+ NORMAL to NORMAL NORMAL   30   0    0 0.5357142857 0.5357142857  NORMAL    1

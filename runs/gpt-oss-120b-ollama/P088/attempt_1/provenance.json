@@ -1,0 +1,85 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P088",
+ "provider": "gpt-oss-120b-ollama",
+ "model": "gpt-oss:120b",
+ "attempt": 1,
+ "recorded_at": "2026-10-29T20:26:24",
+ "agent_commit": "54b8b9726c4dcbbd11954be09ec9c716e7539c90",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 7613,
+  "output_tokens": 5594,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 11.1
+ },
+ "inputs": {
+  "prompt_translate.md": "7733030421d014bf947d21a189174d67cb65ef7f96a4de90f848d36fb2e25810"
+ },
+ "model_output": {
+  "response.md": "ef4ed848f9d9d3f9eea34af61b18e6385605d0f4de77e7be4b1510f779689765",
+  "reasoning.md": "bc51ec6c4f866c18f2d03fd5fc56b1dc694b5f1bcac64dc784048e027c0a7b24",
+  "script.R": "4d6550bb6ff254de78a727978bcd4559ec97f8930a1b9c6862539a9710f33e7a"
+ },
+ "r_run": {
+  "rc": 1,
+  "seconds": 1.7,
+  "timed_out": false,
+  "log_sha256": "e17fba7e92d8d6c882ba5795850f570e0576f85369aba75f32160a94c63c8f96"
+ },
+ "r_outputs": {
+  "adsl.csv": "7e29ad063bfc2572485232e39d088e91dae382a5864586e507c29d024eeb14f8"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P088.lst",
+   "sha256": "290dd9d3701e2b36cddfa2618c8c436bdb3131baa8eb72cc2c311af24526df71",
+   "frozen_sha256": "290dd9d3701e2b36cddfa2618c8c436bdb3131baa8eb72cc2c311af24526df71",
+   "ok": true
+  },
+  {
+   "file": "datasets/P088/adeff.sas7bdat",
+   "sha256": "431b9fdcbd482d12dcfd402173366e6d8ed7da2f36811f51190cd32a250bb170",
+   "frozen_sha256": "431b9fdcbd482d12dcfd402173366e6d8ed7da2f36811f51190cd32a250bb170",
+   "ok": true
+  },
+  {
+   "file": "datasets/P088/adeff_resp.sas7bdat",
+   "sha256": "55189c93e252240ec36d4a371967d14e46c2d065cf431a17542d109875881ec1",
+   "frozen_sha256": "55189c93e252240ec36d4a371967d14e46c2d065cf431a17542d109875881ec1",
+   "ok": true
+  },
+  {
+   "file": "datasets/P088/adeff_tumor.sas7bdat",
+   "sha256": "b871302f3f2f16ce406cb403b0ddd96d857d4f6edbbcd5450b5750a1a85920d7",
+   "frozen_sha256": "b871302f3f2f16ce406cb403b0ddd96d857d4f6edbbcd5450b5750a1a85920d7",
+   "ok": true
+  },
+  {
+   "file": "datasets/P088/adsl.sas7bdat",
+   "sha256": "201a550eaf638a411f6ecd105d8a66fd6cfa48377c78bd5925e6c34df8638896",
+   "frozen_sha256": "201a550eaf638a411f6ecd105d8a66fd6cfa48377c78bd5925e6c34df8638896",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.21005917159763313,
+  "produced_all": false
+ }
+}

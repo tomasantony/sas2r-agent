@@ -1,0 +1,31 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.952054794520548,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P056.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.952054794520548,
+   "detail": {
+    "recall": 0.952054794520548,
+    "expected": 146,
+    "found": 139,
+    "r_files": [
+     "all_n.csv",
+     "P056.csv",
+     "P056.txt",
+     "table_vals.csv"
+    ],
+    "missing_examples": [
+     "1",
+     "2",
+     "0.0208",
+     "0.0125"
+    ]
+   }
+  }
+ ]
+}

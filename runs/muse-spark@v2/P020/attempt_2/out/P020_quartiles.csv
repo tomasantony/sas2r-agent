@@ -1,0 +1,7 @@
+"TRT01A","PERCENT","ESTIMATE","LOWER","UPPER"
+"Active Drug 50mg",75,,69,
+"Active Drug 50mg",50,69,32,
+"Active Drug 50mg",25,32,3,66
+"Placebo",75,,62,
+"Placebo",50,40,21,
+"Placebo",25,17,9,24

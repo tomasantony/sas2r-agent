@@ -1,0 +1,30 @@
+Change in Tumor Size
+ITT Population
+
+Cid        Change Group        Label
+----------------------------------------
+25        27.2837 Treatment 1      E
+ 4        19.6850 Treatment 2      P
+24        18.1090 Treatment 2      P
+ 5        18.0494 Treatment 2      E
+12        15.9470 Treatment 1      R
+15        10.1804 Treatment 1      E
+18         8.4815 Treatment 1      S
+14        -2.2858 Treatment 2      P
+21        -9.9663 Treatment 1      C
+20       -13.0862 Treatment 2      E
+ 1       -14.3910 Treatment 1      C
+11       -15.1768 Treatment 1      C
+16       -24.8068 Treatment 2      C
+ 9       -35.4268 Treatment 2      P
+22       -41.7095 Treatment 1      R
+ 6       -46.6365 Treatment 2      C
+ 7       -54.8146 Treatment 2      R
+19       -63.8502 Treatment 1      P
+ 2       -65.9578 Treatment 1      R
+23       -66.1130 Treatment 2      S
+ 3       -71.1846 Treatment 1      S
+17       -73.4913 Treatment 1      R
+ 8       -79.6857 Treatment 1      S
+13       -84.1894 Treatment 1      S
+10       -84.4236 Treatment 2      E

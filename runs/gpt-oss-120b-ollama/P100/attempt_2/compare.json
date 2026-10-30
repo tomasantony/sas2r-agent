@@ -1,0 +1,77 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P100.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.8,
+   "detail": {
+    "recall": 0.8,
+    "expected": 25,
+    "found": 20,
+    "r_files": [
+     "P100_lst.csv",
+     "sashtml.htm",
+     "tumorsize_band_sg_v94_data.csv",
+     "tumorsize_sg_v94_data.csv"
+    ],
+    "missing_examples": [
+     "-14.391",
+     "-65.9578",
+     "-71.1846",
+     "19.685",
+     "18.0494"
+    ]
+   }
+  },
+  {
+   "kind": "text",
+   "name": "sashtml.htm",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.8,
+   "detail": {
+    "recall": 0.8,
+    "expected": 25,
+    "found": 20,
+    "r_files": [
+     "P100_lst.csv",
+     "sashtml.htm",
+     "tumorsize_band_sg_v94_data.csv",
+     "tumorsize_sg_v94_data.csv"
+    ],
+    "missing_examples": [
+     "-14.391",
+     "-65.9578",
+     "-71.1846",
+     "19.685",
+     "18.0494"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "TumorSize_Band_SG_V94.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\gpt-oss-120b-ollama\\P100\\attempt_2\\out\\tumorsize_band_sg_v94.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "TumorSize_SG_V94.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\gpt-oss-120b-ollama\\P100\\attempt_2\\out\\tumorsize_sg_v94.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  }
+ ]
+}
