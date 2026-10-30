@@ -1,50 +1,50 @@
 [
  [
   "s01",
-  "Clinical trials use SAS programs to create their datasets, tables, listings and figures. The industry is moving to R, and each program has to be translated, and then proven to give the same result as the SAS original. Done by hand, that is weeks per study, and the proof is the expensive part."
+  "I translate SAS programs to R for clinical trials. Every trial's datasets, tables, listings and figures come out of SAS programs, and the industry is moving to R. Each program has to be rewritten, then checked against the SAS original. The checking is the slow part: QC is thirty to fifty percent of the programming effort, and this year the FDA started asking sponsors for exactly this kind of cross-validation."
  ],
  [
   "s02",
-  "sas2r-agent does both. It translates each program with a Meta model, and it proves equivalence by running the R and comparing every output against the SAS reference. This is the leaderboard of that proof, over one hundred programs."
+  "So I built sas2r-agent. It uses Muse Spark to write the R, runs it, and checks every output against the SAS reference. This is the leaderboard of those checks, over one hundred programs."
  ],
  [
   "s03",
-  "One loop, four roles. The context builder reads the SAS program, its inputs and the SAS outputs to match. The translator, Muse Spark 1.3 through the Meta Model API, writes one R script. A sandbox with no network runs it. The comparator checks every output against the SAS reference and sends the differences back as a repair prompt. Up to three attempts."
+  "One loop, four roles. The context builder reads the SAS program, its inputs, and the outputs it produced. Muse Spark 1.3, through the Meta Model API, writes one R script. A sandbox with no network runs it. The comparator checks the outputs against the SAS reference and sends the differences back as a repair prompt. Up to three tries."
  ],
  [
   "s04",
-  "Here it is on two programs. The first matches on the first attempt. The second did not: the comparator reported which numbers were missing, sent them back as a repair prompt, and the second attempt matched."
+  "Here it is on two programs. The first matches on the first try. The second doesn't: the comparator lists the numbers that are missing, sends them back, and the second try matches."
  ],
  [
   "s04b",
-  "This is what equivalent means. On the left, the figure SAS produced; on the right, the figure from the generated R: the same curves, the same numbers at risk. Below, a statistics table: every value identical to four decimals."
+  "This is what a match looks like. The SAS figure on the left, the figure from the generated R on the right: same curves, same numbers at risk. Below, a statistics table, identical to four decimals."
  ],
  [
   "s05",
-  "Every attempt leaves a provenance record: hashes of the prompt, the answer, the script, every output and the SAS reference, chained into an append-only ledger that verify recomputes."
+  "Every try leaves a provenance record: hashes of the prompt, the answer, the script, every output and the SAS reference, chained into an append-only ledger that verify recomputes."
  ],
  [
   "s06",
-  "The benchmark is one hundred public SAS programs, run in real SAS for the reference outputs. Claude Opus 5.5 is the baseline at ninety-seven percent. Muse Spark 1.3 reaches ninety-five, at half the price per correct translation."
+  "The benchmark is one hundred public SAS programs, run in real SAS for the reference outputs. Muse Spark 1.3 reproduces ninety-four of them. On the thirty-nine programs that produce datasets it matches thirty-seven cell for cell, the same as Claude Opus, and it passes three programs Claude misses, at half the cost."
  ],
  [
   "s07",
-  "This column is the one that matters for a company: the cost of one translation that fully matched SAS. Muse Spark is about ten cents. The open-weight Muse Spark Open runs at eighty-five percent on Baseten, so the whole pipeline also works without any API."
+  "This column is the one a company cares about: the cost of one translation that fully matched SAS. Muse Spark is about ten cents. Muse Spark Open, the open weights, scores eighty-five percent on the same harness, so a sponsor can run this inside its own firewall."
  ],
  [
   "s08",
-  "The agent improved from its own failures. Here is a listing the first prompt missed: only four of the three hundred and twelve SAS numbers appeared in the R output, and the comparison shows exactly that."
+  "The agent learns from its own misses. Here's a listing the first prompt got wrong: only four of the three hundred and twelve SAS numbers turned up in the R output."
  ],
  [
   "s09",
-  "The failure analysis of those misses became prompt version two: eighty-six to ninety-five percent. The remaining misses became version three, with the exact SAS formulas. Each version is its own row, so the improvement is measured, not claimed."
+  "The analysis of those misses became prompt version two: eighty-six to ninety-five percent. The remaining misses became version three, with the exact SAS formulas. Each version is its own row, so the improvement is measured, not claimed."
  ],
  [
   "s10",
-  "Any cell opens the generated R, the comparison report, and the provenance record with its position in the ledger."
+  "Any cell opens the generated R, the comparison report, and the provenance record."
  ],
  [
   "s11",
-  "Everything in this repo was built inside the hackathon window. The benchmark is pre-existing work in its own repo. Next: image comparison for figures, and a reviewer-facing diff for the submission package. Thank you."
+  "Two limits. Figures are checked for being produced, not compared pixel by pixel, and one sweep varies by about five programs. Everything in this repo was built inside the hackathon window; the benchmark is my earlier work, in its own repo. Thank you."
  ]
 ]

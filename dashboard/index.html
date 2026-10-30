@@ -145,11 +145,17 @@ a { color: var(--meta); }
     const nmodels = provs.length;
     const bestMeta = provs.map(p => [p, board[p].overall]).filter(x => roleOf(x[0]) === "meta" && x[1].programs >= 50).sort((a, b) => b[1].equivalent_pct - a[1].equivalent_pct)[0];
     const cheapest = provs.map(p => [p, board[p].overall]).filter(x => x[1].programs >= 50 && x[1].equivalent_pct >= 80 && x[1].cost_per_equivalent_usd != null).sort((a, b) => a[1].cost_per_equivalent_usd - b[1].cost_per_equivalent_usd)[0];
+    const bestBase = provs.map(p => [p, board[p].overall]).filter(x => roleOf(x[0]) === "baseline" && x[1].programs >= 50).sort((a, b) => b[1].equivalent_pct - a[1].equivalent_pct)[0];
+    let onlyMeta = null;
+    if (bestMeta && bestBase) {
+      const basePass = new Set((board[bestBase[0]].programs || []).filter(r => r.equivalent).map(r => r.id));
+      onlyMeta = (board[bestMeta[0]].programs || []).filter(r => r.equivalent && !basePass.has(r.id)).map(r => r.id);
+    }
     const t = [
       ["programs in benchmark", nprog, "SAS reference outputs frozen and hashed"],
-      ["leaderboard rows", nmodels, provs.filter(p => roleOf(p) === "meta").length + " Meta, " + provs.filter(p => roleOf(p) === "baseline").length + " baseline (model × prompt version)"],
-      best ? ["best row", pct(best[1].equivalent_pct), label(best[0])] : null,
       bestMeta ? ["best Meta row", pct(bestMeta[1].equivalent_pct), label(bestMeta[0])] : null,
+      bestBase ? ["best baseline", pct(bestBase[1].equivalent_pct), label(bestBase[0])] : null,
+      onlyMeta ? ["passed by Meta, missed by the baseline", onlyMeta.length, onlyMeta.join(", ") || "none"] : null,
       cheapest ? ["cheapest per equivalent, rows ≥ 80%", "$" + fmt(cheapest[1].cost_per_equivalent_usd, 3), label(cheapest[0])] : null,
     ].filter(Boolean);
     $("#tiles").innerHTML = t.map(x => `<div class="card tile"><div class="k">${x[0]}</div><div class="v">${x[1]}</div><div class="d">${x[2]}</div></div>`).join("");
