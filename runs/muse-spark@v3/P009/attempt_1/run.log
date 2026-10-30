@@ -1,0 +1,6 @@
+sandbox: docker run --rm --name sas2r-16dce6631cd8 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v3\P009\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+START fmt: %d/%m/%Y  END fmt: %d/%m/%Y 
+[1] "C"
+[1] "en_US.UTF-8"
+[1] TRUE
+Done: ae rows 54  audit rows 12 

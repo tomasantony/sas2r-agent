@@ -1,0 +1,44 @@
+{
+ "id": "P036",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "family": "phuse",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 1.0,
+ "iterations": 2,
+ "input_tokens": 15474,
+ "output_tokens": 27729,
+ "seconds": 128.4254777431488,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 2.6041860580444336,
+   "input_tokens": 4556,
+   "output_tokens": 16189,
+   "seconds_llm": 81.68677473068237,
+   "produced_all": true,
+   "equivalent": false,
+   "score": 0.9685534591194968,
+   "note": ""
+  },
+  {
+   "n": 2,
+   "rc": 0,
+   "seconds_r": 2.540775775909424,
+   "input_tokens": 10918,
+   "output_tokens": 11540,
+   "seconds_llm": 41.302337884902954,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 1.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark@v3"
+}

@@ -1,0 +1,25 @@
+Table of TRTPN by n
+Data: advsmax3 (CRIT1FL non-missing, n = (MOD(_N_,17)=1))  Sample Size = 250
+
+TRTPN    n         Frequency    Percent    Row Pct    Col Pct
+0        0                79      31.60      94.05      33.62
+0        1                 5       2.00       5.95      33.33
+54       0                79      31.60      94.05      33.62
+54       1                 5       2.00       5.95      33.33
+81       0                77      30.80      93.90      32.77
+81       1                 5       2.00       6.10      33.33
+
+Total                   250     100.00
+
+Row Totals:
+ TRTPN=0  Frequency=84  Percent=33.60
+ TRTPN=54  Frequency=84  Percent=33.60
+ TRTPN=81  Frequency=82  Percent=32.80
+Column Totals:
+ n=0  Frequency=235  Percent=94.00
+ n=1  Frequency=15  Percent=6.00
+
+Fisher's Exact Test
+Table Probability (P)  0.0560
+Pr <= P  1.0000
+Sample Size = 250

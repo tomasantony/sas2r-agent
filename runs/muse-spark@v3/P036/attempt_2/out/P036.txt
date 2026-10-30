@@ -1,0 +1,58 @@
+Frequency Table of TRTPN by n
+Sample Size = 250
+
+TRTPN      n          Frequency    Percent      Row Pct      Col Pct     
+0          0          79           31.60        94.05        33.62       
+0          1          5            2.00         5.95         33.33       
+54         0          79           31.60        94.05        33.62       
+54         1          5            2.00         5.95         33.33       
+81         0          77           30.80        93.90        32.77       
+81         1          5            2.00         6.10         33.33       
+
+Row Totals:
+TRTPN=0 Frequency=84 Percent=33.60
+TRTPN=54 Frequency=84 Percent=33.60
+TRTPN=81 Frequency=82 Percent=32.80
+Column Totals:
+n=0 Frequency=235 Percent=94.00
+n=1 Frequency=15 Percent=6.00
+
+Statistics for Table of TRTPN by n
+Statistic                      DF       Value        Prob        
+Chi-Square                     2        0.0021       0.9990      
+Likelihood Ratio Chi-Square    2        0.0021       0.9990      
+Mantel-Haenszel Chi-Square     1        0.0012       0.9728      
+Phi Coefficient                         0.0029                   
+Contingency Coefficient                 0.0029                   
+Cramer's V                              0.0029                   
+
+Fisher's Exact Test
+Table Probability (P)          0.0560
+Pr <= P                        1.0000
+Sample Size = 250
+
+Max Post Baseline Result (shift from baseline) - N (%)
+Treatment        Max. Baseline  | Low                    | Normal                 
+                 Result         | N          (%)        | N          (%)        
+0 (N = 84)       High           |    0 (0.0)      |    2 (2.3)      
+0 (N = 84)       Low            |    6 (7.1)      |    1 (1.1)      
+0 (N = 84)       Normal         |   11 (13.0)     |   64 (76.1)     
+
+54 (N = 84)      High           |    0 (0.0)      |    1 (1.1)      
+54 (N = 84)      Low            |    3 (3.5)      |    1 (1.1)      
+54 (N = 84)      Normal         |   12 (14.2)     |   67 (79.7)     
+
+81 (N = 82)      High           |    0 (0.0)      |    1 (1.2)      
+81 (N = 82)      Low            |    6 (7.3)      |    0 (0.0)      
+81 (N = 82)      Normal         |    5 (6.0)      |   70 (85.3)     
+
+
+Treatment Emergent High
+TRTPN      Nx         n          %          FishersP    
+0          84         5          500.0      1.0000      
+54         84         5          500.0      1.0000      
+81         82         5          500.0      1.0000      
+
+Scatter Plot: Includes subjects with both a baseline and a post-baseline measure.  Reference limits apply to most of the participants are used in the plot
+N=number of subjects with at least one post-baseline measure; Nx=number of subjects with maximum baseline either normal or low and have at least one post-baseline measure.
+Summary tables used the reference limits set 1 (Male, Age 18-65, LLNx 60 mmol/L ULNx 90 mmol/L) set 2 (Female, Age 18-65, LLN=60 mmol/L ULN=90 mmol/L).

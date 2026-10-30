@@ -1,0 +1,43 @@
+Scatter Plot-Max. Post-baseline vs Max. Baseline for Lab Test 1 (mmol/L)
+Reference limits: ANRLO=60.0000  ANRHI=90.0000  YAxisMin=40  YAxisMax=100  MAJOR=10  MinValue=41.0000  MaxValue=90.0000
+
+Max Post Basline Result (shift from baseline)
+Treatment          Max. Baseline Result | ANRIND=Low N (%)       | ANRIND=Normal N (%)   
+0 (N = 84)         High               |    0 (0.0)             |    2 (2.3)            
+  detail: 0 (N = 84) / High / Low COUNT=0 PERCENT=0.0 ValueFmt=0 (0.0)
+  detail: 0 (N = 84) / High / Normal COUNT=2 PERCENT=2.4 ValueFmt=2 (2.4)
+0 (N = 84)         Low                |    6 (7.1)             |    1 (1.1)            
+  detail: 0 (N = 84) / Low / Low COUNT=6 PERCENT=7.1 ValueFmt=6 (7.1)
+  detail: 0 (N = 84) / Low / Normal COUNT=1 PERCENT=1.2 ValueFmt=1 (1.2)
+0 (N = 84)         Normal             |   11 (13.0)            |   64 (76.1)           
+  detail: 0 (N = 84) / Normal / Low COUNT=11 PERCENT=13.1 ValueFmt=11 (13.1)
+  detail: 0 (N = 84) / Normal / Normal COUNT=64 PERCENT=76.2 ValueFmt=64 (76.2)
+54 (N = 84)        High               |    0 (0.0)             |    1 (1.1)            
+  detail: 54 (N = 84) / High / Low COUNT=0 PERCENT=0.0 ValueFmt=0 (0.0)
+  detail: 54 (N = 84) / High / Normal COUNT=1 PERCENT=1.2 ValueFmt=1 (1.2)
+54 (N = 84)        Low                |    3 (3.5)             |    1 (1.1)            
+  detail: 54 (N = 84) / Low / Low COUNT=3 PERCENT=3.6 ValueFmt=3 (3.6)
+  detail: 54 (N = 84) / Low / Normal COUNT=1 PERCENT=1.2 ValueFmt=1 (1.2)
+54 (N = 84)        Normal             |   12 (14.2)            |   67 (79.7)           
+  detail: 54 (N = 84) / Normal / Low COUNT=12 PERCENT=14.3 ValueFmt=12 (14.3)
+  detail: 54 (N = 84) / Normal / Normal COUNT=67 PERCENT=79.8 ValueFmt=67 (79.8)
+81 (N = 82)        High               |    0 (0.0)             |    1 (1.2)            
+  detail: 81 (N = 82) / High / Low COUNT=0 PERCENT=0.0 ValueFmt=0 (0.0)
+  detail: 81 (N = 82) / High / Normal COUNT=1 PERCENT=1.2 ValueFmt=1 (1.2)
+81 (N = 82)        Low                |    6 (7.3)             |    0 (0.0)            
+  detail: 81 (N = 82) / Low / Low COUNT=6 PERCENT=7.3 ValueFmt=6 (7.3)
+  detail: 81 (N = 82) / Low / Normal COUNT=0 PERCENT=0.0 ValueFmt=0 (0.0)
+81 (N = 82)        Normal             |    5 (6.0)             |   70 (85.3)           
+  detail: 81 (N = 82) / Normal / Low COUNT=5 PERCENT=6.1 ValueFmt=5 (6.1)
+  detail: 81 (N = 82) / Normal / Normal COUNT=70 PERCENT=85.4 ValueFmt=70 (85.4)
+
+Treatment Emergent High
+TRTPN    Nx       n        %        FishersP  
+0              84        5    500.0     1.0000
+54             84        5    500.0           
+81             82        5    500.0           
+Fisher exact Pr <= P = 1.0000  Table N = 250
+
+Scatter Plot: Includes subjects with both a baseline and a post-baseline measure.  Reference limits apply to most of the participants are used in the plot
+N=number of subjects with at least one post-baseline measure; Nx=number of subjects with maximum baseline either normal or low and have at least one post-baseline measure.
+Summary tables used the reference limits set 1 (Male, Age 18-65, LLN60.0000 mmol/L ULN90.0000 mmol/L) set 2 (Female, Age 18-65, LLN=60.0000 mmol/L ULN=90.0000 mmol/L).

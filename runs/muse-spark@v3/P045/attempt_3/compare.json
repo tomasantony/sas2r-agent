@@ -1,0 +1,29 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.9655172413793104,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P045.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9655172413793104,
+   "detail": {
+    "recall": 0.9655172413793104,
+    "expected": 203,
+    "found": 196,
+    "r_files": [
+     "P045.csv",
+     "P045.txt",
+     "P045_dataset.csv"
+    ],
+    "missing_examples": [
+     "50",
+     "5",
+     "7.5"
+    ]
+   }
+  }
+ ]
+}

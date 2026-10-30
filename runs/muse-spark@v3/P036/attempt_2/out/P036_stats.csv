@@ -1,0 +1,9 @@
+"Statistic","DF","Value","Prob"
+"Chi-Square",2,0.00205929110962843,0.998970884348284
+"Likelihood Ratio Chi-Square",2,0.0020540056804747,0.99897352434669
+"Mantel-Haenszel Chi-Square",1,0.00116391988585171,0.972784434370063
+"Phi Coefficient",,0.00287004606905773,
+"Contingency Coefficient",,0.00287003424861005,
+"Cramer's V",,0.00287004606905773,
+"Fisher Table Probability (P)",,0.056039565596014,
+"Fisher Pr <= P",,1,

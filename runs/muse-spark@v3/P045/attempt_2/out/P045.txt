@@ -1,0 +1,93 @@
+AEDECOD=PARTIAL SEIZURES WITH SECONDARY GENERALISATION
+The FREQ Procedure
+Table of TRTAN by RESP
+TRTAN      RESP
+Frequency
+Percent
+Row Pct
+Col Pct
+          |0           |1           |Total       
+0 0 Frequency=86 Percent=33.86 Row Pct=100.00 Col Pct=33.99
+0 1 Frequency=0 Percent=0.00 Row Pct=0.00 Col Pct=0.00
+0 Total Frequency=86 Percent=33.86
+54 0 Frequency=84 Percent=33.07 Row Pct=100.00 Col Pct=33.20
+54 1 Frequency=0 Percent=0.00 Row Pct=0.00 Col Pct=0.00
+54 Total Frequency=84 Percent=33.07
+81 0 Frequency=83 Percent=32.68 Row Pct=98.81 Col Pct=32.81
+81 1 Frequency=1 Percent=0.39 Row Pct=1.19 Col Pct=100.00
+81 Total Frequency=84 Percent=33.07
+Total Frequency=254 Percent=100.00
+Column 0 Total Frequency=253 Percent=99.61
+Column 1 Total Frequency=1 Percent=0.39
+Statistics for Table of TRTAN by RESP
+Fisher's Exact Test
+Table Probability (P) 0.3307
+Pr <= P 0.6614
+Sample Size = 254
+
+AEDECOD=SYNCOPE
+The FREQ Procedure
+Table of TRTAN by RESP
+TRTAN      RESP
+Frequency
+Percent
+Row Pct
+Col Pct
+          |0           |1           |Total       
+0 0 Frequency=86 Percent=33.86 Row Pct=100.00 Col Pct=34.13
+0 1 Frequency=0 Percent=0.00 Row Pct=0.00 Col Pct=0.00
+0 Total Frequency=86 Percent=33.86
+54 0 Frequency=83 Percent=32.68 Row Pct=98.81 Col Pct=32.94
+54 1 Frequency=1 Percent=0.39 Row Pct=1.19 Col Pct=50.00
+54 Total Frequency=84 Percent=33.07
+81 0 Frequency=83 Percent=32.68 Row Pct=98.81 Col Pct=32.94
+81 1 Frequency=1 Percent=0.39 Row Pct=1.19 Col Pct=50.00
+81 Total Frequency=84 Percent=33.07
+Total Frequency=254 Percent=100.00
+Column 0 Total Frequency=252 Percent=99.21
+Column 1 Total Frequency=2 Percent=0.79
+Statistics for Table of TRTAN by RESP
+Fisher's Exact Test
+Table Probability (P) 0.2196
+Pr <= P 0.5503
+Sample Size = 254
+
+The FREQ Procedure
+Table of TRTAN by FLG
+TRTAN      FLG
+Frequency
+Percent
+Row Pct
+Col Pct
+          |0           |1           |Total       
+0 0 Frequency=86 Percent=33.86 Row Pct=100.00 Col Pct=34.26
+0 1 Frequency=0 Percent=0.00 Row Pct=0.00 Col Pct=0.00
+0 Total Frequency=86 Percent=33.86
+54 0 Frequency=83 Percent=32.68 Row Pct=98.81 Col Pct=33.07
+54 1 Frequency=1 Percent=0.39 Row Pct=1.19 Col Pct=33.33
+54 Total Frequency=84 Percent=33.07
+81 0 Frequency=82 Percent=32.28 Row Pct=97.62 Col Pct=32.67
+81 1 Frequency=2 Percent=0.79 Row Pct=2.38 Col Pct=66.67
+81 Total Frequency=84 Percent=33.07
+Total Frequency=254 Percent=100.00
+Column 0 Total Frequency=251 Percent=98.82
+Column 1 Total Frequency=3 Percent=1.18
+Statistics for Table of TRTAN by FLG
+Fisher's Exact Test
+Table Probability (P) 0.1085
+Pr <= P 0.3255
+Sample Size = 254
+
+Table 7.5 Summary of Serious Adverse Events
+Safety Population
+-
+Preferred Term                                     | Placebo         | Treatment 1     | Treatment 2     | p-value*b 
+                                                   | N=86            | N=84            | N=84            |           
+-------------------------------------------------- | --------------- | --------------- | --------------- | ----------
+Number of subjects reporting serious adverse event |                 | 1(1.0)          | 2(2.0)          | 0.3255    
+  s
+PARTIAL SEIZURES WITH SECONDARY GENERALISATION     | 0(0.0)          | 0(0.0)          | 1(1.0)          | 0.6614    
+SYNCOPE                                            | 0(0.0)          | 1(1.0)          | 1(1.0)          | 0.5503    
+-
+Denominator for each % is treatment column N
+*b = p-values are from Fisher's Exact Test

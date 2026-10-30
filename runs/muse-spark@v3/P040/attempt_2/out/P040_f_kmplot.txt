@@ -1,0 +1,89 @@
+Example K-M Plot
+
+PROC LIFETEST  Product-Limit Survival Estimates
+TIME DAY*CENSOR(1)   Plots=Survival (atrisk=0 to 330 by 30)
+
+Stratum: Arm 1
+Day        Survival   Failure    StdErr     Lower95    Upper95    Failed   Left    
+143        0.9412     0.0588     0.0571     0.6502     0.9915     1        16      
+164        0.8824     0.1176     0.0781     0.6060     0.9692     2        15      
+188        0.7647     0.2353     0.1029     0.4883     0.9045     4        13      
+190        0.7059     0.2941     0.1105     0.4315     0.8656     5        12      
+192        0.6471     0.3529     0.1159     0.3771     0.8234     6        11      
+206        0.5882     0.4118     0.1194     0.3254     0.7782     7        10      
+213        0.5294     0.4706     0.1211     0.2762     0.7303     8        9       
+216*       0.4706     0.5294     0.1211     0.2296     0.6797     9        7       
+220        0.4034     0.5966     0.1210     0.1764     0.6218     10       6       
+227.23     0.3361     0.6639     0.1180     0.1288     0.5600     11       5       
+234        0.2689     0.7311     0.1120     0.0868     0.4938     12       4       
+244*       0.2689     0.7311     0.1120     0.0868     0.4938     12       3       
+246        0.1793     0.8207     0.1045     0.0354     0.4131     13       2       
+265        0.0896     0.9104     0.0822     0.0062     0.3181     14       1       
+304        0.0000     1.0000     .          .          .          15       0       
+
+Stratum: Arm 2
+Day        Survival   Failure    StdErr     Lower95    Upper95    Failed   Left    
+142        0.9524     0.0476     0.0465     0.7072     0.9932     1        20      
+156        0.9048     0.0952     0.0641     0.6700     0.9753     2        19      
+163        0.8571     0.1429     0.0764     0.6197     0.9516     3        18      
+198        0.8095     0.1905     0.0857     0.5689     0.9239     4        17      
+204*       0.8095     0.1905     0.0857     0.5689     0.9239     4        16      
+205        0.7589     0.2411     0.0941     0.5139     0.8920     5        15      
+232        0.6577     0.3423     0.1053     0.4123     0.8203     7        13      
+233        0.4554     0.5446     0.1114     0.2353     0.6520     11       9       
+239        0.4048     0.5952     0.1099     0.1961     0.6052     12       8       
+240        0.3542     0.6458     0.1072     0.1591     0.5564     13       7       
+261        0.3036     0.6964     0.1031     0.1245     0.5056     14       6       
+280        0.2024     0.7976     0.0902     0.0633     0.3967     16       4       
+296        0.1012     0.8988     0.0678     0.0172     0.2749     18       2       
+323        0.0506     0.9494     0.0493     0.0035     0.2073     19       1       
+344*       0.0506     0.9494     0.0493     0.0035     0.2073     19       0       
+
+Quartile Estimates
+Stratum      Percent    Estimate     Lower95      Upper95     
+Arm 1        75         190.000      143.000      213.000     
+Arm 1        50         216.000      188.000      234.000     
+Arm 1        25         246.000      216.000      .           
+Arm 2        75         232.000      142.000      233.000     
+Arm 2        50         233.000      232.000      280.000     
+Arm 2        25         280.000      233.000      323.000     
+
+Means (Restricted to largest event time)
+Stratum      Mean         StdErr      
+Arm 1        218.850      10.573      
+Arm 2        240.795      11.206      
+
+Summary of the Number of Censored and Uncensored Values
+Stratum      Total    Failed   Censored   PctCens     
+Arm 1        17       15       2          11.76       
+Arm 2        21       19       2          9.52        
+Total        38       34       4          10.53       
+
+Rank Statistics
+Stratum      Observed     Expected     Log-Rank     Wilcoxon    
+Arm 1        15           10.9967      4.0033       94.0000     
+Arm 2        19           23.0033      -4.0033      -94.0000    
+
+Covariance Matrix for the Log-Rank Statistics
+             Arm 1        Arm 2       
+Arm 1        6.7376       -6.7376     
+Arm 2        -6.7376      6.7376      
+
+Covariance Matrix for the Wilcoxon Statistics
+             Arm 1        Arm 2       
+Arm 1        4135.3479    -4135.3479  
+Arm 2        -4135.3479   4135.3479   
+
+Test of Equality over Strata
+Test         ChiSquare    DF   Pr>ChiSq    
+Log-Rank     2.3787       1    0.1230      
+Wilcoxon     2.1367       1    0.1438      
+-2Log(LR)    0.0551       1    0.8144      
+
+Number at Risk (atrisk=0 to 330 by 30)
+Time: 0 30 60 90 120 150 180 210 240 270 300 330
+Arm 1: 17 17 17 17 17 16 15 10 4 1 1 0
+Arm 2: 21 21 21 21 21 20 18 15 8 6 2 1
+
+NOTE: Censored values are marked with *.
+NOTE: Mean restricted to largest event time (Arm 1 tau=304.000, Arm 2 tau=323.000).
