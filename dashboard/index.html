@@ -58,7 +58,7 @@ svg .lbl { fill: var(--text-2); }
 .legend span::before { content: ""; display: inline-block; width: 11px; height: 11px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; background: var(--c); }
 .grid-wrap { overflow-x: auto; padding-bottom: 6px; }
 .pgrid { display: grid; grid-auto-rows: 18px; gap: 2px; min-width: 900px; }
-.pgrid .rl { grid-column: 1; font-size: 12px; color: var(--text-2); white-space: nowrap; padding-right: 8px; line-height: 18px; }
+.pgrid .rl { grid-column: 1; font-size: 12px; overflow: hidden; text-overflow: ellipsis; color: var(--text-2); white-space: nowrap; padding-right: 8px; line-height: 18px; }
 .cell { border-radius: 3px; background: var(--none); cursor: pointer; }
 .cell.ok { background: var(--ok); } .cell.near { background: var(--warn); } .cell.bad { background: var(--bad); }
 .cell:hover, .cell.sel { outline: 2px solid var(--text); outline-offset: 1px; }
@@ -126,7 +126,10 @@ a { color: var(--meta); }
   let roleFilter = "all", groupFilter = "all", selected = null;
 
   const roleOf = p => (board[p].role || (p.startsWith("muse") ? "meta" : "baseline"));
-  const label = p => (board[p].overall.model || p) + (p.includes("@") ? " · " + p.split("@")[1] : "");
+  const NAMES = {"muse-spark": "Muse Spark 1.3 (Meta Model API)", "muse-spark-open-baseten": "Muse Spark Open · Baseten",
+                 "muse-spark-open-ollama": "Muse Spark Open · Ollama Cloud", "claude-opus-5-5": "Claude Opus 5.5",
+                 "gpt-oss-120b-ollama": "gpt-oss-120b · Ollama Cloud"};
+  const label = p => (NAMES[p.split("@")[0]] || board[p].overall.model || p) + " · prompt " + (p.includes("@") ? p.split("@")[1] : "v1");
 
   function summary(p) {
     const o = board[p];
@@ -140,12 +143,14 @@ a { color: var(--meta); }
     const best = provs.map(p => [p, board[p].overall]).filter(x => x[1].programs >= 50).sort((a, b) => b[1].equivalent_pct - a[1].equivalent_pct)[0];
     const nprog = Math.max(...provs.map(p => board[p].overall.programs));
     const nmodels = provs.length;
-    const cheapest = provs.map(p => [p, board[p].overall]).filter(x => x[1].programs >= 50 && x[1].cost_per_equivalent_usd != null).sort((a, b) => a[1].cost_per_equivalent_usd - b[1].cost_per_equivalent_usd)[0];
+    const bestMeta = provs.map(p => [p, board[p].overall]).filter(x => roleOf(x[0]) === "meta" && x[1].programs >= 50).sort((a, b) => b[1].equivalent_pct - a[1].equivalent_pct)[0];
+    const cheapest = provs.map(p => [p, board[p].overall]).filter(x => x[1].programs >= 50 && x[1].equivalent_pct >= 80 && x[1].cost_per_equivalent_usd != null).sort((a, b) => a[1].cost_per_equivalent_usd - b[1].cost_per_equivalent_usd)[0];
     const t = [
       ["programs in benchmark", nprog, "SAS reference outputs frozen and hashed"],
-      ["models compared", nmodels, provs.filter(p => roleOf(p) === "meta").length + " Meta, " + provs.filter(p => roleOf(p) === "baseline").length + " baseline"],
-      best ? ["best full sweep", pct(best[1].equivalent_pct), label(best[0]) + " equivalent"] : null,
-      cheapest ? ["cheapest per equivalent", "$" + fmt(cheapest[1].cost_per_equivalent_usd, 3), label(cheapest[0])] : null,
+      ["leaderboard rows", nmodels, provs.filter(p => roleOf(p) === "meta").length + " Meta, " + provs.filter(p => roleOf(p) === "baseline").length + " baseline (model × prompt version)"],
+      best ? ["best row", pct(best[1].equivalent_pct), label(best[0])] : null,
+      bestMeta ? ["best Meta row", pct(bestMeta[1].equivalent_pct), label(bestMeta[0])] : null,
+      cheapest ? ["cheapest per equivalent, rows ≥ 80%", "$" + fmt(cheapest[1].cost_per_equivalent_usd, 3), label(cheapest[0])] : null,
     ].filter(Boolean);
     $("#tiles").innerHTML = t.map(x => `<div class="card tile"><div class="k">${x[0]}</div><div class="v">${x[1]}</div><div class="d">${x[2]}</div></div>`).join("");
   }
@@ -181,9 +186,9 @@ a { color: var(--meta); }
   function grid() {
     const ids = BOARD.programs || [];
     const shown = ids.filter(x => groupFilter === "all" || x.group === groupFilter);
-    const ps = visible();
+    const ps = visible().slice().sort((a, b) => (summary(b).equivalent_pct - summary(a).equivalent_pct));
     const g = $("#pgrid");
-    g.style.gridTemplateColumns = `230px repeat(${shown.length}, minmax(9px, 1fr))`;
+    g.style.gridTemplateColumns = `300px repeat(${shown.length}, minmax(9px, 1fr))`;
     let h = "";
     ps.forEach(p => {
       const byId = {}; (board[p].programs || []).forEach(r => byId[r.id] = r);
