@@ -5,7 +5,7 @@
  ],
  [
   "s02",
-  "So I built sas2r-agent. It uses Muse Spark to write the R, runs it, and checks every output against the SAS reference. This is the leaderboard of those checks, over one hundred programs."
+  "So I built sas2r-agent. It uses Muse Spark to write the R, runs it, and checks every output against the SAS reference. This is the leaderboard, over one hundred programs."
  ],
  [
   "s03",
@@ -33,11 +33,11 @@
  ],
  [
   "s08",
-  "The agent learns from its own misses. Here's a listing the first prompt got wrong: only four of the three hundred and twelve SAS numbers turned up in the R output."
+  "The agent learns from its own misses. Here's a listing the first prompt got wrong: only four of three hundred and twelve numbers turned up in the R output."
  ],
  [
   "s09",
-  "The analysis of those misses became prompt version two: eighty-six to ninety-five percent. The remaining misses became version three, with the exact SAS formulas. Each version is its own row, so the improvement is measured, not claimed."
+  "The analysis of those misses became prompt version two: eighty-six to ninety-five percent. The remaining misses became version three. Each version is its own row, so the improvement is measured, not claimed."
  ],
  [
   "s10",
