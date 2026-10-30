@@ -90,18 +90,18 @@ a { color: var(--meta); }
   </div>
 
   <div class="card">
-    <h2 style="margin-top:0">Equivalent translations per model</h2>
+    <h2 style="margin-top:0" id="sec-bars">Equivalent translations per model</h2>
     <div id="bars"></div>
     <div class="legend"><span style="--c:var(--meta)">Meta model</span><span style="--c:var(--baseline)">baseline (not a Meta model)</span></div>
   </div>
 
-  <h2>Scorecard</h2>
+  <h2 id="sec-scorecard">Scorecard</h2>
   <div class="card scroll"><table id="board"><thead><tr>
     <th class="l">model</th><th class="l">prompt</th><th>programs</th><th>ran</th><th>all outputs</th><th>equivalent</th><th>mean attempts</th><th>mean sec</th><th>list $/M in / out</th><th>cost</th><th>$ / program</th><th>$ / equivalent</th>
   </tr></thead><tbody></tbody></table>
   <p class="foot" style="margin-top:10px">Costs apply each vendor's list price per million tokens (reasoning tokens billed as output) to the tokens the runs actually used. Hackathon credits that paid for the runs are not reflected. "$ / equivalent" is the price of one translation that fully matched SAS, so it penalises models that fail cheaply.</p></div>
 
-  <h2>Every program, every model</h2>
+  <h2 id="sec-grid">Every program, every model</h2>
   <div class="card">
     <div class="legend" style="margin:0 0 10px"><span style="--c:var(--ok)">equivalent</span><span style="--c:var(--warn)">ran, score ≥ 0.9</span><span style="--c:var(--bad)">ran, score &lt; 0.9 or failed</span><span style="--c:var(--none)">not run</span></div>
     <div class="grid-wrap"><div class="pgrid" id="pgrid"></div></div>
@@ -232,12 +232,30 @@ a { color: var(--meta); }
       h += `<p class="foot">Files: <a href="${base}/prompt_translate.md">prompt</a> · <a href="${base}/attempt_${n}/response.md">model answer</a> · <a href="${base}/attempt_${n}/run.log">R log</a> · <a href="${base}/report.json">report</a></p>`;
     }
     d.innerHTML = h;
-    d.scrollIntoView({ behavior: "smooth", block: "start" });
+    d.scrollIntoView({ behavior: PRESENT ? "auto" : "smooth", block: "start" });
   }
 
   function render() { tiles(); bars(); table(); grid(); }
   // deep link: index.html#p=<run>&id=<program> opens that cell's detail panel on load
-  function openFromHash() { const h = new URLSearchParams(location.hash.slice(1)); if (h.get("p") && h.get("id") && board[h.get("p")]) detail(h.get("p"), h.get("id")); }
+  if (new URLSearchParams(location.search).has("wide")) document.querySelector("main").style.maxWidth = "1560px";  // presentation mode
+  const PRESENT = new URLSearchParams(location.search).has("wide");
+  // presentation mode: ?only=scorecard|grid|detail shows one section at the top of the page (for screenshots);
+  // ?pre=<px> sets the height of the generated-R box in the detail panel
+  (function () {
+    const q = new URLSearchParams(location.search), only = q.get("only");
+    if (q.get("pre")) { const st = document.createElement("style"); st.textContent = `#detail pre { max-height: ${parseInt(q.get("pre"), 10)}px; height: ${parseInt(q.get("pre"), 10)}px }`; document.head.appendChild(st); }
+    if (!only) return;
+    const groups = { bars: [$("#tiles"), $(".controls"), $("#sec-bars").parentElement], scorecard: [$("#sec-scorecard"), $("#sec-scorecard").nextElementSibling],
+                     grid: [$("#sec-grid"), $("#sec-grid").nextElementSibling], detail: [$("#detail")] };
+    const keep = new Set(groups[only] || []);
+    Object.values(groups).flat().concat([$("#foot")]).forEach(el => { if (el && !keep.has(el)) el.style.display = "none"; });
+  })();
+  async function openFromHash() {
+    const h = new URLSearchParams(location.hash.slice(1));
+    if (!(h.get("p") && h.get("id") && board[h.get("p")])) return;
+    await detail(h.get("p"), h.get("id"));
+    if (PRESENT) { const y = parseInt(h.get("y") || "0", 10); window.scrollTo({ top: new URLSearchParams(location.search).get("only") ? 0 : $("#detail").offsetTop - 16 + y, behavior: "auto" }); }
+  }
   window.addEventListener("hashchange", openFromHash);
   document.querySelectorAll("[data-f]").forEach(b => b.onclick = () => { roleFilter = b.dataset.f; document.querySelectorAll("[data-f]").forEach(x => x.classList.toggle("on", x === b)); render(); });
   document.querySelectorAll("[data-g]").forEach(b => b.onclick = () => { groupFilter = b.dataset.g; document.querySelectorAll("[data-g]").forEach(x => x.classList.toggle("on", x === b)); render(); });
