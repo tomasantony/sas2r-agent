@@ -9,7 +9,7 @@
  ],
  [
   "s03",
-  "One loop, four roles. The context builder reads the SAS program, its inputs, and the outputs it produced. Muse Spark 1.3, through the Meta Model API, writes one R script. A sandbox with no network runs it. The comparator checks the outputs against the SAS reference and sends the differences back as a repair prompt. Up to three tries."
+  "One loop, four roles. The context builder reads the SAS program, its inputs and the outputs it produced. Muse Spark 1.3, through the Meta Model API, writes one R script. A sandbox with no network runs it. The comparator checks the outputs against the SAS reference and sends the differences back. Up to three tries."
  ],
  [
   "s04",
@@ -25,7 +25,7 @@
  ],
  [
   "s06",
-  "The benchmark is one hundred public SAS programs, run in real SAS for the reference outputs. Muse Spark 1.3 reproduces ninety-four of them. On the thirty-nine programs that produce datasets it matches thirty-seven cell for cell, the same as Claude Opus, and it passes three programs Claude misses, at half the cost."
+  "The benchmark is one hundred public SAS programs, with reference outputs from real SAS. Muse Spark 1.3 reproduces ninety-four. On the thirty-nine that produce datasets it matches thirty-seven cell for cell, the same as Claude Opus, and it passes three programs Claude misses, at half the cost."
  ],
  [
   "s07",
@@ -41,10 +41,10 @@
  ],
  [
   "s10",
-  "Any cell opens the generated R, the comparison report, and the provenance record."
+  "Any cell opens the generated R, the comparison and the provenance record. All fifteen hundred scripts are in the repo, one folder per attempt, next to the outputs they produced."
  ],
  [
   "s11",
-  "Two limits. Figures are checked for being produced, not compared pixel by pixel, and one sweep varies by about five programs. Everything in this repo was built inside the hackathon window; the benchmark is my earlier work, in its own repo. Thank you."
+  "Two limits. Figures are checked for being produced, not compared pixel by pixel, and one sweep varies by about five programs. Everything in this repo was built inside the hackathon window; the benchmark is my earlier work, in its own repo."
  ]
 ]
