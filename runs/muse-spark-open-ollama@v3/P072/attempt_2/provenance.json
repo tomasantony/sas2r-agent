@@ -1,0 +1,65 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P072",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T05:26:59",
+ "agent_commit": "d7687c9bacaf8c17d38ec023f89956a5f5a379f5",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 15710,
+  "output_tokens": 5691,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 16.3
+ },
+ "inputs": {
+  "prompt_translate.md": "2b5f6f4252565a63605f5ed46dd31748dcad8755fb032e09a0ae801eb3f88bd6"
+ },
+ "model_output": {
+  "response.md": "d682ecb911b977ab4defa7914b0ab7963a5a84b125c485eae7c4d77b52525ac6",
+  "reasoning.md": "b27ec8bcce8628b39512faa6c5ee1b26af3c2f1c34e110c700b2cb88531c676c",
+  "script.R": "fe096a65e7c84dbb08b5de9efb67d6ad130a80f6691f0b303be8ad3b2966f7d2"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.4,
+  "timed_out": false,
+  "log_sha256": "299e1a1c2690f2d18edd397612b9ebd3bf17ca6e81d544207104f561dc496018"
+ },
+ "r_outputs": {
+  "t_dm.csv": "f2f6b68841a76cf673fa69ce14b564773c0b4340cd1b39e25757e6ea16d76731",
+  "t_dm.rtf": "cbf0382c86f61d0d569afd8ce3d9862bc27dfe708a368dbb9595da3aa596b774",
+  "t_dm.txt": "cbf0382c86f61d0d569afd8ce3d9862bc27dfe708a368dbb9595da3aa596b774"
+ },
+ "sas_reference": [
+  {
+   "file": "tlf/t_dm.rtf",
+   "sha256": "d3c80c032d8674c672ba3ea53003fe81b2a1f7bfbb844a292c65396b5389ec32",
+   "frozen_sha256": "d3c80c032d8674c672ba3ea53003fe81b2a1f7bfbb844a292c65396b5389ec32",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 0.9593023255813954,
+  "produced_all": true
+ }
+}

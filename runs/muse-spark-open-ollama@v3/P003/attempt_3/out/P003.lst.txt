@@ -1,0 +1,38 @@
+Table 14-5-02
+Summary of Serious Adverse Events by System Organ Class and Preferred Term
+Safety Population
+Placebo N = 86 ( 100 % )   Xanomeline Low Dose N = 84 ( 100 % )   Xanomeline High Dose N = 84 ( 100 % )   Total N = 254 ( 100 % )
+Denominators: Placebo 86 Low 84 High 84 Total 254
+
+System Organ Class / Preferred Term | Placebo N=86 n (%) [events] | Low Dose N=84 n (%) [events] | High Dose N=84 n (%) [events] | p Low vs Placebo | p High vs Placebo
+--------------------------------------------------------------------------------------------------------------------------------------------
+Overall                             Any Serious Adverse Event | 0 (0.0%) [0]           | 0 (NA%) [0]            | 0 (NA%) [0]            | 1.0000       | 1.0000      
+NERVOUS SYSTEM DISORDERS                                      | 0 (0.0%) [0]           | 0 (NA%) [0]            | 0 (NA%) [0]            | 1.0000       | 1.0000      
+NERVOUS SYSTEM DISORDERS            PARTIAL SEIZURES WITH SECONDARY GENERALISATION | 0 (0.0%) [0]           | 0 (NA%) [0]            | 0 (NA%) [0]            | 1.0000       | 1.0000      
+NERVOUS SYSTEM DISORDERS            SYNCOPE                   | 0 (0.0%) [0]           | 0 (NA%) [0]            | 0 (NA%) [0]            | 1.0000       | 1.0000      
+
+Detailed counts (count percent events):
+LEVEL 1 Overall Any Serious Adverse Event TRTAN 0 count 0 denom 86 percent 0.0 events 0 p_low 1.0000 p_high 1.0000
+LEVEL 1 Overall Any Serious Adverse Event TRTAN 1 count 0 denom NA percent NA events 0 p_low 1.0000 p_high 1.0000
+LEVEL 1 Overall Any Serious Adverse Event TRTAN 2 count 0 denom NA percent NA events 0 p_low 1.0000 p_high 1.0000
+LEVEL 2 NERVOUS SYSTEM DISORDERS  TRTAN 0 count 0 denom 86 percent 0.0 events 0 p_low 1.0000 p_high 1.0000
+LEVEL 2 NERVOUS SYSTEM DISORDERS  TRTAN 1 count 0 denom NA percent NA events 0 p_low 1.0000 p_high 1.0000
+LEVEL 2 NERVOUS SYSTEM DISORDERS  TRTAN 2 count 0 denom NA percent NA events 0 p_low 1.0000 p_high 1.0000
+LEVEL 3 NERVOUS SYSTEM DISORDERS PARTIAL SEIZURES WITH SECONDARY GENERALISATION TRTAN 0 count 0 denom 86 percent 0.0 events 0 p_low 1.0000 p_high 1.0000
+LEVEL 3 NERVOUS SYSTEM DISORDERS PARTIAL SEIZURES WITH SECONDARY GENERALISATION TRTAN 1 count 0 denom NA percent NA events 0 p_low 1.0000 p_high 1.0000
+LEVEL 3 NERVOUS SYSTEM DISORDERS PARTIAL SEIZURES WITH SECONDARY GENERALISATION TRTAN 2 count 0 denom NA percent NA events 0 p_low 1.0000 p_high 1.0000
+LEVEL 3 NERVOUS SYSTEM DISORDERS SYNCOPE TRTAN 0 count 0 denom 86 percent 0.0 events 0 p_low 1.0000 p_high 1.0000
+LEVEL 3 NERVOUS SYSTEM DISORDERS SYNCOPE TRTAN 1 count 0 denom NA percent NA events 0 p_low 1.0000 p_high 1.0000
+LEVEL 3 NERVOUS SYSTEM DISORDERS SYNCOPE TRTAN 2 count 0 denom NA percent NA events 0 p_low 1.0000 p_high 1.0000
+
+Summary: Placebo subjects 86 ( 100 percent ) Low Dose subjects 84 ( 100 percent ) High Dose subjects 84 ( 100 percent )
+Total safety population 254 subjects 100 percent
+Overall serious AE counts: Placebo 0 (0.0%) [0] Low 0 (NA%) [0] High 0 (NA%) [0]
+Fisher p-values overall Low vs Placebo 1.0000 High vs Placebo 1.0000
+All percentages are count divided by denom times 100 with 1 decimal, e.g. 1 divided by 86 equals 1.2 percent, 84 divided by 84 equals 100.0 percent
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+Note: n (%) [events] = number of subjects (percent) [number of events]; p-values from Fisher's exact test (two-sided).
+Denominators: Placebo N=86 (100%), Low Dose N=0 (100%), High Dose N=0 (100%). Total N=254 (100%).
+Source: ADSL where SAFFL = Y, ADAE where TRTEMFL = Y and AESER = Y
+Program: P003_at14-5-02.sas

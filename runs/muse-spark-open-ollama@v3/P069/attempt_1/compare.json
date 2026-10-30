@@ -1,0 +1,35 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "t_ae_sum.rtf",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 42,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "14.3",
+     "1",
+     "63",
+     "82",
+     "95",
+     "26",
+     "27.4",
+     "19",
+     "23.2",
+     "20",
+     "31.7",
+     "69"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  }
+ ]
+}

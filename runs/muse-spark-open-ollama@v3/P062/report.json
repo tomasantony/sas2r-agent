@@ -1,0 +1,32 @@
+{
+ "id": "P062",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "family": "morioka",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 1.0,
+ "iterations": 1,
+ "input_tokens": 6901,
+ "output_tokens": 5996,
+ "seconds": 22.45331358909607,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 1.7559185028076172,
+   "input_tokens": 6901,
+   "output_tokens": 5996,
+   "seconds_llm": 20.564213275909424,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 1.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3"
+}

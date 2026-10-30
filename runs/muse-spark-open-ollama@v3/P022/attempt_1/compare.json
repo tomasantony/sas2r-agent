@@ -1,0 +1,45 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P022.lst",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 56,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "1",
+     "-2026",
+     "-101",
+     "2",
+     "-102",
+     "3",
+     "-103",
+     "4",
+     "-105",
+     "2026",
+     "-1",
+     "-18"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "ae",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "ae.csv"
+   }
+  }
+ ]
+}

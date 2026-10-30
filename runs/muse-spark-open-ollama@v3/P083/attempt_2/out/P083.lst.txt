@@ -1,0 +1,92 @@
+The SAS System
+
+The CONTENTS Procedure
+
+Data Set Name        WORK.ADSL
+Member Type          DATA
+Engine               V9
+Created              15JUL2024:10:27:15
+Last Modified        15JUL2024:10:27:15
+Protection           
+Data Set Type        
+Label                Subject-Level Analysis Dataset
+Data Representation  WINDOWS_64
+Encoding             utf-8  Unicode (UTF-8)
+
+Number of Observations          6
+Number of Variables            35
+Number of Indexes               0
+Observation Length            496
+Deleted Observations            0
+Compressed                      NO
+Sorted                          YES
+
+Alphabetic List of Variables and Attributes
+
+#    Variable    Type    Len    Format    Informat    Label
+--------------------------------------------------------------------------------
+1    STUDYID     Char    12                           Study Identifier
+2    USUBJID     Char    20                           Unique Subject Identifier
+3    SUBJID      Char    8                            Subject Identifier for the Study
+4    SITEID      Char    4                            Study Site Identifier
+5    SEX         Char    1                            Sex
+6    RACE        Char    50                           Race
+7    ETHNIC      Char    30                           Ethnicity
+8    ARMCD       Char    8                            Planned Arm Code
+9    ARM         Char    40                           Description of Planned Arm
+10   COUNTRY     Char    3                            Country
+11   BRTHDTC     Char    10                           Date/Time of Birth
+12   RFICDTC     Char    10                           Date/Time of Informed Consent
+13   RFSTDTC     Char    10                           Subject Reference Start Date/Time
+14   RFENDTC     Char    10                           Subject Reference End Date/Time
+15   RFXSTDTC    Char    10                           Date/Time of First Study Treatment
+16   RFXENDTC    Char    10                           Date/Time of Last Study Treatment
+17   AGE         Num     8                            Age
+18   TRTSDT      Num     8      DATE9.                Date of First Exposure to Treatment
+19   TRTEDT      Num     8      DATE9.                Date of Last Exposure to Treatment
+20   RANDDT      Num     8      DATE9.                Date of Randomization
+21   TRTP        Char    40                           Planned Treatment
+22   TRTPN       Num     8                            Planned Treatment (N)
+23   TRTA        Char    40                           Actual Treatment
+24   TRTAN       Num     8                            Actual Treatment (N)
+25   AGEGR1      Char    20                           Age Group 1
+26   AGEGR1N     Num     8                            Age Group 1 (N)
+27   RACEN       Num     8                            Race (N)
+28   SEXN        Num     8                            Sex (N)
+29   SAFFL       Char    1                            Safety Population Flag
+30   ITTFL       Char    1                            Intent-to-Treat Population Flag
+31   EFFFL       Char    1                            Efficacy Population Flag
+32   COMPLFL     Char    1                            Completers Population Flag
+33   DCSREAS     Char    50                           Reason for Discontinuation
+34   EOSSTT      Char    20                           End of Study Status
+35   TRTDURD     Num     8                            Total Treatment Duration (Days)
+
+Sort Information:
+  Sortedby      STUDYID USUBJID
+  Validated     YES
+  Character Set ANSI
+
+--------------------------------------------------------------------------------
+The PRINT Procedure
+
+Obs    STUDYID    USUBJID         SUBJID    SITEID    SEX    SEXN    RACE                          RACEN    ETHNIC                AGE    AGEGR1    AGEGR1N
+----------------------------------------------------------------------------------------------------------------------------------------
+1      STUDY01    STUDY01-1001    1001     101      M      1      WHITE                         1      NOT HISPANIC          59     <65       1      
+2      STUDY01    STUDY01-1002    1002     101      F      2      BLACK OR AFRICAN AMERICAN     2      NOT HISPANIC          45     <65       1      
+3      STUDY01    STUDY01-1003    1003     102      M      1      ASIAN                         3      HISPANIC OR LATINO    43     <65       1      
+4      STUDY01    STUDY01-1004    1004     102      F      2      WHITE                         1      NOT HISPANIC          51     <65       1      
+5      STUDY01    STUDY01-1005    1005     103      M      1      ASIAN                         3      NOT HISPANIC          36     <65       1      
+6      STUDY01    STUDY01-1006    1006     103      F      2      WHITE                         1      HISPANIC OR LATINO    68     >=65      2      
+
+Obs    ARMCD    ARM              TRTP             TRTPN    TRTA             TRTAN    TRTSDT       TRTEDT       RANDDT       TRTDURD    EOSSTT          COMPLFL    DCSREAS          SAFFL    ITTFL    EFFFL
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+1      TRT      Treatment A      Treatment A      1       Treatment A      1       15JAN2024    15JUN2024    15JAN2024    153       COMPLETED       Y                          Y       Y       Y      
+2      PBO      Placebo          Placebo          2       Placebo          2       18JAN2024    18JUN2024    18JAN2024    153       COMPLETED       Y                          Y       Y       Y      
+3      TRT      Treatment A      Treatment A      1       Treatment A      1       20JAN2024    01APR2024    20JAN2024    73        DISCONTINUED    N         ADVERSE EVENT    Y       Y       Y      
+4      TRT      Treatment A      Treatment A      1       Treatment A      1       25JAN2024    25JUN2024    25JAN2024    153       COMPLETED       Y                          Y       Y       Y      
+5      PBO      Placebo          Placebo          2       Placebo          2       28JAN2024    .            28JAN2024    .         ONGOING         N                          Y       Y       Y      
+6      TRT      Treatment A      Treatment A      1       Treatment A      1       30JAN2024    01JUL2024    30JAN2024    154       COMPLETED       Y                          Y       Y       Y      
+
+Additional Details
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,25 @@
+PROC PRINT DATA=SDTM_LB
+
+    STUDYID DOMAIN       USUBJID LBSEQ LBTESTCD                   LBTEST
+1 ONCO-2026     LB ONCO-2026-101     1      HGB               Hemoglobin
+2 ONCO-2026     LB ONCO-2026-101     2      ALT Alanine Aminotransferase
+3 ONCO-2026     LB ONCO-2026-103     1      HGB               Hemoglobin
+4 ONCO-2026     LB ONCO-2026-103     2      ALT Alanine Aminotransferase
+5 ONCO-2026     LB ONCO-2026-103     3      HGB               Hemoglobin
+6 ONCO-2026     LB ONCO-2026-105     1      HGB               Hemoglobin
+       LBCAT LBORRES LBORRESU LBSTRESC LBSTRESN LBSTRESU LBORNRLO LBORNRHI
+1 HEMATOLOGY    14.5     g/dL     14.5     14.5     g/dL     12.0     16.0
+2  CHEMISTRY      25      U/L       25     25.0      U/L        0       40
+3 HEMATOLOGY    13.0     g/dL     13.0     13.0     g/dL     12.0     16.0
+4  CHEMISTRY      30      U/L       30     30.0      U/L        0       40
+5 HEMATOLOGY    11.5     g/dL     11.5     11.5     g/dL     12.0     16.0
+6 HEMATOLOGY    15.0     g/dL     15.0     15.0     g/dL     12.0     16.0
+  LBNRIND      LBDTC LBSTDY         VISIT
+1  NORMAL 2026-01-02     -3     SCREENING
+2  NORMAL 2026-01-02     -3     SCREENING
+3  NORMAL 2026-01-05     -5     SCREENING
+4  NORMAL 2026-01-05     -5     SCREENING
+5     LOW 2026-01-15      6 CYCLE 1 DAY 1
+6  NORMAL 2026-01-12     -3     SCREENING
+
+Number of observations: 6

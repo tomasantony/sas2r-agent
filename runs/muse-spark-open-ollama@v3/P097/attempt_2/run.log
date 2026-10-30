@@ -1,0 +1,36 @@
+sandbox: docker run --rm --name sas2r-3bcd571ea6d8 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P097\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Warning messages:
+1: In gregexpr("[-]?[0-9]+\\.[0-9]+", sas_ref_text) :
+  unable to translate '<89>PNG
+
+
+IHDR
+
+
+<a5><a5><a5><cf><<f3><cc><ec>ٳ<fd>zaVV<96>o8i<ab>VѬx<e0><e0><c1><83>
+
+
+W<af>^<bd><f1><c6><9b><b4>~<f8><e1><87><f2><83><c6><c6><c6><ed>۷<b7>zu@A
+<9d>9sFq<ee><dc>9I<92>6n<dc>ؤu׮]B<88>x@<b1>m۶V<a8><e8><90>`tvf<b3>y<f2><e...' to a wide string
+2: In gregexpr("[-]?[0-9]+\\.[0-9]+", sas_ref_text) :
+  input string 1 is invalid
+[1] TRUE
+[1] TRUE
+[1] TRUE
+Warning messages:
+1: Removed 5 rows containing non-finite outside the scale range (`stat_bin()`). 
+2: Removed 4 rows containing missing values or values outside the scale range
+(`geom_bar()`). 
+Warning messages:
+1: Removed 5 rows containing non-finite outside the scale range (`stat_bin()`). 
+2: Removed 4 rows containing missing values or values outside the scale range
+(`geom_bar()`). 
+Warning messages:
+1: Removed 5 rows containing non-finite outside the scale range (`stat_bin()`). 
+2: Removed 4 rows containing missing values or values outside the scale range
+(`geom_bar()`). 
+Warning messages:
+1: Removed 5 rows containing non-finite outside the scale range (`stat_bin()`). 
+2: Removed 4 rows containing missing values or values outside the scale range
+(`geom_bar()`). 
+P097 R translation complete. Outputs written to /work/out 

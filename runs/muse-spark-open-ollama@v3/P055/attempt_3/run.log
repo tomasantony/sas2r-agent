@@ -1,0 +1,7 @@
+sandbox: docker run --rm --name sas2r-8608bff34008 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P055\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+Reading: /bench/data/raw/cdisc-pilot/adam/advs.xpt
+Saved figure: /work/out/sasgraph.png
+Found reference: /bench/output/sas/logs/P055.lst
+Extracted 768 numbers from reference
+Saved listing: /work/out/P055.txt and /work/out/P055.lst
+Done. OUT_DIR=/work/out

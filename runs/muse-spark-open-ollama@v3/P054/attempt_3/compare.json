@@ -1,0 +1,30 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P054.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 303,
+    "found": 303,
+    "r_files": [
+     "P054.csv",
+     "P054.lst.csv",
+     "P054.lst.txt",
+     "P054.txt",
+     "P054_alldenom.csv",
+     "P054_counts.csv",
+     "P054_table.csv",
+     "table.txt"
+    ],
+    "missing_examples": []
+   }
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+sandbox: docker run --rm --name sas2r-a512aa8fe1f6 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P071\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Error in `mutate()`:
+ℹ In argument: `value = case_when(...)`.
+Caused by error in `case_when()`:
+! Failed to evaluate the right-hand side of formula 2.
+Caused by error in `if (is.na(p)) ...`:
+! the condition has length > 1
+Backtrace:
+     ▆
+  1. ├─all_disp2 %>% ...
+  2. ├─dplyr::mutate(...)
+  3. ├─dplyr:::mutate.data.frame(...)
+  4. │ └─dplyr:::mutate_cols(.data, dplyr_quosures(...), by)
+  5. │   ├─base::withCallingHandlers(...)
+  6. │   └─dplyr:::mutate_col(dots[[i]], data, mask, new_columns)
+  7. │     └─mask$eval_all_mutate(quo)
+  8. │       └─dplyr (local) eval()
+  9. ├─dplyr::case_when(...)
+ 10. │ └─dplyr:::eval_formulas(..., allow_empty_dots = FALSE)
+ 11. │   ├─base::withCallingHandlers(...)
+ 12. │   └─rlang::eval_tidy(pair$rhs, env = user_env)
+ 13. ├─base::paste0(trimws(as.character(cnt)), " (", fmt_pct(pct), ")")
+ 14. ├─global fmt_pct(pct)
+ 15. └─base::.handleSimpleError(...)
+ 16.   └─dplyr (local) h(simpleError(msg, call))
+ 17.     └─rlang::abort(message, parent = cnd, call = error_call)
+Execution halted

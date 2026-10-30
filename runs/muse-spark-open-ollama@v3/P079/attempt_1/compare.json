@@ -1,0 +1,28 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.9935897435897436,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "l_sae.rtf",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9935897435897436,
+   "detail": {
+    "recall": 0.9935897435897436,
+    "expected": 312,
+    "found": 310,
+    "r_files": [
+     "l_sae.csv",
+     "l_sae.rtf",
+     "l_sae.txt"
+    ],
+    "missing_examples": [
+     "16.2",
+     "7.2"
+    ]
+   }
+  }
+ ]
+}

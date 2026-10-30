@@ -1,0 +1,185 @@
+Program: P032_target04.sas
+Description: Mean of DBP Measures by Treatment: Profile Over Time (Weeks Since Randomized)
+
+PROC CONTENTS DATA=ADVS
+----------------------------------------
+Observations: 1800
+Variables: 10
+
+Variable  Type  Label
+USUBJID    character
+TRTPN      numeric
+ANL01FL    character
+PARAM      character
+PARAMCD    character
+AVISIT     character
+AVISITN    numeric
+ATPTN      numeric
+SAFFL      character
+AVAL       numeric
+
+PROC FREQ DATA=ADVS
+TABLES TRTPN / LIST
+----------------------------------------
+TRTPN         COUNT  PERCENT
+0               720    40.00
+54              541    30.06
+81              539    29.94
+
+TABLES AVISIT*AVISITN / LIST
+AVISIT                AVISITN    COUNT  PERCENT
+Baseline                    0      253    14.06
+Week 2                      2      250    13.89
+Week 4                      4      227    12.61
+Week 6                      6      208    11.56
+Week 8                      8      189    10.50
+Week 12                    12      171     9.50
+Week 16                    16      147     8.17
+Week 20                    20      128     7.11
+Week 24                    24      116     6.44
+Week 26                    26      111     6.17
+
+TABLES AVAL / LIST
+AVAL          COUNT  PERCENT
+40.0              1     0.06
+41.0              2     0.11
+44.0              1     0.06
+45.0              1     0.06
+46.0              1     0.06
+48.0              3     0.17
+49.0              1     0.06
+50.0              5     0.28
+51.0              2     0.11
+52.0              7     0.39
+53.0              1     0.06
+54.0              7     0.39
+55.0              7     0.39
+56.0             20     1.11
+57.0             10     0.56
+58.0             10     0.56
+59.0              8     0.44
+60.0            103     5.72
+61.0              8     0.44
+62.0             35     1.94
+63.0             13     0.72
+64.0             63     3.50
+65.0              6     0.33
+66.0             24     1.33
+67.0             14     0.78
+68.0             87     4.83
+69.0             16     0.89
+70.0            230    12.78
+71.0             21     1.17
+72.0            112     6.22
+73.0             11     0.61
+74.0             72     4.00
+75.0             23     1.28
+76.0             71     3.94
+77.0              7     0.39
+78.0             94     5.22
+79.0             12     0.67
+80.0            249    13.83
+81.0              8     0.44
+82.0             74     4.11
+83.0             11     0.61
+84.0             77     4.28
+85.0             15     0.83
+86.0             39     2.17
+87.0             10     0.56
+88.0             47     2.61
+89.0              3     0.17
+90.0            100     5.56
+91.0              1     0.06
+92.0             16     0.89
+93.0              1     0.06
+94.0              7     0.39
+95.0              1     0.06
+96.0              7     0.39
+98.0             15     0.83
+99.0              2     0.11
+100.0             7     0.39
+109.0             1     0.06
+
+PROC MEANS DATA=ADVS NOPRINT; BY TRTPN AVISITN AVISIT; VAR AVAL;
+OUTPUT OUT=TEMP N=n MEAN=mean STDERR=stderr LCLM=lclm UCLM=uclm;
+DATA TEMP1; lo = mean - TINV(0.95,n-1)*stderr; hi = mean + TINV(0.95,n-1)*stderr;
+----------------------------------------
+TRTPN  AVISITN AVISIT                    N       MEAN     STDERR       LCLM       UCLM      LO/HI
+0      0      Baseline                 85    75.6941     1.2027    73.3024    78.0858    73.6938    77.6945
+0      2      Week 2                   84    74.4167     1.0605    72.3075    76.5259    72.6527    76.1806
+0      4      Week 4                   82    74.5366     1.1851    72.1786    76.8946    72.5647    76.5084
+0      6      Week 6                   76    73.8816     1.2484    71.3946    76.3686    71.8024    75.9608
+0      8      Week 8                   73    75.2740     1.0651    73.1507    77.3972    73.4992    77.0487
+0      12     Week 12                  69    72.7536     1.2436    70.2720    75.2353    70.6798    74.8275
+0      16     Week 16                  68    74.3382     1.2497    71.8438    76.8326    72.2539    76.4226
+0      20     Week 20                  66    72.9848     1.1590    70.6701    75.2996    71.0508    74.9188
+0      24     Week 24                  59    72.8983     1.4737    69.9485    75.8481    70.4350    75.3616
+0      26     Week 26                  58    72.2069     1.2796    69.6445    74.7693    70.0673    74.3465
+54     0      Baseline                 84    76.2738     1.0659    74.1538    78.3938    74.5008    78.0468
+54     2      Week 2                   84    75.2024     1.1218    72.9712    77.4336    73.3364    77.0684
+54     4      Week 4                   72    75.9722     1.0414    73.8957    78.0487    74.2366    77.7078
+54     6      Week 6                   65    74.2154     1.1926    71.8328    76.5979    72.2249    76.2059
+54     8      Week 8                   60    75.0000     1.2033    72.5921    77.4079    72.9891    77.0109
+54     12     Week 12                  52    75.5577     1.4687    72.6091    78.5063    73.0971    78.0182
+54     16     Week 16                  42    73.8333     1.4772    70.8500    76.8167    71.3473    76.3194
+54     20     Week 20                  30    72.5667     1.5791    69.3371    75.7963    69.8836    75.2497
+54     24     Week 24                  27    76.0741     1.7597    72.4569    79.6913    73.0726    79.0755
+54     26     Week 26                  25    72.4400     1.9331    68.4502    76.4298    69.1327    75.7473
+81     0      Baseline                 84    77.1548     1.0698    75.0270    79.2825    75.3753    78.9343
+81     2      Week 2                   82    75.8049     1.0255    73.7645    77.8453    74.0986    77.5112
+81     4      Week 4                   73    76.1233     1.1007    73.9291    78.3175    74.2892    77.9574
+81     6      Week 6                   67    75.4328     1.2533    72.9304    77.9352    73.3419    77.5238
+81     8      Week 8                   56    76.2321     1.1993    73.8287    78.6356    74.2257    78.2386
+81     12     Week 12                  50    73.6800     1.2728    71.1223    76.2377    71.5461    75.8139
+81     16     Week 16                  37    75.6757     1.6784    72.2718    79.0796    72.8421    78.5092
+81     20     Week 20                  32    73.4375     1.9160    69.5297    77.3453    70.1888    76.6862
+81     24     Week 24                  30    73.8667     1.6855    70.4195    77.3138    71.0029    76.7305
+81     26     Week 26                  28    72.9643     1.9296    69.0050    76.9236    69.6776    76.2510
+
+Summary Statistics for DBP Profile (Mean with 95% CI using TINV(0.95))
+Treatment                 TRTPN  Visit                     N       Mean      Lower      Upper
+Placebo                   0      Baseline                 85    75.6941    73.6938    77.6945
+Placebo                   0      Week 2                   84    74.4167    72.6527    76.1806
+Placebo                   0      Week 4                   82    74.5366    72.5647    76.5084
+Placebo                   0      Week 6                   76    73.8816    71.8024    75.9608
+Placebo                   0      Week 8                   73    75.2740    73.4992    77.0487
+Placebo                   0      Week 12                  69    72.7536    70.6798    74.8275
+Placebo                   0      Week 16                  68    74.3382    72.2539    76.4226
+Placebo                   0      Week 20                  66    72.9848    71.0508    74.9188
+Placebo                   0      Week 24                  59    72.8983    70.4350    75.3616
+Placebo                   0      Week 26                  58    72.2069    70.0673    74.3465
+Xanomeline Low Dose       54     Baseline                 84    76.2738    74.5008    78.0468
+Xanomeline Low Dose       54     Week 2                   84    75.2024    73.3364    77.0684
+Xanomeline Low Dose       54     Week 4                   72    75.9722    74.2366    77.7078
+Xanomeline Low Dose       54     Week 6                   65    74.2154    72.2249    76.2059
+Xanomeline Low Dose       54     Week 8                   60    75.0000    72.9891    77.0109
+Xanomeline Low Dose       54     Week 12                  52    75.5577    73.0971    78.0182
+Xanomeline Low Dose       54     Week 16                  42    73.8333    71.3473    76.3194
+Xanomeline Low Dose       54     Week 20                  30    72.5667    69.8836    75.2497
+Xanomeline Low Dose       54     Week 24                  27    76.0741    73.0726    79.0755
+Xanomeline Low Dose       54     Week 26                  25    72.4400    69.1327    75.7473
+Xanomeline High Dose      81     Baseline                 84    77.1548    75.3753    78.9343
+Xanomeline High Dose      81     Week 2                   82    75.8049    74.0986    77.5112
+Xanomeline High Dose      81     Week 4                   73    76.1233    74.2892    77.9574
+Xanomeline High Dose      81     Week 6                   67    75.4328    73.3419    77.5238
+Xanomeline High Dose      81     Week 8                   56    76.2321    74.2257    78.2386
+Xanomeline High Dose      81     Week 12                  50    73.6800    71.5461    75.8139
+Xanomeline High Dose      81     Week 16                  37    75.6757    72.8421    78.5092
+Xanomeline High Dose      81     Week 20                  32    73.4375    70.1888    76.6862
+Xanomeline High Dose      81     Week 24                  30    73.8667    71.0029    76.7305
+Xanomeline High Dose      81     Week 26                  28    72.9643    69.6776    76.2510
+
+At Risk Subjects (Blockplot values)
+AVISITN AVISIT                  N_0   N_54   N_81
+0      Baseline                 85     84     84
+2      Week 2                   84     84     82
+4      Week 4                   82     72     73
+6      Week 6                   76     65     67
+8      Week 8                   73     60     56
+12     Week 12                  69     52     50
+16     Week 16                  68     42     37
+20     Week 20                  66     30     32
+24     Week 24                  59     27     30
+26     Week 26                  58     25     28
+
+End of Listing

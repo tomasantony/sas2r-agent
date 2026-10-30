@@ -1,0 +1,91 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P032",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T03:24:46",
+ "agent_commit": "d7687c9bacaf8c17d38ec023f89956a5f5a379f5",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 12228,
+  "output_tokens": 8755,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 77.9
+ },
+ "inputs": {
+  "prompt_translate.md": "96de196401365377bf45c8692cfcd7d651a64f9f9c2df3ee7b20cc675cd630ba"
+ },
+ "model_output": {
+  "response.md": "79bbe8e99056c66e9bf6efb14db12005f8798d2c4e950ef311728347e4ebea3a",
+  "reasoning.md": "6ff814a1101ce8937e9286a97c3d707d272d947661802baaabd1f1553236c4f4",
+  "script.R": "9802ffcc9a35e57dd8722ec7b6fed376daa83435a3a6854a6ec0acc338fa8a6b"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 4.0,
+  "timed_out": false,
+  "log_sha256": "7400cc194d7c28fd8ba35bab45219f7ebdee01fcab25f3cb1bf670dccbc1fb8d"
+ },
+ "r_outputs": {
+  "advs.csv": "80fa32f1ce5debc0013f6a4f3060742d654d1fa7908a6eed65f16444b60c1a7d",
+  "all.csv": "1b032af00088e6cef911e51fc899785508357e1f1c9435d5992e91d959e8be43",
+  "clinicalhandout_dbpprofile.csv": "1b032af00088e6cef911e51fc899785508357e1f1c9435d5992e91d959e8be43",
+  "ClinicalHandout_DbpProfile.gif": "20f01e5e46bbba26346ce4dc7ecf9f0395546e871746bab19961269eb5d11193",
+  "clinicalhandout_dbpprofile.png": "20f01e5e46bbba26346ce4dc7ecf9f0395546e871746bab19961269eb5d11193",
+  "DBP_Profile.csv": "1b032af00088e6cef911e51fc899785508357e1f1c9435d5992e91d959e8be43",
+  "DBP_Profile.html": "fe175814899e4c89ba801cf3d80b6b6dfd1a981d8d8b587916ae6246771870d5",
+  "DBP_Profile.html.csv": "1b032af00088e6cef911e51fc899785508357e1f1c9435d5992e91d959e8be43",
+  "DBP_Profile.html.txt": "fe175814899e4c89ba801cf3d80b6b6dfd1a981d8d8b587916ae6246771870d5",
+  "DBP_Profile.txt": "fe175814899e4c89ba801cf3d80b6b6dfd1a981d8d8b587916ae6246771870d5",
+  "P032.csv": "836b36724fdab91453fe990a4f1d5071d13539ed2ddade5f7aecd05d04b0c328",
+  "P032.lst": "d4136034e3d93ae6aaa9dbc0aead3fab9ddf4f1dce60d79f4a15463d9b05902d",
+  "P032.lst.csv": "836b36724fdab91453fe990a4f1d5071d13539ed2ddade5f7aecd05d04b0c328",
+  "P032.lst.txt": "d4136034e3d93ae6aaa9dbc0aead3fab9ddf4f1dce60d79f4a15463d9b05902d",
+  "P032.txt": "d4136034e3d93ae6aaa9dbc0aead3fab9ddf4f1dce60d79f4a15463d9b05902d",
+  "temp.csv": "e25469be33626de0be9a2a7fca03e78da9b6e336798350deff7ddcd763f446cd",
+  "temp1.csv": "bac7f04c2d8542bdf22e1e139f3c7080a95af742e7297cdf7e9a7b601d62be80"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P032.lst",
+   "sha256": "52efebf18cf3bc7b66863ba959189e7fe5db2ecf443b22d61b5cd9898ce6d685",
+   "frozen_sha256": "52efebf18cf3bc7b66863ba959189e7fe5db2ecf443b22d61b5cd9898ce6d685",
+   "ok": true
+  },
+  {
+   "file": "datasets/P032/ClinicalHandout_DbpProfile.gif",
+   "sha256": "2956cb895ffe0d345d6737ec60dbd9ead7bb066f3ba795731317298964040b47",
+   "frozen_sha256": "2956cb895ffe0d345d6737ec60dbd9ead7bb066f3ba795731317298964040b47",
+   "ok": true
+  },
+  {
+   "file": "datasets/P032/DBP_Profile.html",
+   "sha256": "7550ca70a2158c00a57b62f7a3e55e997938c7db088dcc4cd00fcca256d39e7b",
+   "frozen_sha256": "7550ca70a2158c00a57b62f7a3e55e997938c7db088dcc4cd00fcca256d39e7b",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

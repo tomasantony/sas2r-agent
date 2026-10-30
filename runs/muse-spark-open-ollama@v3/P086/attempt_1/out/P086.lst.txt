@@ -1,0 +1,88 @@
+Program: P086_adtte.sas
+Purpose: Create ADTTE (Time-to-Event Analysis Dataset)
+Standard: CDISC ADaM IG 1.3
+
+ADTTE - Time-to-Event Analysis Dataset
+================================================================================
+
+PROC CONTENTS Data=ADTTE
+--------------------------------------------------------------------------------
+Variable     Label                          Type       Format
+STUDYID      Study Identifier               Char       $12.
+USUBJID      Unique Subject Identifier      Char       $40.
+ASEQ         Analysis Sequence Number       Num        8.
+PARAMCD      Parameter Code                 Char       $8.
+PARAM        Parameter                      Char       $200.
+PARAMN       Parameter (N)                  Num        8.
+AVAL         Analysis Value                 Num        8.
+AVAL_M       Analysis Value (Months)        Num        8.2
+CNSR         Censor                         Num        8.
+ADT          Analysis Date                  Num        DATE9.
+STARTDT      Time-to-Event Origin Date      Num        DATE9.
+EVNTDESC     Event Description              Char       $200.
+CNSDTDSC     Censor Description             Char       $200.
+SRCDOM       Source Domain                  Char       $8.
+TRTP         Planned Treatment              Char       $40.
+TRTPN        Planned Treatment (N)          Num        8.
+SAFFL        Safety Population Flag         Char       $1.
+ITTFL        Intent-to-Treat Population Flag Char       $1.
+
+PROC PRINT Data=ADTTE NoObs
+--------------------------------------------------------------------------------
+STUDYID      USUBJID         TRTP         TRTPN AGE    STARTDT      ADT          AVAL   AVAL_M CNSR     PARAMCD              EVNTDESC                       CNSDTDSC
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+STUDY01      STUDY01-1001    Treatment A  1    59     15Jan2024    15Jun2024    153    5.03   1        PFS                                                 Censored - No progression or d
+STUDY01      STUDY01-1001    Treatment A  1    59     15Jan2024    15Jun2024    153    5.03   1        OS                                                  Censored - Alive
+STUDY01      STUDY01-1001    Treatment A  1    59     15Jan2024    15Jun2024    153    5.03   1        TTR                                                 Censored - No response
+STUDY01      STUDY01-1002    Placebo      2    45     18Jan2024    20May2024    124    4.07   0        PFS                  Disease Progression                    
+STUDY01      STUDY01-1002    Placebo      2    45     18Jan2024    18Jun2024    153    5.03   1        OS                                                  Censored - Alive
+STUDY01      STUDY01-1002    Placebo      2    45     18Jan2024    18Jun2024    153    5.03   1        TTR                                                 Censored - No response
+STUDY01      STUDY01-1003    Treatment A  1    43     20Jan2024    25Mar2024    66     2.17   0        PFS                  Disease Progression                    
+STUDY01      STUDY01-1003    Treatment A  1    43     20Jan2024    15Apr2024    87     2.86   0        OS                   Death                                  
+STUDY01      STUDY01-1003    Treatment A  1    43     20Jan2024    20Feb2024    32     1.05   0        TTR                  Response                               
+STUDY01      STUDY01-1004    Treatment A  1    51     25Jan2024    25Jun2024    153    5.03   1        PFS                                                 Censored - No progression or d
+STUDY01      STUDY01-1004    Treatment A  1    51     25Jan2024    25Jun2024    153    5.03   1        OS                                                  Censored - Alive
+STUDY01      STUDY01-1004    Treatment A  1    51     25Jan2024    25Mar2024    61     2.00   0        TTR                  Response                               
+STUDY01      STUDY01-1005    Placebo      2    36     28Jan2024    15Jul2024    170    5.59   1        PFS                                                 Censored - No progression or d
+STUDY01      STUDY01-1005    Placebo      2    36     28Jan2024    15Jul2024    170    5.59   1        OS                                                  Censored - Alive
+STUDY01      STUDY01-1005    Placebo      2    36     28Jan2024    15Jul2024    170    5.59   1        TTR                                                 Censored - No response
+STUDY01      STUDY01-1006    Treatment A  1    68     30Jan2024    01Jul2024    154    5.06   1        PFS                                                 Censored - No progression or d
+STUDY01      STUDY01-1006    Treatment A  1    68     30Jan2024    01Jul2024    154    5.06   1        OS                                                  Censored - Alive
+STUDY01      STUDY01-1006    Treatment A  1    68     30Jan2024    30Apr2024    92     3.02   0        TTR                  Response                               
+
+
+Summary of ADTTE by Parameter
+--------------------------------------------------------------------------------
+PARAMCD  PARAM                                 N  Ev Cens     Mean   Median    Min    Max   Mean_M
+OS       Overall Survival (Days)               6   1   5   145.00   153.00     87    170     4.76
+PFS      Progression-Free Survival (Days)      6   2   4   136.67   153.00     66    170     4.49
+TTR      Time to Response (Days)               6   3   3   110.17   122.50     32    170     3.62
+
+
+Detailed ADTTE Values (AVAL, AVAL_M, CNSR, PARAMN, ASEQ, TRTPN, AGE)
+--------------------------------------------------------------------------------
+USUBJID=STUDY01-1001 PARAMCD=PFS PARAMN=1 ASEQ=1 TRTPN=1 AGE=59 AVAL=153 AVAL_M= 5.027 CNSR=1 STARTDT=2024-01-15 ADT=2024-06-15
+USUBJID=STUDY01-1001 PARAMCD=OS PARAMN=2 ASEQ=2 TRTPN=1 AGE=59 AVAL=153 AVAL_M= 5.027 CNSR=1 STARTDT=2024-01-15 ADT=2024-06-15
+USUBJID=STUDY01-1001 PARAMCD=TTR PARAMN=3 ASEQ=3 TRTPN=1 AGE=59 AVAL=153 AVAL_M= 5.027 CNSR=1 STARTDT=2024-01-15 ADT=2024-06-15
+USUBJID=STUDY01-1002 PARAMCD=PFS PARAMN=1 ASEQ=1 TRTPN=2 AGE=45 AVAL=124 AVAL_M= 4.074 CNSR=0 STARTDT=2024-01-18 ADT=2024-05-20
+USUBJID=STUDY01-1002 PARAMCD=OS PARAMN=2 ASEQ=2 TRTPN=2 AGE=45 AVAL=153 AVAL_M= 5.027 CNSR=1 STARTDT=2024-01-18 ADT=2024-06-18
+USUBJID=STUDY01-1002 PARAMCD=TTR PARAMN=3 ASEQ=3 TRTPN=2 AGE=45 AVAL=153 AVAL_M= 5.027 CNSR=1 STARTDT=2024-01-18 ADT=2024-06-18
+USUBJID=STUDY01-1003 PARAMCD=PFS PARAMN=1 ASEQ=1 TRTPN=1 AGE=43 AVAL= 66 AVAL_M= 2.168 CNSR=0 STARTDT=2024-01-20 ADT=2024-03-25
+USUBJID=STUDY01-1003 PARAMCD=OS PARAMN=2 ASEQ=2 TRTPN=1 AGE=43 AVAL= 87 AVAL_M= 2.858 CNSR=0 STARTDT=2024-01-20 ADT=2024-04-15
+USUBJID=STUDY01-1003 PARAMCD=TTR PARAMN=3 ASEQ=3 TRTPN=1 AGE=43 AVAL= 32 AVAL_M= 1.051 CNSR=0 STARTDT=2024-01-20 ADT=2024-02-20
+USUBJID=STUDY01-1004 PARAMCD=PFS PARAMN=1 ASEQ=1 TRTPN=1 AGE=51 AVAL=153 AVAL_M= 5.027 CNSR=1 STARTDT=2024-01-25 ADT=2024-06-25
+USUBJID=STUDY01-1004 PARAMCD=OS PARAMN=2 ASEQ=2 TRTPN=1 AGE=51 AVAL=153 AVAL_M= 5.027 CNSR=1 STARTDT=2024-01-25 ADT=2024-06-25
+USUBJID=STUDY01-1004 PARAMCD=TTR PARAMN=3 ASEQ=3 TRTPN=1 AGE=51 AVAL= 61 AVAL_M= 2.004 CNSR=0 STARTDT=2024-01-25 ADT=2024-03-25
+USUBJID=STUDY01-1005 PARAMCD=PFS PARAMN=1 ASEQ=1 TRTPN=2 AGE=36 AVAL=170 AVAL_M= 5.585 CNSR=1 STARTDT=2024-01-28 ADT=2024-07-15
+USUBJID=STUDY01-1005 PARAMCD=OS PARAMN=2 ASEQ=2 TRTPN=2 AGE=36 AVAL=170 AVAL_M= 5.585 CNSR=1 STARTDT=2024-01-28 ADT=2024-07-15
+USUBJID=STUDY01-1005 PARAMCD=TTR PARAMN=3 ASEQ=3 TRTPN=2 AGE=36 AVAL=170 AVAL_M= 5.585 CNSR=1 STARTDT=2024-01-28 ADT=2024-07-15
+USUBJID=STUDY01-1006 PARAMCD=PFS PARAMN=1 ASEQ=1 TRTPN=1 AGE=68 AVAL=154 AVAL_M= 5.060 CNSR=1 STARTDT=2024-01-30 ADT=2024-07-01
+USUBJID=STUDY01-1006 PARAMCD=OS PARAMN=2 ASEQ=2 TRTPN=1 AGE=68 AVAL=154 AVAL_M= 5.060 CNSR=1 STARTDT=2024-01-30 ADT=2024-07-01
+USUBJID=STUDY01-1006 PARAMCD=TTR PARAMN=3 ASEQ=3 TRTPN=1 AGE=68 AVAL= 92 AVAL_M= 3.023 CNSR=0 STARTDT=2024-01-30 ADT=2024-04-30
+
+Total observations: 18
+Total subjects: 6
+Total parameters: 3 (PFS, OS, TTR)
+PFS events: 2 censored: 4
+OS events: 1 censored: 5
+TTR events: 3 censored: 3

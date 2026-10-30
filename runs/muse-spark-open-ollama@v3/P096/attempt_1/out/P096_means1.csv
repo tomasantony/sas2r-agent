@@ -1,0 +1,4 @@
+"Variable","Label","Sum","Mean"
+"Length","True values",429.53,1.01065882352941
+"Round","Rounded values",432.8,1.01835294117647
+"RoundEven","Round-to-even values",430.8,1.01364705882353

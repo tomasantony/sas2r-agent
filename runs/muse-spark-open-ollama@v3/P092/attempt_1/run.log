@@ -1,0 +1,5 @@
+sandbox: docker run --rm --name sas2r-c1cd4cf34e9c --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P092\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Error: unexpected ')' in:
+"         sign(x) * floor(abs(x) * 10^digits + 0.5) / 10^digits)
+  )"
+Execution halted

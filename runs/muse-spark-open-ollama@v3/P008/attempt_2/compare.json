@@ -1,0 +1,46 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P008.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 120,
+    "found": 120,
+    "r_files": [
+     "advs.csv",
+     "listing.csv",
+     "listing.txt",
+     "P008.csv",
+     "P008.txt"
+    ],
+    "missing_examples": []
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "advs",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-ollama@v3\\P008\\attempt_2\\out\\advs.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 528,
+    "rows_r": 528,
+    "cols_sas": 18,
+    "cols_r": 18,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  }
+ ]
+}

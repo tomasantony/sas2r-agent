@@ -1,0 +1,85 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P053",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T04:54:05",
+ "agent_commit": "d7687c9bacaf8c17d38ec023f89956a5f5a379f5",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 4595,
+  "output_tokens": 14241,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 53.6
+ },
+ "inputs": {
+  "prompt_translate.md": "0c26806959467a80eb8f31313a53742a6fc0315a370a4f78d0dd88e09276eb08"
+ },
+ "model_output": {
+  "response.md": "80eb9728fae4641a7e1f3e69a0201c50eb84620f300de76b469bb7195b198d8c",
+  "reasoning.md": "02547c1dc955081a34ed133b02be01b3db59380276c016ed68f33fd4ff09d996",
+  "script.R": "482507e1efc0503bca9661b5676257a69bf550e7bbce06dd07b29e743210835d"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.9,
+  "timed_out": false,
+  "log_sha256": "ed0cf453bdf801e39f76df38edec2e9e2a0d3396e4491bbd2d12a0556f8f1e16"
+ },
+ "r_outputs": {
+  "advsmax2.csv": "d12cf73311315ec8051694fa3a3811d875d062903d9731405888eff5a809f477",
+  "ADVSMAXSum.csv": "fe0d058ade8ba50e15962061c989da576d09db1fce3bf8c02f8d02dcb068a9c2",
+  "EmergentHigh.csv": "2638be947e1cc3dfd2b90a6ae01497079370c23db066d8b5f8efc9a73da68bb8",
+  "P053.csv": "588f4c917ce4e028fa7bbf461f8c7ab6c78df4ea0b189daa76c166f363850491",
+  "P053.txt": "11a044391a994da4e3d02bbdc703f3fc193350f1229022ab37da4168fa706ba0",
+  "sasgraph.csv": "fa5f57e0129b0fe54f6be7e699c067b5f0027fdc25af86dd494dec89c2df7795",
+  "sasgraph.png": "76edbb65045a3471a35c44f6c32248efcf654b71177b3290b25343309c4c9a3b",
+  "TableA.csv": "7cfb160c5e3284cffd0d6a678ab7f7c9b133344edb01ee3e7cd7284fcb8db6f5",
+  "TableAt.csv": "5fbc8ffc30ebf36afc3682035d53abaf0830dd4b2c2856a60bf3537ffc67c665",
+  "Target16.csv": "17aec11c2f27a73402b81bf90941dbba2adc82a34744fb968faea13f4e26010c",
+  "Target16.txt": "6aee6f7855abfc27560a0b59c6eb935f14f979f74844919d809120e4d86ff3ad"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P053.lst",
+   "sha256": "48e6f616fa42b60acc18601b92c4920ef8be01e79a4f4a67002b765678bacae2",
+   "frozen_sha256": "48e6f616fa42b60acc18601b92c4920ef8be01e79a4f4a67002b765678bacae2",
+   "ok": true
+  },
+  {
+   "file": "datasets/P053/sasgraph.png",
+   "sha256": "21b9d61adb46507ded7214eafabf8a501b5d0c3ac0bf9cd8f559719e94209741",
+   "frozen_sha256": "21b9d61adb46507ded7214eafabf8a501b5d0c3ac0bf9cd8f559719e94209741",
+   "ok": true
+  },
+  {
+   "file": "datasets/P053/Target16.pdf",
+   "sha256": "aafd9bd4c7929bc6859c4a7f4d182c6f0c15d5a7fc9bd8a8bafc567ca79fa0f2",
+   "frozen_sha256": "aafd9bd4c7929bc6859c4a7f4d182c6f0c15d5a7fc9bd8a8bafc567ca79fa0f2",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.9119496855345912,
+  "produced_all": true
+ }
+}

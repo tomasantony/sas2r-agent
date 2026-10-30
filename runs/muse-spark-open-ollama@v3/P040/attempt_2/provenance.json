@@ -1,0 +1,66 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P040",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T04:37:54",
+ "agent_commit": "d7687c9bacaf8c17d38ec023f89956a5f5a379f5",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 9273,
+  "output_tokens": 12362,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 41.7
+ },
+ "inputs": {
+  "prompt_translate.md": "41f531467f2eb168527199394b1e26713dc5669fd029ca16e858b2b8b6b751cb"
+ },
+ "model_output": {
+  "response.md": "216496f00ccc85dd4eac5d612479b5f58c8034d323a06d911eaf582c178fc61a",
+  "reasoning.md": "e59e10331544fc6f5e8eae661d7ee4963d707581e33e4680ea90ac5c7d203c10",
+  "script.R": "f8ddb86da14d0a6f3e13d4a169ef05c923cd0ae5df50d65baf24d844adfe6486"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 3.0,
+  "timed_out": false,
+  "log_sha256": "b30d75b63e20745a2749c9917273d5e0b1040e979858b4401997f6e586029209"
+ },
+ "r_outputs": {
+  "P040_f_kmplot.csv": "29f7ef92794923f2d463873fae5c64cab288a50bd8ebc1af993f662870130f88",
+  "P040_f_kmplot.png": "5845baa041585660b0d391b37d0fb57e38b3fc071822618d1a5e1aa34acdaa7b",
+  "P040_f_kmplot.txt": "89adb5542480a97019cc5612148f2c7c30acaad00878d1fa5b73fb9572fc1b40",
+  "P040_f_kmplot_plotdata.csv": "5384b8e9808cfa1c79be003fb1c9f75009b9c377f6e629d75d7e57db341f9148"
+ },
+ "sas_reference": [
+  {
+   "file": "tlf/P040_f_kmplot.pdf",
+   "sha256": "19c5f234a33471b2df7a9795d38cbce51616af733b2c3a48d7d8bea8180f2c7b",
+   "frozen_sha256": "19c5f234a33471b2df7a9795d38cbce51616af733b2c3a48d7d8bea8180f2c7b",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 0.9624664879356568,
+  "produced_all": true
+ }
+}

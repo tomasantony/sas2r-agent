@@ -1,0 +1,34 @@
+sandbox: docker run --rm --name sas2r-9f3ee73ed665 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P044\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+OUT_DIR: /work/out 
+adsl_path: /bench/data/raw/cdisc-pilot/adam/adsl.xpt 
+adae_path: /bench/data/raw/cdisc-pilot/adam/adae.xpt 
+adae1 rows: 781 
+tcount3 rows: 690 plot_data rows: 60 
+Top 20 AEs by dispseqno:
+# A tibble: 20 × 3
+   AEDECOD                           minusmaxAEpercent dispseqno
+   <chr>                                         <dbl>     <int>
+ 1 PRURITUS                                    -0.310          1
+ 2 APPLICATION SITE PRURITUS                   -0.262          2
+ 3 APPLICATION SITE ERYTHEMA                   -0.179          3
+ 4 ERYTHEMA                                    -0.167          4
+ 5 RASH                                        -0.155          5
+ 6 DIZZINESS                                   -0.131          6
+ 7 APPLICATION SITE DERMATITIS                 -0.107          7
+ 8 APPLICATION SITE IRRITATION                 -0.107          8
+ 9 DIARRHOEA                                   -0.105          9
+10 HYPERHIDROSIS                               -0.0952        10
+11 SINUS BRADYCARDIA                           -0.0952        11
+12 VOMITING                                    -0.0833        12
+13 APPLICATION SITE VESICLES                   -0.0714        13
+14 NASOPHARYNGITIS                             -0.0714        14
+15 NAUSEA                                      -0.0714        15
+16 SKIN IRRITATION                             -0.0714        16
+17 UPPER RESPIRATORY TRACT INFECTION           -0.0698        17
+18 BLISTER                                     -0.0595        18
+19 COUGH                                       -0.0595        19
+20 FATIGUE                                     -0.0595        20
+Saved plot to /work/out/sgplot.png 
+Saved text rendering to /work/out/sgplot.txt 
+[1] TRUE
+All outputs written to /work/out 

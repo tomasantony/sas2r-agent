@@ -1,0 +1,41 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P055.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 1242,
+    "found": 1242,
+    "r_files": [
+     "advs_filtered.csv",
+     "final.csv",
+     "meanvs.csv",
+     "P055.csv",
+     "P055.lst.csv",
+     "P055.txt",
+     "P055_full.csv",
+     "P055_reference_numbers.csv",
+     "sasgraph.csv"
+    ],
+    "missing_examples": []
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "sasgraph.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-ollama@v3\\P055\\attempt_3\\out\\sasgraph.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  }
+ ]
+}

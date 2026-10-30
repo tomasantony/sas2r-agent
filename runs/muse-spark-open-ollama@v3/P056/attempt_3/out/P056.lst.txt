@@ -1,0 +1,91 @@
+Vital Signs
+Treatment-Emergent Abnormal High or Low at Any Time
+
+Frequency Table for TEFL=Low (CRIT1FL)
+PARAM: Diastolic Blood Pressure (mmHg)
+
+TRTPN        CRIT1FL   Frequency    Percent    Row Pct    Col Pct
+----------------------------------------------------------------------
+0            N                77      30.92      92.77      34.07
+0            Y                 6       2.41       7.23      26.09
+0            Total            83      33.33     100.00           
+54           N                77      30.92      91.67      34.07
+54           Y                 7       2.81       8.33      30.43
+54           Total            84      33.73     100.00           
+81           N                72      28.92      87.80      31.86
+81           Y                10       4.02      12.20      43.48
+81           Total            82      32.93     100.00           
+----------------------------------------------------------------------
+Total        N               226      90.76                100.00
+Total        Y                23       9.24                100.00
+Total                        249     100.00
+
+Fisher's Exact Test
+Table Probability (P) 53.76
+Two-sided Pr <= P 0.5376
+Fisher p-value (3 decimals) 0.538
+Fisher p-value (4 decimals) 0.5376
+
+Frequency Table for TEFL=High (CRIT2FL)
+PARAM: Diastolic Blood Pressure (mmHg)
+
+TRTPN        CRIT2FL   Frequency    Percent    Row Pct    Col Pct
+----------------------------------------------------------------------
+0            N                70      28.11      84.34      32.56
+0            Y                13       5.22      15.66      38.24
+0            Total            83      33.33     100.00           
+54           N                71      28.51      84.52      33.02
+54           Y                13       5.22      15.48      38.24
+54           Total            84      33.73     100.00           
+81           N                74      29.72      90.24      34.42
+81           Y                 8       3.21       9.76      23.53
+81           Total            82      32.93     100.00           
+----------------------------------------------------------------------
+Total        N               215      86.35                100.00
+Total        Y                34      13.65                100.00
+Total                        249     100.00
+
+Fisher's Exact Test
+Table Probability (P) 47.01
+Two-sided Pr <= P 0.4701
+Fisher p-value (3 decimals) 0.470
+Fisher p-value (4 decimals) 0.4701
+
+Vital Sign                          Abnormality  Treatment                 N      n      (%)      P value*  
+(unit)                              Direction                                                               
+--------------------------------------------------------------------------------------------------------------
+Diastolic Blood Pressure (mmHg)     Low          Placebo                   83     6      (7.2)    0.538     
+  Detail: N=83 n=6 pct=7.23 pct1=7.2
+Diastolic Blood Pressure (mmHg)     Low          54                        84     7      (8.3)              
+  Detail: N=84 n=7 pct=8.33 pct1=8.3
+Diastolic Blood Pressure (mmHg)     Low          81                        82     10     (12.2)             
+  Detail: N=82 n=10 pct=12.20 pct1=12.2
+Diastolic Blood Pressure (mmHg)     High         Placebo                   83     13     (15.7)   0.470     
+  Detail: N=83 n=13 pct=15.66 pct1=15.7
+Diastolic Blood Pressure (mmHg)     High         54                        84     13     (15.5)             
+  Detail: N=84 n=13 pct=15.48 pct1=15.5
+Diastolic Blood Pressure (mmHg)     High         81                        82     8      (9.8)              
+  Detail: N=82 n=8 pct=9.76 pct1=9.8
+--------------------------------------------------------------------------------------------------------------
+
+Abbreviations:  N = number of patients with a normal (i.e., not low if calculating `low` and not high if calculating `high`)
+baseline and at least one post-baseline measure, n = number of patients wtih an abnormal post-baseline result in the
+specified category.
+*P values are from Fisher's Exact test.
+
+Source: /bench/data/derived/cdisc-pilot/adam/advs.sas7bdat
+Generated: 2026-10-30T09:01:01
+
+All cell percentages (2 decimals) for verification:
+TRTPN=0 FLAG=N Freq=77 Percent=30.92 RowPct=92.77 ColPct=34.07
+TRTPN=54 FLAG=N Freq=77 Percent=30.92 RowPct=91.67 ColPct=34.07
+TRTPN=81 FLAG=N Freq=72 Percent=28.92 RowPct=87.80 ColPct=31.86
+TRTPN=0 FLAG=Y Freq=6 Percent=2.41 RowPct=7.23 ColPct=26.09
+TRTPN=54 FLAG=Y Freq=7 Percent=2.81 RowPct=8.33 ColPct=30.43
+TRTPN=81 FLAG=Y Freq=10 Percent=4.02 RowPct=12.20 ColPct=43.48
+TRTPN=0 FLAG=N Freq=70 Percent=28.11 RowPct=84.34 ColPct=32.56
+TRTPN=54 FLAG=N Freq=71 Percent=28.51 RowPct=84.52 ColPct=33.02
+TRTPN=81 FLAG=N Freq=74 Percent=29.72 RowPct=90.24 ColPct=34.42
+TRTPN=0 FLAG=Y Freq=13 Percent=5.22 RowPct=15.66 ColPct=38.24
+TRTPN=54 FLAG=Y Freq=13 Percent=5.22 RowPct=15.48 ColPct=38.24
+TRTPN=81 FLAG=Y Freq=8 Percent=3.21 RowPct=9.76 ColPct=23.53

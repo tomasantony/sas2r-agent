@@ -1,0 +1,62 @@
+sandbox: docker run --rm --name sas2r-6982e15f6e43 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P047\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+
+Attaching package: ‘data.table’
+
+The following object is masked from ‘package:purrr’:
+
+    transpose
+
+The following objects are masked from ‘package:lubridate’:
+
+    hour, isoweek, isoyear, mday, minute, month, quarter, second, wday,
+    week, yday, year
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+The following object is masked from ‘package:base’:
+
+    %notin%
+
+OUT_DIR: /work/out 
+advs_path: /bench/data/raw/cdisc-pilot/adam/advs.xpt 
+Warning messages:
+1: Removed 1 row containing missing values or values outside the scale range
+(`geom_text()`). 
+2: Removed 1 row containing missing values or values outside the scale range
+(`geom_text()`). 
+3: Removed 1 row containing missing values or values outside the scale range
+(`geom_text()`). 
+4: Removed 1 row containing missing values or values outside the scale range
+(`geom_text()`). 
+[1] TRUE
+Files written to OUT_DIR:
+ [1] "advs_contents.csv"              "advs.csv"                      
+ [3] "all.csv"                        "clinicalhandout_dbpprofile.csv"
+ [5] "ClinicalHandout_DbpProfile.gif" "clinicalhandout_dbpprofile.png"
+ [7] "DBP_Profile.csv"                "DBP_Profile.html"              
+ [9] "DBP_Profile.txt"                "freq_aval.csv"                 
+[11] "freq_avisit_avisitn.csv"        "freq_trtpn.csv"                
+[13] "P047.csv"                       "P047.lst"                      
+[15] "P047.txt"                       "temp.csv"                      
+[17] "temp1.csv"                     
+P047 translation complete.

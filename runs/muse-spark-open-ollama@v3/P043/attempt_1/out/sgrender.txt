@@ -1,0 +1,20 @@
+Figure 11.1 Scatterplot
+LLN ULN ....
+
+LLN = 135
+ULN = 145
+
+Number of subjects plotted: 243
+Treatment groups: Placebo, Xanomeline High Dose, Xanomeline Low Dose
+
+Summary by Treatment (BASE vs AVAL):
+Placebo: N=84  BASE mean=140.39 min=132.00 max=147.00  AVAL mean=141.52 min=132.00 max=146.00
+Xanomeline High Dose: N=79  BASE mean=139.89 min=130.00 max=148.00  AVAL mean=140.43 min=134.00 max=154.00
+Xanomeline Low Dose: N=80  BASE mean=139.89 min=132.00 max=145.00  AVAL mean=141.18 min=135.00 max=148.00
+
+Reference lines:
+  Horizontal y=ULN (145.00) blue dashed
+  Horizontal y=LLN (135.00) red dashed
+  Vertical x=LLN (135.00) red dashed
+  Vertical x=ULN (145.00) blue dashed
+  45-degree line y=x from 0,0 to 100,100

@@ -1,0 +1,79 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9440639269406392,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P090.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.8321917808219178,
+   "detail": {
+    "recall": 0.8321917808219178,
+    "expected": 292,
+    "found": 243,
+    "r_files": [
+     "adcm.csv",
+     "adsl.csv",
+     "P090.csv",
+     "P090.lst.csv",
+     "P090.lst.txt",
+     "P090.txt"
+    ],
+    "missing_examples": [
+     "9",
+     "27",
+     "808",
+     "64",
+     "65536",
+     "35248",
+     "9.0401",
+     "8",
+     "60",
+     "13",
+     "100",
+     "14"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adcm",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-ollama@v3\\P090\\attempt_1\\out\\adcm.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 11,
+    "rows_r": 11,
+    "cols_sas": 38,
+    "cols_r": 38,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adsl",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-ollama@v3\\P090\\attempt_1\\out\\adsl.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 6,
+    "rows_r": 6,
+    "cols_sas": 9,
+    "cols_r": 9,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  }
+ ]
+}

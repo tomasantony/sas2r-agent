@@ -1,0 +1,28 @@
+PROC MEANS Data=Infection  Var=NewCases
+Class Type / order=data
+Statistics: Mean StdDev Min Max Sum
+------------------------------------------------------------
+Type                  N         Mean       StdDev    Min    Max      Sum
+------------------------------------------------------------
+Constant            100     10.00000      3.03182      3     16     1000
+  -> Mean=10.00000 StdDev=3.03182 Min=3 Max=16 Sum=1000 N=100
+Early Peak          100     10.00000     12.05962      0     37     1000
+  -> Mean=10.00000 StdDev=12.05962 Min=0 Max=37 Sum=1000 N=100
+Flattened           100     10.00000      8.40995      0     27     1000
+  -> Mean=10.00000 StdDev=8.40995 Min=0 Max=27 Sum=1000 N=100
+Second Outbreak     100     10.00000     10.44949      0     34     1000
+  -> Mean=10.00000 StdDev=10.44949 Min=0 Max=34 Sum=1000 N=100
+Exponential         100     10.00000     15.79988      0     66     1000
+  -> Mean=10.00000 StdDev=15.79988 Min=0 Max=66 Sum=1000 N=100
+Overall             500     10.00000     10.76568      0     66     5000
+  -> Mean=10.00000 StdDev=10.76568 Min=0 Max=66 Sum=5000 N=500
+------------------------------------------------------------
+Total numbers displayed: 30
+
+Detailed values for verification:
+Constant: N=100 Mean=10.00000 StdDev=3.03182 Min=3 Max=16 Sum=1000
+Early Peak: N=100 Mean=10.00000 StdDev=12.05962 Min=0 Max=37 Sum=1000
+Flattened: N=100 Mean=10.00000 StdDev=8.40995 Min=0 Max=27 Sum=1000
+Second Outbreak: N=100 Mean=10.00000 StdDev=10.44949 Min=0 Max=34 Sum=1000
+Exponential: N=100 Mean=10.00000 StdDev=15.79988 Min=0 Max=66 Sum=1000
+Overall: N=500 Mean=10.00000 StdDev=10.76568 Min=0 Max=66 Sum=5000

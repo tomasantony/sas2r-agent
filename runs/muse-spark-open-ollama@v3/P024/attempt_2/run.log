@@ -1,0 +1,5 @@
+sandbox: docker run --rm --name sas2r-7e5af6b14fb3 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P024\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+[1] TRUE
+[1] TRUE
+[1] TRUE
+Done. Wrote /work/out/ds.csv (5 rows) and listing /work/out/P024.lst.txt

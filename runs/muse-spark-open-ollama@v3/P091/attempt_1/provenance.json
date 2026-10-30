@@ -1,0 +1,74 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P091",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T05:59:48",
+ "agent_commit": "d7687c9bacaf8c17d38ec023f89956a5f5a379f5",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 2846,
+  "output_tokens": 5178,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 22.9
+ },
+ "inputs": {
+  "prompt_translate.md": "8c07594c6ac4875b170ea6fb0c9c93aa4af89417941331b49cfcb5cb28303638"
+ },
+ "model_output": {
+  "response.md": "05681f1c594eb752ffa758fd8a3561babc46d35f69f29e6448c5273e662cad7e",
+  "reasoning.md": "f217e790a695b8410f729e8eed50ddcb7de29ab91b19c1e40c0997939770948c",
+  "script.R": "2bc07efbf4029edb5af3ca5f7f4bb38cdb73112220b346948cd1088df31f083a"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.6,
+  "timed_out": false,
+  "log_sha256": "151699689bd599dc122749d27d0d6e9ec42fd13c7bfef0b23ea3e9568c6f7c88"
+ },
+ "r_outputs": {
+  "bar1.csv": "0776e792a373f5fc650f9166830b0033dfee4d90992bf26304e1804ef49e3355",
+  "bar1.htm": "c59b80938979e899128afdca826a7320c2dbdd1cfcc2755858ddd216319a5e20",
+  "bar1.htm.txt": "da6d8ae9a5469be6c50051b803c4d4ce04700cbb9c31dc08c2f48adaf5287d19",
+  "bar1.png": "9ffac35a69988a166cad11d9d47dfc6d6c44e42174842fdc84c04ee02caf7c29",
+  "bar1.txt": "da6d8ae9a5469be6c50051b803c4d4ce04700cbb9c31dc08c2f48adaf5287d19",
+  "my_data.csv": "9f87411d80180a7a6689a7eff6ebfffa8d8468fd904fb7c9a9d0f844676514d0"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P091/bar1.htm",
+   "sha256": "24d4188ad0562eb8610a9842fb445bfdde899528958f289bd8db8320e62776c5",
+   "frozen_sha256": "24d4188ad0562eb8610a9842fb445bfdde899528958f289bd8db8320e62776c5",
+   "ok": true
+  },
+  {
+   "file": "datasets/P091/bar1.png",
+   "sha256": "2fc0273e6467dd482ed189a7440ac9775d2eedbe405f14956fcad703f5790c46",
+   "frozen_sha256": "2fc0273e6467dd482ed189a7440ac9775d2eedbe405f14956fcad703f5790c46",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

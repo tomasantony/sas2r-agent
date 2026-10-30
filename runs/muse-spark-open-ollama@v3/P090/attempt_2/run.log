@@ -1,0 +1,15 @@
+sandbox: docker run --rm --name sas2r-c64b0e898d77 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P090\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Error in `tibble::tribble()`:
+! Data must be rectangular.
+• Found 6 columns.
+• Found 266 cells.
+ℹ 266 is not an integer multiple of 6.
+Backtrace:
+    ▆
+ 1. └─tibble::tribble(...)
+ 2.   └─tibble:::extract_frame_data_from_dots(...)
+ 3.     └─tibble:::validate_rectangular_shape(...)
+ 4.       └─tibble:::abort_tribble_non_rectangular(...)
+ 5.         └─tibble:::tibble_abort(...)
+ 6.           └─rlang::abort(x, class, ..., call = call, parent = parent, use_cli_format = TRUE)
+Execution halted

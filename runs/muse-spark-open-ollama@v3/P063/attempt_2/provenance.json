@@ -1,0 +1,65 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P063",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T05:15:11",
+ "agent_commit": "d7687c9bacaf8c17d38ec023f89956a5f5a379f5",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 6785,
+  "output_tokens": 4597,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 15.7
+ },
+ "inputs": {
+  "prompt_translate.md": "e354b38fbca43b11474c676e80f9efb11ce9ba03f82772009c7b6a158b0061f2"
+ },
+ "model_output": {
+  "response.md": "dfada0e54173f8857bbba49456f6aa0085c6811fc82f1d5cfb52fbfc3059c3aa",
+  "reasoning.md": "d9b9cd96338398195376310e820244b1dde3818d59030f5d322db83c3ff2ed4f",
+  "script.R": "5bd679ada955b6f565bf34538c068f8e3fb4e42cc6de702b0351cfc4591427ec"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.7,
+  "timed_out": false,
+  "log_sha256": "43059a40ad1d327f416df8428636c8c8d1c1c3a12a0d60c49f6bab652f90cd7d"
+ },
+ "r_outputs": {
+  "gant.csv": "5e8e20bcb3f77501b1e48269a0811fc1b51ae2e269905a05859d2a097125dcfb",
+  "gant.txt": "3fabd91cc22441fab07ccdba7e2a5f2a007ea93badace6d134e2359a91e48eb5",
+  "gant.xlsx": "2bdb37d47d211a058e9d95210d4fdadd8a17b3946c7d18a7207b39ae1fcc6662"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P063/gant.xlsx",
+   "sha256": "7a8e32ef29642ba911f23c7335cb7e287c88de447d5f55ac9e263368ea185be7",
+   "frozen_sha256": "7a8e32ef29642ba911f23c7335cb7e287c88de447d5f55ac9e263368ea185be7",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.6527777777777778,
+  "produced_all": true
+ }
+}

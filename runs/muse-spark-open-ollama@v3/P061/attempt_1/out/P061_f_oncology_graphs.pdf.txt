@@ -1,0 +1,14 @@
+P061_f_oncology_graphs.pdf - Oncology Graphs
+Histogram AGE at Diagnosis
+N=2498 Mean=60.4203 Std=13.0330
+
+VBar Tumor Stage
+0 24
+1 630
+2 979
+3 144
+4 11
+Missing 721
+
+LIFETEST Survival
+Median Survival 156.333

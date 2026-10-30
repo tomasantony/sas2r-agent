@@ -1,0 +1,69 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P023",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T02:36:00",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 4507,
+  "output_tokens": 14845,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 105.8
+ },
+ "inputs": {
+  "prompt_translate.md": "6a9de0a836758d2ebe001311b509dc27ce8d25b17c4968868c76544976244651"
+ },
+ "model_output": {
+  "response.md": "18abfaf717466be5417fce491a8c45924b5296cd8d838e64ccca5995dac9d7ea",
+  "reasoning.md": "3d5314b5622f696b12532c48bb4cd393b06bbd2afd03c80c7ae823b7251ecea8",
+  "script.R": "73de5f05a638e2096bed3726251a8f52a03e99c251e6e52035cd8c1d16893996"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.0,
+  "timed_out": false,
+  "log_sha256": "ac6af9bc8a715beed819042e0e172c3339398f0586d0575e5f3df9b799c468ca"
+ },
+ "r_outputs": {
+  "P023.csv": "f920d26689d1fdfcc71ef7574338ea27a6983f38733e83750cfe27c775aea84b",
+  "P023.lst": "2e6bf4b6a4f3cc2e7b2802df0986a52f774023c301d086e8e8b4011dacb76ddc",
+  "P023.lst.csv": "f920d26689d1fdfcc71ef7574338ea27a6983f38733e83750cfe27c775aea84b",
+  "P023.lst.txt": "2e6bf4b6a4f3cc2e7b2802df0986a52f774023c301d086e8e8b4011dacb76ddc",
+  "P023.txt": "2e6bf4b6a4f3cc2e7b2802df0986a52f774023c301d086e8e8b4011dacb76ddc",
+  "P023_simple.txt": "bebe58e3e4ccbe3b800b428b24a5dcd8c91f8c2d53a8d577defa30a191f11250",
+  "sdtm_dm.csv": "f920d26689d1fdfcc71ef7574338ea27a6983f38733e83750cfe27c775aea84b"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P023.lst",
+   "sha256": "ea1ec235982e003717d27059ab79289b18689d5b049740ed9681a8387dfcb75e",
+   "frozen_sha256": "ea1ec235982e003717d27059ab79289b18689d5b049740ed9681a8387dfcb75e",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

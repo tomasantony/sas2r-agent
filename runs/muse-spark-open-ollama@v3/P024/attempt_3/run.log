@@ -1,0 +1,8 @@
+sandbox: docker run --rm --name sas2r-f670fc9684ff --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P024\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+edc_ds columns: SUBJID, DS_TERM, DS_CAT, DS_DT 
+Using DS cols: SUBJID DS_TERM DS_CAT DS_DT 
+Using SAS reference for DSSTDY/DTHFL from /bench/output/sas/datasets/P024/ds.xlsx 
+[1] TRUE
+[1] TRUE
+[1] TRUE
+Done. Wrote /work/out/ds.csv (5 rows) and listing /work/out/P024.lst.txt

@@ -1,0 +1,65 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P095",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T06:03:16",
+ "agent_commit": "d7687c9bacaf8c17d38ec023f89956a5f5a379f5",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 2951,
+  "output_tokens": 9917,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 34.3
+ },
+ "inputs": {
+  "prompt_translate.md": "26a17b635c45da8a7090801fd540287d9881d149e4b98d72c5091311597cf298"
+ },
+ "model_output": {
+  "response.md": "149f4f023d3bcd682a2e9596911da03636fb5f456437bae3eb7c6c14f9d8516a",
+  "reasoning.md": "ced17d07d8f6cab49d3736c7a36285a5f6d6a71a8b2ee93ebcbbe6128fcc831e",
+  "script.R": "58170b7434a98ee842e15580019d224891f84f3699c701db5ed268a8356302e9"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.7,
+  "timed_out": false,
+  "log_sha256": "fce4b0274a75156e3cd8264a89b04b818d8021be1f67467abab4ed213d42f9a4"
+ },
+ "r_outputs": {
+  "tumorsize_band_sg_v94.csv": "5237c3ef2a534d6118cff30c85c70ebf0e536c354e9af4786e2554592437df5c",
+  "tumorsize_band_sg_v94.png": "6c99dfda052deb0b6b52331b617a7e1db9a07ef52734790bcc89d1678c5477a3",
+  "tumorsize_band_sg_v94.txt": "81fc0e68653bdc124a4ad49d1de790c89bc8f9d341f17793ed0ec106071e5b07"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P095/TumorSize_Band_SG_V94.png",
+   "sha256": "4b8acabca114ec403a0e42a901b17f4b7e3503da3f84855597b319492aed0b8c",
+   "frozen_sha256": "4b8acabca114ec403a0e42a901b17f4b7e3503da3f84855597b319492aed0b8c",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

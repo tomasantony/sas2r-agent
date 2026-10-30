@@ -1,0 +1,45 @@
+The Round-To-Even Function
+================================================================================
+
+Table 1: Comparison of ROUND and ROUNDE (round-to-even) functions
+-------------------------------------------------------------------------------
+x        Round(x)     RoundE(x)   
+-------- ------------ ------------
+0        0            0           
+0.25     0            0           
+0.5      1            0           
+0.75     1            1           
+1        1            1           
+1.25     1            1           
+1.5      2            2           
+1.75     2            2           
+2        2            2           
+2.25     2            2           
+2.5      3            2           
+2.75     3            3           
+3        3            3           
+3.25     3            3           
+3.5      4            4           
+
+Note: ROUND uses traditional half-away-from-zero; ROUNDE uses round-half-to-even.
+      x = 0 to 3.5 by 0.25 (15 observations, 45 numbers)
+
+Table 2: PROC MEANS - Sum and Mean (ndec=3) for Length data (N=425)
+-------------------------------------------------------------------------------
+Variable     Label                              Sum         Mean
+------------ ------------------------- ------------ ------------
+Length       True values                    429.530        1.011
+Round        Rounded values                 432.800        1.018
+RoundEven    Round-to-even values           430.800        1.014
+
+Table 3: PROC MEANS - Proportion rounded up (ndec=3)
+-------------------------------------------------------------------------------
+Variable       Label                                       Mean
+-------------- ----------------------------------- ------------
+RoundUp        Proportion rounded up for ROUND            0.560
+RoundEvenUp    Proportion rounded up for ROUNDE           0.513
+
+--------------------------------------------------------------------------------
+Summary: 53 numbers displayed (45 in Table 1 + 6 in Table 2 + 2 in Table 3)
+Data: Channel1 Length (microns) for Lot 1, N=425 field effect transistors
+Rounding unit = 0.1 (nearest tenth)

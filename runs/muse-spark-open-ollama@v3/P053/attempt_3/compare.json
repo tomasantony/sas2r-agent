@@ -1,0 +1,83 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P053.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 106,
+    "found": 106,
+    "r_files": [
+     "advsmax2.csv",
+     "ADVSMAXSum.csv",
+     "ANRIND.csv",
+     "ANRIND_overall.csv",
+     "BNRIND.csv",
+     "BNRIND_overall.csv",
+     "EmergentHigh.csv",
+     "freq_TRTPN_n.csv",
+     "P053.csv",
+     "P053.txt",
+     "P053_allfreq.csv",
+     "P053_freq_TRTPN_n.csv",
+     "P053_stats.csv",
+     "sasgraph.csv",
+     "TableA.csv",
+     "TableAt.csv",
+     "Target16.csv",
+     "Target16.txt"
+    ],
+    "missing_examples": []
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "sasgraph.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-ollama@v3\\P053\\attempt_3\\out\\sasgraph.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "Target16.pdf",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 41,
+    "found": 41,
+    "r_files": [
+     "advsmax2.csv",
+     "ADVSMAXSum.csv",
+     "ANRIND.csv",
+     "ANRIND_overall.csv",
+     "BNRIND.csv",
+     "BNRIND_overall.csv",
+     "EmergentHigh.csv",
+     "freq_TRTPN_n.csv",
+     "P053.csv",
+     "P053.txt",
+     "P053_allfreq.csv",
+     "P053_freq_TRTPN_n.csv",
+     "P053_stats.csv",
+     "sasgraph.csv",
+     "TableA.csv",
+     "TableAt.csv",
+     "Target16.csv",
+     "Target16.txt"
+    ],
+    "missing_examples": []
+   }
+  }
+ ]
+}

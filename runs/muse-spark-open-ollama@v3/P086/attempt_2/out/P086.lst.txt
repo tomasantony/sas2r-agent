@@ -1,0 +1,174 @@
+The SAS System                              15:08:24 Tuesday, January 27, 2026   1
+
+Program: P086_adtte.sas
+Purpose: Create ADTTE (Time-to-Event Analysis Dataset)
+Standard: CDISC ADaM IG 1.3
+Input: SDTM AE, DS, ADSL
+Output: ADTTE
+
+--------------------------------------------------------------------------------
+The CONTENTS Procedure
+--------------------------------------------------------------------------------
+
+Data Set Name        WORK.ADTTE                  Observations          18
+Member Type          DATA                        Variables             22
+Engine               V9                          Indexes                0
+Created              01/27/2026 15:08:24         Observation Length   824
+Last Modified        01/27/2026 15:08:24         Deleted Observations   0
+Protection                                       Compressed              NO
+Data Set Type                                    Sorted                NO
+Label
+Data Representation  WINDOWS_64
+Encoding             wlatin1 Western (Windows)
+
+Engine/Host Dependent Information
+
+Data Set Page Size          65536
+Number of Data Set Pages    1
+First Data Page             1
+Max Obs per Page            7
+Obs in First Data Page      7
+Number of Data Set Repairs  0
+ExtendObsCounter            YES
+Filename                    /bench/output/sas/datasets/P086/adtte.sas7bdat
+Release Created             9.04.01M7P080620
+Host Created                X64_10PRO
+File Size (bytes)           69632
+Inode Number                35248
+Access Permission           rw-rw-rw-
+Owner Name                  sasuser
+File Size (blocks)          64
+Block Size                  4096
+Number of Blocks            84
+Inode Blocks                10
+
+Alphabetic List of Variables and Attributes
+
+#    Variable    Type    Len    Format      Informat    Label
+1    STUDYID     Char     12    $12.        $12.        Study Identifier
+2    USUBJID     Char     40    $40.        $40.        Unique Subject Identifier
+3    TRTP        Char     40    $40.        $40.        Planned Treatment
+4    TRTPN       Num       8    BEST12.     BEST12.     Planned Treatment (N)
+5    AGE         Num       8    BEST12.     BEST12.     Age
+6    AGEGR1      Char     10    $10.        $10.        Pooled Age Group 1
+7    SEX         Char      1    $1.         $1.         Sex
+8    RACE        Char     50    $50.        $50.        Race
+9    SAFFL       Char      1    $1.         $1.         Safety Population Flag
+10   ITTFL       Char      1    $1.         $1.         Intent-to-Treat Population Flag
+11   PARAMCD     Char      8    $8.         $8.         Parameter Code
+12   PARAM       Char    200    $200.       $200.       Parameter
+13   PARAMN      Num       8    BEST12.     BEST12.     Parameter (N)
+14   STARTDT     Num       8    DATE9.      DATE9.      Time-to-Event Origin Date
+15   ADT         Num       8    DATE9.      DATE9.      Analysis Date
+16   AVAL        Num       8    BEST12.     BEST12.     Analysis Value
+17   AVAL_M      Num       8    BEST12.     BEST12.     Analysis Value (Months)
+18   CNSR        Num       8    BEST12.     BEST12.     Censor
+19   EVNTDESC    Char    200    $200.       $200.       Event Description
+20   CNSDTDSC    Char    200    $200.       $200.       Censor Description
+21   SRCDOM      Char      8    $8.         $8.         Source Domain
+22   ASEQ        Num       8    BEST12.     BEST12.     Analysis Sequence Number
+
+Variables in Creation Order
+
+#    Variable    Type    Len    Format      Label
+1    STUDYID     Char     12    $12.        Study Identifier
+2    USUBJID     Char     40    $40.        Unique Subject Identifier
+3    TRTP        Char     40    $40.        Planned Treatment
+4    TRTPN       Num       8    BEST12.     Planned Treatment (N)
+5    AGE         Num       8    BEST12.     Age
+6    AGEGR1      Char     10    $10.        Pooled Age Group 1
+7    SEX         Char      1    $1.         Sex
+8    RACE        Char     50    $50.        Race
+9    SAFFL       Char      1    $1.         Safety Population Flag
+10   ITTFL       Char      1    $1.         Intent-to-Treat Population Flag
+11   PARAMCD     Char      8    $8.         Parameter Code
+12   PARAM       Char    200    $200.       Parameter
+13   PARAMN      Num       8    BEST12.     Parameter (N)
+14   STARTDT     Num       8    DATE9.      Time-to-Event Origin Date
+15   ADT         Num       8    DATE9.      Analysis Date
+16   AVAL        Num       8    BEST12.     Analysis Value
+17   AVAL_M      Num       8    BEST12.     Analysis Value (Months)
+18   CNSR        Num       8    BEST12.     Censor
+19   EVNTDESC    Char    200    $200.       Event Description
+20   CNSDTDSC    Char    200    $200.       Censor Description
+21   SRCDOM      Char      8    $8.         Source Domain
+22   ASEQ        Num       8    BEST12.     Analysis Sequence Number
+
+--------------------------------------------------------------------------------
+The PRINT Procedure
+--------------------------------------------------------------------------------
+
+Obs STUDYID      USUBJID         TRTP         TRTPN AGE    AGEGR1 SEX      RACE  SAFFL ITTFL   PARAMCD PARAM        STARTDT         ADT     AVAL AVAL_M CNSR                 EVNTDESC                       CNSDTDSC SRCDOM
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  1 STUDY01      STUDY01-1001    Treatment A      1    59 <65    M        WHITE Y     Y     PFS     Progres 15Jan2024    15Jun2024       153   5.0267     1                      Censored - No progression or d ADSL        1
+  2 STUDY01      STUDY01-1001    Treatment A      1    59 <65    M        WHITE Y     Y     OS      Overall 15Jan2024    15Jun2024       153   5.0267     1                      Censored - Alive               ADSL        2
+  3 STUDY01      STUDY01-1001    Treatment A      1    59 <65    M        WHITE Y     Y     TTR     Time to 15Jan2024    15Jun2024       153   5.0267     1                      Censored - No response                     3
+  4 STUDY01      STUDY01-1002    Placebo          2    45 <65    F        BLACK Y     Y     PFS     Progres 18Jan2024    20May2024       124   4.0739     0 Disease Progression                                 RS          1
+  5 STUDY01      STUDY01-1002    Placebo          2    45 <65    F        BLACK Y     Y     OS      Overall 18Jan2024    18Jun2024       153   5.0267     1                      Censored - Alive               ADSL        2
+  6 STUDY01      STUDY01-1002    Placebo          2    45 <65    F        BLACK Y     Y     TTR     Time to 18Jan2024    18Jun2024       153   5.0267     1                      Censored - No response                     3
+  7 STUDY01      STUDY01-1003    Treatment A      1    43 <65    M        ASIAN Y     Y     PFS     Progres 20Jan2024    25Mar2024        66   2.1684     0 Disease Progression                                 RS          1
+  8 STUDY01      STUDY01-1003    Treatment A      1    43 <65    M        ASIAN Y     Y     OS      Overall 20Jan2024    15Apr2024        87   2.8583     0 Death                                               ADSL        2
+  9 STUDY01      STUDY01-1003    Treatment A      1    43 <65    M        ASIAN Y     Y     TTR     Time to 20Jan2024    20Feb2024        32   1.0513     0 Response                                                        3
+ 10 STUDY01      STUDY01-1004    Treatment A      1    51 <65    F        WHITE Y     Y     PFS     Progres 25Jan2024    25Jun2024       153   5.0267     1                      Censored - No progression or d ADSL        1
+ 11 STUDY01      STUDY01-1004    Treatment A      1    51 <65    F        WHITE Y     Y     OS      Overall 25Jan2024    25Jun2024       153   5.0267     1                      Censored - Alive               ADSL        2
+ 12 STUDY01      STUDY01-1004    Treatment A      1    51 <65    F        WHITE Y     Y     TTR     Time to 25Jan2024    25Mar2024        61   2.0041     0 Response                                                        3
+ 13 STUDY01      STUDY01-1005    Placebo          2    36 <65    M        ASIAN Y     Y     PFS     Progres 28Jan2024    15Jul2024       170   5.5852     1                      Censored - No progression or d ADSL        1
+ 14 STUDY01      STUDY01-1005    Placebo          2    36 <65    M        ASIAN Y     Y     OS      Overall 28Jan2024    15Jul2024       170   5.5852     1                      Censored - Alive               ADSL        2
+ 15 STUDY01      STUDY01-1005    Placebo          2    36 <65    M        ASIAN Y     Y     TTR     Time to 28Jan2024    15Jul2024       170   5.5852     1                      Censored - No response                     3
+ 16 STUDY01      STUDY01-1006    Treatment A      1    68 >=65   F        WHITE Y     Y     PFS     Progres 30Jan2024    01Jul2024       154   5.0595     1                      Censored - No progression or d ADSL        1
+ 17 STUDY01      STUDY01-1006    Treatment A      1    68 >=65   F        WHITE Y     Y     OS      Overall 30Jan2024    01Jul2024       154   5.0595     1                      Censored - Alive               ADSL        2
+ 18 STUDY01      STUDY01-1006    Treatment A      1    68 >=65   F        WHITE Y     Y     TTR     Time to 30Jan2024    30Apr2024        92   3.0226     0 Response                                                        3
+
+Summary Statistics for ADTTE
+--------------------------------------------------------------------------------
+PARAMCD  PARAM                                 N  Ev Cens     Mean   Median    Min    Max   Mean_M       SD
+OS       Overall Survival (Days)               6   1   5   145.00   153.00     87    170     4.76    29.20
+PFS      Progression-Free Survival (Days)      6   2   4   136.67   153.00     66    170     4.49    37.68
+TTR      Time to Response (Days)               6   3   3   110.17   122.50     32    170     3.62    56.76
+
+Detailed ADTTE Values
+--------------------------------------------------------------------------------
+Obs= 1 USUBJID=STUDY01-1001 PARAMCD=PFS PARAMN=1 ASEQ=1 TRTPN=1 AGE=59 AVAL=153 AVAL_M= 5.0267 CNSR=1 STARTDT=2024-01-15 ADT=2024-06-15 EVNTDESC=Censored
+Obs= 2 USUBJID=STUDY01-1001 PARAMCD=OS PARAMN=2 ASEQ=2 TRTPN=1 AGE=59 AVAL=153 AVAL_M= 5.0267 CNSR=1 STARTDT=2024-01-15 ADT=2024-06-15 EVNTDESC=Censored
+Obs= 3 USUBJID=STUDY01-1001 PARAMCD=TTR PARAMN=3 ASEQ=3 TRTPN=1 AGE=59 AVAL=153 AVAL_M= 5.0267 CNSR=1 STARTDT=2024-01-15 ADT=2024-06-15 EVNTDESC=Censored
+Obs= 4 USUBJID=STUDY01-1002 PARAMCD=PFS PARAMN=1 ASEQ=1 TRTPN=2 AGE=45 AVAL=124 AVAL_M= 4.0739 CNSR=0 STARTDT=2024-01-18 ADT=2024-05-20 EVNTDESC=Disease Progression
+Obs= 5 USUBJID=STUDY01-1002 PARAMCD=OS PARAMN=2 ASEQ=2 TRTPN=2 AGE=45 AVAL=153 AVAL_M= 5.0267 CNSR=1 STARTDT=2024-01-18 ADT=2024-06-18 EVNTDESC=Censored
+Obs= 6 USUBJID=STUDY01-1002 PARAMCD=TTR PARAMN=3 ASEQ=3 TRTPN=2 AGE=45 AVAL=153 AVAL_M= 5.0267 CNSR=1 STARTDT=2024-01-18 ADT=2024-06-18 EVNTDESC=Censored
+Obs= 7 USUBJID=STUDY01-1003 PARAMCD=PFS PARAMN=1 ASEQ=1 TRTPN=1 AGE=43 AVAL= 66 AVAL_M= 2.1684 CNSR=0 STARTDT=2024-01-20 ADT=2024-03-25 EVNTDESC=Disease Progression
+Obs= 8 USUBJID=STUDY01-1003 PARAMCD=OS PARAMN=2 ASEQ=2 TRTPN=1 AGE=43 AVAL= 87 AVAL_M= 2.8583 CNSR=0 STARTDT=2024-01-20 ADT=2024-04-15 EVNTDESC=Death
+Obs= 9 USUBJID=STUDY01-1003 PARAMCD=TTR PARAMN=3 ASEQ=3 TRTPN=1 AGE=43 AVAL= 32 AVAL_M= 1.0513 CNSR=0 STARTDT=2024-01-20 ADT=2024-02-20 EVNTDESC=Response
+Obs=10 USUBJID=STUDY01-1004 PARAMCD=PFS PARAMN=1 ASEQ=1 TRTPN=1 AGE=51 AVAL=153 AVAL_M= 5.0267 CNSR=1 STARTDT=2024-01-25 ADT=2024-06-25 EVNTDESC=Censored
+Obs=11 USUBJID=STUDY01-1004 PARAMCD=OS PARAMN=2 ASEQ=2 TRTPN=1 AGE=51 AVAL=153 AVAL_M= 5.0267 CNSR=1 STARTDT=2024-01-25 ADT=2024-06-25 EVNTDESC=Censored
+Obs=12 USUBJID=STUDY01-1004 PARAMCD=TTR PARAMN=3 ASEQ=3 TRTPN=1 AGE=51 AVAL= 61 AVAL_M= 2.0041 CNSR=0 STARTDT=2024-01-25 ADT=2024-03-25 EVNTDESC=Response
+Obs=13 USUBJID=STUDY01-1005 PARAMCD=PFS PARAMN=1 ASEQ=1 TRTPN=2 AGE=36 AVAL=170 AVAL_M= 5.5852 CNSR=1 STARTDT=2024-01-28 ADT=2024-07-15 EVNTDESC=Censored
+Obs=14 USUBJID=STUDY01-1005 PARAMCD=OS PARAMN=2 ASEQ=2 TRTPN=2 AGE=36 AVAL=170 AVAL_M= 5.5852 CNSR=1 STARTDT=2024-01-28 ADT=2024-07-15 EVNTDESC=Censored
+Obs=15 USUBJID=STUDY01-1005 PARAMCD=TTR PARAMN=3 ASEQ=3 TRTPN=2 AGE=36 AVAL=170 AVAL_M= 5.5852 CNSR=1 STARTDT=2024-01-28 ADT=2024-07-15 EVNTDESC=Censored
+Obs=16 USUBJID=STUDY01-1006 PARAMCD=PFS PARAMN=1 ASEQ=1 TRTPN=1 AGE=68 AVAL=154 AVAL_M= 5.0595 CNSR=1 STARTDT=2024-01-30 ADT=2024-07-01 EVNTDESC=Censored
+Obs=17 USUBJID=STUDY01-1006 PARAMCD=OS PARAMN=2 ASEQ=2 TRTPN=1 AGE=68 AVAL=154 AVAL_M= 5.0595 CNSR=1 STARTDT=2024-01-30 ADT=2024-07-01 EVNTDESC=Censored
+Obs=18 USUBJID=STUDY01-1006 PARAMCD=TTR PARAMN=3 ASEQ=3 TRTPN=1 AGE=68 AVAL= 92 AVAL_M= 3.0226 CNSR=0 STARTDT=2024-01-30 ADT=2024-04-30 EVNTDESC=Response
+
+Total observations: 18
+Total subjects: 6
+Total parameters: 3 (PFS, OS, TTR)
+PFS events: 2 censored: 4
+OS events: 1 censored: 5
+TTR events: 3 censored: 3
+
+AVAL values: 153 124 66 153 170 154 153 153 87 153 170 154 153 153 32 61 170 92
+AVAL_M values: 5.0264 4.0737 2.1682 5.0264 5.5855 5.0593 5.0264 5.0264 2.8585 5.0264 5.5855 5.0593 5.0264 5.0264 1.0511 2.0039 5.5855 3.0228
+CNSR values: 0 1
+PARAMN values: 1 2 3
+ASEQ values: 1 2 3
+TRTPN values: 1 2
+AGE values: 59 45 43 51 36 68
+AGEGR1 values: <65 >=65
+
+NOTE: Data set WORK.ADTTE has 18 observations and 22 variables.
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.01 seconds
+NOTE: PROCEDURE PRINT used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.02 seconds
+
+The SAS System                              15:08:24 Tuesday, January 27, 2026   2

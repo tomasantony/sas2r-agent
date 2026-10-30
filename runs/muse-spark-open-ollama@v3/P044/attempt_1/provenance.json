@@ -1,0 +1,73 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P044",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T04:42:48",
+ "agent_commit": "d7687c9bacaf8c17d38ec023f89956a5f5a379f5",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 3287,
+  "output_tokens": 14028,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 51.7
+ },
+ "inputs": {
+  "prompt_translate.md": "61114f344c2a598a09371a495382752c339b3ac9673a0a43cf73a1b105ace996"
+ },
+ "model_output": {
+  "response.md": "e2686689ae1a4802dbc9b17edf6d3cf1364c3b5a8770a44132d45dbdc2a6057a",
+  "reasoning.md": "ac95bc873fa2b5240dbd0060e52bb1ab8f2fa88138718d23eb27bfb16cb43057",
+  "script.R": "66a0f26a4f6e1bdd3111bbcbf98ae53365a13b097c1c5ca42770fe5b341da933"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.9,
+  "timed_out": false,
+  "log_sha256": "51582bacec8ed70810146fc8978ab1a8e23c6f433d6e6ede4f9737b75973f0d3"
+ },
+ "r_outputs": {
+  "AEgrid.csv": "29ef67010dd1e83e07ba47105415c53a2ab8b2d1348001d0bc1d73858aa0f20e",
+  "count.csv": "8f318cb4792884a6151746d79f7c4a4c5538ff7351032278a0fc6b33f4ad43f1",
+  "countae.csv": "eeec711b77fda6356b17771c2e7af70b65e3179ddcacd974b8a4bd4bd90677fb",
+  "maxpercen2.csv": "11b89c3ff4d7d75a66f739261fc834bfbbede8832d52d5acdb9bfffb7754c982",
+  "nsubj.csv": "13688c8a3af7bd68269ec5c3245ad3f37665d749dc2fa537bd375281541e66a1",
+  "sgplot.csv": "db520a41fbabd7cb6f60a7d87d8c974feaa0cd6895c5840fad87e92ff101fdc9",
+  "sgplot.png": "6c2b613e388014c9973703647ccf5fa9e67b1eee5e542fe6580e9b748bd2258a",
+  "sgplot.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "tcount.csv": "88c1586dfb0ee30e6cd6530a904de93385f344aeffd9c3e765e356b905f32e2c",
+  "tcount2.csv": "94d54da866ad1ebfbf29a8d1007924eab679232d1e6e2dc94ca47945aa973b63",
+  "tcount3.csv": "5ab399bf7b95a930e07ee67e52698a3e3099730a60181f24b0d14851f67db049"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P044/SGPlot.png",
+   "sha256": "8566a0c5ddc7267daa2a988964f9c93d387637a6c2fbc7e1091828fb8e761c9d",
+   "frozen_sha256": "8566a0c5ddc7267daa2a988964f9c93d387637a6c2fbc7e1091828fb8e761c9d",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

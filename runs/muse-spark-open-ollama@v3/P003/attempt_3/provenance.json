@@ -1,0 +1,68 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P003",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 3,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T01:19:37",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 18079,
+  "output_tokens": 10503,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 130.9
+ },
+ "inputs": {
+  "prompt_translate.md": "842d6c5c12dee012b2b32f3aa712eef9f547b9d64ec264255fd2ded41a613b4f"
+ },
+ "model_output": {
+  "response.md": "dec284a459447acd4e47c4a765c7664d6fba5aed8cb89e81610009ad83ce2fc5",
+  "reasoning.md": "0e3f3f3bd9442c183a9d426df87eaac7402331fb5012b25e40cb134439268987",
+  "script.R": "8fd6a287f5a5580a4fcf7b02602381c377ffb8ac57b7549704120455a6bb04da"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.7,
+  "timed_out": false,
+  "log_sha256": "7914d2951d2462766a7ae8088de9dc159d31f015f227a0274f37240f18e3ccc8"
+ },
+ "r_outputs": {
+  "P003.csv": "b487fdea90e6425a5a2c35b57c22277f9a18c9196da6cd2bcc321a0fa22c81e0",
+  "P003.lst": "d293047be2a1b79ce23debb449384fdc57dca3fd78ea1e5374898f509fa00528",
+  "P003.lst.csv": "b487fdea90e6425a5a2c35b57c22277f9a18c9196da6cd2bcc321a0fa22c81e0",
+  "P003.lst.txt": "d293047be2a1b79ce23debb449384fdc57dca3fd78ea1e5374898f509fa00528",
+  "P003.txt": "d293047be2a1b79ce23debb449384fdc57dca3fd78ea1e5374898f509fa00528",
+  "P003_detail.csv": "3cec123d42e423b350a3b31a3a7ae879d3d75114f6057aab1210d44eccc29d82"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P003.lst",
+   "sha256": "a9394568dcaabd5e577d110c0adc6a54c3fc6829bcb9e3fb5c49a21a96d974cc",
+   "frozen_sha256": "a9394568dcaabd5e577d110c0adc6a54c3fc6829bcb9e3fb5c49a21a96d974cc",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.75,
+  "produced_all": true
+ }
+}

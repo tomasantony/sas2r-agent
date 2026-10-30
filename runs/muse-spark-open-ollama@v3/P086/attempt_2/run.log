@@ -1,0 +1,7 @@
+sandbox: docker run --rm --name sas2r-102ef5d10ce4 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P086\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Warning message:
+In sprintf("%-3s %-12s %-15s %-12s %5s %-6s %-3s %-8s %-5s %-5s %-7s %-7s %-12s %-12s %6s %8s %5s %-20s %-30s %-8s %4s\n",  :
+  one argument not used by format '%-3s %-12s %-15s %-12s %5s %-6s %-3s %-8s %-5s %-5s %-7s %-7s %-12s %-12s %6s %8s %5s %-20s %-30s %-8s %4s
+'
+[1] TRUE
+[1] TRUE

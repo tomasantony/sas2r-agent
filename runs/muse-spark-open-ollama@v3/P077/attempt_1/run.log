@@ -1,0 +1,24 @@
+sandbox: docker run --rm --name sas2r-c884693f68db --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P077\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADSL from: /bench/data/raw/own-synthetic/adam 
+ADSL rows: 240 cols: STUDYID,USUBJID,SUBJID,SITEID,COUNTRY,REGION1,SEX,RACE,ETHNIC,AGEGR1,AGEU,ARM,ARMCD,TRT01P,TRT01A,TRTP,TRTA,SAFFL,ITTFL,EFFFL,RANDFL,PPROTFL,COMPLFL,DTHFL,EOSSTT,DCSREAS,DTHCAUS,AGE,AGEGR1N,RACEN,ETHNICN,HEIGHTBL,WEIGHTBL,BMIBL,ECOGBL,TRT01PN,TRTPN,TRT01AN,TRTAN,RANDDT,TRTSDT,TRTEDT,TRTDUR,DTHDT 
+Reading ADAE from: /bench/data/raw/own-synthetic/adam 
+ADAE rows: 345 cols: STUDYID,USUBJID,SITEID,SEX,RACE,TRTP,TRTA,SAFFL,AGE,TRTPN,TRTAN,TRTSDT,TRTEDT,AEBODSYS,AESOC,AEDECOD,AETERM,AESEV,AESER,AEREL,AESMIE,AESLIFE,AESHOSP,AESDTH,AESDISAB,AESCONG,AESTDTC,AEENDTC,TRTEMFL,AEOUT,AEACN,AETOXGR,AESEQ,AESOCCD,ASTDT,AENDT,ASTDY,AENDY 
+Error in `transmute()`:
+ℹ In argument: `TRT_START = fmt_iso(TRT_START)`.
+Caused by error in `is.na(d) || is.null(d)`:
+! 'length = 11' in coercion to 'logical(1)'
+Backtrace:
+     ▆
+  1. ├─death_final %>% ...
+  2. ├─dplyr::transmute(...)
+  3. ├─dplyr:::transmute.data.frame(...)
+  4. │ └─dplyr:::mutate_cols(.data, dots, by)
+  5. │   ├─base::withCallingHandlers(...)
+  6. │   └─dplyr:::mutate_col(dots[[i]], data, mask, new_columns)
+  7. │     └─mask$eval_all_mutate(quo)
+  8. │       └─dplyr (local) eval()
+  9. ├─global fmt_iso(TRT_START)
+ 10. └─base::.handleSimpleError(...)
+ 11.   └─dplyr (local) h(simpleError(msg, call))
+ 12.     └─rlang::abort(message, class = error_class, parent = parent, call = error_call)
+Execution halted

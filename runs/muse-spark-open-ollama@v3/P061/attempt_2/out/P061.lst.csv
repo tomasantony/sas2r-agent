@@ -1,0 +1,11 @@
+"Section","Statistic","Value"
+"Demographic Summary - Age","N",2498
+"Demographic Summary - Age","Mean",60.4203002401922
+"Demographic Summary - Age","StdDev",13.0329971675026
+"Demographic Summary - Age","Min",21.93
+"Demographic Summary - Age","Max",96.29
+"Tumor Size Summary","N",2360
+"Tumor Size Summary","Mean",26.220093220339
+"Tumor Size Summary","StdDev",15.370883048434
+"Tumor Size Summary","Min",1
+"Tumor Size Summary","Max",182

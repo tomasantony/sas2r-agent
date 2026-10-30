@@ -1,0 +1,17 @@
+SDTM TR Domain - Tumor Results
+Study: ONCO-2026  Domain: TR  Listing generated: 2026-10-30
+
+Number of observations: 4
+Number of subjects: 3
+
+STUDYID      DOM  USUBJID           SEQ LNKID   TESTCD   TEST             ORRES    ORRESU   STRESC   STRESN   STRESU       EVAL          DTC STDY           
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+ONCO-2026    TR   ONCO-2026-101       1 T1      LDIAM    Longest Diameter 20       mm       20       20       mm           INVESTIGATOR 2026-01-02 -13            
+ONCO-2026    TR   ONCO-2026-103       1 T1      LDIAM    Longest Diameter 35       mm       35       35       mm           INVESTIGATOR 2026-01-05 -10            
+ONCO-2026    TR   ONCO-2026-103       2 NT1     LDIAM    Longest Diameter 15       mm       15       15       mm           INVESTIGATOR 2026-01-05 -10            
+ONCO-2026    TR   ONCO-2026-105       1 T1      LDIAM    Longest Diameter 28       mm       28       28       mm           INVESTIGATOR 2026-01-12 -13            
+
+Notes:
+TRTEST = Longest Diameter when TRTESTCD = LDIAM
+TRDTC derived from TRDT via DATE11. -> YYMMDD10.
+TRSTDY = (TRDTC - RFSTDTC) +1 if TRDTC >= RFSTDTC else (TRDTC - RFSTDTC)

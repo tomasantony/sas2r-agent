@@ -1,0 +1,7 @@
+sandbox: docker run --rm --name sas2r-d0635ee7216c --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P021\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+P021 Table 1 generated
+ADSL source: /bench/data/raw/cdisc-pilot/adam/adsl.xpt 
+ITT N: 254 
+Columns: Placebo, Xanomeline High Dose, Xanomeline Low Dose, Total 
+Output CSV: /work/out/P021.csv 
+Output TXT: /work/out/P021.txt 

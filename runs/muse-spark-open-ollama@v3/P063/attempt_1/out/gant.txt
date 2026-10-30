@@ -1,0 +1,6 @@
+Gantt Chart of Adverse Events (Study Days)
+===========================================
+
+Time range: -2 to 30 (excluding 0), 32 days
+Subjects: 3, Events: 6
+

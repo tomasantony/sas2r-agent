@@ -1,0 +1,65 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P063",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T05:14:54",
+ "agent_commit": "d7687c9bacaf8c17d38ec023f89956a5f5a379f5",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 3783,
+  "output_tokens": 7452,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 25.4
+ },
+ "inputs": {
+  "prompt_translate.md": "e354b38fbca43b11474c676e80f9efb11ce9ba03f82772009c7b6a158b0061f2"
+ },
+ "model_output": {
+  "response.md": "8c4f5ee00e8d6f20755192bde07638367ace2b2ac999624d635cd0997b492149",
+  "reasoning.md": "aad4dd0b50894e4f57e287212f2fe7acd9b8b048a48d2816aae9527b596b5422",
+  "script.R": "d730a372892cd79d96b936fd06ba5edb6fb168c6bade19aaf2c45c5b7776a498"
+ },
+ "r_run": {
+  "rc": 1,
+  "seconds": 1.8,
+  "timed_out": false,
+  "log_sha256": "1f251a9e09f64c7f8280ce6ff627e910e4ec4655dd7a5b6886b170a253f85232"
+ },
+ "r_outputs": {
+  "gant.csv": "ab42366ca44605741b7434e347553f1bb11f8de847f86017a4c7479d5b643ba4",
+  "gant.txt": "6e159e5c91b63e54edc7f4a695dc703ceadd9707a347fd6dfa6947f637f50154",
+  "gant.xlsx": "8b6171a6bcb4fbf3a7550518a886e581c5446f93a0faa52472df32a52fc76c32"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P063/gant.xlsx",
+   "sha256": "7a8e32ef29642ba911f23c7335cb7e287c88de447d5f55ac9e263368ea185be7",
+   "frozen_sha256": "7a8e32ef29642ba911f23c7335cb7e287c88de447d5f55ac9e263368ea185be7",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.0,
+  "produced_all": true
+ }
+}

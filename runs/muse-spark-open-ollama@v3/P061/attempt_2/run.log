@@ -1,0 +1,6 @@
+sandbox: docker run --rm --name sas2r-f4f26f77a055 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P061\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Reading raw data from: /bench/data/raw/sumit-oncology/Breast Cancer METABRIC.csv
+[1] TRUE
+[1] TRUE
+[1] TRUE
+All outputs written to: /work/out

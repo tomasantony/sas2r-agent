@@ -1,0 +1,95 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.9921671018276762,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P085.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9686684073107049,
+   "detail": {
+    "recall": 0.9686684073107049,
+    "expected": 383,
+    "found": 371,
+    "r_files": [
+     "adlb.csv",
+     "adlb.txt",
+     "adlb_base.csv",
+     "adsl.csv",
+     "P085.csv",
+     "P085.lst.csv",
+     "P085.lst.txt",
+     "P085.txt"
+    ],
+    "missing_examples": [
+     "0.42857",
+     "0.57143",
+     "0.69231",
+     "0.32143",
+     "0.35714",
+     "0.33929",
+     "0.53571"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adlb",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-ollama@v3\\P085\\attempt_3\\out\\adlb.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 14,
+    "rows_r": 14,
+    "cols_sas": 37,
+    "cols_r": 37,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adlb_base",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-ollama@v3\\P085\\attempt_3\\out\\adlb_base.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 14,
+    "rows_r": 14,
+    "cols_sas": 30,
+    "cols_r": 30,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adsl",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-ollama@v3\\P085\\attempt_3\\out\\adsl.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 6,
+    "rows_r": 6,
+    "cols_sas": 9,
+    "cols_r": 9,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  }
+ ]
+}

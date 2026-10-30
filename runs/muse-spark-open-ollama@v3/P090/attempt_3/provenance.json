@@ -1,0 +1,81 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P090",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 3,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T05:59:23",
+ "agent_commit": "d7687c9bacaf8c17d38ec023f89956a5f5a379f5",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 20096,
+  "output_tokens": 7064,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 22.8
+ },
+ "inputs": {
+  "prompt_translate.md": "8bda7682206254b98363924fd71df128de504848e0a1ca0df7f12233adb7ac98"
+ },
+ "model_output": {
+  "response.md": "8826c1b345f33dfd5e0641687e40f008c8de66a5f18e2f57b3255ba3b8203730",
+  "reasoning.md": "0d50a32cd70d0effcb9b511b4c2bfddbe903e8e44cdde7972e00b28a6e531d6e",
+  "script.R": "bd5ac4d3b1a8ab4e6b1c10dff8db6b8881caa7b394717a3e67d1d12e79267025"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.5,
+  "timed_out": false,
+  "log_sha256": "51a1eb75aca60f24603aad30f2d240190702167e5b0f7077ab9620b3d6fb4f0c"
+ },
+ "r_outputs": {
+  "adcm.csv": "2628ce611230dd52bb35e7c75cd00d6c14abc91a4393d47a11b2ac8603a5be48",
+  "adsl.csv": "53314e58f5ecf2a212165a366d34f34325c221a9b0a93e49d495036e708e1d9c",
+  "P090.csv": "2628ce611230dd52bb35e7c75cd00d6c14abc91a4393d47a11b2ac8603a5be48",
+  "P090.lst": "647ded9b95a01a91953a17faf8e6d5a1710c5182aade8505c1659bd8b61902bc",
+  "P090.lst.csv": "2628ce611230dd52bb35e7c75cd00d6c14abc91a4393d47a11b2ac8603a5be48",
+  "P090.lst.txt": "647ded9b95a01a91953a17faf8e6d5a1710c5182aade8505c1659bd8b61902bc",
+  "P090.txt": "647ded9b95a01a91953a17faf8e6d5a1710c5182aade8505c1659bd8b61902bc"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P090.lst",
+   "sha256": "da12ab67aa84c25c5583aa7e0adf2166bd0994a398b849e213e6fe6ce2a8d34b",
+   "frozen_sha256": "da12ab67aa84c25c5583aa7e0adf2166bd0994a398b849e213e6fe6ce2a8d34b",
+   "ok": true
+  },
+  {
+   "file": "datasets/P090/adcm.sas7bdat",
+   "sha256": "50d4cbc7591907def78d8b506331ef614453d18a4ccc20eaa969ac374ad0f947",
+   "frozen_sha256": "50d4cbc7591907def78d8b506331ef614453d18a4ccc20eaa969ac374ad0f947",
+   "ok": true
+  },
+  {
+   "file": "datasets/P090/adsl.sas7bdat",
+   "sha256": "9c0f5f7ab3e6c88b8ca758991356bb81b47f96ca860393b3ccf269ca1cab0278",
+   "frozen_sha256": "9c0f5f7ab3e6c88b8ca758991356bb81b47f96ca860393b3ccf269ca1cab0278",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

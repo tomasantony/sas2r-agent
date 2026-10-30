@@ -1,0 +1,32 @@
+Table 1: Demographics and Baseline Characteristics
+Population: Intent-to-Treat (ITT)
+
+Planned Treatment: Active Drug 50mg (N=19) | Placebo (N=28) | Total (N=47)
+------------------------------------------------------------------------------------------------------------------------
+Demographic Parameter          | Statistic    |   Active Drug 50mg |            Placebo |              Total
+------------------------------------------------------------------------------------------------------------------------
+Total Subjects                 | n            |                 19 |                 28 |                 47
+Sex - F                        | n            |                  8 |                 12 |                 20
+Sex - F                        | %            |               42.1 |               42.9 |               42.6
+Sex - M                        | n            |                 11 |                 16 |                 27
+Sex - M                        | %            |               57.9 |               57.1 |               57.4
+Race - ASIAN                   | n            |                  2 |                  3 |                  5
+Race - ASIAN                   | %            |               10.5 |               10.7 |               10.6
+Race - BLACK OR AFRICAN AMERICAN | n            |                  1 |                  5 |                  6
+Race - BLACK OR AFRICAN AMERICAN | %            |                5.3 |               17.9 |               12.8
+Race - OTHER                   | n            |                  0 |                  2 |                  2
+Race - OTHER                   | %            |                0.0 |                7.1 |                4.3
+Race - WHITE                   | n            |                 16 |                 18 |                 34
+Race - WHITE                   | %            |               84.2 |               64.3 |               72.3
+Age (years)                    | n            |                 19 |                 28 |                 47
+Age (years)                    | Mean         |               73.3 |               75.1 |               74.4
+Age (years)                    | SD           |               6.36 |               5.80 |               6.03
+Age (years)                    | Min          |                 65 |                 65 |                 65
+Age (years)                    | Max          |                 84 |                 84 |                 84
+------------------------------------------------------------------------------------------------------------------------
+
+Notes: N = number of subjects; % = column percent (n / column total *100);
+       Age statistics: Mean (1 decimal), SD (2 decimals), Min/Max (0 decimals).
+       Missing class levels included (MISSING option); missing cells display as 0 (MISSTEXT="0").
+Source: /bench/data/derived/c2c/data/adam/adsl.sas7bdat (ITTFL='Y', N=47)
+Generated: 2026-10-30T06:26:53

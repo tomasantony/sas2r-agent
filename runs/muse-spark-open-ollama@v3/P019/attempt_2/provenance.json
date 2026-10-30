@@ -1,0 +1,76 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P019",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T02:18:45",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 9535,
+  "output_tokens": 18274,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 81.5
+ },
+ "inputs": {
+  "prompt_translate.md": "5742c80a6ea34613f52585414cf213a83cf27e53adbaa99f5fc232391da20311"
+ },
+ "model_output": {
+  "response.md": "5a1a407b2ae82792c230a9716d1fdd51208592e1e4580805e17c31a8d0f14d38",
+  "reasoning.md": "98ffeaf845bf782cb976bd1ebcde188d784a9a87fe357283d554802b58508ed8",
+  "script.R": "44b2411a49f765428f14c06fa4d770070ed44501af2f01f9fbb6da7f4ed24c9e"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.0,
+  "timed_out": false,
+  "log_sha256": "8e10201f5e4ef00a1c6f6a0da39dbb40b1a4bfde1db6bf74be98167e1ed95b9b"
+ },
+ "r_outputs": {
+  "P019.csv": "3c8e3e0af5beedb733b0f57a5e7d1b3d33e64bfb054526adb056b99633e4fee6",
+  "P019.lst": "603b97c036d6ec2bb986a6de16ea6ca68c035b65f88e0ee1657edeb264bc4866",
+  "P019.lst.csv": "3c8e3e0af5beedb733b0f57a5e7d1b3d33e64bfb054526adb056b99633e4fee6",
+  "P019.lst.txt": "603b97c036d6ec2bb986a6de16ea6ca68c035b65f88e0ee1657edeb264bc4866",
+  "P019.txt": "603b97c036d6ec2bb986a6de16ea6ca68c035b65f88e0ee1657edeb264bc4866",
+  "P019_qc_report.csv": "3c8e3e0af5beedb733b0f57a5e7d1b3d33e64bfb054526adb056b99633e4fee6",
+  "qc_report.csv": "3c8e3e0af5beedb733b0f57a5e7d1b3d33e64bfb054526adb056b99633e4fee6",
+  "qc_report.txt": "603b97c036d6ec2bb986a6de16ea6ca68c035b65f88e0ee1657edeb264bc4866"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P019.lst",
+   "sha256": "a7a06dcfb172872c7bb2d34c710c234739a90f0054db356f72adb20f8a218ea7",
+   "frozen_sha256": "a7a06dcfb172872c7bb2d34c710c234739a90f0054db356f72adb20f8a218ea7",
+   "ok": true
+  },
+  {
+   "file": "datasets/P019/qc_report.sas7bdat",
+   "sha256": "c199c6725de974876ac0e5a09b30d22d3b120a77ac7e7b33d83f01618f900a74",
+   "frozen_sha256": "c199c6725de974876ac0e5a09b30d22d3b120a77ac7e7b33d83f01618f900a74",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.976923076923077,
+  "produced_all": true
+ }
+}

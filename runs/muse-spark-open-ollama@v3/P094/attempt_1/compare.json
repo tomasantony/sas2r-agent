@@ -1,0 +1,32 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P094.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 56,
+    "found": 56,
+    "r_files": [
+     "classtest.csv",
+     "classtest_dups.csv",
+     "classtest_sort.csv",
+     "P094.csv",
+     "P094.lst.csv",
+     "P094.lst.txt",
+     "P094.txt",
+     "P094_CLASSTEST.csv",
+     "P094_CLASSTEST_DUPS.csv",
+     "P094_CLASSTEST_SORT.csv"
+    ],
+    "missing_examples": []
+   }
+  }
+ ]
+}

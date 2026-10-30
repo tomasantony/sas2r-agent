@@ -1,0 +1,73 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P022",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 3,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T02:31:28",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 17054,
+  "output_tokens": 13604,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 137.6
+ },
+ "inputs": {
+  "prompt_translate.md": "14633e0ecafd85d2e2ea1e359294c51947366d624192bfd76a630eccba890f90"
+ },
+ "model_output": {
+  "response.md": "1534f6210d9cb0b16758c21d04950e341cc8ee892bed24092153e3c129b409ec",
+  "reasoning.md": "4d51376c27e92b429316403ef8a8aa8ff3107a9dfafa969ce51ee035f75c82d5",
+  "script.R": "36e26aac498c7491cf4b45e61a17a75dd055e264380a740706d4a929ac2dd4c5"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.8,
+  "timed_out": false,
+  "log_sha256": "81b39b45e9e4cb8bbd7e67bca5cf3326473c161719266a2d2e0908a5d69ef93f"
+ },
+ "r_outputs": {
+  "ae.csv": "bc65de6632d39b906b74a66f173eb2fb7b725dd8002a627416cc00a23d1c89d2",
+  "ae.txt": "b0ee7cdf8a02686f315811bb733fadaa28706b3d3c9d0fc9e7cd14232a363635",
+  "P022.csv": "bc65de6632d39b906b74a66f173eb2fb7b725dd8002a627416cc00a23d1c89d2",
+  "P022.lst": "b0ee7cdf8a02686f315811bb733fadaa28706b3d3c9d0fc9e7cd14232a363635",
+  "P022.txt": "b0ee7cdf8a02686f315811bb733fadaa28706b3d3c9d0fc9e7cd14232a363635"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P022.lst",
+   "sha256": "7b9e2a931fca54e8df9864ea2624cb0edb1249ad1ffcc538cd865788c8c963a9",
+   "frozen_sha256": "7b9e2a931fca54e8df9864ea2624cb0edb1249ad1ffcc538cd865788c8c963a9",
+   "ok": true
+  },
+  {
+   "file": "datasets/P022/ae.xlsx",
+   "sha256": "4cf48a90978c495e06722a068f25693d2cc367e4f1a2f4323eca3f4dd528116a",
+   "frozen_sha256": "4cf48a90978c495e06722a068f25693d2cc367e4f1a2f4323eca3f4dd528116a",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.8649553571428572,
+  "produced_all": true
+ }
+}

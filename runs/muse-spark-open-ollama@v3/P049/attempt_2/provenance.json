@@ -1,0 +1,73 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P049",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T04:50:44",
+ "agent_commit": "d7687c9bacaf8c17d38ec023f89956a5f5a379f5",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 3313,
+  "output_tokens": 8536,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 31.8
+ },
+ "inputs": {
+  "prompt_translate.md": "197bf0443c95ab17e7420633ffda5d9331911ff7b3852957ec70fd9dcf1d8e47"
+ },
+ "model_output": {
+  "response.md": "00f8872301deb2c5b6edd7b7092420047d165444b0b8e439a5abcf3cf0a8e03a",
+  "reasoning.md": "61cbe0dd3041d45a2c9c97383b02c83febb883a9d9ff98d78b908697b8d76303",
+  "script.R": "ba09a2a25bcc675777a7410d8932baa7bc1aa489de55ad4a50f2180876aab162"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.5,
+  "timed_out": false,
+  "log_sha256": "ac1db46c923a0facb48912e914fa84fde7144a57605d0a147e10d5b26086779f"
+ },
+ "r_outputs": {
+  "disp.csv": "6a82f66e2e02ed13ca800aa2c16f9874c412e84e23d099e18e99430fa5052249",
+  "disp_2.csv": "d3fb2b441f51cffbc9d66cb57dd2b6e3a0bc2a91104cbbdf19d15783bdb3d582",
+  "freq.csv": "62edf3bb276c3e43b0306780c92d798580b1297bf763099ac4111e5a6ccf7241",
+  "P049.csv": "82e78a3e79de31ccd2c925dcb204d60295e2811fdea8b8950f8e37e2c1356dfb",
+  "P049.lst": "02c41ce8937fae4965f05829924d6d60d37604ce81644d88a1146535a3be2da7",
+  "P049.lst.txt": "02c41ce8937fae4965f05829924d6d60d37604ce81644d88a1146535a3be2da7",
+  "P049.txt": "02c41ce8937fae4965f05829924d6d60d37604ce81644d88a1146535a3be2da7",
+  "P049_dataset.csv": "a8a14ad7c298cd87fe24c2a3d74fa1b2f382f6dbf800da489590d370b14312fc",
+  "P049_table.csv": "82e78a3e79de31ccd2c925dcb204d60295e2811fdea8b8950f8e37e2c1356dfb",
+  "P049_trans_2.csv": "a8a14ad7c298cd87fe24c2a3d74fa1b2f382f6dbf800da489590d370b14312fc",
+  "trans_2.csv": "a8a14ad7c298cd87fe24c2a3d74fa1b2f382f6dbf800da489590d370b14312fc"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P049.lst",
+   "sha256": "997054ae2c47de7a37b947f09bbb6491f921309b92ef9643508646baa3284206",
+   "frozen_sha256": "997054ae2c47de7a37b947f09bbb6491f921309b92ef9643508646baa3284206",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

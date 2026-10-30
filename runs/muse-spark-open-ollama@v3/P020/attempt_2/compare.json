@@ -1,0 +1,36 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.577922077922078,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P020.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.577922077922078,
+   "detail": {
+    "recall": 0.577922077922078,
+    "expected": 308,
+    "found": 178,
+    "r_files": [
+     "P020.txt"
+    ],
+    "missing_examples": [
+     "50",
+     "0",
+     "21",
+     "3",
+     "20",
+     "15",
+     "2",
+     "18",
+     "4",
+     "5",
+     "32",
+     "6"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "id": "P028",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "family": "faijal",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": false,
+ "best_score": 0.9495192307692308,
+ "iterations": 3,
+ "input_tokens": 34765,
+ "output_tokens": 29925,
+ "seconds": 82.85268306732178,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 2.2032110691070557,
+   "input_tokens": 3855,
+   "output_tokens": 8275,
+   "seconds_llm": 20.638402938842773,
+   "produced_all": true,
+   "equivalent": false,
+   "score": 0.9495192307692308,
+   "note": ""
+  },
+  {
+   "n": 2,
+   "rc": 1,
+   "seconds_r": 2.9650306701660156,
+   "input_tokens": 12107,
+   "output_tokens": 14897,
+   "seconds_llm": 38.644609212875366,
+   "produced_all": false,
+   "equivalent": false,
+   "score": 0.0,
+   "note": ""
+  },
+  {
+   "n": 3,
+   "rc": 0,
+   "seconds_r": 3.425229787826538,
+   "input_tokens": 18803,
+   "output_tokens": 6753,
+   "seconds_llm": 14.541224956512451,
+   "produced_all": true,
+   "equivalent": false,
+   "score": 0.9495192307692308,
+   "note": ""
+  }
+ ],
+ "best_attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3"
+}

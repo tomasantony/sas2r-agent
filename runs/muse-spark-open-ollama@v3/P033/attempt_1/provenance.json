@@ -1,0 +1,66 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P033",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T03:25:48",
+ "agent_commit": "d7687c9bacaf8c17d38ec023f89956a5f5a379f5",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 2939,
+  "output_tokens": 5487,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 54.5
+ },
+ "inputs": {
+  "prompt_translate.md": "4601de47018557e116840b0985d5604b24a28ea9625a46d27bf43a7492607c71"
+ },
+ "model_output": {
+  "response.md": "fa02da776447a991ca03025addbcb874f7e2e0e1bc7e999ddc15d3be737e4546",
+  "reasoning.md": "b249829e43e437962aafe796ec7287d03e775600e7c3d445b736b3f52c02d943",
+  "script.R": "5e8fbcbf1674515a46cb543dd4eee4a23c30591cde6008a5a0a00379cae01fb2"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 7.0,
+  "timed_out": false,
+  "log_sha256": "77cc82091e0fe99dd1bc3a6b5b4027b67ea23fdd06b6ad29da9ee7905ee55a7e"
+ },
+ "r_outputs": {
+  "sasgraph.csv": "b358d9f5102c24769e98262c51aa6eaba2187932473a79e1f49cffb761894e83",
+  "sasgraph.png": "ec53c8167f70c7f137587e7d6416b97e626c78a07ccf702f6ee9eca0fa59b219",
+  "sasgraph.txt": "79bcd47286911457754a5e07316cd65d6a53af7557f19cd958cd25992f62b641",
+  "sasgraph_plotted_data.csv": "3f7b5ab98ff730027e951b5cc93f551dc4f034d7c18228bc645d49a17902a210"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P033/sasgraph.png",
+   "sha256": "3cd66dd198ed08351e229f91e2d7e8e0a4b6cac01d661fc6c566f390ab016ea8",
+   "frozen_sha256": "3cd66dd198ed08351e229f91e2d7e8e0a4b6cac01d661fc6c566f390ab016ea8",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

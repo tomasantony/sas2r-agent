@@ -1,0 +1,30 @@
+Table 1: Demographics and Baseline Characteristics
+Population: Intent-to-Treat (ITT)
+
+Planned Treatment: Placebo (N=86) | Xanomeline High Dose (N=84) | Xanomeline Low Dose (N=84) | Total (N=254)
+------------------------------------------------------------------------------------------------------------------------
+Demographic Parameter          | Statistic    |            Placebo | Xanomeline High Dose | Xanomeline Low Dose |              Total
+------------------------------------------------------------------------------------------------------------------------
+Total Subjects                 | n            |                 86 |                 84 |                 84 |                254
+Sex - F                        | n            |                 53 |                 40 |                 50 |                143
+Sex - F                        | %            |               61.6 |               47.6 |               59.5 |               56.3
+Sex - M                        | n            |                 33 |                 44 |                 34 |                111
+Sex - M                        | %            |               38.4 |               52.4 |               40.5 |               43.7
+Race - AMERICAN INDIAN OR ALASKA NATIVE | n            |                  0 |                  1 |                  0 |                  1
+Race - AMERICAN INDIAN OR ALASKA NATIVE | %            |                0.0 |                1.2 |                0.0 |                0.4
+Race - BLACK OR AFRICAN AMERICAN | n            |                  8 |                  9 |                  6 |                 23
+Race - BLACK OR AFRICAN AMERICAN | %            |                9.3 |               10.7 |                7.1 |                9.1
+Race - WHITE                   | n            |                 78 |                 74 |                 78 |                230
+Race - WHITE                   | %            |               90.7 |               88.1 |               92.9 |               90.6
+Age (years)                    | n            |                 86 |                 84 |                 84 |                254
+Age (years)                    | Mean         |               75.2 |               74.4 |               75.7 |               75.1
+Age (years)                    | SD           |               8.59 |               7.89 |               8.29 |               8.25
+Age (years)                    | Min          |                 52 |                 56 |                 51 |                 51
+Age (years)                    | Max          |                 89 |                 88 |                 88 |                 89
+------------------------------------------------------------------------------------------------------------------------
+
+Notes: N = number of subjects; % = column percent (n / column total *100);
+       Age statistics: Mean (1 decimal), SD (2 decimals), Min/Max (0 decimals).
+       Missing class levels included (MISSING option); missing cells display as 0 (MISSTEXT='0').
+Source: /bench/data/raw/cdisc-pilot/adam/adsl.xpt (ITTFL='Y', N=254)
+Generated: 2026-10-30T06:26:08

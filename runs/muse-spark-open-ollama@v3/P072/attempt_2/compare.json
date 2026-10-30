@@ -1,0 +1,33 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.9593023255813954,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "t_dm.rtf",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9593023255813954,
+   "detail": {
+    "recall": 0.9593023255813954,
+    "expected": 172,
+    "found": 165,
+    "r_files": [
+     "t_dm.csv",
+     "t_dm.rtf",
+     "t_dm.txt"
+    ],
+    "missing_examples": [
+     "66.5",
+     "87.5",
+     "64.8",
+     "85.4",
+     "160.9",
+     "22.6",
+     "22.3"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,247 @@
+"USUBJID","TRTAN","TRTA","PARAMCD","PARAM","AVAL","BASE","A1LO","A1HI","AENTMTFL","AVISITN"
+"01-701-1015",0,"Placebo","SODIUM","Sodium (mmol/L)",140,140,135,145,"Y",24
+"01-701-1023",0,"Placebo","SODIUM","Sodium (mmol/L)",141,142,135,145,"Y",4
+"01-701-1028",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",140,139,135,145,"Y",24
+"01-701-1033",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",140,145,135,145,"Y",4
+"01-701-1034",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",134,138,135,145,"Y",24
+"01-701-1047",0,"Placebo","SODIUM","Sodium (mmol/L)",142,144,135,145,"Y",4
+"01-701-1097",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",136,134,135,145,"Y",24
+"01-701-1111",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",138,137,135,145,"Y",2
+"01-701-1115",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",141,139,135,145,"Y",8
+"01-701-1118",0,"Placebo","SODIUM","Sodium (mmol/L)",142,141,132,147,"Y",24
+"01-701-1130",0,"Placebo","SODIUM","Sodium (mmol/L)",141,140,135,145,"Y",24
+"01-701-1133",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",142,142,135,145,"Y",24
+"01-701-1146",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",138,136,135,145,"Y",6
+"01-701-1148",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",141,139,132,147,"Y",24
+"01-701-1153",0,"Placebo","SODIUM","Sodium (mmol/L)",140,140,135,145,"Y",24
+"01-701-1180",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",139,138,132,147,"Y",6
+"01-701-1181",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",141,142,135,145,"Y",2
+"01-701-1188",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",138,138,135,145,"Y",6
+"01-701-1192",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",140,144,135,145,"Y",24
+"01-701-1203",0,"Placebo","SODIUM","Sodium (mmol/L)",139,141,135,145,"Y",24
+"01-701-1211",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",142,133,135,145,"Y",8
+"01-701-1234",0,"Placebo","SODIUM","Sodium (mmol/L)",143,141,135,145,"Y",24
+"01-701-1239",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",137,135,132,147,"Y",24
+"01-701-1275",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",138,139,135,145,"Y",16
+"01-701-1287",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",140,135,132,147,"Y",24
+"01-701-1294",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",143,141,135,145,"Y",12
+"01-701-1302",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",139,140,135,145,"Y",12
+"01-701-1317",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",141,142,135,145,"Y",24
+"01-701-1324",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",136,135,135,145,"Y",24
+"01-701-1341",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",139,141,132,147,"Y",4
+"01-701-1345",0,"Placebo","SODIUM","Sodium (mmol/L)",142,138,135,145,"Y",24
+"01-701-1360",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",140,136,135,145,"Y",2
+"01-701-1363",0,"Placebo","SODIUM","Sodium (mmol/L)",144,140,135,145,"Y",24
+"01-701-1383",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",139,143,135,145,"Y",24
+"01-701-1387",0,"Placebo","SODIUM","Sodium (mmol/L)",146,143,135,145,"Y",2
+"01-701-1392",0,"Placebo","SODIUM","Sodium (mmol/L)",143,142,135,145,"Y",24
+"01-701-1415",0,"Placebo","SODIUM","Sodium (mmol/L)",135,143,135,145,"Y",24
+"01-701-1429",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",142,138,135,145,"Y",6
+"01-701-1440",0,"Placebo","SODIUM","Sodium (mmol/L)",143,138,135,145,"Y",24
+"01-701-1442",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",143,138,132,147,"Y",24
+"01-701-1444",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",138,140,135,145,"Y",6
+"01-703-1042",0,"Placebo","SODIUM","Sodium (mmol/L)",141,138,135,145,"Y",24
+"01-703-1076",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",140,141,135,145,"Y",12
+"01-703-1086",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",139,140,135,145,"Y",16
+"01-703-1096",0,"Placebo","SODIUM","Sodium (mmol/L)",140,141,135,145,"Y",4
+"01-703-1100",0,"Placebo","SODIUM","Sodium (mmol/L)",141,140,135,145,"Y",24
+"01-703-1119",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",135,,135,145,"Y",16
+"01-703-1175",0,"Placebo","SODIUM","Sodium (mmol/L)",145,144,135,145,"Y",2
+"01-703-1182",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",142,138,135,145,"Y",8
+"01-703-1210",0,"Placebo","SODIUM","Sodium (mmol/L)",144,138,135,145,"Y",24
+"01-703-1258",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",138,142,135,145,"Y",24
+"01-703-1295",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",141,141,135,145,"Y",20
+"01-703-1299",0,"Placebo","SODIUM","Sodium (mmol/L)",141,139,135,145,"Y",24
+"01-703-1335",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",145,,135,145,"Y",6
+"01-703-1379",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",142,138,135,145,"Y",24
+"01-703-1403",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",139,139,135,145,"Y",2
+"01-703-1439",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",146,148,135,145,"Y",24
+"01-705-1031",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",143,141,132,147,"Y",24
+"01-705-1059",0,"Placebo","SODIUM","Sodium (mmol/L)",145,142,135,145,"Y",16
+"01-705-1186",0,"Placebo","SODIUM","Sodium (mmol/L)",137,142,135,145,"Y",4
+"01-705-1199",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",142,143,135,145,"Y",2
+"01-705-1280",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",140,138,132,147,"Y",24
+"01-705-1281",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",136,137,135,145,"Y",16
+"01-705-1282",0,"Placebo","SODIUM","Sodium (mmol/L)",145,143,135,145,"Y",24
+"01-705-1292",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",143,141,135,145,"Y",24
+"01-705-1303",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",143,139,135,145,"Y",16
+"01-705-1310",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",142,140,135,145,"Y",12
+"01-705-1349",0,"Placebo","SODIUM","Sodium (mmol/L)",145,136,135,145,"Y",24
+"01-705-1377",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",142,140,135,145,"Y",4
+"01-705-1393",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",142,138,135,145,"Y",20
+"01-705-1431",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",144,139,135,145,"Y",24
+"01-707-1037",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",142,145,135,145,"Y",2
+"01-707-1206",0,"Placebo","SODIUM","Sodium (mmol/L)",143,141,135,145,"Y",24
+"01-709-1001",0,"Placebo","SODIUM","Sodium (mmol/L)",146,143,135,145,"Y",24
+"01-709-1007",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",141,140,132,147,"Y",4
+"01-709-1020",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",143,137,135,145,"Y",24
+"01-709-1029",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",140,143,135,145,"Y",24
+"01-709-1081",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",143,143,135,145,"Y",16
+"01-709-1088",0,"Placebo","SODIUM","Sodium (mmol/L)",143,144,135,145,"Y",24
+"01-709-1099",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",147,148,135,145,"Y",24
+"01-709-1102",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",143,135,135,145,"Y",12
+"01-709-1168",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",142,136,135,145,"Y",8
+"01-709-1217",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",144,144,135,145,"Y",16
+"01-709-1238",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",138,138,135,145,"Y",12
+"01-709-1259",0,"Placebo","SODIUM","Sodium (mmol/L)",139,142,135,145,"Y",20
+"01-709-1285",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",137,141,135,145,"Y",12
+"01-709-1301",0,"Placebo","SODIUM","Sodium (mmol/L)",140,136,135,145,"Y",24
+"01-709-1306",0,"Placebo","SODIUM","Sodium (mmol/L)",146,146,135,145,"Y",20
+"01-709-1309",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",143,140,135,145,"Y",24
+"01-709-1312",0,"Placebo","SODIUM","Sodium (mmol/L)",143,138,135,145,"Y",20
+"01-709-1326",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",143,140,135,145,"Y",24
+"01-709-1329",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",139,141,135,145,"Y",2
+"01-709-1339",0,"Placebo","SODIUM","Sodium (mmol/L)",140,136,135,145,"Y",24
+"01-711-1012",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",134,130,135,145,"Y",4
+"01-711-1036",0,"Placebo","SODIUM","Sodium (mmol/L)",141,140,135,145,"Y",24
+"01-711-1143",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",144,141,135,145,"Y",12
+"01-711-1433",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",138,141,135,145,"Y",2
+"01-713-1043",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",145,141,135,145,"Y",24
+"01-713-1073",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",141,142,135,145,"Y",24
+"01-713-1106",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",142,144,135,145,"Y",24
+"01-713-1141",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",140,140,135,145,"Y",6
+"01-713-1179",0,"Placebo","SODIUM","Sodium (mmol/L)",140,136,135,145,"Y",24
+"01-713-1209",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",143,140,135,145,"Y",24
+"01-713-1256",0,"Placebo","SODIUM","Sodium (mmol/L)",144,139,135,145,"Y",24
+"01-713-1269",0,"Placebo","SODIUM","Sodium (mmol/L)",143,137,135,145,"Y",24
+"01-713-1448",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",147,143,135,145,"Y",16
+"01-715-1085",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",142,142,135,145,"Y",24
+"01-715-1107",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",144,140,135,145,"Y",12
+"01-715-1155",0,"Placebo","SODIUM","Sodium (mmol/L)",141,140,135,145,"Y",4
+"01-715-1207",0,"Placebo","SODIUM","Sodium (mmol/L)",137,143,135,145,"Y",24
+"01-715-1319",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",138,140,135,145,"Y",4
+"01-715-1321",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",140,136,135,145,"Y",12
+"01-715-1397",0,"Placebo","SODIUM","Sodium (mmol/L)",142,141,135,145,"Y",24
+"01-715-1405",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",139,138,135,145,"Y",2
+"01-717-1004",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",141,142,135,145,"Y",24
+"01-717-1109",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",143,140,135,145,"Y",24
+"01-717-1174",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",143,144,135,145,"Y",24
+"01-717-1201",0,"Placebo","SODIUM","Sodium (mmol/L)",139,142,135,145,"Y",8
+"01-717-1344",0,"Placebo","SODIUM","Sodium (mmol/L)",143,137,135,145,"Y",8
+"01-717-1357",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",143,140,135,145,"Y",24
+"01-717-1446",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",140,144,135,145,"Y",24
+"02-702-1082",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",142,142,135,145,"Y",12
+"02-704-1008",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",143,141,135,145,"Y",6
+"02-704-1009",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",146,139,135,145,"Y",2
+"02-704-1010",0,"Placebo","SODIUM","Sodium (mmol/L)",144,144,135,145,"Y",20
+"02-704-1017",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",141,141,135,145,"Y",4
+"02-704-1025",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",140,142,135,145,"Y",4
+"02-704-1065",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",141,138,135,145,"Y",12
+"02-704-1074",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",143,144,135,145,"Y",8
+"02-704-1093",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",141,139,135,145,"Y",16
+"02-704-1114",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",142,141,135,145,"Y",24
+"02-704-1120",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",142,141,135,145,"Y",12
+"02-704-1127",0,"Placebo","SODIUM","Sodium (mmol/L)",141,139,135,145,"Y",24
+"02-704-1135",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",142,139,135,145,"Y",24
+"02-704-1164",0,"Placebo","SODIUM","Sodium (mmol/L)",142,137,135,145,"Y",24
+"02-704-1218",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",143,139,135,145,"Y",24
+"02-704-1233",0,"Placebo","SODIUM","Sodium (mmol/L)",145,145,135,145,"Y",16
+"02-704-1241",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",142,141,135,145,"Y",8
+"02-704-1260",0,"Placebo","SODIUM","Sodium (mmol/L)",139,142,135,145,"Y",8
+"02-704-1266",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",141,142,135,145,"Y",8
+"02-704-1323",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",136,140,135,145,"Y",4
+"02-704-1325",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",142,140,135,145,"Y",16
+"02-704-1332",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",142,140,135,145,"Y",12
+"02-704-1351",0,"Placebo","SODIUM","Sodium (mmol/L)",139,141,135,145,"Y",24
+"02-704-1388",0,"Placebo","SODIUM","Sodium (mmol/L)",142,147,135,145,"Y",24
+"02-704-1435",0,"Placebo","SODIUM","Sodium (mmol/L)",144,140,135,145,"Y",8
+"02-704-1445",0,"Placebo","SODIUM","Sodium (mmol/L)",137,140,135,145,"Y",16
+"02-706-1041",0,"Placebo","SODIUM","Sodium (mmol/L)",142,142,135,145,"Y",24
+"02-706-1049",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",142,148,135,145,"Y",6
+"02-706-1384",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",137,138,135,145,"Y",2
+"02-708-1019",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",141,138,135,145,"Y",2
+"02-708-1032",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",142,139,135,145,"Y",4
+"02-708-1084",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",143,144,135,145,"Y",24
+"02-708-1087",0,"Placebo","SODIUM","Sodium (mmol/L)",141,139,135,145,"Y",24
+"02-708-1158",0,"Placebo","SODIUM","Sodium (mmol/L)",142,133,135,145,"Y",6
+"02-708-1171",0,"Placebo","SODIUM","Sodium (mmol/L)",143,141,135,145,"Y",24
+"02-708-1178",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",139,141,135,145,"Y",12
+"02-708-1213",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",144,142,135,145,"Y",2
+"02-708-1216",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",141,135,135,145,"Y",6
+"02-708-1253",0,"Placebo","SODIUM","Sodium (mmol/L)",138,140,135,145,"Y",24
+"02-708-1272",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",140,140,135,145,"Y",8
+"02-708-1286",0,"Placebo","SODIUM","Sodium (mmol/L)",137,141,135,145,"Y",24
+"02-708-1296",0,"Placebo","SODIUM","Sodium (mmol/L)",144,139,132,147,"Y",24
+"02-708-1297",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",140,139,135,145,"Y",16
+"02-708-1316",0,"Placebo","SODIUM","Sodium (mmol/L)",146,140,135,145,"Y",24
+"02-708-1336",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",142,142,135,145,"Y",24
+"02-708-1342",0,"Placebo","SODIUM","Sodium (mmol/L)",143,140,135,145,"Y",24
+"02-708-1347",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",141,144,135,145,"Y",12
+"02-708-1348",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",143,,135,145,"Y",24
+"02-708-1353",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",148,142,135,145,"Y",8
+"02-708-1378",0,"Placebo","SODIUM","Sodium (mmol/L)",141,138,135,145,"Y",20
+"02-708-1406",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",142,140,135,145,"Y",24
+"02-708-1428",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",144,140,135,145,"Y",8
+"02-710-1002",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",137,142,135,145,"Y",2
+"02-710-1006",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",143,139,135,145,"Y",24
+"02-710-1021",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",137,141,135,145,"Y",6
+"02-710-1027",0,"Placebo","SODIUM","Sodium (mmol/L)",144,136,135,145,"Y",24
+"02-710-1045",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",145,142,135,145,"Y",12
+"02-710-1053",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",142,138,135,145,"Y",8
+"02-710-1060",0,"Placebo","SODIUM","Sodium (mmol/L)",144,139,135,145,"Y",24
+"02-710-1070",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",138,133,135,145,"Y",16
+"02-710-1077",0,"Placebo","SODIUM","Sodium (mmol/L)",145,141,135,145,"Y",24
+"02-710-1078",0,"Placebo","SODIUM","Sodium (mmol/L)",142,147,135,145,"Y",24
+"02-710-1137",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",138,139,135,145,"Y",6
+"02-710-1142",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",142,140,135,145,"Y",4
+"02-710-1154",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",141,140,135,145,"Y",6
+"02-710-1166",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",140,139,135,145,"Y",16
+"02-710-1183",0,"Placebo","SODIUM","Sodium (mmol/L)",141,140,135,145,"Y",24
+"02-710-1187",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",142,140,135,145,"Y",24
+"02-710-1235",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",143,138,132,147,"Y",24
+"02-710-1249",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",140,136,135,145,"Y",24
+"02-710-1264",0,"Placebo","SODIUM","Sodium (mmol/L)",145,144,135,145,"Y",20
+"02-710-1270",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",135,137,135,145,"Y",2
+"02-710-1271",0,"Placebo","SODIUM","Sodium (mmol/L)",137,144,135,145,"Y",6
+"02-710-1278",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",136,141,135,145,"Y",12
+"02-710-1300",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",140,139,135,145,"Y",12
+"02-710-1314",0,"Placebo","SODIUM","Sodium (mmol/L)",134,140,135,145,"Y",4
+"02-710-1315",0,"Placebo","SODIUM","Sodium (mmol/L)",132,132,135,145,"Y",20
+"02-710-1354",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",142,138,135,145,"Y",24
+"02-710-1358",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",146,140,135,145,"Y",20
+"02-710-1368",0,"Placebo","SODIUM","Sodium (mmol/L)",141,140,135,145,"Y",24
+"02-710-1385",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",139,138,135,145,"Y",16
+"02-710-1408",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",140,141,135,145,"Y",24
+"02-714-1035",0,"Placebo","SODIUM","Sodium (mmol/L)",141,140,135,145,"Y",24
+"02-714-1068",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",139,139,135,145,"Y",12
+"02-714-1195",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",141,139,135,145,"Y",24
+"02-714-1288",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",141,139,135,145,"Y",24
+"02-714-1375",0,"Placebo","SODIUM","Sodium (mmol/L)",138,139,135,145,"Y",24
+"02-714-1425",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",137,136,135,145,"Y",2
+"02-716-1024",0,"Placebo","SODIUM","Sodium (mmol/L)",141,142,135,145,"Y",24
+"02-716-1026",0,"Placebo","SODIUM","Sodium (mmol/L)",142,140,135,145,"Y",24
+"02-716-1030",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",135,134,135,145,"Y",2
+"02-716-1044",0,"Placebo","SODIUM","Sodium (mmol/L)",141,141,135,145,"Y",24
+"02-716-1063",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",141,140,135,145,"Y",16
+"02-716-1071",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",154,139,135,145,"Y",8
+"02-716-1094",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",143,141,135,145,"Y",6
+"02-716-1103",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",139,142,135,145,"Y",24
+"02-716-1108",0,"Placebo","SODIUM","Sodium (mmol/L)",143,140,135,145,"Y",24
+"02-716-1151",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",139,138,135,145,"Y",16
+"02-716-1157",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",140,143,135,145,"Y",24
+"02-716-1160",0,"Placebo","SODIUM","Sodium (mmol/L)",142,140,135,145,"Y",24
+"02-716-1167",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",140,144,135,145,"Y",24
+"02-716-1177",0,"Placebo","SODIUM","Sodium (mmol/L)",143,141,135,145,"Y",24
+"02-716-1189",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",138,139,135,145,"Y",20
+"02-716-1229",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",134,141,135,145,"Y",6
+"02-716-1298",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",144,142,135,145,"Y",12
+"02-716-1308",0,"Placebo","SODIUM","Sodium (mmol/L)",141,138,135,145,"Y",6
+"02-716-1311",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",139,132,135,145,"Y",20
+"02-716-1364",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",149,141,135,145,"Y",24
+"02-716-1373",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",138,146,135,145,"Y",12
+"02-716-1418",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",140,140,135,145,"Y",24
+"02-716-1441",0,"Placebo","SODIUM","Sodium (mmol/L)",143,140,135,145,"Y",20
+"02-716-1447",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",139,143,135,145,"Y",24
+"02-718-1066",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",139,139,135,145,"Y",2
+"02-718-1079",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",139,141,135,145,"Y",6
+"02-718-1101",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",146,141,135,145,"Y",24
+"02-718-1139",0,"Placebo","SODIUM","Sodium (mmol/L)",140,140,135,145,"Y",24
+"02-718-1150",0,"Placebo","SODIUM","Sodium (mmol/L)",140,138,135,145,"Y",24
+"02-718-1170",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",137,137,135,145,"Y",4
+"02-718-1172",0,"Placebo","SODIUM","Sodium (mmol/L)",140,145,135,145,"Y",12
+"02-718-1250",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",139,139,135,145,"Y",20
+"02-718-1254",54,"Xanomeline Low Dose","SODIUM","Sodium (mmol/L)",142,138,135,145,"Y",24
+"02-718-1328",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",138,141,135,145,"Y",12
+"02-718-1355",0,"Placebo","SODIUM","Sodium (mmol/L)",143,141,135,145,"Y",24
+"02-718-1371",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",138,139,135,145,"Y",12
+"02-718-1427",81,"Xanomeline High Dose","SODIUM","Sodium (mmol/L)",138,138,135,145,"Y",8

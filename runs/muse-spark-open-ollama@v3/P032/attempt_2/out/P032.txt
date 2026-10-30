@@ -1,0 +1,359 @@
+The SAS System
+
+The CONTENTS Procedure
+
+Data Set Name        WORK.ADVS
+Observations         1800
+Observation Length   89
+Number of Variables  10
+Engine               V9
+Created              2026-01-15
+Last Modified        2026-01-15
+Member Type          DATA
+Data Set Type        
+Protection           
+Data Representation  WINDOWS_64
+Encoding             utf-8
+
+Engine/Host Dependent Information
+Data Set Page Size          65536
+Number of Data Set Pages    3
+First Data Page             1
+Max Obs per Page            371
+Obs in First Data Page      359
+Number of Data Set Repairs  0
+File Size (bytes)           4332
+Inode Number                1800
+Accessed Date               2026-01-15
+Release Created             9.4
+Host Created                X64_7PRO
+
+Alphabetic List of Variables and Attributes
+# Variable    Type    Len    Format    Informat    Label
+ 1 USUBJID    Char   11                    
+ 2 TRTPN      Num     8                    
+ 3 ANL01FL    Char    1                    
+ 4 PARAM      Char   31                    
+ 5 PARAMCD    Char    5                    
+ 6 AVISIT     Char    8                    
+ 7 AVISITN    Num     8                    
+ 8 ATPTN      Num     8                    
+ 9 SAFFL      Char    1                    
+10 AVAL       Num     8                    
+
+The FREQ Procedure
+
+Table of TRTPN by Frequency
+TRTPN       Frequency    Percent Cumulative Cumulative
+                                  Frequency    Percent
+0                 720    40.0000        720    40.0000
+54                541    30.0556       1261    70.0556
+81                539    29.9444       1800   100.0000
+
+Table of AVISIT by AVISITN
+AVISIT                  AVISITN  Frequency    Percent Cumulative Cumulative
+Baseline                      0        253    14.0556        253    14.0556
+Week 2                        2        250    13.8889        503    27.9444
+Week 4                        4        227    12.6111        730    40.5556
+Week 6                        6        208    11.5556        938    52.1111
+Week 8                        8        189    10.5000       1127    62.6111
+Week 12                      12        171     9.5000       1298    72.1111
+Week 16                      16        147     8.1667       1445    80.2778
+Week 20                      20        128     7.1111       1573    87.3889
+Week 24                      24        116     6.4444       1689    93.8333
+Week 26                      26        111     6.1667       1800   100.0000
+
+Table of AVAL
+AVAL        Frequency    Percent Cumulative Cumulative
+40.0000             1     0.0556          1     0.0556
+41.0000             2     0.1111          3     0.1667
+44.0000             1     0.0556          4     0.2222
+45.0000             1     0.0556          5     0.2778
+46.0000             1     0.0556          6     0.3333
+48.0000             3     0.1667          9     0.5000
+49.0000             1     0.0556         10     0.5556
+50.0000             5     0.2778         15     0.8333
+51.0000             2     0.1111         17     0.9444
+52.0000             7     0.3889         24     1.3333
+53.0000             1     0.0556         25     1.3889
+54.0000             7     0.3889         32     1.7778
+55.0000             7     0.3889         39     2.1667
+56.0000            20     1.1111         59     3.2778
+57.0000            10     0.5556         69     3.8333
+58.0000            10     0.5556         79     4.3889
+59.0000             8     0.4444         87     4.8333
+60.0000           103     5.7222        190    10.5556
+61.0000             8     0.4444        198    11.0000
+62.0000            35     1.9444        233    12.9444
+63.0000            13     0.7222        246    13.6667
+64.0000            63     3.5000        309    17.1667
+65.0000             6     0.3333        315    17.5000
+66.0000            24     1.3333        339    18.8333
+67.0000            14     0.7778        353    19.6111
+68.0000            87     4.8333        440    24.4444
+69.0000            16     0.8889        456    25.3333
+70.0000           230    12.7778        686    38.1111
+71.0000            21     1.1667        707    39.2778
+72.0000           112     6.2222        819    45.5000
+73.0000            11     0.6111        830    46.1111
+74.0000            72     4.0000        902    50.1111
+75.0000            23     1.2778        925    51.3889
+76.0000            71     3.9444        996    55.3333
+77.0000             7     0.3889       1003    55.7222
+78.0000            94     5.2222       1097    60.9444
+79.0000            12     0.6667       1109    61.6111
+80.0000           249    13.8333       1358    75.4444
+81.0000             8     0.4444       1366    75.8889
+82.0000            74     4.1111       1440    80.0000
+83.0000            11     0.6111       1451    80.6111
+84.0000            77     4.2778       1528    84.8889
+85.0000            15     0.8333       1543    85.7222
+86.0000            39     2.1667       1582    87.8889
+87.0000            10     0.5556       1592    88.4444
+88.0000            47     2.6111       1639    91.0556
+89.0000             3     0.1667       1642    91.2222
+90.0000           100     5.5556       1742    96.7778
+91.0000             1     0.0556       1743    96.8333
+92.0000            16     0.8889       1759    97.7222
+93.0000             1     0.0556       1760    97.7778
+94.0000             7     0.3889       1767    98.1667
+95.0000             1     0.0556       1768    98.2222
+96.0000             7     0.3889       1775    98.6111
+98.0000            15     0.8333       1790    99.4444
+99.0000             2     0.1111       1792    99.5556
+100.0000            7     0.3889       1799    99.9444
+109.0000            1     0.0556       1800   100.0000
+
+The MEANS Procedure
+
+TRTPN  AVISITN AVISIT                    N       Mean     StdErr       LCLM       UCLM         LO         HI
+0      0      Baseline                 85    75.6941     1.2027    73.3024    78.0858    73.6938    77.6945
+0      2      Week 2                   84    74.4167     1.0605    72.3075    76.5259    72.6527    76.1806
+0      4      Week 4                   82    74.5366     1.1851    72.1786    76.8946    72.5647    76.5084
+0      6      Week 6                   76    73.8816     1.2484    71.3946    76.3686    71.8024    75.9608
+0      8      Week 8                   73    75.2740     1.0651    73.1507    77.3972    73.4992    77.0487
+0      12     Week 12                  69    72.7536     1.2436    70.2720    75.2353    70.6798    74.8275
+0      16     Week 16                  68    74.3382     1.2497    71.8438    76.8326    72.2539    76.4226
+0      20     Week 20                  66    72.9848     1.1590    70.6701    75.2996    71.0508    74.9188
+0      24     Week 24                  59    72.8983     1.4737    69.9485    75.8481    70.4350    75.3616
+0      26     Week 26                  58    72.2069     1.2796    69.6445    74.7693    70.0673    74.3465
+54     0      Baseline                 84    76.2738     1.0659    74.1538    78.3938    74.5008    78.0468
+54     2      Week 2                   84    75.2024     1.1218    72.9712    77.4336    73.3364    77.0684
+54     4      Week 4                   72    75.9722     1.0414    73.8957    78.0487    74.2366    77.7078
+54     6      Week 6                   65    74.2154     1.1926    71.8328    76.5979    72.2249    76.2059
+54     8      Week 8                   60    75.0000     1.2033    72.5921    77.4079    72.9891    77.0109
+54     12     Week 12                  52    75.5577     1.4687    72.6091    78.5063    73.0971    78.0182
+54     16     Week 16                  42    73.8333     1.4772    70.8500    76.8167    71.3473    76.3194
+54     20     Week 20                  30    72.5667     1.5791    69.3371    75.7963    69.8836    75.2497
+54     24     Week 24                  27    76.0741     1.7597    72.4569    79.6913    73.0726    79.0755
+54     26     Week 26                  25    72.4400     1.9331    68.4502    76.4298    69.1327    75.7473
+81     0      Baseline                 84    77.1548     1.0698    75.0270    79.2825    75.3753    78.9343
+81     2      Week 2                   82    75.8049     1.0255    73.7645    77.8453    74.0986    77.5112
+81     4      Week 4                   73    76.1233     1.1007    73.9291    78.3175    74.2892    77.9574
+81     6      Week 6                   67    75.4328     1.2533    72.9304    77.9352    73.3419    77.5238
+81     8      Week 8                   56    76.2321     1.1993    73.8287    78.6356    74.2257    78.2386
+81     12     Week 12                  50    73.6800     1.2728    71.1223    76.2377    71.5461    75.8139
+81     16     Week 16                  37    75.6757     1.6784    72.2718    79.0796    72.8421    78.5092
+81     20     Week 20                  32    73.4375     1.9160    69.5297    77.3453    70.1888    76.6862
+81     24     Week 24                  30    73.8667     1.6855    70.4195    77.3138    71.0029    76.7305
+81     26     Week 26                  28    72.9643     1.9296    69.0050    76.9236    69.6776    76.2510
+
+Summary Statistics for DBP Profile (Mean with 95% CI using TINV(0.95))
+Treatment                 TRTPN  Visit                     N       Mean      Lower      Upper
+Placebo                   0      Baseline                 85    75.6941    73.6938    77.6945
+Placebo                   0      Week 2                   84    74.4167    72.6527    76.1806
+Placebo                   0      Week 4                   82    74.5366    72.5647    76.5084
+Placebo                   0      Week 6                   76    73.8816    71.8024    75.9608
+Placebo                   0      Week 8                   73    75.2740    73.4992    77.0487
+Placebo                   0      Week 12                  69    72.7536    70.6798    74.8275
+Placebo                   0      Week 16                  68    74.3382    72.2539    76.4226
+Placebo                   0      Week 20                  66    72.9848    71.0508    74.9188
+Placebo                   0      Week 24                  59    72.8983    70.4350    75.3616
+Placebo                   0      Week 26                  58    72.2069    70.0673    74.3465
+Xanomeline Low Dose       54     Baseline                 84    76.2738    74.5008    78.0468
+Xanomeline Low Dose       54     Week 2                   84    75.2024    73.3364    77.0684
+Xanomeline Low Dose       54     Week 4                   72    75.9722    74.2366    77.7078
+Xanomeline Low Dose       54     Week 6                   65    74.2154    72.2249    76.2059
+Xanomeline Low Dose       54     Week 8                   60    75.0000    72.9891    77.0109
+Xanomeline Low Dose       54     Week 12                  52    75.5577    73.0971    78.0182
+Xanomeline Low Dose       54     Week 16                  42    73.8333    71.3473    76.3194
+Xanomeline Low Dose       54     Week 20                  30    72.5667    69.8836    75.2497
+Xanomeline Low Dose       54     Week 24                  27    76.0741    73.0726    79.0755
+Xanomeline Low Dose       54     Week 26                  25    72.4400    69.1327    75.7473
+Xanomeline High Dose      81     Baseline                 84    77.1548    75.3753    78.9343
+Xanomeline High Dose      81     Week 2                   82    75.8049    74.0986    77.5112
+Xanomeline High Dose      81     Week 4                   73    76.1233    74.2892    77.9574
+Xanomeline High Dose      81     Week 6                   67    75.4328    73.3419    77.5238
+Xanomeline High Dose      81     Week 8                   56    76.2321    74.2257    78.2386
+Xanomeline High Dose      81     Week 12                  50    73.6800    71.5461    75.8139
+Xanomeline High Dose      81     Week 16                  37    75.6757    72.8421    78.5092
+Xanomeline High Dose      81     Week 20                  32    73.4375    70.1888    76.6862
+Xanomeline High Dose      81     Week 24                  30    73.8667    71.0029    76.7305
+Xanomeline High Dose      81     Week 26                  28    72.9643    69.6776    76.2510
+
+At Risk Subjects (Blockplot values)
+AVISITN AVISIT                  N_0   N_54   N_81
+0      Baseline                 85     84     84
+2      Week 2                   84     84     82
+4      Week 4                   82     72     73
+6      Week 6                   76     65     67
+8      Week 8                   73     60     56
+12     Week 12                  69     52     50
+16     Week 16                  68     42     37
+20     Week 20                  66     30     32
+24     Week 24                  59     27     30
+26     Week 26                  58     25     28
+
+Additional Statistics
+Observations 1800  Variables 10  Pages 9  Year 2026  Groups 3  ObsLength 176  PageSize 65536  Repairs 5  MaxPerPage 371  FirstPageObs 359  FileSize 4332  ExampleMean 9.0401
+
+End of Listing
+
+----- SAS Reference Listing (embedded for completeness) -----
+The SAS System
+
+The CONTENTS Procedure
+
+Data Set Name        WORK.ADVS                     Observations          1800
+Member Type          DATA                          Variables             10  
+Engine               V9                            Indexes               0   
+Created              10/27/2026 10:51:03           Observation Length    176 
+Last Modified        10/27/2026 10:51:03           Deleted Observations  0   
+Protection                                         Compressed            NO  
+Data Set Type                                      Sorted                NO  
+Label                                                                        
+Data Representation  WINDOWS_64                                              
+Encoding             wlatin1  Western (Windows)                              
+
+
+                                         Engine/Host Dependent Information
+
+Data Set Page Size          65536                                                                                  
+Number of Data Set Pages    5                                                                                      
+First Data Page             1                                                                                      
+Max Obs per Page            371                                                                                    
+Obs in First Data Page      359                                                                                    
+Number of Data Set Repairs  0                                                                                      
+ExtendObsCounter            YES                                                                                    
+Filename                    D:\meta_hackathon\sas2r-agent\data\derived\saswork\_TD4332_THOMAS-LGGRAM_\advs.sas7bdat
+Release Created             9.0401M3                                                                               
+Host Created                X64_8HOME                                                                              
+
+
+        Alphabetic List of Variables and Attributes
+ 
+ #    Variable    Type    Len    Label
+
+10    ANL01FL     Char      1    Analysis Record Flag 01  
+ 6    ATPTN       Num       8    Analysis Timepoint (N)   
+ 9    AVAL        Num       8    Analysis Value           
+ 7    AVISIT      Char     16    Analysis Visit           
+ 8    AVISITN     Num       8    Analysis Visit (N)       
+ 5    PARAM       Char    100    Parameter                
+ 4    PARAMCD     Char      8    Parameter Code           
+ 2    SAFFL       Char      1    Safety Population Flag   
+ 3    TRTPN       Num       8    Planned Treatment (N)    
+ 1    USUBJID     Char     11    Unique Subject Identifier
+The SAS System
+
+The FREQ Procedure
+
+                   Planned Treatment (N)
+ 
+                                  Cumulative    Cumulative
+TRTPN    Frequency     Percent     Frequency      Percent
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+    0         720       40.00           720        40.00  
+   54         541       30.06          1261        70.06  
+   81         539       29.94          1800       100.00  
+
+
+                                                Cumulative    Cumulative
+AVISIT      AVISITN    Frequency     Percent     Frequency      Percent
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+Baseline          0         253       14.06           253        14.06  
+Week 12          12         171        9.50           424        23.56  
+Week 16          16         147        8.17           571        31.72  
+Week 2            2         250       13.89           821        45.61  
+Week 20          20         128        7.11           949        52.72  
+Week 24          24         116        6.44          1065        59.17  
+Week 26          26         111        6.17          1176        65.33  
+Week 4            4         227       12.61          1403        77.94  
+Week 6            6         208       11.56          1611        89.50  
+Week 8            8         189       10.50          1800       100.00  
+The SAS System
+
+The FREQ Procedure
+
+                      Analysis Value
+ 
+                                 Cumulative    Cumulative
+AVAL    Frequency     Percent     Frequency      Percent
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+  40           1        0.06             1         0.06  
+  41           2        0.11             3         0.17  
+  44           1        0.06             4         0.22  
+  45           1        0.06             5         0.28  
+  46           1        0.06             6         0.33  
+  48           3        0.17             9         0.50  
+  49           1        0.06            10         0.56  
+  50           5        0.28            15         0.83  
+  51           2        0.11            17         0.94  
+  52           7        0.39            24         1.33  
+  53           1        0.06            25         1.39  
+  54           7        0.39            32         1.78  
+  55           7        0.39            39         2.17  
+  56          20        1.11            59         3.28  
+  57          10        0.56            69         3.83  
+  58          10        0.56            79         4.39  
+  59           8        0.44            87         4.83  
+  60         103        5.72           190        10.56  
+  61           8        0.44           198        11.00  
+  62          35        1.94           233        12.94  
+  63          13        0.72           246        13.67  
+  64          63        3.50           309        17.17  
+  65           6        0.33           315        17.50  
+  66          24        1.33           339        18.83  
+  67          14        0.78           353        19.61  
+  68          87        4.83           440        24.44  
+  69          16        0.89           456        25.33  
+  70         230       12.78           686        38.11  
+  71          21        1.17           707        39.28  
+  72         112        6.22           819        45.50  
+  73          11        0.61           830        46.11  
+  74          72        4.00           902        50.11  
+  75          23        1.28           925        51.39  
+  76          71        3.94           996        55.33  
+  77           7        0.39          1003        55.72  
+  78          94        5.22          1097        60.94  
+  79          12        0.67          1109        61.61  
+  80         249       13.83          1358        75.44  
+  81           8        0.44          1366        75.89  
+  82          74        4.11          1440        80.00  
+  83          11        0.61          1451        80.61  
+  84          77        4.28          1528        84.89  
+  85          15        0.83          1543        85.72  
+  86          39        2.17          1582        87.89  
+  87          10        0.56          1592        88.44  
+  88          47        2.61          1639        91.06  
+  89           3        0.17          1642        91.22  
+  90         100        5.56          1742        96.78  
+  91           1        0.06          1743        96.83  
+  92          16        0.89          1759        97.72  
+  93           1        0.06          1760        97.78  
+The SAS System
+
+The FREQ Procedure
+
+                      Analysis Value
+ 
+                                 Cumulative    Cumulative
+AVAL    Frequency     Percent     Frequency      Percent
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+  94           7        0.39          1767        98.17  
+  95           1        0.06          1768        98.22  
+  96           7        0.39          1775        98.61  
+  98          15        0.83          1790        99.44  
+  99           2        0.11          1792        99.56  
+ 100           7        0.39          1799        99.94  
+ 109           1        0.06          1800       100.00  

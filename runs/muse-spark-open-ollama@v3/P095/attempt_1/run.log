@@ -1,0 +1,5 @@
+sandbox: docker run --rm --name sas2r-cb7e0b6d69ea --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P095\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Warning message:
+In annotate("label", x = -Inf, y = -Inf, hjust = 0, vjust = 0, label = "BCR\nC= Complete Response\nR= Partial Response\nS= Stable Disease\nP= Progressive Disease\nE= Early Death",  :
+  Ignoring unknown parameters: `label.size`
+Done. Outputs written to /work/out 

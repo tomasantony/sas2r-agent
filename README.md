@@ -61,7 +61,10 @@ hashes and the chain.
 
 - **Muse Spark 1.3** via the Meta Model API (`api.meta.ai/v1`), the primary row.
 - **Muse Spark Open** (open weights) via Baseten (`meta-models/muse-spark-open-1026`)
-  and via Ollama Cloud, the open-weight rows.
+  and via Ollama Cloud, the open-weight rows. With the same prompt (v3) the same
+  weights score 85% on Baseten and 81% on Ollama Cloud, where three programs never
+  produced code before the output limit and a program took three times longer:
+  serving settings are part of the result, which is why the host is in the row name.
 - Baselines, labelled as such on the leaderboard: OpenAI gpt-oss-120b (open
   weight, Ollama Cloud) and Claude Opus 5.5 (Anthropic SDK).
 - Muse Code was used during development.

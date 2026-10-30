@@ -1,0 +1,12 @@
+sandbox: docker run --rm --name sas2r-b9b79c948d4c --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P084\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+OUT_DIR = /work/out 
+Wrote adae.csv with 9 rows and 41 cols
+Wrote adsl.csv with 6 rows and 12 cols
+[1] TRUE
+[1] TRUE
+[1] TRUE
+Wrote /work/out/P084.txt 
+Wrote /work/out/P084.csv 
+Wrote /work/out/P084.lst.txt 
+Wrote /work/out/P084.lst.csv 
+Done

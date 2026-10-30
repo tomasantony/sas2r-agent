@@ -1,0 +1,13 @@
+sandbox: docker run --rm --name sas2r-4e95db39c7f2 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P022\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+edc_ae cols: SUBJID,TERM,DECOD,BODSYS,SEV,TXGR,STDT,ENDT,REL,OUT,SER 
+edc_dm cols: SUBJID,BRTHDT,GENDER,RACE,ETHNIC,RFICDT,SITE 
+edc_ex cols: SUBJID,VISIT,TRT,DOSE,UNIT,STDT,ENDT,LOT,ROUTE,FREQ,FORM,ADJ,ADJRS 
+edc_ds cols: SUBJID,DS_TERM,DS_CAT,DS_DT 
+ivrs_rand cols: SUBJID,RAND_DT,TRT_CODE 
+trying dm file: /bench/output/sas/datasets/P011/dm.sas7bdat 
+found sdtm_dm with RFSTDTC at /bench/output/sas/datasets/P011/dm.sas7bdat n= 50 
+final sdtm_dm n= 50 head: 2023-01-15,2023-01-24,2023-01-27,2023-01-02,2023-01-06,2023-01-21 
+AESTDY computed: NA,NA,NA,NA 
+AEENDY computed: NA,NA,NA,NA 
+[1] TRUE
+[1] TRUE

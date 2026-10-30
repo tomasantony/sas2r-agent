@@ -1,0 +1,81 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P098",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T06:07:35",
+ "agent_commit": "d7687c9bacaf8c17d38ec023f89956a5f5a379f5",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 11682,
+  "output_tokens": 15714,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 45.9
+ },
+ "inputs": {
+  "prompt_translate.md": "514c4258d044b969b772c7c3e4bcb13714d9a446ba9d7b90caa333f7136777be"
+ },
+ "model_output": {
+  "response.md": "f37a37f096e55b63efc980063e5a9b9714bdd24de4b292db8d347ee1853fe252",
+  "reasoning.md": "5ee6d5c1448fc216a91992a3b812dca6104bcccef179b5abce4c9d46bd8b7bcc",
+  "script.R": "03429e5141f544cb38bdc39e54033d391e61e4183a8f2e8bfd0af22bd472bd31"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 5.8,
+  "timed_out": false,
+  "log_sha256": "5d45fce50f6bfb2f9db4fdfa1dd7dab6d7f41a5d50e44290e986ec0bcee9c04a"
+ },
+ "r_outputs": {
+  "tumor.csv": "5eb5570e29452f2ba1e4e97a1ab9a9fccb3c9aebb0fddec8f93fd4c18abdfd45",
+  "waterfall_xf_100.csv": "83550ff127c1d491bc0dfec053e8d5541e349f85df492cd26d9cb6352bb4f648",
+  "waterfall_xf_100.png": "23f34b51a86a3b9c30d6817fbc151e85969af1ba9c0a47973f7aa3a7e3a5ad00",
+  "waterfall_xf_125.csv": "a4a95c2c0d7c2facf55613f291d0759ebe597f44ba62be5f3465640463d53f70",
+  "waterfall_xf_125.png": "e3ff4f1aa720dd5107ed240a730c8e94751d33387e182c8f3c6736c5e7c6d549",
+  "waterfall_xf_150.csv": "a965a5976c35c2f0dece5bc80a3e90f811ec5b3be82c059d11fd75ec715038ac",
+  "waterfall_xf_150.png": "139276965c1df3268ea4e07ac4476dc50367c5221ac0b53cc4c4b37e7cd58f11"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P098/Waterfall_Xf_100.png",
+   "sha256": "b1b048341ab466a2d782b00c03cbbd847f62a25aaa45325e6dca6281ffb97539",
+   "frozen_sha256": "b1b048341ab466a2d782b00c03cbbd847f62a25aaa45325e6dca6281ffb97539",
+   "ok": true
+  },
+  {
+   "file": "datasets/P098/Waterfall_Xf_125.png",
+   "sha256": "256593bdb8f2232ad262e7e6d123dfc69e613ea7e1fcaefc85b7be533bf48fb5",
+   "frozen_sha256": "256593bdb8f2232ad262e7e6d123dfc69e613ea7e1fcaefc85b7be533bf48fb5",
+   "ok": true
+  },
+  {
+   "file": "datasets/P098/Waterfall_Xf_150.png",
+   "sha256": "2bb4bf39a233386d55ee9838397a2aba7d511252d2c035b3cae29ceefa51cd09",
+   "frozen_sha256": "2bb4bf39a233386d55ee9838397a2aba7d511252d2c035b3cae29ceefa51cd09",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

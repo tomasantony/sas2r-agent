@@ -1,0 +1,52 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9595959595959596,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P007.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9191919191919192,
+   "detail": {
+    "recall": 0.9191919191919192,
+    "expected": 99,
+    "found": 91,
+    "r_files": [
+     "adtte.csv",
+     "P007.csv"
+    ],
+    "missing_examples": [
+     "2",
+     "5",
+     "6",
+     "7",
+     "8",
+     "10",
+     "11",
+     "14"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "adtte",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-ollama@v3\\P007\\attempt_1\\out\\adtte.csv",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "rows_sas": 47,
+    "rows_r": 47,
+    "cols_sas": 12,
+    "cols_r": 12,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 1.0,
+    "row_match_mode": "positional",
+    "mismatch_examples": [],
+    "worst_columns": {}
+   }
+  }
+ ]
+}

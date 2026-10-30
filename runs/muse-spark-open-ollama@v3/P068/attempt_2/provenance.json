@@ -1,0 +1,66 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P068",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T05:23:23",
+ "agent_commit": "d7687c9bacaf8c17d38ec023f89956a5f5a379f5",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 13611,
+  "output_tokens": 5100,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 14.9
+ },
+ "inputs": {
+  "prompt_translate.md": "50501c72ac3465a2ce28b057922a3130753140c873e3f179a3e997f625389c2d"
+ },
+ "model_output": {
+  "response.md": "b7f5462d33a8d46dda932f46b565eea06d9f3b79d9f3a3c76c9806c614f5c0ca",
+  "reasoning.md": "8bb458c367d251b61c3f88d6ef522568b22a30c7f4ca2cd8c63a01a57ff0846c",
+  "script.R": "77cb4d60857f0eb611f03b4c476b64235ffb5ac981d94b4e2572be921bea6d62"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.4,
+  "timed_out": false,
+  "log_sha256": "be2afdb07154661e1464f11a2ae2b3a414012cac8dfae2f356adaeb6a34b78d9"
+ },
+ "r_outputs": {
+  "t_ae_soc_pt.csv": "50579146026fcf4a8ee8d8e9abf286b2c77be76deac04030bf129e20b3141670",
+  "t_ae_soc_pt.rtf": "e02666e924d0fba246d4864551612fa61db857dfdb088c803c804e47c34e8162",
+  "t_ae_soc_pt.txt": "e02666e924d0fba246d4864551612fa61db857dfdb088c803c804e47c34e8162",
+  "t_ae_soc_pt_dataset.csv": "542241ca8d90dff7777a1c4a23617613b547dea82e79745d2dcb4300a4f11a45"
+ },
+ "sas_reference": [
+  {
+   "file": "tlf/t_ae_soc_pt.rtf",
+   "sha256": "35876e962dedb43af2ecd728c524a3afafb810886a0e129fa81796ac44180dd9",
+   "frozen_sha256": "35876e962dedb43af2ecd728c524a3afafb810886a0e129fa81796ac44180dd9",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

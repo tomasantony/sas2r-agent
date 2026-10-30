@@ -1,0 +1,100 @@
+sandbox: docker run --rm --name sas2r-ce50abaec9b2 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P008\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Using adam_dir: /bench/data/derived/c2c/data/adam 
+Using sdtm_dir: /bench/data/derived/c2c/data/sdtm 
+OUT_DIR: /work/out 
+adam_dir contents:
+[1] "adae.sas7bdat"      "adlb.sas7bdat"      "adsl.sas7bdat"     
+[4] "adtte.sas7bdat"     "advs.sas7bdat"      "qc_report.sas7bdat"
+sdtm_dir contents:
+ [1] "ae.sas7bdat" "cm.sas7bdat" "dm.sas7bdat" "ds.sas7bdat" "eg.sas7bdat"
+ [6] "ex.sas7bdat" "lb.sas7bdat" "mh.sas7bdat" "sv.sas7bdat" "vs.sas7bdat"
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Reading /bench/data/derived/c2c/data/adam/adsl.sas7bdat 
+Reading /bench/data/derived/c2c/data/sdtm/vs.sas7bdat 
+ADSL rows: 50 cols: STUDYID,USUBJID,SUBJID,SITEID,SEX,RACE,TRT01P,TRT01A,ITTFL,SAFFL,BRTHDT,RFICDT,TRTSDT,TRTEDT,EOSDT,AGE,TRTDURD 
+VS rows: 528 cols: STUDYID,DOMAIN,USUBJID,VSSEQ,VISIT,VSTESTCD,VSTEST,VSORRESU,VSSTRESU,VSORRES,VISITNUM,VSDTC,VSSTRESN 
+ADSL TRTSDT class: Date 
+ [1] "2023-01-17" "2023-01-05" "2023-01-10" "2023-01-22" "2023-01-04"
+ [6] "2023-01-12" NA           "2023-01-04" "2023-01-02" "2023-01-23"
+[11] "2023-01-26" "2023-01-04" NA           "2023-01-18" "2023-01-07"
+[16] "2023-02-02" "2023-02-03" "2023-01-20" "2023-01-26" "2023-01-25"
+VS VSDTC head:
+ [1] "2023-01-15" "2023-01-15" "2023-01-15" "2023-01-15" "2023-02-14"
+ [6] "2023-02-14" "2023-02-14" "2023-02-14" "2023-03-17" "2023-03-17"
+[11] "2023-03-17" "2023-03-17" "2023-01-02" "2023-01-02" "2023-01-02"
+[16] "2023-01-02" "2023-01-31" "2023-01-31" "2023-01-31" "2023-01-31"
+Common cols between ADSL and VS: STUDYID 
+Base flags rows: 188 
+# A tibble: 20 × 5
+   USUBJID          PARAMCD  BASE BASE_DT    BASE_SEQ
+   <chr>            <chr>   <dbl> <date>        <dbl>
+ 1 CDISC-01-701-001 DIABP    97   2023-01-15        1
+ 2 CDISC-01-701-001 PULSE    68   2023-01-15        2
+ 3 CDISC-01-701-001 SYSBP   110   2023-01-15        3
+ 4 CDISC-01-701-001 WEIGHT   87.1 2023-01-15        4
+ 5 CDISC-01-701-004 DIABP    71   2023-01-02        1
+ 6 CDISC-01-701-004 PULSE    79   2023-01-02        2
+ 7 CDISC-01-701-004 SYSBP   149   2023-01-02        3
+ 8 CDISC-01-701-004 WEIGHT   80.4 2023-01-02        4
+ 9 CDISC-01-701-005 DIABP    92   2023-01-07        1
+10 CDISC-01-701-005 PULSE    91   2023-01-07        2
+11 CDISC-01-701-005 SYSBP   136   2023-01-07        3
+12 CDISC-01-701-005 WEIGHT   75.9 2023-01-07        4
+13 CDISC-01-701-006 DIABP    98   2023-01-22        1
+14 CDISC-01-701-006 PULSE   100   2023-01-22        2
+15 CDISC-01-701-006 SYSBP   159   2023-01-22        3
+16 CDISC-01-701-006 WEIGHT   87.2 2023-01-22        4
+17 CDISC-01-701-007 DIABP    79   2023-01-03        1
+18 CDISC-01-701-007 PULSE    67   2023-01-03        2
+19 CDISC-01-701-007 SYSBP   147   2023-01-03        3
+20 CDISC-01-701-007 WEIGHT   85.8 2023-01-03        4
+ADVS final rows: 528 
+ADVS final cols: STUDYID,USUBJID,TRT01A,TRTSDT,TRTEDT,PARAMCD,PARAM,AVAL,AVISIT,AVISITN,ASTDT,ASTDY,SRCDOM,SRCVAR,SRCSEQ,BASE,CHG,ABLFL 
+# A tibble: 20 × 18
+   STUDYID  USUBJID      TRT01A TRTSDT     TRTEDT     PARAMCD PARAM  AVAL AVISIT
+   <chr>    <chr>        <chr>  <date>     <date>     <chr>   <chr> <dbl> <chr> 
+ 1 CDISC-01 CDISC-01-70… Activ… 2023-01-17 2023-04-09 DIABP   Dias…  97   Visit…
+ 2 CDISC-01 CDISC-01-70… Activ… 2023-01-17 2023-04-09 DIABP   Dias…  89   Visit…
+ 3 CDISC-01 CDISC-01-70… Activ… 2023-01-17 2023-04-09 DIABP   Dias…  87   Visit…
+ 4 CDISC-01 CDISC-01-70… Activ… 2023-01-17 2023-04-09 PULSE   Puls…  68   Visit…
+ 5 CDISC-01 CDISC-01-70… Activ… 2023-01-17 2023-04-09 PULSE   Puls…  95   Visit…
+ 6 CDISC-01 CDISC-01-70… Activ… 2023-01-17 2023-04-09 PULSE   Puls…  67   Visit…
+ 7 CDISC-01 CDISC-01-70… Activ… 2023-01-17 2023-04-09 SYSBP   Syst… 110   Visit…
+ 8 CDISC-01 CDISC-01-70… Activ… 2023-01-17 2023-04-09 SYSBP   Syst… 146   Visit…
+ 9 CDISC-01 CDISC-01-70… Activ… 2023-01-17 2023-04-09 SYSBP   Syst… 111   Visit…
+10 CDISC-01 CDISC-01-70… Activ… 2023-01-17 2023-04-09 WEIGHT  Weig…  87.1 Visit…
+11 CDISC-01 CDISC-01-70… Activ… 2023-01-17 2023-04-09 WEIGHT  Weig…  78.7 Visit…
+12 CDISC-01 CDISC-01-70… Activ… 2023-01-17 2023-04-09 WEIGHT  Weig…  79.8 Visit…
+13 CDISC-01 CDISC-01-70… Activ… 2023-01-05 2023-03-27 DIABP   Dias…  71   Visit…
+14 CDISC-01 CDISC-01-70… Activ… 2023-01-05 2023-03-27 DIABP   Dias…  83   Visit…
+15 CDISC-01 CDISC-01-70… Activ… 2023-01-05 2023-03-27 DIABP   Dias…  70   Visit…
+16 CDISC-01 CDISC-01-70… Activ… 2023-01-05 2023-03-27 PULSE   Puls…  79   Visit…
+17 CDISC-01 CDISC-01-70… Activ… 2023-01-05 2023-03-27 PULSE   Puls…  86   Visit…
+18 CDISC-01 CDISC-01-70… Activ… 2023-01-05 2023-03-27 PULSE   Puls…  71   Visit…
+19 CDISC-01 CDISC-01-70… Activ… 2023-01-05 2023-03-27 SYSBP   Syst… 149   Visit…
+20 CDISC-01 CDISC-01-70… Activ… 2023-01-05 2023-03-27 SYSBP   Syst… 113   Visit…
+# ℹ 9 more variables: AVISITN <dbl>, ASTDT <date>, ASTDY <int>, SRCDOM <chr>,
+#   SRCVAR <chr>, SRCSEQ <dbl>, BASE <dbl>, CHG <dbl>, ABLFL <chr>
+Written /work/out/P008.txt 
+Written /work/out/P008.lst 
+[1] TRUE
+Done. advs.csv rows: 528 
+[1] "advs.csv"    "listing.csv" "listing.txt" "P008.csv"    "P008.lst"   
+[6] "P008.txt"   

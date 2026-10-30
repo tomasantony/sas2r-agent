@@ -1,0 +1,100 @@
+sandbox: docker run --rm --name sas2r-995ce73699ea --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P019\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+QC report generated with 39 checks, failed: 0 
+    CHECK_ID DOMAIN                                                     RULE
+1   ADSL-001   ADSL                         USUBJID must be perfectly unique
+2   ADAE-001   ADAE                                 AEENDT must be >= AESTDT
+3   ADVS-001   ADVS                       Max 1 Baseline (ABLFL=Y) per Param
+4   ADLB-001   ADLB                       Max 1 Baseline (ABLFL=Y) per Param
+5   ADVS-002   ADVS     Baseline date has exactly one eligible source record
+6   ADLB-002   ADLB     Baseline date has exactly one eligible source record
+7   SDTM-001     DM                         USUBJID must be perfectly unique
+8   SDTM-002     AE                            Every AE.USUBJID exists in DM
+9   SDTM-003     EX                            Every EX.USUBJID exists in DM
+10  SDTM-004     LB                            Every LB.USUBJID exists in DM
+11  SDTM-005     VS                            Every VS.USUBJID exists in DM
+12  ADSL-002   ADSL                          SAFFL=Y requires exposure in EX
+13  ADSL-003   ADSL                        EOSDT must agree with DM.RFPENDTC
+14  ADSL-004   ADSL       AGE must equal completed years at informed consent
+15 ADTTE-001  ADTTE                        Survival time (AVAL) must be >= 1
+16 ADTTE-002  ADTTE AVAL and CNSR agree with event or subject follow-up date
+17 ADTTE-003  ADTTE  Event and follow-up dates must be chronologically valid
+18  SDTM-006     EG                            Every EG.USUBJID exists in DM
+19  SDTM-007     EG                         Required EG variables must exist
+20  SDTM-008     EG                     EG date/value contract must be valid
+21  SDTM-009     EG                   Raw EG variables must not leak to SDTM
+22  SDTM-010     MH                            Every MH.USUBJID exists in DM
+23  SDTM-011     MH                         Required MH variables must exist
+24  SDTM-012     MH                      MH date/term contract must be valid
+25  SDTM-013     MH                   Raw MH variables must not leak to SDTM
+26  SDTM-014     DM                  DM reference dates complete and ordered
+27  SDTM-015     SV                            Every SV.USUBJID exists in DM
+28  SDTM-016     SV                      USUBJID and VISITNUM must be unique
+29  SDTM-017     SV               SV dates valid and inside reference period
+30  SDTM-018     DS               Exactly one final DS record per DM subject
+31  SDTM-019     DS                     DS date matches DM participation end
+32  SDTM-020     DM                    RACE uses supported CDISC terminology
+33  SDTM-021     DM                SITEID present and consistent with SUBJID
+34  ADAE-002   ADAE                 AOCCFL valid and restricted to TRTEMFL=Y
+35  ADAE-003   ADAE                   One AOCCFL=Y per subject and TEAE term
+36  SDTM-022     CM     CM subject, medication, dose and dates must be valid
+37  SDTM-023     DS           DSDECOD uses supported disposition terminology
+38  SDTM-024   SDTM          Domain sequence keys must be unique per subject
+39  SDTM-025     CM      Ongoing CM must be anchored to the DM reference end
+   N_FAIL STATUS
+1       0   PASS
+2       0   PASS
+3       0   PASS
+4       0   PASS
+5       0   PASS
+6       0   PASS
+7       0   PASS
+8       0   PASS
+9       0   PASS
+10      0   PASS
+11      0   PASS
+12      0   PASS
+13      0   PASS
+14      0   PASS
+15      0   PASS
+16      0   PASS
+17      0   PASS
+18      0   PASS
+19      0   PASS
+20      0   PASS
+21      0   PASS
+22      0   PASS
+23      0   PASS
+24      0   PASS
+25      0   PASS
+26      0   PASS
+27      0   PASS
+28      0   PASS
+29      0   PASS
+30      0   PASS
+31      0   PASS
+32      0   PASS
+33      0   PASS
+34      0   PASS
+35      0   PASS
+36      0   PASS
+37      0   PASS
+38      0   PASS
+39      0   PASS

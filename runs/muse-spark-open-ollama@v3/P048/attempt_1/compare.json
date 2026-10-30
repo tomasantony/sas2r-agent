@@ -1,0 +1,63 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P048.lst",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 61,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "25",
+     "0.3",
+     "27",
+     "58",
+     "0.7",
+     "59",
+     "57",
+     "28",
+     "44",
+     "0.5",
+     "40",
+     "8"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "sasrtf.rtf",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "recall": 0.0,
+    "expected": 61,
+    "found": 0,
+    "r_files": [],
+    "missing_examples": [
+     "25",
+     "0.3",
+     "27",
+     "58",
+     "0.7",
+     "59",
+     "57",
+     "28",
+     "44",
+     "0.5",
+     "40",
+     "8"
+    ],
+    "expected_file": "<any>.txt or .csv rendering of the table/listing"
+   }
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+sandbox: docker run --rm --name sas2r-71783bd38793 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P061\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading raw data from: /bench/data/raw/sumit-oncology/Breast Cancer METABRIC.csv
+Call: survfit(formula = Surv(AVAL, EVENT) ~ 1, data = adtte_km)
+
+        n events rmean* se(rmean) median 0.95LCL 0.95UCL
+[1,] 1981   1144    169      3.03    156     148     168
+    * restricted mean with upper limit =  355 
+NULL
+[1] TRUE
+[1] TRUE
+[1] TRUE
+All outputs written to: /work/out
+Files: adam_adsl.csv, adam_adtte.csv, chemotherapy_summary.csv, demographic_summary_age.csv, er_status.csv, gender_distribution.csv, her2_status.csv, km_product_limit.csv, km_quartiles.csv, P061_f_oncology_graphs.csv, P061_f_oncology_graphs.pdf.txt, P061_f_oncology_graphs.txt, P061_freq_all.csv, P061_t_oncology_report.csv, P061_t_oncology_report.pdf.txt, P061_t_oncology_report.txt, P061.lst.csv, P061.lst.txt, raw_metabric.csv, sasgraph.csv, sasgraph.png, sdtm_dm.csv, SGPlot.csv, SGPlot.png, SGPlot1.csv, SGPlot1.png, SGPlot2.csv, SGPlot2.png, SGPlot3.csv, SGPlot3.png, SGPlot4.csv, SGPlot4.png, SGPlot5.csv, SGPlot5.png, SGPlot6.csv, SGPlot6.png, tumor_size_summary.csv, tumor_stage_distribution.csv

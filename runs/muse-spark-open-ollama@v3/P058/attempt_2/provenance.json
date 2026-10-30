@@ -1,0 +1,105 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P058",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T05:03:45",
+ "agent_commit": "d7687c9bacaf8c17d38ec023f89956a5f5a379f5",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 3295,
+  "output_tokens": 11704,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 47.3
+ },
+ "inputs": {
+  "prompt_translate.md": "8965d423fdb8d1dd0deb130b8ed24370544cbf7d0806c9de87a180232d46c5b9"
+ },
+ "model_output": {
+  "response.md": "e2ac170fbe179e62e9806bafe2dca3944d6e9b0fdd01d3e3801382306e6b6d99",
+  "reasoning.md": "0dd39224e133a25e7dde2af0e9a7b4e822d7f8c139f8d224f29d9c5004e64f46",
+  "script.R": "13390b93a01606f9d404334fd4d25d532c977d8dd1783f0ecf7366147d879c2c"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 5.2,
+  "timed_out": false,
+  "log_sha256": "91cfa94354b76910c02114055813c5b29259f64b6370ccb30209c88db7984b05"
+ },
+ "r_outputs": {
+  "conc.csv": "39b62af1f35d6d39e9c67eaa92184d73aac1dea9e241c9e58676af435c7db82c",
+  "sgrender.csv": "a2528a409aa730ae45494e3278ad986cd668134565d3a895b0f6f64f936e4c12",
+  "sgrender.png": "d00ba7f38f994d1d5f7bf4ddcd8f58253d979aad333551dec88d5bd714578dff",
+  "sgrender1.csv": "e4d3a9fccbe41c3bc213dc69d55b80a430ddb8f66c61c65ed67496addab9f1a6",
+  "sgrender1.png": "cc14cdf56f98a6c743d240919e2fccdea51dcf64a83eb47f5ca7a9d19efcfc7a",
+  "sgrender2.csv": "9fd76934db6c41d16a00df26ae9d73cda584542012035467b1e403dfef1dd8fa",
+  "sgrender2.png": "bf11de82f8b9923f70b37efb10ca80ce47617419f64f97914cda05d716381c05",
+  "sgrender3.csv": "835db5ca4684fe773527076c49275637bde97448daa6f5eda73a8fc4f3225fb1",
+  "sgrender3.png": "99472f76f5eb1cfe3e7142d7624ed20abf552380d726a9df70e351f7d64ea871",
+  "sgrender4.csv": "015262a17da60662592bafd56998ba7216dfd50ca0daf228aa8c05f516acda75",
+  "sgrender4.png": "b21bb5bfde8ddfc8c43544da3e1df3ae6e4ad9ce90990a59ce00babe6b203c10",
+  "sgrender5.csv": "41b936156e22899fcedcf413df9a721d4af7b9f66d0f2b650a4a94e92bf86cb9",
+  "sgrender5.png": "0446ee6cb3cbca09b7f9d77846d6c7bf553203e3dc2e907bec138d9528d2cab0"
+ },
+ "sas_reference": [
+  {
+   "file": "datasets/P058/SGRender.png",
+   "sha256": "6d7cf8a4c3bede84e873784290d5ba625426d6971760dbdcc5e0a12484e855e5",
+   "frozen_sha256": "6d7cf8a4c3bede84e873784290d5ba625426d6971760dbdcc5e0a12484e855e5",
+   "ok": true
+  },
+  {
+   "file": "datasets/P058/SGRender1.png",
+   "sha256": "6e46f0ccb0ad59695e2ab797a2e502f48816bfd2517f47850fb3d34d787b3d40",
+   "frozen_sha256": "6e46f0ccb0ad59695e2ab797a2e502f48816bfd2517f47850fb3d34d787b3d40",
+   "ok": true
+  },
+  {
+   "file": "datasets/P058/SGRender2.png",
+   "sha256": "92e5420dd2351154ad7c9190779a5b28ae8d2250d81cad4e5eaa424cbba06bd0",
+   "frozen_sha256": "92e5420dd2351154ad7c9190779a5b28ae8d2250d81cad4e5eaa424cbba06bd0",
+   "ok": true
+  },
+  {
+   "file": "datasets/P058/SGRender3.png",
+   "sha256": "aed058a3b2352bebd5d6a7b0c946442e2cc2565c3ff522513d2867f4f2d21a4f",
+   "frozen_sha256": "aed058a3b2352bebd5d6a7b0c946442e2cc2565c3ff522513d2867f4f2d21a4f",
+   "ok": true
+  },
+  {
+   "file": "datasets/P058/SGRender4.png",
+   "sha256": "3db15dfbc56b2852326a410b0644b30f94d209c34d4ef8a50e98c41680e2b12e",
+   "frozen_sha256": "3db15dfbc56b2852326a410b0644b30f94d209c34d4ef8a50e98c41680e2b12e",
+   "ok": true
+  },
+  {
+   "file": "datasets/P058/SGRender5.png",
+   "sha256": "9656c9cdc1b4555baecf2eb4982144cece75afc081696bcf00ca8de688d7a3ef",
+   "frozen_sha256": "9656c9cdc1b4555baecf2eb4982144cece75afc081696bcf00ca8de688d7a3ef",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

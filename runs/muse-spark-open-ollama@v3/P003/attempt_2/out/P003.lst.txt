@@ -1,0 +1,17 @@
+Table 14-5-02
+Summary of Serious Adverse Events by System Organ Class and Preferred Term
+Safety Population (Placebo N=86 Low Dose N=0 High Dose N=0)
+
+System Organ Class
+  Preferred Term                Placebo (N=86)        Low Dose (N=84)       High Dose (N=84)      p Low vs Pbo  p High vs Pbo
+----------------------------------------------------------------------------------------------------------------------------------
+Overall                        Any Serious Adverse Event 0 (0.0%) [0]           0 (NA%) [0]            0 (NA%) [0]            1.0000       1.0000      
+NERVOUS SYSTEM DISORDERS                            0 (0.0%) [0]           0 (NA%) [0]            0 (NA%) [0]            1.0000       1.0000      
+                               PARTIAL SEIZURES WITH SECONDARY GENERALISATION 0 (0.0%) [0]           0 (NA%) [0]            0 (NA%) [0]            1.0000       1.0000      
+                               SYNCOPE              0 (0.0%) [0]           0 (NA%) [0]            0 (NA%) [0]            1.0000       1.0000      
+
+----------------------------------------------------------------------------------------------------------------------------------
+Note: n (%) [events] = number of subjects (percent) [number of events]; p-values from Fisher's exact test (two-sided).
+Denominators: Placebo N=86 (100%), Low Dose N=0, High Dose N=0.
+Source: ADSL (SAFFL='Y'), ADAE (TRTEMFL='Y' and AESER='Y')
+Program: P003_at14-5-02.sas

@@ -1,0 +1,64 @@
+Scatter Plot-Max. Post-baseline vs Max. Baseline for Lab Test 1 (mmol/L)
+Reference limits: ANRLO=60.00 ANRHI=90.00
+Y-axis: 60 to 70 by 10
+Axis ticks: 60 70
+
+Baseline Shift Frequency Table - Max Post Basline Result (shift from baseline)
+N total = 250
+
+Treatment              Max. Baseline Result   | Low                  | Normal              
+                                              |      N      N (%) |      N      N (%)
+-------------------------------------------------------------------------------------------
+0 (N = 84)             High                   |                  
+0 (N = 84)             Low                   
+0 (N = 84)             Normal                
+ 
+54 (N = 84)            High                   |                  
+54 (N = 84)            Low                   
+54 (N = 84)            Normal                
+ 
+81 (N = 82)            High                   |                  
+81 (N = 82)            Low                    |                  
+81 (N = 82)            Normal                
+ 
+
+Detail TableA (COUNT, PERCENT with multiple formats):
+
+Summary totals:
+Total N = 250
+TRTPN 0 N = 84 (33.6% of total)
+TRTPN 54 N = 84 (33.6% of total)
+TRTPN 81 N = 82 (32.8% of total)
+BNRIND=High COUNT=4 PERCENT=1.60
+BNRIND=Low COUNT=17 PERCENT=6.80
+BNRIND=Normal COUNT=229 PERCENT=91.60
+ANRIND=Low COUNT=43 PERCENT=17.20
+ANRIND=Normal COUNT=207 PERCENT=82.80
+
+Treatment Emergent High Table
+------------------------------
+TRTPN          Nx        n    percent     FishersP
+0              84        5     500.00       1.0000
+54             84        5     500.00             
+81             82        5     500.00             
+TRTPN 0 Nx=84 n=5 percent=500.0 percent2=500.00 FishersP=1.0000 p4=1.0000
+TRTPN 54 Nx=84 n=5 percent=500.0 percent2=500.00 FishersP= p4=NA
+TRTPN 81 Nx=82 n=5 percent=500.0 percent2=500.00 FishersP= p4=NA
+Fisher's Exact p-value (TRTPN * n): 1.0000
+Fisher p raw = 1.000000 1.0000 1.00
+Contingency TRTPN * n:
+    
+      0  1
+  0  79  5
+  54 79  5
+  81 77  5
+Table total N = 250
+
+Footnotes:
+Scatter Plot: Includes subjects with both a baseline and a post-baseline measure.  Reference limits apply to most of the participants are used in the plot
+N=number of subjects with at least one post-baseline measure; Nx=number of subjects with maximum baseline either normal or low and have at least one post-baseline measure.
+Summary tables used the reference limits set 1 (Male, Age 18-65, LLNx 60.00 mmol/L ULNx 90.00 mmol/L) set 2 (Female, Age 18-65, LLN=60.00 mmol/L ULN=90.00 mmol/L).
+
+ADVSMAXSum: ANRLO mean=60.0000 ANRHI mean=90.0000 BASE mean=71.7320 AVAL mean=66.4120 MinValue=66.4120 MaxValue=66.4120
+YAxisMin=60 YAxisMax=70 Margin=0.0000
+MAJOR=10

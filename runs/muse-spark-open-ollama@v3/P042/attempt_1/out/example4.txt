@@ -1,0 +1,16 @@
+Individual Store Sales as a Percent of All Sales
+
+Sector       Manager        Total  Percent                                         
+                            Sales of Sales                                         
+------------ ---------- --------- -------- ----------------------------------------
+Southeast    Smith        $350.00       6%                                         
+             Jones        $630.00      10%                                         
+Northwest    Reveiz     $1,110.00      18% Sales substantially above expectations. 
+             Brown        $598.00       9%                                         
+             Pelfrey      $746.00      12%                                         
+Southwest    Taylor       $353.00       6%                                         
+             Adams        $695.00      11%                                         
+Northeast    Alomar       $786.00      12%                                         
+             Andrews    $1,045.00      17% Sales substantially above expectations. 
+------------ ---------- --------- -------- ----------------------------------------
+             Total      $6,313.00     100%                                         

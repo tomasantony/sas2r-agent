@@ -1,0 +1,42 @@
+[Sponsor Name]                                                                  Page 1 of 1
+Protocol: [Protocol Number]
+
+Table 14.3.2
+Treatment-Emergent Adverse Events by System Organ Class and Preferred Term
+Safety Analysis Set
+
+System Organ Class / Preferred Term                | Drug X High Dose (N=63) | Drug X Low Dose (N=82) | Placebo (N=95)      
+---------------------------------------------------+----------------------+----------------------+---------------------
+GASTROINTESTINAL DISORDERS                         | 16 (25.4)            | 21 (25.6)            | 31 (32.6)           
+  Nausea                                           | 16 (25.4)            | 21 (25.6)            | 31 (32.6)           
+
+NERVOUS SYSTEM DISORDERS                           | 11 (17.5)            | 14 (17.1)            | 25 (26.3)           
+  Headache                                         | 11 (17.5)            | 14 (17.1)            | 25 (26.3)           
+
+INFECTIONS AND INFESTATIONS                        | 10 (15.9)            | 15 (18.3)            | 22 (23.2)           
+  Upper respiratory tract infection                | 10 (15.9)            | 15 (18.3)            | 22 (23.2)           
+
+GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIO | 14 (22.2)            | 11 (13.4)            | 11 (11.6)           
+  Fatigue                                          | 14 (22.2)            | 11 (13.4)            | 11 (11.6)           
+
+INVESTIGATIONS                                     | 10 (15.9)            | 12 (14.6)            | 10 (10.5)           
+  Alanine aminotransferase increased               | 10 (15.9)            | 12 (14.6)            | 10 (10.5)           
+
+SKIN AND SUBCUTANEOUS TISSUE DISORDERS             | 8 (12.7)             | 11 (13.4)            | 12 (12.6)           
+  Rash                                             | 8 (12.7)             | 11 (13.4)            | 12 (12.6)           
+
+MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS    | 6 (9.5)              | 10 (12.2)            | 12 (12.6)           
+  Arthralgia                                       | 6 (9.5)              | 10 (12.2)            | 12 (12.6)           
+
+RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS    | 7 (11.1)             | 9 (11.0)             | 10 (10.5)           
+  Cough                                            | 7 (11.1)             | 9 (11.0)             | 10 (10.5)           
+
+Any TEAE                                           | 43 (68.3)            | 63 (76.8)            | 69 (72.6)           
+
+MedDRA Version [XX.X]
+Subjects counted once per SOC and once per PT within each SOC.
+SOCs sorted by descending frequency of Total column; PTs sorted by descending frequency within SOC.
+
+Data cutoff: [DDMONYYYY].
+Source: ADaM datasets
+Program: t_ae_soc_pt.sas | Run: 30Oct2026 09:23

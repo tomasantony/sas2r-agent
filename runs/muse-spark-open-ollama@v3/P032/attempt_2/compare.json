@@ -1,0 +1,74 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P032.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 419,
+    "found": 419,
+    "r_files": [
+     "advs.csv",
+     "all.csv",
+     "clinicalhandout_dbpprofile.csv",
+     "DBP_Profile.csv",
+     "DBP_Profile.html",
+     "DBP_Profile.html.csv",
+     "DBP_Profile.html.txt",
+     "DBP_Profile.txt",
+     "P032.csv",
+     "P032.lst.csv",
+     "P032.lst.txt",
+     "P032.txt",
+     "temp.csv",
+     "temp1.csv"
+    ],
+    "missing_examples": []
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "ClinicalHandout_DbpProfile.gif",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-ollama@v3\\P032\\attempt_2\\out\\clinicalhandout_dbpprofile.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "DBP_Profile.html",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 0,
+    "found": 0,
+    "r_files": [
+     "advs.csv",
+     "all.csv",
+     "clinicalhandout_dbpprofile.csv",
+     "DBP_Profile.csv",
+     "DBP_Profile.html",
+     "DBP_Profile.html.csv",
+     "DBP_Profile.html.txt",
+     "DBP_Profile.txt",
+     "P032.csv",
+     "P032.lst.csv",
+     "P032.lst.txt",
+     "P032.txt",
+     "temp.csv",
+     "temp1.csv"
+    ]
+   }
+  }
+ ]
+}

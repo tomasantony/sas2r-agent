@@ -1,0 +1,10 @@
+sandbox: docker run --rm --name sas2r-41e3e00ff7d0 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P027\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Warning message:
+There were 6 warnings in `mutate()`.
+The first warning was:
+ℹ In argument: `RSSTDY = sapply(...)`.
+Caused by warning:
+! Unknown or uninitialised column: `RSDTC`.
+ℹ Run `dplyr::last_dplyr_warnings()` to see the 5 remaining warnings. 
+P027 RS mapping complete. Rows: 3 
+Outputs written to: /work/out 

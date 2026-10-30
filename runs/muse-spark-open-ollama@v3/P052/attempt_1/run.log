@@ -1,0 +1,12 @@
+sandbox: docker run --rm --name sas2r-333bb5ea3c90 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P052\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADSL and ADVSMAX
+adsl_path: /bench/data/raw/cdisc-pilot/adam/adsl.xpt 
+advsmax_path: /bench/data/raw/cdisc-pilot/adam/advsmax.xpt 
+advsmax_final nrow: 250 
+Overall min: 40 max: 98 
+column_numbers: 2 row_numbers: 1 
+[1] TRUE
+[1] TRUE
+Figure saved to /work/out/sgrender.png 
+Done. Outputs in /work/out 
+Files: advsmax_final3.csv, figure_SGRender.csv, P052.csv, P052.lst, P052.lst.csv, P052.lst.txt, P052.txt, range2.csv, sgrender.csv, sgrender.png 

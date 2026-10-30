@@ -1,0 +1,12 @@
+P052 - Outliers Scatter Mean Time - Range of Baseline and Post-baseline Measurements
+--------------------------------------------------------------------------------
+Source: advsmax where PARAMCD="DIABP" and ATPTN=815 and ANL01FL="Y" and ADY>1 and SAFFL="Y"
+Overall axis range: min=40.0 max=98.0  (min=min(min_base,min_aval) max=max(max_base,max_aval))
+Panel layout: rows=1 columns=2  (count_study=1)
+
+Range table (4 numbers):
+    min_base     max_base     min_aval     max_aval
+---------------------------------------------------
+          40           98           41           90
+
+Note: min and max are computed ignoring missing values (SAS PROC SQL MIN/MAX).

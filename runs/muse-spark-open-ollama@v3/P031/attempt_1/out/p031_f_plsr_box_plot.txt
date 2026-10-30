@@ -1,0 +1,29 @@
+Box Plot of X over Time by Treatment
+==================================================
+
+Data: XX  (sorted by VIS)
+Observations: 120
+
+VIS mapping (offset to avoid overplotting):
+ Study Drug: VIS = VISIT, then -0.15 for 4,5 and -0.3 for 6 => 3, 3.85, 4.85, 5.7
+ Placebo   : VIS = VISIT+0.15, then -0.15 for 4,5 and -0.3 for 6 => 3.15, 4.0, 5.0, 5.85
+ AC        : VIS = VISIT+0.30, then -0.15 for 4,5 and -0.3 for 6 => 3.3, 4.15, 5.15, 6.0
+
+Summary statistics by Treatment and Visit (VIS):
+--------------------------------------------------------------------------------
+TRT          VISIT  VIS   N     Mean   Median   StdDev      Min      Max       Q1       Q3
+Study Drug      3 3.00  10   5.1500   4.6500   2.9882      1.1      9.9   2.4000   7.6000
+Placebo         3 3.15  10   4.8800   5.1000   3.0706      0.3     10.1   2.6000   6.2000
+AC              3 3.30  10   4.4100   4.7000   4.1181     -1.5     10.8   0.0000   6.5000
+Study Drug      4 3.85  10   5.9700   6.8500   3.5318     -0.7     10.5   3.7000   8.5000
+Placebo         4 4.00  10   5.8900   6.0500   3.5272      0.5     12.6   4.4000   7.2000
+AC              4 4.15  10   5.6500   5.4000   2.9391      0.4      9.5   3.7000   8.8000
+Study Drug      5 4.85  10   6.9000   6.6500   3.2438      2.7     12.3   4.1000   8.3000
+Placebo         5 5.00  10   6.1300   6.8000   4.4796     -0.0     11.7   0.7000  10.2000
+AC              5 5.15  10   6.6000   6.1000   4.1852      0.9     13.7   3.1000  10.5000
+Study Drug      6 5.70  10   6.1300   4.7000   3.4750      1.7     11.6   3.5000   9.6000
+Placebo         6 5.85  10   5.0800   5.7000   4.0838     -1.0     11.0   1.0000   7.1000
+AC              6 6.00  10   5.0800   5.3000   4.6516     -1.2     13.6   1.4000   7.8000
+
+Plot: X*VIS=TRT  / HAXIS=(3 TO 6 BY 1) BOXSTYLE=SCHEMATICID CBOX=BLUE IDSYMBOL=STAR IDCOLOR=RED
+SYMBOL1 V=PLUS C=BLACK (Study Drug)  SYMBOL2 V=TRIANGLE C=BLUE (Placebo)  SYMBOL3 V=SQUARE C=RED (AC)

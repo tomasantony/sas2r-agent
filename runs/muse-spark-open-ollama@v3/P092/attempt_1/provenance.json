@@ -1,0 +1,67 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P092",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T06:00:06",
+ "agent_commit": "d7687c9bacaf8c17d38ec023f89956a5f5a379f5",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 2934,
+  "output_tokens": 5115,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 17.0
+ },
+ "inputs": {
+  "prompt_translate.md": "a557a7fa6fca8ad0620b3e8cdff0c7ee5e0432441f353f73c5cfff917e443bb5"
+ },
+ "model_output": {
+  "response.md": "f8f2f870b2faf89ab12ff1664de0717c77eeb251eee9b419a1da83adfed6179e",
+  "reasoning.md": "b1279965d2c7426e6f7d74520e6021dff9027bcb35e4dc3115d4153a83f352a3",
+  "script.R": "36b2a0722577eaaa40ee899c21445db20e82f6e6c8ff90cbd49f27877bc7eaca"
+ },
+ "r_run": {
+  "rc": 1,
+  "seconds": 0.8,
+  "timed_out": false,
+  "log_sha256": "07a6873abbf7de630fec8ccd281c32d826ed9d95d82c69d4e8bb2f04f2a78e0c"
+ },
+ "r_outputs": {},
+ "sas_reference": [
+  {
+   "file": "datasets/P092/sct1.htm",
+   "sha256": "866421b6084be29e14636b9ef34fbd7702c8fe52d1501533f17ae49483862742",
+   "frozen_sha256": "866421b6084be29e14636b9ef34fbd7702c8fe52d1501533f17ae49483862742",
+   "ok": true
+  },
+  {
+   "file": "datasets/P092/sct1.png",
+   "sha256": "b34b0b45f9c319489e944612b25e10091713d5058231f39b4de7c7332f9034bc",
+   "frozen_sha256": "b34b0b45f9c319489e944612b25e10091713d5058231f39b4de7c7332f9034bc",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.5,
+  "produced_all": false
+ }
+}

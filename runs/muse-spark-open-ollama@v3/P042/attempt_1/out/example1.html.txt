@@ -1,0 +1,16 @@
+Sales for the Southeast Sector
+for 30OCT26
+
+Manager    Department         Sales
+---------- ------------ -----------
+Smith      Paper             $50.00
+Smith      Meat/Dairy       $100.00
+Smith      Canned           $120.00
+Smith      Produce           $80.00
+Jones      Paper             $40.00
+Jones      Meat/Dairy       $300.00
+Jones      Canned           $220.00
+Jones      Produce           $70.00
+---------- ------------ -----------
+                            $980.00
+           Total            $980.00

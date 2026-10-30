@@ -1,0 +1,32 @@
+{
+ "id": "P075",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "family": "own-tlf",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 0.9954198473282443,
+ "iterations": 1,
+ "input_tokens": 10168,
+ "output_tokens": 8087,
+ "seconds": 32.774179458618164,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 1.510645866394043,
+   "input_tokens": 10168,
+   "output_tokens": 8087,
+   "seconds_llm": 31.05375647544861,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 0.9954198473282443,
+   "note": ""
+  }
+ ],
+ "best_attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3"
+}

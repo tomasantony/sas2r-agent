@@ -1,0 +1,8 @@
+sandbox: docker run --rm --name sas2r-250b1a62c65d --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P096\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+[1] TRUE
+P096 R translation complete.
+Outputs written to: /work/out 
+Files: sgplot.png, sgplot.csv, P096.txt, P096.csv, P096.lst, P096_means1.csv, P096_means2.csv
+Means1 Sum: Length=429.530 Round=432.800 RoundEven=430.800
+Means1 Mean: Length=1.011 Round=1.018 RoundEven=1.014
+Means2 Mean: RoundUp=0.560 RoundEvenUp=0.513

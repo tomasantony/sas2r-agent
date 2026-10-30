@@ -1,0 +1,14 @@
+sandbox: docker run --rm --name sas2r-f3c50a09f0f0 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P032\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Warning message:
+There was 1 warning in `filter()`.
+ℹ In argument: `get_col(cur_data_all(), "PARAMCD") == "DIABP"`.
+Caused by warning:
+! `cur_data_all()` was deprecated in dplyr 1.1.0.
+ℹ Please use `pick()` instead. 
+Ignoring unknown labels:
+• colour : "Treatment Group:"
+Ignoring unknown labels:
+• colour : "Treatment Group:"
+[1] TRUE
+Outputs written to /work/out
+Files: advs.csv, all.csv, clinicalhandout_dbpprofile.csv, ClinicalHandout_DbpProfile.gif, clinicalhandout_dbpprofile.png, DBP_Profile.csv, DBP_Profile.html, DBP_Profile.html.csv, DBP_Profile.html.txt, DBP_Profile.txt, P032.csv, P032.lst, P032.lst.csv, P032.lst.txt, P032.txt, temp.csv, temp1.csv

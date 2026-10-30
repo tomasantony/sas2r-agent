@@ -1,0 +1,40 @@
+"CHECK_ID","DOMAIN","RULE","STATUS","N_FAIL"
+"ADSL-001","ADSL","USUBJID must be perfectly unique","PASS",0
+"ADAE-001","ADAE","AEENDT must be >= AESTDT","PASS",0
+"ADVS-001","ADVS","Max 1 Baseline (ABLFL=Y) per Param","PASS",0
+"ADLB-001","ADLB","Max 1 Baseline (ABLFL=Y) per Param","PASS",0
+"ADVS-002","ADVS","Baseline date has exactly one eligible source record","PASS",0
+"ADLB-002","ADLB","Baseline date has exactly one eligible source record","PASS",0
+"SDTM-001","DM","USUBJID must be perfectly unique","PASS",0
+"SDTM-002","AE","Every AE.USUBJID exists in DM","PASS",0
+"SDTM-003","EX","Every EX.USUBJID exists in DM","PASS",0
+"SDTM-004","LB","Every LB.USUBJID exists in DM","PASS",0
+"SDTM-005","VS","Every VS.USUBJID exists in DM","PASS",0
+"ADSL-002","ADSL","SAFFL=Y requires exposure in EX","PASS",0
+"ADSL-003","ADSL","EOSDT must agree with DM.RFPENDTC","PASS",0
+"ADSL-004","ADSL","AGE must equal completed years at informed consent","PASS",0
+"ADTTE-001","ADTTE","Survival time (AVAL) must be >= 1","PASS",0
+"ADTTE-002","ADTTE","AVAL and CNSR agree with event or subject follow-up date","PASS",0
+"ADTTE-003","ADTTE","Event and follow-up dates must be chronologically valid","PASS",0
+"SDTM-006","EG","Every EG.USUBJID exists in DM","PASS",0
+"SDTM-007","EG","Required EG variables must exist","PASS",0
+"SDTM-008","EG","EG date/value contract must be valid","PASS",0
+"SDTM-009","EG","Raw EG variables must not leak to SDTM","PASS",0
+"SDTM-010","MH","Every MH.USUBJID exists in DM","PASS",0
+"SDTM-011","MH","Required MH variables must exist","PASS",0
+"SDTM-012","MH","MH date/term contract must be valid","PASS",0
+"SDTM-013","MH","Raw MH variables must not leak to SDTM","PASS",0
+"SDTM-014","DM","DM reference dates complete and ordered","PASS",0
+"SDTM-015","SV","Every SV.USUBJID exists in DM","PASS",0
+"SDTM-016","SV","USUBJID and VISITNUM must be unique","PASS",0
+"","","","PASS",0
+"SDTM-018","DS","Exactly one final DS record per DM subject","PASS",0
+"","","","PASS",0
+"SDTM-020","DM","RACE uses supported CDISC terminology","PASS",0
+"SDTM-021","DM","SITEID present and consistent with SUBJID","PASS",0
+"ADAE-002","ADAE","AOCCFL valid and restricted to TRTEMFL=Y","PASS",0
+"ADAE-003","ADAE","One AOCCFL=Y per subject and TEAE term","PASS",0
+"SDTM-022","CM","CM subject, medication, dose and dates must be valid","PASS",0
+"SDTM-023","DS","DSDECOD uses supported disposition terminology","PASS",0
+"SDTM-024","SDTM","Domain sequence keys must be unique per subject","PASS",0
+"","","","PASS",0

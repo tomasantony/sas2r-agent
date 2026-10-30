@@ -1,0 +1,59 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.9508196721311475,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P048.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9508196721311475,
+   "detail": {
+    "recall": 0.9508196721311475,
+    "expected": 61,
+    "found": 58,
+    "r_files": [
+     "P048.csv",
+     "P048.txt",
+     "P048_dataset.csv",
+     "P048_plot_data.csv",
+     "sasrtf.csv",
+     "sasrtf.rtf",
+     "sasrtf.txt"
+    ],
+    "missing_examples": [
+     "25",
+     "27",
+     "58"
+    ]
+   }
+  },
+  {
+   "kind": "text",
+   "name": "sasrtf.rtf",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9508196721311475,
+   "detail": {
+    "recall": 0.9508196721311475,
+    "expected": 61,
+    "found": 58,
+    "r_files": [
+     "P048.csv",
+     "P048.txt",
+     "P048_dataset.csv",
+     "P048_plot_data.csv",
+     "sasrtf.csv",
+     "sasrtf.rtf",
+     "sasrtf.txt"
+    ],
+    "missing_examples": [
+     "25",
+     "27",
+     "58"
+    ]
+   }
+  }
+ ]
+}

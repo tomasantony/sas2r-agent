@@ -1,0 +1,73 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P028",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 3,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T02:52:20",
+ "agent_commit": "06f9e1e764d6f483c9b222ba7ce83cc503f0630f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 18803,
+  "output_tokens": 6753,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 14.5
+ },
+ "inputs": {
+  "prompt_translate.md": "93a1035f445b25e5c369490ca51728989356ac296b985d13a1fcdc6e2db42d43"
+ },
+ "model_output": {
+  "response.md": "fc85adc15f505ff222838c2e9f53d3936c5cb78e03c7f8e39f7660a31c6d192e",
+  "reasoning.md": "87dc12962423662a504dec28d83fc02e84c99cad3e9c835fab96a7c5abe7bd2e",
+  "script.R": "45ae9af9894c605bbb03d6dbab0037c84d63a47def4fc6e27f95b65f22a2e3d3"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 3.4,
+  "timed_out": false,
+  "log_sha256": "8d84303b72e955495c568fe12f7ddcffba5d37c256511ed240c315b2e5ece067"
+ },
+ "r_outputs": {
+  "P028.csv": "9054940e18e9d9b155d08b2df18499b397943029b896da6f64f2cafebd0df1b3",
+  "P028.lst": "94247d6d65ccee59da2866b9dfffc71bc2cad1e07c6d7ddc1571a529e732ac92",
+  "P028.txt": "94247d6d65ccee59da2866b9dfffc71bc2cad1e07c6d7ddc1571a529e732ac92",
+  "tr.csv": "9054940e18e9d9b155d08b2df18499b397943029b896da6f64f2cafebd0df1b3",
+  "tr.txt": "94247d6d65ccee59da2866b9dfffc71bc2cad1e07c6d7ddc1571a529e732ac92"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P028.lst",
+   "sha256": "61071ebc8041a71fb6f5ec298fb6a670717a9b4c6cedf278e280d6d5f373afc7",
+   "frozen_sha256": "61071ebc8041a71fb6f5ec298fb6a670717a9b4c6cedf278e280d6d5f373afc7",
+   "ok": true
+  },
+  {
+   "file": "datasets/P028/tr.xlsx",
+   "sha256": "76e2fdebd505ec7c830038a2082981c3b99b8d411113ae07894d001b69285bc3",
+   "frozen_sha256": "76e2fdebd505ec7c830038a2082981c3b99b8d411113ae07894d001b69285bc3",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.9495192307692308,
+  "produced_all": true
+ }
+}

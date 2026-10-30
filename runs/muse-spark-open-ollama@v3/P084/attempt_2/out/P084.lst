@@ -1,0 +1,174 @@
+Program: P084_adae.sas
+Purpose: Create ADAE (Adverse Events Analysis Dataset) - CDISC ADaM IG 1.3
+Output: ADAE listing and contents
+Date:  2026-10-30 
+
+The CONTENTS Procedure
+
+Data Set Name        WORK.ADAE
+Member Type          DATA
+Engine               V9
+Created              09APR2024:09:04:01
+Last Modified        09APR2024:09:04:01
+Protection           
+Data Set Type        
+Label                Adverse Events Analysis Dataset
+Data Representation  WINDOWS_64
+Encoding             wlatin1  Western (Windows)
+SAS Release          9.0401M7
+
+Observations         9
+Variables            41
+Indexes              0
+Observation Length   696
+Deleted Observations 0
+Compressed           NO
+Sorted               NO
+
+Engine/Host Dependent Information
+
+Data Set Page Size   65536
+Number of Data Set Pages 1
+First Data Page      1
+Max Obs per Page     94
+Obs in First Data Page 9
+Number of Data Set Repairs 0
+ExtendObsCounter     YES
+Filename             adae.sas7bdat
+Pathname             /bench/output/sas/datasets/P084/adae.sas7bdat
+File Size            35248
+Block Size           64
+Max Vars per Page    60
+Min Vars per Page    40
+Max Obs per Block    50
+Obs in First Block   27
+
+Alphabetic List of Variables and Attributes
+
+#    Variable        Type   Len  Format     Informat   Label
+-------------------------------------------------------------------------------------------------------------- 
+1    STUDYID         Char   7    $CHAR      $CHAR      Study Identifier
+2    USUBJID         Char   12   $CHAR      $CHAR      Unique Subject Identifier
+3    AESEQ           Num    8    BEST12.    BEST12.    Sequence Number
+4    ASEQ            Num    8    BEST12.    BEST12.    Analysis Sequence Number
+5    AETERM          Char   14   $CHAR      $CHAR      Reported Term for the Adverse Event
+6    AEDECOD         Char   14   $CHAR      $CHAR      Dictionary-Derived Term
+7    AEBODSYS        Char   26   $CHAR      $CHAR      Body System or Organ Class
+8    AESOC           Char   26   $CHAR      $CHAR      Primary System Organ Class
+9    AEDECOD_UP      Char   14   $CHAR      $CHAR      
+10   AESTDTC         Char   10   $CHAR      $CHAR      
+11   AEENDTC         Char   10   $CHAR      $CHAR      
+12   ASTDT           Num    8    DATE9.     DATE9.     Analysis Start Date
+13   AENDT           Num    8    DATE9.     DATE9.     Analysis End Date
+14   ASTDY           Num    8    BEST12.    BEST12.    Analysis Start Relative Day
+15   AENDY           Num    8    BEST12.    BEST12.    Analysis End Relative Day
+16   AEDUR           Num    8    BEST12.    BEST12.    AE Duration (Days)
+17   AESEV           Char   8    $CHAR      $CHAR      
+18   ASEV            Char   8    $CHAR      $CHAR      Analysis Severity/Intensity
+19   ASEVN           Num    8    BEST12.    BEST12.    Analysis Severity/Intensity (N)
+20   AESER           Char   1    $CHAR      $CHAR      
+21   AESER_FL        Char   1    $CHAR      $CHAR      Serious Event Flag
+22   AEREL           Char   16   $CHAR      $CHAR      
+23   AREL            Char   16   $CHAR      $CHAR      Analysis Causality
+24   ARELN           Num    8    BEST12.    BEST12.    Analysis Causality (N)
+25   AEACN           Char   16   $CHAR      $CHAR      
+26   AEOUT           Char   13   $CHAR      $CHAR      
+27   AETOXGR         Char   1    $CHAR      $CHAR      
+28   TRTEMFL         Char   1    $CHAR      $CHAR      Treatment Emergent Analysis Flag
+29   AOCCFL          Char   1    $CHAR      $CHAR      First Occurrence of Any AE Flag
+30   AOCCSFL         Char   1    $CHAR      $CHAR      First Occurrence Within SOC Flag
+31   AOCCPFL         Char   1    $CHAR      $CHAR      First Occurrence of Preferred Term Flag
+32   SITEID          Char   3    $CHAR      $CHAR      
+33   TRTP            Char   11   $CHAR      $CHAR      Planned Treatment
+34   TRTPN           Num    8    BEST12.    BEST12.    Planned Treatment (N)
+35   AGE             Num    8    BEST12.    BEST12.    
+36   AGEGR1          Char   4    $CHAR      $CHAR      
+37   SEX             Char   1    $CHAR      $CHAR      
+38   RACE            Char   25   $CHAR      $CHAR      
+39   SAFFL           Char   1    $CHAR      $CHAR      Safety Population Flag
+40   TRTSDT          Num    8    DATE9.     DATE9.     Date of First Exposure to Treatment
+41   TRTEDT          Num    8    DATE9.     DATE9.     Date of Last Exposure to Treatment
+
+Number of observations: 9
+Number of variables: 41
+
+================================================================================
+ADAE LISTING - FIRST 10 OBSERVATIONS (SORTED BY STUDYID USUBJID ASTDT AESEQ)
+================================================================================
+STUDYID    USUBJID         AESEQ ASEQ AETERM          AEDECOD         AEBODSYS                  ASTDT        AENDT        ASTDY AENDY AEDUR ASEV     ASEVN TRTEMFL  AOCCFL AOCCSFL AOCCPFL
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+STUDY01    STUDY01-1001        1    1 Headache        Headache        Nervous system disorders  01FEB2024    03FEB2024       18    20     3 MILD         1 Y          Y Y
+STUDY01    STUDY01-1001        2    2 Nausea          Nausea          Gastrointestinal disorder 15FEB2024    18FEB2024       32    35     4 MODERATE     2 Y        Y Y Y
+STUDY01    STUDY01-1002        1    1 Fatigue         Fatigue         General disorders         10FEB2024    01MAR2024       24    44    21 MILD         1 Y        Y Y Y
+STUDY01    STUDY01-1003        1    1 Dizziness       Dizziness       Nervous system disorders  20FEB2024    22FEB2024       32    34     3 MILD         1 Y          Y Y
+STUDY01    STUDY01-1003        2    2 Rash            Rash            Skin disorders            05MAR2024    15MAR2024       46    56    11 MODERATE     2 Y          Y Y
+STUDY01    STUDY01-1003        3    3 Hepatotoxicity  Hepatotoxicity  Hepatobiliary disorders   25MAR2024                    66             SEVERE       3 Y        Y Y Y
+STUDY01    STUDY01-1004        1    1 Insomnia        Insomnia        Psychiatric disorders     25FEB2024    10MAR2024       32    46    15 MILD         1 Y        Y Y Y
+STUDY01    STUDY01-1005        1    1 Vomiting        Vomiting        Gastrointestinal disorder 01MAR2024    02MAR2024       34    35     2 MODERATE     2 Y        Y Y Y
+STUDY01    STUDY01-1006        1    1 Back pain       Back pain       Musculoskeletal disorders 28FEB2024    05MAR2024       30    36     7 MILD         1 Y        Y Y Y
+
+================================================================================
+SUMMARY BY TREATMENT
+================================================================================
+TRTP                 N_Subjects   N_Events  N_Serious   Mean_Age   Mean_Dur
+-------------------------------------------------------------------------------- 
+Placebo                       2          2          0       40.5       11.5
+Treatment A                   4          7          1       52.3        7.2
+
+================================================================================
+SUMMARY BY SYSTEM ORGAN CLASS
+================================================================================
+AESOC                                   N N_Subjects      Pct
+---------------------------------------------------------------------- 
+Gastrointestinal disorders              2          2    22.2%
+Nervous system disorders                2          2    22.2%
+General disorders                       1          1    11.1%
+Hepatobiliary disorders                 1          1    11.1%
+Musculoskeletal disorders               1          1    11.1%
+Psychiatric disorders                   1          1    11.1%
+Skin disorders                          1          1    11.1%
+
+================================================================================
+SUMMARY BY SEVERITY
+================================================================================
+ASEV       ASEVN     N      Pct
+---------------------------------------- 
+MILD           1     5    55.6%
+MODERATE       2     3    33.3%
+SEVERE         3     1    11.1%
+
+================================================================================
+ADSL LISTING
+================================================================================
+STUDYID    USUBJID         SITEID TRTP            TRTPN AGE AGEGR1 S RACE                           SAFFL TRTSDT       TRTEDT      
+-------------------------------------------------------------------------------------------------------------------------------------------- 
+STUDY01    STUDY01-1001    101    Treatment A       1  59 <65    M WHITE                          Y 15JAN2024    15JUN2024   
+STUDY01    STUDY01-1002    101    Placebo           2  45 <65    F BLACK OR AFRICAN AMERICAN      Y 18JAN2024    18JUN2024   
+STUDY01    STUDY01-1003    102    Treatment A       1  43 <65    M ASIAN                          Y 20JAN2024    01APR2024   
+STUDY01    STUDY01-1004    102    Treatment A       1  51 <65    F WHITE                          Y 25JAN2024    25JUN2024   
+STUDY01    STUDY01-1005    103    Placebo           2  36 <65    M ASIAN                          Y 28JAN2024                
+STUDY01    STUDY01-1006    103    Treatment A       1  68 >=65   F WHITE                          Y 30JAN2024    01JUL2024   
+
+================================================================================
+DERIVATION DETAILS
+================================================================================
+ASTDY = ASTDT - TRTSDT + 1 if ASTDT >= TRTSDT else ASTDT - TRTSDT
+AENDY = AENDT - TRTSDT + 1 if AENDT >= TRTSDT else AENDT - TRTSDT
+TRTEMFL = Y if ASTDT >= TRTSDT and (TRTEDT is missing or ASTDT <= TRTEDT+30) else N
+ASEVN: MILD=1, MODERATE=2, SEVERE=3
+ARELN: NOT RELATED=1, UNLIKELY=2, POSSIBLY RELATED=3, PROBABLY RELATED=4, RELATED=5
+AEDUR = AENDT - ASTDT + 1
+AOCCFL = Y for first record per USUBJID when sorted by USUBJID AEBODSYS AEDECOD ASTDT
+AOCCSFL = Y for first record per USUBJID+AEBODSYS
+AOCCPFL = Y for first record per USUBJID+AEBODSYS+AEDECOD
+ASEQ = sequential per USUBJID sorted by STUDYID USUBJID ASTDT AESEQ
+
+Total AE records: 9
+Total subjects with AE: 6
+Treatment A subjects: 4 (1001,1003,1004,1006) with 7 events
+Placebo subjects: 2 (1002,1005) with 2 events
+Serious events: 1 (Hepatotoxicity, USUBJID 1003, ASEVN 3, ARELN 5)
+Mild events: 5, Moderate: 3, Severe: 1
+Mean AEDUR:  8.25  days
+Min ASTDY:  18  Max ASTDY:  66 
+All TRTEMFL = Y (9/9 = 100.0%)

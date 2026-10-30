@@ -1,0 +1,6 @@
+sandbox: docker run --rm --name sas2r-beba6859be9d --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P004\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADSL from: /bench/data/derived/c2c/data/adam/adsl.sas7bdat 
+Reading AE from: /bench/data/derived/c2c/data/sdtm/ae.sas7bdat 
+Outputs written to: /work/out 
+adae.csv rows: 54 cols: 20 
+P004.lst and P004.csv created

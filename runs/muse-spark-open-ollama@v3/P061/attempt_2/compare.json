@@ -1,0 +1,261 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9843328568199333,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P061.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9311625637132632,
+   "detail": {
+    "recall": 0.9311625637132632,
+    "expected": 36884,
+    "found": 34345,
+    "r_files": [
+     "adam_adsl.csv",
+     "adam_adtte.csv",
+     "chemotherapy_summary.csv",
+     "demographic_summary_age.csv",
+     "er_status.csv",
+     "gender_distribution.csv",
+     "her2_status.csv",
+     "km_product_limit.csv",
+     "km_quartiles.csv",
+     "P061.lst.csv",
+     "P061.lst.txt",
+     "P061_f_oncology_graphs.csv",
+     "P061_f_oncology_graphs.pdf.txt",
+     "P061_f_oncology_graphs.txt",
+     "P061_freq_all.csv",
+     "P061_t_oncology_report.csv",
+     "P061_t_oncology_report.pdf.txt",
+     "P061_t_oncology_report.txt",
+     "raw_metabric.csv",
+     "sasgraph.csv",
+     "sdtm_dm.csv",
+     "SGPlot.csv",
+     "SGPlot1.csv",
+     "SGPlot2.csv",
+     "SGPlot3.csv",
+     "SGPlot4.csv",
+     "SGPlot5.csv",
+     "SGPlot6.csv",
+     "tumor_size_summary.csv",
+     "tumor_stage_distribution.csv"
+    ],
+    "missing_examples": [
+     "0.00152",
+     "2.867",
+     "3.367",
+     "0.00203",
+     "3.767",
+     "0.00253",
+     "0.00113",
+     "0.00304",
+     "4.867",
+     "0.00355",
+     "5.433",
+     "0.00406"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "sasgraph.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-ollama@v3\\P061\\attempt_2\\out\\sasgraph.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-ollama@v3\\P061\\attempt_2\\out\\SGPlot.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot1.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-ollama@v3\\P061\\attempt_2\\out\\SGPlot1.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot2.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-ollama@v3\\P061\\attempt_2\\out\\SGPlot2.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot3.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-ollama@v3\\P061\\attempt_2\\out\\SGPlot3.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot4.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-ollama@v3\\P061\\attempt_2\\out\\SGPlot4.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot5.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-ollama@v3\\P061\\attempt_2\\out\\SGPlot5.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot6.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-ollama@v3\\P061\\attempt_2\\out\\SGPlot6.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "P061_t_oncology_report.pdf",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.948283402580363,
+   "detail": {
+    "recall": 0.948283402580363,
+    "expected": 9146,
+    "found": 8673,
+    "r_files": [
+     "adam_adsl.csv",
+     "adam_adtte.csv",
+     "chemotherapy_summary.csv",
+     "demographic_summary_age.csv",
+     "er_status.csv",
+     "gender_distribution.csv",
+     "her2_status.csv",
+     "km_product_limit.csv",
+     "km_quartiles.csv",
+     "P061.lst.csv",
+     "P061.lst.txt",
+     "P061_f_oncology_graphs.csv",
+     "P061_f_oncology_graphs.pdf.txt",
+     "P061_f_oncology_graphs.txt",
+     "P061_freq_all.csv",
+     "P061_t_oncology_report.csv",
+     "P061_t_oncology_report.pdf.txt",
+     "P061_t_oncology_report.txt",
+     "raw_metabric.csv",
+     "sasgraph.csv",
+     "sdtm_dm.csv",
+     "SGPlot.csv",
+     "SGPlot1.csv",
+     "SGPlot2.csv",
+     "SGPlot3.csv",
+     "SGPlot4.csv",
+     "SGPlot5.csv",
+     "SGPlot6.csv",
+     "tumor_size_summary.csv",
+     "tumor_stage_distribution.csv"
+    ],
+    "missing_examples": [
+     "0.00152",
+     "2.867",
+     "3.367",
+     "0.00203",
+     "3.767",
+     "0.00253",
+     "0.00113",
+     "0.00304",
+     "4.867",
+     "0.00355",
+     "5.433",
+     "0.00406"
+    ]
+   }
+  },
+  {
+   "kind": "text",
+   "name": "P061_f_oncology_graphs.pdf",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9482154587256405,
+   "detail": {
+    "recall": 0.9482154587256405,
+    "expected": 9134,
+    "found": 8661,
+    "r_files": [
+     "adam_adsl.csv",
+     "adam_adtte.csv",
+     "chemotherapy_summary.csv",
+     "demographic_summary_age.csv",
+     "er_status.csv",
+     "gender_distribution.csv",
+     "her2_status.csv",
+     "km_product_limit.csv",
+     "km_quartiles.csv",
+     "P061.lst.csv",
+     "P061.lst.txt",
+     "P061_f_oncology_graphs.csv",
+     "P061_f_oncology_graphs.pdf.txt",
+     "P061_f_oncology_graphs.txt",
+     "P061_freq_all.csv",
+     "P061_t_oncology_report.csv",
+     "P061_t_oncology_report.pdf.txt",
+     "P061_t_oncology_report.txt",
+     "raw_metabric.csv",
+     "sasgraph.csv",
+     "sdtm_dm.csv",
+     "SGPlot.csv",
+     "SGPlot1.csv",
+     "SGPlot2.csv",
+     "SGPlot3.csv",
+     "SGPlot4.csv",
+     "SGPlot5.csv",
+     "SGPlot6.csv",
+     "tumor_size_summary.csv",
+     "tumor_stage_distribution.csv"
+    ],
+    "missing_examples": [
+     "0.00152",
+     "2.867",
+     "3.367",
+     "0.00203",
+     "3.767",
+     "0.00253",
+     "0.00113",
+     "0.00304",
+     "4.867",
+     "0.00355",
+     "5.433",
+     "0.00406"
+    ]
+   }
+  }
+ ]
+}

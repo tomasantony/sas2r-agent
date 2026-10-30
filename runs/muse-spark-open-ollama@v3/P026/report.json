@@ -1,0 +1,44 @@
+{
+ "id": "P026",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "family": "faijal",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 1.0,
+ "iterations": 2,
+ "input_tokens": 14918,
+ "output_tokens": 11601,
+ "seconds": 64.3503475189209,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 1.7587330341339111,
+   "input_tokens": 3987,
+   "output_tokens": 6788,
+   "seconds_llm": 35.86134123802185,
+   "produced_all": true,
+   "equivalent": false,
+   "score": 0.9559178743961352,
+   "note": ""
+  },
+  {
+   "n": 2,
+   "rc": 0,
+   "seconds_r": 1.65718674659729,
+   "input_tokens": 10931,
+   "output_tokens": 4813,
+   "seconds_llm": 24.781439065933228,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 1.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3"
+}

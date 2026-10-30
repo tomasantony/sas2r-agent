@@ -1,0 +1,19 @@
+"STRATUM","TIME","N_AT_RISK"
+"Active Drug 50mg",0,21
+"Active Drug 50mg",10,20
+"Active Drug 50mg",20,18
+"Active Drug 50mg",30,16
+"Active Drug 50mg",40,13
+"Active Drug 50mg",50,13
+"Active Drug 50mg",60,12
+"Active Drug 50mg",70,8
+"Active Drug 50mg",80,8
+"Placebo",0,26
+"Placebo",10,24
+"Placebo",20,19
+"Placebo",30,13
+"Placebo",40,13
+"Placebo",50,9
+"Placebo",60,8
+"Placebo",70,7
+"Placebo",80,7

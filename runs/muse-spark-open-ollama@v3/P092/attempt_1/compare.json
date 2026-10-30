@@ -1,0 +1,30 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.5,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "sct1.htm",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 0,
+    "found": 0,
+    "r_files": []
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "sct1.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sct1.png"
+   }
+  }
+ ]
+}

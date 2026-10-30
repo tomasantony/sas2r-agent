@@ -1,0 +1,23 @@
+sandbox: docker run --rm --name sas2r-edaec60ef1fe --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P087\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Error in if (names(x) %in% names(len_map)) len_map[names(x)] else 8 : 
+  argument is of length zero
+Calls: tibble ... tibble_quos -> eval_tidy -> sapply -> lapply -> FUN
+Execution halted

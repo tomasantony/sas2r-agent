@@ -1,0 +1,32 @@
+sandbox: docker run --rm --name sas2r-a6eba2a74db8 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P008\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Using adam_dir: /bench/data/derived/c2c/data/adam 
+Using sdtm_dir: /bench/data/derived/c2c/data/sdtm 
+OUT_DIR: /work/out 
+adam_dir contents:
+[1] "adae.sas7bdat"      "adlb.sas7bdat"      "adsl.sas7bdat"     
+[4] "adtte.sas7bdat"     "advs.sas7bdat"      "qc_report.sas7bdat"
+sdtm_dir contents:
+ [1] "ae.sas7bdat" "cm.sas7bdat" "dm.sas7bdat" "ds.sas7bdat" "eg.sas7bdat"
+ [6] "ex.sas7bdat" "lb.sas7bdat" "mh.sas7bdat" "sv.sas7bdat" "vs.sas7bdat"
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Error: unexpected symbol in:
+"    file.path(libdir, paste0(dsname, ".sas7bdat")),
+    file.path(libdir, paste0(dsname, ".sas7bdat".toupper"
+Execution halted

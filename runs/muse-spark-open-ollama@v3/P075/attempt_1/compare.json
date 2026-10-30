@@ -1,0 +1,28 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.9954198473282443,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "t_vs.rtf",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9954198473282443,
+   "detail": {
+    "recall": 0.9954198473282443,
+    "expected": 655,
+    "found": 652,
+    "r_files": [
+     "t_vs.csv",
+     "t_vs.rtf",
+     "t_vs.txt",
+     "t_vs_stats.csv"
+    ],
+    "missing_examples": [
+     "14.3"
+    ]
+   }
+  }
+ ]
+}

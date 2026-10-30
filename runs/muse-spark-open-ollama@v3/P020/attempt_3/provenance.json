@@ -1,0 +1,73 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P020",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 3,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T02:24:35",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 18164,
+  "output_tokens": 7150,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 42.5
+ },
+ "inputs": {
+  "prompt_translate.md": "2b804007d7f8f5dbf751266d0cfb8348fb9b0a396eab4e7ab9767aee4db2f8ec"
+ },
+ "model_output": {
+  "response.md": "d0b74ade4e1582a954c5501cb5a83fc226c14ed261b6bfa4347ff91e183a12f6",
+  "reasoning.md": "b27803b57f102e95d30006e29290ecd3e07f7b3aa1d06126beb2926a82c3faff",
+  "script.R": "cb105076afbce1fa1722b730a129b4d13bdcc309542f2f19ce88c8037df5d70e"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 3.1,
+  "timed_out": false,
+  "log_sha256": "17e08eea7f49f3f2866eaae61a55a6c3099e2681348b2aae8708d63a51a0ab16"
+ },
+ "r_outputs": {
+  "KM_Curve.png": "7c6820b6cca2b0ed81c8c304295eda80d83033e492ba6f676c85396a584c385a",
+  "P020.csv": "c9c1858bc09a658021d3db3a64a3b8190045bdf449deb2411eef8a44ff4a18e4",
+  "P020.png": "7c6820b6cca2b0ed81c8c304295eda80d83033e492ba6f676c85396a584c385a",
+  "P020.txt": "80147f4f16f2766297b07afbc7b928f4b2aa7b11a528038efa0c2296be1222ec",
+  "P020_atrisk.csv": "b75744fae7e9d5ecbf7e22def5202d9c2785d648ea45005d1a3f563d5bcbd7e6",
+  "P020_mean.csv": "d82edad2afe646f0c8316a2000dd2f420cfaf57eab2f7a2134d14572708c99c2",
+  "P020_plot_data.csv": "821f6ace3d5a5de3dbbb2abcaecd186eb69417dfb9157d6244ae23de854100b6",
+  "P020_quartile.csv": "b4e8565a45b4a8d9e112cc67b48a77c3a833e7c6917c6d8e98ca0d11bc32e336",
+  "P020_rank.csv": "f80e0930513911bcb24f580d01a2b840c52f48ba5194142e44c76dca63b58965",
+  "P020_summary.csv": "7a66c45126d10f2d1767a5f26c822ab35de8f2c7b579d5e039175a0fc8bd2c48",
+  "P020_test.csv": "240a7f81363d9af8e31f885d39dc14ec41066fc5750719d4c379a78e40d102cb"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P020.lst",
+   "sha256": "1be046d2d8f99d6966830cf31ae1979b80f7e731d45458659962218ce09a0181",
+   "frozen_sha256": "1be046d2d8f99d6966830cf31ae1979b80f7e731d45458659962218ce09a0181",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.8896103896103896,
+  "produced_all": true
+ }
+}

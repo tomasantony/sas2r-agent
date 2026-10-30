@@ -1,0 +1,9 @@
+sandbox: docker run --rm --name sas2r-cb12ca4049fc --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P020\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+ADTTE path: /bench/data/derived/c2c/data/adam/adtte.sas7bdat 
+Columns: STUDYID,USUBJID,PARAMCD,PARAM,TRT01P,TRT01A,TRTSDT,TRTEDT,EOSDT,EVENTDT,CNSR,AVAL 
+PARAM distinct: Time to First Adverse Event 
+Strata: Active Drug 50mg, Placebo 
+N total: 47 
+Text written to /work/out/P020.txt 
+Figure written to /work/out/P020.png 
+All outputs written to /work/out 

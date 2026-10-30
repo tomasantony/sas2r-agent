@@ -1,0 +1,22 @@
+Horizontal Grouped Bar
+Compares values across categories
+
+SGplot Horizontal Grouped Bar - Horizontal Grouped Bar Chart
+Data: my_data (4 observations)
+
+Category | Series   | Amount
+---------+----------+--------
+       1 | Series A |    5.0
+       2 | Series A |    7.8
+       1 | Series B |    9.5
+       2 | Series B |    5.9
+
+X-axis: Amount (0 to 10 by 2, minor grid at 1)
+Y-axis: Category (1, 2) - display noticks
+Group: Series (groupdisplay=cluster, grouporder=descending)
+Colors: Series A=#993366 (cx993366), Series B=#9999FF (cx9999ff) [descending order mapping]
+Stat: sum of AMOUNT per CATEGORY*SERIES
+Outline: black
+
+Figure saved as bar1.png (800px x 600px, 8in x 6in @ 100dpi)
+CSV data saved as /work/out/bar1.csv

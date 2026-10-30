@@ -1,0 +1,48 @@
+SPONSOR/PROTOCOL/PRODUCT INFO                                                          page x of y
+
+Figure 14.2-x.x Arithmetic/Geometric Mean concentration-time plot per [analyte] (overlaying) and analyte separately
+Analysis set: PK analysis set
+
+Parameters: PCTESTCD=ANAL1  Meantype=A  SD=BOTH
+XMAX=100  TICKS=0 4 8 12 24 36 48 72 96
+YLABEL=Arithmetic mean (SD) Anal2 Conc (ng/mL )
+
+MeanData (Arithmetic Mean, SD) by Treatment and Time:
+--------------------------------------------------------------------------------
+ TRTAN TRTA PCTPT_fmt PCMEAN_fmt  PCSD_fmt
+     1    A         0                     
+     1    A      0.25  1619.2568 1391.8257
+     1    A       0.5  3387.5929 2332.9373
+     1    A         1  2380.1786 1075.1664
+     1    A       1.5  1144.6429  696.8538
+     1    A         2   723.0000  785.5852
+     1    A         3   354.2429  346.2989
+     1    A         4   156.0000  179.3503
+     1    A         6    26.5732   17.5192
+     1    A         8    10.1450    7.7537
+     1    A        12     2.5004    1.4636
+     1    A        24     0.1907    0.4852
+     1    A        48                     
+     1    A        72                     
+     1    A        96                     
+     3    C         0                     
+     3    C      0.25  1356.3852 1332.8753
+     3    C       0.5  3172.1154 2078.2157
+     3    C         1  2248.0000 1067.6059
+     3    C       1.5  1172.4074  695.3056
+     3    C         2   701.8889  497.0082
+     3    C         3   319.2963  397.0134
+     3    C         4   114.3333  145.9551
+     3    C         6    19.4959   12.4992
+     3    C         8     8.0374    5.8894
+     3    C        12     2.5273    2.4008
+     3    C        24     0.1123    0.3968
+     3    C        48     0.1422    0.5388
+     3    C        72     0.1459    0.5751
+     3    C        96     0.0778    0.4041
+    NA             96                     
+
+Linear view: Y linear scale 0 to 6293  X 0 to 100
+Semilog view: Y log base 10
+
+PATH DATA/PROGRAM/OUTPUT

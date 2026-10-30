@@ -58,7 +58,11 @@ def by_group(rows: list[dict], manifest_groups: dict[str, str]) -> dict[str, dic
 def build(write_html: bool = True) -> dict:
     from .context import load_manifest
     groups = {k: v.group for k, v in load_manifest().items()}
-    data = collect()
+    data_all = collect()
+    # a row needs a reasonable share of the benchmark to be comparable; pilots are listed, not charted
+    MIN_PROGRAMS = 20
+    partial = {k: len(v) for k, v in data_all.items() if len(v) < MIN_PROGRAMS}
+    data = {k: v for k, v in data_all.items() if len(v) >= MIN_PROGRAMS}
     from .config import PROVIDERS
     board = {prov: {"overall": summarise(rows), "by_group": by_group(rows, groups),
                     "role": PROVIDERS[prov.split("@")[0]].role if prov.split("@")[0] in PROVIDERS else "?",
@@ -80,6 +84,9 @@ def build(write_html: bool = True) -> dict:
                   f"{o['produced_all_pct']:.0f}% | {o['equivalent_pct']:.0f}% | {o['mean_iterations']:.2f} | {o['mean_seconds']:.0f} | "
                   f"{pin:.2f}/{pout:.2f} | ${o['cost_usd']:.2f} | ${o['cost_per_program_usd']:.3f} | {per_eq} |")
     md.append("")
+    if partial:
+        md.append("Partial runs (fewer than %d programs, not charted): %s" % (MIN_PROGRAMS, ", ".join(f"{k} ({n} programs)" for k, n in partial.items())))
+        md.append("")
     md.append("Costs are list prices per million tokens on 2026-10-29 applied to the tokens each run used "
               "(reasoning tokens billed as output); the hackathon credits that actually paid for the runs are not reflected.")
     (RUNS_DIR / "leaderboard.md").write_text("\n".join(md) + "\n", encoding="utf-8")

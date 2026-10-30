@@ -1,0 +1,122 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P042",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T04:41:12",
+ "agent_commit": "d7687c9bacaf8c17d38ec023f89956a5f5a379f5",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 3917,
+  "output_tokens": 18749,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 68.7
+ },
+ "inputs": {
+  "prompt_translate.md": "494626f434cd1ab7ed624019dacf9a6305407166d56b59a4e371fbdedfb991fb"
+ },
+ "model_output": {
+  "response.md": "c1eea9f6af2e935a5b2545e306a4642cb6010eddd6183ac829477f6d600a50d8",
+  "reasoning.md": "aab93d60b7628deb1b66e8c0a7f3d11152232d53bd6e3a3997f108471dcf40d3",
+  "script.R": "ee79ab4940568151a48f3aebfc7f933ec35a6920058a9b1ca50f0969eb28d31f"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.3,
+  "timed_out": false,
+  "log_sha256": "cb1b0c8e1e68ce5aaa93cb7a79873a9d60e1f3059ba01c5f758130ae2ca0db15"
+ },
+ "r_outputs": {
+  "example1.csv": "6ed2d6931abf7dd1b8efc052bca929b60836711bfc2e38e66d6112acc397b782",
+  "example1.html": "c4f0e2e4585aeee0a12ccab42fa9ebb6404b03c47d07b561dbb94516462872c5",
+  "example1.html.csv": "6ed2d6931abf7dd1b8efc052bca929b60836711bfc2e38e66d6112acc397b782",
+  "example1.html.txt": "c4f0e2e4585aeee0a12ccab42fa9ebb6404b03c47d07b561dbb94516462872c5",
+  "example1.txt": "c4f0e2e4585aeee0a12ccab42fa9ebb6404b03c47d07b561dbb94516462872c5",
+  "example2.csv": "d8055f02ff1d2a3ac73b7b1e9be8fa39cd4c7d3fbf1634ad344b4035f85acb14",
+  "example2.html": "f9c09e0ba5866951d343eaff33972639ef407abed5e46d5106af11305564bf1e",
+  "example2.html.csv": "d8055f02ff1d2a3ac73b7b1e9be8fa39cd4c7d3fbf1634ad344b4035f85acb14",
+  "example2.html.txt": "f9c09e0ba5866951d343eaff33972639ef407abed5e46d5106af11305564bf1e",
+  "example2.txt": "f9c09e0ba5866951d343eaff33972639ef407abed5e46d5106af11305564bf1e",
+  "example3.csv": "42700282149135b607fd6041ac4686e9c79b2a04c4e834a6346160c02e3f9eb9",
+  "example3.html": "4b6ce044adf53ab0d39e9fe8896a2e706bcd623666f6c85397003846d55ad9a7",
+  "example3.html.csv": "42700282149135b607fd6041ac4686e9c79b2a04c4e834a6346160c02e3f9eb9",
+  "example3.html.txt": "4b6ce044adf53ab0d39e9fe8896a2e706bcd623666f6c85397003846d55ad9a7",
+  "example3.txt": "4b6ce044adf53ab0d39e9fe8896a2e706bcd623666f6c85397003846d55ad9a7",
+  "example4.csv": "e9cd2d4c264ce4aa2d9b954160066e9ae49e141a88cb513f909d676011ea838d",
+  "example4.html": "3172db515888e104d5f878192be66cebdfa2d7cb670543e4b9ebe8cc21bf5330",
+  "example4.html.csv": "e9cd2d4c264ce4aa2d9b954160066e9ae49e141a88cb513f909d676011ea838d",
+  "example4.html.txt": "3172db515888e104d5f878192be66cebdfa2d7cb670543e4b9ebe8cc21bf5330",
+  "example4.txt": "3172db515888e104d5f878192be66cebdfa2d7cb670543e4b9ebe8cc21bf5330",
+  "example5.csv": "08113d0c68fc9501372fb309d76d98aaafd9a99fb6c02c9ebd4885364d7e68fb",
+  "example5.html": "0498f68679fb885ed4d8606f2fdb726e9b41c40fd4fc5a4f25c3eb57f9ea4ea2",
+  "example5.html.csv": "08113d0c68fc9501372fb309d76d98aaafd9a99fb6c02c9ebd4885364d7e68fb",
+  "example5.html.txt": "0498f68679fb885ed4d8606f2fdb726e9b41c40fd4fc5a4f25c3eb57f9ea4ea2",
+  "example5.txt": "0498f68679fb885ed4d8606f2fdb726e9b41c40fd4fc5a4f25c3eb57f9ea4ea2",
+  "P042.csv": "e072d33df6ba8e8f88e3ad224b7fca14486bbd6799dfb238b8c07980da28a6ac",
+  "P042.lst": "8d5774dab2d13afd59ca327ddaf71a949534b20809a969350a530537a89167a9",
+  "P042.lst.csv": "e072d33df6ba8e8f88e3ad224b7fca14486bbd6799dfb238b8c07980da28a6ac",
+  "P042.lst.txt": "8d5774dab2d13afd59ca327ddaf71a949534b20809a969350a530537a89167a9",
+  "P042.txt": "8d5774dab2d13afd59ca327ddaf71a949534b20809a969350a530537a89167a9"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P042.lst",
+   "sha256": "e5f6ab3ae153efd41caa295fa8399b1ae9657787813f8bbcbe59c43333a41830",
+   "frozen_sha256": "e5f6ab3ae153efd41caa295fa8399b1ae9657787813f8bbcbe59c43333a41830",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example1.html",
+   "sha256": "719d66082f5e9aae8658bf36f292681394782ae896a8bddc0244b3437202b818",
+   "frozen_sha256": "719d66082f5e9aae8658bf36f292681394782ae896a8bddc0244b3437202b818",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example2.html",
+   "sha256": "430b0139ae2d551bee7d2325cbc1362dfebfd67088c2a75b292e35ab0613897a",
+   "frozen_sha256": "430b0139ae2d551bee7d2325cbc1362dfebfd67088c2a75b292e35ab0613897a",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example3.html",
+   "sha256": "3148ed9e824d49951a86eace1f167f532336d2899b6bc12f6000c6f6bbc0cc65",
+   "frozen_sha256": "3148ed9e824d49951a86eace1f167f532336d2899b6bc12f6000c6f6bbc0cc65",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example4.html",
+   "sha256": "a692fd578f5012d028ab79bac2d10196418dee63b522a9062e09d7e70cdcec2d",
+   "frozen_sha256": "a692fd578f5012d028ab79bac2d10196418dee63b522a9062e09d7e70cdcec2d",
+   "ok": true
+  },
+  {
+   "file": "datasets/P042/example5.html",
+   "sha256": "9bdcfb5e6ab881fbd44e2a7cdb513e5863741d1a67e89dbce3175a3881ee969d",
+   "frozen_sha256": "9bdcfb5e6ab881fbd44e2a7cdb513e5863741d1a67e89dbce3175a3881ee969d",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

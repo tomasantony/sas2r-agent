@@ -1,0 +1,60 @@
+CONTENTS OF ADAE (Adverse Events Analysis Dataset)
+Variables in creation order (VARNUM):
+#   Variable     Label                                    Type
+1   STUDYID                                               character
+2   SITEID                                                character
+3   USUBJID                                               character
+4   TRTA         Actual Treatment                         character
+5   TRTAN        Actual Treatment (N)                     numeric
+6   AGE                                                   numeric
+7   AGEGR1                                                character
+8   AGEGR1N                                               numeric
+9   RACE                                                  character
+10  RACEN                                                 numeric
+11  SEX                                                   character
+12  SAFFL                                                 character
+13  TRTSDT                                                character
+14  TRTEDT                                                character
+15  ASTDT        Analysis Start Date                      character
+16  ASTDTF       Analysis Start Date Imputation Flag      character
+17  ASTDY        Analysis Start Relative Day              integer
+18  AENDT        Analysis End Date                        character
+19  AENDY        Analysis End Relative Day                integer
+20  ADUR         AE Duration (days)                       integer
+21  AETERM                                                character
+22  AELLT                                                 character
+23  AELLTCD                                               numeric
+24  AEDECOD                                               character
+25  AEPTCD                                                numeric
+26  AEHLT                                                 character
+27  AEHLTCD                                               numeric
+28  AEHLGT                                                character
+29  AEHLGTCD                                              numeric
+30  AEBODSYS                                              character
+31  AESOC                                                 character
+32  AESOCCD                                               numeric
+33  AESEV                                                 character
+34  AESER                                                 character
+35  AESCAN                                                character
+36  AESCONG                                               character
+37  AESDISAB                                              character
+38  AESDTH                                                character
+39  AESHOSP                                               character
+40  AESLIFE                                               character
+41  AESOD                                                 character
+42  AEREL                                                 character
+43  AEACN                                                 character
+44  AEOUT                                                 character
+45  AESEQ                                                 numeric
+46  TRTEMFL      Treatment Emergent Analysis Flag         character
+47  AOCCFL       1st Occurrence of Any AE Flag            character
+48  AOCCSFL      1st Occurrence of SOC Flag               character
+49  AOCCPFL      1st Occurrence of Preferred Term Flag    character
+50  AOCC02FL     1st Occurrence 02 Flag for Serious       character
+51  AOCC03FL     1st Occurrence 03 Flag for Serious SOC   character
+52  AOCC04FL     1st Occurrence 04 Flag for Serious PT    character
+53  CQ01NAM      Customized Query 01 Name                 character
+54  AOCC01FL     1st Occurrence 01 Flag for CQ01          character
+
+Number of observations: 1191 
+Number of variables: 54 

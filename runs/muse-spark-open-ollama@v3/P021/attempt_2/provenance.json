@@ -1,0 +1,70 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P021",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T02:26:53",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 8755,
+  "output_tokens": 8147,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 43.0
+ },
+ "inputs": {
+  "prompt_translate.md": "7274bb00444fad43daa5efb188c557f87d74c03b3dff4ebfc065714d60311b74"
+ },
+ "model_output": {
+  "response.md": "2d52d4599f57cf35030240d471ceb67888ba199d135f3325bbc3a4391c5350b8",
+  "reasoning.md": "34732e4cb5b7a9b41b8c8172ce535d262ca9b746e1026c94aca9dc635852aca5",
+  "script.R": "0b258ff419ad9684af579202e6a4d7a64b3c6f673a421762919bee2362acb72f"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.5,
+  "timed_out": false,
+  "log_sha256": "734380b078f34d6c98044475c149da5d51876d33b94efe23c31a2111b4326961"
+ },
+ "r_outputs": {
+  "P021.csv": "057e2b0238a1ac8ba5fd01ba51e1b37dc269ab1ee8a60445b25d9e894cb8d9d7",
+  "P021.lst": "82b3009586c609e7e2301848a7fc4f0374decd7d2e2b60b11db4e3f24682ca32",
+  "P021.lst.csv": "057e2b0238a1ac8ba5fd01ba51e1b37dc269ab1ee8a60445b25d9e894cb8d9d7",
+  "P021.lst.txt": "82b3009586c609e7e2301848a7fc4f0374decd7d2e2b60b11db4e3f24682ca32",
+  "P021.txt": "82b3009586c609e7e2301848a7fc4f0374decd7d2e2b60b11db4e3f24682ca32",
+  "P021_detail.csv": "f186553f75ca53634361f52c44dbd551e754a3aba8922a12ac948a50a17aefba",
+  "tlf_table1.csv": "057e2b0238a1ac8ba5fd01ba51e1b37dc269ab1ee8a60445b25d9e894cb8d9d7",
+  "tlf_table1.txt": "82b3009586c609e7e2301848a7fc4f0374decd7d2e2b60b11db4e3f24682ca32"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P021.lst",
+   "sha256": "ec046672137e31cfec7a8212633c45df848af9196b4bfdccb75863a0db3fd568",
+   "frozen_sha256": "ec046672137e31cfec7a8212633c45df848af9196b4bfdccb75863a0db3fd568",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

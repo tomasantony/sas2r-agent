@@ -1,0 +1,69 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P056",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T05:00:13",
+ "agent_commit": "d7687c9bacaf8c17d38ec023f89956a5f5a379f5",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 10062,
+  "output_tokens": 4933,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 17.0
+ },
+ "inputs": {
+  "prompt_translate.md": "c27979be3cfc8c74fe95dc76210740f18c8a2eac39bb635c37bd5e6ac91caf7f"
+ },
+ "model_output": {
+  "response.md": "d5ea65c0cc6a8b28c2f8b89963e7ebd1a9e29417356c8ff527ffa60d442f1eff",
+  "reasoning.md": "2883600ce3a85110d1654099408a575252bfa7e25c43fe753f0e12fe64a1b4d0",
+  "script.R": "840c1af99d4bbf0cd47fc9d26531c6efa5ab3e32c026f13d4ea76f88189ac077"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.8,
+  "timed_out": false,
+  "log_sha256": "ad4ce226811cf611aea663399a73c8891a991f11cc59a1fdf12e1f0ea95a8f23"
+ },
+ "r_outputs": {
+  "P056.csv": "0455f85a1d91e9ec7e0474c1e4faae572ed19a9c148de8bb8cb37dabf30a6e6b",
+  "P056.lst": "86fad8e2793cb1c2f51e37623de59dfc62519b34e5ae2a4f15f56499f5d764d3",
+  "P056.lst.csv": "0455f85a1d91e9ec7e0474c1e4faae572ed19a9c148de8bb8cb37dabf30a6e6b",
+  "P056.lst.txt": "86fad8e2793cb1c2f51e37623de59dfc62519b34e5ae2a4f15f56499f5d764d3",
+  "P056.txt": "86fad8e2793cb1c2f51e37623de59dfc62519b34e5ae2a4f15f56499f5d764d3",
+  "P056_all_n.csv": "05cf1a2df8e4a583e2d0e7d9520e1f0aa060d42f93901d30263ad3976164a42b",
+  "P056_fisher.csv": "fe1fb749a2220b64af118b32a3eb0f06d0b6a7d133efb70a07fc1bb88d670f25"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P056.lst",
+   "sha256": "c69de2c5517aab0abcedeb40d5af2e977e57aa58db4dc54e23bc3fdf8b2d6be9",
+   "frozen_sha256": "c69de2c5517aab0abcedeb40d5af2e977e57aa58db4dc54e23bc3fdf8b2d6be9",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.3150684931506849,
+  "produced_all": true
+ }
+}

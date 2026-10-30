@@ -1,0 +1,47 @@
+[Sponsor Name]                                                            Page 1 of 1
+Protocol: [Protocol Number]
+
+Listing 16.2.7.3
+Listing of Deaths
+All Subjects
+------------------------------------------------------------------------------------------------------------------------
+
+Treatment          | Subject ID   | Age/Sex/     | First Dose  | Last Dose   | Death Date  | Days Last  | Cause of Death       | Fatal AE SOC         | Fatal AE PT          | Relationship
+                   |              | Race         |             |             |             | Dose to    |                      |                      |                      |             
+                   |              |              |             |             |             | Death      |                      |                      |                      |             
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Drug X High Dose   | SYN001-00106 | 59/F/W       | 06APR2025   | 21SEP2025   | 16OCT2025   | 25         | DISEASE PROGRESSION  |                      |                      |             
+Drug X High Dose   | SYN001-00504 | 54/M/A       | 17JUN2025   | 05DEC2025   | 16DEC2025   | 11         | CARDIAC ARREST       |                      |                      |             
+Drug X High Dose   | SYN001-00616 | 48/F/W       | 21JAN2025   | 10JUL2025   | 12JUL2025   | 2          | DISEASE PROGRESSION  |                      |                      |             
+Drug X High Dose   | SYN001-00623 | 68/F/W       | 12JUL2025   | 29DEC2025   | 04JAN2026   | 6          | CARDIAC ARREST       |                      |                      |             
+Drug X Low Dose    | SYN001-00321 | 66/M/A       | 16JAN2025   | 06JUL2025   | 23JUL2025   | 17         | DISEASE PROGRESSION  |                      |                      |             
+Drug X Low Dose    | SYN001-00622 | 46/F/W       | 20JAN2025   | 10JUL2025   | 16JUL2025   | 6          | CARDIAC ARREST       |                      |                      |             
+Placebo            | SYN001-00102 | 64/F/O       | 28MAY2025   | 12NOV2025   | 30NOV2025   | 18         | DISEASE PROGRESSION  |                      |                      |             
+Placebo            | SYN001-00216 | 66/M/W       | 25MAR2025   | 13SEP2025   | 06OCT2025   | 23         | DISEASE PROGRESSION  |                      |                      |             
+Placebo            | SYN001-00412 | 74/F/W       | 16JUN2025   | 01DEC2025   | 13DEC2025   | 12         | DISEASE PROGRESSION  |                      |                      |             
+Placebo            | SYN001-00412 | 52/M/W       | 02APR2025   | 20SEP2025   | 07OCT2025   | 17         | DISEASE PROGRESSION  |                      |                      |             
+Placebo            | SYN001-00421 | 59/M/W       | 14MAR2025   | 02SEP2025   | 02SEP2025   | 0          | SEPSIS               |                      |                      |             
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Data cutoff: [DDMONYYYY].
+Source: ADaM datasets
+Program: P077_l_death.sas | Run: 30OCT2026 09:32
+
+Total deaths: 11
+  Drug X High Dose: 4
+  Drug X Low Dose: 2
+  Placebo: 5
+Days Last Dose to Death - Mean: 12.5 Min: 0 Max: 25
+
+Detail (for verification):
+SYN001-001066 59/F/W 06APR2025 21SEP2025 16OCT2025 25 25 194
+SYN001-005040 54/M/A 17JUN2025 05DEC2025 16DEC2025 11 11 183
+SYN001-006161 48/F/W 21JAN2025 10JUL2025 12JUL2025 2 2 173
+SYN001-006239 68/F/W 12JUL2025 29DEC2025 04JAN2026 6 6 177
+SYN001-003212 66/M/A 16JAN2025 06JUL2025 23JUL2025 17 17 189
+SYN001-006227 46/F/W 20JAN2025 10JUL2025 16JUL2025 6 6 178
+SYN001-001024 64/F/O 28MAY2025 12NOV2025 30NOV2025 18 18 187
+SYN001-002163 66/M/W 25MAR2025 13SEP2025 06OCT2025 23 23 196
+SYN001-004123 74/F/W 16JUN2025 01DEC2025 13DEC2025 12 12 181
+SYN001-004129 52/M/W 02APR2025 20SEP2025 07OCT2025 17 17 189
+SYN001-004213 59/M/W 14MAR2025 02SEP2025 02SEP2025 0 0 173

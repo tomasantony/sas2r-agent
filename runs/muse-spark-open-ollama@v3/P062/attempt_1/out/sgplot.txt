@@ -1,0 +1,13 @@
+Flow Diagram (P062) - CONSORT style
+====================================
+
+Boxes:
+  Box 1: left=30 top=100 right=70 bottom=90  text='Assessed for eligibility (n=100)'  center=(50,95)
+  Box 2: left=37 top=55  right=63 bottom=45  text='Randomized (n=90)'               center=(50,50)
+
+Lines:
+  Line 1: (50,90) -> (50,55)
+
+X-axis: 0 to 100  Y-axis: 0 to 100  (display=none, offsetmin=0 offsetmax=0)
+Text font: Courier  Text size: 10pt
+

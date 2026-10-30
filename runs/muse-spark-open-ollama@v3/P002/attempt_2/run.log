@@ -1,0 +1,49 @@
+sandbox: docker run --rm --name sas2r-3fbfbe7f9aba --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P002\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+
+Attaching package: ‘data.table’
+
+The following object is masked from ‘package:purrr’:
+
+    transpose
+
+The following objects are masked from ‘package:lubridate’:
+
+    hour, isoweek, isoyear, mday, minute, month, quarter, second, wday,
+    week, yday, year
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+The following object is masked from ‘package:base’:
+
+    %notin%
+
+OUT_DIR: /work/out 
+Working dir: /work 
+AE path: /bench/data/raw/cdisc-pilot/sdtm/ae.xpt 
+ADSL path: /bench/data/raw/cdisc-pilot/adam/adsl.xpt 
+AE nrow: 1191 
+ADSL nrow: 254 
+Common cols AE/TEMP:  
+Error in `-.Date`(ae_merged$ASTDT[idx_ge], ae_merged$TRTSDT[idx_ge]) : 
+  can only subtract from "Date" objects
+Execution halted

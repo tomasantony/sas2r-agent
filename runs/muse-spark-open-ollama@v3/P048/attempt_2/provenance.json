@@ -1,0 +1,77 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P048",
+ "provider": "muse-spark-open-ollama",
+ "model": "muse-spark-open",
+ "attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark-open-ollama@v3",
+ "recorded_at": "2026-10-30T04:49:06",
+ "agent_commit": "d7687c9bacaf8c17d38ec023f89956a5f5a379f5",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 9870,
+  "output_tokens": 3789,
+  "reasoning_tokens": 0,
+  "finish_reason": "stop",
+  "seconds": 12.4
+ },
+ "inputs": {
+  "prompt_translate.md": "1fbd6575429c86e607ebb9f986e626adb1a736bace406abff4c8ea70108020b1"
+ },
+ "model_output": {
+  "response.md": "e2945f2c79c12832b641db6f4001ddeeefa46b137a2688c3448a00d0553525c7",
+  "reasoning.md": "aa3661925827cfbed2bd1e776297a25f6c6f6d3570404afbae319a50acad3232",
+  "script.R": "675b373aac2cfade23e5975434131cda79161e8eef5a51642f22fb751c5b3580"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 2.0,
+  "timed_out": false,
+  "log_sha256": "6ff3ec6a8444e8f17d430381e2332fb9b8981c15cc5b28f78541545d781b0f01"
+ },
+ "r_outputs": {
+  "P048.csv": "427904f2964699de54f4fc36ae63493f9f95a039df2325da21888815151780f2",
+  "P048.lst": "285731582ce63c652c2af192b0621b488e7ceddf131b3f2ed06a8271c5367dba",
+  "P048.png": "ec4852cb6ef44d97ad6972578578e5a4472687e8e779ba248e981ccfa7f4064d",
+  "P048.txt": "285731582ce63c652c2af192b0621b488e7ceddf131b3f2ed06a8271c5367dba",
+  "P048_dataset.csv": "7b2b634778e7dd58503bf4af229df5552c9441449c36bbc182526332b1951071",
+  "P048_plot_data.csv": "a484b096925576db0dfdcc480a1e4ee2341bccfb1f430f80c448b8e09fab2c59",
+  "sasrtf.csv": "427904f2964699de54f4fc36ae63493f9f95a039df2325da21888815151780f2",
+  "sasrtf.rtf": "285731582ce63c652c2af192b0621b488e7ceddf131b3f2ed06a8271c5367dba",
+  "sasrtf.txt": "285731582ce63c652c2af192b0621b488e7ceddf131b3f2ed06a8271c5367dba"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P048.lst",
+   "sha256": "38f85246a7cedc25ea1354d1e4617ac9df40a14f7af7fa9b343938b5aa8fb238",
+   "frozen_sha256": "38f85246a7cedc25ea1354d1e4617ac9df40a14f7af7fa9b343938b5aa8fb238",
+   "ok": true
+  },
+  {
+   "file": "datasets/P048/sasrtf.rtf",
+   "sha256": "d643152094e2559b8e571be76307151c616ab30c1a001c1e7b0f7bc42a78a326",
+   "frozen_sha256": "d643152094e2559b8e571be76307151c616ab30c1a001c1e7b0f7bc42a78a326",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 0.9508196721311475,
+  "produced_all": true
+ }
+}

@@ -1,0 +1,33 @@
+Change in Tumor Size
+ITT Population
+
+Band: upper=20 lower=-30 transparency 0.5 legendLabel=Confidence
+Y axis: 60 to -100 by -20 grid color #f0f0f0
+X axis: display=none (Cid sorted descending Change)
+
+ Cid     Change       Group Label
+  25  27.283708 Treatment 1     E
+   4  19.684998 Treatment 2     P
+  24  18.109042 Treatment 2     P
+   5  18.049434 Treatment 2     E
+  12  15.947013 Treatment 1     R
+  15  10.180434 Treatment 1     E
+  18   8.481519 Treatment 1     S
+  14  -2.285788 Treatment 2     P
+  21  -9.966265 Treatment 1     C
+  20 -13.086180 Treatment 2     E
+   1 -14.391017 Treatment 1     C
+  11 -15.176772 Treatment 1     C
+  16 -24.806774 Treatment 2     C
+   9 -35.426829 Treatment 2     P
+  22 -41.709488 Treatment 1     R
+   6 -46.636457 Treatment 2     C
+   7 -54.814635 Treatment 2     R
+  19 -63.850184 Treatment 1     P
+   2 -65.957833 Treatment 1     R
+  23 -66.112999 Treatment 2     S
+   3 -71.184619 Treatment 1     S
+  17 -73.491263 Treatment 1     R
+   8 -79.685726 Treatment 1     S
+  13 -84.189433 Treatment 1     S
+  10 -84.423567 Treatment 2     E

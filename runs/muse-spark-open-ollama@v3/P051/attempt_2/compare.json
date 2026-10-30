@@ -1,0 +1,24 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "Target36.rtf",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 46030,
+    "found": 46030,
+    "r_files": [
+     "ADCM.csv",
+     "Target36_dataset.csv"
+    ],
+    "missing_examples": []
+   }
+  }
+ ]
+}

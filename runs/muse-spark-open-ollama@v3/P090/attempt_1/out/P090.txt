@@ -1,0 +1,77 @@
+ADCM - Concomitant Medications Analysis Dataset (CDISC ADaM IG 1.3)
+Generated: 2026-10-30
+
+PROC CONTENTS - ADCM
+------------------------------------------------------------------------------------------------------------------------
+Variable             Type       Label
+------------------------------------------------------------------------------------------------------------------------
+STUDYID              Char       Study Identifier
+USUBJID              Char       Unique Subject Identifier
+CMSEQ                Num        Sequence Number
+CMTRT                Char       Reported Name of Drug/Therapy
+CMDECOD              Char       Standardized Medication Name
+CMCLAS               Char       Medication Class
+CMSTDTC              Char       
+CMENDTC              Char       
+CMDOSE               Num        Dose per Administration
+CMDOSU               Char       Dose Units
+CMROUTE              Char       Route of Administration
+CMFRQ                Char       Dosing Frequency
+CMINDC               Char       Indication
+CMONGO               Char       Ongoing Medication
+TRTP                 Char       Planned Treatment
+TRTPN                Num        Planned Treatment (N)
+AGE                  Num        
+SEX                  Char       
+SAFFL                Char       Safety Population Flag
+TRTSDT               Num        
+TRTEDT               Num        
+ASTDT                Num        Analysis Start Date
+AENDT                Num        Analysis End Date
+ASTDY                Num        Analysis Start Relative Day
+AENDY                Num        Analysis End Relative Day
+CMDURN               Num        Medication Duration (Days)
+PREFL                Char       Prior Medication Flag
+ONTRTFL              Char       On-Treatment Flag
+CONCOMFL             Char       Concomitant Medication Flag
+ADTEFFL              Char       Medication Active at End of Treatment Flag
+ADTEFN               Num        
+CMDECOD_UP           Char       
+CMCLAS_UP            Char       
+ATCCD1               Char       ATC Level 1 Code
+ATC1                 Char       ATC Level 1 Text
+ATCCD2               Char       
+ATC2                 Char       
+ASEQ                 Num        Analysis Sequence Number
+
+PROC PRINT - ADCM (obs=15)
+------------------------------------------------------------------------------------------------------------------------
+STUDYID      USUBJID        CMSEQ CMTRT           CMDECOD              CMCLAS                          ASTDT       AENDT  ASTDY  AENDY CMDURN PREFL   ONTRTFL CONCOMFL ASEQ
+------------------------------------------------------------------------------------------------------------------------
+STUDY01      STUDY01-1001       2 LISINOPRIL      LISINOPRIL           ACE INHIBITORS              10JAN2023               -370               Y       Y       Y          1
+STUDY01      STUDY01-1001       1 ASPIRIN         ASPIRIN              ANALGESICS                  15JUN2023               -214               Y       Y       Y          2
+STUDY01      STUDY01-1001       3 ACETAMINOPHEN   PARACETAMOL          ANALGESICS                  01FEB2024   03FEB2024     18     20      3 N       Y       Y          3
+STUDY01      STUDY01-1002       1 METFORMIN       METFORMIN            ANTIDIABETICS               20MAR2022               -669               Y       Y       Y          1
+STUDY01      STUDY01-1002       2 ATORVASTATIN    ATORVASTATIN         STATINS                     01AUG2023               -170               Y       Y       Y          2
+STUDY01      STUDY01-1003       1 OMEPRAZOLE      OMEPRAZOLE           PROTON PUMP INHIBITORS      15JAN2024                 -5               Y       Y       Y          1
+STUDY01      STUDY01-1003       2 IBUPROFEN       IBUPROFEN            NSAIDS                      20FEB2024   22FEB2024     32     34      3 N       Y       Y          2
+STUDY01      STUDY01-1004       1 AMLODIPINE      AMLODIPINE           CALCIUM CHANNEL BLOCKERS    10MAY2023               -260               Y       Y       Y          1
+STUDY01      STUDY01-1005       1 LORATADINE      LORATADINE           ANTIHISTAMINES              01MAR2024   15MAR2024     34     48     15 N       Y       Y          1
+STUDY01      STUDY01-1006       1 LEVOTHYROXINE   LEVOTHYROXINE        THYROID HORMONES            01JAN2020              -1490               Y       Y       Y          1
+STUDY01      STUDY01-1006       2 CALCIUM         CALCIUM CARBONATE    SUPPLEMENTS                 01SEP2023               -151               Y       Y       Y          2
+------------------------------------------------------------------------------------------------------------------------
+Number of observations: 11
+Number of variables: 38
+
+Numeric Summary (all values):
+Row 1: CMSEQ=2 CMDOSE=10 TRTPN=1 AGE=59 ASTDY=-370 AENDY= CMDURN= ADTEFN=1 ASEQ=1 TRTSDT=2024-01-15 TRTEDT=2024-06-15 ASTDT=2023-01-10 AENDT=
+Row 2: CMSEQ=1 CMDOSE=81 TRTPN=1 AGE=59 ASTDY=-214 AENDY= CMDURN= ADTEFN=1 ASEQ=2 TRTSDT=2024-01-15 TRTEDT=2024-06-15 ASTDT=2023-06-15 AENDT=
+Row 3: CMSEQ=3 CMDOSE=500 TRTPN=1 AGE=59 ASTDY=18 AENDY=20 CMDURN=3 ADTEFN=0 ASEQ=3 TRTSDT=2024-01-15 TRTEDT=2024-06-15 ASTDT=2024-02-01 AENDT=2024-02-03
+Row 4: CMSEQ=1 CMDOSE=500 TRTPN=2 AGE=45 ASTDY=-669 AENDY= CMDURN= ADTEFN=1 ASEQ=1 TRTSDT=2024-01-18 TRTEDT=2024-06-18 ASTDT=2022-03-20 AENDT=
+Row 5: CMSEQ=2 CMDOSE=20 TRTPN=2 AGE=45 ASTDY=-170 AENDY= CMDURN= ADTEFN=1 ASEQ=2 TRTSDT=2024-01-18 TRTEDT=2024-06-18 ASTDT=2023-08-01 AENDT=
+Row 6: CMSEQ=1 CMDOSE=20 TRTPN=1 AGE=43 ASTDY=-5 AENDY= CMDURN= ADTEFN=1 ASEQ=1 TRTSDT=2024-01-20 TRTEDT=2024-04-01 ASTDT=2024-01-15 AENDT=
+Row 7: CMSEQ=2 CMDOSE=400 TRTPN=1 AGE=43 ASTDY=32 AENDY=34 CMDURN=3 ADTEFN=0 ASEQ=2 TRTSDT=2024-01-20 TRTEDT=2024-04-01 ASTDT=2024-02-20 AENDT=2024-02-22
+Row 8: CMSEQ=1 CMDOSE=5 TRTPN=1 AGE=51 ASTDY=-260 AENDY= CMDURN= ADTEFN=1 ASEQ=1 TRTSDT=2024-01-25 TRTEDT=2024-06-25 ASTDT=2023-05-10 AENDT=
+Row 9: CMSEQ=1 CMDOSE=10 TRTPN=2 AGE=36 ASTDY=34 AENDY=48 CMDURN=15 ADTEFN=0 ASEQ=1 TRTSDT=2024-01-28 TRTEDT= ASTDT=2024-03-01 AENDT=2024-03-15
+Row 10: CMSEQ=1 CMDOSE=75 TRTPN=1 AGE=68 ASTDY=-1490 AENDY= CMDURN= ADTEFN=1 ASEQ=1 TRTSDT=2024-01-30 TRTEDT=2024-07-01 ASTDT=2020-01-01 AENDT=
+Row 11: CMSEQ=2 CMDOSE=600 TRTPN=1 AGE=68 ASTDY=-151 AENDY= CMDURN= ADTEFN=1 ASEQ=2 TRTSDT=2024-01-30 TRTEDT=2024-07-01 ASTDT=2023-09-01 AENDT=

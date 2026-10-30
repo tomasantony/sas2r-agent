@@ -1,0 +1,57 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.047619047619047616,
+ "artifacts": [
+  {
+   "kind": "dataset",
+   "name": "adlb_qc",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark-open-ollama@v3\\P065\\attempt_2\\out\\adlb_qc.csv",
+   "status": "mismatch",
+   "score": 0.047619047619047616,
+   "detail": {
+    "rows_sas": 14,
+    "rows_r": 516,
+    "cols_sas": 12,
+    "cols_r": 22,
+    "missing_cols": [
+     "SUBJID"
+    ],
+    "extra_cols": [
+     "DOMAIN",
+     "LBSEQ",
+     "LBTESTCD",
+     "LBTEST",
+     "LBCAT",
+     "LBORRES",
+     "LBORRESU",
+     "LBSTRESC",
+     "LBSTRESU",
+     "VISITNUM",
+     "LBSTRESN"
+    ],
+    "cell_match": 0.047619047619047616,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(VISIT, 1, 'Screenin', 'Visit 1')",
+     "(VISIT, 2, 'Baseline', 'Visit 2')",
+     "(VISIT, 3, 'Week12', 'Visit 3')",
+     "(VISIT, 4, 'Week24', 'Visit 1')",
+     "(VISIT, 5, 'Screenin', 'Visit 2')",
+     "(VISIT, 6, 'Baseline', 'Visit 3')",
+     "(VISIT, 7, 'Week12', 'Visit 1')",
+     "(VISIT, 8, 'Week24', 'Visit 2')",
+     "(VISIT, 9, 'Screenin', 'Visit 3')",
+     "(VISIT, 10, 'Baseline', 'Visit 1')"
+    ],
+    "worst_columns": {
+     "VISIT": 14,
+     "PARAM": 14,
+     "AVAL": 14,
+     "STUDYID": 14,
+     "USUBJID": 14
+    }
+   }
+  }
+ ]
+}

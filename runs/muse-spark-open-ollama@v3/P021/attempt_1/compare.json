@@ -1,0 +1,42 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.32142857142857145,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P021.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.32142857142857145,
+   "detail": {
+    "recall": 0.32142857142857145,
+    "expected": 56,
+    "found": 18,
+    "r_files": [
+     "P021.csv",
+     "P021.lst.csv",
+     "P021.lst.txt",
+     "P021.txt",
+     "P021_detail.csv",
+     "tlf_table1.csv",
+     "tlf_table1.txt"
+    ],
+    "missing_examples": [
+     "19",
+     "28",
+     "47",
+     "12",
+     "20",
+     "42.1",
+     "42.9",
+     "42.6",
+     "11",
+     "16",
+     "27",
+     "57.9"
+    ]
+   }
+  }
+ ]
+}

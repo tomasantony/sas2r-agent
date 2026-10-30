@@ -1,0 +1,488 @@
+"Type","Day","Cumul"
+"Constant",1,9
+"Constant",2,14
+"Constant",3,22
+"Constant",4,30
+"Constant",5,35
+"Constant",6,48
+"Constant",7,59
+"Constant",8,71
+"Constant",9,80
+"Constant",10,83
+"Constant",11,96
+"Constant",12,101
+"Constant",13,113
+"Constant",14,127
+"Constant",15,138
+"Constant",16,149
+"Constant",17,160
+"Constant",18,170
+"Constant",19,182
+"Constant",20,196
+"Constant",21,207
+"Constant",22,218
+"Constant",23,231
+"Constant",24,243
+"Constant",25,257
+"Constant",26,270
+"Constant",27,285
+"Constant",28,296
+"Constant",29,308
+"Constant",30,319
+"Constant",31,324
+"Constant",32,336
+"Constant",33,341
+"Constant",34,350
+"Constant",35,360
+"Constant",36,372
+"Constant",37,383
+"Constant",38,394
+"Constant",39,405
+"Constant",40,413
+"Constant",41,428
+"Constant",42,437
+"Constant",43,446
+"Constant",44,462
+"Constant",45,475
+"Constant",46,483
+"Constant",47,496
+"Constant",48,505
+"Constant",49,510
+"Constant",50,522
+"Constant",51,533
+"Constant",52,549
+"Constant",53,558
+"Constant",54,565
+"Constant",55,574
+"Constant",56,581
+"Constant",57,593
+"Constant",58,600
+"Constant",59,607
+"Constant",60,619
+"Constant",61,630
+"Constant",62,639
+"Constant",63,644
+"Constant",64,653
+"Constant",65,665
+"Constant",66,671
+"Constant",67,685
+"Constant",68,700
+"Constant",69,709
+"Constant",70,716
+"Constant",71,726
+"Constant",72,733
+"Constant",73,742
+"Constant",74,750
+"Constant",75,762
+"Constant",76,772
+"Constant",77,779
+"Constant",78,789
+"Constant",79,800
+"Constant",80,812
+"Constant",81,816
+"Constant",82,828
+"Constant",83,840
+"Constant",84,856
+"Constant",85,869
+"Constant",86,881
+"Constant",87,888
+"Constant",88,894
+"Constant",89,908
+"Constant",90,920
+"Constant",91,927
+"Constant",92,934
+"Constant",93,939
+"Constant",94,950
+"Constant",95,954
+"Constant",96,966
+"Constant",97,972
+"Constant",98,981
+"Constant",99,992
+"Constant",100,1000
+"Early Peak",1,8
+"Early Peak",2,21
+"Early Peak",3,39
+"Early Peak",4,63
+"Early Peak",5,87
+"Early Peak",6,115
+"Early Peak",7,146
+"Early Peak",8,177
+"Early Peak",9,212
+"Early Peak",10,249
+"Early Peak",11,286
+"Early Peak",12,323
+"Early Peak",13,356
+"Early Peak",14,393
+"Early Peak",15,425
+"Early Peak",16,457
+"Early Peak",17,490
+"Early Peak",18,523
+"Early Peak",19,552
+"Early Peak",20,579
+"Early Peak",21,605
+"Early Peak",22,632
+"Early Peak",23,655
+"Early Peak",24,679
+"Early Peak",25,699
+"Early Peak",26,719
+"Early Peak",27,740
+"Early Peak",28,753
+"Early Peak",29,769
+"Early Peak",30,786
+"Early Peak",31,802
+"Early Peak",32,816
+"Early Peak",33,828
+"Early Peak",34,841
+"Early Peak",35,856
+"Early Peak",36,866
+"Early Peak",37,877
+"Early Peak",38,888
+"Early Peak",39,897
+"Early Peak",40,904
+"Early Peak",41,911
+"Early Peak",42,918
+"Early Peak",43,925
+"Early Peak",44,933
+"Early Peak",45,942
+"Early Peak",46,947
+"Early Peak",47,949
+"Early Peak",48,952
+"Early Peak",49,955
+"Early Peak",50,959
+"Early Peak",51,962
+"Early Peak",52,967
+"Early Peak",53,970
+"Early Peak",54,973
+"Early Peak",55,977
+"Early Peak",56,977
+"Early Peak",57,980
+"Early Peak",58,980
+"Early Peak",59,982
+"Early Peak",60,982
+"Early Peak",61,982
+"Early Peak",62,986
+"Early Peak",63,988
+"Early Peak",64,988
+"Early Peak",65,988
+"Early Peak",66,988
+"Early Peak",67,988
+"Early Peak",68,988
+"Early Peak",69,988
+"Early Peak",70,988
+"Early Peak",71,989
+"Early Peak",72,989
+"Early Peak",73,989
+"Early Peak",74,990
+"Early Peak",75,990
+"Early Peak",76,990
+"Early Peak",77,991
+"Early Peak",78,993
+"Early Peak",79,993
+"Early Peak",80,993
+"Early Peak",81,993
+"Early Peak",82,993
+"Early Peak",83,993
+"Early Peak",84,993
+"Early Peak",85,994
+"Early Peak",86,995
+"Early Peak",87,996
+"Early Peak",88,996
+"Early Peak",89,996
+"Early Peak",90,996
+"Early Peak",91,996
+"Early Peak",92,997
+"Early Peak",93,998
+"Early Peak",94,999
+"Early Peak",95,999
+"Early Peak",96,999
+"Early Peak",97,1000
+"Early Peak",98,1000
+"Early Peak",99,1000
+"Early Peak",100,1000
+"Flattened",1,3
+"Flattened",2,8
+"Flattened",3,15
+"Flattened",4,26
+"Flattened",5,36
+"Flattened",6,49
+"Flattened",7,65
+"Flattened",8,81
+"Flattened",9,101
+"Flattened",10,124
+"Flattened",11,148
+"Flattened",12,173
+"Flattened",13,194
+"Flattened",14,221
+"Flattened",15,243
+"Flattened",16,266
+"Flattened",17,292
+"Flattened",18,318
+"Flattened",19,342
+"Flattened",20,365
+"Flattened",21,388
+"Flattened",22,412
+"Flattened",23,433
+"Flattened",24,456
+"Flattened",25,476
+"Flattened",26,497
+"Flattened",27,519
+"Flattened",28,534
+"Flattened",29,553
+"Flattened",30,573
+"Flattened",31,592
+"Flattened",32,609
+"Flattened",33,625
+"Flattened",34,642
+"Flattened",35,662
+"Flattened",36,676
+"Flattened",37,692
+"Flattened",38,708
+"Flattened",39,722
+"Flattened",40,734
+"Flattened",41,746
+"Flattened",42,758
+"Flattened",43,770
+"Flattened",44,783
+"Flattened",45,797
+"Flattened",46,807
+"Flattened",47,814
+"Flattened",48,822
+"Flattened",49,830
+"Flattened",50,839
+"Flattened",51,849
+"Flattened",52,862
+"Flattened",53,873
+"Flattened",54,883
+"Flattened",55,891
+"Flattened",56,895
+"Flattened",57,905
+"Flattened",58,908
+"Flattened",59,914
+"Flattened",60,914
+"Flattened",61,917
+"Flattened",62,924
+"Flattened",63,931
+"Flattened",64,934
+"Flattened",65,938
+"Flattened",66,938
+"Flattened",67,940
+"Flattened",68,942
+"Flattened",69,945
+"Flattened",70,948
+"Flattened",71,955
+"Flattened",72,957
+"Flattened",73,957
+"Flattened",74,960
+"Flattened",75,960
+"Flattened",76,963
+"Flattened",77,967
+"Flattened",78,972
+"Flattened",79,974
+"Flattened",80,974
+"Flattened",81,974
+"Flattened",82,974
+"Flattened",83,974
+"Flattened",84,974
+"Flattened",85,977
+"Flattened",86,980
+"Flattened",87,984
+"Flattened",88,984
+"Flattened",89,984
+"Flattened",90,985
+"Flattened",91,985
+"Flattened",92,989
+"Flattened",93,992
+"Flattened",94,994
+"Flattened",95,994
+"Flattened",96,994
+"Flattened",97,996
+"Flattened",98,997
+"Flattened",99,999
+"Flattened",100,1000
+"Second Outbreak",1,4
+"Second Outbreak",2,9
+"Second Outbreak",3,14
+"Second Outbreak",4,22
+"Second Outbreak",5,28
+"Second Outbreak",6,37
+"Second Outbreak",7,49
+"Second Outbreak",8,62
+"Second Outbreak",9,79
+"Second Outbreak",10,99
+"Second Outbreak",11,121
+"Second Outbreak",12,146
+"Second Outbreak",13,169
+"Second Outbreak",14,198
+"Second Outbreak",15,225
+"Second Outbreak",16,254
+"Second Outbreak",17,287
+"Second Outbreak",18,321
+"Second Outbreak",19,353
+"Second Outbreak",20,385
+"Second Outbreak",21,417
+"Second Outbreak",22,450
+"Second Outbreak",23,480
+"Second Outbreak",24,512
+"Second Outbreak",25,540
+"Second Outbreak",26,567
+"Second Outbreak",27,594
+"Second Outbreak",28,613
+"Second Outbreak",29,634
+"Second Outbreak",30,655
+"Second Outbreak",31,674
+"Second Outbreak",32,690
+"Second Outbreak",33,704
+"Second Outbreak",34,717
+"Second Outbreak",35,731
+"Second Outbreak",36,740
+"Second Outbreak",37,749
+"Second Outbreak",38,757
+"Second Outbreak",39,763
+"Second Outbreak",40,767
+"Second Outbreak",41,770
+"Second Outbreak",42,773
+"Second Outbreak",43,776
+"Second Outbreak",44,779
+"Second Outbreak",45,784
+"Second Outbreak",46,785
+"Second Outbreak",47,785
+"Second Outbreak",48,785
+"Second Outbreak",49,785
+"Second Outbreak",50,786
+"Second Outbreak",51,788
+"Second Outbreak",52,793
+"Second Outbreak",53,796
+"Second Outbreak",54,799
+"Second Outbreak",55,800
+"Second Outbreak",56,800
+"Second Outbreak",57,804
+"Second Outbreak",58,804
+"Second Outbreak",59,806
+"Second Outbreak",60,806
+"Second Outbreak",61,807
+"Second Outbreak",62,813
+"Second Outbreak",63,821
+"Second Outbreak",64,828
+"Second Outbreak",65,837
+"Second Outbreak",66,844
+"Second Outbreak",67,855
+"Second Outbreak",68,868
+"Second Outbreak",69,883
+"Second Outbreak",70,898
+"Second Outbreak",71,917
+"Second Outbreak",72,930
+"Second Outbreak",73,938
+"Second Outbreak",74,951
+"Second Outbreak",75,957
+"Second Outbreak",76,965
+"Second Outbreak",77,975
+"Second Outbreak",78,985
+"Second Outbreak",79,988
+"Second Outbreak",80,989
+"Second Outbreak",81,989
+"Second Outbreak",82,989
+"Second Outbreak",83,989
+"Second Outbreak",84,989
+"Second Outbreak",85,991
+"Second Outbreak",86,992
+"Second Outbreak",87,994
+"Second Outbreak",88,994
+"Second Outbreak",89,994
+"Second Outbreak",90,994
+"Second Outbreak",91,994
+"Second Outbreak",92,996
+"Second Outbreak",93,997
+"Second Outbreak",94,998
+"Second Outbreak",95,998
+"Second Outbreak",96,998
+"Second Outbreak",97,999
+"Second Outbreak",98,999
+"Second Outbreak",99,1000
+"Second Outbreak",100,1000
+"Exponential",14,1
+"Exponential",15,1
+"Exponential",16,1
+"Exponential",17,2
+"Exponential",18,3
+"Exponential",19,3
+"Exponential",20,3
+"Exponential",21,3
+"Exponential",22,4
+"Exponential",23,4
+"Exponential",24,5
+"Exponential",25,5
+"Exponential",26,5
+"Exponential",27,6
+"Exponential",28,6
+"Exponential",29,6
+"Exponential",30,7
+"Exponential",31,8
+"Exponential",32,8
+"Exponential",33,8
+"Exponential",34,9
+"Exponential",35,11
+"Exponential",36,11
+"Exponential",37,12
+"Exponential",38,13
+"Exponential",39,14
+"Exponential",40,15
+"Exponential",41,16
+"Exponential",42,17
+"Exponential",43,19
+"Exponential",44,21
+"Exponential",45,24
+"Exponential",46,26
+"Exponential",47,27
+"Exponential",48,28
+"Exponential",49,30
+"Exponential",50,32
+"Exponential",51,35
+"Exponential",52,39
+"Exponential",53,43
+"Exponential",54,47
+"Exponential",55,50
+"Exponential",56,52
+"Exponential",57,57
+"Exponential",58,60
+"Exponential",59,64
+"Exponential",60,66
+"Exponential",61,69
+"Exponential",62,74
+"Exponential",63,79
+"Exponential",64,83
+"Exponential",65,88
+"Exponential",66,92
+"Exponential",67,98
+"Exponential",68,104
+"Exponential",69,111
+"Exponential",70,119
+"Exponential",71,130
+"Exponential",72,140
+"Exponential",73,149
+"Exponential",74,161
+"Exponential",75,172
+"Exponential",76,185
+"Exponential",77,201
+"Exponential",78,218
+"Exponential",79,234
+"Exponential",80,251
+"Exponential",81,268
+"Exponential",82,287
+"Exponential",83,306
+"Exponential",84,328
+"Exponential",85,353
+"Exponential",86,379
+"Exponential",87,407
+"Exponential",88,436
+"Exponential",89,467
+"Exponential",90,501
+"Exponential",91,535
+"Exponential",92,575
+"Exponential",93,617
+"Exponential",94,662
+"Exponential",95,708
+"Exponential",96,758
+"Exponential",97,813
+"Exponential",98,871
+"Exponential",99,934
+"Exponential",100,1000

@@ -1,0 +1,18 @@
+sandbox: docker run --rm --name sas2r-c1b673461343 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P051\attempt_3:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADCM from: /bench/data/raw/cdisc-pilot/adam/adcm.xpt
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Columns in ADCM: STUDYID, SITEID, USUBJID, TRTA, TRTAN, AGE, AGEGR1, AGEGR1N, RACE, RACEN, SEX, SAFFL, TRTSDT, TRTEDT, ASTDT, ASTDTF, ASTDY, AENDT, AENDTF, AENDY, AENRF, ADURN, CMSTDTC, CMENDTC, CMSEQ, CMSPID, CMTRT, CMDECOD, CMINDC, CMCLAS, CMDOSE, CMDOSU, CMDOSFRQ, CMROUTE, PREFL, ONTRTFL, AOCCBFL, ATC1BFL, AOCCBPFL, AOCCOFL, ATC1OFL, AOCCOPFL
+Done. Outputs written to /work/out
+Rows in ADCM2: 7510
+TRTA levels: Placebo, Xanomeline High Dose, Xanomeline Low Dose
+Table body rows: 7510

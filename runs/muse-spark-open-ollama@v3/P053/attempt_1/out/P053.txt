@@ -1,0 +1,44 @@
+P053 Outliers Scatter Quant
+=============================
+
+Scatter Plot-Max. Post-baseline vs Max. Baseline for Lab Test 1 (mmol/L)
+Reference limits: ANRLO = 60.00  ANRHI = 90.00
+Y-axis: 40 to 100 by 10  Margin = 0.4900
+Min AVAL = 41.00  Max AVAL = 90.00
+Mean BASE = 71.7320  Mean AVAL = 66.4120
+Mean ANRLO = 60.0000  Mean ANRHI = 90.0000
+
+Baseline Shift Frequency Table (BNRIND * ANRIND by TRTPN)
+----------------------------------------------------------
+Treatment            | Max Baseline       | Low                | Normal            
+-----------------------------------------------------------------------------------
+Group: 0 (N = 84)
+0 (N = 84)           | High               |               |    2 (2.3)   
+0 (N = 84)           | Low                |    6 (7.1)    |    1 (1.1)   
+0 (N = 84)           | Normal             |   11 (13.0)   |   64 (76.1)  
+
+Group: 54 (N = 84)
+54 (N = 84)          | High               |               |    1 (1.1)   
+54 (N = 84)          | Low                |    3 (3.5)    |    1 (1.1)   
+54 (N = 84)          | Normal             |   12 (14.2)   |   67 (79.7)  
+
+Group: 81 (N = 82)
+81 (N = 82)          | High               |               |    1 (1.2)   
+81 (N = 82)          | Low                |    6 (7.3)    |              
+81 (N = 82)          | Normal             |    5 (6.0)    |   70 (85.3)  
+
+
+Treatment Emergent High Table
+------------------------------
+TRTPN      Nx       n        %        FishersP    
+--------------------------------------------------
+0          84       5        500.0    1.0000      
+54         84       5        500.0                
+81         82       5        500.0                
+
+Footnotes:
+Scatter Plot: Includes subjects with both a baseline and a post-baseline measure.  Reference limits apply to most of the participants are used in the plot
+N=number of subjects with at least one post-baseline measure; Nx=number of subjects with maximum baseline either normal or low and have at least one post-baseline measure.
+Summary tables used the reference limits set 1 (Male, Age 18-65, LLNx 60.00 mmol/L ULNx 90.00 mmol/L) set 2 (Female, Age 18-65, LLN=60.00 mmol/L ULN=90.00 mmol/L).
+
+ADVSMAXSum: ANRLO mean=60.0000 ANRHI mean=90.0000 BASE mean=71.7320 AVAL mean=66.4120 MinValue=41.0000 MaxValue=90.0000

@@ -1,0 +1,12 @@
+Study001
+                       Table 14.2-PPTS (Page xxx of xxx)
+                      Summary statistics for PK parameters
+               by compound, matrix, analyte and actual treatment
+                         Analysis Set: PK analysis set
+
+CV% = coefficient of variation (%) = sd/mean*100
+CV% geo-mean = (sqrt(exp(variance for log transformed data)-1))*100
+Geo-mean: Geometric mean
+Geo-mean and CV% geo-mean not presented when the minimum value for a parameter is zero.
+Data: adpp  Program: pps.sas  Output: t.14.2.ppts.txt
+Fake Data/ Production Run on 17MAR2014:23:57

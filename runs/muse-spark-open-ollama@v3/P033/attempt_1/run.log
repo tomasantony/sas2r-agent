@@ -1,0 +1,46 @@
+sandbox: docker run --rm --name sas2r-284eba407585 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark-open-ollama@v3\P033\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Using ADPC path: /bench/data/raw/cdisc-pilot/adam/adpc.xpt
+Using ADSL path: /bench/data/raw/cdisc-pilot/adam/adsl.xpt
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+
+Attaching package: ‘data.table’
+
+The following object is masked from ‘package:purrr’:
+
+    transpose
+
+The following objects are masked from ‘package:lubridate’:
+
+    hour, isoweek, isoyear, mday, minute, month, quarter, second, wday,
+    week, yday, year
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+The following object is masked from ‘package:base’:
+
+    %notin%
+
+ADPC columns: STUDYID, USUBJID, SUBJID, SITEID, ORIGSITE, PCSEQ, PCREFID, DOSREFID, PCTESTCD, PCTEST, PCTESTN, PCTESTL, PCCAT, PCCATN, PCCATL, PCCATS, PCSCAT, PCSCATN, PCSCATL, PCORRES, PCORRESN, PCORRESU, PCSTRESC, PCSTRESN, PCSTRESU, PCSTAT, PCSTATN, PCSTATL, PCSTATS, PCREASND, PCNAM, PCSPEC, PCSPECN, PCSPECL, PCSPECS, PCSPCCND, PCSPCCDN, PCSPCCDL, PCSPCCDS, PCLLOQ, VISITNUM, EPOCH, EPOCHN, EPOCHL, EPOCHS, PCDTC, PCDTN, PCENDTC, PCENDTN, PCDY, PCTPT, PCTPTNUM, PCELTM, PCTPTREF, PCRFTDTC, PCRFTDTN, EPLTM, EPLENTM, EACTM, ANLPRNT, CNEXCFL, CNEXCFLN, CNEXCFLL, CNEXCFLS, CNEXCCO, PAEXCFL, PAEXCFLN, PAEXCFLL, PAEXCFLS, PAEXCCO, CALRGFL, SMPNO, SMPSTA, SMPAMT, SMPAMTU, SMPAMTUN, SMPAMTUL, SMPAMTUS, VMEVT, VMEVTN, VMEVTL, VMEVTS, EVTTM, RFSTDTC, RFENDTC, RFENDTN, AGE, AGEIMP, AGEU, AGEUN, AGEUL, AGEUS, SEX, SEXS, RACE, RACES, RACESY, ETHNIC, ETHNICS, ARMCD, ARM, ETHNICL, ETHNICN, RACEL, RACEN, SEXL, SEXN, ACARMCD, ACARM, DVPOPX, DVPOPXN, ASR, CCS, TRTSEQPN, TRTSEQAN, SAFFL, PKFL, SCRFL, SAFFN, PKFN, SCRFN, TR01SDT, TR01EDT, TR01SDTM, TR01EDTM, AP01SDTM, AP01EDTM, AP01SDT, AP01EDT, TRT01P, TRT01A, TRT01PN, TRT01AN, TR02SDT, TR02EDT, TR02SDTM, TR02EDTM, AP02SDTM, AP02EDTM, AP02SDT, AP02EDT, TRT02P, TRT02A, TRT02PN, TRT02AN, TR03SDT, TR03EDT, TR03SDTM, TR03EDTM, AP03SDTM, AP03EDTM, AP03SDT, AP03EDT, TRT03P, TRT03A, TRT03PN, TRT03AN, TRTSDTM, TRTEDTM, TRTETM, TRTEDT, TRTSDT, TRTSEQP, TRTSEQA, FUPEDT, PARAMCD, PARAM, PARCAT1, PARAMLNK, ATPTN, ARFDTM, ARFDT, ARFTM, ADTM, ADT, ATM, AVAL, AVALC, PARCAT1N, PARCAT2, PARCAT2N, PARCAT2L, PARCAT3, PARCAT3N, PARCAT3L, ATPT, ATPTREF, ANL01FL, ANL01FN, ANL01DSC, PARAMN, ADY, TRTA, TRTP, APERIODC, APERIOD, TRTAN, TRTPN, TRTAS, PCSDY
+ADSL columns: STUDYID, USUBJID, SUBJID, SITEID, SITEGR1, ARM, TRT01P, TRT01PN, TRT01A, TRT01AN, TRTSDT, TRTEDT, TRTDUR, AVGDD, CUMDOSE, AGE, AGEGR1, AGEGR1N, AGEU, RACE, RACEN, SEX, ETHNIC, SAFFL, ITTFL, EFFFL, COMP8FL, COMP16FL, COMP24FL, DISCONFL, DSRAEFL, DTHFL, BMIBL, BMIBLGR1, HEIGHTBL, WEIGHTBL, EDUCLVL, DISONSDT, DURDIS, DURDSGR1, VISIT1DT, RFSTDTC, RFENDTC, VISNUMEN, RFENDT, DCDECOD, DCREASCD, MMSETOT
+Number of BY groups (USUBJID x PARCAT1): 84
+Saved figure to /work/out/sasgraph.png
+All outputs written to /work/out
