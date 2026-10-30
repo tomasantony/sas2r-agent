@@ -1,0 +1,8 @@
+sandbox: docker run --rm --name sas2r-f6f3fc073f81 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v3\P004\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+ADSL file: /bench/data/derived/c2c/data/adam/adsl.sas7bdat 
+AE file: /bench/data/derived/c2c/data/sdtm/ae.sas7bdat 
+ADSL rows: 50 cols: STUDYID,USUBJID,SUBJID,SITEID,SEX,RACE,TRT01P,TRT01A,ITTFL,SAFFL,BRTHDT,RFICDT,TRTSDT,TRTEDT,EOSDT,AGE,TRTDURD 
+AE rows: 54 cols: STUDYID,DOMAIN,USUBJID,AESEQ,AETERM,AEDECOD,AEREL,AESEV,AEOUT,AESER,AESTDTC,AEENDTC 
+Wrote adae.csv rows: 54 
+Wrote /work/out/P004.txt and /work/out/P004.lst 
+Wrote P004.csv

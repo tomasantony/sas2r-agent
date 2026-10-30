@@ -1,0 +1,5 @@
+sandbox: docker run --rm --name sas2r-c5932d0ba3f9 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v3\P071\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADSL: /bench/data/raw/own-synthetic/adam/adsl.sas7bdat
+TRT order: Drug X High Dose | Drug X Low Dose | Placebo
+BigN: 63, 82, 95 total=240
+Wrote t_disp.csv and t_disp.txt to /work/out

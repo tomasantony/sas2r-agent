@@ -1,0 +1,30 @@
+Mean of DBP Measures by Treatment: Profile Over Time (Weeks Since Randomized) 
+Mean(unit)with 95% CI by Weeks Since Randomized
+Treatment Group: 0, 54, 81
+At Risk Subjects (N by visit):
+Weeks    N_0      N_54     N_81    
+0        85       84       84      
+2        84       84       82      
+4        82       72       73      
+6        76       65       67      
+8        73       60       56      
+12       69       52       50      
+16       68       42       37      
+20       66       30       32      
+24       59       27       30      
+26       58       25       28      
+
+Means with 95% CI (lo/hi via TINV(0.95,n-1)):
+Weeks    Mean_0     Mean_54    Mean_81   
+0        75.6941    76.2738    77.1548   
+2        74.4167    75.2024    75.8049   
+4        74.5366    75.9722    76.1233   
+6        73.8816    74.2154    75.4328   
+8        75.2740    75.0000    76.2321   
+12       72.7536    75.5577    73.6800   
+16       74.3382    73.8333    75.6757   
+20       72.9848    72.5667    73.4375   
+24       72.8983    76.0741    73.8667   
+26       72.2069    72.4400    72.9643   
+
+See clinicalhandout_dbpprofile.png for graph.

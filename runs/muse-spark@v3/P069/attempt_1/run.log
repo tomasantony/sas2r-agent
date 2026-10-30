@@ -1,0 +1,32 @@
+sandbox: docker run --rm --name sas2r-79fbebf2e254 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v3\P069\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+NOTE: ADSL = /bench/data/raw/own-synthetic/adam/adsl.sas7bdat 
+NOTE: ADAE = /bench/data/raw/own-synthetic/adam/adae.sas7bdat 
+NOTE: Big N
+              TRTA BIGN
+1 Drug X High Dose   63
+2  Drug X Low Dose   82
+3          Placebo   95
+Total: 240 
+NOTE: mapping col1= Placebo  col2= Drug X Low Dose  col3= Drug X High Dose 
+[Sponsor Name]    Page 1
+Protocol: [Protocol Number]
+
+Table 14.3.1
+Overall Summary of Treatment-Emergent Adverse Events
+Safety Analysis Set
+
+Category                                       |  Placebo (N=95)  |  Drug X Low Dose (N=82)  |  Drug X High Dose (N=63) 
+------------------------------------------------------------------------------------------------------------------------
+Subjects with no TEAE                          |    26 (27.4)     |        19 (23.2)         |         20 (31.7)        
+Subjects with at least one TEAE                |    69 (72.6)     |        63 (76.8)         |         43 (68.3)        
+  Grade >=3 TEAE                               |    16 (16.8)     |        11 (13.4)         |         12 (19.0)        
+  Serious Adverse Event                        |     9 (9.5)      |        12 (14.6)         |          6 (9.5)         
+  TEAE Leading to Study Drug Discontinuation   |    10 (10.5)     |         9 (11.0)         |          3 (4.8)         
+  TEAE Leading to Dose Modification            |    31 (32.6)     |        26 (31.7)         |         18 (28.6)        
+
+Data cutoff: [DDMONYYYY]
+Source: ADaM datasets
+Program: t_ae_sum.sas | Run: 30Oct2026
+TEAE = Treatment-Emergent Adverse Event; SAE = Serious Adverse Event
+Subjects are counted once per category. 
+NOTE: t_ae_sum completed successfully.

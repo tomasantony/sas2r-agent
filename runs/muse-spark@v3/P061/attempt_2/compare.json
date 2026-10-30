@@ -1,0 +1,180 @@
+{
+ "produced_all": false,
+ "equivalent": false,
+ "score": 0.0029930299166006052,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P061.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.007211799154104761,
+   "detail": {
+    "recall": 0.007211799154104761,
+    "expected": 36884,
+    "found": 266,
+    "r_files": [
+     "P061.txt",
+     "P061_f_oncology_graphs.txt",
+     "P061_t_oncology_report.txt"
+    ],
+    "missing_examples": [
+     "42",
+     "9",
+     "0",
+     "10",
+     "27",
+     "2026",
+     "15",
+     "46",
+     "24",
+     "560",
+     "64",
+     "1"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "sasgraph.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sasgraph.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgplot.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot1.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgplot1.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot2.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgplot2.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot3.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgplot3.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot4.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgplot4.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot5.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgplot5.png"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPlot6.png",
+   "r_file": null,
+   "status": "missing",
+   "score": 0.0,
+   "detail": {
+    "expected_file": "sgplot6.png"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "P061_t_oncology_report.pdf",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.012573802755302864,
+   "detail": {
+    "recall": 0.012573802755302864,
+    "expected": 9146,
+    "found": 115,
+    "r_files": [
+     "P061.txt",
+     "P061_f_oncology_graphs.txt",
+     "P061_t_oncology_report.txt"
+    ],
+    "missing_examples": [
+     "2498",
+     "60.4203",
+     "13.033",
+     "21.93",
+     "96.29",
+     "100",
+     "24",
+     "1.34",
+     "630",
+     "35.23",
+     "654",
+     "36.58"
+    ]
+   }
+  },
+  {
+   "kind": "text",
+   "name": "P061_f_oncology_graphs.pdf",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.013137727173199037,
+   "detail": {
+    "recall": 0.013137727173199037,
+    "expected": 9134,
+    "found": 120,
+    "r_files": [
+     "P061.txt",
+     "P061_f_oncology_graphs.txt",
+     "P061_t_oncology_report.txt"
+    ],
+    "missing_examples": [
+     "20",
+     "40",
+     "60",
+     "80",
+     "100",
+     "12",
+     "200",
+     "400",
+     "600",
+     "800",
+     "1000",
+     "1981"
+    ]
+   }
+  }
+ ]
+}

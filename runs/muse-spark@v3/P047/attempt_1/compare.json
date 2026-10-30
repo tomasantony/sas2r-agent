@@ -1,0 +1,72 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 0.9912490055688146,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P047.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9737470167064439,
+   "detail": {
+    "recall": 0.9737470167064439,
+    "expected": 419,
+    "found": 408,
+    "r_files": [
+     "advs.csv",
+     "clinicalhandout_dbpprofile.csv",
+     "DBP_Profile.csv",
+     "DBP_Profile.html",
+     "DBP_Profile.txt",
+     "P047.csv",
+     "P047.txt",
+     "temp1.csv"
+    ],
+    "missing_examples": [
+     "9",
+     "2026",
+     "34",
+     "176",
+     "65536",
+     "371",
+     "359",
+     "33140",
+     "9.0401"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "ClinicalHandout_DbpProfile.gif",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@v3\\P047\\attempt_1\\out\\clinicalhandout_dbpprofile.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "DBP_Profile.html",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 0,
+    "found": 0,
+    "r_files": [
+     "advs.csv",
+     "clinicalhandout_dbpprofile.csv",
+     "DBP_Profile.csv",
+     "DBP_Profile.html",
+     "DBP_Profile.txt",
+     "P047.csv",
+     "P047.txt",
+     "temp1.csv"
+    ]
+   }
+  }
+ ]
+}

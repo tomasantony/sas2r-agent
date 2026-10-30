@@ -1,0 +1,4 @@
+sandbox: docker run --rm --name sas2r-93b45a233d74 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v3\P064\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+lb_path=/bench/data/derived/wxzhai/sdtm/lb.sas7bdat
+adsl_path=/bench/data/derived/wxzhai/adam/adsl.sas7bdat
+Wrote 14 rows to /work/out/adlb.csv

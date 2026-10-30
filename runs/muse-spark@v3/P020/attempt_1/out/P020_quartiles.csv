@@ -1,0 +1,7 @@
+"STRATUM","PERCENT","ESTIMATE","LOWER","UPPER"
+"Active Drug 50mg",75,32,3,66
+"Active Drug 50mg",50,69,32,
+"Active Drug 50mg",25,,69,
+"Placebo",75,17,9,24
+"Placebo",50,40,21,
+"Placebo",25,,62,

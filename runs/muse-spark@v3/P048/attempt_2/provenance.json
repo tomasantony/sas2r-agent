@@ -1,0 +1,72 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P048",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark@v3",
+ "recorded_at": "2026-10-30T02:15:05",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 9641,
+  "output_tokens": 3718,
+  "reasoning_tokens": 349,
+  "finish_reason": "stop",
+  "seconds": 11.6
+ },
+ "inputs": {
+  "prompt_translate.md": "1fbd6575429c86e607ebb9f986e626adb1a736bace406abff4c8ea70108020b1"
+ },
+ "model_output": {
+  "response.md": "953b20bef22b015c000da1c8faa4974c06733f10d29adba7c89747b2b688728f",
+  "script.R": "0a6bbe5188e8f77eb8bfa87a6883baf6b6d7d5ccfda30a1b17350bb946ddec6b"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.5,
+  "timed_out": false,
+  "log_sha256": "d4899a2eb13694f4257b31ac30dc92349e2f5c9bb57993f82f94490d0c225386"
+ },
+ "r_outputs": {
+  "final.csv": "9e9858382c8828e0e6bbc841cc8027751dc94eca67ec37650fc5ee09475f58b9",
+  "P048.csv": "de65e11fd5b74deca340c01359154201f185fe15e5bdbadc4992052416f18e97",
+  "P048.txt": "872358f22dcd49904ad56e0799dfafe1e4af01246cac7cb7467a68e850170bf9",
+  "sasrtf.csv": "de65e11fd5b74deca340c01359154201f185fe15e5bdbadc4992052416f18e97",
+  "sasrtf.txt": "872358f22dcd49904ad56e0799dfafe1e4af01246cac7cb7467a68e850170bf9"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P048.lst",
+   "sha256": "38f85246a7cedc25ea1354d1e4617ac9df40a14f7af7fa9b343938b5aa8fb238",
+   "frozen_sha256": "38f85246a7cedc25ea1354d1e4617ac9df40a14f7af7fa9b343938b5aa8fb238",
+   "ok": true
+  },
+  {
+   "file": "datasets/P048/sasrtf.rtf",
+   "sha256": "d643152094e2559b8e571be76307151c616ab30c1a001c1e7b0f7bc42a78a326",
+   "frozen_sha256": "d643152094e2559b8e571be76307151c616ab30c1a001c1e7b0f7bc42a78a326",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

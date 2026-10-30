@@ -1,0 +1,13 @@
+Total Cases
+The MEANS Procedure
+
+Analysis Variable : NewCases  New Cases
+
+Type                N       Mean     StdDev        Min        Max        Sum
+Constant          100      10.00       3.03       3.00      16.00    1000.00
+Early Peak        100      10.00      12.06       0.00      37.00    1000.00
+Flattened         100      10.00       8.41       0.00      27.00    1000.00
+Second Outbreak   100      10.00      10.45       0.00      34.00    1000.00
+Exponential       100      10.00      15.80       0.00      66.00    1000.00
+
+N = 100 for each Type; Mean StdDev Min Max Sum as in PROC MEANS with CLASS Type / ORDER=DATA

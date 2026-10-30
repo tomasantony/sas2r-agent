@@ -1,0 +1,62 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9201101928374656,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P097.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.7603305785123967,
+   "detail": {
+    "recall": 0.7603305785123967,
+    "expected": 121,
+    "found": 92,
+    "r_files": [
+     "histogram.csv",
+     "P097.csv",
+     "P097.txt",
+     "ROCEst.csv",
+     "sgpanel.csv",
+     "Survival.csv",
+     "WidePctls.csv"
+    ],
+    "missing_examples": [
+     "-8",
+     "0.543",
+     "0.6344",
+     "0.7024",
+     "0.2614",
+     "0.2237",
+     "0.8162",
+     "0.0801",
+     "1.07615",
+     "0.28186",
+     "0.6761",
+     "0.9382"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "Histogram.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@v3\\P097\\attempt_3\\out\\histogram.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "SGPanel.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@v3\\P097\\attempt_3\\out\\sgpanel.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  }
+ ]
+}

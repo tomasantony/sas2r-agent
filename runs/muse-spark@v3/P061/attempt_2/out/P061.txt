@@ -1,0 +1,209 @@
+Project: Oncology Clinical Trial Analysis
+Standard: CDISC SDTM / ADaM
+Dataset: Breast Cancer METABRIC
+
+Procedure: CONTENTS Data=ADAM_ADSL
+Variables in Creation Order
+Num  Variable  Type  Length
+1  Patient ID  Char
+2  Age at Diagnosis  Num
+3  Type of Breast Surgery  Char
+4  Cancer Type  Char
+5  Cancer Type Detailed  Char
+6  Cellularity  Char
+7  Chemotherapy  Char
+8  Pam50 + Claudin-low subtype  Char
+9  Cohort  Num
+10  ER status measured by IHC  Char
+11  ER Status  Char
+12  Neoplasm Histologic Grade  Num
+13  HER2 status measured by SNP6  Char
+14  HER2 Status  Char
+15  Tumor Other Histologic Subtype  Char
+16  Hormone Therapy  Char
+17  Inferred Menopausal State  Char
+18  Integrative Cluster  Char
+19  Primary Tumor Laterality  Char
+20  Lymph nodes examined positive  Num
+21  Mutation Count  Num
+22  Nottingham prognostic index  Num
+23  Oncotree Code  Char
+24  Overall Survival (Months)  Num
+25  Overall Survival Status  Char
+26  PR Status  Char
+27  Radio Therapy  Char
+28  Relapse Free Status (Months)  Num
+29  Relapse Free Status  Char
+30  Sex  Char
+31  3-Gene classifier subtype  Char
+32  Tumor Size  Num
+33  Tumor Stage  Num
+34  Patient's Vital Status  Char
+35  STUDYID  Char
+36  DOMAIN  Char
+37  USUBJID  Char
+38  AGE  Num
+39  TRT01P  Char
+40  SAFFL  Char
+
+Procedure: PRINT Data=ADAM_ADSL (obs=10)
+Obs  Patient ID | Age at Diagnosis | Type of Breast Surgery | Cancer Type | Cancer Type Detailed | Cellularity | Chemotherapy | Pam50 + Claudin-low subtype | Cohort | ER status measured by IHC | ER Status | Neoplasm Histologic Grade | HER2 status measured by SNP6 | HER2 Status | Tumor Other Histologic Subtype | Hormone Therapy | Inferred Menopausal State | Integrative Cluster | Primary Tumor Laterality | Lymph nodes examined positive | Mutation Count | Nottingham prognostic index | Oncotree Code | Overall Survival (Months) | Overall Survival Status | PR Status | Radio Therapy | Relapse Free Status (Months) | Relapse Free Status | Sex | 3-Gene classifier subtype | Tumor Size | Tumor Stage | Patient's Vital Status | STUDYID | DOMAIN | USUBJID | AGE | TRT01P | SAFFL
+1  MB-0000 | 75.65 | Mastectomy | Breast Cancer | Breast Invasive Ductal Carcinoma |  | No | claudin-low | 1 | Positve | Positive | 3 | Neutral | Negative | Ductal/NST | Yes | Post | 4ER+ | Right | 10 |  | 6.044 | IDC | 140.5 | Living | Negative | Yes | 138.65 | Not Recurred | Female | ER-/HER2- | 22 | 2 | Living | ONC001 | DM | ONC001-1 |  | CHEMO | Y
+2  MB-0002 | 43.19 | Breast Conserving | Breast Cancer | Breast Invasive Ductal Carcinoma | High | No | LumA | 1 | Positve | Positive | 3 | Neutral | Negative | Ductal/NST | Yes | Pre | 4ER+ | Right | 0 | 2 | 4.02 | IDC | 84.63333333 | Living | Positive | Yes | 83.52 | Not Recurred | Female | ER+/HER2- High Prolif | 10 | 1 | Living | ONC001 | DM | ONC001-2 |  | CHEMO | Y
+3  MB-0005 | 48.87 | Mastectomy | Breast Cancer | Breast Invasive Ductal Carcinoma | High | Yes | LumB | 1 | Positve | Positive | 2 | Neutral | Negative | Ductal/NST | Yes | Pre | 3 | Right | 1 | 2 | 4.03 | IDC | 163.7 | Deceased | Positive | No | 151.28 | Recurred | Female |  | 15 | 2 | Died of Disease | ONC001 | DM | ONC001-3 |  | CHEMO | Y
+4  MB-0006 | 47.68 | Mastectomy | Breast Cancer | Breast Mixed Ductal and Lobular Carcinoma | Moderate | Yes | LumB | 1 | Positve | Positive | 2 | Neutral | Negative | Mixed | Yes | Pre | 9 | Right | 3 | 1 | 4.05 | MDLC | 164.9333333 | Living | Positive | Yes | 162.76 | Not Recurred | Female |  | 25 | 2 | Living | ONC001 | DM | ONC001-4 |  | CHEMO | Y
+5  MB-0008 | 76.97 | Mastectomy | Breast Cancer | Breast Mixed Ductal and Lobular Carcinoma | High | Yes | LumB | 1 | Positve | Positive | 3 | Neutral | Negative | Mixed | Yes | Post | 9 | Right | 8 | 2 | 6.08 | MDLC | 41.36666667 | Deceased | Positive | Yes | 18.55 | Recurred | Female | ER+/HER2- High Prolif | 40 | 2 | Died of Disease | ONC001 | DM | ONC001-5 |  | CHEMO | Y
+6  MB-0010 | 78.77 | Mastectomy | Breast Cancer | Breast Invasive Ductal Carcinoma | Moderate | No | LumB | 1 | Positve | Positive | 3 | Neutral | Negative | Ductal/NST | Yes | Post | 7 | Left | 0 | 4 | 4.062 | IDC | 7.8 | Deceased | Positive | Yes | 2.89 | Recurred | Female | ER+/HER2- High Prolif | 31 | 4 | Died of Disease | ONC001 | DM | ONC001-6 |  | CHEMO | Y
+7  MB-0014 | 56.45 | Breast Conserving | Breast Cancer | Breast Invasive Ductal Carcinoma | Moderate | Yes | LumB | 1 | Positve | Positive | 2 | Loss | Negative | Ductal/NST | Yes | Post | 3 | Right | 1 | 4 | 4.02 | IDC | 164.3333333 | Living | Positive | Yes | 162.17 | Not Recurred | Female |  | 10 | 2 | Living | ONC001 | DM | ONC001-7 |  | CHEMO | Y
+8  MB-0020 | 70 | Mastectomy | Breast Cancer | Breast Invasive Lobular Carcinoma | High | Yes | Normal | 1 | Negative | Negative | 3 | Neutral | Negative | Lobular | No | Post | 4ER- | Left |  |  | 6.13 | ILC | 22.4 | Deceased | Negative | Yes | 11.74 | Recurred | Female | ER-/HER2- | 65 | 3 | Died of Disease | ONC001 | DM | ONC001-8 |  | CHEMO | Y
+9  MB-0022 | 89.08 | Breast Conserving | Breast Cancer | Breast Mixed Ductal and Lobular Carcinoma | Moderate | No | claudin-low | 1 | Positve | Positive | 2 | Neutral | Negative | Mixed | Yes | Post | 3 | Left | 1 | 1 | 4.058 | MDLC | 99.53333333 | Deceased | Negative | Yes | 98.22 | Not Recurred | Female |  | 29 | 2 | Died of Other Causes | ONC001 | DM | ONC001-9 |  | CHEMO | Y
+10  MB-0025 | 76.24 |  | Breast Cancer | Breast Invasive Ductal Carcinoma |  |  |  | 1 | Positve | Positive | 3 |  |  | Ductal/NST |  |  |  |  | 11 | 5 | 6.68 | IDC |  |  |  |  | 126.32 | Recurred | Female |  | 34 | 2 |  | ONC001 | DM | ONC001-10 |  | CHEMO | Y
+
+Title: Demographic Summary - Age
+Variable: Age at Diagnosis
+ N  Mean  Std Dev  Minimum  Maximum
+0        
+
+Title: Gender Distribution
+Table of sex
+Sample Size = 0
+Level  Frequency  Percent  Cumulative Frequency  Cumulative Percent
+Missing = 2509
+
+Title: Tumor Stage Distribution
+Table of Tumor Stage
+Sample Size = 0
+Level  Frequency  Percent  Cumulative Frequency  Cumulative Percent
+Missing = 2509
+
+Title: Tumor Size Summary
+Variable: Tumor Size
+ N  Mean  Std Dev  Minimum  Maximum
+0        
+
+Title: Kaplan-Meier Survival Curve
+The LIFETEST Procedure
+Product-Limit Survival Estimates
+Time  Survival  Failure  Survival Standard Error  Number Failed  Number Left  Censored
+
+Quartile Estimates
+Percent  Point Estimate  95% Confidence Interval Transform [Lower, Upper)
+75    [, ]
+50    [, ]
+25    [, ]
+
+Mean and Standard Error
+Mean  Standard Error
+  
+
+Summary of the Number of Censored and Uncensored Values
+Total  Failed  Censored  Percent Censored
+0  0  0  
+
+Title: Chemotherapy Treatment Summary
+Table of Chemotherapy
+Sample Size = 0
+Level  Frequency  Percent  Cumulative Frequency  Cumulative Percent
+Missing = 2509
+
+Title: 
+Table of ER Status
+Sample Size = 0
+Level  Frequency  Percent  Cumulative Frequency  Cumulative Percent
+Missing = 2509
+
+Title: 
+Table of HER2 Status
+Sample Size = 0
+Level  Frequency  Percent  Cumulative Frequency  Cumulative Percent
+Missing = 2509
+
+Title: 
+Variable: Age at Diagnosis
+ N  Mean  Std Dev  Minimum  Maximum
+0        
+
+Title: 
+Table of sex
+Sample Size = 0
+Level  Frequency  Percent  Cumulative Frequency  Cumulative Percent
+Missing = 2509
+
+Title: 
+Table of Tumor Stage
+Sample Size = 0
+Level  Frequency  Percent  Cumulative Frequency  Cumulative Percent
+Missing = 2509
+
+Title: 
+The LIFETEST Procedure
+Product-Limit Survival Estimates
+Time  Survival  Failure  Survival Standard Error  Number Failed  Number Left  Censored
+
+Quartile Estimates
+Percent  Point Estimate  95% Confidence Interval Transform [Lower, Upper)
+75    [, ]
+50    [, ]
+25    [, ]
+
+Mean and Standard Error
+Mean  Standard Error
+  
+
+Summary of the Number of Censored and Uncensored Values
+Total  Failed  Censored  Percent Censored
+0  0  0  
+
+Title: Kaplan-Meier Survival Curve
+The LIFETEST Procedure
+Product-Limit Survival Estimates
+Time  Survival  Failure  Survival Standard Error  Number Failed  Number Left  Censored
+
+Quartile Estimates
+Percent  Point Estimate  95% Confidence Interval Transform [Lower, Upper)
+75    [, ]
+50    [, ]
+25    [, ]
+
+Mean and Standard Error
+Mean  Standard Error
+  
+
+Summary of the Number of Censored and Uncensored Values
+Total  Failed  Censored  Percent Censored
+0  0  0  
+
+Procedure: SGPLOT Data=ADAM_ADSL  Title: Tumor Stage Distribution  VBAR Tumor Stage
+Levels: 
+
+Procedure: SGPLOT Data=ADAM_ADSL  Title: Age Distribution of Patients  HISTOGRAM + DENSITY Age
+
+Procedure: SGPLOT Data=ADAM_ADSL  Title: Tumor Size vs Survival  SCATTER
+
+Procedure: SGPLOT Data=ADAM_ADSL  Title: Survival by ER Status  VBOX
+
+Procedure: SGPLOT Data=ADAM_ADSL  Title: Chemotherapy Treatment Distribution  VBAR Chemotherapy
+
+Procedure: SGPLOT Data=ADAM_ADSL  HISTOGRAM Age
+
+Procedure: SGPLOT Data=ADAM_ADSL  VBAR Tumor Stage
+
+Title: 
+The LIFETEST Procedure
+Product-Limit Survival Estimates
+Time  Survival  Failure  Survival Standard Error  Number Failed  Number Left  Censored
+
+Quartile Estimates
+Percent  Point Estimate  95% Confidence Interval Transform [Lower, Upper)
+75    [, ]
+50    [, ]
+25    [, ]
+
+Mean and Standard Error
+Mean  Standard Error
+  
+
+Summary of the Number of Censored and Uncensored Values
+Total  Failed  Censored  Percent Censored
+0  0  0  
+

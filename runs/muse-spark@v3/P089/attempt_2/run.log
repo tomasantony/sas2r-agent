@@ -1,0 +1,3 @@
+sandbox: docker run --rm --name sas2r-0a8c1eb17d3a --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v3\P089\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+[1] TRUE
+Done

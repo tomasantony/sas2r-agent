@@ -1,0 +1,25 @@
+sandbox: docker run --rm --name sas2r-3007028762ba --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v3\P038\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+[1] "C"
+Reading /bench/data/raw/cdisc-pilot/adam/advs.xpt
+Error in `$<-`:
+! Assigned data `ifelse(is.na(allrecs$n.y), allrecs$n0, allrecs$n.y)`
+  must be compatible with existing data.
+✖ Existing data has 144 rows.
+✖ Assigned data has 0 rows.
+ℹ Only vectors of size 1 are recycled.
+Caused by error in `vectbl_recycle_rhs_rows()`:
+! Can't recycle input of size 0 to size 144.
+Backtrace:
+    ▆
+ 1. ├─base::`$<-`(`*tmp*`, n, value = `<lgl>`)
+ 2. ├─tibble:::`$<-.tbl_df`(`*tmp*`, n, value = `<lgl>`)
+ 3. │ └─tibble:::tbl_subassign(...)
+ 4. │   └─tibble:::vectbl_recycle_rhs_rows(value, fast_nrow(xo), i_arg = NULL, value_arg, call)
+ 5. │     ├─base::withCallingHandlers(...)
+ 6. │     └─vctrs::vec_recycle(value[[j]], nrow)
+ 7. └─vctrs:::stop_recycle_incompatible_size(...) at vctrs/R/recycle.R:40:3
+ 8.   └─vctrs:::stop_vctrs(...) at vctrs/R/conditions.R:800:3
+ 9.     └─rlang::abort(message, class = c(class, "vctrs_error"), ..., call = call) at vctrs/R/conditions.R:65:3
+Warning message:
+Unknown or uninitialised column: `n.y`. 
+Execution halted

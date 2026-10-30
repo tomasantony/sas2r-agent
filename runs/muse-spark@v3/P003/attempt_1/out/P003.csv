@@ -1,0 +1,5 @@
+"SUMMARYLEVEL","AEBODSYS","AEDECOD","PBO_N","PBO_n","PBO_pct","PBO_ev","PBO_res","LOW_N","LOW_n","LOW_pct","LOW_ev","LOW_res","HIGH_N","HIGH_n","HIGH_pct","HIGH_ev","HIGH_res","p_low","p_low_d","p_high","p_high_d"
+1,"","Subjects with Serious TEAE",86,0,"0.0",0,"0 (0.0%) [0]",0,0,"NA",0,"0 (NA%) [0]",0,0,"NA",0,"0 (NA%) [0]",1,"1.0000",1,"1.0000"
+2,"NERVOUS SYSTEM DISORDERS","",86,0,"0.0",0,"0 (0.0%) [0]",0,0,"NA",0,"0 (NA%) [0]",0,0,"NA",0,"0 (NA%) [0]",1,"1.0000",1,"1.0000"
+3,"NERVOUS SYSTEM DISORDERS","PARTIAL SEIZURES WITH SECONDARY GENERALISATION",86,0,"0.0",0,"0 (0.0%) [0]",0,0,"NA",0,"0 (NA%) [0]",0,0,"NA",0,"0 (NA%) [0]",1,"1.0000",1,"1.0000"
+3,"NERVOUS SYSTEM DISORDERS","SYNCOPE",86,0,"0.0",0,"0 (0.0%) [0]",0,0,"NA",0,"0 (NA%) [0]",0,0,"NA",0,"0 (NA%) [0]",1,"1.0000",1,"1.0000"

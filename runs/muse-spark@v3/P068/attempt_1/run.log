@@ -1,0 +1,12 @@
+sandbox: docker run --rm --name sas2r-2f684a389cce --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v3\P068\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+ADSL: /bench/data/raw/own-synthetic/adam/adsl.sas7bdat
+ADAE: /bench/data/raw/own-synthetic/adam/adae.sas7bdat
+BIGN:
+              TRTA BIGN
+1 Drug X High Dose   63
+2  Drug X Low Dose   82
+3          Placebo   95
+BIGNTOT=240
+                     col1                      col2                      col3 
+         "Placebo (N=95)"  "Drug X Low Dose (N=82)" "Drug X High Dose (N=63)" 
+done rows=17

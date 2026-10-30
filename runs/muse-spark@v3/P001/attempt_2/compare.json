@@ -1,0 +1,40 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9576001340707223,
+ "artifacts": [
+  {
+   "kind": "dataset",
+   "name": "adsl",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@v3\\P001\\attempt_2\\out\\adsl.csv",
+   "status": "mismatch",
+   "score": 0.9576001340707223,
+   "detail": {
+    "rows_sas": 306,
+    "rows_r": 306,
+    "cols_sas": 39,
+    "cols_r": 39,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.9576001340707223,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(TRTSDTM, 1, nan, '2014-01-02T00:00:00')",
+     "(TRTSDTM, 2, nan, '2012-08-05T00:00:00')",
+     "(TRTSDTM, 3, nan, '2013-07-19T00:00:00')",
+     "(TRTSDTM, 4, nan, '2014-03-18T00:00:00')",
+     "(TRTSDTM, 5, nan, '2014-07-01T00:00:00')",
+     "(TRTSDTM, 6, nan, '2013-02-12T00:00:00')",
+     "(TRTSDTM, 8, nan, '2014-01-01T00:00:00')",
+     "(TRTSDTM, 9, nan, '2012-09-07T00:00:00')",
+     "(TRTSDTM, 10, nan, '2012-11-30T00:00:00')",
+     "(TRTSDTM, 11, nan, '2014-03-12T00:00:00')"
+    ],
+    "worst_columns": {
+     "TRTSDTM": 254,
+     "TRTEDTM": 252
+    }
+   }
+  }
+ ]
+}

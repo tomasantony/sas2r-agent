@@ -1,0 +1,71 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P006",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark@v3",
+ "recorded_at": "2026-10-30T01:11:21",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 3984,
+  "output_tokens": 10593,
+  "reasoning_tokens": 6776,
+  "finish_reason": "stop",
+  "seconds": 52.5
+ },
+ "inputs": {
+  "prompt_translate.md": "4f5bf3e34ab26fdbd1b90c9955a8dfbc0bf5337824a411d5a8c45509bc4ed965"
+ },
+ "model_output": {
+  "response.md": "414747b237476337e9eb11a2173d2b6d0ceefead00c738f2410d396b6fd8d42c",
+  "script.R": "cab3ec01e887ed8d9e3fab930a1bb24e7a02749e0cd010ece360c6e3748c2308"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.3,
+  "timed_out": false,
+  "log_sha256": "8a0cb32eaf207561867fa4f758fa8dce52c688253af16a930dabb875c239eb2f"
+ },
+ "r_outputs": {
+  "adsl.csv": "ead3dd4b3e3f1b6f0ac1d131eb341101e47e2491254f4080c2e359fa0a4c71df",
+  "P006.csv": "c8343073e9726bb70b16c0a1fa96cf2b4873d542e6396b1a3d42617855c46606",
+  "P006.lst": "c171f7813d645cf625572ce7dc580b085038068dedfa9e0a826ea6df263d1f88",
+  "P006.txt": "c171f7813d645cf625572ce7dc580b085038068dedfa9e0a826ea6df263d1f88"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P006.lst",
+   "sha256": "6d156c95a5928f7a29a887c596ec601e6b05b8511abe1b90f2a4de82f76b0f00",
+   "frozen_sha256": "6d156c95a5928f7a29a887c596ec601e6b05b8511abe1b90f2a4de82f76b0f00",
+   "ok": true
+  },
+  {
+   "file": "datasets/P006/adsl.sas7bdat",
+   "sha256": "294143f4490791da4300aef403734499d40e633ad4c7eaddff2025dec713dd9e",
+   "frozen_sha256": "294143f4490791da4300aef403734499d40e633ad4c7eaddff2025dec713dd9e",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

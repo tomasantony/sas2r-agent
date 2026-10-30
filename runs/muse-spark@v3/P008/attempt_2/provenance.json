@@ -1,0 +1,70 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P008",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark@v3",
+ "recorded_at": "2026-10-30T01:13:15",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 8834,
+  "output_tokens": 4284,
+  "reasoning_tokens": 295,
+  "finish_reason": "stop",
+  "seconds": 13.2
+ },
+ "inputs": {
+  "prompt_translate.md": "8f5b864297346d79dc067960c60a0012ca905c1504d1a427f4cf2c0ebae9a326"
+ },
+ "model_output": {
+  "response.md": "bba9c36adf4a2cbf99b7ec47a908f06ca9b2ef6b8677d6c4a2bf03ac4909a826",
+  "script.R": "90e170bfc17f4386e14d35cfdcea9eee8ed29413e335d7adc7e9ed45f7efef6c"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.3,
+  "timed_out": false,
+  "log_sha256": "a30f96cd23cb7b6b5242941d3f455cfc6a4b736a61086af9afd3176550bc2ca2"
+ },
+ "r_outputs": {
+  "advs.csv": "267a93a745949c7a95811fb8c70d08974513ba1d20afea38e05be02c6f97818d",
+  "P008.csv": "1f545d99af7495b393e6a92e5245adba51c02bee7ae4912ff90ddfca845d4679",
+  "P008.txt": "18873f0f0dcd02150c5034b10bb921dd4146ab7fbdc478d261fb7a26d8b7d95b"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P008.lst",
+   "sha256": "67c39d77bcee5992e0944323b517467eca5e2e55b9d20198164f3c2d9705c151",
+   "frozen_sha256": "67c39d77bcee5992e0944323b517467eca5e2e55b9d20198164f3c2d9705c151",
+   "ok": true
+  },
+  {
+   "file": "datasets/P008/advs.sas7bdat",
+   "sha256": "f8db755abba3ae8541de01d72f44db86e364adfddab6b6c99e63f0718afc0082",
+   "frozen_sha256": "f8db755abba3ae8541de01d72f44db86e364adfddab6b6c99e63f0718afc0082",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

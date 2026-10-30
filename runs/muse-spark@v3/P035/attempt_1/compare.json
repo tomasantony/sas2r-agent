@@ -1,0 +1,35 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9274193548387096,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P035.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9274193548387096,
+   "detail": {
+    "recall": 0.9274193548387096,
+    "expected": 124,
+    "found": 115,
+    "r_files": [
+     "adpp_sum.csv",
+     "adpp_sum_t.csv",
+     "CLXCHECKNOBS.csv",
+     "P035.csv",
+     "P035.txt"
+    ],
+    "missing_examples": [
+     "14.2",
+     "12",
+     "100",
+     "-1",
+     "10.7",
+     "10.5",
+     "11.1"
+    ]
+   }
+  }
+ ]
+}

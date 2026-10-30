@@ -1,0 +1,9 @@
+sandbox: docker run --rm --name sas2r-8f31f2d9f26d --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v3\P061\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Reading: /bench/data/raw/sumit-oncology/Breast Cancer METABRIC.csv
+raw rows=2509 cols=34
+cols: Patient ID | Age at Diagnosis | Type of Breast Surgery | Cancer Type | Cancer Type Detailed | Cellularity | Chemotherapy | Pam50 + Claudin-low subtype | Cohort | ER status measured by IHC | ER Status | Neoplasm Histologic Grade | HER2 status measured by SNP6 | HER2 Status | Tumor Other Histologic Subtype | Hormone Therapy | Inferred Menopausal State | Integrative Cluster | Primary Tumor Laterality | Lymph nodes examined positive | Mutation Count | Nottingham prognostic index | Oncotree Code | Overall Survival (Months) | Overall Survival Status | PR Status | Radio Therapy | Relapse Free Status (Months) | Relapse Free Status | Sex | 3-Gene classifier subtype | Tumor Size | Tumor Stage | Patient's Vital Status
+resolved: patient=NA age=NA sex=NA stage=NA size=NA os=NA osstat=NA chemo=NA er=NA her2=NA
+Error in data.frame(Table = tname, Variable = varlab, Level_Time = character(0),  : 
+  arguments imply differing number of rows: 1, 0
+Calls: rbind -> rbind -> mk_freq_rows -> data.frame
+Execution halted

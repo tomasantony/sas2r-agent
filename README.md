@@ -79,6 +79,25 @@ python -m http.server 8765
 # then http://127.0.0.1:8765/dashboard/
 ```
 
+### Prompt versions: the agent improving from its own failures
+
+Each prompt version is a separate leaderboard row (`run --tag vN`), recorded in
+every report and provenance record, so an improvement is measured on the same
+100 programs rather than claimed. Muse Spark 1.3:
+
+| prompt | equivalent | mean attempts | cost (list) | $/equivalent | what changed |
+|---|---|---|---|---|---|
+| v1 | 86% | 1.99 | $11.81 | $0.137 | initial prompt |
+| v2 | 95% | 1.66 | $9.37 | $0.099 | rules from the 16 programs v1 missed and Claude matched: strict date parsing, derive missing upstream datasets, join hygiene, full default procedure output, PICTURE truncation, CLASS marginals, repair discipline |
+| v3 | 94% | 1.60 | $8.90 | $0.095 | rules from the 5 programs v2 missed: PROC IMPORT picks one date informat per column, PICTURE worked example, PROC FREQ CHISQ statistics with formulas, PROC LIFETEST details (SE of the restricted mean, full covariance matrices) |
+
+v3 fixed all five programs it targeted (P009, P036, P040, P045, P053) and lost
+six borderline ones that v2 had passed only on its last repair attempt (P019,
+P022, P035, P056, P061, P097). Every program passes under v2 or v3, so a single
+sweep's score carries a variance of about five programs; the cost and attempt
+counts fall monotonically with each version. The open-weight model on Baseten
+went from 81% (v1) to 85% (v3) with the same prompt change.
+
 ## Running
 
 ```

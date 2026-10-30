@@ -1,0 +1,33 @@
+The Round-To-Even Function
+
+Comparison of ROUND and ROUNDE Functions
+
+x        Round(x)   RoundE(x) 
+0        0          0         
+0.25     0          0         
+0.5      1          0         
+0.75     1          1         
+1        1          1         
+1.25     1          1         
+1.5      2          2         
+1.75     2          2         
+2        2          2         
+2.25     2          2         
+2.5      3          2         
+2.75     3          3         
+3        3          3         
+3.25     3          3         
+3.5      4          4         
+
+Summary Statistics for True, Rounded and Round-to-Even Values
+
+Variable             Sum          Mean        
+True values          429.530      1.011       
+Rounded values       432.800      1.018       
+Round-to-even values 430.800      1.014       
+
+Proportion Rounded Up
+
+Variable                            Mean        
+Proportion rounded up for ROUND     0.560       
+Proportion rounded up for ROUNDE    0.513       

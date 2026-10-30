@@ -1,0 +1,16 @@
+sandbox: docker run --rm --name sas2r-27a577191363 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v3\P080\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Reading /bench/data/raw/own-synthetic/adam/adtte.sas7bdat
+Reading /bench/data/raw/own-synthetic/adam/adsl.sas7bdat
+EFF rows before filter: 720
+EFF N=222
+[1] "C"
+[1] "en_US.UTF-8"
+TRT levels: Placebo | Drug X High Dose | Drug X Low Dose ref=Placebo
+Warning message:
+`geom_errorbarh()` was deprecated in ggplot2 4.0.0.
+ℹ Please use the `orientation` argument of `geom_errorbar()` instead. 
+`height` was translated to `width`.
+Warning message:
+In scale_x_continuous(trans = "log2", breaks = brks, labels = as.character(brks),  :
+  log-2 transformation introduced infinite values.
+Done. Rows=24

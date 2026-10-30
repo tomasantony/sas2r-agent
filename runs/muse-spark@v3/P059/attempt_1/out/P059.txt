@@ -1,0 +1,34 @@
+Study001
+Table 14.2-PPTS (Page xxx of xxx)
+Summary statistics for PK parameters
+by compound, matrix, analyte and actual treatment
+Analysis Set: PK analysis set
+
+
+Compound: A, Matrix: Plasma, Analyte: ANAL 2
+
+Actual treatment     Period d Statistic      AUC (h*ng/mL)       AUC(0-tlast) (h*ng/ Cmax (ng/mL)        MRT (h)             t1/2 (h)            tmax (h)           
+____________________________________________________________________________________________________________________________________________________________________
+Period 1 Treatment   1        n              28                  28                  28                  28                  28                  28
+                              Mean (SD)      179086 (51236)      178329 (51074)      17594 (3849)        11 (   2)           10 (   2)
+                              CV% mean       29                  29                  22                  18                  18
+                              Geo-mean       172781              172027              17169               11                  10
+                              CV% geo-mean   27                  27                  23                  18                  19
+                              Median         168077              167366              16500               11                  9                   2
+                              [Min; Max]     [112551;320138]     [111868;318576]     [7920;26400]        [   8;  15]         [   7;  13]         [   2;   4]
+
+Period 3 Treatment   1        n              27                  27                  27                  27                  27                  27
+                              Mean (SD)      181011 (42815)      180257 (42636)      18063 (2943)        11 (   2)           11 (   2)
+                              CV% mean       24                  24                  16                  18                  22
+                              Geo-mean       176289              175546              17825               11                  10
+                              CV% geo-mean   24                  24                  17                  18                  23
+                              Median         175057              174482              18100               12                  11                  2
+                              [Min; Max]     [122937;275181]     [122269;273468]     [11500;23700]       [   9;  15]         [   7;  15]         [   2;   4]
+
+
+CV% = coefficient of variation (%) = sd/mean*100
+CV% geo-mean = (sqrt(exp(variance for log transformed data)-1))*100
+Geo-mean: Geometric mean
+Geo-mean and CV% geo-mean not presented when the minimum value for a parameter is zero.
+Data: adpp  Program: pps.sas  Output: t.14.2.ppts.txt
+Fake Data/ Production Run on 17MAR2014:23:57

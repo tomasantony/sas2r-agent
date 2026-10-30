@@ -1,0 +1,26 @@
+Table 14.5-02: Summary of Serious Treatment-Emergent Adverse Events by System Organ Class and Preferred Term
+(Safety Population: Subjects with SAFFL='Y'; Serious TEAE: TRTEMFL='Y' and AESER='Y')
+Placebo (N=86)  1 (N=0)  2 (N=0) 
+Cell shows n (%) [number of events]; p-values from Fisher's Exact Test (two-sided) vs Placebo
+
+System Organ Class / Preferred Term           | Placebo (N=86)     | Low (N=0)          | High (N=0)         | Low vs PBO | High vs PBO 
+--------------------------------------------------------------------------------------------------------------------------------------- 
+Subjects with Serious TEAE                    | 0 (0.0%) [0]       | 0 (NA%) [0]        | 0 (NA%) [0]        | 1.0000     | 1.0000     
+NERVOUS SYSTEM DISORDERS                      | 0 (0.0%) [0]       | 0 (NA%) [0]        | 0 (NA%) [0]        | 1.0000     | 1.0000     
+    PARTIAL SEIZURES WITH SECONDARY GENERALIS | 0 (0.0%) [0]       | 0 (NA%) [0]        | 0 (NA%) [0]        | 1.0000     | 1.0000     
+    SYNCOPE                                   | 0 (0.0%) [0]       | 0 (NA%) [0]        | 0 (NA%) [0]        | 1.0000     | 1.0000     
+
+Notes:
+N = number of safety subjects per treatment (TRT01AN/TRTAN: 0=Placebo, 1=Low, 2=High).
+n = number of subjects with event; % = 100*n/N (8.1 format, 1 decimal); [events] = total events.
+Fisher's Exact Test: BY AEDECOD/AEBODSYS for TRTAN in (0,2) and (0,1), TABLE TRTAN*EVENT / EXACT;
+two-sided p-value (XP2_FISH) shown; '<.0001' if <0.0001, else 4 decimals.
+Overall Low vs Placebo p=1.0000; Overall High vs Placebo p=1.0000 (N Low+PBO=86, N High+PBO=86).
+
+Fisher detail (2x2 counts TRTAN x EVENT[0,1], N=table total):
+Subject level High vs Placebo: N=86 [0,0]=86 [0,1]=0 [2,0]=0 [2,1]=0 p=1.0000 
+Subject level Low vs Placebo: N=86 [0,0]=86 [0,1]=0 [1,0]=0 [1,1]=0 p=1.0000 
+SOC 'NERVOUS SYSTEM DISORDERS' High vs PBO: N=86 [0,0]=86 [0,1]=0 [2,0]=0 [2,1]=0 p=1.0000 
+SOC 'NERVOUS SYSTEM DISORDERS' Low vs PBO: N=86 [0,0]=86 [0,1]=0 [1,0]=0 [1,1]=0 p=1.0000 
+PT 'PARTIAL SEIZURES WITH SECONDARY GENERALISATION' High vs PBO: N=86 p=1.0000; Low vs PBO: N=86 p=1.0000 
+PT 'SYNCOPE' High vs PBO: N=86 p=1.0000; Low vs PBO: N=86 p=1.0000 

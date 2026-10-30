@@ -1,0 +1,3 @@
+sandbox: docker run --rm --name sas2r-96daac71b32c --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v3\P067\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Reading raw_ae from /bench/data/derived/wxzhai/raw/raw_ae.sas7bdat
+Reading dm from /bench/data/derived/wxzhai/sdtm/dm.sas7bdat

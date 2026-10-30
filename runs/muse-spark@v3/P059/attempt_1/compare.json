@@ -1,0 +1,39 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.5806451612903226,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P059.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.5806451612903226,
+   "detail": {
+    "recall": 0.5806451612903226,
+    "expected": 124,
+    "found": 72,
+    "r_files": [
+     "adpp_sum.csv",
+     "CLXCHECKNOBS.csv",
+     "P059.csv",
+     "P059.txt"
+    ],
+    "missing_examples": [
+     "14.2",
+     "11.4",
+     "2.02",
+     "28.6",
+     "21.9",
+     "17.7",
+     "11.2",
+     "27.3",
+     "23.5",
+     "17.6",
+     "8.34",
+     "15.4"
+    ]
+   }
+  }
+ ]
+}

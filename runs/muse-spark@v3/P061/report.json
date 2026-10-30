@@ -1,0 +1,56 @@
+{
+ "id": "P061",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "family": "sumit",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": false,
+ "best_score": 0.9837861274101131,
+ "iterations": 3,
+ "input_tokens": 37796,
+ "output_tokens": 40553,
+ "seconds": 164.77292919158936,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 1,
+   "seconds_r": 2.516800880432129,
+   "input_tokens": 3708,
+   "output_tokens": 19890,
+   "seconds_llm": 80.29867815971375,
+   "produced_all": false,
+   "equivalent": false,
+   "score": 0.0,
+   "note": ""
+  },
+  {
+   "n": 2,
+   "rc": 1,
+   "seconds_r": 2.7089669704437256,
+   "input_tokens": 12161,
+   "output_tokens": 10593,
+   "seconds_llm": 37.85253858566284,
+   "produced_all": false,
+   "equivalent": false,
+   "score": 0.0029930299166006052,
+   "note": ""
+  },
+  {
+   "n": 3,
+   "rc": 0,
+   "seconds_r": 6.166383266448975,
+   "input_tokens": 21927,
+   "output_tokens": 10070,
+   "seconds_llm": 34.69107794761658,
+   "produced_all": true,
+   "equivalent": false,
+   "score": 0.9837861274101131,
+   "note": ""
+  }
+ ],
+ "best_attempt": 3,
+ "prompt_version": 3,
+ "run_name": "muse-spark@v3"
+}

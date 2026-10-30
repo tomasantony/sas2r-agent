@@ -1,0 +1,81 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P046",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 3,
+ "prompt_version": 3,
+ "run_name": "muse-spark@v3",
+ "recorded_at": "2026-10-30T02:12:01",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 10770,
+  "output_tokens": 13279,
+  "reasoning_tokens": 9646,
+  "finish_reason": "stop",
+  "seconds": 75.6
+ },
+ "inputs": {
+  "prompt_translate.md": "1bfbc0512a96eb82bfe535ac2c5e20c0fc9f8ecf5e66224a3c419642c02e222b"
+ },
+ "model_output": {
+  "response.md": "79a360a060fa08c1d0f2a03d77bbd27582bb2985affd8b7cc11617a8a334908c",
+  "script.R": "12d3d0d81adbf57c56aa598471f52dede3930b5e5435a03ccde58ae803e1a7bc"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 3.6,
+  "timed_out": false,
+  "log_sha256": "5de358056e2698eafbaafcb45216c0f1f9d0a492a69d69f88ac12050685cca8e"
+ },
+ "r_outputs": {
+  "P046.csv": "54c2f969951a5b00f00b93fd0e9f6299fb0a25ced70df969344e9c5e56305ab0",
+  "P046.lst": "1ab0341ff6e695690a644bd02fd501886e640d8cd92d39762bdd8611d0c4f5c6",
+  "P046.txt": "1ab0341ff6e695690a644bd02fd501886e640d8cd92d39762bdd8611d0c4f5c6",
+  "regout.csv": "f02a61f20a4e664672890ac5409df051459eb7e418ec6ad1178b27918827f8dc",
+  "sgplot.csv": "2c76fab8cbccef21f1828ab48ed891892bc94e42049222c2851148b8d2f370d1",
+  "sgplot.png": "3a7cf45d4d36f4c02f74bd257ef8cba87cee382a69d80c38949b982b7453ef98",
+  "sgplot1.csv": "e0fb002e30bff0b6166f7843ff0dac0517d8e3f56b564da7471466216e51c3ee",
+  "sgplot1.png": "ad1c254e3cb0084c1b8e293c53efca467f600f94ff91d28d268448c6ce7a5ffd"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P046.lst",
+   "sha256": "7ebfc1a7322471cdc03bd231b1aa1de3905930aec02d3647f1c71c3478b4c52b",
+   "frozen_sha256": "7ebfc1a7322471cdc03bd231b1aa1de3905930aec02d3647f1c71c3478b4c52b",
+   "ok": true
+  },
+  {
+   "file": "datasets/P046/SGPlot.png",
+   "sha256": "8fb37c21f46e31f2ac07681e2428db61dc42b8ff986dc9df31e0f10be4e51f63",
+   "frozen_sha256": "8fb37c21f46e31f2ac07681e2428db61dc42b8ff986dc9df31e0f10be4e51f63",
+   "ok": true
+  },
+  {
+   "file": "datasets/P046/SGPlot1.png",
+   "sha256": "1ce964a39384da1cc7cdbdbc375365cee65a7e9129d080e0a816e0520f0faca2",
+   "frozen_sha256": "1ce964a39384da1cc7cdbdbc375365cee65a7e9129d080e0a816e0520f0faca2",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

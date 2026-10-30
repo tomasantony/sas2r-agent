@@ -1,0 +1,66 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P025",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark@v3",
+ "recorded_at": "2026-10-30T01:39:22",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 10153,
+  "output_tokens": 10083,
+  "reasoning_tokens": 4817,
+  "finish_reason": "stop",
+  "seconds": 45.8
+ },
+ "inputs": {
+  "prompt_translate.md": "9a6405252acdf2e25378ec0bc80ea8be86a6a2cc43fe351a2f0a35f44384179b"
+ },
+ "model_output": {
+  "response.md": "1bb9af86ffb55d533f59fa5dc64dcee9455691e4ffa52069d05e0c85c3999fd4",
+  "script.R": "6d2d6f627224497d747e99a5ea91021d8c3997e4ffe59f6fc575d9c5a6828e88"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 1.5,
+  "timed_out": false,
+  "log_sha256": "2e214ad585c11fc8dda6735b78db36c3de94396f46f45602f1d309fb5bf734ae"
+ },
+ "r_outputs": {
+  "P025.csv": "0c3f8600acbbd4cc5368c6e373863245fa93fb0ee46f79653bd02ffe252b94c7",
+  "P025.lst": "2862eefeb1284b6acfbcd691c6b59c1e95aff5808a7c5341eb477ee8a5845155",
+  "P025.lst.csv": "0c3f8600acbbd4cc5368c6e373863245fa93fb0ee46f79653bd02ffe252b94c7",
+  "P025.txt": "2862eefeb1284b6acfbcd691c6b59c1e95aff5808a7c5341eb477ee8a5845155",
+  "P025_table.csv": "bde2bf443c6a288aaa21ffb3f8a027c3b309745c69109d8c62248bbeb8fa7ce9"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P025.lst",
+   "sha256": "e9cb01f389e83c4c6525d2a1fb21ab1d3f71dc052aee721975a511471b4d795b",
+   "frozen_sha256": "e9cb01f389e83c4c6525d2a1fb21ab1d3f71dc052aee721975a511471b4d795b",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": true,
+  "score": 1.0,
+  "produced_all": true
+ }
+}

@@ -1,0 +1,11 @@
+P052_outliers_Scatter_MeanTime
+Range for equated axes (DIABP, ATPTN=815, ANL01FL=Y, ADY>1, SAFFL=Y)
+
+                 min_base     max_base     min_aval     max_aval
+Value                  40           98           41           90
+
+Equated axis viewmin (min) = 40
+Equated axis viewmax (max) = 98
+Distinct STUDYID (count_study) = 1
+Panel columns = 2  rows = 1
+N observations plotted (advsmax_final3) = 250

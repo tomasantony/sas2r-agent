@@ -1,0 +1,38 @@
+"STUDYID","USUBJID","TRTP","TRTPN","SAFFL","TRTSDT","TRTEDT","AGE","SEX","PARAMCD","PARAM","PARAMN","AVAL","AVALU","ASTDT","AENDT","ASTDY","AENDY","EXDURN","DOSINTFL","DOSEADFL","EXTRT","EXDOSE","EXDOSU","EXDOSFRM","EXROUTE","EXSEQ","AVISIT","AVISITN","ASEQ","DOSECAT"
+"STUDY01","STUDY01-1001","Treatment A",1,"Y","2024-01-15","2024-06-15",59,"M","DOSE","Dose",1,100,"mg","2024-01-15","2024-01-28",1,14,14,"N","N","Treatment A",100,"mg","TABLET","ORAL",1,"Week 1-2",1,1,"Medium"
+"STUDY01","STUDY01-1001","Treatment A",1,"Y","2024-01-15","2024-06-15",59,"M","DOSE","Dose",1,100,"mg","2024-01-29","2024-02-11",15,28,14,"N","N","Treatment A",100,"mg","TABLET","ORAL",2,"Week 3-4",2,2,"Medium"
+"STUDY01","STUDY01-1001","Treatment A",1,"Y","2024-01-15","2024-06-15",59,"M","DOSE","Dose",1,150,"mg","2024-02-12","2024-03-10",29,56,28,"N","Y","Treatment A",150,"mg","TABLET","ORAL",3,"Week 5-8",3,3,"High"
+"STUDY01","STUDY01-1001","Treatment A",1,"Y","2024-01-15","2024-06-15",59,"M","DOSE","Dose",1,150,"mg","2024-03-11","2024-06-15",57,153,97,"N","N","Treatment A",150,"mg","TABLET","ORAL",4,"Week 9+",4,4,"High"
+"STUDY01","STUDY01-1001","Treatment A",1,"Y","2024-01-15","2024-06-15",59,"M","TOTDUR","Total Exposure Duration (Days)",2,153,"days","","",,,,,,,,,,,,,,5,
+"STUDY01","STUDY01-1001","Treatment A",1,"Y","2024-01-15","2024-06-15",59,"M","AVGDOSE","Average Daily Dose",3,140.849673202614,"mg","","",,,,,,,,,,,,,,6,
+"STUDY01","STUDY01-1001","Treatment A",1,"Y","2024-01-15","2024-06-15",59,"M","MAXDOSE","Maximum Dose",4,150,"mg","","",,,,,,,,,,,,,,7,
+"STUDY01","STUDY01-1001","Treatment A",1,"Y","2024-01-15","2024-06-15",59,"M","CUMDOSE","Cumulative Dose",5,21550,"mg","","",,,,,,,,,,,,,,8,
+"STUDY01","STUDY01-1001","Treatment A",1,"Y","2024-01-15","2024-06-15",59,"M","NDOSADJ","Number of Dose Adjustments",6,1,"","","",,,,,,,,,,,,,,9,
+"STUDY01","STUDY01-1002","Placebo",2,"Y","2024-01-18","2024-06-18",45,"F","DOSE","Dose",1,0,"mg","2024-01-18","2024-02-14",1,28,28,"N","N","Placebo",0,"mg","TABLET","ORAL",1,"Week 1-4",1,1,"Placebo"
+"STUDY01","STUDY01-1002","Placebo",2,"Y","2024-01-18","2024-06-18",45,"F","DOSE","Dose",1,0,"mg","2024-02-15","2024-06-18",29,153,125,"N","N","Placebo",0,"mg","TABLET","ORAL",2,"Week 5+",2,2,"Placebo"
+"STUDY01","STUDY01-1002","Placebo",2,"Y","2024-01-18","2024-06-18",45,"F","TOTDUR","Total Exposure Duration (Days)",2,153,"days","","",,,,,,,,,,,,,,3,
+"STUDY01","STUDY01-1002","Placebo",2,"Y","2024-01-18","2024-06-18",45,"F","NDOSADJ","Number of Dose Adjustments",6,0,"","","",,,,,,,,,,,,,,4,
+"STUDY01","STUDY01-1003","Treatment A",1,"Y","2024-01-20","2024-04-01",43,"M","DOSE","Dose",1,100,"mg","2024-01-20","2024-02-16",1,28,28,"N","N","Treatment A",100,"mg","TABLET","ORAL",1,"Week 1-4",1,1,"Medium"
+"STUDY01","STUDY01-1003","Treatment A",1,"Y","2024-01-20","2024-04-01",43,"M","DOSE","Dose",1,100,"mg","2024-02-17","2024-03-15",29,56,28,"N","N","Treatment A",100,"mg","TABLET","ORAL",2,"Week 5-8",2,2,"Medium"
+"STUDY01","STUDY01-1003","Treatment A",1,"Y","2024-01-20","2024-04-01",43,"M","DOSE","Dose",1,50,"mg","2024-03-16","2024-04-01",57,73,17,"N","Y","Treatment A",50,"mg","TABLET","ORAL",3,"Week 9+",3,3,"Low"
+"STUDY01","STUDY01-1003","Treatment A",1,"Y","2024-01-20","2024-04-01",43,"M","TOTDUR","Total Exposure Duration (Days)",2,73,"days","","",,,,,,,,,,,,,,4,
+"STUDY01","STUDY01-1003","Treatment A",1,"Y","2024-01-20","2024-04-01",43,"M","AVGDOSE","Average Daily Dose",3,88.3561643835616,"mg","","",,,,,,,,,,,,,,5,
+"STUDY01","STUDY01-1003","Treatment A",1,"Y","2024-01-20","2024-04-01",43,"M","MAXDOSE","Maximum Dose",4,100,"mg","","",,,,,,,,,,,,,,6,
+"STUDY01","STUDY01-1003","Treatment A",1,"Y","2024-01-20","2024-04-01",43,"M","CUMDOSE","Cumulative Dose",5,6450,"mg","","",,,,,,,,,,,,,,7,
+"STUDY01","STUDY01-1003","Treatment A",1,"Y","2024-01-20","2024-04-01",43,"M","NDOSADJ","Number of Dose Adjustments",6,1,"","","",,,,,,,,,,,,,,8,
+"STUDY01","STUDY01-1004","Treatment A",1,"Y","2024-01-25","2024-06-25",51,"F","DOSE","Dose",1,100,"mg","2024-01-25","2024-06-25",1,153,153,"N","N","Treatment A",100,"mg","TABLET","ORAL",1,"All",1,1,"Medium"
+"STUDY01","STUDY01-1004","Treatment A",1,"Y","2024-01-25","2024-06-25",51,"F","TOTDUR","Total Exposure Duration (Days)",2,153,"days","","",,,,,,,,,,,,,,2,
+"STUDY01","STUDY01-1004","Treatment A",1,"Y","2024-01-25","2024-06-25",51,"F","AVGDOSE","Average Daily Dose",3,100,"mg","","",,,,,,,,,,,,,,3,
+"STUDY01","STUDY01-1004","Treatment A",1,"Y","2024-01-25","2024-06-25",51,"F","MAXDOSE","Maximum Dose",4,100,"mg","","",,,,,,,,,,,,,,4,
+"STUDY01","STUDY01-1004","Treatment A",1,"Y","2024-01-25","2024-06-25",51,"F","CUMDOSE","Cumulative Dose",5,15300,"mg","","",,,,,,,,,,,,,,5,
+"STUDY01","STUDY01-1004","Treatment A",1,"Y","2024-01-25","2024-06-25",51,"F","NDOSADJ","Number of Dose Adjustments",6,0,"","","",,,,,,,,,,,,,,6,
+"STUDY01","STUDY01-1005","Placebo",2,"Y","2024-01-28","",36,"M","DOSE","Dose",1,0,"mg","2024-01-28","",1,,,"N","N","Placebo",0,"mg","TABLET","ORAL",1,"All",1,1,"Placebo"
+"STUDY01","STUDY01-1005","Placebo",2,"Y","2024-01-28","",36,"M","TOTDUR","Total Exposure Duration (Days)",2,,"days","","",,,,,,,,,,,,,,2,
+"STUDY01","STUDY01-1005","Placebo",2,"Y","2024-01-28","",36,"M","NDOSADJ","Number of Dose Adjustments",6,0,"","","",,,,,,,,,,,,,,3,
+"STUDY01","STUDY01-1006","Treatment A",1,"Y","2024-01-30","2024-07-01",68,"F","DOSE","Dose",1,100,"mg","2024-01-30","2024-03-30",1,61,61,"N","N","Treatment A",100,"mg","TABLET","ORAL",1,"Week 1-8",1,1,"Medium"
+"STUDY01","STUDY01-1006","Treatment A",1,"Y","2024-01-30","2024-07-01",68,"F","DOSE","Dose",1,150,"mg","2024-03-31","2024-07-01",62,154,93,"N","Y","Treatment A",150,"mg","TABLET","ORAL",2,"Week 9+",2,2,"High"
+"STUDY01","STUDY01-1006","Treatment A",1,"Y","2024-01-30","2024-07-01",68,"F","TOTDUR","Total Exposure Duration (Days)",2,154,"days","","",,,,,,,,,,,,,,3,
+"STUDY01","STUDY01-1006","Treatment A",1,"Y","2024-01-30","2024-07-01",68,"F","AVGDOSE","Average Daily Dose",3,130.194805194805,"mg","","",,,,,,,,,,,,,,4,
+"STUDY01","STUDY01-1006","Treatment A",1,"Y","2024-01-30","2024-07-01",68,"F","MAXDOSE","Maximum Dose",4,150,"mg","","",,,,,,,,,,,,,,5,
+"STUDY01","STUDY01-1006","Treatment A",1,"Y","2024-01-30","2024-07-01",68,"F","CUMDOSE","Cumulative Dose",5,20050,"mg","","",,,,,,,,,,,,,,6,
+"STUDY01","STUDY01-1006","Treatment A",1,"Y","2024-01-30","2024-07-01",68,"F","NDOSADJ","Number of Dose Adjustments",6,1,"","","",,,,,,,,,,,,,,7,

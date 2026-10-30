@@ -1,0 +1,100 @@
+Figure 1: Kaplan-Meier Event-Free Survival by Treatment
+Population: Safety Population
+
+The LIFETEST Procedure
+
+Stratum: TRT01A = Active Drug 50mg
+
+Product-Limit Survival Estimates
+AVAL         Survival   Failure    Survival SE    Failed     Left       Censor
+3            0.9524     0.0476     0.0465         1          20         
+15           0.9048     0.0952     0.0641         2          19         
+17           0.8571     0.1429     0.0764         3          18         
+23           0.8095     0.1905     0.0857         4          16         *
+30           0.7589     0.2411     0.0941         5          15         
+32           0.7083     0.2917     0.1005         6          14         
+36           0.6577     0.3423     0.1053         7          13         
+52           0.6071     0.3929     0.1087         8          12         
+66           0.5565     0.4435     0.1108         9          11         
+67           0.5060     0.4940     0.1117         10         10         
+68           0.5060     0.4940     0.1117         10         9          *
+69           0.4497     0.5503     0.1125         11         8          
+80           0.4497     0.5503     0.1125         11         7          *
+81           0.4497     0.5503     0.1125         11         6          *
+82           0.4497     0.5503     0.1125         11         5          *
+83           0.3598     0.6402     0.1207         12         2          *
+84           0.3598     0.6402     0.1207         12         0          *
+
+Quartile Estimates
+Percent    Point Estimate 95% Transform CI Lower Upper
+25         .              69.000         .             
+50         69.000         32.000         .             
+75         32.000         3.000          66.000        
+
+Mean and Standard Error (Restricted to largest event time)
+Mean           Std Error     
+58.287         6.390         
+
+Stratum: TRT01A = Placebo
+
+Product-Limit Survival Estimates
+AVAL         Survival   Failure    Survival SE    Failed     Left       Censor
+4            0.9615     0.0385     0.0377         1          25         
+9            0.9231     0.0769     0.0523         2          24         
+12           0.8846     0.1154     0.0627         3          23         
+13           0.8077     0.1923     0.0773         5          21         
+16           0.7692     0.2308     0.0826         6          20         
+17           0.7308     0.2692     0.0870         7          19         
+21           0.6538     0.3462     0.0933         9          17         
+24           0.5769     0.4231     0.0969         11         15         
+26           0.5385     0.4615     0.0978         12         14         
+28           0.5385     0.4615     0.0978         12         13         *
+40           0.4970     0.5030     0.0986         13         12         
+41           0.4970     0.5030     0.0986         13         11         *
+44           0.4519     0.5481     0.0995         14         10         
+46           0.4519     0.5481     0.0995         14         9          *
+51           0.4519     0.5481     0.0995         14         8          *
+62           0.3954     0.6046     0.1018         15         7          
+80           0.3954     0.6046     0.1018         15         5          *
+81           0.3954     0.6046     0.1018         15         4          *
+82           0.3954     0.6046     0.1018         15         2          *
+83           0.3954     0.6046     0.1018         15         1          *
+84           0.3954     0.6046     0.1018         15         0          *
+
+Quartile Estimates
+Percent    Point Estimate 95% Transform CI Lower Upper
+25         .              62.000         .             
+50         40.000         21.000         .             
+75         17.000         9.000          24.000        
+
+Mean and Standard Error (Restricted to largest event time)
+Mean           Std Error     
+39.352         4.508         
+
+Summary of the Number of Censored and Uncensored Values
+Stratum                        Total    Failed   Censored   Pct Censored
+Active Drug 50mg               21       12       9          42.86       
+Placebo                        26       15       11         42.31       
+
+Rank Statistics
+Stratum                        Log-Rank       Log-Rank SE    Wilcoxon       Wilcoxon SE   
+Active Drug 50mg               -2.0072        2.5630         -106.0000      87.0178       
+Placebo                        2.0072         2.5630         106.0000       87.0178       
+
+Covariance Matrix for the Log-Rank Statistics
+Stratum                       Active Drug 50mg Placebo       
+Active Drug 50mg              6.5688 -6.5688
+Placebo                       -6.5688 6.5688
+
+Covariance Matrix for the Wilcoxon Statistics
+Stratum                       Active Drug 50mg Placebo       
+Active Drug 50mg              7572.0952 -7572.0952
+Placebo                       -7572.0952 7572.0952
+
+Test of Equality over Strata
+Test         Chi-Square   DF     Pr > Chi-Square
+Log-Rank     0.6133       1      0.4335      
+Wilcoxon     1.4839       1      0.2232      
+-2Log(LR)    0.5717       1      0.4496      
+
+Sample Size = 47

@@ -1,0 +1,61 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9227053140096618,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P026.lst",
+   "r_file": null,
+   "status": "ok",
+   "score": 0.9565217391304348,
+   "detail": {
+    "recall": 0.9565217391304348,
+    "expected": 92,
+    "found": 88,
+    "r_files": [
+     "lb.csv",
+     "P026.csv",
+     "P026.txt"
+    ],
+    "missing_examples": [
+     "6",
+     "-3"
+    ]
+   }
+  },
+  {
+   "kind": "dataset",
+   "name": "lb",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@v3\\P026\\attempt_2\\out\\lb.csv",
+   "status": "mismatch",
+   "score": 0.8888888888888888,
+   "detail": {
+    "rows_sas": 6,
+    "rows_r": 6,
+    "cols_sas": 18,
+    "cols_r": 18,
+    "missing_cols": [],
+    "extra_cols": [],
+    "cell_match": 0.8888888888888888,
+    "row_match_mode": "positional",
+    "mismatch_examples": [
+     "(LBTEST, 1, 'Hemoglobin', nan)",
+     "(LBTEST, 2, 'Alanine Aminotransferase', nan)",
+     "(LBTEST, 3, 'Hemoglobin', nan)",
+     "(LBTEST, 4, 'Alanine Aminotransferase', nan)",
+     "(LBTEST, 5, 'Hemoglobin', nan)",
+     "(LBTEST, 6, 'Hemoglobin', nan)",
+     "(LBSTDY, 1, -3, '-13')",
+     "(LBSTDY, 2, -3, '-13')",
+     "(LBSTDY, 3, -5, '-10')",
+     "(LBSTDY, 4, -5, '-10')"
+    ],
+    "worst_columns": {
+     "LBTEST": 6,
+     "LBSTDY": 6
+    }
+   }
+  }
+ ]
+}

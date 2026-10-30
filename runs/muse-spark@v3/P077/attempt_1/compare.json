@@ -1,0 +1,24 @@
+{
+ "produced_all": true,
+ "equivalent": true,
+ "score": 1.0,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "l_death.rtf",
+   "r_file": null,
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "recall": 1.0,
+    "expected": 46,
+    "found": 46,
+    "r_files": [
+     "l_death.csv",
+     "l_death.txt"
+    ],
+    "missing_examples": []
+   }
+  }
+ ]
+}

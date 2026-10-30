@@ -1,0 +1,97 @@
+(page x of x)
+Figure 16.2.5-x.x Individual concentration-time profiles
+by compound, matrix, analyte and [actual/randomised][treatments/group]
+Analysis Set : PK analysis set
+
+Plot: AVAL (Conc (ug/mL)) * EACTM (Time (hour))  BY USUBJID PARCAT1
+Number of BY groups: 84
+Number of plotted observations (non-missing AVAL and EACTM): 2460
+
+Summary by USUBJID / PARCAT1:
+USUBJID / PARCAT1                             N     MIN_TIME     MAX_TIME     MIN_CONC     MAX_CONC
+Study001_1001001 / DRUG ANAL 1 Plasma        30       0.0000      96.0333       0.0000    6440.0000
+Study001_1001001 / DRUG ANAL 2 Plasma        30       0.0000      96.0333       0.0000   26400.0000
+Study001_1001001 / DRUG ANAL 3 Plasma        30       0.0000      96.0333       0.0000   10900.0000
+Study001_1001002 / DRUG ANAL 1 Plasma        30       0.0000      96.0167       0.0000    2320.0000
+Study001_1001002 / DRUG ANAL 2 Plasma        30       0.0000      96.0167       0.0000   11500.0000
+Study001_1001002 / DRUG ANAL 3 Plasma        30       0.0000      96.0167       0.0000    8700.0000
+Study001_1001003 / DRUG ANAL 1 Plasma        30       0.0000      96.0000       0.0000    4170.0000
+Study001_1001003 / DRUG ANAL 2 Plasma        30       0.0000      96.0000       0.0000   21700.0000
+Study001_1001003 / DRUG ANAL 3 Plasma        30       0.0000      96.0000       0.0000    2880.0000
+Study001_1001004 / DRUG ANAL 1 Plasma        15       0.0000      96.0000       0.0000    4440.0000
+Study001_1001004 / DRUG ANAL 2 Plasma        15       0.0000      96.0000       0.0000   17600.0000
+Study001_1001004 / DRUG ANAL 3 Plasma        15       0.0000      96.0000       0.0000    5990.0000
+Study001_1001005 / DRUG ANAL 1 Plasma        30       0.0000      96.0000       0.0000    6580.0000
+Study001_1001005 / DRUG ANAL 2 Plasma        30       0.0000      96.0000       0.0000   19100.0000
+Study001_1001005 / DRUG ANAL 3 Plasma        30       0.0000      96.0000       0.0000    5140.0000
+Study001_1001006 / DRUG ANAL 1 Plasma        30       0.0000      96.0000       0.0000    1880.0000
+Study001_1001006 / DRUG ANAL 2 Plasma        30       0.0000      96.0000       0.0000   16300.0000
+Study001_1001006 / DRUG ANAL 3 Plasma        30       0.0000      96.0000       0.0000    6860.0000
+Study001_1001007 / DRUG ANAL 1 Plasma        29       0.0000      96.0000       0.0000    2290.0000
+Study001_1001007 / DRUG ANAL 2 Plasma        29       0.0000      96.0000       0.0000   16300.0000
+Study001_1001007 / DRUG ANAL 3 Plasma        29       0.0000      96.0000       0.0000    4230.0000
+Study001_1001008 / DRUG ANAL 1 Plasma        30       0.0000      96.0000       0.0000    6250.0000
+Study001_1001008 / DRUG ANAL 2 Plasma        30       0.0000      96.0000       0.0000   18700.0000
+Study001_1001008 / DRUG ANAL 3 Plasma        30       0.0000      96.0000       0.0000    5030.0000
+Study001_1001009 / DRUG ANAL 1 Plasma        30       0.0000      96.0000       0.0000    4870.0000
+Study001_1001009 / DRUG ANAL 2 Plasma        30       0.0000      96.0000       0.0000   22300.0000
+Study001_1001009 / DRUG ANAL 3 Plasma        30       0.0000      96.0000       0.0000    3400.0000
+Study001_1001010 / DRUG ANAL 1 Plasma        30       0.0000      96.0000       0.0000    7960.0000
+Study001_1001010 / DRUG ANAL 2 Plasma        30       0.0000      96.0000       0.0000   17500.0000
+Study001_1001010 / DRUG ANAL 3 Plasma        30       0.0000      96.0000       0.0000    6440.0000
+Study001_1001011 / DRUG ANAL 1 Plasma        29       0.0000      96.0167       0.0000    4230.0000
+Study001_1001011 / DRUG ANAL 2 Plasma        29       0.0000      96.0167       0.0000   18200.0000
+Study001_1001011 / DRUG ANAL 3 Plasma        29       0.0000      96.0167       0.0000    6780.0000
+Study001_1001012 / DRUG ANAL 1 Plasma        27       0.0000      96.0167       0.0000    5810.0000
+Study001_1001012 / DRUG ANAL 2 Plasma        27       0.0000      96.0167       0.0000   18200.0000
+Study001_1001012 / DRUG ANAL 3 Plasma        27       0.0000      96.0167       0.0000    8660.0000
+Study001_1001013 / DRUG ANAL 1 Plasma        30       0.0000      96.0000       0.0000    2650.0000
+Study001_1001013 / DRUG ANAL 2 Plasma        30       0.0000      96.0000       0.0000   15700.0000
+Study001_1001013 / DRUG ANAL 3 Plasma        30       0.0000      96.0000       0.0000    7670.0000
+Study001_1001014 / DRUG ANAL 1 Plasma        30       0.0000      96.0000       0.0000    3380.0000
+Study001_1001014 / DRUG ANAL 2 Plasma        30       0.0000      96.0000       0.0000   16700.0000
+Study001_1001014 / DRUG ANAL 3 Plasma        30       0.0000      96.0000       0.0000    4410.0000
+Study001_1001015 / DRUG ANAL 1 Plasma        30       0.0000      96.0000       0.0000    3750.0000
+Study001_1001015 / DRUG ANAL 2 Plasma        30       0.0000      96.0000       0.0000   16300.0000
+Study001_1001015 / DRUG ANAL 3 Plasma        30       0.0000      96.0000       0.0000    9980.0000
+Study001_1001016 / DRUG ANAL 1 Plasma        30       0.0000      96.0167       0.0000    5340.0000
+Study001_1001016 / DRUG ANAL 2 Plasma        30       0.0000      96.0167       0.0000   17100.0000
+Study001_1001016 / DRUG ANAL 3 Plasma        30       0.0000      96.0167       0.0000    2300.0000
+Study001_1001017 / DRUG ANAL 1 Plasma        30       0.0000      96.0000       0.0000    4230.0000
+Study001_1001017 / DRUG ANAL 2 Plasma        30       0.0000      96.0000       0.0000   24900.0000
+Study001_1001017 / DRUG ANAL 3 Plasma        30       0.0000      96.0000       0.0000   13100.0000
+Study001_1001018 / DRUG ANAL 1 Plasma        30       0.0000      96.0000       0.0000    4260.0000
+Study001_1001018 / DRUG ANAL 2 Plasma        30       0.0000      96.0000       0.0000   22600.0000
+Study001_1001018 / DRUG ANAL 3 Plasma        30       0.0000      96.0000       0.0000    5540.0000
+Study001_1001019 / DRUG ANAL 1 Plasma        30       0.0000      96.0000       0.0000    4580.0000
+Study001_1001019 / DRUG ANAL 2 Plasma        30       0.0000      96.0000       0.0000   19500.0000
+Study001_1001019 / DRUG ANAL 3 Plasma        30       0.0000      96.0000       0.0000    4530.0000
+Study001_1001020 / DRUG ANAL 1 Plasma        30       0.0000      96.0167       0.0000    1740.0000
+Study001_1001020 / DRUG ANAL 2 Plasma        30       0.0000      96.0167       0.0000   16200.0000
+Study001_1001020 / DRUG ANAL 3 Plasma        30       0.0000      96.0167       0.0000    3860.0000
+Study001_1001021 / DRUG ANAL 1 Plasma        30       0.0000      96.0000       0.0000    5780.0000
+Study001_1001021 / DRUG ANAL 2 Plasma        30       0.0000      96.0000       0.0000   19200.0000
+Study001_1001021 / DRUG ANAL 3 Plasma        30       0.0000      96.0000       0.0000    5060.0000
+Study001_1001022 / DRUG ANAL 1 Plasma        30       0.0000      96.0000       0.0000    6230.0000
+Study001_1001022 / DRUG ANAL 2 Plasma        30       0.0000      96.0000       0.0000   24400.0000
+Study001_1001022 / DRUG ANAL 3 Plasma        30       0.0000      96.0000       0.0000    7620.0000
+Study001_1001023 / DRUG ANAL 1 Plasma        30       0.0000      96.0000       0.0000    2140.0000
+Study001_1001023 / DRUG ANAL 2 Plasma        30       0.0000      96.0000       0.0000   15400.0000
+Study001_1001023 / DRUG ANAL 3 Plasma        30       0.0000      96.0000       0.0000    3380.0000
+Study001_1001024 / DRUG ANAL 1 Plasma        30       0.0000      96.0167       0.0000    7720.0000
+Study001_1001024 / DRUG ANAL 2 Plasma        30       0.0000      96.0167       0.0000   19500.0000
+Study001_1001024 / DRUG ANAL 3 Plasma        30       0.0000      96.0167       0.0000    7910.0000
+Study001_1001025 / DRUG ANAL 1 Plasma        30       0.0000      96.0000       0.0000    6350.0000
+Study001_1001025 / DRUG ANAL 2 Plasma        30       0.0000      96.0000       0.0000   21200.0000
+Study001_1001025 / DRUG ANAL 3 Plasma        30       0.0000      96.0000       0.0000    5180.0000
+Study001_1001026 / DRUG ANAL 1 Plasma        30       0.0000      96.0000       0.0000    2360.0000
+Study001_1001026 / DRUG ANAL 2 Plasma        30       0.0000      96.0000       0.0000   15400.0000
+Study001_1001026 / DRUG ANAL 3 Plasma        30       0.0000      96.0000       0.0000    6670.0000
+Study001_1001027 / DRUG ANAL 1 Plasma        30       0.0000      96.0000       0.0000    3940.0000
+Study001_1001027 / DRUG ANAL 2 Plasma        30       0.0000      96.0000       0.0000   23700.0000
+Study001_1001027 / DRUG ANAL 3 Plasma        30       0.0000      96.0000       0.0000    4660.0000
+Study001_1001028 / DRUG ANAL 1 Plasma        30       0.0000      96.0167       0.0000    6720.0000
+Study001_1001028 / DRUG ANAL 2 Plasma        30       0.0000      96.0167       0.0000   18700.0000
+Study001_1001028 / DRUG ANAL 3 Plasma        30       0.0000      96.0167       0.0000    5010.0000
+
+Generated by R on 2026-10-30

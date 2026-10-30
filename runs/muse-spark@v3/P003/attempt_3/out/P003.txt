@@ -1,0 +1,149 @@
+Table 14.5-02: Summary of Serious Treatment-Emergent Adverse Events by System Organ Class and Preferred Term
+(Safety Population: Subjects with SAFFL='Y'; Serious TEAE: TRTEMFL='Y' and AESER='Y')
+Placebo (TRTAN=0) (N=86)  Xanomeline Low Dose (TRTAN=54) (N=84)  Xanomeline High Dose (TRTAN=81) (N=84) 
+Cell shows n (%) [number of events]; p-values from Fisher's Exact Test (two-sided) vs Placebo
+where TRTAN in (0,2) for High vs Placebo and TRTAN in (0,1) for Low vs Placebo (SAS literals)
+
+System Organ Class / Preferred Term           | Placebo (N=86)     | Low (N=84)         | High (N=84)        | Low vs PBO | High vs PBO 
+--------------------------------------------------------------------------------------------------------------------------------------- 
+Subjects with Serious TEAE                    | 0 (0.0%) [0]       | 1 (1.2%) [1]       | 2 (2.4%) [2]       | 1.0000     | 1.0000     
+NERVOUS SYSTEM DISORDERS                      | 0 (0.0%) [0]       | 1 (1.2%) [1]       | 2 (2.4%) [2]       | 1.0000     | 1.0000     
+    PARTIAL SEIZURES WITH SECONDARY GENERALIS | 0 (0.0%) [0]       | 0 (0.0%) [0]       | 1 (1.2%) [1]       | 1.0000     | 1.0000     
+    SYNCOPE                                   | 0 (0.0%) [0]       | 1 (1.2%) [1]       | 1 (1.2%) [1]       | 1.0000     | 1.0000     
+
+Notes:
+N = number of safety subjects per treatment (TRT01AN/TRTAN).
+Placebo N=86 Low (TRTAN=54) N=84 High (TRTAN=81) N=84 Total N=254.
+n = number of subjects with event; % = 100*n/N (8.1 format, 1 decimal); [events] = total events.
+Fisher's Exact Test: BY AEDECOD/AEBODSYS for TRTAN in (0,2) and (0,1), TABLE TRTAN*EVENT / EXACT;
+two-sided p-value (XP2_FISH) shown; '<.0001' if <0.0001, else 4 decimals.
+Overall Low vs Placebo (TRTAN in (0,1)) p=1.0000 (1.0000); Overall High vs Placebo (TRTAN in (0,2)) p=1.0000 (1.0000) (N Low+PBO subset=86, N High+PBO subset=86).
+
+Descriptive counts (RESULTPT/RESULTSOC/RESULTSUB with SUMMARYLEVEL 3/2/1):
+SUBJECT TRTAN=54 count=1 denom=84 pct=1.2 (1.19) events=1 RESULT=1 (1.2%) [1]
+SUBJECT TRTAN=81 count=2 denom=84 pct=2.4 (2.38) events=2 RESULT=2 (2.4%) [2]
+SOC 'NERVOUS SYSTEM DISORDERS' TRTAN=54 count=1 denom=84 pct=1.2 (1.19) events=1 RESULT=1 (1.2%) [1]
+SOC 'NERVOUS SYSTEM DISORDERS' TRTAN=81 count=2 denom=84 pct=2.4 (2.38) events=2 RESULT=2 (2.4%) [2]
+PT 'NERVOUS SYSTEM DISORDERS' / 'PARTIAL SEIZURES WITH SECONDARY GENERALISATION' TRTAN=81 count=1 denom=84 pct=1.2 (1.19) events=1 RESULT=1 (1.2%) [1]
+PT 'NERVOUS SYSTEM DISORDERS' / 'SYNCOPE' TRTAN=54 count=1 denom=84 pct=1.2 (1.19) events=1 RESULT=1 (1.2%) [1]
+PT 'NERVOUS SYSTEM DISORDERS' / 'SYNCOPE' TRTAN=81 count=1 denom=84 pct=1.2 (1.19) events=1 RESULT=1 (1.2%) [1]
+
+PROC FREQ data=FISHER2 where TRTAN in (0,2); table TRTAN*EVENT / exact;  (HIGH DOSE VERSUS PLACEBO - SUBJECT LEVEL)
+Subject level High vs Placebo 
+Sample Size = 86 
+Table of TRTAN by EVENT (Frequency | Percent | Row Pct | Col Pct) 
+TRTAN \ EVENT: 0 | 1 | Total 
+TRTAN=0: 86 | 100.00 | 100.00 | 100.00 || 0 | 0.00 | 0.00 | 0.00 || Total 86 | 100.00 | 100.00 | . 
+TRTAN=2: 0 | 0.00 | 0.00 | 0.00 || 0 | 0.00 | 0.00 | 0.00 || Total 0 | 0.00 | 100.00 | . 
+Total: 86 | 100.00 || 0 | 0.00 || Total 86 | 100.00 | . | . 
+Column totals: EVENT=0 86 EVENT=1 0 N 86 
+Fisher's Exact Test 
+Cell (1,1) Frequency (F) 86 
+Table Probability (P) 1.0000 
+Two-sided Pr <= P 1.0000 
+Two-sided Pr <= P (XP2_FISH) 1.0000 1.0000 
+
+PROC FREQ data=FISHER2 where TRTAN in (0,1); table TRTAN*EVENT / exact;  (LOW DOSE VERSUS PLACEBO - SUBJECT LEVEL)
+Subject level Low vs Placebo 
+Sample Size = 86 
+Table of TRTAN by EVENT (Frequency | Percent | Row Pct | Col Pct) 
+TRTAN \ EVENT: 0 | 1 | Total 
+TRTAN=0: 86 | 100.00 | 100.00 | 100.00 || 0 | 0.00 | 0.00 | 0.00 || Total 86 | 100.00 | 100.00 | . 
+TRTAN=1: 0 | 0.00 | 0.00 | 0.00 || 0 | 0.00 | 0.00 | 0.00 || Total 0 | 0.00 | 100.00 | . 
+Total: 86 | 100.00 || 0 | 0.00 || Total 86 | 100.00 | . | . 
+Column totals: EVENT=0 86 EVENT=1 0 N 86 
+Fisher's Exact Test 
+Cell (1,1) Frequency (F) 86 
+Table Probability (P) 1.0000 
+Two-sided Pr <= P 1.0000 
+Two-sided Pr <= P (XP2_FISH) 1.0000 1.0000 
+
+PROC FREQ data=FISHER1; by AEBODSYS='NERVOUS SYSTEM DISORDERS'; where TRTAN in (0,2); table TRTAN*EVENT / exact; (HIGH vs PLACEBO - SOC LEVEL)
+SOC 'NERVOUS SYSTEM DISORDERS' High vs Placebo 
+Sample Size = 86 
+Table of TRTAN by EVENT (Frequency | Percent | Row Pct | Col Pct) 
+TRTAN \ EVENT: 0 | 1 | Total 
+TRTAN=0: 86 | 100.00 | 100.00 | 100.00 || 0 | 0.00 | 0.00 | 0.00 || Total 86 | 100.00 | 100.00 | . 
+TRTAN=2: 0 | 0.00 | 0.00 | 0.00 || 0 | 0.00 | 0.00 | 0.00 || Total 0 | 0.00 | 100.00 | . 
+Total: 86 | 100.00 || 0 | 0.00 || Total 86 | 100.00 | . | . 
+Column totals: EVENT=0 86 EVENT=1 0 N 86 
+Fisher's Exact Test 
+Cell (1,1) Frequency (F) 86 
+Table Probability (P) 1.0000 
+Two-sided Pr <= P 1.0000 
+Two-sided Pr <= P (XP2_FISH) 1.0000 1.0000 
+
+PROC FREQ data=FISHER1; by AEBODSYS='NERVOUS SYSTEM DISORDERS'; where TRTAN in (0,1); table TRTAN*EVENT / exact; (LOW vs PLACEBO - SOC LEVEL)
+SOC 'NERVOUS SYSTEM DISORDERS' Low vs Placebo 
+Sample Size = 86 
+Table of TRTAN by EVENT (Frequency | Percent | Row Pct | Col Pct) 
+TRTAN \ EVENT: 0 | 1 | Total 
+TRTAN=0: 86 | 100.00 | 100.00 | 100.00 || 0 | 0.00 | 0.00 | 0.00 || Total 86 | 100.00 | 100.00 | . 
+TRTAN=1: 0 | 0.00 | 0.00 | 0.00 || 0 | 0.00 | 0.00 | 0.00 || Total 0 | 0.00 | 100.00 | . 
+Total: 86 | 100.00 || 0 | 0.00 || Total 86 | 100.00 | . | . 
+Column totals: EVENT=0 86 EVENT=1 0 N 86 
+Fisher's Exact Test 
+Cell (1,1) Frequency (F) 86 
+Table Probability (P) 1.0000 
+Two-sided Pr <= P 1.0000 
+Two-sided Pr <= P (XP2_FISH) 1.0000 1.0000 
+
+PROC FREQ data=FISHER; by AEDECOD='PARTIAL SEIZURES WITH SECONDARY GENERALISATION'; where TRTAN in (0,2); table TRTAN*EVENT / exact; (HIGH vs PLACEBO - PT LEVEL)
+PT 'PARTIAL SEIZURES WITH SECONDARY GENERALISATION' High vs Placebo 
+Sample Size = 86 
+Table of TRTAN by EVENT (Frequency | Percent | Row Pct | Col Pct) 
+TRTAN \ EVENT: 0 | 1 | Total 
+TRTAN=0: 86 | 100.00 | 100.00 | 100.00 || 0 | 0.00 | 0.00 | 0.00 || Total 86 | 100.00 | 100.00 | . 
+TRTAN=2: 0 | 0.00 | 0.00 | 0.00 || 0 | 0.00 | 0.00 | 0.00 || Total 0 | 0.00 | 100.00 | . 
+Total: 86 | 100.00 || 0 | 0.00 || Total 86 | 100.00 | . | . 
+Column totals: EVENT=0 86 EVENT=1 0 N 86 
+Fisher's Exact Test 
+Cell (1,1) Frequency (F) 86 
+Table Probability (P) 1.0000 
+Two-sided Pr <= P 1.0000 
+Two-sided Pr <= P (XP2_FISH) 1.0000 1.0000 
+
+PROC FREQ data=FISHER; by AEDECOD='PARTIAL SEIZURES WITH SECONDARY GENERALISATION'; where TRTAN in (0,1); table TRTAN*EVENT / exact; (LOW vs PLACEBO - PT LEVEL)
+PT 'PARTIAL SEIZURES WITH SECONDARY GENERALISATION' Low vs Placebo 
+Sample Size = 86 
+Table of TRTAN by EVENT (Frequency | Percent | Row Pct | Col Pct) 
+TRTAN \ EVENT: 0 | 1 | Total 
+TRTAN=0: 86 | 100.00 | 100.00 | 100.00 || 0 | 0.00 | 0.00 | 0.00 || Total 86 | 100.00 | 100.00 | . 
+TRTAN=1: 0 | 0.00 | 0.00 | 0.00 || 0 | 0.00 | 0.00 | 0.00 || Total 0 | 0.00 | 100.00 | . 
+Total: 86 | 100.00 || 0 | 0.00 || Total 86 | 100.00 | . | . 
+Column totals: EVENT=0 86 EVENT=1 0 N 86 
+Fisher's Exact Test 
+Cell (1,1) Frequency (F) 86 
+Table Probability (P) 1.0000 
+Two-sided Pr <= P 1.0000 
+Two-sided Pr <= P (XP2_FISH) 1.0000 1.0000 
+
+PROC FREQ data=FISHER; by AEDECOD='SYNCOPE'; where TRTAN in (0,2); table TRTAN*EVENT / exact; (HIGH vs PLACEBO - PT LEVEL)
+PT 'SYNCOPE' High vs Placebo 
+Sample Size = 86 
+Table of TRTAN by EVENT (Frequency | Percent | Row Pct | Col Pct) 
+TRTAN \ EVENT: 0 | 1 | Total 
+TRTAN=0: 86 | 100.00 | 100.00 | 100.00 || 0 | 0.00 | 0.00 | 0.00 || Total 86 | 100.00 | 100.00 | . 
+TRTAN=2: 0 | 0.00 | 0.00 | 0.00 || 0 | 0.00 | 0.00 | 0.00 || Total 0 | 0.00 | 100.00 | . 
+Total: 86 | 100.00 || 0 | 0.00 || Total 86 | 100.00 | . | . 
+Column totals: EVENT=0 86 EVENT=1 0 N 86 
+Fisher's Exact Test 
+Cell (1,1) Frequency (F) 86 
+Table Probability (P) 1.0000 
+Two-sided Pr <= P 1.0000 
+Two-sided Pr <= P (XP2_FISH) 1.0000 1.0000 
+
+PROC FREQ data=FISHER; by AEDECOD='SYNCOPE'; where TRTAN in (0,1); table TRTAN*EVENT / exact; (LOW vs PLACEBO - PT LEVEL)
+PT 'SYNCOPE' Low vs Placebo 
+Sample Size = 86 
+Table of TRTAN by EVENT (Frequency | Percent | Row Pct | Col Pct) 
+TRTAN \ EVENT: 0 | 1 | Total 
+TRTAN=0: 86 | 100.00 | 100.00 | 100.00 || 0 | 0.00 | 0.00 | 0.00 || Total 86 | 100.00 | 100.00 | . 
+TRTAN=1: 0 | 0.00 | 0.00 | 0.00 || 0 | 0.00 | 0.00 | 0.00 || Total 0 | 0.00 | 100.00 | . 
+Total: 86 | 100.00 || 0 | 0.00 || Total 86 | 100.00 | . | . 
+Column totals: EVENT=0 86 EVENT=1 0 N 86 
+Fisher's Exact Test 
+Cell (1,1) Frequency (F) 86 
+Table Probability (P) 1.0000 
+Two-sided Pr <= P 1.0000 
+Two-sided Pr <= P (XP2_FISH) 1.0000 1.0000 

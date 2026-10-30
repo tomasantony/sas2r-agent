@@ -1,0 +1,144 @@
+{
+ "schema": "sas2r-agent/provenance/1",
+ "program": "P061",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "attempt": 3,
+ "prompt_version": 3,
+ "run_name": "muse-spark@v3",
+ "recorded_at": "2026-10-30T02:34:00",
+ "agent_commit": "074d3b9f4c824cf33616638814954c7d4b3c1a4f",
+ "benchmark_commit": "7cd06148c0d1d6da11283d9caafb7a2f58ef8596",
+ "host": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "Thomas-LGGraM"
+ },
+ "sandbox": {
+  "mode": "docker",
+  "image": "sas2r-sandbox:r4.6",
+  "image_id": "sha256:26a61dd72d3987f7d83c87b13070d7310320d3cd889cc76bfc0cf1013ea00935",
+  "network": "none",
+  "benchmark_mount": "/bench:ro",
+  "memory": "6g",
+  "cpus": "2"
+ },
+ "llm": {
+  "input_tokens": 21927,
+  "output_tokens": 10070,
+  "reasoning_tokens": 1621,
+  "finish_reason": "stop",
+  "seconds": 34.7
+ },
+ "inputs": {
+  "prompt_translate.md": "1ddeaeb8fdae08c13afde292ec32d619534b6d362d612acfb5b61041cca1fc25"
+ },
+ "model_output": {
+  "response.md": "5e653bcf5e4225ff230774f67cda7b90a579c9896285bc4f47e19f1a63521e38",
+  "script.R": "8e1173d09962987a770b401e15f0ae91c8352edf0b172a6a636034dd8357f13c"
+ },
+ "r_run": {
+  "rc": 0,
+  "seconds": 6.2,
+  "timed_out": false,
+  "log_sha256": "2b8611265056d211de031c7f562bfb7c2df34a95c6398afacdeda80ef87a0038"
+ },
+ "r_outputs": {
+  "P061.csv": "f575bb7f69e19a5a6161448a00e7eed7bff8036d4d1ed8166c66a86d7fc793b8",
+  "P061.lst": "8334ea51d3acdade2a53665b8ab385b93879596e431a3cc7c4dc284a3d7bf22c",
+  "P061.txt": "8334ea51d3acdade2a53665b8ab385b93879596e431a3cc7c4dc284a3d7bf22c",
+  "P061_f_oncology_graphs.csv": "83c3f31c71ea3770201c8d830a0a30575e8a100d4b5cdac891832abe4a4dafdc",
+  "P061_f_oncology_graphs.txt": "b0435e0ec86ace6d603a7d797c713a267abe7c1bcfae634ec3e1f860353064c0",
+  "P061_t_oncology_report.csv": "fec4c79dedee38d4691ed351200578b0c9a6b608f807afc7f5950e95d681f92b",
+  "P061_t_oncology_report.txt": "5215993147012ad30697b37e517194a333866ff07745eca00434f6943c725999",
+  "sasgraph.csv": "a3ccbe35cd17416fb762b297f90298dfd4e6729c4b6a65cc0415d01ab4fcdad5",
+  "sasgraph.png": "dc06e522e11ecae321e0d0a36d7d51b93cbe4097d12349a500a5bd8c7ad673b4",
+  "sgplot.csv": "7c3fcb378e2780475a1d3f4eedb82f2d25467ca3d3d556e8c450778284f8470b",
+  "sgplot.png": "02ea71514683f4d6082460394e2cbde357e4547572342a83342d53a61d633952",
+  "sgplot1.csv": "f15e95906ab278a77da29c26c425551a48d77d81992d0adfe2703496aac19e68",
+  "sgplot1.png": "c98dd0df88307abc457dbbc7ecdffa394948a71b7299f7cc7972673650907edd",
+  "sgplot2.csv": "a0b5c182bb2854a5daf758f8d854bc9e8ae7374d0e95cea9c626c3f484f48c57",
+  "sgplot2.png": "c0c7149a7f81e70ee0dcfc05494583f3a563aaced0243a75f1c62bcee2248b5c",
+  "sgplot3.csv": "4d30dfdd5344f4202abd1d3c57685d3c4054c76ae192316e8cc8b0fef5267f0c",
+  "sgplot3.png": "9b2e57df62c0d34cb8b74b85ae5c1a15ed4f6e1a9ef34ce3f8b3c02c79f11668",
+  "sgplot4.csv": "d4dd604cfea2aaa8cc40cc10e0fcddaf81316ee5994a48d7e6f93baec9f7cd82",
+  "sgplot4.png": "a2d9985276cf5566d841f324c4d5f896a694d3e596a41a73e1a53c22bce79b37",
+  "sgplot5.csv": "f15e95906ab278a77da29c26c425551a48d77d81992d0adfe2703496aac19e68",
+  "sgplot5.png": "dcd487a34a2d4cf8e718e186aaa64db6b29f6fae0fcfd7c1a1370570b9b5f69a",
+  "sgplot6.csv": "7c3fcb378e2780475a1d3f4eedb82f2d25467ca3d3d556e8c450778284f8470b",
+  "sgplot6.png": "02ea71514683f4d6082460394e2cbde357e4547572342a83342d53a61d633952"
+ },
+ "sas_reference": [
+  {
+   "file": "logs/P061.lst",
+   "sha256": "86890090ed502f08ff6bbd9ed5a72b4e9d499591ddf737289dc186db3bd4b532",
+   "frozen_sha256": "86890090ed502f08ff6bbd9ed5a72b4e9d499591ddf737289dc186db3bd4b532",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/sasgraph.png",
+   "sha256": "85f4f9e8631cd5a16d5ec6225aa5af1d149a58a7e69155c5153c3b596bd5b72f",
+   "frozen_sha256": "85f4f9e8631cd5a16d5ec6225aa5af1d149a58a7e69155c5153c3b596bd5b72f",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot.png",
+   "sha256": "0bb732b27389ca4aa44914fb3602e4347792f36dbff7c1a0ff81e5262f35d042",
+   "frozen_sha256": "0bb732b27389ca4aa44914fb3602e4347792f36dbff7c1a0ff81e5262f35d042",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot1.png",
+   "sha256": "6328994836690da2de276142be84fa9e13b2410abdd29d25f3dc54c18d2e5fbb",
+   "frozen_sha256": "6328994836690da2de276142be84fa9e13b2410abdd29d25f3dc54c18d2e5fbb",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot2.png",
+   "sha256": "764cd98ee242543a3272d3bec3c8ceaa5c35ee0ef5a688a70b48ecdcf189f28c",
+   "frozen_sha256": "764cd98ee242543a3272d3bec3c8ceaa5c35ee0ef5a688a70b48ecdcf189f28c",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot3.png",
+   "sha256": "09a34c39eb24a38f6bafe8f5067ac824da4c49e89c800c227f02b396919ffbe1",
+   "frozen_sha256": "09a34c39eb24a38f6bafe8f5067ac824da4c49e89c800c227f02b396919ffbe1",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot4.png",
+   "sha256": "807894447e725a5e4034d31173dd52ef06ca4f7b56bec14195a7c0ef4dec2df4",
+   "frozen_sha256": "807894447e725a5e4034d31173dd52ef06ca4f7b56bec14195a7c0ef4dec2df4",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot5.png",
+   "sha256": "f79d20bb1091e28904a64c2e4bbe853286ea38d02c131c9419367ad37addadf8",
+   "frozen_sha256": "f79d20bb1091e28904a64c2e4bbe853286ea38d02c131c9419367ad37addadf8",
+   "ok": true
+  },
+  {
+   "file": "datasets/P061/SGPlot6.png",
+   "sha256": "bc34f7bf92836eb79b0ed82a677b62695272c09d1d1cc28523e65ca144e405e4",
+   "frozen_sha256": "bc34f7bf92836eb79b0ed82a677b62695272c09d1d1cc28523e65ca144e405e4",
+   "ok": true
+  },
+  {
+   "file": "tlf/P061_t_oncology_report.pdf",
+   "sha256": "21c5134fde09ba77de04e38bebe34475c2258cbc552b89b1c527e7211ea0aa67",
+   "frozen_sha256": "21c5134fde09ba77de04e38bebe34475c2258cbc552b89b1c527e7211ea0aa67",
+   "ok": true
+  },
+  {
+   "file": "tlf/P061_f_oncology_graphs.pdf",
+   "sha256": "7c26176b139de9237f193aa3f743b2963e5b274b41a1173a32d44ed2f80e0490",
+   "frozen_sha256": "7c26176b139de9237f193aa3f743b2963e5b274b41a1173a32d44ed2f80e0490",
+   "ok": true
+  }
+ ],
+ "reference_verified": true,
+ "comparison": {
+  "equivalent": false,
+  "score": 0.9837861274101131,
+  "produced_all": true
+ }
+}

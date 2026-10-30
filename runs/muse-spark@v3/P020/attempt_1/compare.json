@@ -1,0 +1,38 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9415584415584416,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P020.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9415584415584416,
+   "detail": {
+    "recall": 0.9415584415584416,
+    "expected": 308,
+    "found": 290,
+    "r_files": [
+     "KM_Curve.csv",
+     "P020.csv",
+     "P020.txt",
+     "P020_censored_summary.csv",
+     "P020_means.csv",
+     "P020_quartiles.csv"
+    ],
+    "missing_examples": [
+     "1",
+     "0",
+     "6.3899",
+     "22",
+     "4.5077",
+     "27",
+     "42.55",
+     "6.56877",
+     "-6.56877"
+    ]
+   }
+  }
+ ]
+}

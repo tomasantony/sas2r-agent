@@ -1,0 +1,17 @@
+LB Domain Audit (Laboratory Test Results)
+
+Obs  USUBJID           VISITNUM  VISIT    LBTESTCD  LBCAT       LBSTRESN  LBSTRESU  LBDTC     
+---  ----------------  --------  -------  --------  ----------  --------  --------  ----------
+  1  CDISC-01-701-001         1  Visit 1  ALT       CHEMISTRY         24  U/L       2023-01-15
+  2  CDISC-01-701-001         1  Visit 1  AST       CHEMISTRY         14  U/L       2023-01-15
+  3  CDISC-01-701-001         1  Visit 1  GLUC      CHEMISTRY       77.1  mg/dL     2023-01-15
+  4  CDISC-01-701-001         1  Visit 1  HGB       HEMATOLOGY      12.9  g/dL      2023-01-15
+  5  CDISC-01-701-001         2  Visit 2  ALT       CHEMISTRY         34  U/L       2023-02-15
+  6  CDISC-01-701-001         2  Visit 2  AST       CHEMISTRY         12  U/L       2023-02-15
+  7  CDISC-01-701-001         2  Visit 2  GLUC      CHEMISTRY       95.3  mg/dL     2023-02-15
+  8  CDISC-01-701-001         2  Visit 2  HGB       HEMATOLOGY        13  g/dL      2023-02-15
+  9  CDISC-01-701-001         3  Visit 3  ALT       CHEMISTRY         42  U/L       2023-03-19
+ 10  CDISC-01-701-001         3  Visit 3  AST       CHEMISTRY         11  U/L       2023-03-19
+ 11  CDISC-01-701-001         3  Visit 3  GLUC      CHEMISTRY       76.3  mg/dL     2023-03-19
+ 12  CDISC-01-701-001         3  Visit 3  HGB       HEMATOLOGY      11.6  g/dL      2023-03-19
+

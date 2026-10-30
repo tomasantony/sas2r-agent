@@ -1,0 +1,45 @@
+sandbox: docker run --rm --name sas2r-a806a17aca55 --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v3\P060\attempt_2:/work -e OUT_DIR=/work/out -w /work ...
+Reading ADSL: /bench/data/raw/cdisc-pilot/adam/adsl.xpt
+Reading ADPC: /bench/data/raw/cdisc-pilot/adam/adpc.xpt
+ADPC columns: STUDYID, USUBJID, SUBJID, SITEID, ORIGSITE, PCSEQ, PCREFID, DOSREFID, PCTESTCD, PCTEST, PCTESTN, PCTESTL, PCCAT, PCCATN, PCCATL, PCCATS, PCSCAT, PCSCATN, PCSCATL, PCORRES, PCORRESN, PCORRESU, PCSTRESC, PCSTRESN, PCSTRESU, PCSTAT, PCSTATN, PCSTATL, PCSTATS, PCREASND, PCNAM, PCSPEC, PCSPECN, PCSPECL, PCSPECS, PCSPCCND, PCSPCCDN, PCSPCCDL, PCSPCCDS, PCLLOQ, VISITNUM, EPOCH, EPOCHN, EPOCHL, EPOCHS, PCDTC, PCDTN, PCENDTC, PCENDTN, PCDY, PCTPT, PCTPTNUM, PCELTM, PCTPTREF, PCRFTDTC, PCRFTDTN, EPLTM, EPLENTM, EACTM, ANLPRNT, CNEXCFL, CNEXCFLN, CNEXCFLL, CNEXCFLS, CNEXCCO, PAEXCFL, PAEXCFLN, PAEXCFLL, PAEXCFLS, PAEXCCO, CALRGFL, SMPNO, SMPSTA, SMPAMT, SMPAMTU, SMPAMTUN, SMPAMTUL, SMPAMTUS, VMEVT, VMEVTN, VMEVTL, VMEVTS, EVTTM, RFSTDTC, RFENDTC, RFENDTN, AGE, AGEIMP, AGEU, AGEUN, AGEUL, AGEUS, SEX, SEXS, RACE, RACES, RACESY, ETHNIC, ETHNICS, ARMCD, ARM, ETHNICL, ETHNICN, RACEL, RACEN, SEXL, SEXN, ACARMCD, ACARM, DVPOPX, DVPOPXN, ASR, CCS, TRTSEQPN, TRTSEQAN, SAFFL, PKFL, SCRFL, SAFFN, PKFN, SCRFN, TR01SDT, TR01EDT, TR01SDTM, TR01EDTM, AP01SDTM, AP01EDTM, AP01SDT, AP01EDT, TRT01P, TRT01A, TRT01PN, TRT01AN, TR02SDT, TR02EDT, TR02SDTM, TR02EDTM, AP02SDTM, AP02EDTM, AP02SDT, AP02EDT, TRT02P, TRT02A, TRT02PN, TRT02AN, TR03SDT, TR03EDT, TR03SDTM, TR03EDTM, AP03SDTM, AP03EDTM, AP03SDT, AP03EDT, TRT03P, TRT03A, TRT03PN, TRT03AN, TRTSDTM, TRTEDTM, TRTETM, TRTEDT, TRTSDT, TRTSEQP, TRTSEQA, FUPEDT, PARAMCD, PARAM, PARCAT1, PARAMLNK, ATPTN, ARFDTM, ARFDT, ARFTM, ADTM, ADT, ATM, AVAL, AVALC, PARCAT1N, PARCAT2, PARCAT2N, PARCAT2L, PARCAT3, PARCAT3N, PARCAT3L, ATPT, ATPTREF, ANL01FL, ANL01FN, ANL01DSC, PARAMN, ADY, TRTA, TRTP, APERIODC, APERIOD, TRTAN, TRTPN, TRTAS, PCSDY
+SORTadpc rows: 2463
+Wrote SORTadpc.csv and sasgraph.csv
+BY groups (USUBJID x PARCAT1): 84
+Facet layout: 4 cols x 21 rows; size 12x44
+Error in `geom_line()`:
+! Problem while mapping stat to aesthetics.
+ℹ Error occurred in the 1st layer.
+Caused by error:
+! object 'FACET' not found
+Backtrace:
+     ▆
+  1. ├─ggplot2::ggsave(...)
+  2. │ └─base::lapply(plot, grid.draw)
+  3. │   ├─grid (local) FUN(X[[i]], ...)
+  4. │   └─ggplot2 (local) `grid.draw.ggplot2::ggplot`(X[[i]], ...)
+  5. │     ├─base::print(x)
+  6. │     └─ggplot2 (local) `print.ggplot2::ggplot`(x)
+  7. │       ├─ggplot2::ggplot_build(x)
+  8. │       └─ggplot2 (local) `ggplot_build.ggplot2::ggplot`(x)
+  9. │         └─ggplot2:::by_layer(...)
+ 10. │           ├─rlang::try_fetch(...)
+ 11. │           │ ├─base::tryCatch(...)
+ 12. │           │ │ └─base (local) tryCatchList(expr, classes, parentenv, handlers)
+ 13. │           │ │   └─base (local) tryCatchOne(expr, names, parentenv, handlers[[1L]])
+ 14. │           │ │     └─base (local) doTryCatch(return(expr), name, parentenv, handler)
+ 15. │           │ └─base::withCallingHandlers(...)
+ 16. │           └─ggplot2 (local) f(l = layers[[i]], d = data[[i]])
+ 17. │             └─l$map_statistic(d, plot)
+ 18. │               └─ggplot2 (local) map_statistic(..., self = self)
+ 19. │                 └─ggplot2:::eval_aesthetics(substitute_aes(new), data_orig, mask = list(stage = stage_calculated))
+ 20. │                   └─base::lapply(aesthetics, eval_tidy, data = data, env = env)
+ 21. │                     └─rlang (local) FUN(X[[i]], ...)
+ 22. └─base::.handleSimpleError(...)
+ 23.   └─rlang (local) h(simpleError(msg, call))
+ 24.     └─handlers[[1L]](cnd)
+ 25.       └─cli::cli_abort(...)
+ 26.         └─rlang::abort(...)
+Warning message:
+The dot-dot notation (`..FACET..`) was deprecated in ggplot2 3.4.0.
+ℹ Please use `after_stat(FACET)` instead. 
+Execution halted

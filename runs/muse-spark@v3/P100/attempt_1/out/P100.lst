@@ -1,0 +1,11 @@
+
+Obs          Id         Cid      Change Group          Label (first 5 observations)
+         Obs          Id         Cid      ChangeGroup                 Label
+---------------------------------------------------------------------------
+           1           1           1-14.39101676Treatment 1               C
+           2           2           2-65.95783346Treatment 1               R
+           3           3           3-71.18461869Treatment 1               S
+           4           4           419.684998444Treatment 2               P
+           5           5           518.049433710Treatment 2               E
+---------------------------------------------------------------------------
+

@@ -1,0 +1,32 @@
+{
+ "id": "P064",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "family": "wxzhai",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 1.0,
+ "iterations": 1,
+ "input_tokens": 2858,
+ "output_tokens": 8715,
+ "seconds": 46.38421106338501,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 0,
+   "seconds_r": 1.2365117073059082,
+   "input_tokens": 2858,
+   "output_tokens": 8715,
+   "seconds_llm": 45.01660132408142,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 1.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 1,
+ "prompt_version": 3,
+ "run_name": "muse-spark@v3"
+}

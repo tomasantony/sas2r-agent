@@ -1,0 +1,17 @@
+PROC PRINT DATA=SDTM_TR
+
+ Obs STUDYID   DOMAIN USUBJID       TRSEQ TRLNKID TRTESTCD TRTEST          
+ 1   ONCO-2026 TR     ONCO-2026-101 1     T1      LDIAM    Longest Diameter
+ 2   ONCO-2026 TR     ONCO-2026-103 1     T1      LDIAM    Longest Diameter
+ 3   ONCO-2026 TR     ONCO-2026-103 2     NT1     LDIAM    Longest Diameter
+ 4   ONCO-2026 TR     ONCO-2026-105 1     T1      LDIAM    Longest Diameter
+ TRORRES TRORRESU TRSTRESC TRSTRESN TRSTRESU TREVAL       TRDTC      TRSTDY
+ 20      mm       20       20       mm       INVESTIGATOR 2026-01-02 -13   
+ 35      mm       35       35       mm       INVESTIGATOR 2026-01-05 -10   
+ 15      mm       15       15       mm       INVESTIGATOR 2026-01-05 -10   
+ 28      mm       28       28       mm       INVESTIGATOR 2026-01-12 -13   
+ VISIT    
+ SCREENING
+ SCREENING
+ SCREENING
+ SCREENING

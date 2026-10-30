@@ -1,0 +1,44 @@
+{
+ "id": "P024",
+ "provider": "muse-spark",
+ "model": "muse-spark-1.3",
+ "family": "faijal",
+ "translated": true,
+ "runs": true,
+ "produced_all": true,
+ "equivalent": true,
+ "best_score": 1.0,
+ "iterations": 2,
+ "input_tokens": 15985,
+ "output_tokens": 25000,
+ "seconds": 107.44803357124329,
+ "attempts": [
+  {
+   "n": 1,
+   "rc": 1,
+   "seconds_r": 1.5021140575408936,
+   "input_tokens": 4014,
+   "output_tokens": 17405,
+   "seconds_llm": 79.40552306175232,
+   "produced_all": false,
+   "equivalent": false,
+   "score": 0.0,
+   "note": ""
+  },
+  {
+   "n": 2,
+   "rc": 0,
+   "seconds_r": 1.6396450996398926,
+   "input_tokens": 11971,
+   "output_tokens": 7595,
+   "seconds_llm": 24.6698260307312,
+   "produced_all": true,
+   "equivalent": true,
+   "score": 1.0,
+   "note": ""
+  }
+ ],
+ "best_attempt": 2,
+ "prompt_version": 3,
+ "run_name": "muse-spark@v3"
+}

@@ -1,0 +1,10 @@
+PROC PRINT DATA=SDTM_LB;
+
+Obs   STUDYID    DOMAIN USUBJID         LBSEQ LBTESTCD LBTEST                    LBCAT        LBORRES  LBORRESU   LBSTRESC LBSTRESN LBSTRESU   LBORNRLO LBORNRHI LBNRIND  LBDTC      LBSTDY VISIT       
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1     ONCO-2026  LB     ONCO-2026-101   1     HGB                                HEMATOLOGY   14.5     g/dL       14.5     14.5     g/dL       12.0     16.0     NORMAL   2026-01-02 -13    SCREENING   
+2     ONCO-2026  LB     ONCO-2026-101   2     ALT                                CHEMISTRY    25       U/L        25       25       U/L        0        40       NORMAL   2026-01-02 -13    SCREENING   
+3     ONCO-2026  LB     ONCO-2026-103   1     HGB                                HEMATOLOGY   13.0     g/dL       13.0     13       g/dL       12.0     16.0     NORMAL   2026-01-05 -10    SCREENING   
+4     ONCO-2026  LB     ONCO-2026-103   2     ALT                                CHEMISTRY    30       U/L        30       30       U/L        0        40       NORMAL   2026-01-05 -10    SCREENING   
+5     ONCO-2026  LB     ONCO-2026-103   3     HGB                                HEMATOLOGY   11.5     g/dL       11.5     11.5     g/dL       12.0     16.0     LOW      2026-01-15 1      CYCLE 1 DAY 1
+6     ONCO-2026  LB     ONCO-2026-105   1     HGB                                HEMATOLOGY   15.0     g/dL       15.0     15       g/dL       12.0     16.0     NORMAL   2026-01-12 -13    SCREENING   

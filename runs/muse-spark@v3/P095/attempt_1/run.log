@@ -1,0 +1,9 @@
+sandbox: docker run --rm --name sas2r-c9941a16df0f --network none --memory 6g --cpus 2 --pids-limit 512 --security-opt no-new-privileges --cap-drop ALL -v D:\meta_hackathon\sas2r-agent:/bench:ro -v D:\meta_hackathon\github\sas2r-agent\runs\muse-spark@v3\P095\attempt_1:/work -e OUT_DIR=/work/out -w /work ...
+Warning message:
+In annotate("label", x = 4.5, y = -68, label = bcr_text, hjust = 0,  :
+  Ignoring unknown parameters: `label.size`
+Warning message:
+In geom_rect(aes(xmin = -Inf, xmax = Inf, ymin = -30, ymax = 20),  :
+  All aesthetics have length 1, but the data has 25 rows.
+ℹ Please consider using `annotate()` or provide this layer with data containing
+  a single row.

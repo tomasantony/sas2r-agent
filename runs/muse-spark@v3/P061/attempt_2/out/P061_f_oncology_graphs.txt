@@ -1,0 +1,23 @@
+Project: Oncology Clinical Trial Analysis  Report: P061_f_oncology_graphs.pdf
+Procedure: SGPLOT Data=ADAM_ADSL  HISTOGRAM Age
+Procedure: SGPLOT Data=ADAM_ADSL  VBAR Tumor Stage
+
+Title: 
+The LIFETEST Procedure
+Product-Limit Survival Estimates
+Time  Survival  Failure  Survival Standard Error  Number Failed  Number Left  Censored
+
+Quartile Estimates
+Percent  Point Estimate  95% Confidence Interval Transform [Lower, Upper)
+75    [, ]
+50    [, ]
+25    [, ]
+
+Mean and Standard Error
+Mean  Standard Error
+  
+
+Summary of the Number of Censored and Uncensored Values
+Total  Failed  Censored  Percent Censored
+0  0  0  
+

@@ -1,0 +1,31 @@
+Table 14.5-02: Summary of Serious Treatment-Emergent Adverse Events by System Organ Class and Preferred Term
+(Safety Population: Subjects with SAFFL='Y'; Serious TEAE: TRTEMFL='Y' and AESER='Y')
+Placebo (TRTAN=0) (N=86)  Xanomeline Low Dose (TRTAN=54) (N=84)  Xanomeline High Dose (TRTAN=81) (N=84) 
+Cell shows n (%) [number of events]; p-values from Fisher's Exact Test (two-sided) vs Placebo
+where TRTAN in (0,2) for High vs Placebo and TRTAN in (0,1) for Low vs Placebo (SAS literals)
+
+System Organ Class / Preferred Term           | Placebo (N=86)     | Low (N=84)         | High (N=84)        | Low vs PBO | High vs PBO 
+--------------------------------------------------------------------------------------------------------------------------------------- 
+Subjects with Serious TEAE                    | 0 (0.0%) [0]       | 1 (1.2%) [1]       | 2 (2.4%) [2]       | 1.0000     | 1.0000     
+NERVOUS SYSTEM DISORDERS                      | 0 (0.0%) [0]       | 1 (1.2%) [1]       | 2 (2.4%) [2]       | 1.0000     | 1.0000     
+    PARTIAL SEIZURES WITH SECONDARY GENERALIS | 0 (0.0%) [0]       | 0 (0.0%) [0]       | 1 (1.2%) [1]       | 1.0000     | 1.0000     
+    SYNCOPE                                   | 0 (0.0%) [0]       | 1 (1.2%) [1]       | 1 (1.2%) [1]       | 1.0000     | 1.0000     
+
+Notes:
+N = number of safety subjects per treatment (TRT01AN/TRTAN).
+Placebo N=86 Low (TRTAN=54) N=84 High (TRTAN=81) N=84 Total N=254.
+n = number of subjects with event; % = 100*n/N (8.1 format, 1 decimal); [events] = total events.
+Fisher's Exact Test: BY AEDECOD/AEBODSYS for TRTAN in (0,2) and (0,1), TABLE TRTAN*EVENT / EXACT;
+two-sided p-value (XP2_FISH) shown; '<.0001' if <0.0001, else 4 decimals.
+Overall Low vs Placebo (TRTAN in (0,1)) p=1.0000 (1.0000); Overall High vs Placebo (TRTAN in (0,2)) p=1.0000 (1.0000) (N Low+PBO subset=86, N High+PBO subset=86).
+
+Descriptive counts (RESULTPT/RESULTSOC/RESULTSUB with SUMMARYLEVEL 3/2/1):
+SUBJECT TRTAN=54 count=1 denom= pct= () events=1 RESULT=1 (1.2%) [1]
+SUBJECT TRTAN=81 count=2 denom= pct= () events=2 RESULT=2 (2.4%) [2]
+SOC 'NERVOUS SYSTEM DISORDERS' TRTAN=54 count=1 denom= pct= () events=1 RESULT=1 (1.2%) [1]
+SOC 'NERVOUS SYSTEM DISORDERS' TRTAN=81 count=2 denom= pct= () events=2 RESULT=2 (2.4%) [2]
+PT 'NERVOUS SYSTEM DISORDERS' / 'PARTIAL SEIZURES WITH SECONDARY GENERALISATION' TRTAN=81 count=1 denom= pct= () events=1 RESULT=1 (1.2%) [1]
+PT 'NERVOUS SYSTEM DISORDERS' / 'SYNCOPE' TRTAN=54 count=1 denom= pct= () events=1 RESULT=1 (1.2%) [1]
+PT 'NERVOUS SYSTEM DISORDERS' / 'SYNCOPE' TRTAN=81 count=1 denom= pct= () events=1 RESULT=1 (1.2%) [1]
+
+PROC FREQ data=FISHER2 where TRTAN in (0,2); table TRTAN*EVENT / exact;  (HIGH DOSE VERSUS PLACEBO - SUBJECT LEVEL)
