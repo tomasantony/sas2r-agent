@@ -1,0 +1,36 @@
+<!doctype html><html><head><meta charset="utf-8"><title>SAS vs R</title>
+<style>body{margin:0;background:#fafafa;color:#1b1f24;font:16px/1.4 system-ui,"Segoe UI",sans-serif}
+main{padding:16px 40px} h1{font-size:24px;margin:0 0 4px} .sub{color:#5b6472;margin:0 0 12px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px 24px;align-items:start} .col h2{font-size:15px;text-transform:uppercase;letter-spacing:.04em;color:#5b6472;margin:0 0 8px}
+.sas h2{color:#b54b1f} .r h2{color:#1f5fb5} img{display:block;max-height:440px;max-width:100%;margin:0 auto;border:1px solid #d9dee5;border-radius:6px;background:#fff}
+pre{margin:0;background:#fff;border:1px solid #d9dee5;border-radius:6px;padding:8px 14px;font:14px/1.3 Consolas,"Cascadia Mono",monospace;white-space:pre}
+.ok{display:inline-block;margin-left:10px;color:#1d7a3e;font-weight:600;font-size:14px}</style></head><body><main>
+<h1>What "equivalent" means <span class="ok">P040 figure: match &nbsp;·&nbsp; P053 statistics table: 106 of 106 numbers</span></h1>
+<p class="sub">Left: the output SAS 9.4 produced. Right: the output of the R script that Muse Spark 1.3 wrote, run in the sandbox.</p>
+<div class="row">
+ <div class="col sas"><h2>SAS reference (P040, PROC LIFETEST plot)</h2><img src="demo_assets/P040_sas_kmplot.png" alt="SAS KM plot"></div>
+ <div class="col r"><h2>Generated R (ggplot2), attempt 2</h2><img src="../runs/muse-spark@v3/P040/attempt_2/out/P040_f_kmplot.png" alt="R KM plot"></div>
+ <div class="col sas"><h2>SAS reference (P053, PROC FREQ CHISQ)</h2><pre>                   Statistics for Table of TRTPN by n
+         Statistic                     DF       Value      Prob
+         Chi-Square                     2      0.0021    0.9990
+         Likelihood Ratio Chi-Square    2      0.0021    0.9990
+         Mantel-Haenszel Chi-Square     1      0.0012    0.9728
+         Phi Coefficient                       0.0029
+         Contingency Coefficient               0.0029
+         Cramer&#x27;s V                            0.0029
+                          Fisher&#x27;s Exact Test
+                   Table Probability (P)       0.0560
+                   Pr &lt;= P                     1.0000</pre></div>
+ <div class="col r"><h2>Generated R, attempt 2</h2><pre>Statistics for Table of TRTPN by n
+Statistic                      DF      Value       Prob
+Chi-Square                      2     0.0021     0.9990
+Likelihood Ratio Chi-Square     2     0.0021     0.9990
+Mantel-Haenszel Chi-Square      1     0.0012     0.9728
+Phi Coefficient                       0.0029           
+Contingency Coefficient               0.0029           
+Cramer&#x27;s V                            0.0029           
+Fisher&#x27;s Exact Test
+Table Probability (P)            0.0560
+Pr &lt;= P                          1.0000
+Sample Size = 250</pre></div>
+</div></main></body></html>

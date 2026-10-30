@@ -1,7 +1,7 @@
 [
  [
   "s01",
-  "Every clinical trial submits its analyses as SAS programs: datasets, tables, listings and figures. The industry is moving to R, and each program has to be translated, and then proven to give the same result as the SAS original. Done by hand, that is weeks per study, and the proof is the expensive part."
+  "Clinical trials use SAS programs to create their datasets, tables, listings and figures. The industry is moving to R, and each program has to be translated, and then proven to give the same result as the SAS original. Done by hand, that is weeks per study, and the proof is the expensive part."
  ],
  [
   "s02",
@@ -9,19 +9,23 @@
  ],
  [
   "s03",
-  "One loop, four roles. The context builder reads the SAS program, its inputs, and the SAS outputs we are trying to match. The translator, Muse Spark 1.3 through the Meta Model API, writes one R script. A Docker sandbox with no network runs it. The comparator checks every output against the frozen SAS reference and sends the differences back as a repair prompt. Up to three attempts."
+  "One loop, four roles. The context builder reads the SAS program, its inputs and the SAS outputs to match. The translator, Muse Spark 1.3 through the Meta Model API, writes one R script. A sandbox with no network runs it. The comparator checks every output against the SAS reference and sends the differences back as a repair prompt. Up to three attempts."
  ],
  [
   "s04",
   "Here it is on two programs. The first matches on the first attempt. The second did not: the comparator reported which numbers were missing, sent them back as a repair prompt, and the second attempt matched."
  ],
  [
+  "s04b",
+  "This is what equivalent means. On the left, the figure SAS produced; on the right, the figure from the generated R: the same curves, the same numbers at risk. Below, a statistics table: every value identical to four decimals."
+ ],
+ [
   "s05",
-  "Every attempt leaves a provenance record: hashes of the prompt, the answer, the script, every file produced, and the SAS reference it was compared with, chained into an append-only ledger. Verify recomputes the whole chain."
+  "Every attempt leaves a provenance record: hashes of the prompt, the answer, the script, every output and the SAS reference, chained into an append-only ledger that verify recomputes."
  ],
  [
   "s06",
-  "The benchmark is one hundred public SAS programs, ninety clinical and ten general, run in real SAS to produce the reference outputs. Claude Opus 5.5 is the baseline at ninety-seven percent. Muse Spark 1.3 reaches ninety-five, at half the price per correct translation."
+  "The benchmark is one hundred public SAS programs, run in real SAS for the reference outputs. Claude Opus 5.5 is the baseline at ninety-seven percent. Muse Spark 1.3 reaches ninety-five, at half the price per correct translation."
  ],
  [
   "s07",
@@ -33,7 +37,7 @@
  ],
  [
   "s09",
-  "The failure analysis of those misses became prompt version two: eighty-six to ninety-five percent. The five remaining misses became version three, with the exact SAS formulas. Each version is its own row, so the improvement is measured on the same hundred programs, not claimed."
+  "The failure analysis of those misses became prompt version two: eighty-six to ninety-five percent. The remaining misses became version three, with the exact SAS formulas. Each version is its own row, so the improvement is measured, not claimed."
  ],
  [
   "s10",
