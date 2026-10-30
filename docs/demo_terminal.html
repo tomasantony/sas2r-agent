@@ -1,0 +1,17 @@
+<!doctype html><html><head><meta charset="utf-8"><title>sas2r-agent run</title>
+<style>html,body{margin:0;background:#0f1117;color:#d6dbe3;font:17px/1.55 Consolas,"Cascadia Mono",monospace}
+pre{margin:0;padding:28px 36px;white-space:pre-wrap} .p{color:#7cc4ff} .ok{color:#5ad17a} .warn{color:#f2c94c}</style></head>
+<body><pre><span class=p>$</span> python -m agent run --provider muse-spark --ids P009 P036 --tag demo
+muse-spark: 2 programs to run; spent so far $30.08 (3,843,801 in / 5,947,578 out); budget $40.00
+P009: translated=True runs=True all_outputs=True <span class=ok>equivalent=True</span> score=1.000 iters=1 tokens=3797/13043 73s  spent=$30.14
+P036 attempt 1: R ran (rc 0); comparison with the SAS reference:
+  P036.lst: mismatch  recall 0.906  (96 of 106 SAS numbers found); missing e.g. 0.0021, 0.999, 0.0012, 0.9728, 0.0029, 0.056
+  sasgraph.png: ok  score 1.000
+  Target16.pdf: ok  recall 1.000  (41 of 41 SAS numbers found); missing e.g. 
+P036 attempt 2: repair prompt sent with the differences above ...
+P036: translated=True runs=True all_outputs=True <span class=ok>equivalent=True</span> score=1.000 iters=2 tokens=15474/27729 128s  spent=$21.37
+
+<span class=p>$</span> python -m agent verify
+reference files: 600, changed or missing: 0
+ledger entries: 2563, entry hashes all valid, links all resolve, forks from concurrent sweeps: 1 [701]
+<span class=ok>ledger: INTACT</span></pre></body></html>

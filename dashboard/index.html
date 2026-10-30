@@ -236,6 +236,9 @@ a { color: var(--meta); }
   }
 
   function render() { tiles(); bars(); table(); grid(); }
+  // deep link: index.html#p=<run>&id=<program> opens that cell's detail panel on load
+  function openFromHash() { const h = new URLSearchParams(location.hash.slice(1)); if (h.get("p") && h.get("id") && board[h.get("p")]) detail(h.get("p"), h.get("id")); }
+  window.addEventListener("hashchange", openFromHash);
   document.querySelectorAll("[data-f]").forEach(b => b.onclick = () => { roleFilter = b.dataset.f; document.querySelectorAll("[data-f]").forEach(x => x.classList.toggle("on", x === b)); render(); });
   document.querySelectorAll("[data-g]").forEach(b => b.onclick = () => { groupFilter = b.dataset.g; document.querySelectorAll("[data-g]").forEach(x => x.classList.toggle("on", x === b)); render(); });
   const tt = $("#tt");
@@ -244,6 +247,7 @@ a { color: var(--meta); }
   $("#pgrid").addEventListener("click", e => { const c = e.target.closest(".cell"); if (c) detail(c.dataset.p, c.dataset.id); });
   $("#foot").textContent = `Built ${meta.built_at || ""} from ${meta.ledger_entries || "?"} ledger entries. Benchmark: ${meta.benchmark || "sas2r-benchmark"}. Every attempt is hashed into an append-only ledger; the SAS reference outputs were frozen before any model ran.`;
   render();
+  openFromHash();
   window.addEventListener("resize", bars);
 })();
 </script>
