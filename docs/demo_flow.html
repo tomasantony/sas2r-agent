@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>sas2r-agent loop</title>
+<style>
+:root{--bg:#0b0f14;--panel:#121820;--line:#243040;--ink:#e6edf3;--mute:#8b98a8;--green:#4ade80;--green2:#16a34a;--amber:#fbbf24;--blue:#60a5fa}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--ink);font-family:"Segoe UI",Inter,system-ui,sans-serif;width:1600px;height:900px;overflow:hidden}
+.top{height:66px;display:flex;align-items:center;gap:14px;padding:0 28px;border-bottom:1px solid var(--line)}
+.top h1{font-size:24px;font-weight:600;margin:0}.pill{font-size:12px;padding:3px 10px;border-radius:12px;background:rgba(74,222,128,.14);color:var(--green);border:1px solid rgba(74,222,128,.35)}
+.top .id{color:var(--mute);font-size:13px;margin-left:6px}.top .right{margin-left:auto;display:flex;gap:10px}
+.btn{font-size:14px;padding:9px 16px;border-radius:8px;border:1px solid var(--line);background:#1a2230;color:var(--ink)}.btn.go{background:#6366f1;border-color:#6366f1}
+.wrap{display:grid;grid-template-columns:1fr 330px;height:834px}
+.canvas{position:relative;height:540px;border-bottom:1px solid var(--line);background-color:#0e1319;background-image:radial-gradient(#263140 1.2px,transparent 1.2px);background-size:22px 22px}
+svg.wires{position:absolute;inset:0;width:100%;height:100%}
+.node{position:absolute;width:112px;height:112px;margin:-56px 0 0 -56px;border-radius:22px;background:#161d27;border:1.5px solid #2c3948;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(0,0,0,.35)}
+.node.on{border-color:rgba(74,222,128,.55)}.node svg.ic{width:52px;height:52px}
+.badge{position:absolute;top:-9px;right:-9px;width:22px;height:22px;border-radius:50%;background:var(--green2);border:2px solid #0e1319;display:flex;align-items:center;justify-content:center}
+.badge svg{width:12px;height:12px}
+.lab{position:absolute;width:220px;margin-left:-110px;text-align:center}.lab b{display:block;font-size:17px;font-weight:600}.lab span{font-size:13.5px;color:var(--mute)}
+.bolt{position:absolute;color:#f97316}.tag{position:absolute;font-size:13px;color:var(--green);background:rgba(14,19,25,.85);padding:2px 8px;border-radius:6px;border:1px solid rgba(74,222,128,.25)}
+.tag.amb{color:var(--amber);border-color:rgba(251,191,36,.3)}
+.hist{padding:18px 28px}.hist h2{font-size:18px;font-weight:600;margin:0 0 10px}.hist table{width:100%;border-collapse:collapse;font-size:15px}
+.hist th{text-align:left;color:var(--mute);font-weight:500;padding:8px 10px;border-bottom:1px solid var(--line)}.hist td{padding:9px 10px;border-bottom:1px solid #1a2230}
+.ok{color:var(--green)}.df{color:var(--amber)}.mono{font-family:Consolas,monospace}
+.side{border-left:1px solid var(--line);padding:22px 24px;display:flex;flex-direction:column;gap:18px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}.card h3{margin:0 0 10px;font-size:16px;font-weight:600}
+.kv{display:flex;justify-content:space-between;font-size:14px;padding:7px 0;border-bottom:1px solid #1a2230}.kv:last-child{border:0}.kv b{font-weight:600;font-size:16px}.kv b.g{color:var(--green)}
+.big{font-size:38px;font-weight:600;color:var(--green);line-height:1.05}.sub{color:var(--mute);font-size:13px}
+</style></head><body>
+<div class="top"><h1>sas2r-agent: translate, run, compare, repair</h1><span class="pill">one loop, four roles</span><span class="id">Muse Spark 1.3 through the Meta Model API · prompt v3 · up to 3 attempts per program</span>
+<div class="right"><span class="btn">python -m agent run P036</span><span class="btn go">▶ Execute</span></div></div>
+<div class="wrap"><div>
+<div class="canvas">
+<svg class="wires" viewBox="0 0 1270 540"><defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5 0 10z" fill="#4ade80"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5 0 10z" fill="#fbbf24"/></marker></defs>
+<g stroke="#4ade80" stroke-width="2.5" fill="none" marker-end="url(#a)">
+<path d="M126 260 H196"/><path d="M308 260 H394"/><path d="M506 260 H592"/><path d="M704 260 H790"/>
+<path d="M902 260 C960 260 960 160 1010 160 H1088"/><path d="M902 260 C960 260 960 360 1010 360 H1088"/>
+</g>
+<path d="M846 204 V130 C846 118 836 110 824 110 H472 C460 110 450 118 450 130 V200" stroke="#fbbf24" stroke-width="2.5" fill="none" marker-end="url(#b)" stroke-dasharray="7 5"/>
+<g fill="#4ade80"><circle cx="196" cy="260" r="5"/><circle cx="308" cy="260" r="5"/><circle cx="394" cy="260" r="5"/><circle cx="506" cy="260" r="5"/><circle cx="592" cy="260" r="5"/><circle cx="704" cy="260" r="5"/><circle cx="790" cy="260" r="5"/><circle cx="902" cy="260" r="5"/><circle cx="1088" cy="160" r="5"/><circle cx="1088" cy="360" r="5"/></g>
+<g fill="#fbbf24"><circle cx="846" cy="204" r="5"/><circle cx="450" cy="204" r="5"/></g>
+</svg>
+<svg class="bolt" style="left:86px;top:244px;width:32px;height:32px" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L4 14h6l-1 8 9-12h-6z"/></svg>
+<div class="node on" style="left:252px;top:260px"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#e6edf3" stroke-width="1.6" stroke-linecap="round"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></svg><div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5"><path d="M5 12l5 5 9-10"/></svg></div></div>
+<div class="lab" style="left:252px;top:330px"><b>Context builder</b><span>SAS program, inputs,<br>expected outputs</span></div>
+<div class="node on" style="left:450px;top:260px"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="1.6" stroke-linejoin="round"><path d="M12 2c.6 5.2 4.8 9.4 10 10-5.2.6-9.4 4.8-10 10-.6-5.2-4.8-9.4-10-10 5.2-.6 9.4-4.8 10-10z"/></svg><div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5"><path d="M5 12l5 5 9-10"/></svg></div></div>
+<div class="lab" style="left:450px;top:330px"><b>Muse Spark 1.3</b><span>Meta Model API<br>writes one R script</span></div>
+<div class="node on" style="left:648px;top:260px"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="1.6" stroke-linejoin="round"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M4 7.5l8 4.5 8-4.5M12 12v9"/></svg><div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5"><path d="M5 12l5 5 9-10"/></svg></div></div>
+<div class="lab" style="left:648px;top:330px"><b>Sandbox</b><span>Docker, no network,<br>R 4.6, 6 GB, 2 CPUs</span></div>
+<div class="node on" style="left:846px;top:260px"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#e6edf3" stroke-width="1.6" stroke-linecap="round"><rect x="3" y="5" width="7" height="14" rx="1.5"/><rect x="14" y="5" width="7" height="14" rx="1.5"/><path d="M5 9h3M5 12h3M5 15h3M16 9h3M16 12h3M16 15h3"/></svg><div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5"><path d="M5 12l5 5 9-10"/></svg></div></div>
+<div class="lab" style="left:846px;top:330px"><b>Comparator</b><span>outputs vs the SAS reference:<br>cells, values, figures</span></div>
+<div class="node on" style="left:1144px;top:160px"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#e6edf3" stroke-width="1.6" stroke-linecap="round"><path d="M10 14a4 4 0 005.7 0l2.6-2.6a4 4 0 00-5.7-5.7L11.5 7"/><path d="M14 10a4 4 0 00-5.7 0l-2.6 2.6a4 4 0 005.7 5.7l1.1-1.1"/></svg><div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5"><path d="M5 12l5 5 9-10"/></svg></div></div>
+<div class="lab" style="left:1144px;top:230px"><b>Provenance ledger</b><span>hashes of every attempt,<br>chained, append-only</span></div>
+<div class="node on" style="left:1144px;top:400px"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="1.8" stroke-linecap="round"><path d="M4 20V10M10 20V4M16 20v-8M22 20H2"/></svg><div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5"><path d="M5 12l5 5 9-10"/></svg></div></div>
+<div class="lab" style="left:1144px;top:470px"><b>Leaderboard</b><span>equivalent or not,<br>cost per matched program</span></div>
+<div class="tag" style="left:1000px;top:120px">equivalent</div>
+<div class="tag amb" style="left:470px;top:66px">differences and the R log go back to the model: repair, up to 3 tries</div>
+<div class="tag" style="left:40px;top:300px;color:#f97316;border-color:rgba(249,115,22,.3)">SAS program</div>
+</div>
+<div class="hist"><h2>Attempt history <span class="sub" style="font-weight:400;margin-left:10px">real runs, from runs/</span></h2>
+<table><tr><th>Program</th><th>Attempt</th><th>Status</th><th>Values in the SAS output found in R</th><th>Result</th></tr>
+<tr><td class="mono">P009</td><td>1</td><td class="ok">✔ Match</td><td>129 of 129</td><td>dataset ae: 54 rows × 12 columns, cell for cell</td></tr>
+<tr><td class="mono">P036</td><td>1</td><td class="df">✖ Differences</td><td>96 of 106</td><td>10 missing values sent back for repair</td></tr>
+<tr><td class="mono">P036</td><td>2</td><td class="ok">✔ Match</td><td>106 of 106</td><td>equivalent, 2 attempts</td></tr>
+<tr><td class="mono">P040</td><td>1</td><td class="df">✖ Differences</td><td>265 of 373</td><td>108 missing values sent back for repair</td></tr>
+<tr><td class="mono">P040</td><td>2</td><td class="ok">✔ Match</td><td>357 of 373</td><td>equivalent, above the 0.95 threshold</td></tr>
+</table></div>
+</div>
+<div class="side">
+<div class="card"><h3>Muse Spark 1.3 · prompt v3</h3><div class="big">94 / 100</div><div class="sub">programs reproduced, strict recut</div></div>
+<div class="card"><h3>Checks</h3>
+<div class="kv"><span>Datasets, cell for cell</span><b class="g">37 / 39</b></div>
+<div class="kv"><span>Tables and listings, values</span><b>recall ≥ 0.95</b></div>
+<div class="kv"><span>Figures</span><b>produced</b></div>
+<div class="kv"><span>Cost per matched program</span><b class="g">$0.09</b></div></div>
+<div class="card"><h3>Every attempt records</h3>
+<div class="kv"><span>prompt, answer, script</span><b>SHA-256</b></div>
+<div class="kv"><span>every output, R log</span><b>SHA-256</b></div>
+<div class="kv"><span>SAS reference files</span><b>verified</b></div>
+<div class="kv"><span>runs/ledger.jsonl</span><b class="g">intact</b></div></div>
+</div></div>
+</body></html>

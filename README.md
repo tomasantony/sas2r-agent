@@ -111,6 +111,10 @@ set is the first roadmap item.
 
 ## How it works
 
+![The loop as a node graph: context builder, Muse Spark 1.3, sandbox, comparator, then the provenance ledger and the leaderboard, with the repair loop drawn back to the model](docs/demo_assets/flow.png)
+
+*Diagram of the loop (`docs/demo_flow.html`), not a screenshot of a running app. The attempt rows and the numbers in the side panel are real, taken from `runs/`.*
+
 One loop with four roles, up to three attempts per program:
 
 1. **Context builder** (`agent/context.py`): reads the SAS program, the family
