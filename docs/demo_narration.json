@@ -1,19 +1,19 @@
 [
  [
   "s01",
-  "I translate SAS programs to R for clinical trials. Every trial's datasets, tables, listings and figures come out of SAS programs, and the industry is moving to R. Each program has to be rewritten, then checked against the SAS original. The checking is the slow part: QC is thirty to fifty percent of the programming effort, and this year the FDA started asking sponsors for exactly this kind of cross-validation."
+  "I translate SAS programs to R for clinical trials. A trial's datasets, tables, listings and figures all come out of SAS programs, and the industry is moving to R. Each program has to be rewritten and checked against the original, because a script that runs cleanly can still produce the wrong numbers. That checking is thirty to fifty percent of the programming effort, and this year the FDA started asking sponsors for this kind of cross-validation."
  ],
  [
   "s02",
-  "So I built sas2r-agent. It uses Muse Spark to write the R, runs it, and checks every output against the SAS reference. This is the leaderboard, over one hundred programs."
+  "So I built sas2r-agent, with Meta's Muse Spark 1.3. It writes the R, runs it, finds the numbers that differ, and repairs its own translation. This is the leaderboard, over one hundred programs."
  ],
  [
   "s03",
-  "One loop, four roles. The context builder reads the SAS program, its inputs and the outputs it produced. Muse Spark 1.3, through the Meta Model API, writes one R script. A sandbox with no network runs it. The comparator checks the outputs against the SAS reference and sends the differences back. Up to three tries."
+  "One loop, four roles. The context builder reads the SAS program, its inputs and outputs. Muse Spark 1.3, through the Meta Model API, writes one R script. A sandbox with no network runs it. The comparator checks the outputs against the SAS reference and sends the differences back. Up to three tries."
  ],
  [
   "s04",
-  "Here it is on two programs. The first matches on the first try. The second doesn't: the comparator lists the numbers that are missing, sends them back, and the second try matches."
+  "Two programs. The first matches SAS straight away. The second doesn't: the comparator lists the missing values, sends them back, and the second attempt matches."
  ],
  [
   "s04b",
@@ -21,15 +21,15 @@
  ],
  [
   "s05",
-  "Every try leaves a provenance record: hashes of the prompt, the answer, the script, every output and the SAS reference, chained into an append-only ledger that verify recomputes."
+  "Every attempt leaves a provenance trail: hashes of the prompt, the answer, the script, every output and the SAS reference, chained in an append-only ledger. Verify recomputes the chain."
  ],
  [
   "s06",
-  "The benchmark is one hundred public SAS programs, with reference outputs from real SAS. Muse Spark 1.3 reproduces ninety-four. On the thirty-nine that produce datasets it matches thirty-seven cell for cell, the same as Claude Opus, and it passes three programs Claude misses, at half the cost."
+  "The benchmark is one hundred public SAS programs, run in real SAS. Muse Spark 1.3 reproduces ninety-four. On the thirty-nine that produce datasets it matches thirty-seven cell for cell, the same as Claude Opus, and it passes three programs Claude misses, at half the cost."
  ],
  [
   "s07",
-  "This column is the one a company cares about: the cost of one translation that fully matched SAS. Muse Spark is about ten cents. Muse Spark Open, the open weights, scores eighty-five percent on the same harness, so a sponsor can run this inside its own firewall."
+  "The metric that matters is cost per matched program, not cost per call. Muse Spark is about ten cents. Muse Spark Open, the open weights, scores eighty-five on the same harness, so a sponsor can run this inside its own firewall."
  ],
  [
   "s08",
@@ -41,10 +41,10 @@
  ],
  [
   "s10",
-  "Any cell opens the generated R, the comparison and the provenance record. All fifteen hundred scripts are in the repo, one folder per attempt, next to the outputs they produced."
+  "Any cell opens the generated R, the comparison and the provenance record. All fifteen hundred scripts are in the repo, one folder per attempt."
  ],
  [
   "s11",
-  "Two limits. Figures are checked for being produced, not compared pixel by pixel, and one sweep varies by about five programs. Everything in this repo was built inside the hackathon window; the benchmark is my earlier work, in its own repo."
+  "Two limits: figures are checked for being produced, not compared, and one sweep varies by about five programs. The benchmark is my earlier work; the agent was built in the window. sas2r-agent doesn't just generate R code. It tests whether R reproduces SAS, and uses the evidence to fix what doesn't."
  ]
 ]
