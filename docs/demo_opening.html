@@ -29,7 +29,6 @@ pre{margin:0;padding:10px 14px;font:11.5px/14px Consolas,"Cascadia Mono",monospa
            DSTERM DSDECOD $80 EPOCH $20 DSSTDTC $10;
     retain STUDYID DOMAIN USUBJID DSSEQ DSCAT DSSCAT DSTERM DSDECOD EPOCH DSSTDTC;
     set work.raw_ds;
-
     STUDYID = &quot;CDISC-01&quot;;
     DOMAIN = &quot;DS&quot;;
     USUBJID = catx(&quot;-&quot;, STUDYID, SUBJ_ID);
@@ -40,14 +39,11 @@ pre{margin:0;padding:10px 14px;font:11.5px/14px Consolas,"Cascadia Mono",monospa
     DSDECOD = DSTERM;
     if upcase(strip(DISPOSITION)) = &quot;SCREEN FAILURE&quot; then EPOCH = &quot;SCREENING&quot;;
     else EPOCH = &quot;FOLLOW-UP&quot;;
-
     if vtype(STUDY_END_DAT) = &#x27;C&#x27; then _dsdt = input(strip(STUDY_END_DAT), anydtdte.);
     else _dsdt = STUDY_END_DAT;
     if not missing(_dsdt) then DSSTDTC = put(_dsdt, is8601da.);
-
     keep STUDYID DOMAIN USUBJID DSSEQ DSCAT DSSCAT DSTERM DSDECOD EPOCH DSSTDTC;
 run;
-
 /* Sort without deleting records: duplicate keys must remain visible to QC. */
 proc sort data=sdtm.ds;</pre></div>
   <div class="cell sas out"><h2>P012.lst <span>what SAS printed: PROC PRINT, first 12 observations</span><span class="k" style="color:var(--blue)">SAS output</span></h2><pre>                                                          DS Domain Audit
@@ -70,7 +66,8 @@ proc sort data=sdtm.ds;</pre></div>
    8 CDISC-01 DS CDISC-01-701-016 DISPOSITION EVENT STUDY PARTICIPATION COMPLETED         COMPLETED         FOLLOW-UP 2023-03-27 1
    9 CDISC-01 DS CDISC-01-701-017 DISPOSITION EVENT STUDY PARTICIPATION COMPLETED         COMPLETED         FOLLOW-UP 2023-03-26 1
   10 CDISC-01 DS CDISC-01-701-028 DISPOSITION EVENT STUDY PARTICIPATION COMPLETED         COMPLETED         FOLLOW-UP 2023-04-12 1
-  11 CDISC-01 DS CDISC-01-701-030 DISPOSITION EVENT STUDY PARTICIPATION COMPLETED         COMPLETED         FOLLOW-UP 2023-04-16 1</pre></div>
+  11 CDISC-01 DS CDISC-01-701-030 DISPOSITION EVENT STUDY PARTICIPATION COMPLETED         COMPLETED         FOLLOW-UP 2023-04-16 1
+  12 CDISC-01 DS CDISC-01-701-035 DISPOSITION EVENT STUDY PARTICIPATION COMPLETED         COMPLETED         FOLLOW-UP 2023-03-26 1</pre></div>
   <div class="cell r"><h2>script.R <span>lines 155 to 199 of 246, the derivation and the sort</span><span class="k">generated R</span></h2><pre>STUDYID &lt;- rep(&quot;CDISC-01&quot;, n_obs)
 DOMAIN &lt;- rep(&quot;DS&quot;, n_obs)
 USUBJID &lt;- sas_catx(&quot;-&quot;, STUDYID, SUBJ_ID_raw)
