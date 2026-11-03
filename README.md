@@ -45,7 +45,7 @@ comparator. The strict columns are the ones to trust: dataset programs are compa
 cell by cell at 99.9 percent agreement, and the 14 figure-only programs pass on the
 figure being produced, not on pixels, so they are excluded in the third column.
 
-| row | prompt | equivalent, all 100 | dataset programs, cell for cell (39) | excluding figure-only (86) | mean attempts | cost (list) | $ per equivalent |
+| row | prompt | passed every check, all 100 | dataset programs, cell for cell (39) | excluding figure-only (86) | mean attempts | cost (list) | $ per passed program |
 |---|---|---|---|---|---|---|---|
 | **Muse Spark 1.3** (Meta Model API, `muse-spark-1.3`) | v3, current | **94** | **37** | **80** | 1.60 | $8.90 | $0.095 |
 | Muse Spark 1.3 | v2 | 95 | 38 | 81 | 1.66 | $9.37 | $0.099 |
@@ -73,7 +73,7 @@ What that says:
 `runs/leaderboard.md` has the full table; `dashboard/index.html` the interactive
 version with drill-down into every cell.
 
-### What "equivalent" means, and what it does not
+### What "passed every check" (equivalent) means, and what it does not
 
 | artifact | check | threshold |
 |---|---|---|
@@ -95,7 +95,7 @@ Each prompt version is a separate leaderboard row (`run --tag vN`), recorded in 
 report and provenance record, so an improvement is measured on the same 100 programs
 rather than claimed.
 
-| prompt | equivalent | what changed |
+| prompt | passed every check | what changed |
 |---|---|---|
 | v1 | 86 | initial prompt |
 | v2 | 95 | rules distilled from the programs v1 missed and Claude matched (16 before the comparator fix of 29 October, 14 after): strict single-format date parsing, derive missing upstream datasets by CDISC definition, join hygiene, every block a SAS procedure prints by default, PICTURE formats truncate, CLASS marginals, repair discipline |
@@ -198,7 +198,7 @@ model runs, was done inside the window.
 
 `runs/leaderboard.md` is the current table; `dashboard/index.html` is the
 interactive version (bar chart, scorecard with list-price cost per program and
-per equivalent translation, a program-by-model grid, and drill-down into the
+per passed program, a program-by-model grid, and drill-down into the
 generated R, the comparison and the provenance record of any cell;
 `#p=<run>&id=<program>` deep-links to a cell). Open it from a local HTTP server so
 the drill-down can read `runs/`:
