@@ -2,6 +2,8 @@
 
 Word for word, with the visual shown for each line. Generated from `demo_narration.json`; the cue sheet for a human voice-over is the same text.
 
+Voice-over: text-to-speech (edge-tts, en-US-AndrewNeural) converted to the author's own voice with Seed-VC from a 24-second reference recording, so the timing and intonation are synthetic and the timbre is the author's.
+
 | line | visual | words |
 |---|---|---|
 | s01a | docs/demo_title.html, SAS to R problem card | SAS is the industry-standard software used to clean, analyze, and report clinical trial data for regulatory submissions to agencies like the FDA. Today, the biopharma industry is moving to R, a modern open-source platform. I have been a clinical SAS programmer in pharma since 2008, and have used R since 2016. |
