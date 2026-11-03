@@ -48,6 +48,7 @@ th, td { padding: 7px 10px; border-bottom: 1px solid var(--grid); text-align: ri
 th:first-child, td:first-child, th.l, td.l { text-align: left; }
 th { color: var(--text-2); font-weight: 500; font-size: 13px; }
 tbody tr:hover { background: var(--accent-bg); }
+tbody tr.hl td { background: #fff3d6; border-top: 2px solid #e0961b; border-bottom: 2px solid #e0961b; }
 .tag { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 999px; border: 1px solid currentColor; margin-right: 6px; vertical-align: middle; }
 .tag.meta { color: var(--meta); } .tag.baseline { color: var(--baseline); }
 .scroll { overflow-x: auto; }
@@ -182,11 +183,13 @@ a { color: var(--meta); }
     const rows = visible().map(p => [p, summary(p)]).sort((a, b) => b[1].equivalent_pct - a[1].equivalent_pct || a[1].cost_per_equivalent_usd - b[1].cost_per_equivalent_usd);
     $("#board tbody").innerHTML = rows.map(([p, o]) => {
       const [pin, pout] = o.list_price_per_m || [0, 0];
-      return `<tr><td class="l"><span class="tag ${roleOf(p)}">${roleOf(p)}</span>${label(p)}<div style="font-size:11px;color:var(--muted)">${p}${board[p].note ? " · " + board[p].note : ""}</div></td>
+      return `<tr data-p="${p}"><td class="l"><span class="tag ${roleOf(p)}">${roleOf(p)}</span>${label(p)}<div style="font-size:11px;color:var(--muted)">${p}${board[p].note ? " · " + board[p].note : ""}</div></td>
         <td class="l">v${(o.prompt_versions || [1]).join("+")}</td><td>${o.programs}</td><td>${pct(o.runs_pct)}</td><td>${pct(o.produced_all_pct)}</td><td><b>${pct(o.equivalent_pct)}</b></td>
         <td>${fmt(o.mean_iterations, 2)}</td><td>${fmt(o.mean_seconds, 0)}</td><td>${fmt(pin, 2)} / ${fmt(pout, 2)}</td>
         <td>$${fmt(o.cost_usd, 2)}</td><td>$${fmt(o.cost_per_program_usd, 3)}</td><td>${o.cost_per_equivalent_usd == null ? "n/a" : "$" + fmt(o.cost_per_equivalent_usd, 3)}</td></tr>`;
     }).join("");
+    const hl = new URLSearchParams(location.search).get("hl");  // presentation mode: ?hl=prov,prov outlines those rows
+    if (hl) hl.split(",").forEach(p => { const tr = $(`#board tbody tr[data-p="${p}"]`); if (tr) tr.classList.add("hl"); });
   }
 
   function grid() {
@@ -204,7 +207,7 @@ a { color: var(--meta); }
         let cls = "";
         if (r) cls = r.equivalent ? "ok" : (r.runs && r.best_score >= 0.9 ? "near" : "bad");
         const sel = selected && selected[0] === p && selected[1] === x.id ? " sel" : "";
-        h += `<div class="cell ${cls}${sel}" data-p="${p}" data-id="${x.id}" data-tip="${x.id} · ${label(p)}${r ? ` · ${r.equivalent ? "equivalent" : "not equivalent"} · score ${fmt(r.best_score, 3)} · ${r.iterations} attempt${r.iterations === 1 ? "" : "s"}` : " · not run"}${x.family ? " · " + x.family : ""}"></div>`;
+        h += `<div class="cell ${cls}${sel}" data-p="${p}" data-id="${x.id}" data-tip="${x.id} · ${label(p)}${r ? ` · ${r.equivalent ? "passed every check" : "did not pass"} · score ${fmt(r.best_score, 3)} · ${r.iterations} attempt${r.iterations === 1 ? "" : "s"}` : " · not run"}${x.family ? " · " + x.family : ""}"></div>`;
       });
     });
     g.innerHTML = h;
@@ -222,7 +225,7 @@ a { color: var(--meta); }
     const base = `../runs/${p}/${id}`;
     d.innerHTML = `<h2 style="margin-top:0">${id} · ${label(p)}</h2><div class="row">
       <span class="pill">${r.family || ""}</span>
-      <span class="${r.equivalent ? "ok-t" : "bad-t"}">${r.equivalent ? "equivalent to SAS" : "not equivalent"}</span>
+      <span class="${r.equivalent ? "ok-t" : "bad-t"}">${r.equivalent ? "passed every check" : "did not pass every check"}</span>
       <span>best score ${fmt(r.best_score, 3)}</span><span>${r.iterations} attempt(s)</span>
       <span>best attempt ${r.best_attempt || "?"}</span></div><p class="foot">loading…</p>`;
     const n = r.best_attempt || r.iterations || 1;

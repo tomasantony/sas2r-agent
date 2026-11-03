@@ -51,7 +51,7 @@ svg.wires{position:absolute;inset:0;width:100%;height:100%}
 <div class="lab" style="left:1144px;top:230px"><b>Provenance ledger</b><span>hashes of every attempt,<br>chained, append-only</span></div>
 <div class="node on" style="left:1144px;top:400px"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="1.8" stroke-linecap="round"><path d="M4 20V10M10 20V4M16 20v-8M22 20H2"/></svg><div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5"><path d="M5 12l5 5 9-10"/></svg></div></div>
 <div class="lab" style="left:1144px;top:470px"><b>Leaderboard</b><span>passed or not,<br>cost per passed program</span></div>
-<div class="tag" style="left:1000px;top:120px">equivalent</div>
+<div class="tag" style="left:1000px;top:120px">passed</div>
 <div class="tag amb" style="left:470px;top:66px">differences and the R log go back to the model: repair, up to 3 tries</div>
 <div class="tag" style="left:40px;top:300px;color:#f97316;border-color:rgba(249,115,22,.3)">SAS program</div>
 </div>
@@ -59,9 +59,9 @@ svg.wires{position:absolute;inset:0;width:100%;height:100%}
 <table><tr><th>Program</th><th>Attempt</th><th>Status</th><th>Values in the SAS output found in R</th><th>Result</th></tr>
 <tr><td class="mono">P009</td><td>1</td><td class="ok">✔ Match</td><td>129 of 129</td><td>dataset ae: 54 rows × 12 columns, cell for cell</td></tr>
 <tr><td class="mono">P036</td><td>1</td><td class="df">✖ Differences</td><td>96 of 106</td><td>10 missing values sent back for repair</td></tr>
-<tr><td class="mono">P036</td><td>2</td><td class="ok">✔ Match</td><td>106 of 106</td><td>equivalent, 2 attempts</td></tr>
+<tr><td class="mono">P036</td><td>2</td><td class="ok">✔ Match</td><td>106 of 106</td><td>passed every check, 2 attempts</td></tr>
 <tr><td class="mono">P040</td><td>1</td><td class="df">✖ Differences</td><td>265 of 373</td><td>108 missing values sent back for repair</td></tr>
-<tr><td class="mono">P040</td><td>2</td><td class="ok">✔ Match</td><td>357 of 373</td><td>equivalent, above the 0.95 threshold</td></tr>
+<tr><td class="mono">P040</td><td>2</td><td class="ok">✔ Match</td><td>357 of 373</td><td>passed every check, above the 0.95 threshold</td></tr>
 </table></div>
 </div>
 <div class="side">

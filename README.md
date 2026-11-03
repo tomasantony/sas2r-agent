@@ -3,7 +3,8 @@
 **Muse Spark translates clinical SAS programs to R and shows its work: 94 of 100 benchmark
 programs reproduce the SAS output, and every attempt is hashed into an audit ledger.**
 
-Built solo for the Meta Global AI Developer Hackathon (Indie track, 26 October to
+Built solo by Thomas Antony, a clinical SAS programmer in pharma since 2008 who has worked in R
+since 2016, for the Meta Global AI Developer Hackathon (Indie track, 26 October to
 4 November 2026). Demo video: *link added at submission*. Interactive leaderboard:
 `dashboard/index.html` (see [Leaderboard](#leaderboard)).
 
@@ -11,6 +12,7 @@ Built solo for the Meta Global AI Developer Hackathon (Indie track, 26 October t
 
 ## Who this is for
 
+I have programmed SAS in the pharmaceutical industry since 2008 and R since 2016, and
 I translate SAS programs to R for clinical trials. Every trial's datasets, tables,
 listings and figures are produced by SAS programs, and the industry is moving to R:
 Novo Nordisk made the first R-based FDA submission in 2021, Roche the first
