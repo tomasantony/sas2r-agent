@@ -21,11 +21,11 @@
  ],
  [
   "s05",
-  "Every attempt leaves a provenance trail: hashes of the prompt, the answer, the script, every output and the SAS reference, chained in an append-only ledger. Verify recomputes the chain."
+  "Every attempt leaves a provenance trail: hashes of the prompt, the answer, the script, every output and the SAS reference, chained in an append-only ledger."
  ],
  [
   "s06",
-  "The benchmark is one hundred public SAS programs, run in real SAS. Muse Spark 1.3 reproduces ninety-four. On the thirty-nine that produce datasets it matches thirty-seven cell for cell, the same as Claude Opus, and it passes three programs Claude misses, at half the cost."
+  "The benchmark is one hundred public SAS programs, run in real SAS. Muse Spark 1.3 passes every check on ninety-four. On the thirty-nine that produce datasets it matches thirty-seven cell for cell, the same as Claude Opus, and it passes three programs Claude misses, at half the cost."
  ],
  [
   "s07",
@@ -37,7 +37,7 @@
  ],
  [
   "s09",
-  "The analysis of those misses became prompt version two: eighty-six to ninety-five percent. The remaining misses became version three. Each version is its own row, so the improvement is measured, not claimed."
+  "The analysis of those misses became prompt version two: eighty-six to ninety-five percent. Version three fixed the five that were left and lost six others: ninety-four, within the swing between two runs. Each version is its own row, so the change is measured, not claimed."
  ],
  [
   "s10",
@@ -45,6 +45,6 @@
  ],
  [
   "s11",
-  "Two limits: figures are checked for being produced, not compared, and one sweep varies by about five programs. The benchmark is my earlier work; the agent was built in the window. sas2r-agent doesn't just generate R code. It tests whether R reproduces SAS, and uses the evidence to fix what doesn't."
+  "One limit: figures are checked for being produced, not compared. The benchmark is my earlier work; the agent was built in the window. sas2r-agent doesn't just generate R code. It tests whether R reproduces SAS, and uses the evidence to fix what doesn't."
  ]
 ]

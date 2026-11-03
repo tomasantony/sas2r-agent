@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>P036: miss, then repair</title>
+<style>
+:root{--bg:#0b0f14;--panel:#121820;--line:#243040;--ink:#e6edf3;--mute:#8b98a8;--green:#4ade80;--amber:#fbbf24;--red:#f87171}
+*{box-sizing:border-box}html,body{margin:0;width:1600px;height:900px;overflow:hidden;background:var(--bg);color:var(--ink);font-family:"Segoe UI",Inter,system-ui,sans-serif}
+.top{height:84px;display:flex;align-items:center;gap:18px;padding:0 36px;border-bottom:1px solid var(--line)}
+.top h1{font-size:26px;font-weight:600;margin:0}.top span{color:var(--mute);font-size:15px}
+.cols{display:grid;grid-template-columns:1fr 150px 1fr;gap:0;padding:28px 36px;height:816px;align-items:stretch}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px 26px;display:flex;flex-direction:column;gap:14px}
+.card h2{margin:0;font-size:22px;display:flex;align-items:center;gap:12px}.n{display:inline-flex;width:34px;height:34px;border-radius:50%;align-items:center;justify-content:center;font-size:17px;font-weight:700;color:#0b0f14}
+.n.a{background:var(--amber)}.n.g{background:var(--green)}
+pre{margin:0;font:16px/1.5 Consolas,"Cascadia Mono",monospace;color:#d7dee7;white-space:pre-wrap;background:#0e1319;border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.k{color:#7cc4ff}.warn{color:var(--amber)}.ok{color:var(--green)}.red{color:var(--red)}
+.big{font-size:44px;font-weight:700;line-height:1.05}.big small{display:block;font-size:15px;font-weight:400;color:var(--mute);margin-top:4px}
+.mid{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:var(--amber);text-align:center;font-size:14px}
+.mid .arr{font-size:60px;line-height:1}
+.miss{display:flex;flex-wrap:wrap;gap:8px}.miss b{font:600 17px Consolas,monospace;background:rgba(251,191,36,.12);border:1px solid rgba(251,191,36,.45);color:var(--amber);border-radius:6px;padding:3px 9px}
+.foot{color:var(--mute);font-size:14px;margin-top:auto}
+</style></head><body>
+<div class="top"><h1>P036: the comparator finds the misses, the model repairs them</h1><span>real run, Muse Spark 1.3, prompt v3, runs/muse-spark@v3/P036</span></div>
+<div class="cols">
+  <div class="card">
+    <h2><span class="n a">1</span> Attempt 1: R ran, but ten numbers are missing</h2>
+    <div class="big warn">96 of 106<small>numbers in the SAS listing P036.lst found in the R output · recall 0.906, below the 0.95 bar</small></div>
+    <pre><span class="k">$</span> compare P036 attempt_1
+  P036.lst:      <span class="warn">mismatch</span>  recall 0.906  (96 of 106 found)
+  sasgraph.png:  <span class="ok">ok</span>        produced
+  Target16.pdf:  <span class="ok">ok</span>        recall 1.000  (41 of 41 found)</pre>
+    <div>Missing from the R output, sent back to the model with the R log:</div>
+    <div class="miss"><b>0.0021</b><b>0.999</b><b>0.0012</b><b>0.9728</b><b>0.0029</b><b>0.056</b><b>…</b></div>
+    <div>Where they come from, in the SAS listing:</div>
+    <pre>Statistics for Table of TRTPN by n
+Statistic                     DF       Value      Prob
+<span class="warn">Chi-Square                     2      0.0021    0.9990
+Likelihood Ratio Chi-Square    2      0.0021    0.9990
+Mantel-Haenszel Chi-Square     1      0.0012    0.9728
+Phi Coefficient                       0.0029
+Contingency Coefficient               0.0029
+Cramer's V                            0.0029</span></pre>
+    <div class="foot">Cause: the first script left out the PROC FREQ chi-square statistics block. The listing's other 96 numbers were right.</div>
+  </div>
+  <div class="mid"><div class="arr">&#8594;</div><div>differences and<br>the R log go back<br>to Muse Spark 1.3</div></div>
+  <div class="card">
+    <h2><span class="n g">2</span> Attempt 2: the repaired script matches</h2>
+    <div class="big ok">106 of 106<small>every number in the SAS listing found · recall 1.000 · figure produced · PDF 41 of 41</small></div>
+    <pre><span class="k">$</span> compare P036 attempt_2
+  P036.lst:      <span class="ok">ok</span>        recall 1.000  (106 of 106 found)
+  sasgraph.png:  <span class="ok">ok</span>        produced
+  Target16.pdf:  <span class="ok">ok</span>        recall 1.000  (41 of 41 found)
+<span class="ok">P036: equivalent=True  score=1.000  iters=2</span>  tokens=15474/27729  128s  cost=$0.137</pre>
+    <div>What the repaired script added, and what it now prints:</div>
+    <pre><span class="k">+</span> fmt_prob4 &lt;- function(x) sapply(x, function(v) {
+<span class="k">+</span>   if (v &lt; 0.0001) return("&lt;.0001")
+<span class="k">+</span>   sprintf("%.4f", round_half_up(v, 4)) })   <span class="ok"># SAS rounds half away from zero</span>
+<span class="ok">Chi-Square                     2        0.0021       0.9990
+Likelihood Ratio Chi-Square    2        0.0021       0.9990
+Mantel-Haenszel Chi-Square     1        0.0012       0.9728
+Phi Coefficient                         0.0029</span></pre>
+    <div class="foot">Both attempts are kept in runs/muse-spark@v3/P036: script.R, the R log, every output, compare.json and provenance.json.</div>
+  </div>
+</div>
+</body></html>

@@ -96,7 +96,7 @@ def cmd_run(args):
     if args.skip_done:
         ids = [i for i in ids if not (RUNS_DIR / run_name / i / "report.json").exists()]
     tin, tout, spent = provider_spend(prov.name)
-    print(f"{prov.name}: {len(ids)} programs to run; spent so far ${spent:.2f} ({tin:,} in / {tout:,} out); "
+    print(f"{prov.name}: {len(ids)} programs to run; provider total so far ${spent:.2f} over all its runs ({tin:,} in / {tout:,} out); "
           f"budget ${args.budget_usd:.2f}" if args.budget_usd else f"{prov.name}: {len(ids)} programs to run", flush=True)
     for pid in ids:
         if args.budget_usd:
@@ -105,10 +105,11 @@ def cmd_run(args):
                 print(f"BUDGET STOP: estimated ${spent:.2f} >= ${args.budget_usd:.2f} before {pid}", flush=True)
                 break
         rep = run_program(pid, prov, max_iterations=args.max_iters, tag=args.tag or "")
-        _, _, spent = provider_spend(prov.name)
+        from .config import estimate_cost_usd
+        cost = estimate_cost_usd(prov.name, rep.input_tokens, rep.output_tokens)
         print(f"{pid}: translated={rep.translated} runs={rep.runs} all_outputs={rep.produced_all} "
               f"equivalent={rep.equivalent} score={rep.best_score:.3f} iters={rep.iterations} "
-              f"tokens={rep.input_tokens}/{rep.output_tokens} {rep.seconds:.0f}s  spent=${spent:.2f}", flush=True)
+              f"tokens={rep.input_tokens}/{rep.output_tokens} {rep.seconds:.0f}s  cost=${cost:.3f}", flush=True)
 
 
 def cmd_selftest(args):

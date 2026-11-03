@@ -78,7 +78,7 @@ a { color: var(--meta); }
 <body>
 <main>
   <h1>SAS to R translation leaderboard</h1>
-  <p class="sub">An agent translates each of 100 clinical SAS programs to R, runs the R in a sandbox, compares every output against the SAS reference and repairs up to three times. A program counts as <b>equivalent</b> only when every dataset, table, listing and figure matched.</p>
+  <p class="sub">An agent translates each of 100 clinical SAS programs to R, runs the R in a sandbox, compares every output against the SAS reference and repairs up to three times. A program counts as <b>passed</b> only when every check passed: datasets cell for cell, tables and listings by every number, figures by being produced. Figures are not compared pixel for pixel.</p>
 
   <div class="tiles" id="tiles"></div>
 
@@ -90,20 +90,20 @@ a { color: var(--meta); }
   </div>
 
   <div class="card">
-    <h2 style="margin-top:0" id="sec-bars">Equivalent translations per model</h2>
+    <h2 style="margin-top:0" id="sec-bars">Programs that passed every check, per model</h2>
     <div id="bars"></div>
     <div class="legend"><span style="--c:var(--meta)">Meta model</span><span style="--c:var(--baseline)">baseline (not a Meta model)</span></div>
   </div>
 
   <h2 id="sec-scorecard">Scorecard</h2>
   <div class="card scroll"><table id="board"><thead><tr>
-    <th class="l">model</th><th class="l">prompt</th><th>programs</th><th>ran</th><th>all outputs</th><th>equivalent</th><th>mean attempts</th><th>mean sec</th><th>list $/M in / out</th><th>cost</th><th>$ / program</th><th>$ / equivalent</th>
+    <th class="l">model</th><th class="l">prompt</th><th>programs</th><th>ran</th><th>all outputs</th><th>passed</th><th>mean attempts</th><th>mean sec</th><th>list $/M in / out</th><th>cost</th><th>$ / program</th><th>$ / passed</th>
   </tr></thead><tbody></tbody></table>
-  <p class="foot" style="margin-top:10px">Costs apply each vendor's list price per million tokens (reasoning tokens billed as output) to the tokens the runs actually used. Hackathon credits that paid for the runs are not reflected. "$ / equivalent" is the price of one translation that fully matched SAS, so it penalises models that fail cheaply.</p></div>
+  <p class="foot" style="margin-top:10px">Costs apply each vendor's list price per million tokens (reasoning tokens billed as output) to the tokens the runs actually used. Hackathon credits that paid for the runs are not reflected. "$ / passed" is the price of one translation that passed every check, so it penalises models that fail cheaply.</p></div>
 
   <h2 id="sec-grid">Every program, every model</h2>
   <div class="card">
-    <div class="legend" style="margin:0 0 10px"><span style="--c:var(--ok)">equivalent</span><span style="--c:var(--warn)">ran, score ≥ 0.9</span><span style="--c:var(--bad)">ran, score &lt; 0.9 or failed</span><span style="--c:var(--none)">not run</span></div>
+    <div class="legend" style="margin:0 0 10px"><span style="--c:var(--ok)">passed every check</span><span style="--c:var(--warn)">ran, score ≥ 0.9</span><span style="--c:var(--bad)">ran, score &lt; 0.9 or failed</span><span style="--c:var(--none)">not run</span></div>
     <div class="grid-wrap"><div class="pgrid" id="pgrid"></div></div>
     <p class="foot" style="margin-top:8px">Click a cell to see the generated R, the comparison and the provenance record for that program and model.</p>
   </div>
@@ -153,10 +153,10 @@ a { color: var(--meta); }
     }
     const t = [
       ["programs in benchmark", nprog, "SAS reference outputs frozen and hashed"],
-      bestMeta ? ["best Meta row", pct(bestMeta[1].equivalent_pct), label(bestMeta[0])] : null,
-      bestBase ? ["best baseline", pct(bestBase[1].equivalent_pct), label(bestBase[0])] : null,
+      bestMeta ? ["best Meta row: passed every check", pct(bestMeta[1].equivalent_pct), label(bestMeta[0])] : null,
+      bestBase ? ["best baseline: passed every check", pct(bestBase[1].equivalent_pct), label(bestBase[0])] : null,
       onlyMeta ? ["passed by Meta, missed by the baseline", onlyMeta.length, onlyMeta.join(", ") || "none"] : null,
-      cheapest ? ["cheapest per equivalent, rows ≥ 80%", "$" + fmt(cheapest[1].cost_per_equivalent_usd, 3), label(cheapest[0])] : null,
+      cheapest ? ["cheapest per passed program, rows ≥ 80%", "$" + fmt(cheapest[1].cost_per_equivalent_usd, 3), label(cheapest[0])] : null,
     ].filter(Boolean);
     $("#tiles").innerHTML = t.map(x => `<div class="card tile"><div class="k">${x[0]}</div><div class="v">${x[1]}</div><div class="d">${x[2]}</div></div>`).join("");
   }
@@ -165,13 +165,13 @@ a { color: var(--meta); }
     const rows = visible().map(p => [p, summary(p)]).sort((a, b) => b[1].equivalent_pct - a[1].equivalent_pct);
     const W = Math.min(1180, $("#bars").clientWidth || 900), lw = 300, rh = 30, H = rows.length * rh + 28;
     const x = v => lw + (v / 100) * (W - lw - 60);
-    let s = `<svg width="${W}" height="${H}" role="img" aria-label="Equivalent translations per model">`;
+    let s = `<svg width="${W}" height="${H}" role="img" aria-label="Programs that passed every check, per model">`;
     [0, 25, 50, 75, 100].forEach(v => { s += `<line class="grid" x1="${x(v)}" x2="${x(v)}" y1="0" y2="${H - 24}"/><text class="lbl" x="${x(v)}" y="${H - 6}" text-anchor="middle">${v}%</text>`; });
     rows.forEach(([p, o], i) => {
       const y = i * rh + 4, c = roleOf(p) === "meta" ? "var(--meta)" : "var(--baseline)";
       const w = Math.max(0, x(o.equivalent_pct) - x(0));
       s += `<text x="${lw - 10}" y="${y + 17}" text-anchor="end">${label(p)}</text>`;
-      s += `<rect x="${x(0)}" y="${y + 4}" width="${w}" height="${rh - 12}" rx="4" fill="${c}" data-p="${p}"><title>${label(p)}: ${pct(o.equivalent_pct)} equivalent of ${o.programs} programs</title></rect>`;
+      s += `<rect x="${x(0)}" y="${y + 4}" width="${w}" height="${rh - 12}" rx="4" fill="${c}" data-p="${p}"><title>${label(p)}: ${pct(o.equivalent_pct)} passed every check, of ${o.programs} programs</title></rect>`;
       s += `<text x="${x(o.equivalent_pct) + 6}" y="${y + 17}">${pct(o.equivalent_pct)}<tspan class="lbl"> of ${o.programs}</tspan></text>`;
     });
     s += `<line class="ax" x1="${x(0)}" x2="${x(0)}" y1="0" y2="${H - 24}"/></svg>`;
