@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Provenance ledger</title>
+<style>
+:root{--bg:#0b0f14;--panel:#121820;--line:#243040;--ink:#e6edf3;--mute:#8b98a8;--green:#4ade80;--amber:#fbbf24;--blue:#7cc4ff}
+*{box-sizing:border-box}html,body{margin:0;width:1600px;height:900px;overflow:hidden;background:var(--bg);color:var(--ink);font-family:"Segoe UI",Inter,system-ui,sans-serif}
+.top{height:80px;display:flex;align-items:center;gap:18px;padding:0 36px;border-bottom:1px solid var(--line)}
+.top h1{font-size:26px;font-weight:600;margin:0}.top span{color:var(--mute);font-size:15px}
+.cols{display:grid;grid-template-columns:560px 1fr;gap:26px;padding:24px 36px;height:820px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px 24px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.card h2{margin:0;font-size:20px}
+pre{margin:0;font:18px/1.55 Consolas,"Cascadia Mono",monospace;color:#d7dee7;white-space:pre-wrap;background:#0e1319;border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+pre.small{font-size:16px;line-height:1.5}
+.k{color:var(--blue)}.ok{color:var(--green)}.h{color:var(--amber)}.m{color:var(--mute)}
+.foot{color:var(--mute);font-size:14px;margin-top:auto;line-height:1.4}
+.chain{display:flex;flex-direction:column;gap:10px;font:16px Consolas,monospace}
+.chain div{background:#0e1319;border:1px solid var(--line);border-radius:10px;padding:10px 14px;color:var(--mute)}
+.chain div.me{border-color:var(--green);color:var(--ink)}
+.chain .arr{text-align:center;color:var(--green);font-size:22px;background:none;border:none;padding:0}
+</style></head><body>
+<div class="top"><h1>Every attempt is a record in an append-only, hash-chained ledger</h1><span>runs/ledger.jsonl, 2,563 entries, one per attempt of every model</span></div>
+<div class="cols">
+  <div class="card">
+    <h2>Verify: reference untouched, chain intact</h2>
+    <pre><span class="k">$</span> python -m agent verify
+reference files: 600, changed or missing: 0
+ledger entries: 2563, entry hashes all valid,
+  links all resolve
+<span class="ok">ledger: INTACT</span></pre>
+    <h2>The chain around P036, attempt 2</h2>
+    <div class="chain">
+      <div>entry 2043 &nbsp;entry_hash <span class="h">7fedc2d4f87acffb…</span></div>
+      <div class="arr">&#8595; prev_hash</div>
+      <div class="me">entry 2044 &nbsp;P036 attempt 2 &nbsp;entry_hash <span class="h">2ab579e2141a35e0…</span></div>
+      <div class="arr">&#8595; prev_hash</div>
+      <div>entry 2045 &nbsp;entry_hash <span class="h">…</span></div>
+    </div>
+    <div class="foot">Change one byte of any attempt, output or SAS reference and the chain breaks at that entry. The SAS reference hashes were frozen before any model ran.</div>
+  </div>
+  <div class="card">
+    <h2>Entry 2044: what the record hashes</h2>
+    <pre class="small">{ <span class="k">"program"</span>: "P036", <span class="k">"attempt"</span>: 2, <span class="k">"model"</span>: "muse-spark-1.3", <span class="k">"prompt_version"</span>: 3,
+  <span class="k">"inputs"</span>:       { "prompt_translate.md": <span class="h">"9689185caadbf8c9…"</span> },
+  <span class="k">"model_output"</span>: { "response.md": <span class="h">"316dcc642dc6ceb3…"</span>, "script.R": <span class="h">"055cf92b422eef69…"</span> },
+  <span class="k">"llm"</span>:          { "input_tokens": 10918, "output_tokens": 11540, "seconds": 41.3 },
+  <span class="k">"sandbox"</span>:      { "image": "sas2r-sandbox:r4.6", "image_id": <span class="h">"sha256:26a61dd7…"</span>, "network": "none" },
+  <span class="k">"r_run"</span>:        { "rc": 0, "seconds": 2.5, "log_sha256": <span class="h">"120eafa86f41a394…"</span> },
+  <span class="k">"r_outputs"</span>:    { "P036.txt": <span class="h">"766384ecc54803ce…"</span>, "sasgraph.png": <span class="h">"3d99ea52bc5fdcd9…"</span>,
+                    "Target16.txt": <span class="h">"d400bcad73bb0dc8…"</span>, <span class="m">… 9 more files</span> },
+  <span class="k">"sas_reference"</span>: [ { "file": "logs/P036.lst", "frozen_sha256": <span class="h">"48e6f616fa42b60a…"</span>, "ok": true }, <span class="m">…</span> ],
+  <span class="k">"reference_verified"</span>: true,
+  <span class="k">"comparison"</span>:   { <span class="ok">"equivalent": true</span>, "produced_all": true, "score": 1.0 },
+  <span class="k">"agent_commit"</span>: <span class="h">"a0db5c83…"</span>, <span class="k">"benchmark_commit"</span>: <span class="h">"7cd06148…"</span>, <span class="k">"recorded_at"</span>: "2026-10-30T00:55:58" }</pre>
+    <div class="foot">Prompt, model answer, generated script, R log, every R output and every SAS reference file are identified by SHA-256. The files themselves sit in runs/muse-spark@v3/P036/attempt_2, so a reviewer can recompute any hash.</div>
+  </div>
+</div>
+</body></html>
