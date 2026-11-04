@@ -1,11 +1,11 @@
 [
  [
   "s01a",
-  "SAS is the industry-standard software used to clean, analyze, and report clinical trial data for regulatory submissions to agencies like the FDA. Today, the biopharma industry is moving to R, a modern open-source platform. I have been a clinical SAS programmer in pharma since 2008, and have used R since 2016."
+  "SAS is the industry-standard software used to clean, analyze, and report clinical trial data for regulatory submissions to agencies like the FDA. Today, the biopharma industry is moving to R, a modern open-source platform. I have been a clinical SAS programmer in pharma since 2008, and have worked in R since 2016."
  ],
  [
   "s01b",
-  "However, sponsors hold vast libraries of legacy SAS programs that must be converted to R code, and each must be rigorously validated against the original. A script that runs cleanly can still produce incorrect numbers, making dual programming 30 to 50% of the entire programming effort. That bottleneck is why I built sas2r-agent."
+  "Sponsors hold vast libraries of legacy SAS programs that must be converted to R code, and each must be rigorously validated against the original. A script that runs cleanly can still produce incorrect numbers, making dual programming 30 to 50% of the entire programming effort. That bottleneck is why I built sas2r-agent."
  ],
  [
   "s02",
@@ -37,7 +37,11 @@
  ],
  [
   "s08",
-  "The agent learns from its misses. Here's a listing prompt version one got wrong: four of three hundred and twelve numbers found in the R output."
+  "The agent learns from its misses."
+ ],
+ [
+  "s08b",
+  "Here's a listing prompt version one got wrong: four of three hundred and twelve numbers found in the R output."
  ],
  [
   "s09",
