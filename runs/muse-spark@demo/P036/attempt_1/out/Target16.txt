@@ -1,0 +1,4 @@
+Scatter Plot-Max. Post-baseline vs Max. Baseline for Lab Test 1 (mmol/L)
+Y-axis range 40 to 100 by 10; ANRLO=60.0 ANRHI=90.0 MinValue=41.000 MaxValue=90.000
+
+Baseline Shift Table: Max Post Baseline Result (shift from baseline) N (%)

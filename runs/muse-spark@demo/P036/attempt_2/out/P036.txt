@@ -1,0 +1,68 @@
+Scatter Plot-Max. Post-baseline vs Max. Baseline for Lab Test 1 (mmol/L)
+Summary means: ANRLO=60.0000 ANRHI=90.0000 BASE=71.7320 AVAL=66.4120 MinValue=41.0000 MaxValue=90.0000
+Y-axis range 40 to 100 by 10; ANRLO=60.0 ANRHI=90.0 MinValue=41.000 MaxValue=90.000 margin=0.4900
+
+Baseline Shift Table: Max Post Basline Result (shift from baseline) N (%)
+Treatment          Max. Baseline Result | Low N (%)                | Normal N (%)            
+0 (N = 84)         High               |    0 (0.0) 0 (0.0) 0.00  |    2 (2.3) 2 (2.4) 2.38 
+0 (N = 84)         Low                |    6 (7.1) 6 (7.1) 7.14  |    1 (1.1) 1 (1.2) 1.19 
+0 (N = 84)         Normal             |   11 (13.0) 11 (13.1) 13.10 |   64 (76.1) 64 (76.2) 76.19
+
+54 (N = 84)        High               |    0 (0.0) 0 (0.0) 0.00  |    1 (1.1) 1 (1.2) 1.19 
+54 (N = 84)        Low                |    3 (3.5) 3 (3.6) 3.57  |    1 (1.1) 1 (1.2) 1.19 
+54 (N = 84)        Normal             |   12 (14.2) 12 (14.3) 14.29 |   67 (79.7) 67 (79.8) 79.76
+
+81 (N = 82)        High               |    0 (0.0) 0 (0.0) 0.00  |    1 (1.2) 1 (1.2) 1.22 
+81 (N = 82)        Low                |    6 (7.3) 6 (7.3) 7.32  |    0 (0.0) 0 (0.0) 0.00 
+81 (N = 82)        Normal             |    5 (6.0) 5 (6.1) 6.10  |   70 (85.3) 70 (85.4) 85.37
+
+
+Treatment Emergent High
+TRTPN      Nx         n          %          FishersP    
+0          84         5          6.0        1.0000      
+54         84         5          6.0        1.0000      
+81         82         5          6.1        1.0000      
+
+The FREQ Procedure
+Table of TRTPN by n
+
+TRTPN      n=0          n=1          Total       
+TRTPN=0
+Frequency  79           5            84          
+Percent    31.60        2.00         33.60       
+Row Pct    94.05        5.95         100.00      
+Col Pct    33.62        33.33                    
+
+TRTPN=54
+Frequency  79           5            84          
+Percent    31.60        2.00         33.60       
+Row Pct    94.05        5.95         100.00      
+Col Pct    33.62        33.33                    
+
+TRTPN=81
+Frequency  77           5            82          
+Percent    30.80        2.00         32.80       
+Row Pct    93.90        6.10         100.00      
+Col Pct    32.77        33.33                    
+
+Total      235          15           250         
+Total Percent 94.00        6.00         100.00      
+
+Statistics for Table of TRTPN by n
+
+Statistic                    DF   Value        Prob        
+Chi-Square                   2    0.0021       0.9990      
+Likelihood Ratio Chi-Square  2    0.0021       0.9990      
+Mantel-Haenszel Chi-Square   1    0.0012       0.9728      
+Phi Coefficient                   0.0029                   
+Contingency Coefficient           0.0029                   
+Cramer's V                        0.0029                   
+
+Fisher's Exact Test
+Table Probability (P)  0.0560
+Pr <= P  1.0000
+Sample Size = 250
+
+Scatter Plot: Includes subjects with both a baseline and a post-baseline measure.  Reference limits apply to most of the participants are used in the plot
+N=number of subjects with at least one post-baseline measure; Nx=number of subjects with maximum baseline either normal or low and have at least one post-baseline measure.
+Summary tables used the reference limits set 1 (Male, Age 18-65, LLNx 60.0 mmol/L ULNx 90.0 mmol/L) set 2 (Female, Age 18-65, LLN=60.0 mmol/L ULN=90.0 mmol/L).

@@ -1,0 +1,39 @@
+The FREQ Procedure
+Table of TRTPN by n
+
+TRTPN      n=0          n=1          Total                    
+TRTPN=0
+Frequency  79           5            84          
+Percent    31.60        2.00         33.60       
+Row Pct    94.05        5.95         100.00      
+Col Pct    33.62        33.33                    
+
+TRTPN=54
+Frequency  79           5            84          
+Percent    31.60        2.00         33.60       
+Row Pct    94.05        5.95         100.00      
+Col Pct    33.62        33.33                    
+
+TRTPN=81
+Frequency  77           5            82          
+Percent    30.80        2.00         32.80       
+Row Pct    93.90        6.10         100.00      
+Col Pct    32.77        33.33                    
+
+Total Frequency 235          15           250         
+Total Percent 94.00        6.00         100.00      
+
+Statistics for Table of TRTPN by n
+
+Statistic                    DF   Value        Prob        
+Chi-Square                   2    0.0021       0.9990      
+Likelihood Ratio Chi-Square  2    0.0021       0.9990      
+Mantel-Haenszel Chi-Square   1    0.0012       0.9728      
+Phi Coefficient                   0.0029                   
+Contingency Coefficient           0.0029                   
+Cramer's V                        0.0029                   
+
+Fisher's Exact Test
+Table Probability (P)  0.0560
+Pr <= P  1.0000
+Sample Size = 250

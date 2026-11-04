@@ -1,0 +1,76 @@
+{
+ "produced_all": true,
+ "equivalent": false,
+ "score": 0.9328884798281946,
+ "artifacts": [
+  {
+   "kind": "text",
+   "name": "P036.lst",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.8962264150943396,
+   "detail": {
+    "recall": 0.8962264150943396,
+    "expected": 106,
+    "found": 95,
+    "r_files": [
+     "advsmax2.csv",
+     "ADVSMAXSum.csv",
+     "EmergentHigh.csv",
+     "P036.csv",
+     "P036.txt",
+     "sasgraph.csv",
+     "TableA.csv",
+     "Target16.txt"
+    ],
+    "missing_examples": [
+     "6",
+     "13",
+     "3.5",
+     "14.2",
+     "2.3",
+     "1.1",
+     "76.1",
+     "79.7",
+     "85.3"
+    ]
+   }
+  },
+  {
+   "kind": "figure",
+   "name": "sasgraph.png",
+   "r_file": "D:\\meta_hackathon\\github\\sas2r-agent\\runs\\muse-spark@demo\\P036\\attempt_1\\out\\sasgraph.png",
+   "status": "ok",
+   "score": 1.0,
+   "detail": {
+    "matched_by": "stem"
+   }
+  },
+  {
+   "kind": "text",
+   "name": "Target16.pdf",
+   "r_file": null,
+   "status": "mismatch",
+   "score": 0.9024390243902439,
+   "detail": {
+    "recall": 0.9024390243902439,
+    "expected": 41,
+    "found": 37,
+    "r_files": [
+     "advsmax2.csv",
+     "ADVSMAXSum.csv",
+     "EmergentHigh.csv",
+     "P036.csv",
+     "P036.txt",
+     "sasgraph.csv",
+     "TableA.csv",
+     "Target16.txt"
+    ],
+    "missing_examples": [
+     "18",
+     "-65"
+    ]
+   }
+  }
+ ]
+}
