@@ -161,8 +161,6 @@ re-checks the 600 reference hashes and every link of the chain.
   (`meta-models/muse-spark-open-1026`) and by Ollama Cloud (`muse-spark-open`), the
   rows that show the pipeline runs on weights a company can host itself. The Baseten
   row also runs at `reasoning_effort` medium; Ollama Cloud exposes no effort setting.
-- **Muse Code** was used as a coding assistant while building the agent; it is not
-  in the product path.
 - Baselines, labelled as such: Claude Opus 5.5 (Anthropic SDK) because a
   comparison against the strongest closed model is the one a reviewer would ask for,
   and gpt-oss-120b (open weight, Ollama Cloud) as a second open model.
