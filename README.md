@@ -5,7 +5,7 @@ programs reproduce the SAS output, and every attempt is hashed into an audit led
 
 Built solo by Thomas Antony, a clinical SAS programmer in pharma since 2008 who has worked in R
 since 2016, for the Meta Global AI Developer Hackathon (Indie track, 26 October to
-4 November 2026). Demo video: *link added at submission*. Interactive leaderboard:
+4 November 2026). Demo video: [youtu.be/OiryI10mUdU](https://youtu.be/OiryI10mUdU) (3 minutes). Interactive leaderboard:
 `dashboard/index.html` (see [Leaderboard](#leaderboard)).
 
 ![Leaderboard dashboard](docs/demo_assets/dashboard.png)
