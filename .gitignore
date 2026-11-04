@@ -1,6 +1,7 @@
 # secrets
 .env
 .env.*
+!.env.example
 *.key
 *.pem
 api key/
@@ -40,3 +41,7 @@ runs/expected/
 runs/_selftest/
 runs/_rtest/
 sandbox/build.log
+
+# run scratch
+runs/_logs/
+runs/ledger.lock

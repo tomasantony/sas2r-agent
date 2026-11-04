@@ -15,9 +15,9 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(REPO_ROOT / ".env")
 
 # The benchmark (SAS programs, data, reference outputs) lives in a separate repository.
-BENCHMARK_ROOT = Path(os.environ.get("BENCHMARK_ROOT", r"D:\meta_hackathon\sas2r-agent")).resolve()
+BENCHMARK_ROOT = Path(os.environ.get("BENCHMARK_ROOT", REPO_ROOT.parent / "sas2r-benchmark")).resolve()
 RUNS_DIR = Path(os.environ.get("RUNS_DIR", REPO_ROOT / "runs")).resolve()
-RSCRIPT = os.environ.get("RSCRIPT", r"C:\Program Files\R\R-4.6.0\bin\Rscript.exe")
+RSCRIPT = os.environ.get("RSCRIPT", "Rscript")
 
 
 @dataclass(frozen=True)

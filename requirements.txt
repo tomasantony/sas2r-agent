@@ -4,4 +4,4 @@ pyreadstat>=1.2
 python-dotenv>=1.0
 pymupdf>=1.24
 openpyxl>=3.1
-pytest>=8
+anthropic>=0.60      # only for the claude-opus-5-5 baseline row

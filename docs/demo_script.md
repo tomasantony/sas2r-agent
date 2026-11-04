@@ -1,3 +1,5 @@
+> Superseded by [demo_narration.md](demo_narration.md), the narration of the recorded cut. Kept as the planning draft; the bracketed numbers were never filled in here.
+
 # Demo video script (3 minutes)
 
 Record from the dashboard (`python -m http.server 8765`, open

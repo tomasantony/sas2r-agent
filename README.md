@@ -10,6 +10,18 @@ since 2016, for the Meta Global AI Developer Hackathon (Indie track, 26 October 
 
 ![Leaderboard dashboard](docs/demo_assets/dashboard.png)
 
+**Try it in five minutes** (no SAS needed; the reference outputs ship with the benchmark repo):
+
+```
+git clone https://github.com/tomasantony/sas2r-agent && git clone https://github.com/tomasantony/sas2r-benchmark
+cd sas2r-agent && pip install -r requirements.txt && cp .env.example .env    # add MODEL_API_KEY from dev.meta.ai
+docker build -t sas2r-sandbox:r4.6 sandbox/
+python -m agent run --provider muse-spark --ids P036     # translate, run, compare, repair; about two minutes
+python -m agent leaderboard && python -m http.server 8765 # then open http://localhost:8765/dashboard/
+```
+
+The full procedure and every command are under [Running](#running).
+
 ## Who this is for
 
 I have programmed SAS in the pharmaceutical industry since 2008 and R since 2016, and
@@ -42,8 +54,8 @@ versions.
 ## Results
 
 100 public SAS programs (90 clinical, 10 general), reference outputs produced by SAS
-9.4, frozen and hashed. "Equivalent" means every output of the program passed the
-comparator. The strict columns are the ones to trust: dataset programs are compared
+9.4, frozen and hashed. "Passed every check" means every output of the program passed
+the comparator. The strict columns are the ones to trust: dataset programs are compared
 cell by cell at 99.9 percent agreement, and the 14 figure-only programs pass on the
 figure being produced, not on pixels, so they are excluded in the third column.
 
@@ -75,7 +87,7 @@ What that says:
 `runs/leaderboard.md` has the full table; `dashboard/index.html` the interactive
 version with drill-down into every cell.
 
-### What "passed every check" (equivalent) means, and what it does not
+### What "passed every check" means, and what it does not
 
 | artifact | check | threshold |
 |---|---|---|
@@ -83,7 +95,7 @@ version with drill-down into every cell.
 | table or listing (text rendering vs the SAS RTF/PDF/LST text) | recall of the numbers printed by SAS, after stripping run stamps and RTF headers | 95% of SAS numbers found |
 | figure (PNG vs the SAS image) | the image was produced | presence |
 
-A program is equivalent only when every one of its artifacts passes. The comparator
+A program passes every check only when every one of its artifacts passes. The comparator
 is deliberately strict on datasets and lenient on figures; it does not compare
 pixels, does not check numbers the R output contains that SAS does not, and pools
 all text files the script wrote when looking for a table's numbers. The agent's own
@@ -129,13 +141,15 @@ One loop with four roles, up to three attempts per program:
    benchmark, a 6 GB memory cap and only the attempt folder writable
    (`SANDBOX=local` falls back to the host `Rscript`).
 4. **Comparator and repair** (`agent/compare.py`): compares every artifact as
-   described above. When the program is not equivalent, the comparison feedback
+   described above. When the program does not pass every check, the comparison feedback
    and the R log go back to the model for a repair attempt.
 
 Every attempt writes `provenance.json` (SHA-256 of prompt, answer, reasoning,
 script, every output, the R log and the SAS reference files it was compared with,
 plus model, tokens, git commits and sandbox settings) and appends a hash-chained
-entry to `runs/ledger.jsonl`, written under a file lock. `python -m agent verify`
+entry to `runs/ledger.jsonl`, written under a file lock. Each entry also records the
+platform and host name of the machine that ran it, so those are visible in the repo
+and cannot be redacted without breaking the chain. `python -m agent verify`
 re-checks the 600 reference hashes and every link of the chain.
 
 ## Meta tooling
@@ -145,7 +159,8 @@ re-checks the 600 reference hashes and every link of the chain.
   Every R script on the leaderboard's Meta rows was written by it.
 - **Muse Spark Open** (open weights) served by Baseten with the hackathon key
   (`meta-models/muse-spark-open-1026`) and by Ollama Cloud (`muse-spark-open`), the
-  rows that show the pipeline runs on weights a company can host itself.
+  rows that show the pipeline runs on weights a company can host itself. The Baseten
+  row also runs at `reasoning_effort` medium; Ollama Cloud exposes no effort setting.
 - **Muse Code** was used as a coding assistant while building the agent; it is not
   in the product path.
 - Baselines, labelled as such: Claude Opus 5.5 (Anthropic SDK) because a
@@ -161,7 +176,7 @@ re-checks the 600 reference hashes and every link of the chain.
 - One sweep's score varies by about five programs between runs with the same prompt.
 - The prompt rules were distilled from this benchmark's misses; there is no held-out
   set yet.
-- "Equivalent" is comparator agreement, not validation sign-off, and no regulator
+- "Passed every check" is comparator agreement, not validation sign-off, and no regulator
   has issued guidance on AI-translated statistical code.
 - Reproducing the reference outputs needs SAS; reproducing the leaderboard does not
   (the reference outputs are in the benchmark repo).
@@ -190,7 +205,9 @@ this repository and is only referenced from here:
   `runs/reference_freeze.json`), and the runner and audit scripts. The corpus was
   assembled from open sources (PHUSE scripts, CDISC pilot, PharmaSUG and other
   MIT/Apache-licensed repositories) plus my own programs run on a synthetic study.
-  Nothing in it is client code.
+  The source, licence and attribution of every program family are listed in that
+  repository's `docs/ATTRIBUTION.md` and `benchmark/manifest.csv`. Nothing in it is
+  client code.
 
 This repository was created on 29 October 2026. Everything in it, the agent, the
 model calls, the comparison harness, the provenance ledger, the dashboard and all
@@ -217,8 +234,8 @@ You do not need SAS: the reference outputs ship with the benchmark repo.
 ```
 pip install -r requirements.txt
 cp .env.example .env            # add MODEL_API_KEY (Meta), BASETEN_API_KEY, OLLAMA_API_KEY, ANTHROPIC_API_KEY
-git clone https://github.com/tomasantony/sas2r-benchmark D:\meta_hackathon\sas2r-agent   # or set BENCHMARK_ROOT
-docker build -t sas2r-sandbox:r4.6 sandbox/                                              # or set SANDBOX=local
+git clone https://github.com/tomasantony/sas2r-benchmark ../sas2r-benchmark   # or set BENCHMARK_ROOT in .env
+docker build -t sas2r-sandbox:r4.6 sandbox/                                    # or set SANDBOX=local
 
 python -m agent check                                   # paths, keys present (never printed)
 python -m agent expected --all                          # expected artifacts per program from the SAS outputs
@@ -242,7 +259,7 @@ Cost columns use each vendor's published list price per million tokens
 agent/        context builder, prompts, LLM clients, sandboxed runner, comparator, loop, provenance, leaderboard, CLI
 sandbox/      Dockerfile for the R 4.6 sandbox image
 dashboard/    static leaderboard (index.html + data.js written by `agent leaderboard`)
-docs/         demo script and narration, SAS-versus-R comparison page, terminal cutaway
+docs/         demo narration and the pages rendered as video stills (title, flow, repair, comparison, ledger, closing)
 runs/         per-provider results: <provider>[@tag]/<Pnnn>/attempt_n/{script.R, out/, run.log, compare.json, provenance.json}
               ledger.jsonl (hash chain), reference_freeze.json, leaderboard.{json,md}, usage logs
 ```

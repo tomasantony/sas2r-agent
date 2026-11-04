@@ -9,6 +9,6 @@
 | meta | muse-spark@v2 (muse-spark-1.3) | v2 | 100 | 100% | 100% | 95% | 1.66 | 115 | 1.25/4.25 | $9.37 | $0.094 | $0.099 |
 | meta | muse-spark@v3 (muse-spark-1.3) | v3 | 100 | 100% | 100% | 94% | 1.60 | 85 | 1.25/4.25 | $8.90 | $0.089 | $0.095 |
 
-Partial runs (fewer than 20 programs, not charted): muse-spark-open-ollama (2 programs)
+Partial runs (fewer than 20 programs, not charted): muse-spark-open-ollama (2 programs), muse-spark@demo (1 programs)
 
 Costs are list prices per million tokens on 2026-10-29 applied to the tokens each run used (reasoning tokens billed as output); the hackathon credits that actually paid for the runs are not reflected.
