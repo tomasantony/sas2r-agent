@@ -194,20 +194,23 @@ re-checks the 600 reference hashes and every link of the chain.
    case.
 5. A reviewer-facing diff view of SAS versus R output for the validation package.
 
-## What was pre-existing
+## What was pre-existing, and what is where
 
-Per the hackathon rules, everything that existed before the window lives outside
-this repository and is only referenced from here:
+The entry is split across two repositories so this one holds only the agent and
+its results, and the SAS side can be frozen and hashed on its own:
 
-- **sas2r-benchmark** (`github.com/tomasantony/sas2r-benchmark`, published at
-  submission): the 100-program SAS benchmark corpus, its input data, the reference
-  outputs produced by SAS 9.4 (600 files, frozen and hashed in
-  `runs/reference_freeze.json`), and the runner and audit scripts. The corpus was
-  assembled from open sources (PHUSE scripts, CDISC pilot, PharmaSUG and other
-  MIT/Apache-licensed repositories) plus my own programs run on a synthetic study.
-  The source, licence and attribution of every program family are listed in that
-  repository's `docs/ATTRIBUTION.md` and `benchmark/manifest.csv`. Nothing in it is
-  client code.
+- **sas2r-benchmark** (`github.com/tomasantony/sas2r-benchmark`, public): the
+  100-program SAS benchmark corpus, its input data, the reference outputs produced by
+  SAS 9.4 (600 files, frozen and hashed in `runs/reference_freeze.json` before any
+  model ran), and the SAS runner, scrub and audit scripts. The corpus of public
+  programs and data was collected before the hackathon window; the SAS reference
+  run, the retire-and-replace of programs that do not run on the reference install,
+  my 23 programs on a synthetic study, and that repository itself were made on 27 to
+  29 October, inside the window. The sources were PHUSE scripts, the CDISC pilot,
+  PharmaSUG and other MIT/Apache-licensed repositories; the source, licence and
+  attribution of every program family are in that repository's `docs/ATTRIBUTION.md`
+  and `benchmark/manifest.csv`. Nothing in it is client code, and it contains no
+  agent or model code.
 
 This repository was created on 29 October 2026. Everything in it, the agent, the
 model calls, the comparison harness, the provenance ledger, the dashboard and all
