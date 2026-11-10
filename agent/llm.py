@@ -68,7 +68,43 @@ class LLM:
         self._log(c, tag)
         return c
 
-    def chat(self, messages: list[dict], tag: str = "") -> Completion:
+    def _chat_stream(self, kwargs: dict, tag: str, on_delta, t0: float) -> Completion:
+        """Same call, streamed: on_delta("text"|"reasoning", chunk) fires as tokens arrive (used by the demo UI)."""
+        stream = self.client.chat.completions.create(stream=True, stream_options={"include_usage": True}, **kwargs)
+        text_parts: list[str] = []; reasoning_parts: list[str] = []
+        finish = ""; usage = None; model = self.provider.model
+        for chunk in stream:
+            if getattr(chunk, "usage", None):
+                usage = chunk.usage
+            if getattr(chunk, "model", None):
+                model = chunk.model
+            if not chunk.choices:
+                continue
+            ch = chunk.choices[0]
+            d = ch.delta
+            if d is not None:
+                md = d.model_dump()
+                r = md.get("reasoning_content") or md.get("reasoning") or ""
+                if r:
+                    reasoning_parts.append(r); on_delta("reasoning", r)
+                if d.content:
+                    text_parts.append(d.content); on_delta("text", d.content)
+            if ch.finish_reason:
+                finish = ch.finish_reason
+        text = "".join(text_parts); reasoning = "".join(reasoning_parts)
+        m = re.search(r"<think>(.*?)</think>", text, flags=re.S)
+        if m:
+            reasoning = reasoning or m.group(1)
+            text = re.sub(r"<think>.*?</think>", "", text, flags=re.S)
+        pin = getattr(usage, "prompt_tokens", 0) or 0 if usage else 0
+        pout = getattr(usage, "completion_tokens", 0) or 0 if usage else 0
+        details = getattr(usage, "completion_tokens_details", None) if usage else None
+        rtok = getattr(details, "reasoning_tokens", 0) if details else 0
+        c = Completion(text.strip(), pin, pout, time.time() - t0, model, reasoning, rtok or 0, finish)
+        self._log(c, tag)
+        return c
+
+    def chat(self, messages: list[dict], tag: str = "", on_delta=None) -> Completion:
         if self.provider.sdk == "anthropic":
             return self._chat_anthropic(messages, tag)
         t0 = time.time()
@@ -76,6 +112,8 @@ class LLM:
                       max_tokens=self.provider.max_output_tokens)
         if self.provider.extra_body:
             kwargs["extra_body"] = self.provider.extra_body
+        if on_delta is not None:
+            return self._chat_stream(kwargs, tag, on_delta, t0)
         resp = self.client.chat.completions.create(**kwargs)
         choice = resp.choices[0]
         msg = choice.message

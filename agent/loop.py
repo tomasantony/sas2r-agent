@@ -54,8 +54,13 @@ class ProgramReport:
 
 
 def run_program(pid: str, provider: Provider, max_iterations: int | None = None, fresh: bool = True,
-                tag: str = "") -> ProgramReport:
-    """tag != "" writes under runs/<provider>@<tag>/ so a prompt or settings change gets its own row."""
+                tag: str = "", on_event=None) -> ProgramReport:
+    """tag != "" writes under runs/<provider>@<tag>/ so a prompt or settings change gets its own row.
+
+    on_event(name, payload) is optional and only observes: start, llm_start, llm_delta, llm_done, script,
+    run_start, run_done, compare, repair, done. The demo UI streams these; sweeps pass nothing.
+    """
+    emit = on_event or (lambda name, payload: None)
     max_it = max_iterations or SETTINGS.max_iterations
     run_name = f"{provider.name}@{tag}" if tag else provider.name
     ctx = build_context(pid)
@@ -69,6 +74,10 @@ def run_program(pid: str, provider: Provider, max_iterations: int | None = None,
     system = SYSTEM.format(packages=", ".join(R_PACKAGES))
     messages = [{"role": "system", "content": system}, {"role": "user", "content": translate_prompt(ctx, expected)}]
     (base / "prompt_translate.md").write_text(messages[1]["content"], encoding="utf-8")
+    emit("start", {"pid": pid, "family": ctx.info.family, "provider": provider.name, "model": provider.model,
+                   "run_name": run_name, "base": str(base), "max_attempts": max_it,
+                   "expected": [{"kind": a.get("kind"), "name": a.get("name"), "r_name": a.get("r_name")} for a in expected.get("artifacts", [])],
+                   "prompt_chars": len(messages[1]["content"])})
 
     rep = ProgramReport(pid, provider.name, provider.model, ctx.info.family, False, False, False, False, 0.0, 0, 0, 0, 0.0,
                         prompt_version=PROMPT_VERSION, run_name=run_name)
@@ -76,16 +85,21 @@ def run_program(pid: str, provider: Provider, max_iterations: int | None = None,
     for n in range(1, max_it + 1):
         adir = base / f"attempt_{n}"
         adir.mkdir(exist_ok=True)
-        comp = llm.chat(messages, tag=f"{pid}:{n}")
+        emit("llm_start", {"attempt": n})
+        on_delta = (lambda kind, text, _n=n: emit("llm_delta", {"attempt": _n, "kind": kind, "text": text})) if on_event else None
+        comp = llm.chat(messages, tag=f"{pid}:{n}", on_delta=on_delta)
         rep.input_tokens += comp.input_tokens
         rep.output_tokens += comp.output_tokens
         (adir / "response.md").write_text(comp.text, encoding="utf-8")
         if comp.reasoning:
             (adir / "reasoning.md").write_text(comp.reasoning, encoding="utf-8")
+        emit("llm_done", {"attempt": n, "input_tokens": comp.input_tokens, "output_tokens": comp.output_tokens,
+                          "seconds": round(comp.seconds, 1), "truncated": comp.truncated, "model": comp.model})
         code = extract_r_code(comp.text)
         if code is None:
             why = "answer cut off at the output token limit" if comp.truncated else "no R code in answer"
             rep.attempts.append(Attempt(n, None, 0, comp.input_tokens, comp.output_tokens, comp.seconds, False, False, 0.0, why))
+            emit("no_code", {"attempt": n, "why": why})
             messages.append({"role": "assistant", "content": comp.text or "(empty)"})
             ask = ("Your previous answer was cut off before any R code. Deliberate less and answer with the complete "
                    "R script only, in one ```r block." if comp.truncated else
@@ -95,13 +109,20 @@ def run_program(pid: str, provider: Provider, max_iterations: int | None = None,
         rep.translated = True
         script = adir / "script.R"
         script.write_text(code, encoding="utf-8")
+        emit("script", {"attempt": n, "code": code, "path": str(script)})
         out_dir = adir / "out"
+        emit("run_start", {"attempt": n})
         run = run_r(script, out_dir, adir / "run.log")
+        emit("run_done", {"attempt": n, "rc": run.rc, "seconds": round(run.seconds, 1), "timed_out": run.timed_out,
+                          "log_tail": run.log_tail(3000), "outputs": sorted(p.name for p in out_dir.iterdir()) if out_dir.exists() else [],
+                          "sandbox": run.sandbox})
         report = compare_run(expected, out_dir)
         save_report(report, adir / "compare.json")
+        emit("compare", {"attempt": n, "report": report.to_json(), "feedback": report.feedback()})
         write_attempt_provenance(adir, pid=pid, provider=provider.name, model=comp.model, attempt=n,
                                  completion=comp, run_result=run, compare_report=report, expected=expected,
                                  sandbox=run.sandbox, prompt_version=PROMPT_VERSION, run_name=run_name)
+        emit("provenance", {"attempt": n, "path": str(adir / "provenance.json")})
         att = Attempt(n, run.rc, run.seconds, comp.input_tokens, comp.output_tokens, comp.seconds,
                       report.produced_all, report.equivalent, report.score, "timed out" if run.timed_out else "")
         rep.attempts.append(att)
@@ -120,9 +141,11 @@ def run_program(pid: str, provider: Provider, max_iterations: int | None = None,
         # repair turn: keep only the last few assistant/user exchanges to bound the context
         messages.append({"role": "assistant", "content": f"```r\n{code}```"})
         messages.append({"role": "user", "content": repair_prompt(run.rc, run.log_tail(), report.feedback(), n + 1)})
+        emit("repair", {"attempt": n + 1, "feedback": report.feedback(), "rc": run.rc})
         keep = 2 + 2 * SETTINGS.history_attempts
         if len(messages) > keep:
             messages = messages[:2] + messages[-(keep - 2):]
     rep.seconds = time.time() - t_start
     (base / "report.json").write_text(json.dumps(asdict(rep), indent=1), encoding="utf-8")
+    emit("done", asdict(rep))
     return rep
